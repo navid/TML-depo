@@ -1,0 +1,4 @@
+<jittershader name='tml.gl.-.glsl'>
+<language name='glsl' version='1.0'>
+<program name='fp' type='fragment' source='tml.gl.-.glsl' />
+</language> </jittershader>
