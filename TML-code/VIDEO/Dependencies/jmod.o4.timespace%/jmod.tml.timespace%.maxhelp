@@ -4,16 +4,16 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 663.0, 44.0, 1128.0, 986.0 ],
+		"rect" : [ -132.0, -990.0, 1065.0, 885.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Verdana",
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
@@ -39,8 +39,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 135.0, 210.0, 66.0 ],
-					"text" : "Make sure to turn the toggle box for the metro driving [myBFG] on if you want to use gradients as the mask."
+					"patching_rect" : [ 345.0, 210.0, 210.0, 66.0 ],
+					"text" : "Make sure to turn the toggle box for the metro driving [tml.bfg%] on if you want to use gradients as the mask."
 				}
 
 			}
@@ -54,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 675.0, 150.0, 34.0 ],
+					"patching_rect" : [ 15.0, 750.0, 150.0, 33.0 ],
 					"text" : "out0: OSC messages\nout1:  4 plane char matrix"
 				}
 
@@ -69,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 615.0, 296.0, 47.0 ],
+					"patching_rect" : [ 15.0, 690.0, 296.0, 47.0 ],
 					"text" : "in0: OSC messages\nin1: 1 plane matrix (any type), to use as lookup mask\nin2: 4 plane matrix (any type), to fill frame buffer"
 				}
 
@@ -249,34 +249,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 30.0,
-					"frgb" : 0.0,
-					"id" : "obj-36",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 15.0, 165.0, 40.0 ],
-					"text" : "Timespace"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 60.0, 285.0, 20.0 ],
-					"text" : "mask-controlled frame delay."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-32",
@@ -284,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 90.0, 420.0, 47.0 ],
+					"patching_rect" : [ 660.0, 90.0, 390.0, 47.0 ],
 					"text" : "based on [jit.ys.timespace] by Yoichiro Seritas\nalgorithm designed in MXR framework by Jean-Sebastien Rousseau\nfurther development and Jamoma implementation by Evan Montpellier"
 				}
 
@@ -313,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 45.0, 270.0, 216.0, 20.0 ],
+					"patching_rect" : [ 45.0, 345.0, 216.0, 20.0 ],
 					"text" : "jit.slide @slide_up 10 @slide_down 10"
 				}
 
@@ -327,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 45.0, 225.0, 194.0, 20.0 ],
+					"patching_rect" : [ 45.0, 300.0, 194.0, 20.0 ],
 					"text" : "jit.matrix 4 char 640 480 @interp 1"
 				}
 
@@ -341,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 45.0, 195.0, 125.0, 20.0 ],
+					"patching_rect" : [ 45.0, 270.0, 125.0, 20.0 ],
 					"text" : "jit.matrix 4 char 40 30"
 				}
 
@@ -354,7 +326,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 495.0, 20.0, 20.0 ]
+					"patching_rect" : [ 120.0, 570.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -367,7 +339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 525.0, 75.0, 18.0 ],
+					"patching_rect" : [ 120.0, 600.0, 75.0, 18.0 ],
 					"text" : "floating $1"
 				}
 
@@ -375,27 +347,26 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 315.0, 41.0, 32.0 ]
+					"patching_rect" : [ 150.0, 390.0, 41.0, 32.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "myBFG" ],
+					"args" : [ "tml.bfg%" ],
 					"id" : "obj-11",
 					"maxclass" : "bpatcher",
-					"name" : "jmod.bfg%.maxpat",
+					"name" : "jmod.tml.bfg%.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 345.0, 15.0, 300.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
+					"patching_rect" : [ 345.0, 90.0, 300.0, 105.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 105.0 ]
 				}
 
 			}
@@ -408,7 +379,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 525.0, 87.0, 19.0 ],
+					"patching_rect" : [ 15.0, 600.0, 87.0, 19.0 ],
 					"text" : "fullscreen $1"
 				}
 
@@ -421,7 +392,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 495.0, 20.0, 20.0 ]
+					"patching_rect" : [ 15.0, 570.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -439,7 +410,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -523,7 +494,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 462.0, 42.0, 21.0 ],
+					"patching_rect" : [ 15.0, 537.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -551,50 +522,63 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 15.0, 570.0, 157.0, 33.0 ],
+					"patching_rect" : [ 15.0, 645.0, 157.0, 33.0 ],
 					"text" : "jit.window timespaceDemo @floating 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "myTimespace" ],
+					"args" : [ "tml.timespace%" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.tml.timespace%.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 375.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+					"patching_rect" : [ 15.0, 450.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "myRGB2gray" ],
+					"args" : [ "RGB2gray%" ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.rgb2gray%.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+					"patching_rect" : [ 15.0, 180.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "myInput" ],
+					"args" : [ "input%" ],
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.input%.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+					"patching_rect" : [ 15.0, 90.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.tml.timespace%", "@description", "Mask-controlled frame delay." ],
+					"bgmode" : 1,
+					"id" : "obj-21",
+					"maxclass" : "bpatcher",
+					"name" : "jcom.maxhelpui.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 1065.0, 75.0 ]
 				}
 
 			}
@@ -604,7 +588,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 305.5, 555.0, 24.5, 555.0 ],
+					"midpoints" : [ 305.5, 630.0, 24.5, 630.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -623,7 +607,7 @@
 					"destination" : [ "obj-5", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 635.5, 299.5, 181.5, 299.5 ],
+					"midpoints" : [ 635.5, 375.0, 181.5, 375.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -660,7 +644,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 302.0, 170.5, 302.0 ],
+					"midpoints" : [ 54.5, 377.0, 170.5, 377.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -679,7 +663,7 @@
 					"destination" : [ "obj-1", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 305.5, 91.0, 329.5, 91.0, 329.5, 365.0, 305.5, 365.0 ],
+					"midpoints" : [ 305.5, 166.0, 329.5, 166.0, 329.5, 440.0, 305.5, 440.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -725,81 +709,121 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 129.5, 556.0, 24.5, 556.0 ],
+					"midpoints" : [ 129.5, 631.0, 24.5, 631.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"name" : "jcom.maxhelpui.maxpat",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"name" : "jcom.maxhelpuiButton.png",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiResize.js",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.jamomaPath.maxpat",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.input%.maxpat",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.input%.maxpat",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.rgb2gray%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/rgb2gray%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/rgb2gray%",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/rgb2gray%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/rgb2gray%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.tml.timespace%.maxpat",
-				"bootpath" : "/Users/aa/Downloads/ilya_active-master-1/timespace_jamoma 2",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.o4.timespace%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.tml.timespace%.maxpat",
-				"bootpath" : "/Users/aa/Downloads/ilya_active-master-1/timespace_jamoma 2",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.o4.timespace%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jmod.bfg%.maxpat",
-				"bootpath" : "/Users/aa/Downloads/ilya_active-master-1/timespace_jamoma 2",
-				"patcherrelativepath" : ".",
+				"name" : "jmod.tml.bfg%.maxpat",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.tml.bfg%",
+				"patcherrelativepath" : "../jmod.tml.bfg%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jalg.bfg%.maxpat",
-				"bootpath" : "/Users/aa/Downloads/ilya_active-master-1/timespace_jamoma 2",
-				"patcherrelativepath" : ".",
+				"name" : "jalg.tml.bfg%.maxpat",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.tml.bfg%",
+				"patcherrelativepath" : "../jmod.tml.bfg%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.ui.mxo",

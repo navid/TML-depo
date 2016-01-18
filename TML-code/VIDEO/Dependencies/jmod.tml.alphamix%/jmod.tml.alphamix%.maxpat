@@ -746,20 +746,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-97",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 180.0, 130.0, 17.0 ],
-					"text" : "/destination avantgarde"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "in8",
 					"id" : "obj-94",
 					"maxclass" : "inlet",
@@ -1125,7 +1111,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -1152,19 +1138,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 120.0, 375.0, 165.0, 19.0 ],
 					"text" : "jalg.tml.alphamix%"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 236.0, 22.0, 60.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 20.0, 60.0, 45.0 ]
 				}
 
 			}
@@ -1332,7 +1305,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"background" : 0,
@@ -3123,7 +3095,7 @@
 									"patching_rect" : [ 15.0, 75.0, 65.0, 19.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 447, -1035, 1177, -354, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0
@@ -4089,8 +4061,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 211.0, 570.0, 19.0 ],
-					"text" : "jcom.hub @module_type video @description \"8-channel videoplane-based OpenGL video mixer and renderer..\"",
+					"patching_rect" : [ 14.0, 211.0, 566.0, 19.0 ],
+					"text" : "jcom.hub @module_type video @description \"8-channel videoplane-based OpenGL video mixer and renderer.\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -4317,15 +4289,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -4796,15 +4759,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-97", 0 ]
 				}
 
 			}

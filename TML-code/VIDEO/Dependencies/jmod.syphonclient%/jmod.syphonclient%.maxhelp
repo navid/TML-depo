@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -73,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -251,7 +251,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -783,7 +783,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "input%" ],
+					"args" : [ "input%_02" ],
 					"id" : "obj-46",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.input%.maxpat",
@@ -798,7 +798,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "syphonserver%" ],
+					"args" : [ "syphonserver%_02" ],
 					"id" : "obj-47",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.syphonserver%.maxpat",
@@ -825,7 +825,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1211,7 +1211,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "syphonclient%" ],
+					"args" : [ "syphonclient%_02" ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.syphonclient%.maxpat",
@@ -1290,7 +1290,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "input%" ],
+					"args" : [ "input%_01" ],
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.input%.maxpat",
@@ -1305,7 +1305,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "syphonserver%" ],
+					"args" : [ "syphonserver%_01" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.syphonserver%.maxpat",
@@ -1320,7 +1320,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "syphonclient%" ],
+					"args" : [ "syphonclient%_01" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.syphonclient%.maxpat",
@@ -1672,92 +1672,85 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syphonclient%.maxpat",
-				"bootpath" : "/Users/admin/Documents/EVAN/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.syphonclient%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonclient%.maxpat",
-				"bootpath" : "/Users/admin/Documents/EVAN/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.syphonclient%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jmod.syphonserver%.maxpat",
-				"bootpath" : "/Users/admin/Documents/EVAN/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.syphonserver%",
 				"patcherrelativepath" : "../jmod.syphonserver%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonserver%.maxpat",
-				"bootpath" : "/Users/admin/Documents/EVAN/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.syphonserver%",
 				"patcherrelativepath" : "../jmod.syphonserver%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1810,19 +1803,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
