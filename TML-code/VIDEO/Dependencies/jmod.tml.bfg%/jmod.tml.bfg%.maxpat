@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 708.0, 113.0, 1316.0, 809.0 ],
+		"rect" : [ 124.0, 113.0, 1316.0, 809.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -233,7 +233,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 530.0, 491.0, 19.0 ],
-					"text" : "jcom.parameter weight @type array @range/clipmode none @description \"Set weight.\"",
+					"text" : "jcom.parameter weight @type decimalArray @range/clipmode none @description \"Set weight.\"",
 					"varname" : "origin[3]"
 				}
 
@@ -310,7 +310,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 430.0, 474.0, 19.0 ],
-					"text" : "jcom.parameter scale @type array @range/clipmode none @description \"Set scale.\"",
+					"text" : "jcom.parameter scale @type decimalArray @range/clipmode none @description \"Set scale.\"",
 					"varname" : "origin[2]"
 				}
 
@@ -421,7 +421,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 330.0, 480.0, 19.0 ],
-					"text" : "jcom.parameter offset @type array @range/clipmode none @description \"Set offset.\"",
+					"text" : "jcom.parameter offset @type decimalArray @range/clipmode none @description \"Set offset.\"",
 					"varname" : "origin[1]"
 				}
 
@@ -587,7 +587,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 625.0, 135.0, 451.0, 19.0 ],
-					"text" : "jcom.parameter dim @type array @ramp/drive none @description \"Image size\"",
+					"text" : "jcom.parameter dim @type decimalArray @ramp/drive none @description \"Image size\"",
 					"varname" : "dim"
 				}
 
@@ -708,8 +708,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 110.0, 440.0, 75.0, 19.0 ],
-					"text" : "jalg.o4.bfg%"
+					"patching_rect" : [ 110.0, 440.0, 79.0, 19.0 ],
+					"text" : "jalg.tml.bfg%"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"patching_rect" : [ 5.0, 5.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/o4.bfg%"
+					"text" : "/tml.bfg%"
 				}
 
 			}
@@ -797,7 +797,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 625.0, 220.0, 481.0, 19.0 ],
-					"text" : "jcom.parameter origin @type array @range/clipmode none @description \"Set origin.\"",
+					"text" : "jcom.parameter origin @type decimalArray @range/clipmode none @description \"Set origin.\"",
 					"varname" : "origin"
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 331.0, 633.0 ],
+		"rect" : [ 100.0, 100.0, 330.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 150.0, 120.0, 165.0, 104.0 ],
+					"text" : "Notes:\nOrigin and offset provide apparently similar controls, sweeping across xy coordinates of the function.\nChanging the first value of \"weight\" from positive to negative inverts the function."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -130,7 +145,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 270.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 285.0, 314.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -145,7 +159,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 300.0, 90.0, 19.0 ],
-									"presentation_rect" : [ 285.0, 344.0, 0.0, 0.0 ],
 									"text" : "pack f f"
 								}
 
@@ -391,7 +404,6 @@
 					}
 ,
 					"patching_rect" : [ 90.0, 165.0, 52.0, 19.0 ],
-					"presentation_rect" : [ 129.0, 165.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -412,7 +424,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -471,7 +482,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -496,7 +506,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 165.0, 255.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 164.0, 243.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -525,7 +534,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 240.0, 255.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 239.0, 243.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -540,7 +548,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 285.0, 90.0, 19.0 ],
-									"presentation_rect" : [ 164.0, 288.0, 0.0, 0.0 ],
 									"text" : "pack f f"
 								}
 
@@ -555,7 +562,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 225.0, 54.0, 18.0 ],
-									"presentation_rect" : [ 16.0, 212.0, 0.0, 0.0 ],
 									"text" : "$1 4950"
 								}
 
@@ -570,7 +576,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 255.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 16.0, 242.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -599,7 +604,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 255.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 91.0, 242.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -614,7 +618,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 285.0, 90.0, 19.0 ],
-									"presentation_rect" : [ 16.0, 287.0, 0.0, 0.0 ],
 									"text" : "pack f f"
 								}
 
@@ -643,7 +646,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 315.0, 255.0, 46.0, 20.0 ],
-									"presentation_rect" : [ 313.0, 254.0, 0.0, 0.0 ],
 									"text" : "line 0."
 								}
 
@@ -673,20 +675,6 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 390.0, 255.0, 46.0, 20.0 ],
 									"text" : "line 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-33",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 60.0, 405.0, 46.0, 20.0 ],
-									"text" : "line"
 								}
 
 							}
@@ -1252,7 +1240,6 @@
 					}
 ,
 					"patching_rect" : [ 15.0, 165.0, 57.0, 19.0 ],
-					"presentation_rect" : [ 165.0, 161.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1311,10 +1298,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "o4.bfg%" ],
+					"args" : [ "tml.bfg%" ],
 					"id" : "obj-18",
 					"maxclass" : "bpatcher",
-					"name" : "jmod.o4.bfg%.maxpat",
+					"name" : "jmod.tml.bfg%.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -1332,7 +1319,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 331.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 330.0, 70.0 ]
 				}
 
 			}
@@ -1433,15 +1420,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jmod.o4.bfg%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependancies/jmod.o4.bfg%",
+				"name" : "jmod.tml.bfg%.maxpat",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.tml.bfg%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jalg.o4.bfg%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependancies/jmod.o4.bfg%",
+				"name" : "jalg.tml.bfg%.maxpat",
+				"bootpath" : "/Users/syrinx/Github/TML-depo/TML-code/VIDEO/Dependencies/jmod.tml.bfg%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
