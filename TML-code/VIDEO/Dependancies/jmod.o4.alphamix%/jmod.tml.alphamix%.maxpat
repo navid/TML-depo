@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 85.0, 444.0, 150.0, 210.0 ],
+		"rect" : [ 68.0, -615.0, 809.0, 510.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -765,7 +765,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 345.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -777,7 +777,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 315.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -789,7 +789,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 285.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -801,7 +801,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 254.999985, 285.0, 22.0, 22.0 ]
 				}
 
@@ -813,7 +813,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 225.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -832,7 +832,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1102,7 +1102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 255.0, 290.0, 17.0 ],
-					"text" : "/blendmodesetall 10. 0."
+					"text" : "/view/highlight none"
 				}
 
 			}
@@ -1113,7 +1113,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 195.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -1125,7 +1125,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 165.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -1262,7 +1262,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 135.0, 285.0, 22.0, 22.0 ]
 				}
 
@@ -1308,11 +1308,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 45.0, 730.0, 681.0 ],
+						"rect" : [ 447.0, -1035.0, 730.0, 681.0 ],
 						"bgcolor" : [ 0.967391, 0.967391, 0.967391, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2120,14 +2120,15 @@
 									"hidden" : 0,
 									"id" : "obj-43",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 430.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 430.0, 581.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter blendmodesetall @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for all layers.\"",
+									"text" : "jcom.parameter blendmodesetall @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for all layers.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[9]"
@@ -2145,14 +2146,15 @@
 									"hidden" : 0,
 									"id" : "obj-44",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.000031, 1545.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.000031, 1545.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer8/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer8/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[10]"
@@ -2170,14 +2172,15 @@
 									"hidden" : 0,
 									"id" : "obj-45",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 1410.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 1410.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer7/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer7/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[11]"
@@ -2195,14 +2198,15 @@
 									"hidden" : 0,
 									"id" : "obj-46",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 1275.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 1275.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer6/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer6/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[12]"
@@ -2220,14 +2224,15 @@
 									"hidden" : 0,
 									"id" : "obj-47",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 1140.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 1140.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer5/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer5/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[13]"
@@ -2245,14 +2250,15 @@
 									"hidden" : 0,
 									"id" : "obj-48",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 1005.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 1005.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer4/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer4/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[14]"
@@ -2270,14 +2276,15 @@
 									"hidden" : 0,
 									"id" : "obj-49",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 870.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 870.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer3/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer3/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[15]"
@@ -2295,14 +2302,15 @@
 									"hidden" : 0,
 									"id" : "obj-50",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 735.0, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 735.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer2/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer2/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[16]"
@@ -2320,14 +2328,15 @@
 									"hidden" : 0,
 									"id" : "obj-51",
 									"ignoreclick" : 0,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 600.000061, 870.0, 19.0 ],
+									"patching_rect" : [ 375.0, 600.0, 590.0, 31.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"text" : "jcom.parameter layer1/blendmode @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
+									"text" : "jcom.parameter layer1/blendmode @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Set compositing mode for layer 1.\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "/layer1/blendmode[17]"
@@ -2724,7 +2733,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -2969,7 +2978,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -3114,7 +3123,7 @@
 									"patching_rect" : [ 15.0, 75.0, 65.0, 19.0 ],
 									"presentation" : 0,
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 45, 730, 726, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 447, -1035, 1177, -354, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 0
@@ -3337,7 +3346,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 810.0, 484.0, 289.5, 484.0 ],
+									"midpoints" : [ 665.5, 484.0, 289.5, 484.0 ],
 									"source" : [ "obj-43", 1 ]
 								}
 
@@ -4080,8 +4089,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 211.0, 526.0, 19.0 ],
-					"text" : "jcom.hub @module_type video @description \"Fluid simulation based on the Navier-Stokes equations.\"",
+					"patching_rect" : [ 14.0, 211.0, 570.0, 19.0 ],
+					"text" : "jcom.hub @module_type video @description \"8-channel videoplane-based OpenGL video mixer and renderer..\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -4125,6 +4134,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"has_bypass" : 1,
 					"has_mute" : 1,
 					"has_panel" : 1,
@@ -4137,7 +4147,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 210.0 ],
-					"text" : "/myModule.2"
+					"text" : "/myModule"
 				}
 
 			}
