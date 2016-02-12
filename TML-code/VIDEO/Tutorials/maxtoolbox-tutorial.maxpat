@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 66.0, 79.0, 1569.0, 946.0 ],
+		"rect" : [ 66.0, 79.0, 795.0, 555.0 ],
 		"openrect" : [ 0.0, 0.0, 795.0, 555.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -479,7 +479,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 30.0, 240.0, 47.0 ],
+					"patching_rect" : [ 285.0, 30.0, 243.0, 47.0 ],
 					"style" : "",
 					"text" : "To test out Max ToolBox patching shortcuts, highlight all the message boxes in a given panel and press the associated key."
 				}
