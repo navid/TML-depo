@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 79.0, 1077.0, 504.0 ],
+		"rect" : [ 50.0, 94.0, 625.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,17 +37,6 @@
 		"style" : "",
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 360.0, 150.0, 20.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -114,69 +103,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86",
-							"modernui" : 1
-						}
-,
-						"openrect" : [ 30.0, 30.0, 420.0, 735.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 2,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "evan",
-						"boxes" : [  ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 15.0, 180.0, 75.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p snapshots"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -222,7 +148,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 150.0, 59.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -281,12 +207,11 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
-						"visible" : 1,
 						"boxes" : [  ],
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 120.0, 65.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -695,7 +620,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 90.0, 63.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 63.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -706,21 +631,6 @@
 ,
 					"style" : "",
 					"text" : "p projects"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 15.0, 145.0, 60.0 ],
-					"style" : "",
-					"text" : "done\n\npackage manager\n-projects"
 				}
 
 			}
@@ -784,7 +694,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
@@ -1084,7 +993,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 540.0, 390.0, 106.698112 ],
+									"patching_rect" : [ 15.0, 540.0, 390.0, 390.0 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager03.png"
 								}
 
@@ -1113,7 +1022,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 420.0, 150.0, 63.597973 ],
+									"patching_rect" : [ 15.0, 420.0, 150.0, 150.0 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager02.png"
 								}
 
@@ -1142,7 +1051,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 255.0, 150.0, 148.932388 ],
+									"patching_rect" : [ 15.0, 255.0, 150.0, 150.0 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager01.png"
 								}
 
@@ -1184,7 +1093,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 90.0, 147.394577, 154.012299 ],
+									"patching_rect" : [ 15.0, 90.0, 160.927139, 160.927139 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager00.png"
 								}
 
@@ -1212,7 +1121,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 60.0, 130.0, 22.0 ],
+					"patching_rect" : [ 15.0, 75.0, 130.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1230,18 +1139,22 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"id" : "obj-2",
-					"linecount" : 19,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 60.0, 415.0, 261.0 ],
+					"patching_rect" : [ 165.0, 15.0, 415.0, 248.0 ],
 					"style" : "",
-					"text" : "-submitting packages\n-patching mechanics/maxtoolbox\n\n-snippets\n-snapshots\n-collections\n-submitting tools (maxobjects.com?)\n-new Jitter/GL objects\n-BEAP (bring in ES-3 and a few modules?)\n-VIZZIE\n-Gen - first glance\n  -what is it?\n  -how does it work\n  -patching and GenExpr\n  -what’s it good for? \n  -examples - video (shaders, particle systems, fluids, reaction-diffusion),     \n  audio (Moog ladder filter)\n-patching mechanics and Max Toolbox\n-time for sharing favourite patching tips"
+					"text" : "-patching mechanics/maxtoolbox\n\n-snippets\n-snapshots\n-collections\n-submitting tools (maxobjects.com?)\n-new Jitter/GL objects\n-BEAP (bring in ES-3 and a few modules?)\n-VIZZIE\n-Gen - first glance\n  -what is it?\n  -how does it work\n  -patching and GenExpr\n  -what’s it good for? \n  -examples - video (shaders, particle systems, fluids, reaction-diffusion),     \n  audio (Moog ladder filter)\n-patching mechanics and Max Toolbox\n-time for sharing favourite patching tips"
 				}
 
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "package_manager00.png",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_01/media",
@@ -1268,13 +1181,13 @@
 			}
 , 			{
 				"name" : "project00.png",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_01/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "project01.png",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_01/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
