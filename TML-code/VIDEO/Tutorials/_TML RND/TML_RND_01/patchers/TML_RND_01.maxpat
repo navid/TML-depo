@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 548.0, 307.0, 625.0, 504.0 ],
+		"openrect" : [ 30.0, 30.0, 165.0, 300.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -114,7 +114,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 450.0, 666.0, 309.0, 20.0 ],
-									"presentation_rect" : [ 625.0, 644.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "You can also download the Max object for Hap files,"
 								}
@@ -332,7 +331,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 570.0, 120.0, 60.0, 20.0 ],
-									"presentation_rect" : [ 588.0, 149.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "new style"
 								}
@@ -359,7 +357,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 75.0, 60.0, 22.0 ],
-									"presentation_rect" : [ 11.0, 93.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r jit_off_2"
 								}
@@ -592,7 +589,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 270.0, 150.0, 33.0 ],
-									"presentation_rect" : [ 705.0, 167.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "[jit.grab] can now output textures."
 								}
@@ -660,7 +656,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 540.0, 300.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 566.0, 287.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -673,7 +668,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.0, 334.0, 120.0, 22.0 ],
-									"presentation_rect" : [ 566.0, 321.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "param brightness $1"
 								}
@@ -708,13 +702,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 450.0, 435.0, 109.0, 22.0 ],
+									"patching_rect" : [ 450.0, 435.0, 111.0, 49.0 ],
 									"style" : "",
-									"text" : "jit.world new_input"
+									"text" : "jit.world new_input @visible 0 @enable 0"
 								}
 
 							}
@@ -793,7 +788,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 480.0, 185.0, 60.0 ],
-									"presentation_rect" : [ 230.0, 430.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "\tThe video is pushed to the GPU via this [jit.gl.slab]. The slab is loaded with a shader file that converts from UYVY to RGBA."
 								}
@@ -833,7 +827,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 315.0, 39.0, 22.0 ],
-									"presentation_rect" : [ 190.0, 271.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "close"
 								}
@@ -910,9 +903,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 15.0, 285.0, 115.0, 22.0 ],
+									"patching_rect" : [ 15.0, 285.0, 173.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.window old_input"
+									"text" : "jit.window old_input @visible 0"
 								}
 
 							}
@@ -923,9 +916,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 15.0, 255.0, 122.0, 22.0 ],
+									"patching_rect" : [ 15.0, 255.0, 183.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.render old_input"
+									"text" : "jit.gl.render old_input @enable 0"
 								}
 
 							}
@@ -1413,7 +1406,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 261.0, 161.0, 1052.0, 619.0 ],
+						"rect" : [ 261.0, 161.0, 752.0, 619.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1477,7 +1470,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 315.0, 270.0, 30.0, 22.0 ],
-									"presentation_rect" : [ 318.0, 274.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "t b"
 								}
@@ -1492,7 +1484,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 315.0, 240.0, 46.0, 22.0 ],
-									"presentation_rect" : [ 318.0, 244.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r jit_off"
 								}
@@ -1521,7 +1512,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 525.0, 255.0, 46.0, 22.0 ],
-									"presentation_rect" : [ 522.0, 267.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r jit_off"
 								}
@@ -1593,8 +1583,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 390.0, 80.0, 35.0 ],
-									"presentation_rect" : [ 20.0, 390.0, 0.0, 0.0 ],
+									"patching_rect" : [ 15.0, 405.0, 80.0, 35.0 ],
 									"style" : ""
 								}
 
@@ -1609,7 +1598,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 555.0, 405.0, 80.0, 35.0 ],
+									"patching_rect" : [ 570.0, 405.0, 80.0, 35.0 ],
 									"style" : ""
 								}
 
@@ -2630,7 +2619,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 420.0, 465.0, 63.0, 22.0 ],
+									"patching_rect" : [ 420.0, 480.0, 63.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2737,12 +2726,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-17",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 165.0, 405.0, 135.0, 76.0 ],
+									"patching_rect" : [ 165.0, 405.0, 150.0, 49.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane old_style @depth_enable 0 @layer 0 @transform_reset 2"
 								}
@@ -2763,19 +2752,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 270.0, 131.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.phys.world old_style"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2790,26 +2766,28 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 15.0, 450.0, 113.0, 22.0 ],
+									"patching_rect" : [ 15.0, 450.0, 120.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.window old_style"
+									"text" : "jit.window old_style @visible 0"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 15.0, 360.0, 121.0, 22.0 ],
+									"patching_rect" : [ 15.0, 360.0, 122.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.gl.render old_style"
+									"text" : "jit.gl.render old_style @enable 0"
 								}
 
 							}
@@ -2881,13 +2859,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 420.0, 435.0, 108.0, 22.0 ],
+									"patching_rect" : [ 420.0, 435.0, 135.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.world new_style"
+									"text" : "jit.world new_style @visible 0 @enable 0"
 								}
 
 							}
@@ -2947,15 +2926,6 @@
 									"hidden" : 0,
 									"midpoints" : [ 198.5, 325.5, 174.5, 325.5 ],
 									"source" : [ "obj-13", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
 								}
 
 							}
@@ -3089,7 +3059,7 @@
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 24.5, 534.0, 0.0, 534.0, 0.0, 354.0, 24.5, 354.0 ],
+									"midpoints" : [ 24.5, 579.0, 0.0, 579.0, 0.0, 354.0, 24.5, 354.0 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -3228,190 +3198,6 @@
 ,
 					"style" : "",
 					"text" : "p new_jitter_stuff"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 2,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "Snap to grid",
-						"boxes" : [  ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 15.0, 345.0, 41.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p gen"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 2,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "Snap to grid",
-						"boxes" : [  ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 15.0, 315.0, 47.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p beap"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 2,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "Snap to grid",
-						"boxes" : [  ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 15.0, 285.0, 51.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p vizzie",
-					"varname" : "vizzie"
 				}
 
 			}
@@ -4641,7 +4427,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 210.0, 300.0, 390.0, 390.0 ],
+									"patching_rect" : [ 210.0, 300.0, 390.0, 230.314957 ],
 									"pic" : "collections02.png"
 								}
 
@@ -4655,7 +4441,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 210.0, 60.0, 390.0, 390.0 ],
+									"patching_rect" : [ 210.0, 60.0, 390.0, 231.4048 ],
 									"pic" : "collections01.png"
 								}
 
@@ -4959,7 +4745,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 390.0, 210.0, 47.0 ],
+									"patching_rect" : [ 15.0, 390.0, 214.0, 47.0 ],
 									"style" : "",
 									"text" : "You can manage snippets through the file browser (accessible via the circle icon on the left)."
 								}
@@ -5902,7 +5688,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 555.0, 390.0, 390.0 ],
+									"patching_rect" : [ 15.0, 555.0, 390.0, 106.698112 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager03.png"
 								}
 
@@ -5914,7 +5700,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 270.0, 195.0, 47.0 ],
+									"patching_rect" : [ 210.0, 270.0, 195.0, 47.0 ],
 									"style" : "",
 									"text" : "You'll get a window showing you whatever packages are currently available."
 								}
@@ -5931,7 +5717,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 435.0, 150.0, 150.0 ],
+									"patching_rect" : [ 15.0, 435.0, 150.0, 63.597973 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager02.png"
 								}
 
@@ -5943,7 +5729,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 435.0, 197.0, 47.0 ],
+									"patching_rect" : [ 210.0, 435.0, 197.0, 47.0 ],
 									"style" : "",
 									"text" : "Installing packages is simple - just click on the one you want and click install."
 								}
@@ -5960,7 +5746,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 270.0, 150.0, 150.0 ],
+									"patching_rect" : [ 15.0, 270.0, 150.0, 148.932388 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager01.png"
 								}
 
@@ -5972,7 +5758,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 90.0, 213.0, 47.0 ],
+									"patching_rect" : [ 210.0, 90.0, 213.0, 47.0 ],
 									"style" : "",
 									"text" : "To access the package manager, select \"Show Package Manager\" from the File menu."
 								}
@@ -6002,7 +5788,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 15.0, 90.0, 175.702133, 175.702133 ],
+									"patching_rect" : [ 15.0, 90.0, 175.702133, 183.590805 ],
 									"pic" : "Macintosh HD:/Users/administrator/Desktop/_TML RND/package_manager00.png"
 								}
 
@@ -6044,26 +5830,8 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-2",
-					"linecount" : 17,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 15.0, 415.0, 234.0 ],
-					"style" : "",
-					"text" : "-patching mechanics/maxtoolbox\n\n-snippets\n-collections\n-submitting tools (maxobjects.com?)\n-new Jitter/GL objects\n-BEAP (bring in ES-3 and a few modules?)\n-VIZZIE\n-Gen - first glance\n  -what is it?\n  -how does it work\n  -patching and GenExpr\n  -what’s it good for? \n  -examples - video (shaders, particle systems, fluids, reaction-diffusion),     \n  audio (Moog ladder filter)\n-patching mechanics and Max Toolbox\n-time for sharing favourite patching tips"
-				}
-
-			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "package_manager00.png",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_01/media",
