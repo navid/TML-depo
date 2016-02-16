@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "02 Yowl",
+	"origin" : "Hysteresis.vst",
+	"type" : "VST",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "Hysteresis.vst",
+		"plugindisplayname" : "Hysteresis",
+		"pluginsavedname" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/Hysteresis.vst",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "986.CMlaKA....fQPMDZ....AbDaHkG...fa.............................................LfmVMjLgT4....OOgUVM8jTE80TTEDUEABTxU1bkQmSg0VY8HRRtkFch.BUo0VY8HBLh.BUo0VYCMTOhzRLh.xT441X8HBLh.xT441XCMTOhzRLh.BQoYWZyk1at0iHvHBHDklcoMWZu41PC0iHsDiHfXTYkQlXgM1Z8HBLtjCN1.CLv.CLwPyLvTSLwPyMzXSLh.hQkUFYhE1XqMzP8HRKwHBHPklam80S0QWOhDiHf.UZtc1WOUGcCMTOhzRLh.xP0Q2alY1WFw1auIWOh.iKyDSLzLiLwHyLwfCMx.CMw.SL0XiHfLTcz8lYl8kQr81axMzP8HRKwHBHCUGcuYlYe0zaj8EQkAGcn0iHwHBHCUGcuYlYe0zaj8EQkAGcnMzP8HRKwHBHCUGcuYlYe0zaj8kTgQWY8HRLh.xP0Q2alY1WM8FYeIUXzU1PC0iHsDiHfHUYy8lag41Xk0iHv3RL0fSN4jSN4PyL4bSL1LyL4DSLwHBHRU1bu4VXtMVYCMTOhzRLh.RSuQVcrEFco8laeIUXzUVOh.iKvPCL3.CMzPSM2PyL0XCL2jSLvDiMh.RSuQVcrEFco8laeIUXzU1PC0iHsDiHfHUXzU1WM8FYk0iHvHBHREFck8USuQVYCMTOhzRLh.RSuQVcrEFco8laeETauUmaz0iHv3hMz.SN4jSN2HCNx.iL3DSN3HCMxHBHM8FY0wVXzk1at8UPs8VctQ2PC0iHsDiHfLEckIWYu80TkAWXxEFco8la8HBLtTiHfLEckIWYu80TkAWXxEFco8laCMTOhzRLh.xTzUGczUlbeAkbuA2axQWZu4VOh.iKwfSMv.CLv.iLyfCMwfSM2jSLvHiHfLEc0QGckI2WPI2av8lbzk1atMzP8HRKwHBHSQWczQWYx80TvUVYj0iHv3BN3PCLv.CLvLyLybCN1.SLvbCMxHBHSQWczQWYx80TvUVYjMzP8HRKwHBHSQWczQWYx8kTkYWYxMWY8HBLh.xTzUGczUlbeIUY1UlbyU1PC0iHsDiHfLEc0QGckI2WMkFd8HBLtTiHfLEc0QGckI2WMkFdCMTOhzRLh.BQxk2WWUFc8HBLtTiHfPjb480UkQ2PC0iHsDiHfHUXtQ1askldk0iHvHBHRElaj8VaooWYCMTOhzRLh.xS0Q2WLUlckwVOh.iK3PCNyLyM4PCNyHiLxjiMwPiL0fiHf7Tcz8ESkYWYrMzP8HRKwHxK9..\"savedserialnumber\" : 1,\n\t\t\t\t\"views\" : [ \t\t\t\t\t{\n\t\t\t\t\t\t\"visible\" : 0,\n\t\t\t\t\t\t\"rect\" : [ 34.0, 79.0, 420.0, 735.0 ],\n\t\t\t\t\t\t\"presentation\" : 0,\n\t\t\t\t\t\t\"locked\" : 0,\n\t\t\t\t\t\t\"title\" : "
+	}
+
+}

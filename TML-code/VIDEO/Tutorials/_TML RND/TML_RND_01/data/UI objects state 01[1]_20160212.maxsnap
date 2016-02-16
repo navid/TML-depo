@@ -1,0 +1,49 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "UI objects state 03",
+	"origin" : "snapshots",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"blob" : 				{
+					"multislider" : [ -1.0, -0.786667, -0.6, -0.493333, -0.306667, 0.013333, 0.226667, 0.386667, 0.653333, 0.92 ],
+					"multislider[1]" : [ -0.813333, -0.653333, -0.466667, -0.386667, -0.333333, -0.2, -0.013333, 0.28, 0.706667, 1.0 ],
+					"multislider[2]" : [ -0.52, -0.413333, -0.306667, -0.146667, 0.066667, 0.36, 0.6, 0.68, 0.813333, 1.0 ],
+					"multislider[3]" : [ -0.68, -0.44, -0.226667, -0.066667, 0.173333, 0.413333, 0.76, 1.0, 1.0, 1.0 ],
+					"number" : [ 111 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Hysteresis",
+							"origin" : "Hysteresis.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Hysteresis.vst",
+								"plugindisplayname" : "Hysteresis",
+								"pluginsavedname" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/Hysteresis.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "985.CMlaKA....fQPMDZ....AbDaHkG...fa.............................................LPmVMjLgP4....OOgUVM8jTE80TTEDUEABTxU1bkQmSg0VY8HRRtkFch.BUo0VY8HBLtDCN2jSN4jSNyTiMxXSN3LiMzHiMh.BUo0VYCMTOhzRLh.xT441X8HBLh.xT441XCMTOhzRLh.BQoYWZyk1at0iHvHBHDklcoMWZu41PC0iHsDiHfXTYkQlXgM1Z8HBLtjCN1.CLv.CLwPyLvTSLwPyMzXSLh.hQkUFYhE1XqMzP8HRKwHBHPklam80S0QWOhDiHf.UZtc1WOUGcCMTOhzRLh.xP0Q2alY1WFw1auIWOh.iKyDSLzLiLwHyLwfCMx.CMw.SL0XiHfLTcz8lYl8kQr81axMzP8HRKwHBHCUGcuYlYe0zaj8EQkAGcn0iHwHBHCUGcuYlYe0zaj8EQkAGcnMzP8HRKwHBHCUGcuYlYe0zaj8kTgQWY8HRLh.xP0Q2alY1WM8FYeIUXzU1PC0iHsDiHfHUYy8lag41Xk0iHv3RL0fSN4jSN4PyL4bSL1LyL4DSLwHBHRU1bu4VXtMVYCMTOhzRLh.RSuQVcrEFco8laeIUXzUVOh.iHfzzajUGagQWZu41WREFckMzP8HRKwHBHREFck8USuQVY8HBLh.hTgQWYe0zajU1PC0iHsDiHfzzajUGagQWZu41WA01a04Fc8HBLtXCMvjSN4jyMxfiLvHCNwjCNxPiLh.RSuQVcrEFco8laeETauUmazMzP8HRKwHBHSQWYxU1aeMUYvElbgQWZu4VOh.iK0HBHSQWYxU1aeMUYvElbgQWZu41PC0iHsDiHfLEc0QGckI2WPI2av8lbzk1at0iHv3RL3TCLv.CLvHyL3PSL3TyM4DCLxHBHSQWczQWYx8ETx8FbuIGco8laCMTOhzRLh.xTzUGczUlbeMEbkUFY8HBLtfCNz.CLv.CLyLyL2fiMvDCL2PiLh.xTzUGczUlbeMEbkUFYCMTOhzRLh.xTzUGczUlbeIUY1UlbyUVOh.iHfLEc0QGckI2WRUlckI2bkMzP8HRKwHBHSQWczQWYx8USogWOh.iK0HBHSQWczQWYx8USog2PC0iHsDiHfPjb480UkQWOh.iK0HBHDIWdecUYzMzP8HRKwHBHRElaj8VaooWY8HBLh.hTg4FYu0VZ5U1PC0iHsDiHf7Tcz8ESkYWYr0iHv3BNzfyLybSNzfyLxHiL4XSLzHSM3HBHOUGcewTY1UFaCMTOhzRLh7hO..HC‹­Cç{XCÝ¦C€QÃGü)hCú. C{Cú. C€QÃG‘‚Cú. Cñ…Cö8¢C€PÃGñ…C®.C€PÃG‹C®.C€RÃGýÿŠ"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
