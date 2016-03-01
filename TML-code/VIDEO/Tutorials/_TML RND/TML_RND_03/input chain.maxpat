@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 54.0, 142.0, 707.0, 483.0 ],
+		"rect" : [ 25.0, 79.0, 484.0, 483.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,27 +38,301 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-124",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 285.0, 735.0, 57.0, 22.0 ],
+					"id" : "obj-63",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.000031, 15.0, 210.0, 154.0 ],
 					"style" : "",
-					"text" : "jit.gl.slab"
+					"text" : "DONE:\n\ncamera input\nbrightness, contrast, saturation\nmasking\nedge detection\nframe differencing\nbackground subtraction\nslide (temporal interpolation)\nconvert to luminance\nthresholding (< and >, cv.jit.threshold)\n"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-122",
+					"bubble" : 1,
+					"id" : "obj-60",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 1185.0, 285.0, 78.0 ],
+					"presentation_rect" : [ 239.666672, 1189.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "The mask is composited together with the input video using a multiply operator. Dark areas of the mask become black, and the brightness is determined by the brightness of the mask (black = 0%, white = 100%)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-58",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 165.0, 1350.0, 154.0, 64.0 ],
+					"presentation_rect" : [ 163.666672, 1377.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Threshold (pixels greater than thresh are set to 1., others set to 0.)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-56",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 150.0, 1290.0, 150.0, 24.0 ],
+					"presentation_rect" : [ 159.666656, 1241.333374, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Sobel edge detection."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-55",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 375.0, 1005.0, 225.0, 51.0 ],
+					"presentation_rect" : [ 372.333344, 1004.666687, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "The @adapt 0 attribute keeps the aspect ratio of the mask, regardless of how the window is resized."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-54",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 930.0, 210.0, 51.0 ],
+					"presentation_rect" : [ 312.666656, 939.666687, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "The [jit.gl.gridshape] is captured by this node and output from the left outlet as a texture."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-53",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 780.000061, 930.0, 225.0, 37.0 ],
+					"presentation_rect" : [ 484.666656, 986.333313, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Generates a sphere that's used to give a circular mask."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-50",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 1080.0, 225.0, 64.0 ],
+					"presentation_rect" : [ 337.333344, 1063.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Blurs to soften the edge of the mask. Horizontal and vertical must be blurred independently, otherwise you'll get a diagonal blur."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 615.0, 1155.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Render hierarchy:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.0, 465.0, 390.0, 154.0 ],
+					"style" : "",
+					"text" : "rgb2luma\njit.change\nmotion detection\nthresholding\nnoise reduction\nthresholding\nslide\nmotion values out (QoM, motion x and y)\n\nedge detection\ncontraction area (check jmod.contraction) - findbounds into autoscale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 795.0, 150.0, 37.0 ],
+					"presentation_rect" : [ 180.0, 800.333313, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Erode - to clean up speckles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-32",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 75.0, 780.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 150.0, 52.0, 22.0 ],
+					"patching_rect" : [ 75.0, 810.0, 55.0, 22.0 ],
 					"style" : "",
-					"text" : "settings"
+					"text" : "width $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 840.0, 92.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend param"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 45.0, 885.0, 105.0, 35.0 ],
+					"style" : "",
+					"text" : "jit.gl.slab input @file cf.erode.jxs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 675.0, 150.0, 51.0 ],
+					"presentation_rect" : [ 172.0, 684.333313, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Thresholding - pixels greater than thresh set to 1., all others 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-16",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 495.0, 95.0, 64.0 ],
+					"presentation_rect" : [ 475.0, 489.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Running average background subtraction"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 405.0, 90.0, 51.0 ],
+					"presentation_rect" : [ 252.666672, 405.666687, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Brightness/\ncontrast/\nsaturation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 270.0, 195.0, 75.0, 37.0 ],
+					"presentation_rect" : [ 278.0, 185.666672, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Camera input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 270.0, 75.0, 105.0, 37.0 ],
+					"style" : "",
+					"text" : "Master render context"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-124",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 180.0, 525.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.gl.slab"
 				}
 
 			}
@@ -68,7 +342,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 120.0, 79.0, 22.0 ],
+					"patching_rect" : [ 135.0, 120.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "s drawbang_"
 				}
@@ -85,7 +359,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 793.0, 50.0, 22.0 ],
+					"patching_rect" : [ 75.0, 658.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 823.0, 61.0, 22.0 ],
+					"patching_rect" : [ 75.0, 688.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "thresh $1"
 				}
@@ -243,7 +517,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 45.0, 870.0, 51.0, 22.0 ],
+					"patching_rect" : [ 45.0, 735.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix"
 				}
@@ -258,7 +532,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 45.0, 733.0, 191.0, 22.0 ],
+					"patching_rect" : [ 45.0, 600.0, 255.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab input @file op.absdiff.jxs"
 				}
@@ -269,11 +543,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-118",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 45.0, 690.0, 306.0, 22.0 ],
+					"patching_rect" : [ 45.0, 495.0, 105.0, 62.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab input @file tp.slide.jxs @param slide_down 10"
 				}
@@ -290,7 +565,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 1230.0, 50.0, 22.0 ],
+					"patching_rect" : [ 75.0, 1230.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -304,7 +579,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 1260.0, 62.0, 22.0 ],
+					"patching_rect" : [ 75.0, 1260.0, 62.0, 22.0 ],
 					"style" : "",
 					"text" : "weight $1"
 				}
@@ -321,7 +596,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 1320.0, 50.0, 22.0 ],
+					"patching_rect" : [ 75.0, 1320.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -335,7 +610,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 1350.0, 75.0, 22.0 ],
+					"patching_rect" : [ 75.0, 1350.0, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "thresh $1"
 				}
@@ -479,7 +754,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 90.0, 1380.0, 80.0, 22.0 ],
+					"patching_rect" : [ 45.0, 1380.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix input"
 				}
@@ -616,7 +891,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 90.0, 1290.0, 80.0, 22.0 ],
+					"patching_rect" : [ 45.0, 1290.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix input"
 				}
@@ -629,7 +904,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 315.0, 1065.0, 157.0, 22.0 ],
+					"patching_rect" : [ 195.0, 1020.0, 157.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture input @adapt 0"
 				}
@@ -638,12 +913,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-103",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 315.0, 1140.0, 219.0, 35.0 ],
+					"patching_rect" : [ 195.0, 1125.0, 135.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab input @file cf.gaussian.2p.jxs @param width 0 5"
 				}
@@ -652,12 +927,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-102",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 315.0, 1095.0, 219.0, 35.0 ],
+					"patching_rect" : [ 195.0, 1050.0, 120.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab input @file cf.gaussian.2p.jxs @param width 1 0"
 				}
@@ -670,7 +945,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 90.0, 1185.0, 165.0, 22.0 ],
+					"patching_rect" : [ 45.0, 1185.0, 165.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file co.multiply.jxs"
 				}
@@ -720,7 +995,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 316.0, 935.0, 24.0, 24.0 ],
+					"patching_rect" : [ 196.0, 874.999939, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -734,7 +1009,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 975.0, 74.0, 23.0 ],
+					"patching_rect" : [ 196.0, 914.999939, 74.0, 23.0 ],
 					"style" : "",
 					"text" : "capture $1"
 				}
@@ -745,12 +1020,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-84",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 315.0, 1335.0, 467.0, 38.0 ],
+					"patching_rect" : [ 555.0, 930.0, 210.0, 52.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape node @dim 100 100 @scale 1. 1. @color 1 1 1 1 @position 0 0 -2"
 				}
@@ -761,13 +1036,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-1",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 315.0, 1020.0, 180.0, 23.0 ],
+					"patching_rect" : [ 195.0, 944.999939, 105.0, 52.0 ],
 					"style" : "",
-					"text" : "jit.gl.node input @name node"
+					"text" : "jit.gl.node input @name node @capture 1"
 				}
 
 			}
@@ -952,7 +1228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 45.0, 1470.0, 232.0, 22.0 ],
+					"patching_rect" : [ 45.0, 1515.0, 232.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane input @transform_reset 2"
 				}
@@ -974,11 +1250,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 45.0, 90.0, 289.0, 22.0 ],
+					"patching_rect" : [ 45.0, 75.0, 210.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.world input @erase_color 0 0 0 1 @size 1280 720"
 				}
@@ -987,13 +1264,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 29,
+					"linecount" : 22,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 30.0, 280.0, 395.0 ],
+					"patching_rect" : [ 660.0, 15.0, 280.0, 301.0 ],
 					"style" : "",
-					"text" : "camera input\nbrightness, contrast, saturation\nmasking\nedge detection\nframe differencing\nbackground subtraction\nslide (temporal interpolation)\nconvert to luminance\nthresholding (< and >, cv.jit.threshold)\ncv (blobs, centroids, accessing stats)\ncpu readback\ndenoising (jit.fastblur)\nfilling in areas/eliminating areas (dilate and erode)\nzooming in and out\nrotating\nresolution adaptation\ncropping\noptical flow\n\nDATA TYPES\nquantity of motion\ndirection of motion\nintensity of motion\nquantity of entities\ncontraction/elongation\narea of movement\n\n\nnetwork communication (OSC and video)"
+					"text" : "TO DO:\n\ncv (blobs, centroids, accessing stats)\ncpu readback\ndenoising (jit.fastblur)\nfilling in areas/eliminating areas (dilate and erode)\nzooming in and out\nrotating\nresolution adaptation\ncropping\noptical flow\n\nDATA TYPES\nquantity of motion\ndirection of motion\nintensity of motion\nquantity of entities\ncontraction/elongation\narea of movement\n\n\nnetwork communication (OSC and video)"
 				}
 
 			}
@@ -1018,7 +1295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 1410.0, 150.0, 22.0 ],
+					"patching_rect" : [ 75.0, 1470.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1031,7 +1308,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 1245.0, 315.0, 22.0 ],
+					"patching_rect" : [ 555.0, 885.0, 225.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"id" : "obj-45",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 615.0, 1155.0, 225.000015, 120.0 ],
+					"proportion" : 0.39,
 					"style" : ""
 				}
 
@@ -1106,6 +1399,7 @@
 					"destination" : [ "obj-124", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 54.5, 567.0, 253.333336, 567.0, 253.333336, 513.000001, 189.5, 513.000001 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -1115,17 +1409,8 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 714.0, 54.5, 714.0 ],
+					"midpoints" : [ 54.5, 564.0, 54.5, 564.0 ],
 					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-122", 0 ]
 				}
 
 			}
@@ -1134,6 +1419,7 @@
 					"destination" : [ "obj-118", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 189.5, 549.0, 162.0, 549.0, 162.0, 489.0, 140.5, 489.0 ],
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -1155,6 +1441,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 174.5, 183.0, 54.5, 183.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -1205,10 +1500,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 84.5, 873.0, 54.5, 873.0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 675.0, 54.5, 675.0 ],
+					"midpoints" : [ 54.5, 444.0, 54.5, 444.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1218,8 +1532,17 @@
 					"destination" : [ "obj-47", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 510.0, 30.0, 510.0, 30.0, 765.0, 246.0, 765.0, 246.0, 729.0, 226.5, 729.0 ],
+					"midpoints" : [ 54.5, 465.333333, 286.66667, 465.333333, 286.66667, 585.0, 290.5, 585.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1238,6 +1561,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1333,7 +1665,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 772.0 ],
+					"midpoints" : [ 54.5, 624.0, 54.5, 624.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1349,10 +1681,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 1170.0, 54.5, 1170.0 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -1362,6 +1693,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 84.5, 722.0, 54.5, 722.0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
