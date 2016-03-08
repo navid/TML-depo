@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 577.0, 79.0, 695.0, 783.0 ],
+		"rect" : [ 34.0, 149.0, 1013.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1089,10 +1089,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
+					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 357.0, 30.0, 357.0, 30.0, 465.0, 290.5, 465.0 ],
+					"midpoints" : [ 54.5, 357.0, 30.0, 357.0, 30.0, 465.0, 54.5, 465.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -1181,10 +1181,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-47", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 447.0, 54.5, 447.0 ],
+					"midpoints" : [ 54.5, 447.0, 290.5, 447.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
