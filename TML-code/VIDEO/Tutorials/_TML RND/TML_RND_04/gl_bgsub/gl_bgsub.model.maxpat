@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 78.0, 86.0, 473.0, 776.0 ],
+		"rect" : [ 450.0, 124.0, 473.0, 776.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -90,7 +90,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 165.0, 480.0, 57.0, 21.0 ],
-					"presentation_rect" : [ 169.0, 492.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab"
 				}
@@ -106,7 +105,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 15.0, 525.0, 147.0, 22.0 ],
-					"presentation_rect" : [ 19.0, 537.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file tp.slide.jxs"
 				}
@@ -138,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 345.0, 165.0, 57.0 ],
+					"patching_rect" : [ 105.0, 345.0, 168.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter post_slide_up @type decimal @range 0. 200. @description Post-slide up @clipmode both",
 					"varname" : "tolerance[4]"
@@ -154,9 +152,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 135.0, 133.0, 21.0 ],
+					"patching_rect" : [ 285.0, 135.0, 147.0, 21.0 ],
 					"style" : "",
-					"text" : "prepend param slide_up"
+					"text" : "prepend param slide_down"
 				}
 
 			}
@@ -232,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 60.0, 165.0, 57.0 ],
+					"patching_rect" : [ 105.0, 60.0, 168.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter pre_slide_up @type decimal @range 0. 200. @description Pre-slide up @clipmode both",
 					"varname" : "tolerance[1]"
@@ -325,7 +323,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 75.0, 25.0, 25.0 ],
 					"style" : ""
 				}
