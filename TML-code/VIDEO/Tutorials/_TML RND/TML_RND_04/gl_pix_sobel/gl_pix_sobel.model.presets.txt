@@ -1,5 +1,5 @@
 
-- preset “default"
+- preset "default"
 - description "something about this preset"
 # ###########################################
 # 
@@ -12,7 +12,8 @@ data/active 1
 data/bypass 0
 dim 720.000000 480.000000
 rect 0.000000 0.000000 1.000000 1.000000
+select 0
 texrect 0.000000 0.000000 1.000000 1.000000
-weight 1.000000
+thresh 0.100000
 # 
 # ###########################################
