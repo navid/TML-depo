@@ -1,5 +1,5 @@
 
-- preset "Default"
+- preset "default"
 - description "something about this preset"
 # ###########################################
 # 
