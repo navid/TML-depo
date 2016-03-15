@@ -1,25 +1,4 @@
 
-- preset "Default"
-- description "something about this preset"
-# ###########################################
-# 
-context default
-active 1
-adapt 1
-antialias 0
-automatic 1
-data/active 1
-data/bypass 0
-dim 720.000000 480.000000
-post_slide_down 0.000000
-post_slide_up 0.000000
-pre_slide_down 0.000000
-pre_slide_up 5.000000
-rect 0.000000 0.000000 1.000000 1.000000
-texrect 0.000000 0.000000 1.000000 1.000000
-# 
-# ###########################################
-
 - preset "default"
 - description "something about this preset"
 # ###########################################
@@ -34,7 +13,7 @@ data/bypass 0
 dim 720.000000 480.000000
 post_slide_down 0.000000
 post_slide_up 0.000000
-pre_slide_down 2.000000
+pre_slide_down 3.000000
 pre_slide_up 0.000000
 rect 0.000000 0.000000 1.000000 1.000000
 texrect 0.000000 0.000000 1.000000 1.000000

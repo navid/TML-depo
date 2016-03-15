@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 565.0, 79.0, 997.0, 887.0 ],
+		"rect" : [ 129.0, 79.0, 648.0, 887.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 735.0, 525.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "j.sum%"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -57,7 +70,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1035.0, 270.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "0.055885"
+					"text" : "0.119063"
 				}
 
 			}
@@ -404,7 +417,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-172",
-					"items" : [ "square", ",", "camera" ],
+					"items" : [ "camera", ",", "square" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1934,6 +1947,12 @@
 , 			{
 				"name" : "j.readback%.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_05",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.sum%.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
