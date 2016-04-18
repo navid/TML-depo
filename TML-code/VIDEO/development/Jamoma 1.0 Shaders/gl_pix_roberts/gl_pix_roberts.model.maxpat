@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 605.0, 438.0, 517.0, 304.0 ],
+		"rect" : [ 349.0, 451.0, 517.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,12 +51,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 44.0, 79.0, 992.0, 476.0 ],
+						"rect" : [ 38.0, 219.0, 1135.0, 559.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
@@ -89,14 +89,29 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-7",
-									"linecount" : 31,
+									"id" : "obj-8",
+									"linecount" : 13,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 30.0, 330.0, 422.0 ],
+									"patching_rect" : [ 645.0, 360.0, 450.0, 181.0 ],
 									"style" : "",
-									"text" : "#define WEBCAM_RESOLUTION 512.0\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n\tvec2 uv = fragCoord.xy / iResolution.xy;\n\t\n\t// Sobel operator\n\tfloat offset = 1.0 / WEBCAM_RESOLUTION;\n\tvec3 o = vec3(-offset, 0.0, offset);\n\tvec4 gx = vec4(0.0);\n\tvec4 gy = vec4(0.0);\n\tvec4 t;\n\tgx += texture2D(iChannel0, uv + o.xz);\n\tgy += gx;\n\tgx += 2.0*texture2D(iChannel0, uv + o.xy);\n\tt = texture2D(iChannel0, uv + o.xx);\n\tgx += t;\n\tgy -= t;\n\tgy += 2.0*texture2D(iChannel0, uv + o.yz);\n\tgy -= 2.0*texture2D(iChannel0, uv + o.yx);\n\tt = texture2D(iChannel0, uv + o.zz);\n\tgx -= t;\n\tgy += t;\n\tgx -= 2.0*texture2D(iChannel0, uv + o.zy);\n\tt = texture2D(iChannel0, uv + o.zx);\n\tgx -= t;\n\tgy -= t;\n\tvec4 grad = sqrt(gx*gx + gy*gy);\n\t\n\tfragColor = vec4(grad);\n}"
+									"text" : "Errors posted to the Max window if bw is used multiple times in defining bwColor:\n\nlua_docall error: [string \"gen2.jit.Model\"]:437: assertion failed!\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"gen2.jit.Model\"]:437: in function 'Function'\n\t[string \"gen2.jit.Model\"]:586: in function 'process_operator_instance'\n\t[string \"gen2.jit.Model\"]:685: in function 'Expression'\n\t[string \"gen2.jit.Model\"]:697: in function 'f'\n\t[string \"gen2.Module\"]:862: in function 'flow_iterate'\n\t[string \"gen2.Module\"]:860: in function 'flow_iterate'\n\t[string \"gen2.Module\"]:860: in function 'flow_iterate'\n\r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"linecount" : 22,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 645.0, 45.0, 330.0, 301.0 ],
+									"style" : "",
+									"text" : "float bw(vec2 coords) {\n\tvec4 lm = texture2D(iChannel0, coords) * vec4(0.21, 0.71, 0.07, 1);\n\t\n\treturn lm.r+lm.g+lm.b;\t\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n\tvec2 uv = fragCoord.xy / iResolution.xy;\n\tuv.x = 1.0 - uv.x; // mirror image, thx @porglezomp\n\t\n\tvec2 of = vec2(1.0 / 128.0, 0);\n\t\n\tfloat bwColor = sqrt(\n\t\tpow(abs(bw(uv) - bw(uv+of.xx)), 2.0) +\n\t\tpow(abs(bw(uv + of.xy) - bw(uv + of.yx)), 2.0)\n\t);\n\t\n\t\n\tfragColor = vec4(bwColor);\n}"
 								}
 
 							}
@@ -109,7 +124,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 0.0, 30.0, 22.0 ],
+									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
 									"style" : "",
 									"text" : "in 1"
 								}
@@ -117,7 +132,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param weight(1.0);\r\nuv = cell / dim;\r\noffset = weight / dim;\r\no = vec(-offset, 0.0, offset);\r\ngx = vec(0.0, 0.0, 0.0, 0.0);\r\ngy = vec(0.0, 0.0, 0.0, 0.0);\r\nt = vec(0.0, 0.0, 0.0, 0.0);\r\ngx += sample(in1, uv + o.xz);\r\ngy += gx;\r\ngx += 2.0 * sample(in1, uv + o.xy);\r\nt = sample(in1, uv + o.xx);\r\ngx += t;\r\ngy -= t;\r\ngy += 2.0 * sample(in1, uv + o.yz);\r\ngy -= 2.0 * sample(in1, uv + o.yx);\r\nt = sample(in1, uv + o.zz);\r\ngx -= t;\r\ngy += t;\r\ngx -= 2.0 * sample(in1, uv + o.zy);\r\nt = sample(in1, uv + o.zx);\r\ngx -= t;\r\ngy -= t;\r\ngrad = sqrt(gx*gx + gy*gy);\r\nout = grad;\r\n\r\n",
+									"code" : "/*\r\nThe original shader uses bw four times in constructing bwColor. Gen throws a\r\nbunch of errors if bw is repeated within the definition of bwColor, so my kludgey\r\nsolution is to make four distinct, identical bw functions. I imagine there's probably\r\na more efficient way of doing this, though.\r\n*/\r\nbw1(coords){\r\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm1.r + lm1.g + lm1.b;\r\n}\r\n\r\nbw2(coords){\r\n\tlm2 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm2.r + lm2.g + lm2.b;\r\n}\r\n\r\nbw3(coords){\r\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm1.r + lm1.g + lm1.b;\r\n}\r\n\r\nbw4(coords){\r\n\tlm2 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm2.r + lm2.g + lm2.b;\r\n}\r\n\r\nParam weight(1.0);\r\n\r\nuv = cell / dim;\r\n\r\nof = vec(weight / 128.0, 0.0);\r\n\r\nbwColor = sqrt(pow(abs(bw1(uv) - bw2(uv + of.xx)), 2.0) + pow(abs(bw3(uv + of.xy) - bw4(uv + of.yx)), 2.0));\r\nout1 = bwColor;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -126,7 +141,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 300.0, 374.0 ],
+									"patching_rect" : [ 15.0, 60.0, 600.0, 375.0 ],
 									"style" : ""
 								}
 
@@ -139,7 +154,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 435.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 450.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "out 1"
 								}
@@ -266,9 +281,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 60.0, 210.0, 33.0 ],
+					"patching_rect" : [ 240.0, 60.0, 229.0, 33.0 ],
 					"style" : "",
-					"text" : "j.model @description \"Sobel edge detection implemented in jit.gl.pix.\"",
+					"text" : "j.model @description \"Robert's Cross edge detection implemented in jit.gl.pix.\"",
 					"varname" : "jmod.hub"
 				}
 
@@ -292,7 +307,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
