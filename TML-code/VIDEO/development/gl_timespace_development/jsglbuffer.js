@@ -23,38 +23,55 @@ var vspacing = 1.;
 var vrotate = 0.;
 var vscale = 1.;
 var vbrightness = 2.;
+var ctx = "default";
 
 var aplanes = new Array();
 var atex = new Array();
-var bmask = new JitterObject("jit.gl.texture","blinky");
+var bmask = new JitterObject("jit.gl.texture");
 var apos = new Array();
 var arot = new Array();
 var ascale = new Array();
 
 var stir = null; // good policy while saving/recompiling so that original slab will be garbage collected
-var stir = new JitterObject("jit.gl.shader","blinky");
-stir.file = "ab.bufmask.jxs";
-stir.param("range",1./(vcount*2.));
-stir.param("fade",1./(vcount*0.5));
+var stir = new JitterObject("jit.gl.shader");
+//stir.file = "ab.bufmask.jxs";
+//stir.param("range",1./(vcount*2.));
+//stir.param("fade",1./(vcount*0.5));
 //stir.param("tex_id",j/vcount);
-stir.name = "shady";
+//stir.name = "shady";
 
-count(100);
+function setup(c, ctx)
+{
+	bmask = null;
+	bmask = new JitterObject("jit.gl.texture",ctx);
+	stir = null;
+	stir = new JitterObject("jit.gl.shader",ctx); 
+	stir.file = "ab.bufmask.jxs";
+	stir.param("range",1./(vcount*2.));
+	stir.param("fade",1./(vcount*0.5));
+	//stir.param("tex_id",j/vcount);
+	stir.name = "shady";
+	count(c,ctx)
+}
 
-function count(c) 
+//count(100);
+
+function count(c,ctx) 
 {
 	if (c<1)
 		c = 1;
 	vcount = c;
 	stir.param("range",1./(vcount*0.5));
 	for (var i=0;i<vcount;i++) {
-		aplanes[i] = new JitterObject("jit.gl.videoplane","blinky");
+		aplanes[i] = new JitterObject("jit.gl.videoplane",ctx);
+//		aplanes[i].drawto = ctx;
 		aplanes[i].dim = [2,2];
 		aplanes[i].automatic = 0;
 		aplanes[i].blend_enable = 1;
 		aplanes[i].blend_mode = [6,7];
 		aplanes[i].depth_enable = 0;
-		atex[i] = new JitterObject("jit.gl.texture","blinky");
+		atex[i] = new JitterObject("jit.gl.texture", ctx);
+//		atex[i].drawto = ctx;
 		atex[i].adapt = 1;
 		atex[i].colormode = "argb";
 		aplanes[i].texture = [atex[i].name, bmask.name];
@@ -66,6 +83,7 @@ function count(c)
 	recalc();
 }	
 
+setup(50, "default");
 
 function range(v)
 {
