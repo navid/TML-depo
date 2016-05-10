@@ -11,7 +11,7 @@ automatic 1
 data/active 1
 dim 720.000000 480.000000
 fade 5.000000
-frames 100
+frames 50
 range 1.000000
 rect 0.000000 0.000000 1.000000 1.000000
 spacing 0.000000

@@ -1,9 +1,8 @@
 inlets = 2;
 
-// our jit.gl.videoplane objects and associated attribute arrays
 var current = 0;
 var vcount = 32;
-var vspacing = 1.;
+var vspacing = 0.;
 var vrotate = 0.;
 var vscale = 1.;
 var vbrightness = 2.;
@@ -52,6 +51,8 @@ function count(c,ctx)
 		aplanes[i].shader = "shady";
 		aplanes[i].cull_face = 1;
 		aplanes[i].shadow_caster = 0;
+		aplanes[i].scale = [1.3, 0.75, 0.];
+		aplanes[i].adapt = 1;
 	}
 	recalc();
 }	

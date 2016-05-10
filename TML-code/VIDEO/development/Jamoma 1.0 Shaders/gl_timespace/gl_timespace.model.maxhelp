@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 992.0, 91.0, 490.0, 760.0 ],
+		"rect" : [ 1001.0, 56.0, 490.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 992.0, 117.0, 490.0, 734.0 ],
+						"rect" : [ 1001.0, 82.0, 490.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,14 +137,80 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 180.0, 525.0, 288.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 0 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 180.0, 495.0, 288.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 1 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 540.0, 111.0, 22.0 ],
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 315.0, 615.0, 57.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_tp_slide.module"
+									"text" : "jit.gl.slab"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 150.0, 570.0, 308.0, 35.0 ],
+									"style" : "",
+									"text" : "jit.gl.slab @file tp.slide.jxs @param slide_up 2 @param slide_down 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 135.0, 450.0, 153.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.gl.texture @dim 200 200"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 420.0, 33.0 ],
+									"style" : "",
+									"text" : "Original technique, Javascript and shader by Andrew Benson:\nhttps://cycling74.com/forums/topic/slit-scan-time-warp-map/#.VzF6gRUrJE4"
 								}
 
 							}
@@ -155,7 +221,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 90.0, 47.0, 22.0 ],
+									"patching_rect" : [ 135.0, 120.0, 47.0, 22.0 ],
 									"style" : "",
 									"text" : "reset"
 								}
@@ -168,34 +234,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 135.0, 120.0, 159.0, 22.0 ],
+									"patching_rect" : [ 135.0, 150.0, 159.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.handle timespace_help"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 45.0, 630.0, 181.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.videoplane timespace_help"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-39",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 210.0, 53.0, 22.0 ],
-									"style" : "",
-									"text" : "s draw_"
 								}
 
 							}
@@ -206,7 +247,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 345.0, 39.0, 22.0 ],
+									"patching_rect" : [ 75.0, 330.0, 39.0, 22.0 ],
 									"style" : "",
 									"text" : "close"
 								}
@@ -219,7 +260,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 345.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 330.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -232,9 +273,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 390.0, 240.0, 22.0 ],
+									"patching_rect" : [ 15.0, 375.0, 149.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.grab @output_texture 1 @drawto default"
+									"text" : "jit.grab @output_texture 1"
 								}
 
 							}
@@ -245,9 +286,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 165.0, 319.0, 22.0 ],
+									"patching_rect" : [ 15.0, 195.0, 449.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world timespace_help @erase_color 0 0 0 1 @shared 1"
+									"text" : "jit.world timespace_help @erase_color 0 0 0 1 @shared 1 @fsmenubar 0 @fsaa 1"
 								}
 
 							}
@@ -259,7 +300,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 120.0, 86.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 86.0, 22.0 ],
 									"style" : "",
 									"text_width" : 65.0
 								}
@@ -282,7 +323,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 255.0, 300.0, 70.0 ],
+									"patching_rect" : [ 15.0, 240.0, 300.0, 70.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 									"viewvisibility" : 1
 								}
@@ -293,10 +334,10 @@
 									"annotation" : "Spatially-mapped video delay.",
 									"id" : "obj-13",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 495.0, 175.0, 22.0 ],
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 645.0, 175.0, 22.0 ],
 									"style" : "",
 									"text" : "gl_timespace.model timespace"
 								}
@@ -327,6 +368,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -336,7 +386,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-8", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
@@ -345,10 +395,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -357,8 +416,18 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 84.5, 378.0, 24.5, 378.0 ],
+									"midpoints" : [ 84.5, 363.0, 24.5, 363.0 ],
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 24.5, 430.5, 144.5, 430.5 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -367,17 +436,8 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 24.5, 430.5, 39.5, 430.5 ],
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 174.5, 197.0, 24.5, 197.0 ],
-									"source" : [ "obj-5", 1 ]
 								}
 
 							}
@@ -395,8 +455,26 @@
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 144.5, 153.0, 24.5, 153.0 ],
+									"midpoints" : [ 144.5, 183.0, 24.5, 183.0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -405,7 +483,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 378.0, 24.5, 378.0 ],
+									"midpoints" : [ 24.5, 363.0, 24.5, 363.0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -413,7 +491,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.21875, 54.0, 84.0, 22.0 ],
+					"patching_rect" : [ 6.21875, 54.0, 86.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -423,7 +501,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p gridshape",
+					"text" : "p timespace",
 					"varname" : "basic"
 				}
 
@@ -478,7 +556,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 20.21875, 162.0, 50.0, 20.0 ],
+					"patching_rect" : [ 20.21875, 162.0, 50.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -550,24 +628,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_tp_slide.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_tp_slide",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_tp_slide.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_tp_slide",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_tp_slide.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_tp_slide",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
@@ -593,10 +653,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
  ],

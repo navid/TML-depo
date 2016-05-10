@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -102,7 +102,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -172,31 +172,36 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u237004501" ],
 													"dim" : [ 1, 1 ],
-													"usedstrect" : [ 0 ],
-													"loopend" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"automatic" : [ 0 ],
+													"duration" : [ 0 ],
+													"fps" : [ 0.0 ],
+													"texture_name" : [ "u390004499" ],
+													"unique" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"cache_size" : [ 0.1 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"framecount" : [ 0 ],
 													"output_texture" : [ 0 ],
-													"colormode" : [ "argb" ],
-													"time_secs" : [ 0.0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"drawto" : [ "" ],
-													"loopstart" : [ 0 ],
+													"framereport" : [ 0 ],
 													"interp" : [ 0 ],
 													"looppoints" : [ 0, 0 ],
-													"rate" : [ 1.0 ],
-													"usesrcrect" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"timescale" : [ 600 ],
+													"colormode" : [ "argb" ],
+													"time_secs" : [ 0.0 ],
 													"time" : [ 0 ],
-													"moviefile" : [ "" ],
-													"texture_name" : [ "u390004499" ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"autostart" : [ 1 ],
-													"position" : [ 0.0 ],
-													"automatic" : [ 0 ],
-													"framereport" : [ 0 ],
-													"adapt" : [ 1 ],
-													"vol" : [ 1.0 ],
 													"loopreport" : [ 0 ],
+													"drawto" : [ "" ],
+													"moviefile" : [ "" ],
 													"engine" : [ "avf" ],
-													"unique" : [ 0 ]
+													"autostart" : [ 1 ],
+													"loopend" : [ 0 ],
+													"usedstrect" : [ 0 ],
+													"position" : [ 0.0 ],
+													"adapt" : [ 1 ],
+													"loopstart" : [ 0 ],
+													"vol" : [ 1.0 ]
 												}
 
 											}
@@ -370,7 +375,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -438,7 +443,7 @@
 			}
 , 			{
 				"name" : "gl_pix_roberts.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_sobel 2",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_roberts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -450,7 +455,7 @@
 			}
 , 			{
 				"name" : "gl_pix_roberts.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_sobel 2",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_roberts",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -132,7 +132,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "/*\r\nThe original shader uses bw four times in constructing bwColor. Gen throws a\r\nbunch of errors if bw is repeated within the definition of bwColor, so my kludgey\r\nsolution is to make four distinct, identical bw functions. I imagine there's probably\r\na more efficient way of doing this, though.\r\n*/\r\nbw1(coords){\r\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm1.r + lm1.g + lm1.b;\r\n}\r\n\r\nbw2(coords){\r\n\tlm2 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm2.r + lm2.g + lm2.b;\r\n}\r\n\r\nbw3(coords){\r\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm1.r + lm1.g + lm1.b;\r\n}\r\n\r\nbw4(coords){\r\n\tlm2 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\r\n\treturn lm2.r + lm2.g + lm2.b;\r\n}\r\n\r\nParam weight(1.0);\r\n\r\nuv = cell / dim;\r\n\r\nof = vec(weight / 128.0, 0.0);\r\n\r\nbwColor = sqrt(pow(abs(bw1(uv) - bw2(uv + of.xx)), 2.0) + pow(abs(bw3(uv + of.xy) - bw4(uv + of.yx)), 2.0));\r\nout1 = bwColor;",
+									"code" : "//Thanks to Rob Ramirez for corrections and optimization\r\nbw1(coords){\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\n\treturn lm1.r + lm1.g + lm1.b;\n}\n\nuv = norm;\n\nof = vec(1.0 / 128.0, 0.0);\n\nbwColor = sqrt(fastpow(abs(bw1(uv) - bw1(uv + of.xx)), 2.0) + fastpow(abs(bw1(uv + of.xy) - bw1(uv + of.yx)), 2.0));\nout1 = bwColor;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -307,7 +307,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
