@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1001.0, 56.0, 490.0, 760.0 ],
+		"rect" : [ 643.0, 79.0, 429.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1001.0, 82.0, 490.0, 734.0 ],
+						"rect" : [ 643.0, 105.0, 429.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,12 +137,44 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.0,
+									"bubbleside" : 2,
+									"id" : "obj-20",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 675.0, 60.0, 39.0 ],
+									"presentation_rect" : [ 123.0, 678.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "video in"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.0,
+									"bubbleside" : 2,
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 180.0, 675.0, 60.0, 39.0 ],
+									"style" : "",
+									"text" : "map in"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-15",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 180.0, 525.0, 288.0, 22.0 ],
+									"patching_rect" : [ 135.0, 540.0, 120.0, 49.0 ],
 									"style" : "",
 									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 0 1"
 								}
@@ -151,11 +183,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 180.0, 495.0, 288.0, 22.0 ],
+									"patching_rect" : [ 135.0, 480.0, 120.0, 49.0 ],
 									"style" : "",
 									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 1 0"
 								}
@@ -168,7 +201,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 315.0, 615.0, 57.0, 22.0 ],
+									"patching_rect" : [ 315.0, 600.0, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.slab"
 								}
@@ -177,12 +210,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 150.0, 570.0, 308.0, 35.0 ],
+									"patching_rect" : [ 135.0, 600.0, 150.0, 49.0 ],
 									"style" : "",
 									"text" : "jit.gl.slab @file tp.slide.jxs @param slide_up 2 @param slide_down 2"
 								}
@@ -337,7 +370,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 645.0, 175.0, 22.0 ],
+									"patching_rect" : [ 15.0, 720.0, 175.0, 22.0 ],
 									"style" : "",
 									"text" : "gl_timespace.model timespace"
 								}
@@ -389,6 +422,7 @@
 									"destination" : [ "obj-8", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 324.5, 624.0, 297.0, 624.0, 297.0, 594.0, 275.5, 594.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -436,7 +470,7 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 430.5, 39.5, 430.5 ],
+									"midpoints" : [ 24.5, 430.5, 24.5, 430.5 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -465,6 +499,7 @@
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 144.5, 660.0, 300.0, 660.0, 300.0, 594.0, 324.5, 594.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -524,7 +559,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 490.0, 734.0 ],
+						"rect" : [ 0.0, 26.0, 429.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
