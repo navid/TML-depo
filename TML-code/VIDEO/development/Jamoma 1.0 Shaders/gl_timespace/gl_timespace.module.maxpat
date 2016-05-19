@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 2,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -39,38 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-4",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 285.0, 27.0, 27.0 ],
-					"presentation_rect" : [ 130.0, 285.0, 0.0, 0.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-2",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 285.0, 27.0, 27.0 ],
-					"presentation_rect" : [ 115.0, 279.0, 0.0, 0.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-3",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 285.0, 26.0, 26.0 ],
-					"presentation_rect" : [ 85.0, 278.0, 0.0, 0.0 ],
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 125.0, 200.0, 26.0, 26.0 ],
+					"presentation_rect" : [ 127.0, 201.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -87,31 +62,31 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_texset.view.maxpat",
+					"name" : "gl_timespace.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Multi-tap texture-based video delay implemented in Javascript.",
+					"annotation" : "Spatially-mapped video delay.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 15.0, 245.0, 111.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 245.0, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_texset.model #1",
+					"text" : "gl_timespace.model #1",
 					"varname" : "j.model"
 				}
 
@@ -132,18 +107,6 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-33",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 285.0, 27.0, 27.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-40",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -156,37 +119,10 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-28", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 4 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -210,9 +146,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_texset.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_texset",
+				"name" : "gl_timespace.model.maxpat",
+				"bootpath" : "~/Code/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jsglbuffer.js",
+				"bootpath" : "~/Code/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -222,14 +164,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sd.phoenix.texbank.js",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_texset",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_texset.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_texset",
+				"name" : "gl_timespace.view.maxpat",
+				"bootpath" : "~/Code/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -252,7 +188,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -264,15 +200,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -285,10 +213,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
  ],
