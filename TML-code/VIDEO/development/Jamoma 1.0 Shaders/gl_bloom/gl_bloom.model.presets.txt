@@ -1,0 +1,21 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context bloom_help
+active 1
+adapt 1
+antialias 0
+automatic 1
+data/active 1
+data/bypass 0
+dim 720.000000 480.000000
+rect 0.000000 0.000000 1.000000 1.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+x/blur 1.000000
+x/gain 1.000000
+y/blur 1.000000
+y/gain 1.000000
+# 
+# ###########################################
