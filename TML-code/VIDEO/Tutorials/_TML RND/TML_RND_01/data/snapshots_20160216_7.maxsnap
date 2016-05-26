@@ -1,0 +1,27 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "snapshots",
+	"origin" : "snapshots",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"blob" : 				{
+					"multislider" : [ 0.333333, -0.493333, -0.493333, -0.386667, -0.12, -0.68, -0.466667, -0.146667, 0.04, -0.146667 ],
+					"multislider[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"multislider[2]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"multislider[3]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"number" : [ 40 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

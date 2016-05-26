@@ -1,0 +1,49 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "two",
+	"origin" : "snapshots",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 1,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"blob" : 				{
+					"multislider" : [ 0.333333, -0.493333, -0.493333, -0.386667, -0.12, -0.68, -0.466667, -0.146667, 0.04, -0.146667 ],
+					"multislider[1]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"multislider[2]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"multislider[3]" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"number" : [ 40 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Hysteresis",
+							"origin" : "Hysteresis.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Hysteresis.vst",
+								"plugindisplayname" : "Hysteresis",
+								"pluginsavedname" : "~/code/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/Hysteresis.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1061.CMlaKA....fQPMDZ....AbDaHkG...fa.............................................LP5VMjLg.9....OOgUVM8jTE80TTEDUEABTxU1bkQmSg0VY8HRRtkFch.BUo0VY8HBLtLyL4jiM2PCN4HCMxTSMybSLvjCMh.BUo0VYCMTOhzRLh.xT441X8HBLh.xT441XCMTOhzRLh.BQoYWZyk1at0iHvHBHDklcoMWZu41PC0iHsDiHfXTYkQlXgM1Z8HBLtTiM0jSN4jCNzbCMwHSLvjyL2TiHfXTYkQlXgM1ZCMTOhzRLh.BTo41Ye8Tcz0iHwHBHPklam80S0Q2PC0iHsDiHfLTcz8lYl8kQr81ax0iHv3BMyjSN4jSN4biMwTCNwPiLvfSN3HBHCUGcuYlYeYDau8lbCMTOhzRLh.xP0Q2alY1WM8FYeQTYvQGZ8HBLtbiM3jSN4jSNyfCLwDSL1jCMyLiMh.xP0Q2alY1WM8FYeQTYvQGZCMTOhzRLh.xP0Q2alY1WM8FYeIUXzUVOh.iKxHyL0.CL0PSN2jyLxPyLz.CNxHBHCUGcuYlYe0zaj8kTgQWYCMTOhzRLh.hTkM2atElaiUVOh.iKyTiL4jSN4fSMxDCNvPCNvjSM2HBHRU1bu4VXtMVYCMTOhzRLh.RSuQVcrEFco8laeIUXzUVOh.iKyXSLv.CLv.SLzLCL0DSLzbCM1DiHfzzajUGagQWZu41WREFckMzP8HRKwHBHREFck8USuQVY8HBLh.hTgQWYe0zajU1PC0iHsDiHfzzajUGagQWZu41WA01a04Fc8HBLh.RSuQVcrEFco8laeETauUmazMzP8HRKwHBHSQWYxU1aeMUYvElbgQWZu4VOh.iK0HBHSQWYxU1aeMUYvElbgQWZu41PC0iHsDiHfLEc0QGckI2WPI2av8lbzk1at0iHv3xLwPSN4jSN4biMwTCNwPiLvfSN3HBHSQWczQWYx8ETx8FbuIGco8laCMTOhzRLh.xTzUGczUlbeMEbkUFY8HBLtLCNwjSN4jSN4HCNzbCMzHiMxbiHfLEc0QGckI2WSAWYkQ1PC0iHsDiHfLEc0QGckI2WRUlckI2bk0iHwHBHSQWczQWYx8kTkYWYxMWYCMTOhzRLh.xTzUGczUlbe0TZ30iHv3xL4DSN4jSN3jyMzfCLvDCL4fiMyHBHSQWczQWYx8USog2PC0iHsDiHfPjb480UkQWOh.iKyDSN4jSN4jiL3PyMzPiL1HiM4TiHfPjb480UkQ2PC0iHsDiHfHUXtQ1askldk0iHvHBHRElaj8VaooWYCMTOhzRLh.xS0Q2WLUlckwVOh.iK3PCNyLyM4PCNyHiLxjiMwPiL0fiHf7Tcz8ESkYWYrMzP8HRKwHxK9..<ß?D½"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
