@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 2,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 95.0, 276.0, 859.0, 348.0 ],
@@ -14,19 +15,27 @@
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Verdana",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -36,7 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 15.0, 68.0, 19.0 ],
+					"patching_rect" : [ 240.0, 15.0, 68.0, 21.0 ],
+					"style" : "",
 					"text" : "loadmess 0"
 				}
 
@@ -50,7 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 495.0, 90.0, 32.5, 19.0 ],
+					"patching_rect" : [ 495.0, 90.0, 32.5, 21.0 ],
+					"style" : "",
 					"text" : "!- 2"
 				}
 
@@ -64,7 +75,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 390.0, 90.0, 32.5, 19.0 ],
+					"patching_rect" : [ 390.0, 90.0, 32.5, 21.0 ],
+					"style" : "",
 					"text" : "+ 1"
 				}
 
@@ -78,7 +90,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 120.0, 90.0, 19.0 ],
+					"patching_rect" : [ 495.0, 120.0, 90.0, 21.0 ],
+					"style" : "",
 					"text" : "switch"
 				}
 
@@ -92,7 +105,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 120.0, 90.0, 19.0 ],
+					"patching_rect" : [ 390.0, 120.0, 90.0, 21.0 ],
+					"style" : "",
 					"text" : "switch"
 				}
 
@@ -101,12 +115,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 15.0, 77.0, 19.0 ],
+					"style" : "",
 					"text" : "VIDEO INPUT"
 				}
 
@@ -119,7 +133,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 420.0, 15.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -127,12 +142,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 15.0, 90.0, 19.0 ],
+					"style" : "",
 					"text" : "OSC MESSAGES"
 				}
 
@@ -146,7 +161,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 105.0, 100.0, 19.0 ],
+					"patching_rect" : [ 270.0, 105.0, 100.0, 21.0 ],
+					"style" : "",
 					"text" : "prepend param"
 				}
 
@@ -160,7 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 105.0, 60.0, 17.0 ],
+					"patching_rect" : [ 15.0, 105.0, 60.0, 21.0 ],
+					"style" : "",
 					"text" : "drawto $1"
 				}
 
@@ -174,7 +191,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 75.0, 97.0, 19.0 ],
+					"patching_rect" : [ 270.0, 75.0, 97.0, 21.0 ],
+					"style" : "",
 					"text" : "jcom.pass /xfade"
 				}
 
@@ -188,7 +206,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 75.0, 206.0, 19.0 ],
+					"patching_rect" : [ 15.0, 75.0, 206.0, 21.0 ],
+					"style" : "",
 					"text" : "jcom.oscroute /destination /swapinlets"
 				}
 
@@ -197,12 +216,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 495.0, 15.0, 77.0, 19.0 ],
+					"style" : "",
 					"text" : "VIDEO INPUT"
 				}
 
@@ -215,7 +234,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 570.0, 15.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -227,7 +247,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -235,12 +256,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 210.0, 109.0, 19.0 ],
+					"style" : "",
 					"text" : "TEXTURE OUTPUT"
 				}
 
@@ -252,7 +273,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 210.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 210.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -265,7 +287,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 180.0, 182.0, 20.0 ],
+					"patching_rect" : [ 15.0, 180.0, 182.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.gl.slab @file co.xfade.jxs"
 				}
 
@@ -457,7 +480,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 2,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 643.0, 79.0, 429.0, 760.0 ],
+		"rect" : [ 509.0, 184.0, 559.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,11 +103,11 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 2,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 643.0, 105.0, 429.0, 734.0 ],
+						"rect" : [ 509.0, 210.0, 559.0, 409.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,86 +137,84 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
-									"bubblepoint" : 0.0,
-									"bubbleside" : 2,
-									"id" : "obj-20",
-									"maxclass" : "comment",
+									"id" : "obj-7",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 675.0, 60.0, 39.0 ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 195.0, 180.0, 100.0, 22.0 ],
 									"style" : "",
-									"text" : "video in"
+									"text" : "loadmess 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
-									"bubblepoint" : 0.0,
-									"bubbleside" : 2,
-									"id" : "obj-17",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 675.0, 60.0, 39.0 ],
-									"style" : "",
-									"text" : "map in"
-								}
+									"data" : 									{
+										"clips" : [ 											{
+												"filename" : "C74:/media/jitter/dvkite.mov",
+												"filekind" : "moviefile",
+												"loop" : 1,
+												"content_state" : 												{
+													"outputmode" : [ 1 ],
+													"out_name" : [ "u106000751" ],
+													"dim" : [ 1, 1 ],
+													"output_texture" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"fps" : [ 0.0 ],
+													"time" : [ 0 ],
+													"usedstrect" : [ 0 ],
+													"texture_name" : [ "u794000749" ],
+													"rate" : [ 1.0 ],
+													"cache_size" : [ 0.1 ],
+													"duration" : [ 0 ],
+													"drawto" : [ "" ],
+													"engine" : [ "viddll" ],
+													"loopstart" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"adapt" : [ 1 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"automatic" : [ 0 ],
+													"autostart" : [ 1 ],
+													"timescale" : [ 600 ],
+													"moviefile" : [ "" ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"position" : [ 0.0 ],
+													"vol" : [ 1.0 ],
+													"framereport" : [ 0 ],
+													"loopend" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"unique" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"framecount" : [ 0 ],
+													"interp" : [ 0 ]
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 135.0, 540.0, 120.0, 49.0 ],
-									"style" : "",
-									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 0 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 135.0, 480.0, 120.0, 49.0 ],
-									"style" : "",
-									"text" : "jit.gl.slab @file cf.gaussian.2p.jxs @param width 1 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 315.0, 600.0, 57.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.slab"
-								}
-
-							}
-, 							{
-								"box" : 								{
+											}
+ ]
+									}
+,
 									"id" : "obj-8",
-									"linecount" : 3,
+									"maxclass" : "jit.playlist",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "", "dictionary" ],
+									"patching_rect" : [ 195.0, 210.0, 150.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 135.0, 600.0, 150.0, 49.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 180.0, 100.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.slab @file tp.slide.jxs @param slide_up 2 @param slide_down 2"
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -226,88 +224,67 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 135.0, 450.0, 153.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.texture @dim 200 200"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 420.0, 33.0 ],
-									"style" : "",
-									"text" : "Original technique, Javascript and shader by Andrew Benson:\nhttps://cycling74.com/forums/topic/slit-scan-time-warp-map/#.VzF6gRUrJE4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 120.0, 47.0, 22.0 ],
-									"style" : "",
-									"text" : "reset"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 135.0, 150.0, 159.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.handle timespace_help"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-19",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 330.0, 39.0, 22.0 ],
-									"style" : "",
-									"text" : "close"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 330.0, 37.0, 22.0 ],
-									"style" : "",
-									"text" : "open"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 375.0, 149.0, 22.0 ],
+									"patching_rect" : [ 15.0, 315.0, 100.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.grab @output_texture 1"
+									"text" : "jit.gl.videoplane"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"data" : 									{
+										"clips" : [ 											{
+												"filename" : "wheel.mov",
+												"filekind" : "moviefile",
+												"loop" : 1,
+												"content_state" : 												{
+													"outputmode" : [ 1 ],
+													"out_name" : [ "u237004501" ],
+													"dim" : [ 1, 1 ],
+													"output_texture" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"fps" : [ 0.0 ],
+													"time" : [ 0 ],
+													"usedstrect" : [ 0 ],
+													"texture_name" : [ "u390004499" ],
+													"rate" : [ 1.0 ],
+													"cache_size" : [ 0.1 ],
+													"duration" : [ 0 ],
+													"drawto" : [ "" ],
+													"engine" : [ "avf" ],
+													"loopstart" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"adapt" : [ 1 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"automatic" : [ 0 ],
+													"autostart" : [ 1 ],
+													"timescale" : [ 600 ],
+													"moviefile" : [ "" ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"position" : [ 0.0 ],
+													"vol" : [ 1.0 ],
+													"framereport" : [ 0 ],
+													"loopend" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"unique" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"framecount" : [ 0 ],
+													"interp" : [ 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-2",
+									"maxclass" : "jit.playlist",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "", "dictionary" ],
+									"patching_rect" : [ 15.0, 210.0, 150.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -318,9 +295,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 195.0, 449.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world timespace_help @erase_color 0 0 0 1 @shared 1 @fsmenubar 0 @fsaa 1"
+									"text" : "jit.world default @enable 1"
 								}
 
 							}
@@ -332,7 +309,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 150.0, 86.0, 22.0 ],
+									"patching_rect" : [ 15.0, 120.0, 86.0, 22.0 ],
 									"style" : "",
 									"text_width" : 65.0
 								}
@@ -341,7 +318,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "timespace" ],
+									"args" : [ "xfade" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -350,12 +327,12 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "gl_timespace.view.maxpat",
+									"name" : "gl_co_xfade.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 240.0, 300.0, 70.0 ],
+									"patching_rect" : [ 225.0, 90.0, 300.0, 70.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 									"viewvisibility" : 1
 								}
@@ -363,21 +340,24 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Spatially-mapped video delay.",
+									"annotation" : "Shader-based crossfade effect.",
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 720.0, 175.0, 22.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 15.0, 270.0, 144.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_timespace.model timespace"
+									"text" : "gl_co_xfade.model xfade"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_timespace.model", "@description", "Spatially-mapped video delay." ],
+									"args" : [ "@name", "gl_co_xfade.model", "@description", "Slab-based crossfade effect." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -400,67 +380,10 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 324.5, 624.0, 297.0, 624.0, 297.0, 594.0, 275.5, 594.0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 84.5, 363.0, 24.5, 363.0 ],
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 430.5, 144.5, 430.5 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -469,8 +392,16 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 430.5, 24.5, 430.5 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -485,21 +416,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 144.5, 183.0, 24.5, 183.0 ],
 									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 144.5, 660.0, 300.0, 660.0, 300.0, 594.0, 324.5, 594.0 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -512,20 +432,10 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 24.5, 363.0, 24.5, 363.0 ],
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 6.21875, 54.0, 86.0, 24.0 ],
+					"patching_rect" : [ 6.21875, 54.0, 84.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -535,7 +445,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p timespace",
+					"text" : "p gridshape",
 					"varname" : "basic"
 				}
 
@@ -554,11 +464,11 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 2,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 429.0, 734.0 ],
+						"rect" : [ 0.0, 26.0, 559.0, 409.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -590,7 +500,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 20.21875, 162.0, 50.0, 22.0 ],
+					"patching_rect" : [ 20.21875, 162.0, 50.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -620,15 +530,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_timespace.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
+				"name" : "gl_co_xfade.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsglbuffer.js",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -638,8 +542,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_timespace.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_timespace",
+				"name" : "gl_co_xfade.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -662,11 +566,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
+				"name" : "wheel.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "dvkite.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -674,7 +586,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -687,6 +603,10 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],
