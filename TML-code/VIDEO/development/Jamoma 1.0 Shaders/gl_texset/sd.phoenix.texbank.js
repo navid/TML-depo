@@ -51,8 +51,8 @@ function count(c, context)
 	for (var i=0;i<vcount; i++) {
 		bank[i] = new JitterObject("jit.gl.texture");
 		bank[i].drawto = context;
-		bank[i].adapt = 1;
-		bank[i].colormode = "uyvy"; 
+//		bank[i].adapt = 1;
+//		bank[i].colormode = "uyvy"; 
 	}
 }
 
