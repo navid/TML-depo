@@ -5,7 +5,7 @@
 volatile int NbTopsFan; //measuring the rising edges of the signal
 int Calc;                              
 int hallsensor = 2;    //The pin location of the sensor
-int DevNum = 0;        //device number (unique number for each flow sensor)
+int DevNum = 2;        //device number (unique number for each flow sensor)
 
 void rpm ()     //This is the function that the interupt calls
 {
@@ -24,7 +24,7 @@ void loop ()
 {
  NbTopsFan = 0;      //Set NbTops to 0 ready for calculations
  sei();            //Enables interrupts
- delay (500);       //Wait 10ms
+ delay (10);       //Wait 10ms
  cli();            //Disable interrupts
  Calc = (NbTopsFan * 60 / 7.5); //(Pulse frequency x 60) / 7.5Q, = flow rate in L/hour
  Serial.print (DevNum, DEC); //Prints Device Number (unique number for each flow sensor)
