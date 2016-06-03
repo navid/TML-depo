@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 879.0, 79.0, 1727.0, 1323.0 ],
+		"rect" : [ 255.0, 81.0, 1727.0, 1323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -305,7 +305,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 342.0, 803.0, 122.0, 22.0 ],
 					"style" : "",
 					"text" : "runningwater4_clone"
@@ -2338,23 +2338,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "runningwater4_clone.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "waterflow~.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "imp.artnet.controller.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "icst.fexpr~.mxo",
 				"type" : "iLaX"
 			}
  ],
