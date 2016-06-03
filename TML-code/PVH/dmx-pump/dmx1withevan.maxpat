@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 255.0, 81.0, 1727.0, 1323.0 ],
+		"rect" : [ 194.0, 78.0, 1727.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1050,7 +1050,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 156.0, 150.0, 60.0 ],
 					"style" : "",
-					"text" : "1: ?\n2: Mister\n3: ?\n4: Dripper"
+					"text" : "1: Boiler\n2: Dripper\n3: Magnet\n4: [n/a] Freezer"
 				}
 
 			}
