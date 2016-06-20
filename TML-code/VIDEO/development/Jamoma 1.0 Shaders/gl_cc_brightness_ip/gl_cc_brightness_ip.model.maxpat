@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 78.0, 86.0, 473.0, 536.0 ],
+		"rect" : [ 258.0, 79.0, 1187.0, 348.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,14 +40,14 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-2",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 135.0, 147.0, 21.0 ],
+					"patching_rect" : [ 75.0, 150.0, 143.0, 21.0 ],
 					"style" : "",
-					"text" : "prepend param slide_down"
+					"text" : "prepend param brightness"
 				}
 
 			}
@@ -56,77 +56,31 @@
 					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-3",
-					"linecount" : 4,
+					"id" : "obj-7",
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 60.0, 150.0, 57.0 ],
+					"patching_rect" : [ 75.0, 60.0, 135.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter slide_down @type decimal @range 0. 200. @description slide down @clipmode both",
-					"varname" : "tolerance[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-124",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 165.0, 195.0, 57.0, 21.0 ],
-					"style" : "",
-					"text" : "jit.gl.slab"
+					"text" : "j.parameter alpha @type decimal @range 0. 10. @description \"Brightness amount.\" @clipmode none",
+					"varname" : "tolerance[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-118",
+					"fontsize" : 11.934731,
+					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 240.0, 147.0, 22.0 ],
+					"patching_rect" : [ 15.0, 195.0, 192.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.slab @file tp.slide.jxs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 135.0, 133.0, 21.0 ],
-					"style" : "",
-					"text" : "prepend param slide_up"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-5",
-					"linecount" : 4,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 60.0, 135.0, 57.0 ],
-					"style" : "",
-					"text" : "j.parameter slide_up @type decimal @range 0. 200. @description slide up @clipmode both",
-					"varname" : "tolerance[1]"
+					"text" : "jit.gl.slab @file cc.brightness.ip.jxs"
 				}
 
 			}
@@ -158,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 285.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 225.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -173,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 120.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 150.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -190,9 +144,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 195.0, 198.0, 33.0 ],
+					"patching_rect" : [ 225.0, 60.0, 195.0, 33.0 ],
 					"style" : "",
-					"text" : "j.model @description \"Shader-based temporal interpolation.\"",
+					"text" : "j.model @description \"Shader-based brightness adjustment.\"",
 					"varname" : "jmod.hub"
 				}
 
@@ -204,7 +158,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 240.0, 25.0, 25.0 ],
+					"patching_rect" : [ 225.0, 105.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -217,7 +171,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 75.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -229,7 +183,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 330.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 270.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -246,65 +200,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-124", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 24.5, 273.0, 241.0, 273.0, 241.0, 185.0, 174.5, 185.0 ],
-					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 174.5, 227.5, 152.5, 227.5 ],
-					"source" : [ "obj-124", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 114.5, 165.5, 24.5, 165.5 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 294.5, 166.5, 24.5, 166.5 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
@@ -331,14 +227,57 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 84.5, 182.5, 24.5, 182.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
- ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

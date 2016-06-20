@@ -48,7 +48,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_tp_slide.view.maxpat",
+					"name" : "gl_cc_brightness_ip.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -62,7 +62,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based temporal interpolation.",
+					"annotation" : "Shader-based brightness adjustment.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -70,9 +70,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 135.0, 121.0, 22.0 ],
+					"patching_rect" : [ 15.0, 140.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_tp_slide.model #1",
+					"text" : "gl_cc_brightness_ip.model #1",
 					"varname" : "j.model"
 				}
 
@@ -155,7 +155,77 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "gl_cc_brightness_ip.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brightness_ip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_cc_brightness_ip.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brightness_ip",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.panel.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
