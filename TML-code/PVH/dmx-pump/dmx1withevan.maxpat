@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 879.0, 79.0, 1727.0, 1323.0 ],
+<<<<<<< HEAD
+		"rect" : [ 799.0, 79.0, 1727.0, 1323.0 ],
+=======
+		"rect" : [ 84.0, 78.0, 1727.0, 999.0 ],
+>>>>>>> origin/master
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1050,7 +1054,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 156.0, 150.0, 60.0 ],
 					"style" : "",
-					"text" : "1: ?\n2: Mister\n3: ?\n4: Dripper"
+					"text" : "1: Boiler\n2: Dripper\n3: Magnet\n4: [n/a] Freezer"
 				}
 
 			}
@@ -2339,22 +2343,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "runningwater4_clone.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
+				"bootpath" : "~/src/max/TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "waterflow~.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
+				"bootpath" : "~/src/max/TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imp.artnet.controller.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "icst.fexpr~.mxo",
 				"type" : "iLaX"
 			}
  ],
