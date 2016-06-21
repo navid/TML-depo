@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -51,12 +51,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 38.0, 219.0, 1135.0, 559.0 ],
+						"rect" : [ 77.0, 355.0, 1135.0, 559.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
@@ -132,7 +132,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "//Thanks to Rob Ramirez for corrections and optimization\r\nbw1(coords){\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\n\treturn lm1.r + lm1.g + lm1.b;\n}\n\nuv = norm;\n\nof = vec(1.0 / 128.0, 0.0);\n\nbwColor = sqrt(fastpow(abs(bw1(uv) - bw1(uv + of.xx)), 2.0) + fastpow(abs(bw1(uv + of.xy) - bw1(uv + of.yx)), 2.0));\nout1 = bwColor;",
+									"code" : "//Thanks to Rob Ramirez for corrections and optimization\r\n\r\nbw1(coords){\n\tlm1 = sample(in1, coords) * vec(0.21, 0.71, 0.07, 1.0);\n\treturn lm1.r + lm1.g + lm1.b;\n}\n\r\nParam weight(1.);\r\n\nuv = norm;\n\nof = vec(weight / 128., 0.0);\n\nbwColor = sqrt(fastpow(abs(bw1(uv) - bw1(uv + of.xx)), 2.0) + fastpow(abs(bw1(uv + of.xy) - bw1(uv + of.yx)), 2.0));\n\r\nout1 = bwColor;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -307,7 +307,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}

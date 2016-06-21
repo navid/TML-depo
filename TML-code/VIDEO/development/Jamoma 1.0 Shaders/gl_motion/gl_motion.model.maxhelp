@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 826.0, 155.0, 501.0, 420.0 ],
+		"rect" : [ 854.0, 344.0, 688.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 826.0, 181.0, 501.0, 394.0 ],
+						"rect" : [ 854.0, 370.0, 688.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,64 +137,14 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 90.0, 150.0, 33.0 ],
-									"style" : "",
-									"text" : "under construction!\n"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 225.0, 39.0, 22.0 ],
-									"style" : "",
-									"text" : "close"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 90.0, 180.0, 79.0, 22.0 ],
-									"style" : "",
-									"text" : "s drawbang_"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 225.0, 37.0, 22.0 ],
-									"style" : "",
-									"text" : "open"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 255.0, 220.0, 22.0 ],
+									"patching_rect" : [ 15.0, 240.0, 377.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.grab @output_texture 1"
+									"text" : "jit.movie @moviefile bball.mov @vol 0 @unique 1 @output_texture 1"
 								}
 
 							}
@@ -205,9 +155,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 360.0, 100.0, 22.0 ],
+									"patching_rect" : [ 15.0, 330.0, 242.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane"
+									"text" : "jit.gl.videoplane default @transform_reset 2"
 								}
 
 							}
@@ -218,9 +168,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 155.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world vf_help @enable 1"
+									"text" : "jit.world default @enable 1"
 								}
 
 							}
@@ -241,7 +191,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "vf" ],
+									"args" : [ "gl_motion" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -250,20 +200,20 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "gl_pix_vf.view.maxpat",
+									"name" : "gl_motion.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 255.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+									"patching_rect" : [ 210.0, 120.0, 300.0, 105.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Robert's Cross edge detection implemented in jit.gl.pix.",
+									"annotation" : "GL equivalent of jmod.motion%, not including contraction.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -272,15 +222,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 315.0, 107.0, 22.0 ],
+									"patching_rect" : [ 15.0, 285.0, 154.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_pix_vf.model vf"
+									"text" : "gl_motion.model gl_motion"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_pix_vf.model", "@description", "Unfortunately-titled cellular automata shader from Shadertoy." ],
+									"args" : [ "@name", "gl_motion.model", "@description", "GL-based recreation of j.motion%. Currently does not output xy or centroids, or draw bounding box." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -293,7 +243,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 0.0, 0.0, 440.0, 68.0 ],
+									"patching_rect" : [ 0.0, 0.0, 585.0, 75.0 ],
 									"prototypename" : "bphelp",
 									"varname" : "maxhelpui",
 									"viewvisibility" : 1
@@ -303,37 +253,10 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 1 ]
 								}
 
 							}
@@ -348,10 +271,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -391,7 +314,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 688.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -453,8 +376,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_vf.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_vf",
+				"name" : "gl_motion.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_motion",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_rgb2luma%.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/gl_rgb2luma%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_cf_gaussian_2p.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -465,8 +400,32 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_vf.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_vf",
+				"name" : "gl_pix_thresh.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_thresh",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_slide.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_slide",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_roberts.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_roberts",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_sobel.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_pix_sobel",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_motion.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -505,6 +464,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -514,10 +477,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],
