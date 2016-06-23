@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1322.0, 302.0, 831.0, 813.0 ],
+		"rect" : [ 261.0, 162.0, 182.0, 323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 31.0, 204.0, 53.0 ],
+					"patching_rect" : [ 236.0, 31.0, 207.0, 53.0 ],
 					"style" : "",
 					"text" : "IDENTICAL to dmx2_compress\n--except pump turns on when valve is activated."
 				}
@@ -1240,13 +1240,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "imp.artnet.controller.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
