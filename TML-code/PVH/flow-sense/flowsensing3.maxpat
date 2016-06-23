@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 335.0, 96.0, 1769.0, 1020.0 ],
+		"rect" : [ 1134.0, 168.0, 1480.0, 1020.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -332,7 +332,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 500.0, 217.0, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "serial a 9600"
+					"text" : "serial c 9600"
 				}
 
 			}
