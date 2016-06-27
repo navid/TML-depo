@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 703.0, 79.0, 681.0, 859.0 ],
+		"rect" : [ 264.0, 79.0, 1002.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -215,46 +215,6 @@
 					"patching_rect" : [ 442.0, 915.0, 72.0, 21.0 ],
 					"style" : "",
 					"text" : "unpack 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "Motion-related analysis",
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 525.0, 345.0, 93.0, 22.0 ],
-					"style" : "",
-					"text" : "motion%.model"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 585.0, 495.0, 100.0, 22.0 ],
-					"style" : "",
-					"text" : "motion%.module"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 585.0, 600.0, 63.0, 22.0 ],
-					"style" : "",
-					"text" : "j.motion%"
 				}
 
 			}
@@ -1162,43 +1122,43 @@
 			}
 , 			{
 				"name" : "gl_bgsub.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_bgsub.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_bgsub.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_bgsub",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_cf_gaussian_2p.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_cf_gaussian_2p.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_cf_gaussian_2p.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.readback%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_05",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_05",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1210,19 +1170,19 @@
 			}
 , 			{
 				"name" : "gl_pix_thresh.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1241,66 +1201,6 @@
 , 			{
 				"name" : "gl_rota.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.motion%.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "motion%.module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/video/fx/motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "motion%.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/video/fx/motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.checkplanes%.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/checkplanes%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.absdiff.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.autoscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.passmatrixinfo%.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/passmatrixinfo%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.rgb2luma%.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/rgb2luma%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "motion%.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/video/fx/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1358,18 +1258,6 @@
 			}
 , 			{
 				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.pass.mxo",
 				"type" : "iLaX"
 			}
  ],
