@@ -14,8 +14,8 @@ diffMode 0
 filter/mode 1
 filter/samples 10
 offset 0.000000
-pre-slide/down 0
-pre-slide/up 0
+pre-slide/down 3
+pre-slide/up 3
 ramp/grain 1
 ramp/time 0
 scale/input/max 100.000000
