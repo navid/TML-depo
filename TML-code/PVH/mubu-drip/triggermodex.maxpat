@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 63.0, 103.0, 640.0, 480.0 ],
+		"rect" : [ 63.0, 103.0, 1003.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -121,7 +121,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 866.0, 5.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -441,7 +441,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1.0, 5.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -1947,9 +1947,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 588.0, 67.0, 19.0 ],
+					"patching_rect" : [ 61.0, 588.0, 72.0, 19.0 ],
 					"style" : "",
-					"text" : "s 1-concatinfo"
+					"text" : "s #1-concatinfo"
 				}
 
 			}
@@ -2607,13 +2607,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
