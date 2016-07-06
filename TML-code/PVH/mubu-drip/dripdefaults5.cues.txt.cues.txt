@@ -170,7 +170,7 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain 0.000000
+/concatout3/audio/gain -6.787295
 /concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
@@ -181,8 +181,8 @@
 /concatout3/saturation/depth 10.000000
 /concatout3/saturation/mode 0.000000
 /concatout3/saturation/preamp 0.000000
-/concatout3/ch.1 4
-/concatout3/ch.2 4
+/concatout3/ch.1 1
+/concatout3/ch.2 2
 # 
 # 
 /dripmic1/limiter/dcblocker/active 0
@@ -259,8 +259,8 @@
 /dripmic3/saturation/depth 10.000000
 /dripmic3/saturation/mode 0.000000
 /dripmic3/saturation/preamp 0.000000
-/dripmic3/ch.1 4
-/dripmic3/ch.2 4
+/dripmic3/ch.1 1
+/dripmic3/ch.2 2
 # 
 /rhythmmic1/audio/bypass 0
 /rhythmmic1/audio/gain 0.000000
@@ -367,8 +367,8 @@
 /rhythmmic3/filter.3/gain 0.000000
 /rhythmmic3/filter.3/octave_bandwidth 1.000000
 /rhythmmic3/filter.4/type lowpass
-/rhythmmic3/filter.4/frequency 3741.417969
-/rhythmmic3/filter.4/gain 0.000000
+/rhythmmic3/filter.4/frequency 2799.877441
+/rhythmmic3/filter.4/gain -1.316775
 /rhythmmic3/filter.4/octave_bandwidth 0.891780
 /rhythmmic3/bands 4
 # 
