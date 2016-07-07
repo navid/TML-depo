@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 785.0, 78.0, 621.0, 749.0 ],
+		"rect" : [ 764.0, 78.0, 621.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 38.0, 213.0, 1450.0, 671.0 ],
+						"rect" : [ 880.0, 320.0, 1450.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -79,7 +79,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "Noise gate.",
@@ -9544,7 +9543,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 256.0, 78.0, 1072.0, 788.0 ],
+						"rect" : [ 250.0, 404.0, 1121.0, 788.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -9631,7 +9630,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-6",
@@ -11820,7 +11818,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -17478,7 +17475,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 392.0, 78.0, 590.0, 788.0 ],
+										"rect" : [ 747.0, 150.0, 590.0, 788.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -17505,7 +17502,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"annotation" : "none",
@@ -23308,8 +23304,8 @@
 			"obj-51::obj-152::obj-5::obj-46" : [ "live.text[136]", "live.text", 0 ],
 			"obj-51::obj-133::obj-118::obj-1::obj-12::obj-6" : [ "live.text[44]", "live.text", 0 ],
 			"obj-51::obj-133::obj-124::obj-1::obj-104" : [ "live.dial[21]", "Depth", 0 ],
-			"obj-51::obj-133::obj-122::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-51::obj-133::obj-122::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-51::obj-133::obj-122::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-51::obj-148::obj-142::obj-1::obj-48" : [ "live.menu[33]", "live.menu", 0 ],
 			"obj-51::obj-272::obj-5::obj-45" : [ "live.text[139]", "live.text", 0 ],
 			"obj-51::obj-133::obj-45::obj-1::obj-12::obj-27" : [ "Threshold[9]", "Threshold", 0 ],
@@ -23319,8 +23315,8 @@
 			"obj-51::obj-272::obj-5::obj-46" : [ "live.text[135]", "live.text", 0 ],
 			"obj-51::obj-133::obj-45::obj-1::obj-12::obj-15" : [ "Postamp[9]", "Postamp", 0 ],
 			"obj-51::obj-133::obj-118::obj-1::obj-17" : [ "Master Gain[7]", "Master Gain", 0 ],
-			"obj-51::obj-133::obj-122::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
 			"obj-51::obj-133::obj-122::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
+			"obj-51::obj-133::obj-122::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
 			"obj-51::obj-148::obj-144::obj-1::obj-1::obj-30" : [ "live.menu[35]", "live.menu", 0 ],
 			"obj-51::obj-274::obj-5::obj-19" : [ "live.numbox[59]", "live.numbox", 0 ],
 			"obj-51::obj-133::obj-45::obj-1::obj-106" : [ "live.dial[32]", "Release", 0 ],
@@ -23342,8 +23338,8 @@
 			"obj-51::obj-296::obj-5::obj-6" : [ "live.numbox[68]", "live.numbox[4]", 0 ],
 			"obj-51::obj-133::obj-45::obj-1::obj-99" : [ "live.menu[23]", "live.menu[2]", 0 ],
 			"obj-51::obj-133::obj-128::obj-1::obj-104" : [ "live.dial[24]", "Depth", 0 ],
-			"obj-51::obj-133::obj-122::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
 			"obj-51::obj-133::obj-122::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
+			"obj-51::obj-133::obj-122::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
 			"obj-51::obj-148::obj-136::obj-1::obj-55" : [ "Master Gain[15]", "Master Gain", 0 ],
 			"obj-51::obj-148::obj-145::obj-1::obj-1::obj-12" : [ "Lookahead[12]", "Lookahead", 0 ],
 			"obj-51::obj-295::obj-5::obj-17" : [ "live.numbox[63]", "live.numbox", 0 ],
