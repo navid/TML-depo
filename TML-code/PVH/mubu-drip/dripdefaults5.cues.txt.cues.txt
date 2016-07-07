@@ -118,7 +118,7 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -96.000000
+/concatout1/audio/gain -4.434047
 /concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
@@ -144,7 +144,7 @@
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain -96.000000
+/concatout2/audio/gain -5.892428
 /concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
