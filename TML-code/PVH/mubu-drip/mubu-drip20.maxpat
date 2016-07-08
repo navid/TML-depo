@@ -9609,7 +9609,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 90.0, 456.0, 1367.0, 758.0 ],
+						"rect" : [ 19.0, 78.0, 1367.0, 758.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -9742,15 +9742,16 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 0,
 									"id" : "obj-604",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 360.0, 150.0, 37.0 ],
+									"patching_rect" : [ 450.0, 360.0, 150.0, 52.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 903.624878, 655.5, 115.0, 37.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 808.124878, 690.5, 93.5, 66.0 ],
 									"style" : "",
 									"text" : "Select to start recording buffer"
 								}
@@ -17108,7 +17109,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1347.0, 769.375, 315.0, 301.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 588.023438, 1248.083252, 32.953125 ],
+									"presentation_rect" : [ 220.083252, 588.023438, 879.083374, 32.953125 ],
 									"proportion" : 0.39,
 									"style" : ""
 								}
