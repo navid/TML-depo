@@ -2,45 +2,57 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 820.0, 44.0, 640.0, 480.0 ],
+		"rect" : [ 537.0, 125.0, 640.0, 281.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@name", "jcom.nav.clip~", "@description" ],
+					"args" : [ "@name", "j.nav.clip~", "@description", "limit the range of a signal" ],
 					"bgmode" : 1,
-					"id" : "obj-136",
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-14",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "jcom.maxhelpui.maxpat",
+					"name" : "j.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 640.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 135.0, 1040.0, 70.0 ],
-					"prototypename" : "bphelp",
-					"varname" : "maxhelpui"
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 0.0, 0.0, 600.0, 60.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -49,12 +61,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"frgb" : 0.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 483.0, 208.5, 79.0, 25.0 ],
+					"patching_rect" : [ 510.0, 90.0, 79.0, 25.0 ],
+					"style" : "",
 					"text" : "start dsp"
 				}
 
@@ -67,33 +79,39 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 199.0, 44.0, 44.0 ]
+					"patching_rect" : [ 465.0, 75.0, 44.0, 44.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.964706, 0.964706, 0.964706, 1.0 ],
 					"border" : 2,
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 199.0, 44.0, 44.0 ]
+					"patching_rect" : [ 465.0, 75.0, 44.0, 44.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.529412, 0.529412, 0.529412, 1.0 ],
+					"fgcolor" : [ 0.403, 1.0, 0.2, 1.0 ],
+					"gridcolor" : [ 0.33, 0.33, 0.33, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 335.0, 200.0, 70.0 ],
-					"presentation_rect" : [ 363.0, 395.0, 0.0, 0.0 ],
-					"rounded" : 0
+					"patching_rect" : [ 360.0, 195.0, 200.0, 70.0 ],
+					"style" : ""
 				}
 
 			}
@@ -106,8 +124,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 361.0, 139.0, 58.0, 21.0 ],
-					"presentation_rect" : [ 364.0, 142.0, 0.0, 0.0 ],
+					"patching_rect" : [ 360.0, 75.0, 58.0, 23.0 ],
+					"style" : "",
 					"text" : "cycle~ 2"
 				}
 
@@ -115,12 +133,14 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.529412, 0.529412, 0.529412, 1.0 ],
+					"fgcolor" : [ 0.403, 1.0, 0.2, 1.0 ],
+					"gridcolor" : [ 0.33, 0.33, 0.33, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 335.0, 200.0, 70.0 ],
-					"rounded" : 0
+					"patching_rect" : [ 15.0, 195.0, 200.0, 70.0 ],
+					"style" : ""
 				}
 
 			}
@@ -133,7 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 81.0, 139.0, 58.0, 21.0 ],
+					"patching_rect" : [ 15.0, 75.0, 59.0, 23.0 ],
+					"style" : "",
 					"text" : "cycle~ 2"
 				}
 
@@ -142,14 +163,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-25",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.5, 224.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 283.0, 205.0, 0.0, 0.0 ]
+					"patching_rect" : [ 210.0, 75.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -157,13 +179,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-24",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 267.0, 224.0, 50.0, 20.0 ]
+					"patching_rect" : [ 270.0, 75.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -176,7 +200,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 249.0, 130.0, 20.0 ],
+					"patching_rect" : [ 165.0, 120.0, 130.0, 22.0 ],
+					"style" : "",
 					"text" : "pak /minMax 0. 1."
 				}
 
@@ -190,23 +215,27 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 199.0, 61.0, 18.0 ],
+					"patching_rect" : [ 90.0, 120.0, 61.0, 22.0 ],
+					"style" : "",
 					"text" : "/mode $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"allowdrag" : 0,
 					"annotation" : "Turn clipping on/off.",
 					"arrow" : 0,
-					"arrowbgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
-					"arrowframe" : 0,
-					"arrowlink" : 0,
 					"bgcolor" : [ 0.839216, 0.827451, 0.882353, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_color" : [ 0.839216, 0.827451, 0.882353, 0.0 ],
+					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"framecolor" : [ 0.0, 0.0, 0.0, 0.137255 ],
 					"hint" : "clip (none, both, low, high)",
 					"id" : "obj-10",
 					"items" : [ "----", ",", "|---", ",", "---|", ",", "|--|", ",", "fold", ",", "wrap" ],
@@ -215,12 +244,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.0, 176.0, 39.0, 17.0 ],
+					"patching_rect" : [ 90.0, 75.0, 39.0, 19.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 270.0, 32.0, 17.0 ],
-					"rounded" : 5,
-					"togcolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+					"presentation_rect" : [ 73.0, 270.0, 32.0, 19.0 ],
+					"style" : "",
+					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
 					"varname" : "clipp"
 				}
 
@@ -234,8 +263,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 81.0, 281.0, 86.0, 20.0 ],
-					"text" : "jcom.nav.clip~"
+					"patching_rect" : [ 15.0, 165.0, 63.0, 22.0 ],
+					"style" : "",
+					"text" : "j.nav.clip~"
 				}
 
 			}
@@ -248,8 +278,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 362.0, 281.0, 243.0, 20.0 ],
-					"text" : "jcom.nav.clip~ @mode 3 @minMax -0.4 0.4"
+					"patching_rect" : [ 360.0, 165.0, 220.0, 22.0 ],
+					"style" : "",
+					"text" : "j.nav.clip~ @mode 3 @minMax -0.4 0.4"
 				}
 
 			}
@@ -277,6 +308,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 174.5, 153.0, 24.5, 153.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -295,6 +327,7 @@
 					"destination" : [ "obj-20", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 279.5, 108.0, 285.5, 108.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -304,6 +337,7 @@
 					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 219.5, 108.0, 230.0, 108.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -331,70 +365,36 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 99.5, 153.0, 24.5, 153.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.nav.clip~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/Components",
-				"patcherrelativepath" : ".",
+				"name" : "j.nav.clip~.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.clip~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.maxhelpui.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"name" : "j.maxhelpui.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"name" : "j.maxhelpuiButton.png",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.maxhelpuiResize.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.jamomaPath.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/jamomaPath",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "jcom.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
-				"type" : "iLaX"
-			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
