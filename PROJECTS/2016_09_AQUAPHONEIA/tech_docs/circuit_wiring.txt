@@ -1,0 +1,26 @@
+-------
+BOIL
+-------
+
+1) Stove (1500w/12.5A) --> Circuit 1 (c21)
+2) Rest --> Circuit 2 (c19)
+
+-------
+DRIP
+-------
+
+1) Element 1 --> Circuit 3 (c10)
+2) Element 2 --> Circuit 3 (c10)
+3) Amps/Computers/etc. --> Circuit 4 (c17)
+4) Dimmer pack --> Circuit 7 (c4)
+	a) Pump
+	b) Magnet
+	c) Edison Motor
+	d) Steam switch
+
+-------
+WHIRL
+-------
+
+1) Transducer Amplifier --> Circuit 5 (c12)
+2) Rest --> Circuit 6 (c12 *actually on circuit 5/20a*)
