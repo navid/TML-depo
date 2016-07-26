@@ -30,11 +30,13 @@ RME Fireface OUT
 
 RME Fireface IN
 
-1) L Top Piezo
-2) R Top Piezo
-3) L Bottom Piezo
-4) L Element Piezo
-5) R Element Piezo
+7) Cone (+48v) 
+8) L Top Piezo
+9) R Top Piezo
+10) L Bottom Piezo
+(through Motu Traveler)
+1) L Element Piezo
+2) R Element Piezo
 
 -------
 BOIL
