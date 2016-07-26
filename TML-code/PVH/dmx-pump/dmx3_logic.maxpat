@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 693.0, 92.0, 719.0, 824.0 ],
+		"rect" : [ 1402.0, 220.0, 2492.0, 1323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -877,9 +877,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 89.0, 510.0, 294.0, 22.0 ],
+					"patching_rect" : [ 89.0, 528.0, 433.0, 22.0 ],
 					"style" : "",
-					"text" : "imp.artnet.controller @unicast 0 @alt_broadcast_ip 1"
+					"text" : "imp.artnet.controller @unicast 0 @alt_broadcast_ip 1 @mode 4 @framerate 20"
 				}
 
 			}

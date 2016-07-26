@@ -23,4 +23,4 @@ WHIRL
 -------
 
 1) Transducer Amplifier --> Circuit 5 (c12)
-2) Rest --> Circuit 6 (c12 *actually on circuit 5/20a*)
+2) Rest --> Circuit 6 (c12 *actually sharing with amp, circuit 5/20a*)
