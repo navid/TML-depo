@@ -109,10 +109,10 @@
 /concatout1/audio/gain -96.000000
 /concatout1/audio/mute 0
 # 
-/concatout2/audio/gain -2.366843
-/concatout2/audio/mute 0
+/concatout2/audio/gain -3.243910
+/concatout2/audio/mute 1
 # 
-/concatout3/audio/gain 0.136322
+/concatout3/audio/gain 0.000000
 /concatout3/audio/mute 0
 # 
 # 
@@ -153,8 +153,8 @@
 # 
 /dripmic2/record/file/type aiff
 /dripmic2/record/samptype int24
-/dripmic2/audio/gain -29.826025
-/dripmic2/audio/mute 0
+/dripmic2/audio/gain -13.913414
+/dripmic2/audio/mute 1
 # 
 /dripmic2/balance/mode FastMode
 /dripmic2/balance/position 0.007874
@@ -179,7 +179,7 @@
 # 
 /dripmic3/record/file/type aiff
 /dripmic3/record/samptype int24
-/dripmic3/audio/gain -19.454085
+/dripmic3/audio/gain -9.492144
 /dripmic3/audio/mute 0
 # 
 /dripmic3/balance/mode FastMode
