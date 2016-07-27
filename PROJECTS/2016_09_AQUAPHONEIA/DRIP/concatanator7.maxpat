@@ -124,7 +124,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 305.0, 485.0, 640.0, 480.0 ],
+						"rect" : [ 742.0, 517.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -151,7 +151,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
