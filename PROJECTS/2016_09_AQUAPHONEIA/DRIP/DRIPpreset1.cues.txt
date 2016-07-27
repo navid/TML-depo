@@ -38,8 +38,8 @@
 /target1/input/limiter/preamp 0.000000
 /target1/input/limiter/release 1000.000000
 /target1/input/limiter/threshold 0.000000
-/target1/input/channel.L 8
-/target1/input/channel.R 8
+/target1/input/channel.L 1
+/target1/input/channel.R 1
 /target1/audio/gain 0.000000
 /target1/audio/mute 0
 # 
@@ -106,11 +106,11 @@
 /target3/testtone/frequency 1000
 /target3/source live
 # 
-/concatout1/audio/gain -96.000000
+/concatout1/audio/gain -0.025420
 /concatout1/audio/mute 0
 # 
-/concatout2/audio/gain -3.243910
-/concatout2/audio/mute 1
+/concatout2/audio/gain -8.063121
+/concatout2/audio/mute 0
 # 
 /concatout3/audio/gain 0.000000
 /concatout3/audio/mute 0
@@ -121,13 +121,13 @@
 /dripmic1/limiter/lookahead 64
 /dripmic1/limiter/mode exponential
 /dripmic1/limiter/postamp 0.000000
-/dripmic1/limiter/preamp 6.000000
+/dripmic1/limiter/preamp 8.409452
 /dripmic1/limiter/release 300.000000
 /dripmic1/limiter/threshold -1.000000
 # 
 /dripmic1/record/file/type aiff
 /dripmic1/record/samptype int24
-/dripmic1/audio/gain -96.000000
+/dripmic1/audio/gain -14.025626
 /dripmic1/audio/mute 0
 # 
 /dripmic1/balance/mode FastMode
@@ -138,8 +138,8 @@
 /dripmic1/saturation/depth 10.000000
 /dripmic1/saturation/mode 0.000000
 /dripmic1/saturation/preamp 0.000000
-/dripmic1/ch.1 3
-/dripmic1/ch.2 3
+/dripmic1/ch.1 7
+/dripmic1/ch.2 7
 # 
 # 
 /dripmic2/limiter/dcblocker/active 0
@@ -153,8 +153,8 @@
 # 
 /dripmic2/record/file/type aiff
 /dripmic2/record/samptype int24
-/dripmic2/audio/gain -13.913414
-/dripmic2/audio/mute 1
+/dripmic2/audio/gain -24.784478
+/dripmic2/audio/mute 0
 # 
 /dripmic2/balance/mode FastMode
 /dripmic2/balance/position 0.007874
@@ -179,7 +179,7 @@
 # 
 /dripmic3/record/file/type aiff
 /dripmic3/record/samptype int24
-/dripmic3/audio/gain -9.492144
+/dripmic3/audio/gain -96.000000
 /dripmic3/audio/mute 0
 # 
 /dripmic3/balance/mode FastMode
@@ -229,13 +229,13 @@
 /rhythmmic1main/audio/mix 100.000000
 /rhythmmic1main/audio/mute 0
 /rhythmmic1main/filter.1/type lowpass
-/rhythmmic1main/filter.1/frequency 75.000000
-/rhythmmic1main/filter.1/gain 0.000000
+/rhythmmic1main/filter.1/frequency 8601.875977
+/rhythmmic1main/filter.1/gain -0.096861
 /rhythmmic1main/filter.1/octave_bandwidth 1.000000
-/rhythmmic1main/filter.2/type peaknotch
-/rhythmmic1main/filter.2/frequency 300.000000
-/rhythmmic1main/filter.2/gain 0.000000
-/rhythmmic1main/filter.2/octave_bandwidth 1.000000
+/rhythmmic1main/filter.2/type highpass
+/rhythmmic1main/filter.2/frequency 498.778320
+/rhythmmic1main/filter.2/gain -0.096861
+/rhythmmic1main/filter.2/octave_bandwidth 1.944764
 /rhythmmic1main/filter.3/type peaknotch
 /rhythmmic1main/filter.3/frequency 1000.000000
 /rhythmmic1main/filter.3/gain 0.000000
