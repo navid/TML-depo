@@ -1294,10 +1294,10 @@
 /concateqout4/audio/gain 0.000000
 /concateqout4/audio/mix 100.000000
 /concateqout4/audio/mute 0
-/concateqout4/filter.1/type lowshelf
-/concateqout4/filter.1/frequency 75.000000
+/concateqout4/filter.1/type highpass
+/concateqout4/filter.1/frequency 150.000000
 /concateqout4/filter.1/gain 0.000000
-/concateqout4/filter.1/octave_bandwidth 1.000000
+/concateqout4/filter.1/octave_bandwidth 2.000000
 /concateqout4/filter.2/type peaknotch
 /concateqout4/filter.2/frequency 300.000000
 /concateqout4/filter.2/gain 0.000000
@@ -1306,10 +1306,10 @@
 /concateqout4/filter.3/frequency 1000.000000
 /concateqout4/filter.3/gain 0.000000
 /concateqout4/filter.3/octave_bandwidth 1.000000
-/concateqout4/filter.4/type highshelf
-/concateqout4/filter.4/frequency 5000.000000
+/concateqout4/filter.4/type lowpass
+/concateqout4/filter.4/frequency 8200.785156
 /concateqout4/filter.4/gain 0.000000
-/concateqout4/filter.4/octave_bandwidth 1.000000
+/concateqout4/filter.4/octave_bandwidth 2.000000
 /concateqout4/bands 4
 # 
 /concateqout5/audio/bypass 0

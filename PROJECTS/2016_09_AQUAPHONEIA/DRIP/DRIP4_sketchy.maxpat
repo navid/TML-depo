@@ -4298,7 +4298,7 @@
 													"cursor_shape" : "bar",
 													"cursor_size" : 3,
 													"cursor_visible" : 1,
-													"domain_bounds" : [ -6.294574, 14993.705078 ],
+													"domain_bounds" : [ 0.0, 1.0 ],
 													"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"domainruler_grid" : 0,
@@ -10428,7 +10428,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 882.0, 121.0, 1892.0, 1241.0 ],
+						"rect" : [ 544.0, 79.0, 1892.0, 1241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -24548,7 +24548,7 @@
 									"cursor_shape" : "bar",
 									"cursor_size" : 3,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ -6.294574, 14999.979492 ],
+									"domain_bounds" : [ 0.0, 1.0 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
