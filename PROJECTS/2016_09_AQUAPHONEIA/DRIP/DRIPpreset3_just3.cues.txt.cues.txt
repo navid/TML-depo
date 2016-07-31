@@ -847,7 +847,7 @@
 /target1/input/channel.L 8
 /target1/input/channel.R 8
 /target1/audio/gain 0.000000
-/target1/audio/mute 0
+/target1/audio/mute 1
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -976,8 +976,8 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain 0.000000
-/concatout1/audio/mute 0
+/concatout1/audio/gain -13.723496
+/concatout1/audio/mute 1
 # 
 /concatout1/balance/mode FastMode
 /concatout1/balance/position 0.000000
@@ -1002,8 +1002,8 @@
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain 0.000000
-/concatout2/audio/mute 1
+/concatout2/audio/gain -12.968304
+/concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
 /concatout2/balance/position 0.000000
@@ -1013,8 +1013,8 @@
 /concatout2/saturation/depth 10.000000
 /concatout2/saturation/mode 0.000000
 /concatout2/saturation/preamp 0.000000
-/concatout2/ch.1 3
-/concatout2/ch.2 3
+/concatout2/ch.1 4
+/concatout2/ch.2 4
 # 
 # 
 /concatout3/limiter/dcblocker/active 0
@@ -1028,7 +1028,7 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -3.735358
+/concatout3/audio/gain -3.566930
 /concatout3/audio/mute 1
 # 
 /concatout3/balance/mode FastMode
@@ -1107,7 +1107,7 @@
 /dripmic1/record/file/type aiff
 /dripmic1/record/samptype int24
 /dripmic1/audio/gain -96.000000
-/dripmic1/audio/mute 0
+/dripmic1/audio/mute 1
 # 
 /dripmic1/balance/mode FastMode
 /dripmic1/balance/position 0.000000
@@ -1117,8 +1117,8 @@
 /dripmic1/saturation/depth 10.000000
 /dripmic1/saturation/mode 0.000000
 /dripmic1/saturation/preamp 0.000000
-/dripmic1/ch.1 3
-/dripmic1/ch.2 3
+/dripmic1/ch.1 4
+/dripmic1/ch.2 4
 # 
 # 
 /dripmic2/limiter/dcblocker/active 0
@@ -1132,7 +1132,7 @@
 # 
 /dripmic2/record/file/type aiff
 /dripmic2/record/samptype int24
-/dripmic2/audio/gain -24.496575
+/dripmic2/audio/gain -31.993443
 /dripmic2/audio/mute 1
 # 
 /dripmic2/balance/mode FastMode
@@ -1158,7 +1158,7 @@
 # 
 /dripmic3/record/file/type aiff
 /dripmic3/record/samptype int24
-/dripmic3/audio/gain -96.000000
+/dripmic3/audio/gain -29.420297
 /dripmic3/audio/mute 1
 # 
 /dripmic3/balance/mode FastMode
@@ -1229,9 +1229,9 @@
 /concateqout1/audio/mix 100.000000
 /concateqout1/audio/mute 0
 /concateqout1/filter.1/type highpass
-/concateqout1/filter.1/frequency 150.000000
-/concateqout1/filter.1/gain 0.000000
-/concateqout1/filter.1/octave_bandwidth 2.007748
+/concateqout1/filter.1/frequency 175.068558
+/concateqout1/filter.1/gain 0.512936
+/concateqout1/filter.1/octave_bandwidth 1.818795
 /concateqout1/filter.2/type peaknotch
 /concateqout1/filter.2/frequency 300.000000
 /concateqout1/filter.2/gain 0.000000
@@ -1241,9 +1241,9 @@
 /concateqout1/filter.3/gain 0.000000
 /concateqout1/filter.3/octave_bandwidth 1.000000
 /concateqout1/filter.4/type lowpass
-/concateqout1/filter.4/frequency 8461.101562
+/concateqout1/filter.4/frequency 5000.000000
 /concateqout1/filter.4/gain 0.000000
-/concateqout1/filter.4/octave_bandwidth 1.944764
+/concateqout1/filter.4/octave_bandwidth 1.000000
 /concateqout1/bands 4
 # 
 /concateqout2/audio/bypass 0
@@ -1251,9 +1251,9 @@
 /concateqout2/audio/mix 100.000000
 /concateqout2/audio/mute 0
 /concateqout2/filter.1/type highpass
-/concateqout2/filter.1/frequency 150.000000
-/concateqout2/filter.1/gain 0.000000
-/concateqout2/filter.1/octave_bandwidth 2.000000
+/concateqout2/filter.1/frequency 134.541733
+/concateqout2/filter.1/gain -0.096861
+/concateqout2/filter.1/octave_bandwidth 1.000000
 /concateqout2/filter.2/type peaknotch
 /concateqout2/filter.2/frequency 300.000000
 /concateqout2/filter.2/gain 0.000000
@@ -1262,10 +1262,10 @@
 /concateqout2/filter.3/frequency 1000.000000
 /concateqout2/filter.3/gain 0.000000
 /concateqout2/filter.3/octave_bandwidth 1.000000
-/concateqout2/filter.4/type lowpass
-/concateqout2/filter.4/frequency 7989.133789
+/concateqout2/filter.4/type highshelf
+/concateqout2/filter.4/frequency 5000.000000
 /concateqout2/filter.4/gain 0.000000
-/concateqout2/filter.4/octave_bandwidth 2.000000
+/concateqout2/filter.4/octave_bandwidth 1.000000
 /concateqout2/bands 4
 # 
 /concateqout3/audio/bypass 0
@@ -1273,9 +1273,9 @@
 /concateqout3/audio/mix 100.000000
 /concateqout3/audio/mute 0
 /concateqout3/filter.1/type highpass
-/concateqout3/filter.1/frequency 150.000000
-/concateqout3/filter.1/gain 0.000000
-/concateqout3/filter.1/octave_bandwidth 2.070732
+/concateqout3/filter.1/frequency 148.519897
+/concateqout3/filter.1/gain -0.706762
+/concateqout3/filter.1/octave_bandwidth 2.007748
 /concateqout3/filter.2/type peaknotch
 /concateqout3/filter.2/frequency 300.000000
 /concateqout3/filter.2/gain 0.000000
@@ -1285,9 +1285,9 @@
 /concateqout3/filter.3/gain 0.000000
 /concateqout3/filter.3/octave_bandwidth 1.000000
 /concateqout3/filter.4/type lowpass
-/concateqout3/filter.4/frequency 8303.774414
-/concateqout3/filter.4/gain 0.000000
-/concateqout3/filter.4/octave_bandwidth 2.000000
+/concateqout3/filter.4/frequency 8876.435547
+/concateqout3/filter.4/gain 0.208050
+/concateqout3/filter.4/octave_bandwidth 1.692827
 /concateqout3/bands 4
 # 
 /concateqout4/audio/bypass 0
@@ -1350,7 +1350,7 @@
 /noisecontact1/attack 10.000000
 /noisecontact1/lookahead 10
 /noisecontact1/release 300.000000
-/noisecontact1/threshold -42.425224
+/noisecontact1/threshold -34.346458
 # 
 /noisecontact2/audio/bypass 0
 /noisecontact2/audio/gain 0.000000
@@ -1359,7 +1359,7 @@
 /noisecontact2/attack 10.000000
 /noisecontact2/lookahead 10
 /noisecontact2/release 300.000000
-/noisecontact2/threshold -45.385811
+/noisecontact2/threshold -33.716541
 # 
 /noisecontact3/audio/bypass 0
 /noisecontact3/audio/gain 0.000000
@@ -1368,7 +1368,7 @@
 /noisecontact3/attack 10.000000
 /noisecontact3/lookahead 10
 /noisecontact3/release 300.000000
-/noisecontact3/threshold -48.976379
+/noisecontact3/threshold -31.921270
 # 
 /noisecontact4/audio/bypass 0
 /noisecontact4/audio/gain 0.000000
@@ -1392,10 +1392,10 @@
 /rhythmmic1/audio/gain 0.000000
 /rhythmmic1/audio/mix 100.000000
 /rhythmmic1/audio/mute 0
-/rhythmmic1/filter.1/type highpass
-/rhythmmic1/filter.1/frequency 100.000000
+/rhythmmic1/filter.1/type lowshelf
+/rhythmmic1/filter.1/frequency 75.000000
 /rhythmmic1/filter.1/gain 0.000000
-/rhythmmic1/filter.1/octave_bandwidth 2.000000
+/rhythmmic1/filter.1/octave_bandwidth 1.000000
 /rhythmmic1/filter.2/type peaknotch
 /rhythmmic1/filter.2/frequency 300.000000
 /rhythmmic1/filter.2/gain 0.000000
