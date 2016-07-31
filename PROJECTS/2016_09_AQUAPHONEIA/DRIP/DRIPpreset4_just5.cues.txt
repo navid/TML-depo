@@ -821,7 +821,7 @@
 /corpus/input/channel.L 7
 /corpus/input/channel.R 7
 /corpus/audio/gain 0.000000
-/corpus/audio/mute 0
+/corpus/audio/mute 1
 # 
 /corpus/balance/mode FastMode
 /corpus/balance/position 0.000000
@@ -847,7 +847,7 @@
 /target1/input/channel.L 9
 /target1/input/channel.R 9
 /target1/audio/gain 0.000000
-/target1/audio/mute 0
+/target1/audio/mute 1
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -970,13 +970,13 @@
 /concatout1/limiter/lookahead 64
 /concatout1/limiter/mode exponential
 /concatout1/limiter/postamp 0.000000
-/concatout1/limiter/preamp 8.409449
+/concatout1/limiter/preamp 16.000000
 /concatout1/limiter/release 200.000000
-/concatout1/limiter/threshold -1.000000
+/concatout1/limiter/threshold -12.700000
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -12.124697
+/concatout1/audio/gain -9.164821
 /concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
@@ -996,13 +996,13 @@
 /concatout2/limiter/lookahead 64
 /concatout2/limiter/mode exponential
 /concatout2/limiter/postamp 0.000000
-/concatout2/limiter/preamp 8.500000
+/concatout2/limiter/preamp 16.000000
 /concatout2/limiter/release 300.000000
-/concatout2/limiter/threshold -1.000000
+/concatout2/limiter/threshold -14.300000
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain -7.592065
+/concatout2/audio/gain -0.403918
 /concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
@@ -1022,13 +1022,13 @@
 /concatout3/limiter/lookahead 64
 /concatout3/limiter/mode exponential
 /concatout3/limiter/postamp 0.000000
-/concatout3/limiter/preamp 8.590552
+/concatout3/limiter/preamp 13.400000
 /concatout3/limiter/release 300.000000
-/concatout3/limiter/threshold -2.000000
+/concatout3/limiter/threshold -11.000000
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -7.092133
+/concatout3/audio/gain -11.105855
 /concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
@@ -1106,7 +1106,7 @@
 # 
 /dripmic1/record/file/type aiff
 /dripmic1/record/samptype int24
-/dripmic1/audio/gain -96.000000
+/dripmic1/audio/gain -25.951148
 /dripmic1/audio/mute 0
 # 
 /dripmic1/balance/mode FastMode
@@ -1132,7 +1132,7 @@
 # 
 /dripmic2/record/file/type aiff
 /dripmic2/record/samptype int24
-/dripmic2/audio/gain -96.000000
+/dripmic2/audio/gain -30.376896
 /dripmic2/audio/mute 0
 # 
 /dripmic2/balance/mode FastMode
@@ -1152,13 +1152,13 @@
 /dripmic3/limiter/lookahead 64
 /dripmic3/limiter/mode exponential
 /dripmic3/limiter/postamp 0.000000
-/dripmic3/limiter/preamp 6.000000
+/dripmic3/limiter/preamp 8.409449
 /dripmic3/limiter/release 300.000000
 /dripmic3/limiter/threshold -1.000000
 # 
 /dripmic3/record/file/type aiff
 /dripmic3/record/samptype int24
-/dripmic3/audio/gain -96.000000
+/dripmic3/audio/gain -37.689548
 /dripmic3/audio/mute 0
 # 
 /dripmic3/balance/mode FastMode
@@ -1350,7 +1350,7 @@
 /noisecontact1/attack 10.000000
 /noisecontact1/lookahead 10
 /noisecontact1/release 300.000000
-/noisecontact1/threshold -28.960663
+/noisecontact1/threshold -27.165392
 # 
 /noisecontact2/audio/bypass 0
 /noisecontact2/audio/gain 0.000000
@@ -1359,7 +1359,7 @@
 /noisecontact2/attack 10.000000
 /noisecontact2/lookahead 10
 /noisecontact2/release 300.000000
-/noisecontact2/threshold -32.818882
+/noisecontact2/threshold -36.409431
 # 
 /noisecontact3/audio/bypass 0
 /noisecontact3/audio/gain 0.000000
@@ -1368,7 +1368,7 @@
 /noisecontact3/attack 10.000000
 /noisecontact3/lookahead 10
 /noisecontact3/release 300.000000
-/noisecontact3/threshold -26.535437
+/noisecontact3/threshold -17.291336
 # 
 /noisecontact4/audio/bypass 0
 /noisecontact4/audio/gain 0.000000
