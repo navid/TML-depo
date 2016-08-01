@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 872.0, 245.0, 331.0, 569.0 ],
+		"rect" : [ 872.0, 245.0, 533.0, 353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -155,7 +155,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"annotation" : "Limit the range of an audio signal.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",

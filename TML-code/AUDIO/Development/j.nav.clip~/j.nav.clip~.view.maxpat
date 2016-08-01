@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 652.0, 357.0, 648.0, 410.0 ],
+		"rect" : [ 977.0, 320.0, 150.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,9 +62,9 @@
 					"numinlets" : 11,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 300.0, 195.0, 178.0, 22.0 ],
+					"patching_rect" : [ 300.0, 195.0, 124.0, 22.0 ],
 					"style" : "",
-					"text" : "j.list2parameter 3"
+					"text" : "j.list2parameter 2"
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/no_model_address"
+					"text" : "/clip"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 364.5, 260.0, 284.0, 260.0, 284.0, 184.0, 325.399994, 184.0 ],
+					"midpoints" : [ 364.5, 260.0, 284.0, 260.0, 284.0, 184.0, 320.0, 184.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -321,7 +321,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 325.399994, 226.0, 364.5, 226.0 ],
+					"midpoints" : [ 320.0, 226.0, 364.5, 226.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -344,27 +344,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
