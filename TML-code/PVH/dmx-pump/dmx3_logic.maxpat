@@ -93,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 216.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 216.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 216.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Boil-Valve"
 				}
@@ -179,7 +179,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 618.285706, 491.0, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "0 0 0 0 180 0 0 0"
+					"text" : "0 0 0 0 150 0 0 0"
 				}
 
 			}
@@ -235,6 +235,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 683.0, 305.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 76.0, 128.0, 46.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -248,7 +250,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 186.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 186.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 186.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Edison"
 				}
@@ -639,7 +641,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 159.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 159.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 159.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Pump"
 				}
@@ -653,7 +655,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 129.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 129.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 129.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Magnet"
 				}
@@ -667,7 +669,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 98.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 98.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 98.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Whirl"
 				}
@@ -681,7 +683,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 69.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 69.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 69.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Boil"
 				}
@@ -695,7 +697,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 39.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 39.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 39.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Drip L"
 				}
@@ -709,7 +711,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 9.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 9.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 9.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Drip R"
 				}
