@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 143.0, 129.0, 1007.0, 842.0 ],
+		"rect" : [ 143.0, 129.0, 1024.0, 842.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,82 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 896.0, 217.0, 50.0, 18.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 796.0, 184.0, 81.0, 18.0 ],
+					"presentation_rect" : [ 799.0, 233.0, 0.0, 0.0 ],
+					"text" : "/buffer/rec $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 796.0, 157.0, 70.0, 20.0 ],
+					"text" : "r coneGate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.0, 248.0, 97.500015, 18.0 ],
+					"text" : "/numChannels 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.0, 228.0, 153.0, 20.0 ],
+					"text" : "jcom.initialized /whirlpooler"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 856.0, 649.0, 86.0, 18.0 ],
-					"presentation_rect" : [ 855.0, 649.0, 0.0, 0.0 ],
+					"patching_rect" : [ 884.166687, 623.5, 86.0, 18.0 ],
 					"text" : "/audio/gain $1"
 				}
 
@@ -51,8 +120,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 876.0, 614.0, 125.0, 20.0 ],
-					"text" : "scale 100. 0. 10. 100."
+					"patching_rect" : [ 884.166687, 603.5, 119.0, 20.0 ],
+					"text" : "scale 100. 0. 0. 100."
 				}
 
 			}
@@ -66,21 +135,20 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 892.0, 555.0, 50.0, 20.0 ]
+					"patching_rect" : [ 884.166687, 580.5, 50.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "sine2" ],
+					"args" : [ "rvrbMap" ],
 					"id" : "obj-34",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.nav.oscroute.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 684.0, 515.0, 253.0, 20.0 ],
-					"presentation_rect" : [ 686.0, 515.0, 0.0, 0.0 ]
+					"patching_rect" : [ 653.166687, 551.5, 253.0, 20.0 ]
 				}
 
 			}
@@ -665,7 +733,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1230.0, 383.0, 640.0, 480.0 ],
+						"rect" : [ 1230.0, 383.0, 508.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -689,11 +757,113 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 156.0, 362.0, 72.0, 20.0 ],
+									"text" : "s coneGate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 167.0, 185.5, 85.0, 20.0 ],
+									"text" : "loadmess 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 26.0, 214.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 70.0, 214.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 167.0, 216.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 54.5, 362.0, 102.0, 20.0 ],
+									"text" : "gate on/off signal"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 26.0, 360.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "nav.smartGate~.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 26.0, 249.0, 151.0, 103.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-40",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 331.0, 282.5, 83.0, 20.0 ],
+									"patching_rect" : [ 288.0, 183.5, 83.0, 20.0 ],
 									"text" : "send~ coneIn"
 								}
 
@@ -707,7 +877,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "signal", "signal" ],
-									"patching_rect" : [ 50.0, 132.5, 300.0, 140.0 ],
+									"patching_rect" : [ 7.0, 33.5, 300.0, 140.0 ],
 									"presentation_rect" : [ 15.0, 15.0, 300.0, 140.0 ],
 									"varname" : "/filter~"
 								}
@@ -722,17 +892,98 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 331.0, 100.0, 29.0, 25.5 ]
+									"patching_rect" : [ 288.0, 1.0, 29.0, 25.5 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-45", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-45", 2 ]
 								}
 
 							}
@@ -775,7 +1026,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 906.0, 238.0, 96.0, 20.0 ],
+					"patching_rect" : [ 905.0, 248.0, 96.0, 20.0 ],
 					"text" : "receive~ coneIn"
 				}
 
@@ -2450,6 +2701,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2481,6 +2741,33 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -2585,67 +2872,67 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
+			"obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
 			"obj-13::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
+			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
+			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
 			"obj-2::obj-51::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
-			"obj-13::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-13::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
 			"obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
-			"obj-13::obj-18" : [ "Clear", "Clear", 0 ],
-			"obj-13::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-42::obj-30::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-42::obj-30::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
-			"obj-2::obj-45::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
-			"obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-13::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
-			"obj-13::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
-			"obj-42::obj-30::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
-			"obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
-			"obj-42::obj-30::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
-			"obj-42::obj-30::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-13::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[5]", "SelectAll", 0 ],
-			"obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
-			"obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
-			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-42::obj-30::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
-			"obj-2::obj-56::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-13::obj-43::obj-15" : [ "Append", "Append", 0 ],
-			"obj-2::obj-48::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
-			"obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
-			"obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
-			"obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
-			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[11]", "Direction", 0 ],
-			"obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
-			"obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
-			"obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
-			"obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
-			"obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
-			"obj-13::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
-			"obj-2::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
 			"obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
+			"obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
+			"obj-13::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
+			"obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
+			"obj-13::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-42::obj-30::obj-89" : [ "lock[2]", "Lock", 0 ],
+			"obj-13::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-2::obj-45::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-13::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
+			"obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[11]", "Direction", 0 ],
+			"obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
+			"obj-13::obj-43::obj-15" : [ "Append", "Append", 0 ],
+			"obj-13::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-13::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
+			"obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
+			"obj-42::obj-30::obj-74" : [ "note[2]", "Note", 0 ],
+			"obj-2::obj-56::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-42::obj-30::obj-50" : [ "Rec[3]", "Rec", 0 ],
+			"obj-2::obj-48::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
+			"obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ],
+			"obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
+			"obj-42::obj-30::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
+			"obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
+			"obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
+			"obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
 			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
+			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
+			"obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
+			"obj-2::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-42::obj-30::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
+			"obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
+			"obj-13::obj-74" : [ "note[1]", "Note", 0 ],
 			"obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
 			"obj-13::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
 			"obj-13::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
-			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[12]", "Direction", 0 ],
+			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-42::obj-30::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
+			"obj-42::obj-30::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
 			"obj-42::obj-30::obj-18" : [ "Clear[1]", "Clear", 0 ],
-			"obj-42::obj-30::obj-50" : [ "Rec[3]", "Rec", 0 ],
-			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
+			"obj-13::obj-18" : [ "Clear", "Clear", 0 ],
 			"obj-13::obj-50" : [ "Rec[1]", "Rec", 0 ]
 		}
 ,
@@ -2665,22 +2952,22 @@
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.qom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2714,8 +3001,8 @@
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2728,8 +3015,8 @@
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2742,8 +3029,8 @@
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2777,43 +3064,43 @@
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2833,50 +3120,50 @@
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.output~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.output~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2903,8 +3190,8 @@
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2944,6 +3231,41 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "nav.smartGate~.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/gates",
+				"patcherrelativepath" : "../../../../Nav/snd/gates",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.mfcc.zsa.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/gates",
+				"patcherrelativepath" : "../../../../Nav/snd/gates",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.mfcc.zsa.core.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/gates",
+				"patcherrelativepath" : "../../../../Nav/snd/gates",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.mfcc.alphabet.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/gates",
+				"patcherrelativepath" : "../../../../Nav/snd/gates",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.vufader.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/gates",
+				"patcherrelativepath" : "../../../../Nav/snd/gates",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jmod.nav.motion%.maxpat",
 				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/nav.motion%",
 				"patcherrelativepath" : "../../../../Nav/Jamoma/nav.motion%",
@@ -2959,36 +3281,36 @@
 			}
 , 			{
 				"name" : "jcom.motion%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.checkplanes%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.passmatrixinfo%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3186,6 +3508,14 @@
 			}
 , 			{
 				"name" : "ircamverb~.control.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.mfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.dist.mxo",
 				"type" : "iLaX"
 			}
 , 			{

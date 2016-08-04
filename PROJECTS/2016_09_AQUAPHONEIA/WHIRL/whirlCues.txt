@@ -2668,16 +2668,40 @@
  KEYCUE "clitornado" 
  
  
- 	 	 	 	 /CONFIG /nav.oscroute.5 99 1 /nav.oscroute.6 99 1 /nav.oscroute.7 99 1 /sine2-gain 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /whirlpooler 99 1 /rogsOut 99 1 /oroCue 99 1 /cameraIn 99 1 /mask1 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /large 99 1 /small 99 1 /mdlys~ 99 1 /nav.oscroute.8 99 1 /sine2.1 99 1 
+ 	 	 	 	 /CONFIG /nav.oscroute.2 99 1 /nav.oscroute.3 99 1 /nav.oscroute.4 99 1 /sine2 99 1 /sine2-gain 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /whirlpooler 99 1 /rogsOut 99 1 /oroCue 99 1 /cameraIn 99 1 /mask1 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2.1 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /large 99 1 /small 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
  # 
- # Module /nav.oscroute.5 
+ # Module /nav.oscroute.2 
  # 
- # Module /nav.oscroute.6 
+ # Module /nav.oscroute.3 
  # 
- # Module /nav.oscroute.7 
+ # Module /nav.oscroute.4 
+ # 
+ # Module /sine2 
+ 	 	 	 	 /sine2/in/module/name /small 
+ 	 	 	 	 /sine2/in/module/instance 0 
+ 	 	 	 	 /sine2/function linear 
+ 	 	 	 	 /sine2/function/symmetry 0 
+ 	 	 	 	 /sine2/function/parameter2 0.000000 
+ 	 	 	 	 /sine2/function/parameter1 0.000000 
+ 	 	 	 	 /sine2/in/module/parameter /out/final 
+ 	 	 	 	 /sine2/clip 0 
+ 	 	 	 	 /sine2/in/direct 0 
+ 	 	 	 	 /sine2/in/module/listindex 1 
+ 	 	 	 	 /sine2/mute 1 
+ 	 	 	 	 /sine2/offset 0.000000 
+ 	 	 	 	 /sine2/ramp/time 0 
+ 	 	 	 	 /sine2/scale/bypass 0 
+ 	 	 	 	 /sine2/scale/input/max 0.972395 
+ 	 	 	 	 /sine2/scale/input/min 0.197131 
+ 	 	 	 	 /sine2/scale/max 17.000000 
+ 	 	 	 	 /sine2/scale/min 60.000000 
+ 	 	 	 	 /sine2/scale/mode 3 
+ 	 	 	 	 /sine2/slide/down 0 
+ 	 	 	 	 /sine2/slide/up 15 
+ 	 	 	 	 /sine2/view/freeze 0 
  # 
  # Module /sine2-gain 
  	 	 	 	 /sine2-gain/in/module/name /small 
@@ -2998,31 +3022,19 @@
  	 	 	 	 /Squirt~/waveform/normalize 1.000000 
  # 
  # Module /hornEQ~ 
- 	 	 	 	 /hornEQ~/bands 5 
+ 	 	 	 	 /hornEQ~/bands 2 
  	 	 	 	 /hornEQ~/audio/bypass 0 
- 	 	 	 	 /hornEQ~/audio/gain 124.000000 
+ 	 	 	 	 /hornEQ~/audio/gain 105.000000 
  	 	 	 	 /hornEQ~/audio/mix 100.000000 
  	 	 	 	 /hornEQ~/audio/mute 0 
- 	 	 	 	 /hornEQ~/filter.1/frequency 100.353867 
- 	 	 	 	 /hornEQ~/filter.1/gain 0.000000 
- 	 	 	 	 /hornEQ~/filter.1/q 2.000000 
- 	 	 	 	 /hornEQ~/filter.1/type lowshelf 
- 	 	 	 	 /hornEQ~/filter.2/frequency 250.000000 
- 	 	 	 	 /hornEQ~/filter.2/gain 0.000000 
+ 	 	 	 	 /hornEQ~/filter.1/frequency 93.142784 
+ 	 	 	 	 /hornEQ~/filter.1/gain 0.327712 
+ 	 	 	 	 /hornEQ~/filter.1/q 0.709209 
+ 	 	 	 	 /hornEQ~/filter.1/type highpass 
+ 	 	 	 	 /hornEQ~/filter.2/frequency 3003.925049 
+ 	 	 	 	 /hornEQ~/filter.2/gain 0.844618 
  	 	 	 	 /hornEQ~/filter.2/q 2.000000 
- 	 	 	 	 /hornEQ~/filter.2/type peaknotch 
- 	 	 	 	 /hornEQ~/filter.3/frequency 500.000000 
- 	 	 	 	 /hornEQ~/filter.3/gain 0.000000 
- 	 	 	 	 /hornEQ~/filter.3/q 2.000000 
- 	 	 	 	 /hornEQ~/filter.3/type peaknotch 
- 	 	 	 	 /hornEQ~/filter.4/frequency 1000.000000 
- 	 	 	 	 /hornEQ~/filter.4/gain 0.000000 
- 	 	 	 	 /hornEQ~/filter.4/q 2.000000 
- 	 	 	 	 /hornEQ~/filter.4/type peaknotch 
- 	 	 	 	 /hornEQ~/filter.5/frequency 5000.000000 
- 	 	 	 	 /hornEQ~/filter.5/gain 0.000000 
- 	 	 	 	 /hornEQ~/filter.5/q 2.000000 
- 	 	 	 	 /hornEQ~/filter.5/type highshelf 
+ 	 	 	 	 /hornEQ~/filter.2/type 0 
  	 	 	 	 /hornEQ~/view/freeze 0 
  	 	 	 	 /hornEQ~/view/highlight 0 
  # 
@@ -3367,29 +3379,29 @@
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
  # 
- # Module /sine2 
- 	 	 	 	 /sine2/in/module/name /small 
- 	 	 	 	 /sine2/in/module/instance 0 
- 	 	 	 	 /sine2/function linear 
- 	 	 	 	 /sine2/function/symmetry 0 
- 	 	 	 	 /sine2/function/parameter2 0.000000 
- 	 	 	 	 /sine2/function/parameter1 0.000000 
- 	 	 	 	 /sine2/in/module/parameter /out/final 
- 	 	 	 	 /sine2/clip 0 
- 	 	 	 	 /sine2/in/direct 0 
- 	 	 	 	 /sine2/in/module/listindex 1 
- 	 	 	 	 /sine2/mute 1 
- 	 	 	 	 /sine2/offset 0.000000 
- 	 	 	 	 /sine2/ramp/time 0 
- 	 	 	 	 /sine2/scale/bypass 0 
- 	 	 	 	 /sine2/scale/input/max 0.972395 
- 	 	 	 	 /sine2/scale/input/min 0.197131 
- 	 	 	 	 /sine2/scale/max 17.000000 
- 	 	 	 	 /sine2/scale/min 60.000000 
- 	 	 	 	 /sine2/scale/mode 3 
- 	 	 	 	 /sine2/slide/down 0 
- 	 	 	 	 /sine2/slide/up 15 
- 	 	 	 	 /sine2/view/freeze 0 
+ # Module /sine2.1 
+ 	 	 	 	 /sine2.1/in/module/name /height 
+ 	 	 	 	 /sine2.1/in/module/instance 0 
+ 	 	 	 	 /sine2.1/function linear 
+ 	 	 	 	 /sine2.1/function/symmetry 0 
+ 	 	 	 	 /sine2.1/function/parameter2 0.000000 
+ 	 	 	 	 /sine2.1/function/parameter1 0.000000 
+ 	 	 	 	 /sine2.1/in/module/parameter /out/final 
+ 	 	 	 	 /sine2.1/clip 0 
+ 	 	 	 	 /sine2.1/in/direct 0 
+ 	 	 	 	 /sine2.1/in/module/listindex 1 
+ 	 	 	 	 /sine2.1/mute 1 
+ 	 	 	 	 /sine2.1/offset 0.000000 
+ 	 	 	 	 /sine2.1/ramp/time 0 
+ 	 	 	 	 /sine2.1/scale/bypass 0 
+ 	 	 	 	 /sine2.1/scale/input/max 1.000000 
+ 	 	 	 	 /sine2.1/scale/input/min 0.000000 
+ 	 	 	 	 /sine2.1/scale/max 0.000000 
+ 	 	 	 	 /sine2.1/scale/min 120.000000 
+ 	 	 	 	 /sine2.1/scale/mode 4 
+ 	 	 	 	 /sine2.1/slide/down 0 
+ 	 	 	 	 /sine2.1/slide/up 0 
+ 	 	 	 	 /sine2.1/view/freeze 0 
  # 
  # Module /sine1 
  	 	 	 	 /sine1/in/module/name /width 
@@ -3464,6 +3476,40 @@
  	 	 	 	 /mdlysOut/saturation/depth 10.000000 
  	 	 	 	 /mdlysOut/view/freeze 0 
  	 	 	 	 /mdlysOut/view/highlight 0 
+ # 
+ # Module /mdlys~ 
+ 	 	 	 	 /mdlys~/resonator 7 
+ 	 	 	 	 /mdlys~/matter 0 
+ 	 	 	 	 /mdlys~/pitch/detune 0 
+ 	 	 	 	 /mdlys~/pitch/midi 19 
+ 	 	 	 	 /mdlys~/pitch/ramp 0 
+ 	 	 	 	 /mdlys~/pitch/transp 0 
+ 	 	 	 	 /mdlys~/audio/gain 91.000000 
+ 	 	 	 	 /mdlys~/audio/input/gain 127 
+ 	 	 	 	 /mdlys~/audio/mute 1 
+ 	 	 	 	 /mdlys~/audio/preview 0 
+ 	 	 	 	 /mdlys~/brightness 50.551186 
+ 	 	 	 	 /mdlys~/damping 36.062996 
+ 	 	 	 	 /mdlys~/excite/active 0 
+ 	 	 	 	 /mdlys~/excite/rate 4000 
+ 	 	 	 	 /mdlys~/excite/smooth 1000 
+ 	 	 	 	 /mdlys~/excite/x1 48 
+ 	 	 	 	 /mdlys~/excite/y1 52 
+ 	 	 	 	 /mdlys~/inharm 0.000000 
+ 	 	 	 	 /mdlys~/modes 80 
+ 	 	 	 	 /mdlys~/pickup/active 0 
+ 	 	 	 	 /mdlys~/pickup/rate 4000 
+ 	 	 	 	 /mdlys~/pickup/smooth 1000 
+ 	 	 	 	 /mdlys~/pickup/x1 25 
+ 	 	 	 	 /mdlys~/pickup/x2 75 
+ 	 	 	 	 /mdlys~/pickup/x3 25 
+ 	 	 	 	 /mdlys~/pickup/x4 75 
+ 	 	 	 	 /mdlys~/pickup/y1 53 
+ 	 	 	 	 /mdlys~/pickup/y2 52 
+ 	 	 	 	 /mdlys~/pickup/y3 0 
+ 	 	 	 	 /mdlys~/pickup/y4 25 
+ 	 	 	 	 /mdlys~/view/freeze 0 
+ 	 	 	 	 /mdlys~/view/highlight none 
  # 
  # Module /centerX 
  	 	 	 	 /centerX/function 0 
@@ -3662,66 +3708,6 @@
  	 	 	 	 /small/view/freeze 0 
  	 	 	 	 /small/view/highlight none 
  	 	 	 	 /small/visualize 1 
- # 
- # Module /mdlys~ 
- 	 	 	 	 /mdlys~/resonator 7 
- 	 	 	 	 /mdlys~/matter 0 
- 	 	 	 	 /mdlys~/pitch/detune 0 
- 	 	 	 	 /mdlys~/pitch/midi 19 
- 	 	 	 	 /mdlys~/pitch/ramp 0 
- 	 	 	 	 /mdlys~/pitch/transp 0 
- 	 	 	 	 /mdlys~/audio/gain 91.000000 
- 	 	 	 	 /mdlys~/audio/input/gain 127 
- 	 	 	 	 /mdlys~/audio/mute 1 
- 	 	 	 	 /mdlys~/audio/preview 0 
- 	 	 	 	 /mdlys~/brightness 50.551186 
- 	 	 	 	 /mdlys~/damping 36.062996 
- 	 	 	 	 /mdlys~/excite/active 0 
- 	 	 	 	 /mdlys~/excite/rate 4000 
- 	 	 	 	 /mdlys~/excite/smooth 1000 
- 	 	 	 	 /mdlys~/excite/x1 48 
- 	 	 	 	 /mdlys~/excite/y1 52 
- 	 	 	 	 /mdlys~/inharm 0.000000 
- 	 	 	 	 /mdlys~/modes 80 
- 	 	 	 	 /mdlys~/pickup/active 0 
- 	 	 	 	 /mdlys~/pickup/rate 4000 
- 	 	 	 	 /mdlys~/pickup/smooth 1000 
- 	 	 	 	 /mdlys~/pickup/x1 25 
- 	 	 	 	 /mdlys~/pickup/x2 75 
- 	 	 	 	 /mdlys~/pickup/x3 25 
- 	 	 	 	 /mdlys~/pickup/x4 75 
- 	 	 	 	 /mdlys~/pickup/y1 53 
- 	 	 	 	 /mdlys~/pickup/y2 52 
- 	 	 	 	 /mdlys~/pickup/y3 0 
- 	 	 	 	 /mdlys~/pickup/y4 25 
- 	 	 	 	 /mdlys~/view/freeze 0 
- 	 	 	 	 /mdlys~/view/highlight none 
- # 
- # Module /nav.oscroute.8 
- # 
- # Module /sine2.1 
- 	 	 	 	 /sine2.1/in/module/name /height 
- 	 	 	 	 /sine2.1/in/module/instance 0 
- 	 	 	 	 /sine2.1/function linear 
- 	 	 	 	 /sine2.1/function/symmetry 0 
- 	 	 	 	 /sine2.1/function/parameter2 0.000000 
- 	 	 	 	 /sine2.1/function/parameter1 0.000000 
- 	 	 	 	 /sine2.1/in/module/parameter /out/final 
- 	 	 	 	 /sine2.1/clip 0 
- 	 	 	 	 /sine2.1/in/direct 0 
- 	 	 	 	 /sine2.1/in/module/listindex 1 
- 	 	 	 	 /sine2.1/mute 1 
- 	 	 	 	 /sine2.1/offset 0.000000 
- 	 	 	 	 /sine2.1/ramp/time 0 
- 	 	 	 	 /sine2.1/scale/bypass 0 
- 	 	 	 	 /sine2.1/scale/input/max 1.000000 
- 	 	 	 	 /sine2.1/scale/input/min 0.000000 
- 	 	 	 	 /sine2.1/scale/max 0.000000 
- 	 	 	 	 /sine2.1/scale/min 120.000000 
- 	 	 	 	 /sine2.1/scale/mode 4 
- 	 	 	 	 /sine2.1/slide/down 0 
- 	 	 	 	 /sine2.1/slide/up 0 
- 	 	 	 	 /sine2.1/view/freeze 0 
  # 
  ######################## 
  
