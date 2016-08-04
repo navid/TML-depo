@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 805.0, 106.0, 122.0, 310.0 ],
+		"rect" : [ 1376.0, 45.0, 1083.0, 825.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,13 +46,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-73",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 683.0, 175.5, 160.0, 25.0 ],
-					"text" : "interpolate 1000, max 199., min 150., on 1, rate/max 3000, rate/min 1000"
+					"patching_rect" : [ 683.0, 175.5, 302.0, 15.0 ],
+					"text" : "interpolate 1000, max 199., min 180., on 1, rate/max 3000, rate/min 1000"
 				}
 
 			}
@@ -219,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 618.285706, 491.0, 101.0, 18.0 ],
-					"text" : "0 0 0 0 194 0 0 0"
+					"text" : "0 0 0 0 179 0 0 0"
 				}
 
 			}
@@ -1726,29 +1725,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.nav.rand.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rand",
 				"patcherrelativepath" : "../../../../Nav/Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.rand.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rand",
 				"patcherrelativepath" : "../../../../Nav/Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : "../../../../Synthesis-TML/O4_ASU/O4.Sonify.ASU/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
