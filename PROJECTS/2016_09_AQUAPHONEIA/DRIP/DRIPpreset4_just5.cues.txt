@@ -1132,7 +1132,7 @@
 # 
 /dripmic2/record/file/type aiff
 /dripmic2/record/samptype int24
-/dripmic2/audio/gain -29.245147
+/dripmic2/audio/gain -29.245148
 /dripmic2/audio/mute 0
 # 
 /dripmic2/balance/mode FastMode
