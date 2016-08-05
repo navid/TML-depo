@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 391.0, 79.0, 860.0, 1326.0 ],
+		"rect" : [ 112.0, 79.0, 714.0, 1323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,93 @@
 		"style" : "",
 		"subpatcher_template" : "Evan_default",
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-23",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 600.0, 780.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 600.0, 885.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 1155.0, 75.0, 20.0 ],
+					"style" : "",
+					"text" : "navid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 1065.0, 135.0, 22.0 ],
+					"style" : "",
+					"text" : "/flow/whirl $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 45.0, 1091.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 1185.0, 203.0, 22.0 ],
+					"style" : "",
+					"text" : "udpsend 10.0.0.2 98765"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 225.0, 555.0, 45.0, 20.0 ],
+					"style" : "",
+					"text" : "whirl"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "button",
@@ -376,26 +463,6 @@
 					"patching_rect" : [ 510.0, 14.0, 18.0, 20.0 ],
 					"style" : "",
 					"text" : "a"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "dmx3_logic.maxpat",
-					"numinlets" : 8,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 169.0, 135.0, 315.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -948,6 +1015,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -971,6 +1047,33 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -1149,6 +1252,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 99.5, 519.0, 384.5, 519.0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 3 ]
 				}
 
 			}
@@ -1465,12 +1577,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dmx3_logic.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH/dmx-pump",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pour1_clone.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
@@ -1487,14 +1593,6 @@
 				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "imp.artnet.controller.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ladd.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "icst.fexpr~.mxo",
