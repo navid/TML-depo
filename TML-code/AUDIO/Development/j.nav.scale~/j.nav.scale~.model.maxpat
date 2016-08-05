@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -70,9 +70,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 1631.0, 33.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1631.0, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "j.out"
+					"text" : "j.out 1"
 				}
 
 			}
@@ -83,9 +83,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 315.0, 1331.5, 40.0, 22.0 ],
+					"patching_rect" : [ 315.0, 1331.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "j.out~"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -96,9 +96,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 60.0, 147.5, 33.0, 22.0 ],
+					"patching_rect" : [ 60.0, 147.5, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "j.in~"
+					"text" : "j.in~ 1"
 				}
 
 			}
@@ -464,8 +464,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1120,7 +1120,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 75.0, 390.0, 345.0, 32.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 35.0, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 2, 1, 0, 0, 67.0, 1.135011, 1.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1157,7 +1157,7 @@
 					"destination" : [ "obj-17", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 384.5, 377.5, 363.928571, 377.5 ],
+					"midpoints" : [ 384.5, 377.5, 363.928558, 377.5 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1221,7 +1221,7 @@
 					"destination" : [ "obj-17", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 375.0, 317.357143, 375.0 ],
+					"midpoints" : [ 219.5, 375.0, 317.357147, 375.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 893.0, -702.0, 150.0, 315.0 ],
+		"rect" : [ 455.0, 79.0, 721.0, 978.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -84,9 +84,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 690.0, 615.0, 115.0, 22.0 ],
+					"patching_rect" : [ 690.0, 615.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive~ audio/out"
+					"text" : "j.receive~ audio/out.1"
 				}
 
 			}
@@ -478,8 +478,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1750,8 +1750,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2138,8 +2138,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2717,7 +2717,7 @@
 					"patching_rect" : [ 0.0, -270.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 315.0 ],
-					"text" : "/scale~"
+					"text" : "/no_..ess"
 				}
 
 			}
@@ -2972,7 +2972,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 458.833333, 1026.0, 460.5, 1026.0 ],
+					"midpoints" : [ 458.833344, 1026.0, 460.5, 1026.0 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -3568,7 +3568,42 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-76" : [ "live.text", "live.text", 0 ],
+			"obj-118" : [ "live.text[3]", "FILTER", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
