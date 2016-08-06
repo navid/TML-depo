@@ -1120,7 +1120,7 @@
 /target1/input/channel.L 9
 /target1/input/channel.R 9
 /target1/audio/gain 0.000000
-/target1/audio/mute 0
+/target1/audio/mute 1
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -1172,7 +1172,7 @@
 /target3/input/channel.L 10
 /target3/input/channel.R 10
 /target3/audio/gain 0.000000
-/target3/audio/mute 1
+/target3/audio/mute 0
 # 
 /target3/balance/mode FastMode
 /target3/balance/position 0.000000
@@ -1249,7 +1249,7 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -29.559549
+/concatout1/audio/gain -27.671891
 /concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
@@ -1828,8 +1828,8 @@
 /noisecontact2/audio/mute 0
 /noisecontact2/attack 10.000000
 /noisecontact2/lookahead 10
-/noisecontact2/release 196.850372
-/noisecontact2/threshold -46.913399
+/noisecontact2/release 307.086609
+/noisecontact2/threshold -42.425213
 # 
 /noisecontact3/audio/bypass 0
 /noisecontact3/audio/gain 0.000000
@@ -1838,7 +1838,7 @@
 /noisecontact3/attack 10.000000
 /noisecontact3/lookahead 10
 /noisecontact3/release 300.000000
-/noisecontact3/threshold -33.448811
+/noisecontact3/threshold -36.141724
 # 
 /noisecontact4/audio/bypass 0
 /noisecontact4/audio/gain 0.000000
