@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -39,7 +39,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "#1" ],
+					"args" : [ "gl_math" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -48,21 +48,21 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_co_xfade.view.maxpat",
+					"name" : "gl_math.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based crossfade effect.",
+					"annotation" : "Load various math shaders.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -70,9 +70,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 128.0, 22.0 ],
+					"patching_rect" : [ 15.0, 200.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_co_xfade.model #1",
+					"text" : "gl_math.model #1",
 					"varname" : "j.model"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 92.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 152.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +98,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 92.0, 27.0, 27.0 ],
+					"patching_rect" : [ 105.0, 150.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -110,7 +110,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 105.0, 240.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +122,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 179.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 240.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -166,20 +166,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_co_xfade.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
+				"name" : "gl_math.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_co_xfade.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
+				"name" : "gl_math.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -202,11 +196,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -214,15 +204,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -231,6 +221,10 @@
 			}
 , 			{
 				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ],

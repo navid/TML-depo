@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
+		"rect" : [ 576.0, 271.0, 496.0, 447.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
+						"rect" : [ 576.0, 297.0, 496.0, 421.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,8 +137,49 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.41,
+									"id" : "obj-40",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 345.0, 226.0, 64.0 ],
+									"style" : "",
+									"text" : "Note that @blend enable 1 must be enabled on your final display surface (e.g., [jit.gl.videoplane]) in order for this shader to work."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 60.0, 210.0, 39.0, 22.0 ],
+									"style" : "",
+									"text" : "close"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 210.0, 37.0, 22.0 ],
+									"style" : "",
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "cc_brcosa" ],
+									"args" : [ "ab_spotmask" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -147,40 +188,14 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "gl_cc_brcosa.view.maxpat",
+									"name" : "gl_ab_spotmask.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.0, 120.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+									"patching_rect" : [ 315.0, 105.0, 150.0, 140.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 225.0, 63.0, 22.0 ],
-									"style" : "",
-									"text" : "pipe 1000"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 195.0, 100.0, 22.0 ],
-									"style" : "",
-									"text" : "loadmess 1"
 								}
 
 							}
@@ -191,66 +206,22 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 330.0, 133.0, 22.0 ],
+									"patching_rect" : [ 15.0, 360.0, 230.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane default"
+									"text" : "jit.gl.videoplane default @blend_enable 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "wheel.mov",
-												"filekind" : "moviefile",
-												"loop" : 1,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u237004501" ],
-													"dim" : [ 1, 1 ],
-													"position" : [ 0.0 ],
-													"framecount" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"engine" : [ "avf" ],
-													"autostart" : [ 1 ],
-													"vol" : [ 1.0 ],
-													"looppoints" : [ 0, 0 ],
-													"timescale" : [ 600 ],
-													"automatic" : [ 0 ],
-													"unique" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"drawto" : [ "" ],
-													"loopreport" : [ 0 ],
-													"colormode" : [ "argb" ],
-													"interp" : [ 0 ],
-													"adapt" : [ 1 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"time_secs" : [ 0.0 ],
-													"texture_name" : [ "u390004499" ],
-													"loopend" : [ 0 ],
-													"framereport" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"loopstart" : [ 0 ],
-													"time" : [ 0 ],
-													"duration" : [ 0 ],
-													"fps" : [ 0.0 ],
-													"moviefile" : [ "" ],
-													"usedstrect" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"cache_size" : [ 0.1 ]
-												}
-
-											}
- ]
-									}
-,
 									"id" : "obj-2",
-									"maxclass" : "jit.playlist",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 15.0, 255.0, 150.0, 30.0 ],
-									"style" : ""
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 15.0, 255.0, 47.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.grab"
 								}
 
 							}
@@ -261,9 +232,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 270.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world default @enable 1"
+									"text" : "jit.world default @enable 1 @erase_color 0 0 0 1"
 								}
 
 							}
@@ -283,7 +254,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Shader-based brightness/contrast/saturation effect.",
+									"annotation" : "Generate an oval mask.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -292,15 +263,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 300.0, 175.0, 22.0 ],
+									"patching_rect" : [ 15.0, 300.0, 209.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_cc_brcosa.model cc_brcosa"
+									"text" : "gl_ab_spotmask.model ab_spotmask"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_cc_brcosa.model", "@description", "Slab-based brightness/contrast/saturation effect." ],
+									"args" : [ "@name", "gl_ab_spotmask.model", "@description", "Generate an oval mask." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -313,7 +284,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 0.0, 0.0, 440.0, 68.0 ],
+									"patching_rect" : [ 0.0, 0.0, 495.0, 75.0 ],
 									"prototypename" : "bphelp",
 									"varname" : "maxhelpui",
 									"viewvisibility" : 1
@@ -322,6 +293,16 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 24.5, 243.0, 24.5, 243.0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
@@ -341,15 +322,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -362,7 +334,8 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-8", 0 ]
+									"midpoints" : [ 69.5, 243.0, 24.5, 243.0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -402,7 +375,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 496.0, 421.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -464,26 +437,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_cc_brcosa.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brcosa",
+				"name" : "gl_ab_spotmask.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_ab_spotmask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"name" : "gl_ab_spotmask.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_ab_spotmask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wheel.mov",
-				"bootpath" : "C74:/media/jitter",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_cc_brcosa.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brcosa",
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -500,10 +467,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.model.mxo",
@@ -518,7 +483,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -526,15 +491,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 57.0, 79.0, 333.0, 476.0 ],
+		"rect" : [ 57.0, 79.0, 529.0, 471.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,9 +68,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 360.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 360.0, 370.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 1 1 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 1 1 @filter linear @type float32"
 				}
 
 			}
@@ -81,9 +81,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 330.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 330.0, 370.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 2 2 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 2 2 @filter linear @type float32"
 				}
 
 			}
@@ -94,9 +94,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 300.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 300.0, 370.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 4 4 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 4 4 @filter linear @type float32"
 				}
 
 			}
@@ -107,9 +107,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 270.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 270.0, 370.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 8 8 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 8 8 @filter linear @type float32"
 				}
 
 			}
@@ -120,9 +120,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 240.0, 270.0, 22.0 ],
+					"patching_rect" : [ 15.0, 240.0, 383.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 16 16 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 16 16 @filter linear @type float32"
 				}
 
 			}
@@ -133,9 +133,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 210.0, 270.0, 22.0 ],
+					"patching_rect" : [ 15.0, 210.0, 383.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 32 32 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 32 32 @filter linear @type float32"
 				}
 
 			}
@@ -146,9 +146,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 90.0, 285.0, 22.0 ],
+					"patching_rect" : [ 15.0, 90.0, 397.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 512 512 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 512 512 @filter linear @type float32"
 				}
 
 			}
@@ -159,9 +159,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 120.0, 285.0, 22.0 ],
+					"patching_rect" : [ 15.0, 120.0, 397.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 256 256 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 256 256 @filter linear @type float32"
 				}
 
 			}
@@ -172,9 +172,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 150.0, 285.0, 22.0 ],
+					"patching_rect" : [ 15.0, 150.0, 397.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 128 128 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 128 128 @filter linear @type float32"
 				}
 
 			}
@@ -185,9 +185,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 180.0, 270.0, 22.0 ],
+					"patching_rect" : [ 15.0, 180.0, 383.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 64 64 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 64 64 @filter linear @type float32"
 				}
 
 			}
@@ -198,9 +198,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 60.0, 300.0, 22.0 ],
+					"patching_rect" : [ 15.0, 60.0, 410.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @adapt 0 @dim 1024 1024 @filter linear"
+					"text" : "jit.gl.texture #1 @adapt 0 @dim 1024 1024 @filter linear @type float32"
 				}
 
 			}
@@ -324,8 +324,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

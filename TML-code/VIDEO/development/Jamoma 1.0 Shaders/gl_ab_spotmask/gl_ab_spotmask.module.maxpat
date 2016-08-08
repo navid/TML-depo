@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -48,31 +48,31 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_co_xfade.view.maxpat",
+					"name" : "gl_ab_spotmask.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based crossfade effect.",
+					"annotation" : "Generate an oval mask.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 128.0, 22.0 ],
+					"patching_rect" : [ 15.0, 200.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_co_xfade.model #1",
+					"text" : "gl_ab_spotmask.model #1",
 					"varname" : "j.model"
 				}
 
@@ -85,20 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 92.0, 26.0, 26.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-32",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 92.0, 27.0, 27.0 ],
+					"patching_rect" : [ 15.0, 152.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -110,7 +97,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 217.0, 239.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +109,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 179.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 239.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -155,31 +142,22 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_co_xfade.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
+				"name" : "gl_ab_spotmask.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_ab_spotmask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"name" : "gl_ab_spotmask.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_ab_spotmask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_co_xfade.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_co_xfade",
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -196,10 +174,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.model.mxo",
@@ -214,7 +190,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -222,15 +198,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ],

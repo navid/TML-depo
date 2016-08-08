@@ -1,0 +1,14 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+data/active 1
+data/bypass 0
+fade 0.500000
+position 0.500000 0.500000
+radius 1.000000
+shape 1.000000 0.500000
+# 
+# ###########################################

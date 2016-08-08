@@ -1,0 +1,16 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+data/active 1
+data/bypass 0
+in2offset 0.000000
+in2scale 1.000000
+inoffset 0.000000
+inscale 1.000000
+op 0
+outoffset 0.000000
+outscale 1.000000
+# 
+# ###########################################
