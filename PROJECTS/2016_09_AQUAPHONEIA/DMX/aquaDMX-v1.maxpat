@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 126.0, 45.0, 1648.0, 1202.0 ],
+		"rect" : [ 416.0, 45.0, 987.0, 1068.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 295.0, 22.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 284.0, 22.5, 20.0 ],
+					"presentation_rect" : [ 14.0, 295.0, 22.5, 20.0 ],
 					"style" : "",
 					"text" : "11"
 				}
@@ -131,9 +131,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 295.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 284.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 36.0, 295.0, 69.0, 20.0 ],
 					"style" : "",
-					"text" : "Stove???"
+					"text" : "??Stove??"
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 295.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 285.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 295.0, 20.0, 20.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -199,7 +199,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 269.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 270.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 269.0, 20.0, 20.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -905,7 +905,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 731.0, 778.0, 1042.0, 597.0 ],
+						"rect" : [ 1213.0, 554.0, 1042.0, 597.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -932,7 +932,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1383,7 +1382,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1002.0, 64.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 105.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 124.0, 1.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1737,7 +1736,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.5, 325.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 293.0, 104.0, 20.0 ],
+					"presentation_rect" : [ 8.5, 325.0, 104.0, 20.0 ],
 					"style" : "",
 					"text" : "network settings"
 				}
@@ -1755,7 +1754,7 @@
 					"patching_rect" : [ 8.5, 347.0, 103.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 7.5, 315.0, 103.0, 33.0 ],
+					"presentation_rect" : [ 8.5, 347.0, 103.0, 33.0 ],
 					"style" : "",
 					"text" : "IP: 10.0.0.1\nSubnet: 255.0.0.0",
 					"textjustification" : 1
@@ -2158,7 +2157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.0, 514.0, 60.0, 49.0 ],
+					"patching_rect" : [ 257.0, 514.0, 62.0, 49.0 ],
 					"style" : "",
 					"text" : "0 0 0 0 0 0 0 0 255 0 0"
 				}
@@ -2439,7 +2438,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 1.0, 121.0, 390.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 116.0, 353.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 121.0, 390.0 ],
 					"proportion" : 0.39,
 					"rounded" : 11,
 					"style" : ""
@@ -3710,70 +3709,60 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.nav.rand.maxpat",
 				"bootpath" : "~/code/Nav/Jamoma/jmod.nav.rand",
-				"patcherrelativepath" : "../../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.rand.maxpat",
 				"bootpath" : "~/code/Nav/Jamoma/jmod.nav.rand",
-				"patcherrelativepath" : "../../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
 				"bootpath" : "./Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "./Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.smartGate~.maxpat",
 				"bootpath" : "~/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.zsa.maxpat",
 				"bootpath" : "~/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.zsa.core.maxpat",
 				"bootpath" : "~/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.alphabet.maxpat",
 				"bootpath" : "~/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.vufader.maxpat",
 				"bootpath" : "~/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.debounce.maxpat",
 				"bootpath" : "~/code/SearchPath/dot_20121204/timing/dot.debounce",
-				"patcherrelativepath" : "../../../../SearchPath/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}

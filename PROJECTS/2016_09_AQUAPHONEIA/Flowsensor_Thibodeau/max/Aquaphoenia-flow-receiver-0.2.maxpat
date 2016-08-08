@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1250.0, 79.0, 1126.0, 1281.0 ],
+		"rect" : [ 73.0, 79.0, 1126.0, 1281.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1723,18 +1723,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "pour1_clone.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "waterflow~.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bubblex~.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH/procedural-water",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH/procedural-water",
 				"type" : "JSON",
 				"implicit" : 1
 			}
