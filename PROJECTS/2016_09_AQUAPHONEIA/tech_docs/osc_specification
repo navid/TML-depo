@@ -1,0 +1,24 @@
+-------------------------------------------------------
+DMX control (received by aquaDMX-v1 on *drip computer*)
+-------------------------------------------------------
+
+/DMX/dripr
+/DMX/dripl
+/DMX/boil
+/DMX/whirl
+/DMX/magnet
+/DMX/pump
+/DMX/edison
+/DMX/na
+/DMX/boilvalve
+/DMX/boillight
+/DMX/stove
+
+--------------------------------------------------------------------------
+Flow Sensor (received by Aquaphoneia-flow-receiver-0.2 on *drip computer*)
+--------------------------------------------------------------------------
+
+/flow/boil
+/flow/dripr
+/flow/dripl
+/flow/whirl
