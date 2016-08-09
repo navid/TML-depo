@@ -1120,7 +1120,7 @@
 /target1/input/channel.L 9
 /target1/input/channel.R 9
 /target1/audio/gain 0.000000
-/target1/audio/mute 1
+/target1/audio/mute 0
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -1146,7 +1146,7 @@
 /target2/input/channel.L 8
 /target2/input/channel.R 8
 /target2/audio/gain 0.000000
-/target2/audio/mute 1
+/target2/audio/mute 0
 # 
 /target2/balance/mode FastMode
 /target2/balance/position 0.000000
@@ -1172,7 +1172,7 @@
 /target3/input/channel.L 10
 /target3/input/channel.R 10
 /target3/audio/gain 0.000000
-/target3/audio/mute 1
+/target3/audio/mute 0
 # 
 /target3/balance/mode FastMode
 /target3/balance/position 0.000000
@@ -1198,7 +1198,7 @@
 /target4/input/channel.L 1
 /target4/input/channel.R 1
 /target4/audio/gain 0.000000
-/target4/audio/mute 1
+/target4/audio/mute 0
 # 
 /target4/balance/mode FastMode
 /target4/balance/position 0.000000
@@ -1249,7 +1249,7 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -32.404191
+/concatout1/audio/gain -24.260526
 /concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
@@ -1275,7 +1275,7 @@
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain -37.350868
+/concatout2/audio/gain -30.052369
 /concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
@@ -1301,7 +1301,7 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -29.638392
+/concatout3/audio/gain -20.162635
 /concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
@@ -1327,7 +1327,7 @@
 # 
 /concatout4/record/file/type aiff
 /concatout4/record/samptype int24
-/concatout4/audio/gain -28.579059
+/concatout4/audio/gain -19.457230
 /concatout4/audio/mute 0
 # 
 /concatout4/balance/mode FastMode
@@ -1353,7 +1353,7 @@
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -28.346631
+/concatout5/audio/gain -20.926151
 /concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
@@ -1611,7 +1611,7 @@
 /scalecontact4/clip 1
 /scalecontact4/diffMode 0
 /scalecontact4/offset 0.000000
-/scalecontact4/visualize 0
+/scalecontact4/visualize 1
 # 
 /scalecontact5/scale/input/max 100.000000
 /scalecontact5/scale/input/min 0.000000
@@ -1838,7 +1838,7 @@
 /noisecontact3/attack 10.000000
 /noisecontact3/lookahead 10
 /noisecontact3/release 300.000000
-/noisecontact3/threshold -40.629906
+/noisecontact3/threshold -37.039360
 # 
 /noisecontact4/audio/bypass 0
 /noisecontact4/audio/gain 0.000000
@@ -1935,8 +1935,8 @@
 /rhythmmic1/audio/mix 100.000000
 /rhythmmic1/audio/mute 0
 /rhythmmic1/filter.1/type highpass
-/rhythmmic1/filter.1/frequency 150.000000
-/rhythmmic1/filter.1/gain -1.011754
+/rhythmmic1/filter.1/frequency 75.000000
+/rhythmmic1/filter.1/gain 0.000000
 /rhythmmic1/filter.1/octave_bandwidth 1.000000
 /rhythmmic1/filter.2/type peaknotch
 /rhythmmic1/filter.2/frequency 300.000000
@@ -2111,9 +2111,9 @@
 /rhythmmic5/audio/mix 100.000000
 /rhythmmic5/audio/mute 0
 /rhythmmic5/filter.1/type highpass
-/rhythmmic5/filter.1/frequency 334.645660
+/rhythmmic5/filter.1/frequency 75.000000
 /rhythmmic5/filter.1/gain 0.000000
-/rhythmmic5/filter.1/octave_bandwidth 2.196701
+/rhythmmic5/filter.1/octave_bandwidth 1.000000
 /rhythmmic5/filter.2/type lowpass
 /rhythmmic5/filter.2/frequency 4862.361816
 /rhythmmic5/filter.2/gain -0.755906
