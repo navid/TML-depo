@@ -423,7 +423,7 @@
 /scalecontact4/autoscale/audio/gain 0.000000
 /scalecontact4/autoscale/audio/mix 100.000000
 /scalecontact4/autoscale/audio/mute 0
-/scalecontact4/autoscale/input/max 0.000000
+/scalecontact4/autoscale/input/max 0.724864
 /scalecontact4/autoscale/input/min 0.000000
 /scalecontact4/autoscale/exp 1.000000
 /scalecontact4/autoscale/lock 0
@@ -461,7 +461,7 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.000000
+/scalecontact5/autoscale/input/max 0.543618
 /scalecontact5/autoscale/input/min 0.000000
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 0
@@ -605,7 +605,7 @@
 /concateqout5/bands 4
 # 
 /contact4duration/data/active 1
-/contact4duration/input/address none
+/contact4duration/input/address /scalecontact4/envelope
 /contact4duration/input/max 1.000000
 /contact4duration/input/min 0.000000
 /contact4duration/output/max 1.000000
@@ -620,7 +620,7 @@
 /contact4duration/rampTime 0.000000
 # 
 /contact4filterfreq/data/active 1
-/contact4filterfreq/input/address none
+/contact4filterfreq/input/address /scalecontact4/envelope
 /contact4filterfreq/input/max 0.300000
 /contact4filterfreq/input/min 0.000000
 /contact4filterfreq/output/max 800.000000
@@ -635,7 +635,7 @@
 /contact4filterfreq/rampTime 0.000000
 # 
 /contact4filtergain/data/active 1
-/contact4filtergain/input/address none
+/contact4filtergain/input/address /scalecontact4/envelope
 /contact4filtergain/input/max 1.000000
 /contact4filtergain/input/min 0.000000
 /contact4filtergain/output/max 1.000000
@@ -650,7 +650,7 @@
 /contact4filtergain/rampTime 0.000000
 # 
 /contact4period/data/active 1
-/contact4period/input/address none
+/contact4period/input/address /scalecontact4/envelope
 /contact4period/input/max 1.000000
 /contact4period/input/min 0.000000
 /contact4period/output/max 100.000000
@@ -665,7 +665,7 @@
 /contact4period/rampTime 0.000000
 # 
 /contact5duration/data/active 1
-/contact5duration/input/address none
+/contact5duration/input/address /scalecontact5/envelope
 /contact5duration/input/max 1.000000
 /contact5duration/input/min 0.000000
 /contact5duration/output/max 1.000000
@@ -680,7 +680,7 @@
 /contact5duration/rampTime 0.000000
 # 
 /contact5filterfreq/data/active 1
-/contact5filterfreq/input/address none
+/contact5filterfreq/input/address /scalecontact5/envelope
 /contact5filterfreq/input/max 0.300000
 /contact5filterfreq/input/min 0.000000
 /contact5filterfreq/output/max 800.000000
@@ -695,7 +695,7 @@
 /contact5filterfreq/rampTime 0.000000
 # 
 /contact5filtergain/data/active 1
-/contact5filtergain/input/address none
+/contact5filtergain/input/address /scalecontact5/envelope
 /contact5filtergain/input/max 1.000000
 /contact5filtergain/input/min 0.000000
 /contact5filtergain/output/max 1.000000
@@ -710,7 +710,7 @@
 /contact5filtergain/rampTime 0.000000
 # 
 /contact5period/data/active 1
-/contact5period/input/address none
+/contact5period/input/address /scalecontact5/envelope
 /contact5period/input/max 1.000000
 /contact5period/input/min 0.000000
 /contact5period/output/max 100.000000
