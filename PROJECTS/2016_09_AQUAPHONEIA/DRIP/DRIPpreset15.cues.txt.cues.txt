@@ -807,7 +807,7 @@
 /noisecontact5/attack 0.000000
 /noisecontact5/lookahead 2
 /noisecontact5/release 339.370026
-/noisecontact5/threshold -60.377926
+/noisecontact5/threshold -87.307083
 # 
 /oscroutecontact4/data/active 1
 /oscroutecontact4/input/address none

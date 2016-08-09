@@ -1,0 +1,15 @@
+nav.mdlys.resonate~
+
+------------------
+Issue:
+Object does not actually save membrane type (though indicates it visually correctly).
+
+How to reproduce:
+1) Select 'Circular Membrane' above the brightness knob.
+2) Save patch in your cue manager.
+3) Close max, reopen patch, & select your preset.
+4) Run signal through patch, listen to result.
+5) Then switch to 'Circular Membrane' to observe difference.
+------------------
+
+
