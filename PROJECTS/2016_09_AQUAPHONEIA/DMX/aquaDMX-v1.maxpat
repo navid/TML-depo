@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 416.0, 45.0, 1513.0, 1174.0 ],
+		"rect" : [ 1097.0, 45.0, 270.0, 1174.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -291,7 +291,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 553.0, 50.0, 49.0 ],
 					"style" : "",
-					"text" : "0 0 0 0 179 0 0 0 0 0 0"
+					"text" : "0 0 0 0 186 0 0 0 0 0 0"
 				}
 
 			}
@@ -913,12 +913,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1213.0, 554.0, 1042.0, 597.0 ],
+						"rect" : [ 604.0, 554.0, 1042.0, 597.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1546,7 +1546,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 919.952393, 311.0, 101.0, 35.0 ],
 					"style" : "",
-					"text" : "0 0 0 0 179 0 0 0 0 0 0"
+					"text" : "0 0 0 0 186 0 0 0 0 0 0"
 				}
 
 			}
@@ -3770,13 +3770,13 @@
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "./Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "./Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3846,6 +3846,10 @@
 			}
 , 			{
 				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
 				"type" : "iLaX"
 			}
 , 			{
