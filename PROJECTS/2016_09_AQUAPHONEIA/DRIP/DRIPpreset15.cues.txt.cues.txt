@@ -1,4 +1,4 @@
-- cue "2016-08-08 22:39:45"
+- cue "2016-08-09 16:03:29"
 - description "something about this cue"
 # ###########################################
 # 
@@ -405,7 +405,7 @@
 /dripmic5/record/file/type aiff
 /dripmic5/record/samptype int24
 /dripmic5/audio/gain -14.279910
-/dripmic5/audio/mute 0
+/dripmic5/audio/mute 1
 # 
 /dripmic5/balance/mode FastMode
 /dripmic5/balance/position 0.000000
@@ -664,21 +664,22 @@
 /contact4period/mode 1
 /contact4period/rampTime 0.000000
 # 
+/contact5duration/function/parameters.1 0.000000
 /contact5duration/data/active 1
 /contact5duration/input/address /scalecontact5/envelope
 /contact5duration/input/max 1.000000
 /contact5duration/input/min 0.000000
 /contact5duration/output/max 800.000000
-/contact5duration/output/min 1.000000
+/contact5duration/output/min 100.000000
 /contact5duration/slide/down 103.000000
 /contact5duration/slide/up 0.000000
-/contact5duration/function exponential
 /contact5duration/active 1
 /contact5duration/bypass 0
 /contact5duration/clipmode low
 /contact5duration/mode 1
 /contact5duration/rampTime 0.000000
 # 
+/contact5filterfreq/function/parameters.1 0.000000
 /contact5filterfreq/data/active 1
 /contact5filterfreq/input/address /scalecontact5/envelope
 /contact5filterfreq/input/max 1.000000
@@ -687,7 +688,6 @@
 /contact5filterfreq/output/min 1000.000000
 /contact5filterfreq/slide/down 0.000000
 /contact5filterfreq/slide/up 0.000000
-/contact5filterfreq/function logarithm
 /contact5filterfreq/active 1
 /contact5filterfreq/bypass 0
 /contact5filterfreq/clipmode low
@@ -733,6 +733,37 @@
 /corpusgate/release 300.000000
 /corpusgate/threshold -38.834652
 # 
+/nav_mdlys_resonate~/audio/bypass 0
+/nav_mdlys_resonate~/audio/gain 12.000000
+/nav_mdlys_resonate~/audio/mix 100.000000
+/nav_mdlys_resonate~/audio/mute 0
+/nav_mdlys_resonate~/excite/active 0
+/nav_mdlys_resonate~/excite/rate 4800.000000
+/nav_mdlys_resonate~/excite/smooth 5000
+/nav_mdlys_resonate~/excite/x1 51
+/nav_mdlys_resonate~/excite/y1 37
+/nav_mdlys_resonate~/pickup/active 0
+/nav_mdlys_resonate~/pickup/rate 1000.000000
+/nav_mdlys_resonate~/pickup/smooth 5000
+/nav_mdlys_resonate~/pickup/x1 52
+/nav_mdlys_resonate~/pickup/x2 99
+/nav_mdlys_resonate~/pickup/x3 29
+/nav_mdlys_resonate~/pickup/x4 81
+/nav_mdlys_resonate~/pickup/y1 97
+/nav_mdlys_resonate~/pickup/y2 7
+/nav_mdlys_resonate~/pickup/y3 7
+/nav_mdlys_resonate~/pickup/y4 4
+/nav_mdlys_resonate~/pitch/detune 0
+/nav_mdlys_resonate~/pitch/ramp 0
+/nav_mdlys_resonate~/pitch/transp 0
+/nav_mdlys_resonate~/pitch/midi 35
+/nav_mdlys_resonate~/resonator 8
+/nav_mdlys_resonate~/matter 6
+/nav_mdlys_resonate~/brightness 38.188988
+/nav_mdlys_resonate~/damping 49.606277
+/nav_mdlys_resonate~/inharm 0.000000
+/nav_mdlys_resonate~/modes 37
+# 
 /noisecontact1/audio/bypass 0
 /noisecontact1/audio/gain 0.000000
 /noisecontact1/audio/mix 100.000000
@@ -769,7 +800,7 @@
 /noisecontact4/release 229.133942
 /noisecontact4/threshold -38.834648
 # 
-/noisecontact5/audio/bypass 0
+/noisecontact5/audio/bypass 1
 /noisecontact5/audio/gain 0.000000
 /noisecontact5/audio/mix 100.000000
 /noisecontact5/audio/mute 0
@@ -778,7 +809,6 @@
 /noisecontact5/release 339.370026
 /noisecontact5/threshold -60.377926
 # 
-/oscroutecontact4/function/parameters.1 base 3.000000
 /oscroutecontact4/data/active 1
 /oscroutecontact4/input/address none
 /oscroutecontact4/input/max 1.000000
@@ -787,13 +817,13 @@
 /oscroutecontact4/output/min 0.000000
 /oscroutecontact4/slide/down 100.000000
 /oscroutecontact4/slide/up 0.000000
+/oscroutecontact4/function linear
 /oscroutecontact4/active 0.000000
 /oscroutecontact4/bypass 0
 /oscroutecontact4/clipmode low
 /oscroutecontact4/mode 1
 /oscroutecontact4/rampTime 0.000000
 # 
-/oscroutecontact5/function/parameters.1 base 3.000000
 /oscroutecontact5/data/active 1
 /oscroutecontact5/input/address none
 /oscroutecontact5/input/max 1.000000
@@ -802,6 +832,7 @@
 /oscroutecontact5/output/min 0.000000
 /oscroutecontact5/slide/down 100.000000
 /oscroutecontact5/slide/up 0.000000
+/oscroutecontact5/function linear
 /oscroutecontact5/active 0.000000
 /oscroutecontact5/bypass 0
 /oscroutecontact5/clipmode low
