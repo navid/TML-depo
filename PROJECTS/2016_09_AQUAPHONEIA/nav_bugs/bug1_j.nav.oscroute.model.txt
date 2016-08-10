@@ -4,7 +4,7 @@ j.nav.oscroute~.model
 August 9, 2016
 
 Issue:
-Object does not actually function (& does not visually indicate it correctly either).
+‘Function’ does not seem to save with cue manager (& does not visually indicate it correctly either when loaded).
 
 How to reproduce:
 1) Select a function (eg: logarithmic).
