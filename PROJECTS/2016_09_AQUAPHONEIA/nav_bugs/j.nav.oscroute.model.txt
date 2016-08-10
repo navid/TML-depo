@@ -1,0 +1,18 @@
+j.nav.oscroute~.model
+
+------------------
+August 9, 2016
+
+Issue:
+Object does not actually function (& does not visually indicate it correctly either).
+
+How to reproduce:
+1) Select a function (eg: logarithmic).
+2) Save patch in your cue manager.
+3) Close max, reopen patch, & select your preset.
+
+NOTES:
+- same issue exists for some or all other parameters?
+------------------
+
+

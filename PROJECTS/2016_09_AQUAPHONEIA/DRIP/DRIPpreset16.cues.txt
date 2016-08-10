@@ -41,7 +41,7 @@
 /target1/input/channel.L 9
 /target1/input/channel.R 9
 /target1/audio/gain 0.000000
-/target1/audio/mute 1
+/target1/audio/mute 0
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -171,7 +171,7 @@
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
 /concatout1/audio/gain -20.850296
-/concatout1/audio/mute 1
+/concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
 /concatout1/balance/position 0.000000
@@ -274,7 +274,7 @@
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -12.435237
+/concatout5/audio/gain -3.495046
 /concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
@@ -461,7 +461,7 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.053746
+/scalecontact5/autoscale/input/max 0.068387
 /scalecontact5/autoscale/input/min 0.000000
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 0
@@ -642,16 +642,16 @@
 /concatmod5/excite/active 0
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 25
-/concatmod5/excite/y1 0
+/concatmod5/excite/x1 48
+/concatmod5/excite/y1 51
 /concatmod5/pickup/active 0
 /concatmod5/pickup/rate 1000.000000
 /concatmod5/pickup/smooth 5000
-/concatmod5/pickup/x1 17
-/concatmod5/pickup/x2 84
+/concatmod5/pickup/x1 23
+/concatmod5/pickup/x2 75
 /concatmod5/pickup/x3 25
 /concatmod5/pickup/x4 75
-/concatmod5/pickup/y1 88
+/concatmod5/pickup/y1 25
 /concatmod5/pickup/y2 65
 /concatmod5/pickup/y3 0
 /concatmod5/pickup/y4 0
@@ -728,7 +728,7 @@
 # 
 /contact5duration/data/active 1
 /contact5duration/input/address /scalecontact5/envelope
-/contact5duration/input/max 0.734980
+/contact5duration/input/max 1.000000
 /contact5duration/input/min 0.000000
 /contact5duration/output/max 300.000000
 /contact5duration/output/min 50.000000
