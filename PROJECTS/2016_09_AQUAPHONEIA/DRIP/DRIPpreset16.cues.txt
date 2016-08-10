@@ -170,7 +170,7 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -20.850296
+/concatout1/audio/gain -25.744824
 /concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
@@ -248,7 +248,7 @@
 # 
 /concatout4/record/file/type aiff
 /concatout4/record/samptype int24
-/concatout4/audio/gain -19.457230
+/concatout4/audio/gain -9.116060
 /concatout4/audio/mute 1
 # 
 /concatout4/balance/mode FastMode
@@ -274,7 +274,7 @@
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -3.495046
+/concatout5/audio/gain -6.189699
 /concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
@@ -461,8 +461,8 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.068387
-/scalecontact5/autoscale/input/min 0.000000
+/scalecontact5/autoscale/input/max 0.051207
+/scalecontact5/autoscale/input/min 0.000030
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 0
 /scalecontact5/autoscale/maximum 1.000000
@@ -481,7 +481,7 @@
 /scalecontact5/filter/gain 0.500000
 /scalecontact5/filter/q 0.500000
 /scalecontact5/filter/type highpass
-/scalecontact5/pre-slide/down 0.000000
+/scalecontact5/pre-slide/down 74.000000
 /scalecontact5/pre-slide/up 0.000000
 /scalecontact5/ramp/down 0.000000
 /scalecontact5/ramp/up 0.000000
@@ -650,11 +650,11 @@
 /concatmod5/pickup/x1 23
 /concatmod5/pickup/x2 75
 /concatmod5/pickup/x3 25
-/concatmod5/pickup/x4 75
-/concatmod5/pickup/y1 25
-/concatmod5/pickup/y2 65
-/concatmod5/pickup/y3 0
-/concatmod5/pickup/y4 0
+/concatmod5/pickup/x4 76
+/concatmod5/pickup/y1 26
+/concatmod5/pickup/y2 68
+/concatmod5/pickup/y3 2
+/concatmod5/pickup/y4 1
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
 /concatmod5/pitch/transp 0
@@ -731,10 +731,10 @@
 /contact5duration/input/max 1.000000
 /contact5duration/input/min 0.000000
 /contact5duration/output/max 300.000000
-/contact5duration/output/min 50.000000
+/contact5duration/output/min 6.000000
 /contact5duration/slide/down 0.000000
 /contact5duration/slide/up 0.000000
-/contact5duration/function linear
+/contact5duration/function logarithm
 /contact5duration/active 1
 /contact5duration/bypass 0
 /contact5duration/clipmode low
@@ -744,12 +744,12 @@
 /contact5filterfreq/data/active 1
 /contact5filterfreq/input/address /scalecontact5/envelope
 /contact5filterfreq/input/max 1.000000
-/contact5filterfreq/input/min 0.000000
-/contact5filterfreq/output/max 500.000000
+/contact5filterfreq/input/min 0.001846
+/contact5filterfreq/output/max 100.000000
 /contact5filterfreq/output/min 1000.000000
 /contact5filterfreq/slide/down 0.000000
 /contact5filterfreq/slide/up 0.000000
-/contact5filterfreq/function linear
+/contact5filterfreq/function exponential
 /contact5filterfreq/active 1
 /contact5filterfreq/bypass 0
 /contact5filterfreq/clipmode low
@@ -802,7 +802,7 @@
 /noisecontact1/attack 10.000000
 /noisecontact1/lookahead 10
 /noisecontact1/release 314.960602
-/noisecontact1/threshold -35.244095
+/noisecontact1/threshold -41.527557
 # 
 /noisecontact2/audio/bypass 0
 /noisecontact2/audio/gain 0.000000
