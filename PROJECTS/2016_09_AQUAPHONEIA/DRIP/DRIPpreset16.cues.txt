@@ -423,8 +423,8 @@
 /scalecontact4/autoscale/audio/gain 0.000000
 /scalecontact4/autoscale/audio/mix 100.000000
 /scalecontact4/autoscale/audio/mute 0
-/scalecontact4/autoscale/input/max 0.543875
-/scalecontact4/autoscale/input/min 0.000000
+/scalecontact4/autoscale/input/max 0.260762
+/scalecontact4/autoscale/input/min 0.001041
 /scalecontact4/autoscale/exp 1.000000
 /scalecontact4/autoscale/lock 0
 /scalecontact4/autoscale/maximum 1.000000
@@ -439,22 +439,22 @@
 /scalecontact4/clip/minMax -1.000000 1.000000
 /scalecontact4/clip/mode 0
 /scalecontact4/data/active 1
-/scalecontact4/filter/frequency 35.000000
+/scalecontact4/filter/frequency 100.000000
 /scalecontact4/filter/gain 0.500000
 /scalecontact4/filter/q 0.500000
 /scalecontact4/filter/type none
-/scalecontact4/pre-slide/down 196.000000
+/scalecontact4/pre-slide/down 74.000000
 /scalecontact4/pre-slide/up 0.000000
 /scalecontact4/ramp/down 0.000000
 /scalecontact4/ramp/up 0.000000
 /scalecontact4/slide/down 2.000000
 /scalecontact4/slide/up 0.000000
-/scalecontact4/snapshot/interval 5
+/scalecontact4/snapshot/interval 1
 /scalecontact4/snapshot/on 1
 /scalecontact4/cutoff 900
 /scalecontact4/mute 0
 /scalecontact4/offset 0.000000
-/scalecontact4/preview 1
+/scalecontact4/preview 0
 # 
 # 
 /scalecontact5/autoscale/audio/bypass 0
@@ -492,7 +492,7 @@
 /scalecontact5/cutoff 900
 /scalecontact5/mute 0
 /scalecontact5/offset 0.000000
-/scalecontact5/preview 1
+/scalecontact5/preview 0
 # 
 /concateqout1/audio/bypass 0
 /concateqout1/audio/gain 0.000000
