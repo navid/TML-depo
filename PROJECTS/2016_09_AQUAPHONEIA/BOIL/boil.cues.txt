@@ -291,7 +291,7 @@
 /boilRogBottom/mapPvar/rampTime 0.000000
 # 
 /boilRogBottom/mapSize/data/active 1
-/boilRogBottom/mapSize/input/address none
+/boilRogBottom/mapSize/input/address /ValveLogic/valveOpen/event
 /boilRogBottom/mapSize/input/max 1.000000
 /boilRogBottom/mapSize/input/min 0.000000
 /boilRogBottom/mapSize/output/max 1.000000
@@ -371,22 +371,22 @@
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
 /boilRogBottom/buffer/size 60750.417969
-/boilRogBottom/mapperGate/gain 0
+/boilRogBottom/mapperGate/gain 2
 /boilRogBottom/mapperGate/onsetVar 0
-/boilRogBottom/mapperGate/pitch 0
-/boilRogBottom/mapperGate/pitchVar 0
+/boilRogBottom/mapperGate/pitch 2
+/boilRogBottom/mapperGate/pitchVar 2
 /boilRogBottom/mapperGate/position 0
-/boilRogBottom/mapperGate/size 0
+/boilRogBottom/mapperGate/size 1
 /boilRogBottom/mapperGate/speed 0
 /boilRogBottom/mapperGate/spread 0
 /boilRogBottom/mapperGate/trigger 0
 /boilRogBottom/mapperGate/turn 0
-/boilRogBottom/mod/gain 0.000000
+/boilRogBottom/mod/gain 10.000000
 /boilRogBottom/mod/onsetVar 0.000000
-/boilRogBottom/mod/pitch 0.000000
-/boilRogBottom/mod/pitchVar 0.000000
+/boilRogBottom/mod/pitch -800.000000
+/boilRogBottom/mod/pitchVar 1500.000000
 /boilRogBottom/mod/position 0.000000
-/boilRogBottom/mod/size 0.000000
+/boilRogBottom/mod/size -850.000000
 /boilRogBottom/mod/speed 0.000000
 /boilRogBottom/mod/spread 0.000000
 /boilRogBottom/mod/trigger 0.000000
@@ -407,7 +407,7 @@
 /coneSteamer/grain/trigger/variance/rateVar/randomnessRate 1.067278
 /coneSteamer/grain/trigger/variance/rateVar/spread 14.183199
 /coneSteamer/grain/trigger/variance/on 0
-/coneSteamer/grain/trigger/freq 100.000000
+/coneSteamer/grain/trigger/freq 0.000000
 /coneSteamer/grain/trigger/lock 0
 /coneSteamer/grain/trigger/mode 0
 /coneSteamer/grain/trigger/note 0
@@ -416,7 +416,7 @@
 /coneSteamer/grain/overlap 80
 # 
 /coneSteamer/mapGain/data/active 1
-/coneSteamer/mapGain/input/address none
+/coneSteamer/mapGain/input/address /ValveLogic/valveOpen
 /coneSteamer/mapGain/input/max 1.000000
 /coneSteamer/mapGain/input/min 0.000000
 /coneSteamer/mapGain/output/max 1.000000
@@ -428,7 +428,7 @@
 /coneSteamer/mapGain/bypass 0
 /coneSteamer/mapGain/clipmode low
 /coneSteamer/mapGain/mode 0.000000
-/coneSteamer/mapGain/rampTime 0.000000
+/coneSteamer/mapGain/rampTime 1000.000000
 # 
 /coneSteamer/mapOnsetVar/data/active 1
 /coneSteamer/mapOnsetVar/input/address none
@@ -536,7 +536,7 @@
 /coneSteamer/mapSpread/rampTime 0.000000
 # 
 /coneSteamer/mapTrigger/data/active 1
-/coneSteamer/mapTrigger/input/address none
+/coneSteamer/mapTrigger/input/address /ValveLogic/valveOpen
 /coneSteamer/mapTrigger/input/max 1.000000
 /coneSteamer/mapTrigger/input/min 0.000000
 /coneSteamer/mapTrigger/output/max 1.000000
@@ -548,7 +548,7 @@
 /coneSteamer/mapTrigger/bypass 0
 /coneSteamer/mapTrigger/clipmode low
 /coneSteamer/mapTrigger/mode 0.000000
-/coneSteamer/mapTrigger/rampTime 0.000000
+/coneSteamer/mapTrigger/rampTime 3000.000000
 # 
 /coneSteamer/mapTurn/data/active 1
 /coneSteamer/mapTurn/input/address none
@@ -565,7 +565,7 @@
 /coneSteamer/mapTurn/mode 0.000000
 /coneSteamer/mapTurn/rampTime 0.000000
 /coneSteamer/audio/bypass 0
-/coneSteamer/audio/gain -13.000000
+/coneSteamer/audio/gain -17.000000
 /coneSteamer/audio/mix 100.000000
 /coneSteamer/audio/mute 0
 /coneSteamer/buffer/append 1
@@ -589,7 +589,7 @@
 /coneSteamer/mod/size 0.000000
 /coneSteamer/mod/speed 0.000000
 /coneSteamer/mod/spread 0.000000
-/coneSteamer/mod/trigger 0.000000
+/coneSteamer/mod/trigger 100.000000
 /coneSteamer/mod/turn 0.000000
 /coneSteamer/pan/mode 1
 /coneSteamer/pan/rate 2.000000
@@ -652,11 +652,11 @@
 /shiftFog/audio/bypass 0
 /shiftFog/audio/gain 0.000000
 /shiftFog/audio/mix 70.000000
-/shiftFog/audio/mute 1
+/shiftFog/audio/mute 0
 /shiftFog/feedback/gain -54.283463
 /shiftFog/feedback/time 91.889748
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift -134.048920
+/shiftFog/frequency/shift -59.932617
 # 
 /eqbottom/audio/bypass 0
 /eqbottom/audio/gain 12.000000
@@ -717,7 +717,7 @@
 /vst1/audio/bypass 0
 /vst1/audio/gain 0.000000
 /vst1/audio/mix 100.000000
-/vst1/audio/mute 1
+/vst1/audio/mute 0
 /vst1/parameter/0_interpolation_length 0.106924
 /vst1/parameter/10_flanger_depth 0.000000
 /vst1/parameter/11_flanger_rate 0.000000
