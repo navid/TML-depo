@@ -18,3 +18,7 @@ NOTES:
 ------------------
 
 
+EM:
+- seems to be something to do with the @priority setting, and order in which parameters are set on preset recall. Adding a [pipe 1000] after [j.parameter resonator] in the model seems to help, but this also seems like a less-than-ideal solution - better to find something that’s not so timing-dependent. Also need to check other params for this behaviour.
+
+Noticed that the module is missing auto-naming arguments (both the model and the bpatcher containing the view inside the module must have an argument of #1 in order for the module to instantiate correctly when loaded as a patcher)
