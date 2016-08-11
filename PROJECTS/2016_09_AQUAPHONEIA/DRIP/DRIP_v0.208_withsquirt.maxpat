@@ -9763,7 +9763,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 452.0, 79.0, 792.0, 768.0 ],
+						"rect" : [ 171.0, 79.0, 792.0, 768.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -15659,7 +15659,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 343.0, 873.0, 124.583328, 22.0 ],
 													"style" : "",
-													"text" : "envelope 0.039925"
+													"text" : "envelope 0.002039"
 												}
 
 											}
