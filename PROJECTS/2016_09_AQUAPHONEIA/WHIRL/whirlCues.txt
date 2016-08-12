@@ -8951,24 +8951,26 @@
  KEYCUE "vbfdbfgd3" 
  
  
- 	 	 	 	 /CONFIG /nav.oscroute.7 99 1 /nav.oscroute.8 99 1 /nav.oscroute.9 99 1 /nav.oscroute.10 99 1 /nav.oscroute.11 99 1 /nav.oscroute.12 99 1 /nav.oscroute.13 99 1 /flow 99 1 /oroCue 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 /nav.oscroute.14 99 1 /whrl2out 99 1 /nav.oscroute.15 99 1 /nav.oscroute.16 99 1 /rvrb2Map 99 1 
+ 	 	 	 	 /CONFIG /nav.oscroute 99 1 /nav.oscroute.1 99 1 /nav.oscroute.2 99 1 /nav.oscroute.3 99 1 /nav.oscroute.4 99 1 /nav.oscroute.5 99 1 /nav.oscroute.6 99 1 /nav.oscroute.7 99 1 /flow 99 1 /oroCue 99 1 /rvrb2Map 99 1 /whrl2out 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
  # 
+ # Module /nav.oscroute 
+ # 
+ # Module /nav.oscroute.1 
+ # 
+ # Module /nav.oscroute.2 
+ # 
+ # Module /nav.oscroute.3 
+ # 
+ # Module /nav.oscroute.4 
+ # 
+ # Module /nav.oscroute.5 
+ # 
+ # Module /nav.oscroute.6 
+ # 
  # Module /nav.oscroute.7 
- # 
- # Module /nav.oscroute.8 
- # 
- # Module /nav.oscroute.9 
- # 
- # Module /nav.oscroute.10 
- # 
- # Module /nav.oscroute.11 
- # 
- # Module /nav.oscroute.12 
- # 
- # Module /nav.oscroute.13 
  # 
  # Module /flow 
  	 	 	 	 /flow/flowON 0 
@@ -8978,6 +8980,50 @@
  # Module /oroCue 
  	 	 	 	 /oroCue/view/freeze 0 
  	 	 	 	 /oroCue/view/highlight 0 
+ # 
+ # Module /rvrb2Map 
+ 	 	 	 	 /rvrb2Map/in/module/name /height 
+ 	 	 	 	 /rvrb2Map/in/module/instance 0 
+ 	 	 	 	 /rvrb2Map/function linear 
+ 	 	 	 	 /rvrb2Map/function/symmetry 0 
+ 	 	 	 	 /rvrb2Map/function/parameter2 0.000000 
+ 	 	 	 	 /rvrb2Map/function/parameter1 0.000000 
+ 	 	 	 	 /rvrb2Map/in/module/parameter /out/final 
+ 	 	 	 	 /rvrb2Map/clip 0 
+ 	 	 	 	 /rvrb2Map/in/direct 0 
+ 	 	 	 	 /rvrb2Map/in/module/listindex 1 
+ 	 	 	 	 /rvrb2Map/mute 1 
+ 	 	 	 	 /rvrb2Map/offset 0.000000 
+ 	 	 	 	 /rvrb2Map/ramp/time 245 
+ 	 	 	 	 /rvrb2Map/scale/bypass 0 
+ 	 	 	 	 /rvrb2Map/scale/input/max 1.000000 
+ 	 	 	 	 /rvrb2Map/scale/input/min 0.000000 
+ 	 	 	 	 /rvrb2Map/scale/max 120.000000 
+ 	 	 	 	 /rvrb2Map/scale/min 0.000000 
+ 	 	 	 	 /rvrb2Map/scale/mode 4 
+ 	 	 	 	 /rvrb2Map/slide/down 0 
+ 	 	 	 	 /rvrb2Map/slide/up 0 
+ 	 	 	 	 /rvrb2Map/view/freeze 0 
+ # 
+ # Module /whrl2out 
+ 	 	 	 	 /whrl2out/audio/active 0 
+ 	 	 	 	 /whrl2out/audio/gain 79.000000 
+ 	 	 	 	 /whrl2out/audio/mute 0 
+ 	 	 	 	 /whrl2out/limiter/active 1 
+ 	 	 	 	 /whrl2out/limiter/dcblocker/active 1 
+ 	 	 	 	 /whrl2out/limiter/lookahead 64 
+ 	 	 	 	 /whrl2out/limiter/mode exponential 
+ 	 	 	 	 /whrl2out/limiter/postamp 0.000000 
+ 	 	 	 	 /whrl2out/limiter/preamp 6.000000 
+ 	 	 	 	 /whrl2out/limiter/release 300.000000 
+ 	 	 	 	 /whrl2out/limiter/threshold -1.000000 
+ 	 	 	 	 /whrl2out/numSpeakers 8 
+ 	 	 	 	 /whrl2out/offset 0 
+ 	 	 	 	 /whrl2out/record/filetype default 
+ 	 	 	 	 /whrl2out/record/samptype default 
+ 	 	 	 	 /whrl2out/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /whrl2out/view/freeze 0 
+ 	 	 	 	 /whrl2out/view/highlight 0 
  # 
  # Module /whirlpooler2 
  	 	 	 	 /whirlpooler2/grain/in/module/name 0 
@@ -9464,7 +9510,7 @@
  	 	 	 	 /terrRogs/waveform/normalize 1.000000 
  # 
  # Module /rogsOutT 
- 	 	 	 	 /rogsOutT/audio/active 1 
+ 	 	 	 	 /rogsOutT/audio/active 0 
  	 	 	 	 /rogsOutT/audio/gain 74.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
@@ -9508,7 +9554,6 @@
  	 	 	 	 /dryRogWhirlMap/view/freeze 0 
  # 
  # Module /filterMap1 
- 	 	 	 	 /filterMap1/alias /filterMap1/alias/remove 
  	 	 	 	 /filterMap1/in/module/name /height 
  	 	 	 	 /filterMap1/in/module/instance 0 
  	 	 	 	 /filterMap1/function exponential 
@@ -9799,7 +9844,7 @@
  	 	 	 	 /whirlpooler/waveform/normalize 1.000000 
  # 
  # Module /rogsOut 
- 	 	 	 	 /rogsOut/audio/active 1 
+ 	 	 	 	 /rogsOut/audio/active 0 
  	 	 	 	 /rogsOut/audio/gain 60.226604 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 1 
@@ -9843,7 +9888,6 @@
  	 	 	 	 /sine2-gain/view/freeze 0 
  # 
  # Module /sine1-2 
- 	 	 	 	 /sine1-2/alias /sine1-2/alias/remove 
  	 	 	 	 /sine1-2/in/module/name /height 
  	 	 	 	 /sine1-2/in/module/instance 0 
  	 	 	 	 /sine1-2/function linear 
@@ -9924,7 +9968,7 @@
  	 	 	 	 /sine1/view/freeze 0 
  # 
  # Module /sineOut 
- 	 	 	 	 /sineOut/audio/active 1 
+ 	 	 	 	 /sineOut/audio/active 0 
  	 	 	 	 /sineOut/audio/gain 69.272728 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
@@ -9953,8 +9997,7 @@
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
- 	 	 	 	 /mdlysOut/alias /mdlysOut/alias/remove 
- 	 	 	 	 /mdlysOut/audio/active 1 
+ 	 	 	 	 /mdlysOut/audio/active 0 
  	 	 	 	 /mdlysOut/audio/gain 55.253239 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
@@ -10009,7 +10052,7 @@
  	 	 	 	 /mdlys~/view/highlight none 
  # 
  # Module /spatOut 
- 	 	 	 	 /spatOut/audio/active 1 
+ 	 	 	 	 /spatOut/audio/active 0 
  	 	 	 	 /spatOut/audio/gain 127.000000 
  	 	 	 	 /spatOut/audio/mute 0 
  	 	 	 	 /spatOut/limiter/active 1 
@@ -10559,56 +10602,6 @@
  	 	 	 	 /small/view/freeze 0 
  	 	 	 	 /small/view/highlight none 
  	 	 	 	 /small/visualize 0 
- # 
- # Module /nav.oscroute.14 
- # 
- # Module /whrl2out 
- 	 	 	 	 /whrl2out/audio/active 1 
- 	 	 	 	 /whrl2out/audio/gain 79.000000 
- 	 	 	 	 /whrl2out/audio/mute 0 
- 	 	 	 	 /whrl2out/limiter/active 1 
- 	 	 	 	 /whrl2out/limiter/dcblocker/active 1 
- 	 	 	 	 /whrl2out/limiter/lookahead 64 
- 	 	 	 	 /whrl2out/limiter/mode exponential 
- 	 	 	 	 /whrl2out/limiter/postamp 0.000000 
- 	 	 	 	 /whrl2out/limiter/preamp 6.000000 
- 	 	 	 	 /whrl2out/limiter/release 300.000000 
- 	 	 	 	 /whrl2out/limiter/threshold -1.000000 
- 	 	 	 	 /whrl2out/numSpeakers 8 
- 	 	 	 	 /whrl2out/offset 0 
- 	 	 	 	 /whrl2out/record/filetype default 
- 	 	 	 	 /whrl2out/record/samptype default 
- 	 	 	 	 /whrl2out/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
- 	 	 	 	 /whrl2out/view/freeze 0 
- 	 	 	 	 /whrl2out/view/highlight 0 
- # 
- # Module /nav.oscroute.15 
- # 
- # Module /nav.oscroute.16 
- # 
- # Module /rvrb2Map 
- 	 	 	 	 /rvrb2Map/in/module/name /height 
- 	 	 	 	 /rvrb2Map/in/module/instance 0 
- 	 	 	 	 /rvrb2Map/function linear 
- 	 	 	 	 /rvrb2Map/function/symmetry 0 
- 	 	 	 	 /rvrb2Map/function/parameter2 0.000000 
- 	 	 	 	 /rvrb2Map/function/parameter1 0.000000 
- 	 	 	 	 /rvrb2Map/in/module/parameter /out/final 
- 	 	 	 	 /rvrb2Map/clip 0 
- 	 	 	 	 /rvrb2Map/in/direct 0 
- 	 	 	 	 /rvrb2Map/in/module/listindex 1 
- 	 	 	 	 /rvrb2Map/mute 1 
- 	 	 	 	 /rvrb2Map/offset 0.000000 
- 	 	 	 	 /rvrb2Map/ramp/time 245 
- 	 	 	 	 /rvrb2Map/scale/bypass 0 
- 	 	 	 	 /rvrb2Map/scale/input/max 1.000000 
- 	 	 	 	 /rvrb2Map/scale/input/min 0.000000 
- 	 	 	 	 /rvrb2Map/scale/max 120.000000 
- 	 	 	 	 /rvrb2Map/scale/min 0.000000 
- 	 	 	 	 /rvrb2Map/scale/mode 4 
- 	 	 	 	 /rvrb2Map/slide/down 0 
- 	 	 	 	 /rvrb2Map/slide/up 0 
- 	 	 	 	 /rvrb2Map/view/freeze 0 
  # 
  ######################## 
  
