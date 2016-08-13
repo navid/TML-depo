@@ -1022,7 +1022,7 @@
 # 
 /coneMic/clip/minMax -1.000000 1.000000
 /coneMic/clip/mode 3
-/coneMic/data/active 1
+/coneMic/data/active 0
 /coneMic/filter/frequency 90.000000
 /coneMic/filter/gain 0.600000
 /coneMic/filter/q 0.600000
@@ -1038,14 +1038,14 @@
 /coneMic/cutoff 910
 /coneMic/mute 0
 /coneMic/offset 0.000000
-/coneMic/preview 1
+/coneMic/preview 0
 # 
 # 
 /dripENV/autoscale/audio/bypass 0
 /dripENV/autoscale/audio/gain 0.000000
 /dripENV/autoscale/audio/mix 100.000000
 /dripENV/autoscale/audio/mute 0
-/dripENV/autoscale/input/max 0.000000
+/dripENV/autoscale/input/max 0.000002
 /dripENV/autoscale/input/min 0.000000
 /dripENV/autoscale/exp 1.000000
 /dripENV/autoscale/lock 0
@@ -1076,7 +1076,7 @@
 /dripENV/cutoff 900
 /dripENV/mute 0
 /dripENV/offset 0.000000
-/dripENV/preview 1
+/dripENV/preview 0
 # 
 # 
 /shiftFog/limiter/dcblocker/active 1
@@ -1094,7 +1094,7 @@
 /shiftFog/feedback/gain -54.283463
 /shiftFog/feedback/time 91.889748
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift -169.884048
+/shiftFog/frequency/shift -83.072998
 # 
 /ValveLogic/valveOpen/event 0.000000
 # 
@@ -1165,7 +1165,7 @@
 /vst1/parameter/13_lo_bin_cutoff 0.018718
 /vst1/parameter/14_hi_bin_cutoff 1.000000
 /vst1/parameter/15_randomize_phases 1.000000
-/vst1/parameter/16_fft_size 1.000000
+/vst1/parameter/16_fft_size 0.857143
 /vst1/parameter/17_gain 0.500000
 /vst1/parameter/1_interp_length_variance 0.200000
 /vst1/parameter/2_use_peak_amplitudes 0.000000
