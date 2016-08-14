@@ -380,8 +380,8 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -31.748293
-/concatout1/audio/mute 1
+/concatout1/audio/gain -35.713596
+/concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
 /concatout1/balance/position 0.000000
@@ -406,7 +406,7 @@
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain -48.827475
+/concatout2/audio/gain -37.171973
 /concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
@@ -432,7 +432,7 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -29.106567
+/concatout3/audio/gain -32.817687
 /concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
@@ -458,11 +458,11 @@
 # 
 /concatout4/record/file/type aiff
 /concatout4/record/samptype int24
-/concatout4/audio/gain -21.182081
-/concatout4/audio/mute 1
+/concatout4/audio/gain -20.642361
+/concatout4/audio/mute 0
 # 
 /concatout4/balance/mode FastMode
-/concatout4/balance/position 0.000000
+/concatout4/balance/position -0.047244
 /concatout4/balance/shape EqualPower
 # 
 /concatout4/saturation/active 1
@@ -474,17 +474,17 @@
 # 
 # 
 /concatout5/limiter/dcblocker/active 0
-/concatout5/limiter/active 0
+/concatout5/limiter/active 1
 /concatout5/limiter/lookahead 64
 /concatout5/limiter/mode exponential
-/concatout5/limiter/postamp 0.000000
-/concatout5/limiter/preamp 0.000000
+/concatout5/limiter/postamp 0.042857
+/concatout5/limiter/preamp 5.900000
 /concatout5/limiter/release 300.000000
 /concatout5/limiter/threshold -3.400000
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -20.073118
+/concatout5/audio/gain -23.040184
 /concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
@@ -503,10 +503,10 @@
 /scalecontact4/autoscale/audio/gain 0.000000
 /scalecontact4/autoscale/audio/mix 100.000000
 /scalecontact4/autoscale/audio/mute 0
-/scalecontact4/autoscale/input/max 0.406461
-/scalecontact4/autoscale/input/min 0.000000
+/scalecontact4/autoscale/input/max 0.020000
+/scalecontact4/autoscale/input/min 0.002310
 /scalecontact4/autoscale/exp 1.000000
-/scalecontact4/autoscale/lock 0
+/scalecontact4/autoscale/lock 1
 /scalecontact4/autoscale/maximum 1.000000
 /scalecontact4/autoscale/minimum 0.000000
 /scalecontact4/audio/bypass 0
@@ -517,19 +517,19 @@
 /scalecontact4/average/type 0
 # 
 /scalecontact4/clip/minMax -1.000000 1.000000
-/scalecontact4/clip/mode 0
+/scalecontact4/clip/mode 1
 /scalecontact4/data/active 1
 /scalecontact4/filter/frequency 35.000000
 /scalecontact4/filter/gain 0.500000
 /scalecontact4/filter/q 0.500000
 /scalecontact4/filter/type none
-/scalecontact4/pre-slide/down 5.000000
+/scalecontact4/pre-slide/down 100.000000
 /scalecontact4/pre-slide/up 0.000000
 /scalecontact4/ramp/down 0.000000
 /scalecontact4/ramp/up 0.000000
 /scalecontact4/slide/down 0.000000
 /scalecontact4/slide/up 0.000000
-/scalecontact4/snapshot/interval 5
+/scalecontact4/snapshot/interval 10
 /scalecontact4/snapshot/on 1
 /scalecontact4/cutoff 900
 /scalecontact4/mute 0
@@ -541,8 +541,8 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.007364
-/scalecontact5/autoscale/input/min 0.004845
+/scalecontact5/autoscale/input/max 0.016975
+/scalecontact5/autoscale/input/min 0.001474
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 1
 /scalecontact5/autoscale/maximum 1.000000
@@ -561,9 +561,9 @@
 /scalecontact5/filter/gain 0.500000
 /scalecontact5/filter/q 0.500000
 /scalecontact5/filter/type highpass
-/scalecontact5/pre-slide/down 74.000000
+/scalecontact5/pre-slide/down 100.000000
 /scalecontact5/pre-slide/up 0.000000
-/scalecontact5/ramp/down 0.000000
+/scalecontact5/ramp/down 100.000000
 /scalecontact5/ramp/up 0.000000
 /scalecontact5/slide/down 2.000000
 /scalecontact5/slide/up 0.000000
@@ -645,13 +645,13 @@
 /concateqout4/audio/mix 100.000000
 /concateqout4/audio/mute 0
 /concateqout4/filter.1/type highpass
-/concateqout4/filter.1/frequency 75.000000
+/concateqout4/filter.1/frequency 250.000000
 /concateqout4/filter.1/gain 0.000000
-/concateqout4/filter.1/octave_bandwidth 1.000000
+/concateqout4/filter.1/octave_bandwidth 2.000000
 /concateqout4/filter.2/type bandstop
-/concateqout4/filter.2/frequency 20.000000
+/concateqout4/filter.2/frequency 400.000000
 /concateqout4/filter.2/gain 0.000000
-/concateqout4/filter.2/octave_bandwidth 0.010000
+/concateqout4/filter.2/octave_bandwidth 1.000000
 /concateqout4/filter.3/type peaknotch
 /concateqout4/filter.3/frequency 1000.000000
 /concateqout4/filter.3/gain 0.000000
@@ -667,17 +667,17 @@
 /concateqout5/audio/mix 100.000000
 /concateqout5/audio/mute 0
 /concateqout5/filter.1/type highpass
-/concateqout5/filter.1/frequency 100.000000
+/concateqout5/filter.1/frequency 250.000000
 /concateqout5/filter.1/gain 0.000000
 /concateqout5/filter.1/octave_bandwidth 2.000000
-/concateqout5/filter.2/type peaknotch
-/concateqout5/filter.2/frequency 300.000000
+/concateqout5/filter.2/type bandstop
+/concateqout5/filter.2/frequency 400.000000
 /concateqout5/filter.2/gain 0.000000
-/concateqout5/filter.2/octave_bandwidth 1.000000
-/concateqout5/filter.3/type peaknotch
-/concateqout5/filter.3/frequency 1000.000000
+/concateqout5/filter.2/octave_bandwidth 0.630843
+/concateqout5/filter.3/type bandstop
+/concateqout5/filter.3/frequency 800.000000
 /concateqout5/filter.3/gain 0.000000
-/concateqout5/filter.3/octave_bandwidth 1.000000
+/concateqout5/filter.3/octave_bandwidth 0.198953
 /concateqout5/filter.4/type lowpass
 /concateqout5/filter.4/frequency 8000.000000
 /concateqout5/filter.4/gain 0.000000
@@ -687,25 +687,25 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 17
-/concatmod4/pickup/x2 13
+/concatmod4/pickup/x1 20
+/concatmod4/pickup/x2 15
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 17
-/concatmod4/pickup/y4 13
+/concatmod4/pickup/y3 20
+/concatmod4/pickup/y4 15
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 81
+/concatmod4/excite/x1 71
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
 /concatmod4/pitch/transp 0
-/concatmod4/pitch/midi 37
-/concatmod4/instrument/brightness 32.677143
-/concatmod4/instrument/damping 46.062984
+/concatmod4/pitch/midi 35
+/concatmod4/instrument/brightness 30.314939
+/concatmod4/instrument/damping 50.787384
 /concatmod4/instrument/inharm 0.000000
 /concatmod4/instrument/matter 3
 /concatmod4/instrument/modes 62
@@ -729,14 +729,14 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 77
+/concatmod5/excite/x1 66
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
 /concatmod5/pitch/transp -1
 /concatmod5/pitch/midi 43
-/concatmod5/instrument/brightness 32.677151
-/concatmod5/instrument/damping 43.700779
+/concatmod5/instrument/brightness 31.102352
+/concatmod5/instrument/damping 46.456699
 /concatmod5/instrument/inharm 0.000000
 /concatmod5/instrument/matter 6
 /concatmod5/instrument/modes 62
@@ -747,12 +747,12 @@
 /concatmod5/audio/mute 0
 # 
 /contact4duration/data/active 1
-/contact4duration/function/parameters.1 base 21.000000
+/contact4duration/function/parameters.1 base 16.000000
 /contact4duration/input/address /scalecontact4/envelope
-/contact4duration/input/max 0.970683
-/contact4duration/input/min 0.000567
+/contact4duration/input/max 4.081425
+/contact4duration/input/min -0.025776
 /contact4duration/output/max 300.000000
-/contact4duration/output/min 6.000000
+/contact4duration/output/min 1.000000
 /contact4duration/process/function logarithm
 /contact4duration/process/clipmode both
 /contact4duration/process/mode 1
@@ -760,15 +760,15 @@
 /contact4duration/slide/down 9.000000
 /contact4duration/slide/up 0.000000
 /contact4duration/active 1
-/contact4duration/scalebypass 1
+/contact4duration/scalebypass 0
 # 
 /contact4filterfreq/data/active 1
 /contact4filterfreq/function/parameters.1 base 4.000000
 /contact4filterfreq/input/address /scalecontact4/envelope
-/contact4filterfreq/input/max 0.970683
-/contact4filterfreq/input/min 0.000567
+/contact4filterfreq/input/max 13.321385
+/contact4filterfreq/input/min -0.025776
 /contact4filterfreq/output/max 100.000000
-/contact4filterfreq/output/min 1000.000000
+/contact4filterfreq/output/min 1100.000000
 /contact4filterfreq/process/function exponential
 /contact4filterfreq/process/clipmode both
 /contact4filterfreq/process/mode 1
@@ -776,7 +776,7 @@
 /contact4filterfreq/slide/down 72.000000
 /contact4filterfreq/slide/up 0.000000
 /contact4filterfreq/active 1
-/contact4filterfreq/scalebypass 1
+/contact4filterfreq/scalebypass 0
 # 
 /contact4filtergain/data/active 1
 /contact4filtergain/function/parameters.1 0.000000
@@ -814,10 +814,10 @@
 /contact5duration/function/parameters.1 base 20.000000
 /contact5duration/input/address /scalecontact5/envelope
 /contact5duration/input/max 1.000000
-/contact5duration/input/min -0.999709
-/contact5duration/output/max 500.000000
+/contact5duration/input/min -0.006516
+/contact5duration/output/max 200.000000
 /contact5duration/output/min 3.000000
-/contact5duration/process/function exponential
+/contact5duration/process/function logarithm
 /contact5duration/process/clipmode both
 /contact5duration/process/mode 1
 /contact5duration/process/rampTime 0.000000
@@ -830,14 +830,14 @@
 /contact5filterfreq/function/parameters.1 base 8.000000
 /contact5filterfreq/input/address /scalecontact5/envelope
 /contact5filterfreq/input/max 1.000000
-/contact5filterfreq/input/min -0.999709
+/contact5filterfreq/input/min -0.006516
 /contact5filterfreq/output/max 100.000000
 /contact5filterfreq/output/min 1000.000000
 /contact5filterfreq/process/function logarithm
 /contact5filterfreq/process/clipmode both
 /contact5filterfreq/process/mode 1
 /contact5filterfreq/process/rampTime 0.000000
-/contact5filterfreq/slide/down 76.000000
+/contact5filterfreq/slide/down 0.000000
 /contact5filterfreq/slide/up 0.000000
 /contact5filterfreq/active 1
 /contact5filterfreq/scalebypass 0
@@ -899,7 +899,7 @@
 /noisecontact2/attack 10.000000
 /noisecontact2/lookahead 10
 /noisecontact2/release 307.086609
-/noisecontact2/threshold -42.425213
+/noisecontact2/threshold -44.220486
 # 
 /noisecontact3/audio/bypass 0
 /noisecontact3/audio/gain 0.000000
@@ -917,7 +917,7 @@
 /noisecontact4/attack 0.000000
 /noisecontact4/lookahead 4
 /noisecontact4/release 229.133942
-/noisecontact4/threshold -32.551178
+/noisecontact4/threshold -36.141743
 # 
 /noisecontact5/audio/bypass 0
 /noisecontact5/audio/gain 0.000000
@@ -925,15 +925,15 @@
 /noisecontact5/audio/mute 0
 /noisecontact5/attack 0.000000
 /noisecontact5/lookahead 2
-/noisecontact5/release 299.999908
-/noisecontact5/threshold -34.346458
+/noisecontact5/release 512.598328
+/noisecontact5/threshold -40.629913
 # 
 /prand/data/active 1
 /prand/rate/max 1028
 /prand/rate/min 718
 /prand/interpolate 700
-/prand/max 350.000000
-/prand/min 150.000000
+/prand/max 300.000000
+/prand/min 100.000000
 /prand/on 1
 /prand/step 1.000000
 # 
