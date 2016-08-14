@@ -165,7 +165,7 @@
 /boilRog/mapTurn/mode 0.000000
 /boilRog/mapTurn/rampTime 0.000000
 /boilRog/audio/bypass 0
-/boilRog/audio/gain -22.000000
+/boilRog/audio/gain -27.000000
 /boilRog/audio/mix 100.000000
 /boilRog/audio/mute 0
 /boilRog/buffer/append 1
@@ -211,8 +211,8 @@
 /boilRogBottom/grain/trigger/lock 0
 /boilRogBottom/grain/trigger/mode 0
 /boilRogBottom/grain/trigger/note 0
-/boilRogBottom/grain/duration 920.000000
-/boilRogBottom/grain/onsetVar 13863.000000
+/boilRogBottom/grain/duration 926.000000
+/boilRogBottom/grain/onsetVar 13867.000000
 /boilRogBottom/grain/overlap 80
 # 
 /boilRogBottom/mapGain/data/active 1
@@ -299,8 +299,8 @@
 /boilRogBottom/mapSize/slide/down 0.000000
 /boilRogBottom/mapSize/slide/up 0.000000
 /boilRogBottom/mapSize/function linear
-/boilRogBottom/mapSize/active 0.000000
-/boilRogBottom/mapSize/bypass 1
+/boilRogBottom/mapSize/active 1
+/boilRogBottom/mapSize/bypass 0
 /boilRogBottom/mapSize/clipmode low
 /boilRogBottom/mapSize/mode 0.000000
 /boilRogBottom/mapSize/rampTime 0.000000
@@ -365,9 +365,9 @@
 /boilRogBottom/mapTurn/mode 0.000000
 /boilRogBottom/mapTurn/rampTime 0.000000
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -25.000000
+/boilRogBottom/audio/gain -33.000000
 /boilRogBottom/audio/mix 100.000000
-/boilRogBottom/audio/mute 0
+/boilRogBottom/audio/mute 1
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
 /boilRogBottom/buffer/size 60750.417969
@@ -381,10 +381,10 @@
 /boilRogBottom/mapperGate/spread 0
 /boilRogBottom/mapperGate/trigger 0
 /boilRogBottom/mapperGate/turn 0
-/boilRogBottom/mod/gain 10.000000
+/boilRogBottom/mod/gain 13.000000
 /boilRogBottom/mod/onsetVar 0.000000
 /boilRogBottom/mod/pitch -800.000000
-/boilRogBottom/mod/pitchVar 1500.000000
+/boilRogBottom/mod/pitchVar 2561.000000
 /boilRogBottom/mod/position 0.000000
 /boilRogBottom/mod/size -850.000000
 /boilRogBottom/mod/speed 0.000000
@@ -412,7 +412,7 @@
 /coneSteamer/grain/trigger/mode 0
 /coneSteamer/grain/trigger/note 0
 /coneSteamer/grain/duration 27.000000
-/coneSteamer/grain/onsetVar 564.000000
+/coneSteamer/grain/onsetVar 566.000000
 /coneSteamer/grain/overlap 80
 # 
 /coneSteamer/mapGain/data/active 1
@@ -544,7 +544,7 @@
 /coneSteamer/mapTrigger/slide/down 0.000000
 /coneSteamer/mapTrigger/slide/up 0.000000
 /coneSteamer/mapTrigger/function linear
-/coneSteamer/mapTrigger/active 0.000000
+/coneSteamer/mapTrigger/active 1
 /coneSteamer/mapTrigger/bypass 0
 /coneSteamer/mapTrigger/clipmode low
 /coneSteamer/mapTrigger/mode 0.000000
@@ -565,7 +565,7 @@
 /coneSteamer/mapTurn/mode 0.000000
 /coneSteamer/mapTurn/rampTime 0.000000
 /coneSteamer/audio/bypass 0
-/coneSteamer/audio/gain -17.000000
+/coneSteamer/audio/gain -9.000000
 /coneSteamer/audio/mix 100.000000
 /coneSteamer/audio/mute 0
 /coneSteamer/buffer/append 1
@@ -593,7 +593,7 @@
 /coneSteamer/mod/turn 0.000000
 /coneSteamer/pan/mode 1
 /coneSteamer/pan/rate 2.000000
-/coneSteamer/pan/spread 0.290000
+/coneSteamer/pan/spread 0.400000
 /coneSteamer/pitch/transpose -10.000000
 /coneSteamer/pitch/variation 19.000000
 /coneSteamer/playback/direction 0
@@ -611,7 +611,7 @@
 /dripRogs/grain/trigger/lock 0
 /dripRogs/grain/trigger/mode 0
 /dripRogs/grain/trigger/note 0
-/dripRogs/grain/duration 1.000000
+/dripRogs/grain/duration 5.000000
 /dripRogs/grain/onsetVar 3.000000
 /dripRogs/grain/overlap 80
 # 
@@ -773,31 +773,31 @@
 /dripRogs/buffer/size 10007.956055
 /dripRogs/mapperGate/gain 1
 /dripRogs/mapperGate/onsetVar 0
-/dripRogs/mapperGate/pitch 0
+/dripRogs/mapperGate/pitch 2
 /dripRogs/mapperGate/pitchVar 0
 /dripRogs/mapperGate/position 0
-/dripRogs/mapperGate/size 0
+/dripRogs/mapperGate/size 2
 /dripRogs/mapperGate/speed 2
 /dripRogs/mapperGate/spread 0
-/dripRogs/mapperGate/trigger 0
+/dripRogs/mapperGate/trigger 2
 /dripRogs/mapperGate/turn 0
-/dripRogs/mod/gain 20.000000
+/dripRogs/mod/gain 30.000000
 /dripRogs/mod/onsetVar 0.000000
-/dripRogs/mod/pitch 500.000000
+/dripRogs/mod/pitch 1300.000000
 /dripRogs/mod/pitchVar 0.000000
 /dripRogs/mod/position 0.000000
-/dripRogs/mod/size 400.000000
+/dripRogs/mod/size 420.000000
 /dripRogs/mod/speed 0.800000
 /dripRogs/mod/spread 0.000000
-/dripRogs/mod/trigger 40.000000
+/dripRogs/mod/trigger 50.000000
 /dripRogs/mod/turn 0.000000
 /dripRogs/pan/mode 0
 /dripRogs/pan/rate 0.000000
 /dripRogs/pan/spread 0.000000
-/dripRogs/pitch/transpose -1200.000000
+/dripRogs/pitch/transpose -1000.000000
 /dripRogs/pitch/variation 0.000000
 /dripRogs/playback/direction 0
-/dripRogs/playback/speed 0.200000
+/dripRogs/playback/speed 0.100000
 /dripRogs/playback/position 0.000000
 /dripRogs/selection/mode 0
 /dripRogs/selection/range 0.000000 9582.479492
@@ -1045,37 +1045,37 @@
 /dripENV/autoscale/audio/gain 0.000000
 /dripENV/autoscale/audio/mix 100.000000
 /dripENV/autoscale/audio/mute 0
-/dripENV/autoscale/input/max 0.000002
-/dripENV/autoscale/input/min 0.000000
+/dripENV/autoscale/input/max 0.180000
+/dripENV/autoscale/input/min 0.000900
 /dripENV/autoscale/exp 1.000000
-/dripENV/autoscale/lock 0
+/dripENV/autoscale/lock 2
 /dripENV/autoscale/maximum 1.000000
 /dripENV/autoscale/minimum 0.000000
 /dripENV/audio/bypass 0
 /dripENV/audio/gain 0.000000
 /dripENV/audio/mix 100.000000
 /dripENV/audio/mute 0
-/dripENV/average/period 0
+/dripENV/average/period 20
 /dripENV/average/type 0
 # 
 /dripENV/clip/minMax -1.000000 1.000000
-/dripENV/clip/mode 0
+/dripENV/clip/mode 3
 /dripENV/data/active 1
-/dripENV/filter/frequency 35.000000
+/dripENV/filter/frequency 78.000000
 /dripENV/filter/gain 0.500000
 /dripENV/filter/q 0.500000
 /dripENV/filter/type none
-/dripENV/pre-slide/down 5.000000
+/dripENV/pre-slide/down 150.000000
 /dripENV/pre-slide/up 0.000000
-/dripENV/ramp/down 0.000000
+/dripENV/ramp/down 135.000000
 /dripENV/ramp/up 0.000000
-/dripENV/slide/down 0.000000
+/dripENV/slide/down 63.000000
 /dripENV/slide/up 0.000000
 /dripENV/snapshot/interval 5
 /dripENV/snapshot/on 1
-/dripENV/cutoff 900
+/dripENV/cutoff 888
 /dripENV/mute 0
-/dripENV/offset 0.000000
+/dripENV/offset -0.000200
 /dripENV/preview 0
 # 
 # 
@@ -1094,7 +1094,7 @@
 /shiftFog/feedback/gain -54.283463
 /shiftFog/feedback/time 91.889748
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift -83.072998
+/shiftFog/frequency/shift -127.386002
 # 
 /ValveLogic/valveOpen/event 0.000000
 # 
@@ -1126,11 +1126,11 @@
 /randShift/interpolate 3800
 /randShift/max 40.000000
 /randShift/min -180.000000
-/randShift/on 1
+/randShift/on 0
 /randShift/step 1.000000
 # 
 /steamVSt/audio/bypass 0
-/steamVSt/audio/gain -10.000000
+/steamVSt/audio/gain -6.000000
 /steamVSt/audio/mix 100.000000
 /steamVSt/audio/mute 0
 /steamVSt/parameter/0_interpolation_length 0.154283
