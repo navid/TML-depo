@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 740.0, 45.0, 757.0, 487.0 ],
+		"rect" : [ 740.0, 45.0, 759.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,186 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 9.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 505.0, 144.0, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 495.0, 100.0, 60.0, 22.0 ],
+									"style" : "",
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 8.0,
+									"id" : "obj-12",
+									"linecount" : 14,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 185.0, 565.0, 134.0 ],
+									"style" : "",
+									"text" : "aperture 80., aperturecolor 1. 1. 1. 0.62, areasmonitoring 0, autozoom 0, backgroundcolor 0.7 0.7 0.7 1., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., circularconstraint 0, cluster 0. 0. 0. -1.55 250. 4000., cluster_distr 0.7, cluster_end 76.36, cluster_start 32.2, dashedgrid 0, defer 1, direct -4.7 -1.5 -0.25 0. 250. 4000., display 1, early 0. 0. 0. 0. 250. 4000., early_distr 0.6, early_end 35.78, early_shape 0.5, early_start 22.96, early_width 30., fh 8000., fl 250., format aed, gain 0., globalproportion 0.1, gridcolor 1. 1. 1. 1., gridlines 5, gridmode circular, gridspacing 1., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., modaldensity 1.31, name \"1\", numanchors 0, numangulardivisions 8, numareas 0, numinternals 8, numsources 1, numspeakers 1, orientationmode yawconstraint, radius 1., radiusconstraint 0, reverb_start 68.73, rightclicklock 0, room -1.05 -0.2 0. -1.2 250. 4000., roomairabsorption 1, roomairrolloff 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 0, showareas 0, showbackgroundimage 1, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourcecolor 0.490196 1. 0. 1., sourceproportion 0.07, sourceseditable 1, sourceslevels -60., sourcespositions 0. 1.132862 0., speakerseditable 0, speakerslevels -60., speakerspositions 0. 1. 0., speakersproportion 0.1, tr0 11.55, trh 0.39, trl 0.74, trm 0.83, useopengl 0, viewpoint top, windowmoveable 1, windowtitle IrcamVerb, windowtopleft 50. 800., xoffset 0., yaw 0., yoffset 0., zoffset 0., zoom 1., zoomlock 0,"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-18",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 596.0, 40.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-19",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 379.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 698.0, 318.0, 30.0, 19.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 8.0,
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 485.0, 291.0, 31.0, 17.0 ],
+					"presentation_rect" : [ 748.0, 276.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "dump"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -84,7 +264,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 501.0, 377.0, 62.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 70"
+					"text" : "loadmess 60"
 				}
 
 			}
@@ -1097,6 +1277,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1130,6 +1319,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -1371,54 +1569,63 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-6::obj-3::obj-7::obj-68::obj-182" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-121::obj-182" : [ "live.text[12]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[15]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-74" : [ "note", "Note", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[1]", "live.text", 0 ],
-			"obj-6::obj-3::obj-89" : [ "lock", "Lock", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-182" : [ "live.text[16]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
-			"obj-49::obj-1::obj-76" : [ "live.text", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-108::obj-32" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-6::obj-3::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-182" : [ "live.text[10]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[13]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-182" : [ "live.text[20]", "live.text[4]", 0 ],
-			"obj-6::obj-4::obj-15" : [ "Append", "Append", 0 ],
 			"obj-6::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
+			"obj-6::obj-3::obj-7::obj-105::obj-182" : [ "live.text[16]", "live.text[4]", 0 ],
 			"obj-6::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
+			"obj-6::obj-3::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
 			"obj-6::obj-3::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
 			"obj-49::obj-1::obj-118" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-182" : [ "live.text[14]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[17]", "live.text", 0 ],
 			"obj-6::obj-3::obj-18" : [ "Clear", "Clear", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-6::obj-3::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-6::obj-3::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-6::obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-6::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[5]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[11]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-50" : [ "Rec[1]", "Rec", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-182" : [ "live.text[18]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[21]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[1]", "live.text", 0 ],
 			"obj-6::obj-3::obj-7::obj-66::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[13]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[5]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[11]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-124::obj-182" : [ "live.text[20]", "live.text[4]", 0 ],
+			"obj-6::obj-4::obj-15" : [ "Append", "Append", 0 ],
+			"obj-6::obj-3::obj-50" : [ "Rec[1]", "Rec", 0 ],
+			"obj-6::obj-3::obj-7::obj-117::obj-182" : [ "live.text[14]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-68::obj-182" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[17]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-121::obj-182" : [ "live.text[12]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-6::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-6::obj-3::obj-89" : [ "lock", "Lock", 0 ],
+			"obj-6::obj-3::obj-7::obj-67::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-123::obj-182" : [ "live.text[18]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[21]", "live.text", 0 ],
+			"obj-6::obj-3::obj-108::obj-32" : [ "live.text[23]", "live.text[3]", 0 ],
+			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
+			"obj-6::obj-3::obj-74" : [ "note", "Note", 0 ],
+			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[15]", "live.text", 0 ],
+			"obj-6::obj-3::obj-7::obj-70::obj-182" : [ "live.text[10]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-6::obj-4::obj-20" : [ "Rec", "Rec", 0 ],
-			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ]
+			"obj-6::obj-3::obj-7::obj-133::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
+			"obj-6::obj-3::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
+			"obj-6::obj-3::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-49::obj-1::obj-76" : [ "live.text", "live.text", 0 ],
+			"obj-6::obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
