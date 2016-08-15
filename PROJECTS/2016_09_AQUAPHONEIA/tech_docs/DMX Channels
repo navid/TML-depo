@@ -1,16 +1,27 @@
 DMX Channels
+--------------
 
+//LED-CON-A
 1) Drip R Valve
 2) Drip L Valve
 3) Boil Valve
+
+//LED-CON-B
 4) Whirl Valve
 5) Tube 1 (L)
+
+//LED-CONC
 6) Tube 2 
 7) Tube 3
 8) Tube 4 (R)
+
+//DRIP DIMMER
 9) Magnet
 10) Pump
 11) Edison Motor
+
+//BOIL DIMMER
 12) Boil-valve
 13) Boil-light
 14) Bell
+15) Edison-light
