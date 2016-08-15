@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 740.0, 45.0, 759.0, 486.0 ],
+		"rect" : [ 414.0, 459.0, 759.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 185.0, 565.0, 134.0 ],
 									"style" : "",
-									"text" : "aperture 80., aperturecolor 1. 1. 1. 0.62, areasmonitoring 0, autozoom 0, backgroundcolor 0.7 0.7 0.7 1., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., circularconstraint 0, cluster 0. 0. 0. -1.55 250. 4000., cluster_distr 0.7, cluster_end 76.36, cluster_start 32.2, dashedgrid 0, defer 1, direct -4.7 -1.5 -0.25 0. 250. 4000., display 1, early 0. 0. 0. 0. 250. 4000., early_distr 0.6, early_end 35.78, early_shape 0.5, early_start 22.96, early_width 30., fh 8000., fl 250., format aed, gain 0., globalproportion 0.1, gridcolor 1. 1. 1. 1., gridlines 5, gridmode circular, gridspacing 1., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., modaldensity 1.31, name \"1\", numanchors 0, numangulardivisions 8, numareas 0, numinternals 8, numsources 1, numspeakers 1, orientationmode yawconstraint, radius 1., radiusconstraint 0, reverb_start 68.73, rightclicklock 0, room -1.05 -0.2 0. -1.2 250. 4000., roomairabsorption 1, roomairrolloff 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 0, showareas 0, showbackgroundimage 1, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourcecolor 0.490196 1. 0. 1., sourceproportion 0.07, sourceseditable 1, sourceslevels -60., sourcespositions 0. 1.132862 0., speakerseditable 0, speakerslevels -60., speakerspositions 0. 1. 0., speakersproportion 0.1, tr0 11.55, trh 0.39, trl 0.74, trm 0.83, useopengl 0, viewpoint top, windowmoveable 1, windowtitle IrcamVerb, windowtopleft 50. 800., xoffset 0., yaw 0., yoffset 0., zoffset 0., zoom 1., zoomlock 0,"
+									"text" : "aperture 80., aperturecolor 1. 1. 1. 0.62, areasmonitoring 0, autozoom 0, backgroundcolor 0.7 0.7 0.7 1., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., circularconstraint 0, cluster 0. 0. 0. -7.85 250. 4000., cluster_distr 0.7, cluster_end 51.55, cluster_start 24.31, dashedgrid 0, defer 1, direct 3.15 -1.5 1.95 0. 250. 4000., display 1, early 0. 0. 0. 0. 250. 4000., early_distr 0.6, early_end 27.01, early_shape 0.5, early_start 19.3, early_width 30., fh 8000., fl 250., format aed, gain 0., globalproportion 0.1, gridcolor 1. 1. 1. 1., gridlines 5, gridmode circular, gridspacing 1., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., modaldensity 0.8, name \"1\", numanchors 0, numangulardivisions 8, numareas 0, numinternals 8, numsources 1, numspeakers 1, orientationmode yawconstraint, radius 1., radiusconstraint 0, reverb_start 46.39, rightclicklock 0, room -7.5 -1.95 0. -7.85 250. 4000., roomairabsorption 1, roomairrolloff 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 0, showareas 0, showbackgroundimage 1, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourcecolor 0.490196 1. 0. 1., sourceproportion 0.07, sourceseditable 1, sourceslevels -60., sourcespositions 0. 1.132862 0., speakerseditable 0, speakerslevels -60., speakerspositions 0. 1. 0., speakersproportion 0.1, tr0 3.3, trh 0.42, trl 0.74, trm 0.83, useopengl 0, viewpoint top, windowmoveable 1, windowtitle IrcamVerb, windowtopleft 50. 800., xoffset 0., yaw 0., yoffset 0., zoffset 0., zoom 1., zoomlock 0,"
 								}
 
 							}
@@ -210,7 +210,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 291.0, 31.0, 17.0 ],
-					"presentation_rect" : [ 748.0, 276.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "dump"
 				}
@@ -262,9 +261,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 377.0, 62.0, 19.0 ],
+					"patching_rect" : [ 501.0, 377.0, 67.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 60"
+					"text" : "loadmess 105"
 				}
 
 			}
@@ -275,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 396.0, 107.0, 54.0, 22.0 ],
+					"patching_rect" : [ 396.0, 104.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "adc~ 13"
 				}
@@ -1111,9 +1110,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 360.0, 62.0, 19.0 ],
+					"patching_rect" : [ 290.0, 360.0, 67.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 95"
+					"text" : "loadmess 125"
 				}
 
 			}
@@ -1169,8 +1168,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 7354.95752, "ticks" ],
-						"originaltempo" : 119.999962,
+						"originallength" : [ 5974.537109, "ticks" ],
+						"originaltempo" : 119.999939,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -1233,8 +1232,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 5448.738281, "ticks" ],
-						"originaltempo" : 119.999962,
+						"originallength" : [ 4603.679199, "ticks" ],
+						"originaltempo" : 119.999977,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -1578,260 +1577,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-6::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-182" : [ "live.text[16]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
-			"obj-6::obj-3::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
-			"obj-6::obj-3::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
-			"obj-49::obj-1::obj-118" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-6::obj-3::obj-18" : [ "Clear", "Clear", 0 ],
-			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[1]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-66::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[13]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[5]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[11]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-182" : [ "live.text[20]", "live.text[4]", 0 ],
-			"obj-6::obj-4::obj-15" : [ "Append", "Append", 0 ],
-			"obj-6::obj-3::obj-50" : [ "Rec[1]", "Rec", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-182" : [ "live.text[14]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-68::obj-182" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[17]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-121::obj-182" : [ "live.text[12]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
-			"obj-6::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-6::obj-3::obj-89" : [ "lock", "Lock", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-123::obj-182" : [ "live.text[18]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[21]", "live.text", 0 ],
-			"obj-6::obj-3::obj-108::obj-32" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
-			"obj-6::obj-3::obj-74" : [ "note", "Note", 0 ],
-			"obj-6::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[15]", "live.text", 0 ],
-			"obj-6::obj-3::obj-7::obj-70::obj-182" : [ "live.text[10]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-6::obj-4::obj-20" : [ "Rec", "Rec", 0 ],
-			"obj-6::obj-3::obj-7::obj-133::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
-			"obj-6::obj-3::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-6::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
-			"obj-6::obj-3::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-49::obj-1::obj-76" : [ "live.text", "live.text", 0 ],
-			"obj-6::obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.nav.scale~.module.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.scale~.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.autoscale~.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.autoscale~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.route~.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.route~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.clip~.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.clip~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.scale~.view.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.rogsLive=.module.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rogslive~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.rogsLive=.view.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rogslive~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.oscroute.view.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.oscroute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.rogsLive=.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rogslive~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.absdiff.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.oscroute.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.oscroute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.textslider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rogs~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.pack=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.gain=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.dcblock=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unpack=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ircamverb~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ircamverb~.control.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
