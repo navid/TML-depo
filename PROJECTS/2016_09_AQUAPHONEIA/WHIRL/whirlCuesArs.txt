@@ -1662,30 +1662,30 @@
  KEYCUE "init2" 
  
  
- 	 	 	 	 /CONFIG /nav.oscroute.8 99 1 /nav.oscroute.9 99 1 /nav.oscroute.10 99 1 /nav.oscroute.11 99 1 /nav.oscroute.12 99 1 /nav.oscroute.13 99 1 /nav.oscroute.14 99 1 /nav.oscroute.15 99 1 /flow 99 1 /oroCue 99 1 /rvrb2Map 99 1 /whrl2out 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 
+ 	 	 	 	 /CONFIG /nav.oscroute 99 1 /nav.oscroute.1 99 1 /nav.oscroute.2 99 1 /nav.oscroute.3 99 1 /nav.oscroute.4 99 1 /nav.oscroute.5 99 1 /nav.oscroute.6 99 1 /nav.oscroute.7 99 1 /flow 99 1 /oroCue 99 1 /rvrb2Map 99 1 /whrl2out 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
  # 
- # Module /nav.oscroute.8 
+ # Module /nav.oscroute 
  # 
- # Module /nav.oscroute.9 
+ # Module /nav.oscroute.1 
  # 
- # Module /nav.oscroute.10 
+ # Module /nav.oscroute.2 
  # 
- # Module /nav.oscroute.11 
+ # Module /nav.oscroute.3 
  # 
- # Module /nav.oscroute.12 
+ # Module /nav.oscroute.4 
  # 
- # Module /nav.oscroute.13 
+ # Module /nav.oscroute.5 
  # 
- # Module /nav.oscroute.14 
+ # Module /nav.oscroute.6 
  # 
- # Module /nav.oscroute.15 
+ # Module /nav.oscroute.7 
  # 
  # Module /flow 
  	 	 	 	 /flow/flowON 0 
- 	 	 	 	 /flow/flow 0 
+ 	 	 	 	 /flow/flow 0.000000 
  	 	 	 	 /flow/view/freeze 0 
  # 
  # Module /oroCue 
@@ -1717,7 +1717,7 @@
  	 	 	 	 /rvrb2Map/view/freeze 0 
  # 
  # Module /whrl2out 
- 	 	 	 	 /whrl2out/audio/active 1 
+ 	 	 	 	 /whrl2out/audio/active 0 
  	 	 	 	 /whrl2out/audio/gain 79.000000 
  	 	 	 	 /whrl2out/audio/mute 0 
  	 	 	 	 /whrl2out/limiter/active 1 
@@ -1848,7 +1848,7 @@
  	 	 	 	 /whirlpooler2/mapperGate/spread 2 
  	 	 	 	 /whirlpooler2/mapperGate/trigger 0 
  	 	 	 	 /whirlpooler2/mapperGate/turn 2 
- 	 	 	 	 /whirlpooler2/mod/gain -40.000000 
+ 	 	 	 	 /whirlpooler2/mod/gain -43.000000 
  	 	 	 	 /whirlpooler2/mod/onsetVar 3.000000 
  	 	 	 	 /whirlpooler2/mod/pitch 0.000000 
  	 	 	 	 /whirlpooler2/mod/pitchVar 3.000000 
@@ -1913,7 +1913,7 @@
  	 	 	 	 /whirlpooler2/position/slide/down 0 
  	 	 	 	 /whirlpooler2/position/slide/up 0 
  	 	 	 	 /whirlpooler2/selection/mode 0 
- 	 	 	 	 /whirlpooler2/selection/range 0.000000 14255.312500 
+ 	 	 	 	 /whirlpooler2/selection/range 0.000000 15012.145508 
  	 	 	 	 /whirlpooler2/size/in/module/listindex 1 
  	 	 	 	 /whirlpooler2/size/mute 0 
  	 	 	 	 /whirlpooler2/size/offset 0.000000 
@@ -2155,7 +2155,7 @@
  	 	 	 	 /terrRogs/position/slide/down 0 
  	 	 	 	 /terrRogs/position/slide/up 0 
  	 	 	 	 /terrRogs/selection/mode 0 
- 	 	 	 	 /terrRogs/selection/range 0.000000 11196.479492 
+ 	 	 	 	 /terrRogs/selection/range 0.000000 12009.625000 
  	 	 	 	 /terrRogs/size/in/module/listindex 1 
  	 	 	 	 /terrRogs/size/mute 0 
  	 	 	 	 /terrRogs/size/offset 0.000000 
@@ -2221,7 +2221,7 @@
  	 	 	 	 /terrRogs/waveform/normalize 1.000000 
  # 
  # Module /rogsOutT 
- 	 	 	 	 /rogsOutT/audio/active 1 
+ 	 	 	 	 /rogsOutT/audio/active 0 
  	 	 	 	 /rogsOutT/audio/gain 74.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
@@ -2241,6 +2241,7 @@
  	 	 	 	 /rogsOutT/view/highlight 0 
  # 
  # Module /dryRogWhirlMap 
+ 	 	 	 	 /dryRogWhirlMap/alias /dryRogWhirlMap/alias/remove 
  	 	 	 	 /dryRogWhirlMap/in/module/name /height 
  	 	 	 	 /dryRogWhirlMap/in/module/instance 0 
  	 	 	 	 /dryRogWhirlMap/function logarithm 
@@ -2489,7 +2490,7 @@
  	 	 	 	 /whirlpooler/position/slide/down 0 
  	 	 	 	 /whirlpooler/position/slide/up 0 
  	 	 	 	 /whirlpooler/selection/mode 0 
- 	 	 	 	 /whirlpooler/selection/range 0.000000 17967.875000 
+ 	 	 	 	 /whirlpooler/selection/range 0.000000 18815.333984 
  	 	 	 	 /whirlpooler/size/in/module/listindex 1 
  	 	 	 	 /whirlpooler/size/mute 0 
  	 	 	 	 /whirlpooler/size/offset 0.000000 
@@ -2555,8 +2556,8 @@
  	 	 	 	 /whirlpooler/waveform/normalize 1.000000 
  # 
  # Module /rogsOut 
- 	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 70.447456 
+ 	 	 	 	 /rogsOut/audio/active 0 
+ 	 	 	 	 /rogsOut/audio/gain 68.089432 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 1 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2599,6 +2600,7 @@
  	 	 	 	 /sine2-gain/view/freeze 0 
  # 
  # Module /sine1-2 
+ 	 	 	 	 /sine1-2/alias /sine1-2/alias/remove 
  	 	 	 	 /sine1-2/in/module/name /height 
  	 	 	 	 /sine1-2/in/module/instance 0 
  	 	 	 	 /sine1-2/function linear 
@@ -2623,9 +2625,9 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 60.888813 
+ 	 	 	 	 /sine~2/audio/gain 67.911301 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 30.853321 
+ 	 	 	 	 /sine~2/frequency 33.760002 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2679,8 +2681,8 @@
  	 	 	 	 /sine1/view/freeze 0 
  # 
  # Module /sineOut 
- 	 	 	 	 /sineOut/audio/active 1 
- 	 	 	 	 /sineOut/audio/gain 69.272728 
+ 	 	 	 	 /sineOut/audio/active 0 
+ 	 	 	 	 /sineOut/audio/gain 82.467529 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2700,15 +2702,15 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 32.394382 
+ 	 	 	 	 /sine~1/audio/gain 55.801632 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 474.000000 
+ 	 	 	 	 /sine~1/frequency 383.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
- 	 	 	 	 /mdlysOut/audio/active 1 
+ 	 	 	 	 /mdlysOut/audio/active 0 
  	 	 	 	 /mdlysOut/audio/gain 55.253239 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
@@ -2763,7 +2765,7 @@
  	 	 	 	 /mdlys~/view/highlight none 
  # 
  # Module /spatOut 
- 	 	 	 	 /spatOut/audio/active 1 
+ 	 	 	 	 /spatOut/audio/active 0 
  	 	 	 	 /spatOut/audio/gain 127.000000 
  	 	 	 	 /spatOut/audio/mute 0 
  	 	 	 	 /spatOut/limiter/active 1 
@@ -2803,9 +2805,9 @@
  	 	 	 	 /nav.motion%/noise/ripple 0.500000 
  	 	 	 	 /nav.motion%/slide/down 2.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 7.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 15.000000 
  	 	 	 	 /nav.motion%/threshold/mode 1 
- 	 	 	 	 /nav.motion%/threshold/radius 32 
+ 	 	 	 	 /nav.motion%/threshold/radius 33 
  	 	 	 	 /nav.motion%/trails 1 
  	 	 	 	 /nav.motion%/video/bypass 0 
  	 	 	 	 /nav.motion%/video/freeze 0 
@@ -3059,7 +3061,7 @@
  # Module /hornEQ~ 
  	 	 	 	 /hornEQ~/bands 2 
  	 	 	 	 /hornEQ~/audio/bypass 0 
- 	 	 	 	 /hornEQ~/audio/gain 127.000000 
+ 	 	 	 	 /hornEQ~/audio/gain 79.000000 
  	 	 	 	 /hornEQ~/audio/mix 100.000000 
  	 	 	 	 /hornEQ~/audio/mute 0 
  	 	 	 	 /hornEQ~/filter.1/frequency 93.142784 
