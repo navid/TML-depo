@@ -225,7 +225,7 @@
 /corpus/input/channel.L 1
 /corpus/input/channel.R 1
 /corpus/audio/gain 0.000000
-/corpus/audio/mute 0
+/corpus/audio/mute 1
 # 
 /corpus/balance/mode FastMode
 /corpus/balance/position 0.000000
@@ -380,8 +380,8 @@
 # 
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
-/concatout1/audio/gain -38.760334
-/concatout1/audio/mute 1
+/concatout1/audio/gain -30.975155
+/concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
 /concatout1/balance/position 0.000000
@@ -406,8 +406,8 @@
 # 
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
-/concatout2/audio/gain -40.870704
-/concatout2/audio/mute 1
+/concatout2/audio/gain -31.279533
+/concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
 /concatout2/balance/position 0.000000
@@ -432,8 +432,8 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -32.881549
-/concatout3/audio/mute 1
+/concatout3/audio/gain -32.881550
+/concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
 /concatout3/balance/position 0.000000
@@ -459,7 +459,7 @@
 /concatout4/record/file/type aiff
 /concatout4/record/samptype int24
 /concatout4/audio/gain -14.407360
-/concatout4/audio/mute 1
+/concatout4/audio/mute 0
 # 
 /concatout4/balance/mode FastMode
 /concatout4/balance/position -0.047244
@@ -484,8 +484,8 @@
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -16.118320
-/concatout5/audio/mute 1
+/concatout5/audio/gain -17.071821
+/concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
 /concatout5/balance/position 0.000000
@@ -541,7 +541,7 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.168353
+/scalecontact5/autoscale/input/max 0.180304
 /scalecontact5/autoscale/input/min 0.000000
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 0
@@ -687,18 +687,18 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 36
-/concatmod4/pickup/x2 81
+/concatmod4/pickup/x1 38
+/concatmod4/pickup/x2 62
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 36
-/concatmod4/pickup/y4 81
+/concatmod4/pickup/y3 38
+/concatmod4/pickup/y4 62
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 53
+/concatmod4/excite/x1 61
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
@@ -729,7 +729,7 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 20
+/concatmod5/excite/x1 9
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
@@ -926,7 +926,1058 @@
 /noisecontact5/attack 0.000000
 /noisecontact5/lookahead 2
 /noisecontact5/release 512.598328
-/noisecontact5/threshold -45.118099
+/noisecontact5/threshold -41.527554
+# 
+/prand/data/active 1
+/prand/rate/max 1028
+/prand/rate/min 718
+/prand/interpolate 700
+/prand/max 300.000000
+/prand/min 100.000000
+/prand/on 1
+/prand/step 1.000000
+# 
+/rhythmmic1/audio/bypass 0
+/rhythmmic1/audio/gain 0.000000
+/rhythmmic1/audio/mix 100.000000
+/rhythmmic1/audio/mute 0
+/rhythmmic1/filter.1/type highpass
+/rhythmmic1/filter.1/frequency 75.000000
+/rhythmmic1/filter.1/gain 0.000000
+/rhythmmic1/filter.1/octave_bandwidth 1.000000
+/rhythmmic1/filter.2/type peaknotch
+/rhythmmic1/filter.2/frequency 300.000000
+/rhythmmic1/filter.2/gain 0.000000
+/rhythmmic1/filter.2/octave_bandwidth 1.000000
+/rhythmmic1/filter.3/type peaknotch
+/rhythmmic1/filter.3/frequency 1000.000000
+/rhythmmic1/filter.3/gain 0.000000
+/rhythmmic1/filter.3/octave_bandwidth 1.000000
+/rhythmmic1/filter.4/type lowpass
+/rhythmmic1/filter.4/frequency 3000.000000
+/rhythmmic1/filter.4/gain 0.000000
+/rhythmmic1/filter.4/octave_bandwidth 2.000000
+/rhythmmic1/bands 4
+# 
+/rhythmmic2/audio/bypass 0
+/rhythmmic2/audio/gain 0.000000
+/rhythmmic2/audio/mix 100.000000
+/rhythmmic2/audio/mute 0
+/rhythmmic2/filter.1/type highpass
+/rhythmmic2/filter.1/frequency 75.000000
+/rhythmmic2/filter.1/gain 0.000000
+/rhythmmic2/filter.1/octave_bandwidth 1.000000
+/rhythmmic2/filter.2/type peaknotch
+/rhythmmic2/filter.2/frequency 300.000000
+/rhythmmic2/filter.2/gain 0.000000
+/rhythmmic2/filter.2/octave_bandwidth 1.000000
+/rhythmmic2/filter.3/type peaknotch
+/rhythmmic2/filter.3/frequency 1000.000000
+/rhythmmic2/filter.3/gain 0.000000
+/rhythmmic2/filter.3/octave_bandwidth 1.000000
+/rhythmmic2/filter.4/type lowpass
+/rhythmmic2/filter.4/frequency 8000.000000
+/rhythmmic2/filter.4/gain 0.000000
+/rhythmmic2/filter.4/octave_bandwidth 2.000000
+/rhythmmic2/bands 4
+# 
+/rhythmmic3/audio/bypass 0
+/rhythmmic3/audio/gain 0.000000
+/rhythmmic3/audio/mix 100.000000
+/rhythmmic3/audio/mute 0
+/rhythmmic3/filter.1/type highpass
+/rhythmmic3/filter.1/frequency 75.000000
+/rhythmmic3/filter.1/gain 0.000000
+/rhythmmic3/filter.1/octave_bandwidth 1.000000
+/rhythmmic3/filter.2/type peaknotch
+/rhythmmic3/filter.2/frequency 300.000000
+/rhythmmic3/filter.2/gain 0.000000
+/rhythmmic3/filter.2/octave_bandwidth 1.000000
+/rhythmmic3/filter.3/type peaknotch
+/rhythmmic3/filter.3/frequency 1000.000000
+/rhythmmic3/filter.3/gain 0.000000
+/rhythmmic3/filter.3/octave_bandwidth 1.000000
+/rhythmmic3/filter.4/type highshelf
+/rhythmmic3/filter.4/frequency 5000.000000
+/rhythmmic3/filter.4/gain 0.000000
+/rhythmmic3/filter.4/octave_bandwidth 1.000000
+/rhythmmic3/bands 4
+# 
+/rhythmmic4/audio/bypass 0
+/rhythmmic4/audio/gain 0.000000
+/rhythmmic4/audio/mix 100.000000
+/rhythmmic4/audio/mute 0
+/rhythmmic4/filter.1/type highpass
+/rhythmmic4/filter.1/frequency 75.000000
+/rhythmmic4/filter.1/gain 0.000000
+/rhythmmic4/filter.1/octave_bandwidth 1.000000
+/rhythmmic4/filter.2/type peaknotch
+/rhythmmic4/filter.2/frequency 300.000000
+/rhythmmic4/filter.2/gain 0.000000
+/rhythmmic4/filter.2/octave_bandwidth 1.000000
+/rhythmmic4/filter.3/type peaknotch
+/rhythmmic4/filter.3/frequency 1000.000000
+/rhythmmic4/filter.3/gain 0.000000
+/rhythmmic4/filter.3/octave_bandwidth 1.000000
+/rhythmmic4/filter.4/type lowpass
+/rhythmmic4/filter.4/frequency 5000.000000
+/rhythmmic4/filter.4/gain 0.000000
+/rhythmmic4/filter.4/octave_bandwidth 2.000000
+/rhythmmic4/bands 4
+# 
+/rhythmmic5/audio/bypass 0
+/rhythmmic5/audio/gain 0.000000
+/rhythmmic5/audio/mix 100.000000
+/rhythmmic5/audio/mute 0
+/rhythmmic5/filter.1/type highpass
+/rhythmmic5/filter.1/frequency 75.000000
+/rhythmmic5/filter.1/gain 0.000000
+/rhythmmic5/filter.1/octave_bandwidth 1.000000
+/rhythmmic5/filter.2/type lowpass
+/rhythmmic5/filter.2/frequency 4862.361816
+/rhythmmic5/filter.2/gain -0.755906
+/rhythmmic5/filter.2/octave_bandwidth 1.629843
+/rhythmmic5/filter.3/type peaknotch
+/rhythmmic5/filter.3/frequency 1000.000000
+/rhythmmic5/filter.3/gain 0.000000
+/rhythmmic5/filter.3/octave_bandwidth 1.000000
+/rhythmmic5/filter.4/type highshelf
+/rhythmmic5/filter.4/frequency 5000.000000
+/rhythmmic5/filter.4/gain 0.000000
+/rhythmmic5/filter.4/octave_bandwidth 1.000000
+/rhythmmic5/bands 4
+# 
+# ###########################################
+
+- cue "2016-08-15 18:39:57"
+- description "something about this cue"
+# ###########################################
+# 
+/squirt/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/squirt/grain/trigger/variance/gainVar/range 0.000000
+/squirt/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/squirt/grain/trigger/variance/rateVar/spread 0.000000
+/squirt/grain/trigger/variance/on 0
+/squirt/grain/trigger/freq 0.000000
+/squirt/grain/trigger/lock 0
+/squirt/grain/trigger/mode 0
+/squirt/grain/trigger/note 0
+/squirt/grain/duration 12.000000
+/squirt/grain/onsetVar 4000.000000
+/squirt/grain/overlap 50
+# 
+/squirt/mapGain/data/active 1
+/squirt/mapGain/function/parameters.1 0.000000
+/squirt/mapGain/input/address none
+/squirt/mapGain/input/max 1.000000
+/squirt/mapGain/input/min 0.000000
+/squirt/mapGain/output/max 1.000000
+/squirt/mapGain/output/min 0.000000
+/squirt/mapGain/process/function freehand
+/squirt/mapGain/process/clipmode both
+/squirt/mapGain/process/mode 0.000000
+/squirt/mapGain/process/rampTime 0.000000
+/squirt/mapGain/slide/down 0.000000
+/squirt/mapGain/slide/up 0.000000
+/squirt/mapGain/active 0
+/squirt/mapGain/scalebypass 1
+# 
+/squirt/mapOnsetVar/data/active 1
+/squirt/mapOnsetVar/function/parameters.1 0.000000
+/squirt/mapOnsetVar/input/address none
+/squirt/mapOnsetVar/input/max 1.000000
+/squirt/mapOnsetVar/input/min 0.000000
+/squirt/mapOnsetVar/output/max 1.000000
+/squirt/mapOnsetVar/output/min 0.000000
+/squirt/mapOnsetVar/process/function freehand
+/squirt/mapOnsetVar/process/clipmode both
+/squirt/mapOnsetVar/process/mode 0.000000
+/squirt/mapOnsetVar/process/rampTime 0.000000
+/squirt/mapOnsetVar/slide/down 0.000000
+/squirt/mapOnsetVar/slide/up 0.000000
+/squirt/mapOnsetVar/active 0
+/squirt/mapOnsetVar/scalebypass 1
+# 
+/squirt/mapPitch/data/active 1
+/squirt/mapPitch/function/parameters.1 0.000000
+/squirt/mapPitch/input/address none
+/squirt/mapPitch/input/max 1.000000
+/squirt/mapPitch/input/min 0.000000
+/squirt/mapPitch/output/max 1.000000
+/squirt/mapPitch/output/min 0.000000
+/squirt/mapPitch/process/function freehand
+/squirt/mapPitch/process/clipmode both
+/squirt/mapPitch/process/mode 0.000000
+/squirt/mapPitch/process/rampTime 0.000000
+/squirt/mapPitch/slide/down 0.000000
+/squirt/mapPitch/slide/up 0.000000
+/squirt/mapPitch/active 0
+/squirt/mapPitch/scalebypass 1
+# 
+/squirt/mapPosition/data/active 1
+/squirt/mapPosition/function/parameters.1 0.000000
+/squirt/mapPosition/input/address none
+/squirt/mapPosition/input/max 1.000000
+/squirt/mapPosition/input/min 0.000000
+/squirt/mapPosition/output/max 1.000000
+/squirt/mapPosition/output/min 0.000000
+/squirt/mapPosition/process/function freehand
+/squirt/mapPosition/process/clipmode both
+/squirt/mapPosition/process/mode 0.000000
+/squirt/mapPosition/process/rampTime 0.000000
+/squirt/mapPosition/slide/down 0.000000
+/squirt/mapPosition/slide/up 0.000000
+/squirt/mapPosition/active 0
+/squirt/mapPosition/scalebypass 1
+# 
+/squirt/mapPvar/data/active 1
+/squirt/mapPvar/function/parameters.1 0.000000
+/squirt/mapPvar/input/address none
+/squirt/mapPvar/input/max 1.000000
+/squirt/mapPvar/input/min 0.000000
+/squirt/mapPvar/output/max 1.000000
+/squirt/mapPvar/output/min 0.000000
+/squirt/mapPvar/process/function freehand
+/squirt/mapPvar/process/clipmode both
+/squirt/mapPvar/process/mode 0.000000
+/squirt/mapPvar/process/rampTime 0.000000
+/squirt/mapPvar/slide/down 0.000000
+/squirt/mapPvar/slide/up 0.000000
+/squirt/mapPvar/active 0
+/squirt/mapPvar/scalebypass 1
+# 
+/squirt/mapSize/data/active 1
+/squirt/mapSize/function/parameters.1 0.000000
+/squirt/mapSize/input/address none
+/squirt/mapSize/input/max 1.000000
+/squirt/mapSize/input/min 0.000000
+/squirt/mapSize/output/max 1.000000
+/squirt/mapSize/output/min 0.000000
+/squirt/mapSize/process/function freehand
+/squirt/mapSize/process/clipmode both
+/squirt/mapSize/process/mode 0.000000
+/squirt/mapSize/process/rampTime 0.000000
+/squirt/mapSize/slide/down 0.000000
+/squirt/mapSize/slide/up 0.000000
+/squirt/mapSize/active 0
+/squirt/mapSize/scalebypass 1
+# 
+/squirt/mapSpeed/data/active 1
+/squirt/mapSpeed/function/parameters.1 0.000000
+/squirt/mapSpeed/input/address /flow/flowL
+/squirt/mapSpeed/input/max 1.000000
+/squirt/mapSpeed/input/min 0.000000
+/squirt/mapSpeed/output/max 1.000000
+/squirt/mapSpeed/output/min 0.000000
+/squirt/mapSpeed/process/function freehand
+/squirt/mapSpeed/process/clipmode both
+/squirt/mapSpeed/process/mode 0.000000
+/squirt/mapSpeed/process/rampTime 1800.000000
+/squirt/mapSpeed/slide/down 0.000000
+/squirt/mapSpeed/slide/up 0.000000
+/squirt/mapSpeed/active 1
+/squirt/mapSpeed/scalebypass 0
+# 
+/squirt/mapSpread/data/active 1
+/squirt/mapSpread/function/parameters.1 0.000000
+/squirt/mapSpread/input/address none
+/squirt/mapSpread/input/max 1.000000
+/squirt/mapSpread/input/min 0.000000
+/squirt/mapSpread/output/max 1.000000
+/squirt/mapSpread/output/min 0.000000
+/squirt/mapSpread/process/function freehand
+/squirt/mapSpread/process/clipmode both
+/squirt/mapSpread/process/mode 0.000000
+/squirt/mapSpread/process/rampTime 0.000000
+/squirt/mapSpread/slide/down 0.000000
+/squirt/mapSpread/slide/up 0.000000
+/squirt/mapSpread/active 0
+/squirt/mapSpread/scalebypass 1
+# 
+/squirt/mapTrigger/data/active 1
+/squirt/mapTrigger/function/parameters.1 0.000000
+/squirt/mapTrigger/input/address none
+/squirt/mapTrigger/input/max 1.000000
+/squirt/mapTrigger/input/min 0.000000
+/squirt/mapTrigger/output/max 1.000000
+/squirt/mapTrigger/output/min 0.000000
+/squirt/mapTrigger/process/function freehand
+/squirt/mapTrigger/process/clipmode both
+/squirt/mapTrigger/process/mode 0.000000
+/squirt/mapTrigger/process/rampTime 0.000000
+/squirt/mapTrigger/slide/down 0.000000
+/squirt/mapTrigger/slide/up 0.000000
+/squirt/mapTrigger/active 0
+/squirt/mapTrigger/scalebypass 1
+# 
+/squirt/mapTurn/data/active 1
+/squirt/mapTurn/function/parameters.1 0.000000
+/squirt/mapTurn/input/address none
+/squirt/mapTurn/input/max 1.000000
+/squirt/mapTurn/input/min 0.000000
+/squirt/mapTurn/output/max 1.000000
+/squirt/mapTurn/output/min 0.000000
+/squirt/mapTurn/process/function freehand
+/squirt/mapTurn/process/clipmode both
+/squirt/mapTurn/process/mode 0.000000
+/squirt/mapTurn/process/rampTime 0.000000
+/squirt/mapTurn/slide/down 0.000000
+/squirt/mapTurn/slide/up 0.000000
+/squirt/mapTurn/active 0
+/squirt/mapTurn/scalebypass 1
+/squirt/audio/bypass 0
+/squirt/audio/gain 0.000000
+/squirt/audio/mix 100.000000
+/squirt/audio/mute 0
+/squirt/buffer/append 1
+/squirt/buffer/rec 0
+/squirt/buffer/size 6004.606445
+/squirt/mapperGate/gain 2
+/squirt/mapperGate/onsetVar 2
+/squirt/mapperGate/pitch 2
+/squirt/mapperGate/pitchVar 2
+/squirt/mapperGate/position 0
+/squirt/mapperGate/size 2
+/squirt/mapperGate/speed 1
+/squirt/mapperGate/spread 0
+/squirt/mapperGate/trigger 2
+/squirt/mapperGate/turn 0
+/squirt/mod/gain -9.000000
+/squirt/mod/onsetVar -4000.000000
+/squirt/mod/pitch 200.000000
+/squirt/mod/pitchVar -600.000000
+/squirt/mod/position 0.000000
+/squirt/mod/size 200.000000
+/squirt/mod/speed 0.300000
+/squirt/mod/spread 0.000000
+/squirt/mod/trigger 45.000000
+/squirt/mod/turn 0.000000
+/squirt/pan/mode 0
+/squirt/pan/rate 0.000000
+/squirt/pan/spread 0.000000
+/squirt/pitch/transpose -200.000000
+/squirt/pitch/variation 600.000000
+/squirt/playback/direction 0
+/squirt/playback/speed 0.600000
+/squirt/playback/position 0.000000
+/squirt/selection/mode 0
+/squirt/selection/range 0.000000 6004.604004
+# 
+# 
+# 
+/corpus/input/limiter/dcblocker/active 1
+/corpus/input/limiter/active 1
+/corpus/input/limiter/lookahead 100
+/corpus/input/limiter/mode none
+/corpus/input/limiter/postamp 0.000000
+/corpus/input/limiter/preamp 0.000000
+/corpus/input/limiter/release 1000.000000
+/corpus/input/limiter/threshold 0.000000
+/corpus/input/channel.L 1
+/corpus/input/channel.R 1
+/corpus/audio/gain 0.000000
+/corpus/audio/mute 0
+# 
+/corpus/balance/mode FastMode
+/corpus/balance/position 0.000000
+/corpus/balance/shape EqualPower
+/corpus/clicktrain/rate 1.000000
+/corpus/file/path none
+/corpus/file/loop 1
+/corpus/file/play 0
+/corpus/file/transpose 0.000000
+/corpus/testtone/frequency 1000
+/corpus/source live
+# 
+# 
+# 
+/target1/input/limiter/dcblocker/active 1
+/target1/input/limiter/active 1
+/target1/input/limiter/lookahead 100
+/target1/input/limiter/mode none
+/target1/input/limiter/postamp 0.000000
+/target1/input/limiter/preamp 0.000000
+/target1/input/limiter/release 1000.000000
+/target1/input/limiter/threshold 0.000000
+/target1/input/channel.L 3
+/target1/input/channel.R 3
+/target1/audio/gain 0.000000
+/target1/audio/mute 0
+# 
+/target1/balance/mode FastMode
+/target1/balance/position 0.000000
+/target1/balance/shape EqualPower
+/target1/clicktrain/rate 1.000000
+/target1/file/path none
+/target1/file/loop 1
+/target1/file/play 0
+/target1/file/transpose 0.000000
+/target1/testtone/frequency 1000
+/target1/source live
+# 
+# 
+# 
+/target2/input/limiter/dcblocker/active 1
+/target2/input/limiter/active 1
+/target2/input/limiter/lookahead 100
+/target2/input/limiter/mode none
+/target2/input/limiter/postamp 0.000000
+/target2/input/limiter/preamp 0.000000
+/target2/input/limiter/release 1000.000000
+/target2/input/limiter/threshold 0.000000
+/target2/input/channel.L 2
+/target2/input/channel.R 2
+/target2/audio/gain 0.000000
+/target2/audio/mute 0
+# 
+/target2/balance/mode FastMode
+/target2/balance/position 0.000000
+/target2/balance/shape EqualPower
+/target2/clicktrain/rate 1.000000
+/target2/file/path none
+/target2/file/loop 1
+/target2/file/play 0
+/target2/file/transpose 0.000000
+/target2/testtone/frequency 1000
+/target2/source live
+# 
+# 
+# 
+/target3/input/limiter/dcblocker/active 1
+/target3/input/limiter/active 1
+/target3/input/limiter/lookahead 100
+/target3/input/limiter/mode none
+/target3/input/limiter/postamp 0.000000
+/target3/input/limiter/preamp 0.000000
+/target3/input/limiter/release 1000.000000
+/target3/input/limiter/threshold 0.000000
+/target3/input/channel.L 4
+/target3/input/channel.R 4
+/target3/audio/gain 0.000000
+/target3/audio/mute 0
+# 
+/target3/balance/mode FastMode
+/target3/balance/position 0.000000
+/target3/balance/shape EqualPower
+/target3/clicktrain/rate 1.000000
+/target3/file/path none
+/target3/file/loop 1
+/target3/file/play 0
+/target3/file/transpose 0.000000
+/target3/testtone/frequency 1000
+/target3/source live
+# 
+# 
+# 
+/target4/input/limiter/dcblocker/active 1
+/target4/input/limiter/active 1
+/target4/input/limiter/lookahead 100
+/target4/input/limiter/mode none
+/target4/input/limiter/postamp 0.000000
+/target4/input/limiter/preamp 0.000000
+/target4/input/limiter/release 1000.000000
+/target4/input/limiter/threshold 0.000000
+/target4/input/channel.L 5
+/target4/input/channel.R 5
+/target4/audio/gain 0.000000
+/target4/audio/mute 0
+# 
+/target4/balance/mode FastMode
+/target4/balance/position 0.000000
+/target4/balance/shape EqualPower
+/target4/clicktrain/rate 1.000000
+/target4/file/path none
+/target4/file/loop 1
+/target4/file/play 0
+/target4/file/transpose 0.000000
+/target4/testtone/frequency 1000
+/target4/source live
+# 
+# 
+# 
+/target5/input/limiter/dcblocker/active 1
+/target5/input/limiter/active 1
+/target5/input/limiter/lookahead 100
+/target5/input/limiter/mode none
+/target5/input/limiter/postamp 0.000000
+/target5/input/limiter/preamp 0.000000
+/target5/input/limiter/release 1000.000000
+/target5/input/limiter/threshold 0.000000
+/target5/input/channel.L 6
+/target5/input/channel.R 6
+/target5/audio/gain 0.000000
+/target5/audio/mute 0
+# 
+/target5/balance/mode FastMode
+/target5/balance/position 0.000000
+/target5/balance/shape EqualPower
+/target5/clicktrain/rate 1.000000
+/target5/file/path none
+/target5/file/loop 1
+/target5/file/play 0
+/target5/file/transpose 0.000000
+/target5/testtone/frequency 1000
+/target5/source live
+# 
+# 
+/concatout1/limiter/dcblocker/active 0
+/concatout1/limiter/active 1
+/concatout1/limiter/lookahead 64
+/concatout1/limiter/mode exponential
+/concatout1/limiter/postamp 0.000000
+/concatout1/limiter/preamp 25.637796
+/concatout1/limiter/release 200.000000
+/concatout1/limiter/threshold -3.500000
+# 
+/concatout1/record/file/type aiff
+/concatout1/record/samptype int24
+/concatout1/audio/gain -30.975155
+/concatout1/audio/mute 1
+# 
+/concatout1/balance/mode FastMode
+/concatout1/balance/position 0.000000
+/concatout1/balance/shape EqualPower
+# 
+/concatout1/saturation/active 1
+/concatout1/saturation/depth 10.000000
+/concatout1/saturation/mode 0.000000
+/concatout1/saturation/preamp 0.000000
+/concatout1/ch.1 4
+/concatout1/ch.2 4
+# 
+# 
+/concatout2/limiter/dcblocker/active 0
+/concatout2/limiter/active 1
+/concatout2/limiter/lookahead 64
+/concatout2/limiter/mode exponential
+/concatout2/limiter/postamp 0.000000
+/concatout2/limiter/preamp 26.440947
+/concatout2/limiter/release 300.000000
+/concatout2/limiter/threshold -3.400000
+# 
+/concatout2/record/file/type aiff
+/concatout2/record/samptype int24
+/concatout2/audio/gain -31.279533
+/concatout2/audio/mute 1
+# 
+/concatout2/balance/mode FastMode
+/concatout2/balance/position 0.000000
+/concatout2/balance/shape EqualPower
+# 
+/concatout2/saturation/active 1
+/concatout2/saturation/depth 10.000000
+/concatout2/saturation/mode 0.000000
+/concatout2/saturation/preamp 0.000000
+/concatout2/ch.1 3
+/concatout2/ch.2 3
+# 
+# 
+/concatout3/limiter/dcblocker/active 0
+/concatout3/limiter/active 1
+/concatout3/limiter/lookahead 64
+/concatout3/limiter/mode exponential
+/concatout3/limiter/postamp 0.000000
+/concatout3/limiter/preamp 25.637796
+/concatout3/limiter/release 300.000000
+/concatout3/limiter/threshold -3.700000
+# 
+/concatout3/record/file/type aiff
+/concatout3/record/samptype int24
+/concatout3/audio/gain -30.894646
+/concatout3/audio/mute 1
+# 
+/concatout3/balance/mode FastMode
+/concatout3/balance/position 0.000000
+/concatout3/balance/shape EqualPower
+# 
+/concatout3/saturation/active 1
+/concatout3/saturation/depth 10.000000
+/concatout3/saturation/mode 0.000000
+/concatout3/saturation/preamp 0.000000
+/concatout3/ch.1 5
+/concatout3/ch.2 5
+# 
+# 
+/concatout4/limiter/dcblocker/active 0
+/concatout4/limiter/active 1
+/concatout4/limiter/lookahead 64
+/concatout4/limiter/mode exponential
+/concatout4/limiter/postamp 0.000000
+/concatout4/limiter/preamp 6.425197
+/concatout4/limiter/release 300.000000
+/concatout4/limiter/threshold -2.000000
+# 
+/concatout4/record/file/type aiff
+/concatout4/record/samptype int24
+/concatout4/audio/gain -21.042763
+/concatout4/audio/mute 1
+# 
+/concatout4/balance/mode FastMode
+/concatout4/balance/position -0.047244
+/concatout4/balance/shape EqualPower
+# 
+/concatout4/saturation/active 1
+/concatout4/saturation/depth 10.000000
+/concatout4/saturation/mode 0.000000
+/concatout4/saturation/preamp 0.000000
+/concatout4/ch.1 7
+/concatout4/ch.2 7
+# 
+# 
+/concatout5/limiter/dcblocker/active 0
+/concatout5/limiter/active 1
+/concatout5/limiter/lookahead 64
+/concatout5/limiter/mode exponential
+/concatout5/limiter/postamp 0.042857
+/concatout5/limiter/preamp 5.900000
+/concatout5/limiter/release 300.000000
+/concatout5/limiter/threshold -3.400000
+# 
+/concatout5/record/file/type aiff
+/concatout5/record/samptype int24
+/concatout5/audio/gain -19.370308
+/concatout5/audio/mute 1
+# 
+/concatout5/balance/mode FastMode
+/concatout5/balance/position 0.000000
+/concatout5/balance/shape EqualPower
+# 
+/concatout5/saturation/active 1
+/concatout5/saturation/depth 10.000000
+/concatout5/saturation/mode 0.000000
+/concatout5/saturation/preamp 0.000000
+/concatout5/ch.1 6
+/concatout5/ch.2 6
+# 
+# 
+/scalecontact4/autoscale/audio/bypass 0
+/scalecontact4/autoscale/audio/gain 0.000000
+/scalecontact4/autoscale/audio/mix 100.000000
+/scalecontact4/autoscale/audio/mute 0
+/scalecontact4/autoscale/input/max 0.008000
+/scalecontact4/autoscale/input/min 0.000716
+/scalecontact4/autoscale/exp 1.000000
+/scalecontact4/autoscale/lock 1
+/scalecontact4/autoscale/maximum 1.000000
+/scalecontact4/autoscale/minimum 0.000000
+/scalecontact4/audio/bypass 0
+/scalecontact4/audio/gain 0.000000
+/scalecontact4/audio/mix 100.000000
+/scalecontact4/audio/mute 0
+/scalecontact4/average/period 0
+/scalecontact4/average/type 0
+# 
+/scalecontact4/clip/minMax -1.000000 1.000000
+/scalecontact4/clip/mode 1
+/scalecontact4/data/active 1
+/scalecontact4/filter/frequency 35.000000
+/scalecontact4/filter/gain 0.500000
+/scalecontact4/filter/q 0.500000
+/scalecontact4/filter/type none
+/scalecontact4/pre-slide/down 100.000000
+/scalecontact4/pre-slide/up 0.000000
+/scalecontact4/ramp/down 0.000000
+/scalecontact4/ramp/up 0.000000
+/scalecontact4/slide/down 0.000000
+/scalecontact4/slide/up 0.000000
+/scalecontact4/snapshot/interval 10
+/scalecontact4/snapshot/on 1
+/scalecontact4/cutoff 900
+/scalecontact4/mute 0
+/scalecontact4/offset 0.000000
+/scalecontact4/preview 0
+# 
+# 
+/scalecontact5/autoscale/audio/bypass 0
+/scalecontact5/autoscale/audio/gain 0.000000
+/scalecontact5/autoscale/audio/mix 100.000000
+/scalecontact5/autoscale/audio/mute 0
+/scalecontact5/autoscale/input/max 0.346485
+/scalecontact5/autoscale/input/min 0.000000
+/scalecontact5/autoscale/exp 1.000000
+/scalecontact5/autoscale/lock 0
+/scalecontact5/autoscale/maximum 1.000000
+/scalecontact5/autoscale/minimum 0.000000
+/scalecontact5/audio/bypass 0
+/scalecontact5/audio/gain 0.000000
+/scalecontact5/audio/mix 100.000000
+/scalecontact5/audio/mute 0
+/scalecontact5/average/period 0
+/scalecontact5/average/type 0
+# 
+/scalecontact5/clip/minMax -1.000000 1.000000
+/scalecontact5/clip/mode 3
+/scalecontact5/data/active 1
+/scalecontact5/filter/frequency 35.000000
+/scalecontact5/filter/gain 0.500000
+/scalecontact5/filter/q 0.500000
+/scalecontact5/filter/type highpass
+/scalecontact5/pre-slide/down 100.000000
+/scalecontact5/pre-slide/up 0.000000
+/scalecontact5/ramp/down 100.000000
+/scalecontact5/ramp/up 0.000000
+/scalecontact5/slide/down 2.000000
+/scalecontact5/slide/up 0.000000
+/scalecontact5/snapshot/interval 10
+/scalecontact5/snapshot/on 1
+/scalecontact5/cutoff 900
+/scalecontact5/mute 0
+/scalecontact5/offset 0.000000
+/scalecontact5/preview 0
+# 
+/concateqout1/audio/bypass 0
+/concateqout1/audio/gain 0.000000
+/concateqout1/audio/mix 100.000000
+/concateqout1/audio/mute 0
+/concateqout1/filter.1/type highpass
+/concateqout1/filter.1/frequency 75.000000
+/concateqout1/filter.1/gain 0.000000
+/concateqout1/filter.1/octave_bandwidth 1.000000
+/concateqout1/filter.2/type peaknotch
+/concateqout1/filter.2/frequency 300.000000
+/concateqout1/filter.2/gain 0.000000
+/concateqout1/filter.2/octave_bandwidth 1.000000
+/concateqout1/filter.3/type peaknotch
+/concateqout1/filter.3/frequency 1000.000000
+/concateqout1/filter.3/gain 0.000000
+/concateqout1/filter.3/octave_bandwidth 1.000000
+/concateqout1/filter.4/type lowpass
+/concateqout1/filter.4/frequency 8461.101562
+/concateqout1/filter.4/gain 0.000000
+/concateqout1/filter.4/octave_bandwidth 1.944764
+/concateqout1/bands 4
+# 
+/concateqout2/audio/bypass 0
+/concateqout2/audio/gain 0.000000
+/concateqout2/audio/mix 100.000000
+/concateqout2/audio/mute 0
+/concateqout2/filter.1/type highpass
+/concateqout2/filter.1/frequency 75.000000
+/concateqout2/filter.1/gain 0.000000
+/concateqout2/filter.1/octave_bandwidth 1.000000
+/concateqout2/filter.2/type peaknotch
+/concateqout2/filter.2/frequency 300.000000
+/concateqout2/filter.2/gain 0.000000
+/concateqout2/filter.2/octave_bandwidth 1.000000
+/concateqout2/filter.3/type peaknotch
+/concateqout2/filter.3/frequency 1000.000000
+/concateqout2/filter.3/gain 0.000000
+/concateqout2/filter.3/octave_bandwidth 1.000000
+/concateqout2/filter.4/type lowpass
+/concateqout2/filter.4/frequency 7989.133789
+/concateqout2/filter.4/gain 0.000000
+/concateqout2/filter.4/octave_bandwidth 2.000000
+/concateqout2/bands 4
+# 
+/concateqout3/audio/bypass 0
+/concateqout3/audio/gain 0.000000
+/concateqout3/audio/mix 100.000000
+/concateqout3/audio/mute 0
+/concateqout3/filter.1/type highpass
+/concateqout3/filter.1/frequency 75.000000
+/concateqout3/filter.1/gain 0.000000
+/concateqout3/filter.1/octave_bandwidth 1.000000
+/concateqout3/filter.2/type peaknotch
+/concateqout3/filter.2/frequency 300.000000
+/concateqout3/filter.2/gain 0.000000
+/concateqout3/filter.2/octave_bandwidth 1.000000
+/concateqout3/filter.3/type peaknotch
+/concateqout3/filter.3/frequency 1000.000000
+/concateqout3/filter.3/gain 0.000000
+/concateqout3/filter.3/octave_bandwidth 1.000000
+/concateqout3/filter.4/type lowpass
+/concateqout3/filter.4/frequency 8303.774414
+/concateqout3/filter.4/gain 0.000000
+/concateqout3/filter.4/octave_bandwidth 2.000000
+/concateqout3/bands 4
+# 
+/concateqout4/audio/bypass 0
+/concateqout4/audio/gain 0.000000
+/concateqout4/audio/mix 100.000000
+/concateqout4/audio/mute 0
+/concateqout4/filter.1/type highpass
+/concateqout4/filter.1/frequency 250.000000
+/concateqout4/filter.1/gain 0.000000
+/concateqout4/filter.1/octave_bandwidth 2.000000
+/concateqout4/filter.2/type bandstop
+/concateqout4/filter.2/frequency 400.000000
+/concateqout4/filter.2/gain 0.000000
+/concateqout4/filter.2/octave_bandwidth 1.000000
+/concateqout4/filter.3/type peaknotch
+/concateqout4/filter.3/frequency 1000.000000
+/concateqout4/filter.3/gain 0.000000
+/concateqout4/filter.3/octave_bandwidth 1.000000
+/concateqout4/filter.4/type lowpass
+/concateqout4/filter.4/frequency 8200.785156
+/concateqout4/filter.4/gain 0.000000
+/concateqout4/filter.4/octave_bandwidth 2.000000
+/concateqout4/bands 4
+# 
+/concateqout5/audio/bypass 0
+/concateqout5/audio/gain 0.000000
+/concateqout5/audio/mix 100.000000
+/concateqout5/audio/mute 0
+/concateqout5/filter.1/type highpass
+/concateqout5/filter.1/frequency 100.000000
+/concateqout5/filter.1/gain 0.000000
+/concateqout5/filter.1/octave_bandwidth 2.000000
+/concateqout5/filter.2/type bandstop
+/concateqout5/filter.2/frequency 400.000000
+/concateqout5/filter.2/gain 0.000000
+/concateqout5/filter.2/octave_bandwidth 0.630843
+/concateqout5/filter.3/type bandstop
+/concateqout5/filter.3/frequency 800.000000
+/concateqout5/filter.3/gain 0.000000
+/concateqout5/filter.3/octave_bandwidth 0.198953
+/concateqout5/filter.4/type lowpass
+/concateqout5/filter.4/frequency 8000.000000
+/concateqout5/filter.4/gain 0.000000
+/concateqout5/filter.4/octave_bandwidth 2.000000
+/concateqout5/bands 4
+# 
+/concatmod4/pickup/active 1
+/concatmod4/pickup/rate 800.000000
+/concatmod4/pickup/smooth 5000
+/concatmod4/pickup/x1 21
+/concatmod4/pickup/x2 87
+/concatmod4/pickup/x3 0
+/concatmod4/pickup/x4 0
+/concatmod4/pickup/y1 0
+/concatmod4/pickup/y2 0
+/concatmod4/pickup/y3 21
+/concatmod4/pickup/y4 87
+/concatmod4/excite/active 1
+/concatmod4/excite/rate 800.000000
+/concatmod4/excite/smooth 1000
+/concatmod4/excite/x1 22
+/concatmod4/excite/y1 0
+/concatmod4/pitch/detune 0
+/concatmod4/pitch/ramp 0
+/concatmod4/pitch/transp 0
+/concatmod4/pitch/midi 35
+/concatmod4/instrument/brightness 30.314939
+/concatmod4/instrument/damping 50.787384
+/concatmod4/instrument/inharm 0.000000
+/concatmod4/instrument/matter 3
+/concatmod4/instrument/modes 62
+/concatmod4/instrument/resonator 8
+/concatmod4/audio/bypass 0
+/concatmod4/audio/gain 12.000000
+/concatmod4/audio/mix 100.000000
+/concatmod4/audio/mute 0
+# 
+/concatmod5/pickup/active 0
+/concatmod5/pickup/rate 100.000000
+/concatmod5/pickup/smooth 5000
+/concatmod5/pickup/x1 25
+/concatmod5/pickup/x2 75
+/concatmod5/pickup/x3 50
+/concatmod5/pickup/x4 50
+/concatmod5/pickup/y1 55
+/concatmod5/pickup/y2 83
+/concatmod5/pickup/y3 39
+/concatmod5/pickup/y4 60
+/concatmod5/excite/active 1
+/concatmod5/excite/rate 3000.000000
+/concatmod5/excite/smooth 5000
+/concatmod5/excite/x1 8
+/concatmod5/excite/y1 0
+/concatmod5/pitch/detune 0
+/concatmod5/pitch/ramp 0
+/concatmod5/pitch/transp -1
+/concatmod5/pitch/midi 43
+/concatmod5/instrument/brightness 29.527550
+/concatmod5/instrument/damping 42.519691
+/concatmod5/instrument/inharm 0.000000
+/concatmod5/instrument/matter 6
+/concatmod5/instrument/modes 62
+/concatmod5/instrument/resonator 7
+/concatmod5/audio/bypass 0
+/concatmod5/audio/gain 0.000000
+/concatmod5/audio/mix 100.000000
+/concatmod5/audio/mute 0
+# 
+/contact4duration/data/active 1
+/contact4duration/function/parameters.1 base 16.000000
+/contact4duration/input/address /scalecontact4/envelope
+/contact4duration/input/max 0.433481
+/contact4duration/input/min -0.043439
+/contact4duration/output/max 300.000000
+/contact4duration/output/min 1.000000
+/contact4duration/process/function logarithm
+/contact4duration/process/clipmode both
+/contact4duration/process/mode 4
+/contact4duration/process/rampTime 0.000000
+/contact4duration/slide/down 9.000000
+/contact4duration/slide/up 0.000000
+/contact4duration/active 1
+/contact4duration/scalebypass 0
+# 
+/contact4filterfreq/data/active 1
+/contact4filterfreq/function/parameters.1 base 4.000000
+/contact4filterfreq/input/address /scalecontact4/envelope
+/contact4filterfreq/input/max 0.700000
+/contact4filterfreq/input/min -0.030704
+/contact4filterfreq/output/max 100.000000
+/contact4filterfreq/output/min 1100.000000
+/contact4filterfreq/process/function exponential
+/contact4filterfreq/process/clipmode both
+/contact4filterfreq/process/mode 2
+/contact4filterfreq/process/rampTime 0.000000
+/contact4filterfreq/slide/down 72.000000
+/contact4filterfreq/slide/up 0.000000
+/contact4filterfreq/active 1
+/contact4filterfreq/scalebypass 0
+# 
+/contact4filtergain/data/active 1
+/contact4filtergain/function/parameters.1 0.000000
+/contact4filtergain/input/address /scalecontact4/envelope
+/contact4filtergain/input/max 1.000000
+/contact4filtergain/input/min 0.000000
+/contact4filtergain/output/max 1.000000
+/contact4filtergain/output/min 0.000000
+/contact4filtergain/process/function freehand
+/contact4filtergain/process/clipmode both
+/contact4filtergain/process/mode 0.000000
+/contact4filtergain/process/rampTime 0.000000
+/contact4filtergain/slide/down 0.000000
+/contact4filtergain/slide/up 0.000000
+/contact4filtergain/active 0.000000
+/contact4filtergain/scalebypass 1
+# 
+/contact4period/data/active 1
+/contact4period/function/parameters.1 0.000000
+/contact4period/input/address /scalecontact4/envelope
+/contact4period/input/max 1.000000
+/contact4period/input/min 0.000000
+/contact4period/output/max 100.000000
+/contact4period/output/min 1.000000
+/contact4period/process/function freehand
+/contact4period/process/clipmode both
+/contact4period/process/mode 0.000000
+/contact4period/process/rampTime 0.000000
+/contact4period/slide/down 20.000000
+/contact4period/slide/up 0.000000
+/contact4period/active 0.000000
+/contact4period/scalebypass 1
+# 
+/contact5duration/data/active 1
+/contact5duration/function/parameters.1 base 7.000000
+/contact5duration/input/address /scalecontact5/envelope
+/contact5duration/input/max 0.037642
+/contact5duration/input/min 0.002980
+/contact5duration/output/max 200.000000
+/contact5duration/output/min 3.000000
+/contact5duration/process/function logarithm
+/contact5duration/process/clipmode both
+/contact5duration/process/mode 4
+/contact5duration/process/rampTime 0.000000
+/contact5duration/slide/down 0.000000
+/contact5duration/slide/up 0.000000
+/contact5duration/active 1
+/contact5duration/scalebypass 0
+# 
+/contact5filterfreq/data/active 1
+/contact5filterfreq/function/parameters.1 base 8.000000
+/contact5filterfreq/input/address /scalecontact5/envelope
+/contact5filterfreq/input/max 0.082215
+/contact5filterfreq/input/min 0.003893
+/contact5filterfreq/output/max 100.000000
+/contact5filterfreq/output/min 1000.000000
+/contact5filterfreq/process/function logarithm
+/contact5filterfreq/process/clipmode both
+/contact5filterfreq/process/mode 2
+/contact5filterfreq/process/rampTime 0.000000
+/contact5filterfreq/slide/down 0.000000
+/contact5filterfreq/slide/up 0.000000
+/contact5filterfreq/active 1
+/contact5filterfreq/scalebypass 0
+# 
+/contact5filtergain/data/active 1
+/contact5filtergain/function/parameters.1 0.000000
+/contact5filtergain/input/address /scalecontact5/envelope
+/contact5filtergain/input/max 1.000000
+/contact5filtergain/input/min 0.000000
+/contact5filtergain/output/max 1.000000
+/contact5filtergain/output/min 0.000000
+/contact5filtergain/process/function freehand
+/contact5filtergain/process/clipmode both
+/contact5filtergain/process/mode 0.000000
+/contact5filtergain/process/rampTime 0.000000
+/contact5filtergain/slide/down 0.000000
+/contact5filtergain/slide/up 0.000000
+/contact5filtergain/active 0
+/contact5filtergain/scalebypass 1
+# 
+/contact5period/data/active 1
+/contact5period/function/parameters.1 0.000000
+/contact5period/input/address /scalecontact5/envelope
+/contact5period/input/max 1.000000
+/contact5period/input/min 0.000000
+/contact5period/output/max 42.000000
+/contact5period/output/min 1.000000
+/contact5period/process/function freehand
+/contact5period/process/clipmode both
+/contact5period/process/mode 0.000000
+/contact5period/process/rampTime 0.000000
+/contact5period/slide/down 20.000000
+/contact5period/slide/up 0.000000
+/contact5period/active 0.000000
+/contact5period/scalebypass 1
+# 
+/corpusgate/audio/bypass 0
+/corpusgate/audio/gain 0.000000
+/corpusgate/audio/mix 100.000000
+/corpusgate/audio/mute 0
+/corpusgate/attack 10.000000
+/corpusgate/lookahead 10
+/corpusgate/release 300.000000
+/corpusgate/threshold -30.755911
+# 
+/noisecontact1/audio/bypass 0
+/noisecontact1/audio/gain 0.000000
+/noisecontact1/audio/mix 100.000000
+/noisecontact1/audio/mute 0
+/noisecontact1/attack 10.000000
+/noisecontact1/lookahead 10
+/noisecontact1/release 314.960602
+/noisecontact1/threshold -41.527557
+# 
+/noisecontact2/audio/bypass 0
+/noisecontact2/audio/gain 0.000000
+/noisecontact2/audio/mix 100.000000
+/noisecontact2/audio/mute 0
+/noisecontact2/attack 10.000000
+/noisecontact2/lookahead 10
+/noisecontact2/release 307.086609
+/noisecontact2/threshold -46.913406
+# 
+/noisecontact3/audio/bypass 0
+/noisecontact3/audio/gain 0.000000
+/noisecontact3/audio/mix 100.000000
+/noisecontact3/audio/mute 0
+/noisecontact3/attack 10.000000
+/noisecontact3/lookahead 10
+/noisecontact3/release 300.000000
+/noisecontact3/threshold -39.732265
+# 
+/noisecontact4/audio/bypass 0
+/noisecontact4/audio/gain 0.000000
+/noisecontact4/audio/mix 100.000000
+/noisecontact4/audio/mute 0
+/noisecontact4/attack 0.000000
+/noisecontact4/lookahead 4
+/noisecontact4/release 229.133942
+/noisecontact4/threshold -41.527573
+# 
+/noisecontact5/audio/bypass 0
+/noisecontact5/audio/gain 0.000000
+/noisecontact5/audio/mix 100.000000
+/noisecontact5/audio/mute 0
+/noisecontact5/attack 0.000000
+/noisecontact5/lookahead 2
+/noisecontact5/release 512.598328
+/noisecontact5/threshold -42.425190
 # 
 /prand/data/active 1
 /prand/rate/max 1028

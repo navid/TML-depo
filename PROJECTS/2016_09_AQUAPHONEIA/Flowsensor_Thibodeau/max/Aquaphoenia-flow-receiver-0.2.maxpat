@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 527.0, 99.0, 622.0, 695.0 ],
+		"rect" : [ 527.0, 99.0, 253.0, 295.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 30.0, 124.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 30.0, 242.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 0.0, 242.0, 22.0 ],
 					"style" : "",
 					"text" : "Aquaphoneia Flow Sensor Data"
 				}
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 105.0, 225.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 75.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 45.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Whirl"
 				}
@@ -87,7 +87,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 195.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 165.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 135.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Boil "
 				}
@@ -99,9 +99,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 150.0, 150.0, 20.0 ],
+					"patching_rect" : [ 135.0, 45.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 105.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 75.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Drip L"
 				}
@@ -113,9 +113,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 120.0, 150.0, 20.0 ],
+					"patching_rect" : [ 135.0, 30.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 135.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 105.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Drip R"
 				}
@@ -557,7 +557,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 450.0, 679.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 105.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 75.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -599,7 +599,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.0, 679.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 75.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 45.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -641,7 +641,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 600.0, 679.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 165.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 135.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -683,7 +683,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 525.0, 679.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 135.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -737,7 +737,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 90.0, 739.0, 225.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 240.0, 225.0, 120.0 ],
+					"presentation_rect" : [ 15.0, 165.0, 225.0, 120.0 ],
 					"setminmax" : [ 0.0, 20.0 ],
 					"size" : 5,
 					"style" : ""
