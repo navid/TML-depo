@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 414.0, 459.0, 759.0, 539.0 ],
+		"rect" : [ 381.0, 392.0, 759.0, 494.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -261,9 +261,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 377.0, 67.0, 19.0 ],
+					"patching_rect" : [ 501.0, 377.0, 66.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 105"
+					"text" : "loadmess 115"
 				}
 
 			}
@@ -1112,7 +1112,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 290.0, 360.0, 67.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 125"
+					"text" : "loadmess 136"
 				}
 
 			}
@@ -1168,8 +1168,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 5974.537109, "ticks" ],
-						"originaltempo" : 119.999939,
+						"originallength" : [ 4603.676758, "ticks" ],
+						"originaltempo" : 119.999916,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -1232,8 +1232,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 4603.679199, "ticks" ],
-						"originaltempo" : 119.999977,
+						"originallength" : [ 7354.957031, "ticks" ],
+						"originaltempo" : 119.999954,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]

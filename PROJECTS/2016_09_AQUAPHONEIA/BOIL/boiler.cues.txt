@@ -17,7 +17,7 @@
 # 
 /boilRog/mapGain/data/active 1
 /boilRog/mapGain/function/parameters.1 0.000000
-/boilRog/mapGain/input/address none
+/boilRog/mapGain/input/address /ValveLogic/valveClosed
 /boilRog/mapGain/input/max 1.000000
 /boilRog/mapGain/input/min 0.000000
 /boilRog/mapGain/output/max 1.000000
@@ -25,11 +25,11 @@
 /boilRog/mapGain/process/function freehand
 /boilRog/mapGain/process/clipmode both
 /boilRog/mapGain/process/mode 0.000000
-/boilRog/mapGain/process/rampTime 0.000000
+/boilRog/mapGain/process/rampTime 3000.000000
 /boilRog/mapGain/slide/down 0.000000
 /boilRog/mapGain/slide/up 0.000000
-/boilRog/mapGain/active 0.000000
-/boilRog/mapGain/scalebypass 1
+/boilRog/mapGain/active 1
+/boilRog/mapGain/scalebypass 0
 # 
 /boilRog/mapOnsetVar/data/active 1
 /boilRog/mapOnsetVar/function/parameters.1 0.000000
@@ -154,7 +154,7 @@
 /boilRog/mapTrigger/process/clipmode both
 /boilRog/mapTrigger/process/mode 0.000000
 /boilRog/mapTrigger/process/rampTime 0.000000
-/boilRog/mapTrigger/slide/down 15.000000
+/boilRog/mapTrigger/slide/down 5.000000
 /boilRog/mapTrigger/slide/up 0.000000
 /boilRog/mapTrigger/active 1
 /boilRog/mapTrigger/scalebypass 0
@@ -175,13 +175,13 @@
 /boilRog/mapTurn/active 0.000000
 /boilRog/mapTurn/scalebypass 1
 /boilRog/audio/bypass 0
-/boilRog/audio/gain -22.000000
+/boilRog/audio/gain -37.000000
 /boilRog/audio/mix 100.000000
 /boilRog/audio/mute 0
 /boilRog/buffer/append 1
 /boilRog/buffer/rec 0
 /boilRog/buffer/size 25020.519531
-/boilRog/mapperGate/gain 2
+/boilRog/mapperGate/gain 0
 /boilRog/mapperGate/onsetVar 2
 /boilRog/mapperGate/pitch 0
 /boilRog/mapperGate/pitchVar 0
@@ -191,12 +191,12 @@
 /boilRog/mapperGate/spread 0
 /boilRog/mapperGate/trigger 1
 /boilRog/mapperGate/turn 0
-/boilRog/mod/gain 23.000000
+/boilRog/mod/gain 35.000000
 /boilRog/mod/onsetVar 110.000000
 /boilRog/mod/pitch 0.000000
 /boilRog/mod/pitchVar 0.000000
 /boilRog/mod/position 0.000000
-/boilRog/mod/size -65.000000
+/boilRog/mod/size -72.000000
 /boilRog/mod/speed 0.000000
 /boilRog/mod/spread 0.000000
 /boilRog/mod/trigger 27.000000
@@ -204,8 +204,8 @@
 /boilRog/pan/mode 0
 /boilRog/pan/rate 0.000000
 /boilRog/pan/spread 0.000000
-/boilRog/pitch/transpose -100.000000
-/boilRog/pitch/variation 100.000000
+/boilRog/pitch/transpose -40.000000
+/boilRog/pitch/variation 70.000000
 /boilRog/playback/direction 0
 /boilRog/playback/speed 1.000000
 /boilRog/playback/position 0.000000
@@ -385,7 +385,7 @@
 /boilRogBottom/mapTurn/active 0.000000
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -30.000000
+/boilRogBottom/audio/gain -28.000000
 /boilRogBottom/audio/mix 100.000000
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
@@ -401,10 +401,10 @@
 /boilRogBottom/mapperGate/spread 0
 /boilRogBottom/mapperGate/trigger 0
 /boilRogBottom/mapperGate/turn 0
-/boilRogBottom/mod/gain 13.000000
+/boilRogBottom/mod/gain 20.000000
 /boilRogBottom/mod/onsetVar 0.000000
 /boilRogBottom/mod/pitch -800.000000
-/boilRogBottom/mod/pitchVar 2561.000000
+/boilRogBottom/mod/pitchVar 2760.000000
 /boilRogBottom/mod/position 0.000000
 /boilRogBottom/mod/size -850.000000
 /boilRogBottom/mod/speed 0.000000
@@ -414,13 +414,13 @@
 /boilRogBottom/pan/mode 0
 /boilRogBottom/pan/rate 0.000000
 /boilRogBottom/pan/spread 0.000000
-/boilRogBottom/pitch/transpose -264.000000
-/boilRogBottom/pitch/variation 326.000000
+/boilRogBottom/pitch/transpose -300.000000
+/boilRogBottom/pitch/variation 390.000000
 /boilRogBottom/playback/direction 0
 /boilRogBottom/playback/speed 1.000000
 /boilRogBottom/playback/position 0.485944
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 60750.417969
+/boilRogBottom/selection/range 0.000000 60750.410156
 # 
 /coneSteamer/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /coneSteamer/grain/trigger/variance/gainVar/range 0.000000
@@ -595,7 +595,7 @@
 /coneSteamer/mapTurn/active 0.000000
 /coneSteamer/mapTurn/scalebypass 1
 /coneSteamer/audio/bypass 0
-/coneSteamer/audio/gain -5.000000
+/coneSteamer/audio/gain -18.000000
 /coneSteamer/audio/mix 100.000000
 /coneSteamer/audio/mute 0
 /coneSteamer/buffer/append 1
@@ -624,11 +624,11 @@
 /coneSteamer/pan/mode 1
 /coneSteamer/pan/rate 2.000000
 /coneSteamer/pan/spread 0.400000
-/coneSteamer/pitch/transpose -10.000000
-/coneSteamer/pitch/variation 19.000000
+/coneSteamer/pitch/transpose -8.000000
+/coneSteamer/pitch/variation 10.000000
 /coneSteamer/playback/direction 0
 /coneSteamer/playback/speed 0.100000
-/coneSteamer/playback/position 0.000000
+/coneSteamer/playback/position 0.008032
 /coneSteamer/selection/mode 0
 /coneSteamer/selection/range 0.000000 20016.312500
 # 
@@ -1057,8 +1057,8 @@
 /coneMic/autoscale/audio/gain 0.000000
 /coneMic/autoscale/audio/mix 100.000000
 /coneMic/autoscale/audio/mute 0
-/coneMic/autoscale/input/max 0.030000
-/coneMic/autoscale/input/min 0.004500
+/coneMic/autoscale/input/max 0.010000
+/coneMic/autoscale/input/min 0.000300
 /coneMic/autoscale/exp 1.000000
 /coneMic/autoscale/lock 2
 /coneMic/autoscale/maximum 1.000000
@@ -1067,27 +1067,27 @@
 /coneMic/audio/gain 0.000000
 /coneMic/audio/mix 100.000000
 /coneMic/audio/mute 0
-/coneMic/average/period 30
+/coneMic/average/period 25
 /coneMic/average/type 0
 # 
 /coneMic/clip/minMax -1.000000 1.000000
 /coneMic/clip/mode 3
 /coneMic/data/active 0
-/coneMic/filter/frequency 90.000000
-/coneMic/filter/gain 0.600000
-/coneMic/filter/q 0.800000
+/coneMic/filter/frequency 70.000000
+/coneMic/filter/gain 0.760000
+/coneMic/filter/q 1.000000
 /coneMic/filter/type highpass
-/coneMic/pre-slide/down 48.000000
-/coneMic/pre-slide/up 1.000000
-/coneMic/ramp/down 30.000000
+/coneMic/pre-slide/down 70.000000
+/coneMic/pre-slide/up 0.300000
+/coneMic/ramp/down 35.000000
 /coneMic/ramp/up 0.000000
-/coneMic/slide/down 25.000000
+/coneMic/slide/down 40.000000
 /coneMic/slide/up 0.000000
 /coneMic/snapshot/interval 30
 /coneMic/snapshot/on 1
-/coneMic/cutoff 890
+/coneMic/cutoff 978
 /coneMic/mute 0
-/coneMic/offset -0.002000
+/coneMic/offset -0.001500
 /coneMic/preview 0
 # 
 # 
@@ -1095,7 +1095,7 @@
 /dripENV/autoscale/audio/gain 0.000000
 /dripENV/autoscale/audio/mix 100.000000
 /dripENV/autoscale/audio/mute 0
-/dripENV/autoscale/input/max 0.007300
+/dripENV/autoscale/input/max 0.006800
 /dripENV/autoscale/input/min 0.001740
 /dripENV/autoscale/exp 1.000000
 /dripENV/autoscale/lock 2
@@ -1138,44 +1138,45 @@
 /shiftFog/limiter/release 250.000000
 /shiftFog/limiter/threshold 0.000000
 /shiftFog/audio/bypass 0
-/shiftFog/audio/gain 6.000000
-/shiftFog/audio/mix 70.000000
+/shiftFog/audio/gain -1.000000
+/shiftFog/audio/mix 100.000000
 /shiftFog/audio/mute 0
-/shiftFog/feedback/gain -50.645676
-/shiftFog/feedback/time 91.889748
+/shiftFog/feedback/gain -60.000000
+/shiftFog/feedback/time 72.992104
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift -110.183014
+/shiftFog/frequency/shift 18.956535
 # 
 /ValveLogic/valveOpen/event 0.000000
+/ValveLogic/valveClosed 0
 # 
 /eqbottom/audio/bypass 0
 /eqbottom/audio/gain 12.000000
 /eqbottom/audio/mix 100.000000
 /eqbottom/audio/mute 0
 /eqbottom/filter.1/type highpass
-/eqbottom/filter.1/frequency 99.880966
+/eqbottom/filter.1/frequency 88.258314
 /eqbottom/filter.1/gain -0.755905
 /eqbottom/filter.1/octave_bandwidth 8.000000
 /eqbottom/filter.2/type peaknotch
-/eqbottom/filter.2/frequency 300.000000
-/eqbottom/filter.2/gain 0.000000
-/eqbottom/filter.2/octave_bandwidth 1.000000
+/eqbottom/filter.2/frequency 118.622644
+/eqbottom/filter.2/gain 24.000000
+/eqbottom/filter.2/octave_bandwidth 0.622095
 /eqbottom/filter.3/type lowpass
 /eqbottom/filter.3/frequency 20000.000000
 /eqbottom/filter.3/gain 0.000000
 /eqbottom/filter.3/octave_bandwidth 1.584607
 /eqbottom/filter.4/type peaknotch
-/eqbottom/filter.4/frequency 3874.881348
-/eqbottom/filter.4/gain 8.125987
-/eqbottom/filter.4/octave_bandwidth 0.882779
+/eqbottom/filter.4/frequency 4739.685059
+/eqbottom/filter.4/gain 5.102362
+/eqbottom/filter.4/octave_bandwidth 0.891779
 /eqbottom/bands 4
 # 
 /randShift/data/active 1
-/randShift/rate/max 4000
+/randShift/rate/max 4281
 /randShift/rate/min 2000
-/randShift/interpolate 3800
-/randShift/max 60.000000
-/randShift/min -245.000000
+/randShift/interpolate 4502
+/randShift/max 80.000000
+/randShift/min -193.000000
 /randShift/on 1
 /randShift/step 1.000000
 # 
