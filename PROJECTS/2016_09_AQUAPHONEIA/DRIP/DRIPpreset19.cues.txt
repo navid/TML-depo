@@ -1432,7 +1432,7 @@
 /concatout1/record/file/type aiff
 /concatout1/record/samptype int24
 /concatout1/audio/gain -30.975155
-/concatout1/audio/mute 1
+/concatout1/audio/mute 0
 # 
 /concatout1/balance/mode FastMode
 /concatout1/balance/position 0.000000
@@ -1458,7 +1458,7 @@
 /concatout2/record/file/type aiff
 /concatout2/record/samptype int24
 /concatout2/audio/gain -31.279533
-/concatout2/audio/mute 1
+/concatout2/audio/mute 0
 # 
 /concatout2/balance/mode FastMode
 /concatout2/balance/position 0.000000
@@ -1483,8 +1483,8 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -30.894646
-/concatout3/audio/mute 1
+/concatout3/audio/gain -29.559550
+/concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
 /concatout3/balance/position 0.000000
@@ -1592,7 +1592,7 @@
 /scalecontact5/autoscale/audio/gain 0.000000
 /scalecontact5/autoscale/audio/mix 100.000000
 /scalecontact5/autoscale/audio/mute 0
-/scalecontact5/autoscale/input/max 0.346485
+/scalecontact5/autoscale/input/max 0.137044
 /scalecontact5/autoscale/input/min 0.000000
 /scalecontact5/autoscale/exp 1.000000
 /scalecontact5/autoscale/lock 0
@@ -1738,18 +1738,18 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 21
-/concatmod4/pickup/x2 87
+/concatmod4/pickup/x1 49
+/concatmod4/pickup/x2 99
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 21
-/concatmod4/pickup/y4 87
+/concatmod4/pickup/y3 49
+/concatmod4/pickup/y4 99
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 22
+/concatmod4/excite/x1 38
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
@@ -1780,7 +1780,7 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 8
+/concatmod5/excite/x1 40
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
