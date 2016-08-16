@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -59.0, 79.0, 1248.0, 620.0 ],
+		"rect" : [ 271.0, 116.0, 429.0, 620.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -501,7 +501,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -539,6 +539,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -568,13 +569,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-211",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.5, 575.333374, 50.0, 22.0 ],
+									"patching_rect" : [ 80.5, 575.333374, 56.0, 35.0 ],
 									"style" : "",
-									"text" : "11034"
+									"text" : "12240591"
 								}
 
 							}
@@ -1020,15 +1022,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-226", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-174", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-136", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1112,7 +1105,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 992.0, 558.0, 640.0, 480.0 ],
+						"rect" : [ 606.0, 558.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1139,7 +1132,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -1210,7 +1202,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -1337,7 +1329,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 549.0, 45.0, 350.0, 357.0 ],
+						"rect" : [ 549.0, 79.0, 350.0, 357.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2194,7 +2186,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.0, 22.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -2431,7 +2423,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-101",
@@ -6049,105 +6040,105 @@
 		"dependency_cache" : [ 			{
 				"name" : "nav.rand.module.maxpat",
 				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../../../../../Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.model.maxpat",
 				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../../../../../Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.absdiff.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
-				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/absdiff",
+				"patcherrelativepath" : "../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.view.maxpat",
 				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../../../../../Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.dmx_op.maxpat",
 				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
-				"patcherrelativepath" : "../../../../../../../../TML-depo/TML-code/DMX/abstractions",
+				"patcherrelativepath" : "../../../../../../TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.dmx_in.maxpat",
 				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
-				"patcherrelativepath" : "../../../../../../../../TML-depo/TML-code/DMX/abstractions",
+				"patcherrelativepath" : "../../../../../../TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.dmx_ch.maxpat",
 				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
-				"patcherrelativepath" : "../../../../../../../../TML-depo/TML-code/DMX/abstractions",
+				"patcherrelativepath" : "../../../../../../TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
 				"bootpath" : "~/Documents/code/Nav/Archive/ut",
-				"patcherrelativepath" : "../../../../../../../../Nav/Archive/ut",
+				"patcherrelativepath" : "../../../../../../Nav/Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.adc~.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/ADC-DAC~",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/ADC-DAC~",
+				"patcherrelativepath" : "../../../../../../Nav/snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.smartGate~.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/gates",
+				"patcherrelativepath" : "../../../../../../Nav/snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.zsa.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/gates",
+				"patcherrelativepath" : "../../../../../../Nav/snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.zsa.core.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/gates",
+				"patcherrelativepath" : "../../../../../../Nav/snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.mfcc.alphabet.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/gates",
+				"patcherrelativepath" : "../../../../../../Nav/snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.vufader.maxpat",
 				"bootpath" : "~/Documents/code/Nav/snd/gates",
-				"patcherrelativepath" : "../../../../../../../../Nav/snd/gates",
+				"patcherrelativepath" : "../../../../../../Nav/snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
