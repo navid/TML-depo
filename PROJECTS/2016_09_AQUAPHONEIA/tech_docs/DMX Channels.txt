@@ -12,8 +12,8 @@ DMX Channels
 
 //LED-CONC
 > 6) Tube 2 
-> 7) Tube 3
-> 8) Tube 4 (R)
+> 7) Tube 4
+> 8) Tube 3 (R)
 
 //DRIP DIMMER
 9) Magnet 0-207
