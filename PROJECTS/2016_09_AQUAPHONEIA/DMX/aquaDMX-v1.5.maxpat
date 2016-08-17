@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 278.0, 133.0, 396.0, 553.0 ],
+		"rect" : [ 105.0, 242.0, 396.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,37 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"id" : "obj-67",
+					"linecount" : 18,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 211.564545, 303.672241, 29.0, 228.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 210.61087, 300.850464, 162.897858, 31.0 ],
+					"style" : "",
+					"text" : "note: match dmx destinations f the squirts spatially left to right"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 558.0, 54.0, 42.0, 47.0 ],
+					"style" : "",
+					"text" : "1 > 4\n2-2\n4-1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -62,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 367.285706, 534.672241, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.406616, 535.672241, 22.0, 19.0 ],
+					"presentation_rect" : [ 367.406616, 535.672241, 33.0, 19.0 ],
 					"style" : "",
 					"text" : "ed    "
 				}
@@ -95,7 +126,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.285706, 536.672241, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.508728, 535.672241, 28.0, 19.0 ],
+					"presentation_rect" : [ 341.508728, 535.672241, 32.0, 19.0 ],
 					"style" : "",
 					"text" : "bell  "
 				}
@@ -111,7 +142,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.5, 534.672241, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 264.285706, 535.672241, 22.0, 19.0 ],
+					"presentation_rect" : [ 264.285706, 535.672241, 33.0, 19.0 ],
 					"style" : "",
 					"text" : "ed    "
 				}
@@ -125,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.10025, 535.672241, 40.0, 19.0 ],
+					"patching_rect" : [ 210.10025, 535.672241, 45.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.61087, 535.672241, 45.0, 19.0 ],
 					"style" : "",
@@ -310,6 +341,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 429.0, 72.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 306.0, 252.672241, 22.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -2108,7 +2141,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 129.0, 40.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 129.0, 40.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -2302,7 +2334,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 114.0, 49.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 114.0, 49.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -2496,7 +2527,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 108.0, 40.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 108.0, 40.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -2690,7 +2720,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 114.0, 40.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 114.0, 39.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -3934,7 +3963,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1351.0, 135.0, 186.0, 472.0 ],
+						"rect" : [ 1060.0, 135.0, 186.0, 472.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3961,7 +3990,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -6470,13 +6498,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "nav.rand.module.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.model.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6488,7 +6516,7 @@
 			}
 , 			{
 				"name" : "nav.rand.view.maxpat",
-				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6500,25 +6528,25 @@
 			}
 , 			{
 				"name" : "tml.dmx_op.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/DMX/abstractions",
+				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.dmx_in.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/DMX/abstractions",
+				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.dmx_ch.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/DMX/abstractions",
+				"bootpath" : "~/Documents/code/TML-depo/TML-code/DMX/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
-				"bootpath" : "~/code/Git/Nav/Archive/ut",
+				"bootpath" : "~/Documents/code/Nav/Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
