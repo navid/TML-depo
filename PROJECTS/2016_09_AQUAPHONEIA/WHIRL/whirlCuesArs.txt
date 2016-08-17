@@ -1662,26 +1662,26 @@
  KEYCUE "init2" 
  
  
- 	 	 	 	 /CONFIG /nav.oscroute 99 1 /nav.oscroute.1 99 1 /nav.oscroute.2 99 1 /nav.oscroute.3 99 1 /nav.oscroute.4 99 1 /nav.oscroute.5 99 1 /nav.oscroute.6 99 1 /nav.oscroute.7 99 1 /flow 99 1 /oroCue 99 1 /rvrb2Map 99 1 /whrl2out 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 
+ 	 	 	 	 /CONFIG /nav.oscroute.16 99 1 /nav.oscroute.17 99 1 /nav.oscroute.18 99 1 /nav.oscroute.19 99 1 /nav.oscroute.20 99 1 /nav.oscroute.21 99 1 /nav.oscroute.22 99 1 /nav.oscroute.23 99 1 /flow 99 1 /oroCue 99 1 /rvrb2Map 99 1 /whrl2out 99 1 /whirlpooler2 99 1 /terrRogs 99 1 /rogsOutT 99 1 /dryRogWhirlMap 99 1 /filterMap1 99 1 /rvrbMap 99 1 /whirlpooler 99 1 /rogsOut 99 1 /sine2-gain 99 1 /sine1-2 99 1 /sine~2 99 1 /sine2 99 1 /sine1 99 1 /sineOut 99 1 /sine~1 99 1 /mdlysOut 99 1 /mdlys~ 99 1 /spatOut 99 1 /nav.motion% 99 1 /Squirt~ 99 1 /hornEQ~ 99 1 /cameraIn 99 1 /mask1 99 1 /area 99 1 /centerX 99 1 /centerY 99 1 /height 99 1 /width 99 1 /small 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
  # 
- # Module /nav.oscroute 
+ # Module /nav.oscroute.16 
  # 
- # Module /nav.oscroute.1 
+ # Module /nav.oscroute.17 
  # 
- # Module /nav.oscroute.2 
+ # Module /nav.oscroute.18 
  # 
- # Module /nav.oscroute.3 
+ # Module /nav.oscroute.19 
  # 
- # Module /nav.oscroute.4 
+ # Module /nav.oscroute.20 
  # 
- # Module /nav.oscroute.5 
+ # Module /nav.oscroute.21 
  # 
- # Module /nav.oscroute.6 
+ # Module /nav.oscroute.22 
  # 
- # Module /nav.oscroute.7 
+ # Module /nav.oscroute.23 
  # 
  # Module /flow 
  	 	 	 	 /flow/flowON 0 
@@ -2056,7 +2056,7 @@
  	 	 	 	 /terrRogs/buffer/append 1 
  	 	 	 	 /terrRogs/buffer/rec 0 
  	 	 	 	 /terrRogs/buffer/size 12009.631836 
- 	 	 	 	 /terrRogs/grain/duration 150.000000 
+ 	 	 	 	 /terrRogs/grain/duration 95.000000 
  	 	 	 	 /terrRogs/grain/in/module/listindex 1 
  	 	 	 	 /terrRogs/grain/mute 0 
  	 	 	 	 /terrRogs/grain/offset 0.000000 
@@ -2093,12 +2093,12 @@
  	 	 	 	 /terrRogs/mod/gain 89.000000 
  	 	 	 	 /terrRogs/mod/onsetVar 0.000000 
  	 	 	 	 /terrRogs/mod/pitch -372.000000 
- 	 	 	 	 /terrRogs/mod/pitchVar 857.000000 
+ 	 	 	 	 /terrRogs/mod/pitchVar 967.000000 
  	 	 	 	 /terrRogs/mod/position 0.000000 
  	 	 	 	 /terrRogs/mod/size -60.000000 
  	 	 	 	 /terrRogs/mod/speed 0.000000 
  	 	 	 	 /terrRogs/mod/spread 0.000000 
- 	 	 	 	 /terrRogs/mod/trigger 62.000000 
+ 	 	 	 	 /terrRogs/mod/trigger 35.000000 
  	 	 	 	 /terrRogs/mod/turn 0.000000 
  	 	 	 	 /terrRogs/onsetVar/in/module/listindex 1 
  	 	 	 	 /terrRogs/onsetVar/mute 0 
@@ -2221,7 +2221,7 @@
  	 	 	 	 /terrRogs/waveform/normalize 1.000000 
  # 
  # Module /rogsOutT 
- 	 	 	 	 /rogsOutT/audio/active 0 
+ 	 	 	 	 /rogsOutT/audio/active 1 
  	 	 	 	 /rogsOutT/audio/gain 74.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
@@ -2241,7 +2241,6 @@
  	 	 	 	 /rogsOutT/view/highlight 0 
  # 
  # Module /dryRogWhirlMap 
- 	 	 	 	 /dryRogWhirlMap/alias /dryRogWhirlMap/alias/remove 
  	 	 	 	 /dryRogWhirlMap/in/module/name /height 
  	 	 	 	 /dryRogWhirlMap/in/module/instance 0 
  	 	 	 	 /dryRogWhirlMap/function logarithm 
@@ -2425,7 +2424,7 @@
  	 	 	 	 /whirlpooler/mapperGate/spread 0 
  	 	 	 	 /whirlpooler/mapperGate/trigger 2 
  	 	 	 	 /whirlpooler/mapperGate/turn 2 
- 	 	 	 	 /whirlpooler/mod/gain 20.000000 
+ 	 	 	 	 /whirlpooler/mod/gain 22.000000 
  	 	 	 	 /whirlpooler/mod/onsetVar -1900.000000 
  	 	 	 	 /whirlpooler/mod/pitch -2000.000000 
  	 	 	 	 /whirlpooler/mod/pitchVar 0.000000 
@@ -2557,7 +2556,7 @@
  # 
  # Module /rogsOut 
  	 	 	 	 /rogsOut/audio/active 0 
- 	 	 	 	 /rogsOut/audio/gain 68.089432 
+ 	 	 	 	 /rogsOut/audio/gain 86.366508 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 1 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2593,14 +2592,13 @@
  	 	 	 	 /sine2-gain/scale/input/max 1.000000 
  	 	 	 	 /sine2-gain/scale/input/min 0.000000 
  	 	 	 	 /sine2-gain/scale/max 80.000000 
- 	 	 	 	 /sine2-gain/scale/min 51.000000 
+ 	 	 	 	 /sine2-gain/scale/min 45.000000 
  	 	 	 	 /sine2-gain/scale/mode 4 
- 	 	 	 	 /sine2-gain/slide/down 0 
+ 	 	 	 	 /sine2-gain/slide/down 23 
  	 	 	 	 /sine2-gain/slide/up 0 
  	 	 	 	 /sine2-gain/view/freeze 0 
  # 
  # Module /sine1-2 
- 	 	 	 	 /sine1-2/alias /sine1-2/alias/remove 
  	 	 	 	 /sine1-2/in/module/name /height 
  	 	 	 	 /sine1-2/in/module/instance 0 
  	 	 	 	 /sine1-2/function linear 
@@ -2618,21 +2616,22 @@
  	 	 	 	 /sine1-2/scale/input/max 1.000000 
  	 	 	 	 /sine1-2/scale/input/min 0.000000 
  	 	 	 	 /sine1-2/scale/max 95.000000 
- 	 	 	 	 /sine1-2/scale/min 0.000000 
+ 	 	 	 	 /sine1-2/scale/min 30.000000 
  	 	 	 	 /sine1-2/scale/mode 4 
  	 	 	 	 /sine1-2/slide/down 1 
  	 	 	 	 /sine1-2/slide/up 0 
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 67.911301 
+ 	 	 	 	 /sine~2/audio/gain 79.206261 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 33.760002 
+ 	 	 	 	 /sine~2/frequency 19.952490 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
  # 
  # Module /sine2 
+ 	 	 	 	 /sine2/alias /sine2/alias/remove 
  	 	 	 	 /sine2/in/module/name /height 
  	 	 	 	 /sine2/in/module/instance 0 
  	 	 	 	 /sine2/function linear 
@@ -2650,7 +2649,7 @@
  	 	 	 	 /sine2/scale/input/max 1.000000 
  	 	 	 	 /sine2/scale/input/min 0.000000 
  	 	 	 	 /sine2/scale/max 19.000000 
- 	 	 	 	 /sine2/scale/min 55.000000 
+ 	 	 	 	 /sine2/scale/min 61.000000 
  	 	 	 	 /sine2/scale/mode 4 
  	 	 	 	 /sine2/slide/down 0 
  	 	 	 	 /sine2/slide/up 5 
@@ -2682,7 +2681,7 @@
  # 
  # Module /sineOut 
  	 	 	 	 /sineOut/audio/active 0 
- 	 	 	 	 /sineOut/audio/gain 82.467529 
+ 	 	 	 	 /sineOut/audio/gain 70.922081 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2702,16 +2701,16 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 55.801632 
+ 	 	 	 	 /sine~1/audio/gain 93.525909 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 383.000000 
+ 	 	 	 	 /sine~1/frequency 38.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
  	 	 	 	 /mdlysOut/audio/active 0 
- 	 	 	 	 /mdlysOut/audio/gain 55.253239 
+ 	 	 	 	 /mdlysOut/audio/gain 56.077923 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
@@ -2742,14 +2741,14 @@
  	 	 	 	 /mdlys~/audio/mute 0 
  	 	 	 	 /mdlys~/audio/preview 0 
  	 	 	 	 /mdlys~/brightness 51.181110 
- 	 	 	 	 /mdlys~/damping 48.031536 
+ 	 	 	 	 /mdlys~/damping 47.244133 
  	 	 	 	 /mdlys~/excite/active 0 
  	 	 	 	 /mdlys~/excite/rate 4000 
  	 	 	 	 /mdlys~/excite/smooth 1000 
  	 	 	 	 /mdlys~/excite/x1 40 
  	 	 	 	 /mdlys~/excite/y1 54 
  	 	 	 	 /mdlys~/inharm 0.000000 
- 	 	 	 	 /mdlys~/modes 109 
+ 	 	 	 	 /mdlys~/modes 119 
  	 	 	 	 /mdlys~/pickup/active 0 
  	 	 	 	 /mdlys~/pickup/rate 4000 
  	 	 	 	 /mdlys~/pickup/smooth 1000 
@@ -2805,9 +2804,9 @@
  	 	 	 	 /nav.motion%/noise/ripple 0.500000 
  	 	 	 	 /nav.motion%/slide/down 2.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 15.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 7.000000 
  	 	 	 	 /nav.motion%/threshold/mode 1 
- 	 	 	 	 /nav.motion%/threshold/radius 33 
+ 	 	 	 	 /nav.motion%/threshold/radius 28 
  	 	 	 	 /nav.motion%/trails 1 
  	 	 	 	 /nav.motion%/video/bypass 0 
  	 	 	 	 /nav.motion%/video/freeze 0 
@@ -3114,11 +3113,12 @@
  	 	 	 	 /mask1/view/freeze 0 
  	 	 	 	 /mask1/view/highlight 0 
  	 	 	 	 /mask1/xmax 1.030000 
- 	 	 	 	 /mask1/xmin 0.010000 
- 	 	 	 	 /mask1/ymax 0.920000 
- 	 	 	 	 /mask1/ymin 0.110000 
+ 	 	 	 	 /mask1/xmin -0.030000 
+ 	 	 	 	 /mask1/ymax 0.910000 
+ 	 	 	 	 /mask1/ymin 0.123000 
  # 
  # Module /area 
+ 	 	 	 	 /area/alias /area/alias/remove 
  	 	 	 	 /area/function 0 
  	 	 	 	 /area/function/symmetry 0 
  	 	 	 	 /area/function/parameter2 0.000000 
@@ -3218,6 +3218,7 @@
  	 	 	 	 /centerY/visualize 0 
  # 
  # Module /height 
+ 	 	 	 	 /height/alias /height/alias/remove 
  	 	 	 	 /height/function 0 
  	 	 	 	 /height/function/symmetry 0 
  	 	 	 	 /height/function/parameter2 0.000000 
