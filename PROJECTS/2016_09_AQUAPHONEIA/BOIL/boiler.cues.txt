@@ -1140,11 +1140,11 @@
 /shiftFog/audio/bypass 0
 /shiftFog/audio/gain -1.000000
 /shiftFog/audio/mix 100.000000
-/shiftFog/audio/mute 0
+/shiftFog/audio/mute 1
 /shiftFog/feedback/gain -60.000000
 /shiftFog/feedback/time 72.992104
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift 18.956535
+/shiftFog/frequency/shift -135.891998
 # 
 /ValveLogic/valveOpen/event 0.000000
 /ValveLogic/valveClosed 0
@@ -1154,11 +1154,11 @@
 /eqbottom/audio/mix 100.000000
 /eqbottom/audio/mute 0
 /eqbottom/filter.1/type highpass
-/eqbottom/filter.1/frequency 88.258314
+/eqbottom/filter.1/frequency 88.258316
 /eqbottom/filter.1/gain -0.755905
 /eqbottom/filter.1/octave_bandwidth 8.000000
 /eqbottom/filter.2/type peaknotch
-/eqbottom/filter.2/frequency 118.622644
+/eqbottom/filter.2/frequency 118.622643
 /eqbottom/filter.2/gain 24.000000
 /eqbottom/filter.2/octave_bandwidth 0.622095
 /eqbottom/filter.3/type lowpass
@@ -1177,7 +1177,7 @@
 /randShift/interpolate 4502
 /randShift/max 80.000000
 /randShift/min -193.000000
-/randShift/on 1
+/randShift/on 0
 /randShift/step 1.000000
 # 
 /FLOW/flow 0
