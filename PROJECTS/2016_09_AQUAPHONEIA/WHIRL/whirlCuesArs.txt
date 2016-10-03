@@ -1718,9 +1718,9 @@
  # 
  # Module /whrl2out 
  	 	 	 	 /whrl2out/audio/active 1 
- 	 	 	 	 /whrl2out/audio/gain 77.000000 
+ 	 	 	 	 /whrl2out/audio/gain 83.000000 
  	 	 	 	 /whrl2out/audio/mute 0 
- 	 	 	 	 /whrl2out/limiter/active 1 
+ 	 	 	 	 /whrl2out/limiter/active 0 
  	 	 	 	 /whrl2out/limiter/dcblocker/active 1 
  	 	 	 	 /whrl2out/limiter/lookahead 64 
  	 	 	 	 /whrl2out/limiter/mode exponential 
@@ -1809,7 +1809,7 @@
  	 	 	 	 /whirlpooler2/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler2/audio/gain 51.000000 
+ 	 	 	 	 /whirlpooler2/audio/gain 53.000000 
  	 	 	 	 /whirlpooler2/audio/mute 0 
  	 	 	 	 /whirlpooler2/buffer/append 1 
  	 	 	 	 /whirlpooler2/buffer/rec 0 
@@ -1818,7 +1818,7 @@
  	 	 	 	 /whirlpooler2/grain/in/module/listindex 1 
  	 	 	 	 /whirlpooler2/grain/mute 0 
  	 	 	 	 /whirlpooler2/grain/offset 0.000000 
- 	 	 	 	 /whirlpooler2/grain/onsetVar 0.000000 
+ 	 	 	 	 /whirlpooler2/grain/onsetVar 0.810000 
  	 	 	 	 /whirlpooler2/grain/overlap 80 
  	 	 	 	 /whirlpooler2/grain/ramp/time 0 
  	 	 	 	 /whirlpooler2/grain/scale/bypass 1 
@@ -1855,7 +1855,7 @@
  	 	 	 	 /whirlpooler2/mod/position 0.000000 
  	 	 	 	 /whirlpooler2/mod/size -120.000000 
  	 	 	 	 /whirlpooler2/mod/speed 0.250000 
- 	 	 	 	 /whirlpooler2/mod/spread 0.240000 
+ 	 	 	 	 /whirlpooler2/mod/spread 0.310000 
  	 	 	 	 /whirlpooler2/mod/trigger 0.000000 
  	 	 	 	 /whirlpooler2/mod/turn 1.000000 
  	 	 	 	 /whirlpooler2/onsetVar/in/module/listindex 1 
@@ -2051,7 +2051,7 @@
  	 	 	 	 /terrRogs/spread/in/module/parameter 0 
  	 	 	 	 /terrRogs/trig/in/module/parameter 0 
  	 	 	 	 /terrRogs/turn/in/module/parameter 0 
- 	 	 	 	 /terrRogs/audio/gain 5.000000 
+ 	 	 	 	 /terrRogs/audio/gain 0.000000 
  	 	 	 	 /terrRogs/audio/mute 0 
  	 	 	 	 /terrRogs/buffer/append 1 
  	 	 	 	 /terrRogs/buffer/rec 0 
@@ -2095,7 +2095,7 @@
  	 	 	 	 /terrRogs/mod/pitch -1018.000000 
  	 	 	 	 /terrRogs/mod/pitchVar 845.000000 
  	 	 	 	 /terrRogs/mod/position 0.000000 
- 	 	 	 	 /terrRogs/mod/size -60.000000 
+ 	 	 	 	 /terrRogs/mod/size -65.000000 
  	 	 	 	 /terrRogs/mod/speed 0.000000 
  	 	 	 	 /terrRogs/mod/spread 0.000000 
  	 	 	 	 /terrRogs/mod/trigger 35.000000 
@@ -2222,7 +2222,7 @@
  # 
  # Module /rogsOutT 
  	 	 	 	 /rogsOutT/audio/active 1 
- 	 	 	 	 /rogsOutT/audio/gain 74.000000 
+ 	 	 	 	 /rogsOutT/audio/gain 78.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
  	 	 	 	 /rogsOutT/limiter/dcblocker/active 1 
@@ -2257,8 +2257,8 @@
  	 	 	 	 /dryRogWhirlMap/scale/bypass 0 
  	 	 	 	 /dryRogWhirlMap/scale/input/max 1.000000 
  	 	 	 	 /dryRogWhirlMap/scale/input/min 0.000000 
- 	 	 	 	 /dryRogWhirlMap/scale/max 88.000000 
- 	 	 	 	 /dryRogWhirlMap/scale/min 36.000000 
+ 	 	 	 	 /dryRogWhirlMap/scale/max 95.000000 
+ 	 	 	 	 /dryRogWhirlMap/scale/min 37.000000 
  	 	 	 	 /dryRogWhirlMap/scale/mode 4 
  	 	 	 	 /dryRogWhirlMap/slide/down 4 
  	 	 	 	 /dryRogWhirlMap/slide/up 0 
@@ -2306,7 +2306,7 @@
  	 	 	 	 /rvrbMap/scale/input/max 1.000000 
  	 	 	 	 /rvrbMap/scale/input/min 0.000000 
  	 	 	 	 /rvrbMap/scale/max 10.000000 
- 	 	 	 	 /rvrbMap/scale/min 110.000000 
+ 	 	 	 	 /rvrbMap/scale/min 111.000000 
  	 	 	 	 /rvrbMap/scale/mode 4 
  	 	 	 	 /rvrbMap/slide/down 0 
  	 	 	 	 /rvrbMap/slide/up 0 
@@ -2385,7 +2385,7 @@
  	 	 	 	 /whirlpooler/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler/audio/gain 39.000000 
+ 	 	 	 	 /whirlpooler/audio/gain 46.000000 
  	 	 	 	 /whirlpooler/audio/mute 0 
  	 	 	 	 /whirlpooler/buffer/append 1 
  	 	 	 	 /whirlpooler/buffer/rec 0 
@@ -2424,7 +2424,7 @@
  	 	 	 	 /whirlpooler/mapperGate/spread 0 
  	 	 	 	 /whirlpooler/mapperGate/trigger 2 
  	 	 	 	 /whirlpooler/mapperGate/turn 2 
- 	 	 	 	 /whirlpooler/mod/gain 20.000000 
+ 	 	 	 	 /whirlpooler/mod/gain 32.000000 
  	 	 	 	 /whirlpooler/mod/onsetVar -1900.000000 
  	 	 	 	 /whirlpooler/mod/pitch -2000.000000 
  	 	 	 	 /whirlpooler/mod/pitchVar 0.000000 
@@ -2555,11 +2555,10 @@
  	 	 	 	 /whirlpooler/waveform/normalize 1.000000 
  # 
  # Module /rogsOut 
- 	 	 	 	 /rogsOut/alias /rogsOut/alias/remove 
  	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 69.621201 
+ 	 	 	 	 /rogsOut/audio/gain 92.112091 
  	 	 	 	 /rogsOut/audio/mute 0 
- 	 	 	 	 /rogsOut/limiter/active 1 
+ 	 	 	 	 /rogsOut/limiter/active 0 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
  	 	 	 	 /rogsOut/limiter/lookahead 64 
  	 	 	 	 /rogsOut/limiter/mode exponential 
@@ -2624,9 +2623,9 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 67.305702 
+ 	 	 	 	 /sine~2/audio/gain 78.588814 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 36.103073 
+ 	 	 	 	 /sine~2/frequency 22.033312 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2701,16 +2700,17 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 63.542103 
+ 	 	 	 	 /sine~1/audio/gain 89.652519 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 442.000000 
+ 	 	 	 	 /sine~1/frequency 84.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
+ 	 	 	 	 /mdlysOut/alias /mdlysOut/alias/remove 
  	 	 	 	 /mdlysOut/audio/active 1 
- 	 	 	 	 /mdlysOut/audio/gain 56.077923 
+ 	 	 	 	 /mdlysOut/audio/gain 46.181828 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
@@ -2802,11 +2802,11 @@
  	 	 	 	 /nav.motion%/noise/range 1 
  	 	 	 	 /nav.motion%/noise/ring 0.800000 
  	 	 	 	 /nav.motion%/noise/ripple 0.500000 
- 	 	 	 	 /nav.motion%/slide/down 2.000000 
+ 	 	 	 	 /nav.motion%/slide/down 1.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 7.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 8.000000 
  	 	 	 	 /nav.motion%/threshold/mode 1 
- 	 	 	 	 /nav.motion%/threshold/radius 20 
+ 	 	 	 	 /nav.motion%/threshold/radius 29 
  	 	 	 	 /nav.motion%/trails 1 
  	 	 	 	 /nav.motion%/video/bypass 0 
  	 	 	 	 /nav.motion%/video/freeze 0 
@@ -2992,7 +2992,7 @@
  	 	 	 	 /Squirt~/position/slide/down 0 
  	 	 	 	 /Squirt~/position/slide/up 0 
  	 	 	 	 /Squirt~/selection/mode 0 
- 	 	 	 	 /Squirt~/selection/range 0.000000 4662.312500 
+ 	 	 	 	 /Squirt~/selection/range 0.000000 7005.437500 
  	 	 	 	 /Squirt~/size/in/module/listindex 1 
  	 	 	 	 /Squirt~/size/mute 0 
  	 	 	 	 /Squirt~/size/offset 0.000000 
@@ -3058,10 +3058,9 @@
  	 	 	 	 /Squirt~/waveform/normalize 1.000000 
  # 
  # Module /hornEQ~ 
- 	 	 	 	 /hornEQ~/alias /hornEQ~/alias/remove 
  	 	 	 	 /hornEQ~/bands 2 
  	 	 	 	 /hornEQ~/audio/bypass 0 
- 	 	 	 	 /hornEQ~/audio/gain 85.000000 
+ 	 	 	 	 /hornEQ~/audio/gain 92.000000 
  	 	 	 	 /hornEQ~/audio/mix 100.000000 
  	 	 	 	 /hornEQ~/audio/mute 0 
  	 	 	 	 /hornEQ~/filter.1/frequency 93.142784 
@@ -3114,12 +3113,11 @@
  	 	 	 	 /mask1/view/freeze 0 
  	 	 	 	 /mask1/view/highlight 0 
  	 	 	 	 /mask1/xmax 1.000000 
- 	 	 	 	 /mask1/xmin 0.120000 
+ 	 	 	 	 /mask1/xmin 0.010000 
  	 	 	 	 /mask1/ymax 0.859000 
  	 	 	 	 /mask1/ymin 0.130000 
  # 
  # Module /area 
- 	 	 	 	 /area/alias /area/alias/remove 
  	 	 	 	 /area/function 0 
  	 	 	 	 /area/function/symmetry 0 
  	 	 	 	 /area/function/parameter2 0.000000 
@@ -3186,7 +3184,6 @@
  	 	 	 	 /centerX/visualize 0 
  # 
  # Module /centerY 
- 	 	 	 	 /centerY/alias /centerY/alias/remove 
  	 	 	 	 /centerY/function 0 
  	 	 	 	 /centerY/function/symmetry 0 
  	 	 	 	 /centerY/function/parameter2 0.000000 
@@ -3232,7 +3229,7 @@
  	 	 	 	 /height/mute 0 
  	 	 	 	 /height/offset -0.010000 
  	 	 	 	 /height/pre-slide/down 0 
- 	 	 	 	 /height/pre-slide/up 0 
+ 	 	 	 	 /height/pre-slide/up 1 
  	 	 	 	 /height/ramp/grain 10 
  	 	 	 	 /height/ramp/time 0 
  	 	 	 	 /height/scale/input/max 0.940000 
@@ -3286,6 +3283,7 @@
  	 	 	 	 /width/visualize 0 
  # 
  # Module /small 
+ 	 	 	 	 /small/alias /small/alias/remove 
  	 	 	 	 /small/function 0 
  	 	 	 	 /small/function/symmetry 0 
  	 	 	 	 /small/function/parameter2 0.000000 
