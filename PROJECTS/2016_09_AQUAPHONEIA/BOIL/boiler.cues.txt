@@ -175,12 +175,12 @@
 /boilRog/mapTurn/active 0.000000
 /boilRog/mapTurn/scalebypass 1
 /boilRog/audio/bypass 0
-/boilRog/audio/gain -55.000000
+/boilRog/audio/gain -35.000000
 /boilRog/audio/mix 100.000000
 /boilRog/audio/mute 0
 /boilRog/buffer/append 1
 /boilRog/buffer/rec 0
-/boilRog/buffer/size 25020.519531
+/boilRog/buffer/size 20016.332031
 /boilRog/mapperGate/gain 2
 /boilRog/mapperGate/onsetVar 2
 /boilRog/mapperGate/pitch 0
@@ -390,7 +390,7 @@
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
-/boilRogBottom/buffer/size 60750.417969
+/boilRogBottom/buffer/size 30425.041016
 /boilRogBottom/mapperGate/gain 2
 /boilRogBottom/mapperGate/onsetVar 0
 /boilRogBottom/mapperGate/pitch 2
@@ -418,9 +418,9 @@
 /boilRogBottom/pitch/variation 390.000000
 /boilRogBottom/playback/direction 0
 /boilRogBottom/playback/speed 1.000000
-/boilRogBottom/playback/position 0.485944
+/boilRogBottom/playback/position 0.044177
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 60750.410156
+/boilRogBottom/selection/range 0.000000 33627.734375
 # 
 /coneSteamer/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /coneSteamer/grain/trigger/variance/gainVar/range 0.000000
@@ -595,9 +595,9 @@
 /coneSteamer/mapTurn/active 0.000000
 /coneSteamer/mapTurn/scalebypass 1
 /coneSteamer/audio/bypass 0
-/coneSteamer/audio/gain -18.000000
+/coneSteamer/audio/gain -14.000000
 /coneSteamer/audio/mix 100.000000
-/coneSteamer/audio/mute 1
+/coneSteamer/audio/mute 0
 /coneSteamer/buffer/append 1
 /coneSteamer/buffer/rec 0
 /coneSteamer/buffer/size 20016.332031
@@ -1057,8 +1057,8 @@
 /coneMic/autoscale/audio/gain 0.000000
 /coneMic/autoscale/audio/mix 100.000000
 /coneMic/autoscale/audio/mute 0
-/coneMic/autoscale/input/max 0.012000
-/coneMic/autoscale/input/min 0.000280
+/coneMic/autoscale/input/max 0.011000
+/coneMic/autoscale/input/min 0.000100
 /coneMic/autoscale/exp 1.000000
 /coneMic/autoscale/lock 2
 /coneMic/autoscale/maximum 1.000000
@@ -1078,8 +1078,8 @@
 /coneMic/filter/q 1.000000
 /coneMic/filter/type highpass
 /coneMic/pre-slide/down 60.000000
-/coneMic/pre-slide/up 0.300000
-/coneMic/ramp/down 35.000000
+/coneMic/pre-slide/up 0.000000
+/coneMic/ramp/down 40.000000
 /coneMic/ramp/up 0.000000
 /coneMic/slide/down 40.000000
 /coneMic/slide/up 0.000000
@@ -1138,16 +1138,16 @@
 /shiftFog/limiter/release 250.000000
 /shiftFog/limiter/threshold 0.000000
 /shiftFog/audio/bypass 0
-/shiftFog/audio/gain -10.000000
+/shiftFog/audio/gain -6.000000
 /shiftFog/audio/mix 100.000000
 /shiftFog/audio/mute 1
 /shiftFog/feedback/gain -60.000000
 /shiftFog/feedback/time 72.992104
 /shiftFog/frequency/scale 0.007717
-/shiftFog/frequency/shift -5.729000
+/shiftFog/frequency/shift 64.031998
 # 
 /ValveLogic/valveOpen/event 0.000000
-/ValveLogic/valveClosed 0
+/ValveLogic/valveClosed 1
 # 
 /eqbottom/audio/bypass 0
 /eqbottom/audio/gain 12.000000
