@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -48,31 +48,31 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_cc_brcosa.view.maxpat",
+					"name" : "gl_co_lumakey.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based brightness/contrast/saturation effect.",
+					"annotation" : "Shader-based luminance key.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 134.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 142.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_cc_brcosa.model #1",
+					"text" : "gl_co_lumakey.model #1",
 					"varname" : "j.model"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 92.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 120.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +98,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 92.0, 27.0, 27.0 ],
+					"patching_rect" : [ 225.0, 120.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -110,7 +110,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 225.0, 210.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +122,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 179.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 210.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -133,6 +133,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 147.5, 198.0, 234.5, 198.0 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -155,10 +156,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 234.5, 155.5, 147.5, 155.5 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_cc_brcosa.model.maxpat",
-				"bootpath" : "~/Code/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brcosa",
+				"name" : "gl_co_lumakey.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/jmod.gl.co.lumakey%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -169,8 +180,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_cc_brcosa.view.maxpat",
-				"bootpath" : "~/Code/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_cc_brcosa",
+				"name" : "gl_co_lumakey.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/jmod.gl.co.lumakey%",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 1,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 756.0, 479.0, 1073.0, 737.0 ],
+		"rect" : [ 333.0, 479.0, 1073.0, 737.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 552.0, 63.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 230.0, 63.0, 19.0 ],
+					"presentation_rect" : [ 130.0, 68.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "binary"
 				}
@@ -67,7 +67,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 156.0, 552.0, 50.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.0, 230.0, 50.0, 21.0 ],
+					"presentation_rect" : [ 195.0, 68.0, 50.0, 21.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[5]"
@@ -153,7 +153,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 390.0, 63.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 66.0, 63.0, 19.0 ],
+					"presentation_rect" : [ 4.0, 68.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "invert"
 				}
@@ -173,7 +173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 153.0, 390.0, 50.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 66.0, 50.0, 21.0 ],
+					"presentation_rect" : [ 70.0, 68.0, 50.0, 21.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[4]"
@@ -421,7 +421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"text" : "/no_model_address"
 				}
 
