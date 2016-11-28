@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 541.0, 265.0, 501.0, 420.0 ],
+		"rect" : [ 541.0, 265.0, 35.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,12 +102,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 541.0, 291.0, 501.0, 394.0 ],
+						"rect" : [ 541.0, 291.0, 35.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -172,31 +172,36 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u237004501" ],
 													"dim" : [ 1, 1 ],
-													"loopstart" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"position" : [ 0.0 ],
-													"output_texture" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"automatic" : [ 0 ],
 													"vol" : [ 1.0 ],
-													"rate" : [ 1.0 ],
-													"adapt" : [ 1 ],
-													"unique" : [ 0 ],
-													"autostart" : [ 1 ],
-													"framereport" : [ 0 ],
-													"colormode" : [ "argb" ],
+													"time_secs" : [ 0.0 ],
 													"looppoints" : [ 0, 0 ],
-													"usedstrect" : [ 0 ],
-													"interp" : [ 0 ],
+													"timescale" : [ 600 ],
+													"unique" : [ 0 ],
+													"automatic" : [ 0 ],
+													"framereport" : [ 0 ],
+													"texture_name" : [ "u390004499" ],
 													"loopreport" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"drawto" : [ "" ],
-													"engine" : [ "avf" ],
-													"time" : [ 0 ],
+													"output_texture" : [ 0 ],
+													"usedstrect" : [ 0 ],
 													"loopend" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
+													"cache_size" : [ 0.1 ],
+													"engine" : [ "avf" ],
+													"usesrcrect" : [ 0 ],
+													"loopstart" : [ 0 ],
+													"time" : [ 0 ],
+													"adapt" : [ 1 ],
+													"fps" : [ 0.0 ],
 													"moviefile" : [ "" ],
-													"texture_name" : [ "u390004499" ]
+													"colormode" : [ "argb" ],
+													"drawto" : [ "" ],
+													"interp" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"rate" : [ 1.0 ],
+													"framecount" : [ 0 ],
+													"position" : [ 0.0 ],
+													"duration" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"autostart" : [ 1 ]
 												}
 
 											}
@@ -282,7 +287,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_pix_gt.model", "@description", "Greater-than threshold filtering via jit.gl.pix." ],
+									"args" : [ "@name", "gl_pix_gt.model", "@description", "Greater-than/less-than threshold filtering via jit.gl.pix." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -370,12 +375,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 35.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -438,7 +443,7 @@
 			}
 , 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/Jamoma 1.0 Shaders/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -450,7 +455,7 @@
 			}
 , 			{
 				"name" : "gl_pix_thresh.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/Jamoma 1.0 Shaders/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
