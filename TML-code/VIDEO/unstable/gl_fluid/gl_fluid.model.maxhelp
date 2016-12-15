@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 672.0, -877.0, 791.0, 532.0 ],
+		"rect" : [ 471.0, 163.0, 595.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 672.0, -851.0, 791.0, 506.0 ],
+						"rect" : [ 471.0, 189.0, 595.0, 644.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -152,8 +152,8 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 90.0, 300.0, 245.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 245.0 ],
+									"patching_rect" : [ 330.0, 90.0, 300.0, 360.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 315.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -179,49 +179,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 195.0, 24.0, 24.0 ],
+									"patching_rect" : [ 90.0, 225.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-106",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 195.0, 74.0, 21.0 ],
-									"style" : "",
-									"text" : "prepend size"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-104",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 165.0, 60.0, 21.0 ],
-									"style" : "",
-									"text" : "r #0dim"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 240.0, 296.0, 22.0 ],
+									"patching_rect" : [ 45.0, 270.0, 135.0, 49.0 ],
 									"style" : "",
 									"text" : "jit.world fluid-ctx @fsmenubar 0 @erase_color 0 0 0 1"
 								}
@@ -259,8 +230,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 45.0, 195.0, 126.0, 22.0 ],
 									"style" : "",
 									"text" : "gl_fluid.model gl_fluid"
@@ -296,25 +267,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-106", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-104", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 219.5, 227.5, 24.5, 227.5 ],
-									"source" : [ "obj-106", 0 ]
 								}
 
 							}
@@ -392,7 +344,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 791.0, 506.0 ],
+						"rect" : [ 0.0, 26.0, 595.0, 644.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -455,7 +407,7 @@
 			}
 , 			{
 				"name" : "gl_fluid.model.maxpat",
-				"bootpath" : "~/Downloads/fluid_gpu_0.3",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/unstable/gl_fluid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -467,7 +419,7 @@
 			}
 , 			{
 				"name" : "gl_fluid.view.maxpat",
-				"bootpath" : "~/Downloads/fluid_gpu_0.3",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/unstable/gl_fluid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -490,11 +442,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
