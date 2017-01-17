@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 1,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 471.0, 163.0, 595.0, 670.0 ],
+		"rect" : [ 514.0, 205.0, 595.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,11 +103,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 1,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 471.0, 189.0, 595.0, 644.0 ],
+						"rect" : [ 514.0, 231.0, 595.0, 644.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,6 +137,19 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 75.0, 375.0, 156.0, 33.0 ],
+									"style" : "",
+									"text" : "expose GradientScale and set to 200 by default"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"annotation" : "none",
 									"args" : [ "gl_fluid" ],
 									"bgmode" : 0,
@@ -152,8 +165,8 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 90.0, 300.0, 360.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 315.0 ],
+									"patching_rect" : [ 330.0, 90.0, 300.0, 385.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 385.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -340,7 +353,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 1,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
