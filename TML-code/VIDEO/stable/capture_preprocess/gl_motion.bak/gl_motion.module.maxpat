@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 210.0, 153.0, 22.0 ],
+					"patching_rect" : [ 15.0, 210.0, 115.0, 22.0 ],
 					"style" : "",
 					"text" : "gl_motion.model #1",
 					"varname" : "j.model"
@@ -84,7 +84,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 15.0, 165.0, 26.0, 26.0 ],
 					"style" : ""
 				}

@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 360.0, 1545.0, 57.0, 22.0 ],
+					"patching_rect" : [ 360.0, 1575.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "j.return y"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 1545.0, 57.0, 22.0 ],
+					"patching_rect" : [ 285.0, 1575.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "j.return x"
 				}
@@ -971,9 +971,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 480.0, 120.0, 81.0 ],
+					"patching_rect" : [ 225.0, 495.0, 110.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter slide_up @type decimal @range 0. 100. @clipmode both @description \"Slide up.\"",
+					"text" : "j.parameter attack @type decimal @range 0. 1. @clipmode both @description \"Slide up.\"",
 					"varname" : "tolerance[9]"
 				}
 
@@ -984,14 +984,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 360.0, 480.0, 93.0, 94.0 ],
+					"patching_rect" : [ 360.0, 495.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter slide_down @type decimal @range 0. 100. @clipmode both @description \"Slide down.\"",
+					"text" : "j.parameter decay @type decimal @range 0. 1. @clipmode both @description \"Slide down.\"",
 					"varname" : "tolerance[8]"
 				}
 
@@ -1431,9 +1431,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 585.0, 87.0, 22.0 ],
+					"patching_rect" : [ 360.0, 585.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "slide_down $1"
+					"text" : "decay $1"
 				}
 
 			}
@@ -1444,9 +1444,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 585.0, 72.0, 22.0 ],
+					"patching_rect" : [ 225.0, 585.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "slide_up $1"
+					"text" : "attack $1"
 				}
 
 			}
@@ -1491,15 +1491,15 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based temporal interpolation.",
+					"annotation" : "Jit.gl.pix-based temporal interpolation.",
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 630.0, 104.0, 22.0 ],
+					"patching_rect" : [ 225.0, 630.0, 109.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_tp_slide.model"
+					"text" : "gl_pix_slide.model"
 				}
 
 			}

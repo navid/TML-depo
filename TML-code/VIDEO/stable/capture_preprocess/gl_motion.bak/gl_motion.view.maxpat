@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 774.0, 259.0, 300.0, 105.0 ],
+		"rect" : [ 956.0, 357.0, 300.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -120,9 +120,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 150.0, 725.0, 113.0, 21.0 ],
+					"patching_rect" : [ 150.0, 725.0, 86.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote slide_down",
+					"text" : "j.remote decay",
 					"varname" : "tolerance[9]"
 				}
 
@@ -173,9 +173,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 150.0, 652.0, 99.0, 21.0 ],
+					"patching_rect" : [ 150.0, 652.0, 88.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote slide_up",
+					"text" : "j.remote attack",
 					"varname" : "tolerance[8]"
 				}
 
