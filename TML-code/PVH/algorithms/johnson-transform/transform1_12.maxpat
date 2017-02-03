@@ -816,12 +816,12 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.111145, 876.0, 48.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "14.js",
+						"filename" : "13.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js 14.js"
+					"text" : "js 13.js"
 				}
 
 			}
@@ -2455,6 +2455,12 @@
 				"name" : "tranz.maxpat",
 				"bootpath" : "~/src/max/TML-depo/TML-code/PVH/algorithms/johnson-transform",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "13.js",
+				"bootpath" : "~/src/max/TML-depo/TML-code/PVH/algorithms/johnson-transform",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
