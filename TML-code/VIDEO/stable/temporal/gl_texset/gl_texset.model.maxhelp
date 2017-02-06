@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 816.0, 79.0, 547.0, 760.0 ],
+		"rect" : [ 46.0, 187.0, 547.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,13 +101,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 816.0, 105.0, 547.0, 734.0 ],
+						"rect" : [ 46.0, 213.0, 547.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -474,8 +474,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -542,7 +542,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_texset.model.maxpat",
+				"name" : "gl_texset.model_feedback.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset",
 				"type" : "JSON",
 				"implicit" : 1

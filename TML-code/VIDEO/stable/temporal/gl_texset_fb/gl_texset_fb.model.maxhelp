@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
+		"rect" : [ 715.0, 152.0, 547.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,13 +101,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
+						"rect" : [ 715.0, 178.0, 547.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,90 +137,161 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-10",
-									"linecount" : 2,
+									"id" : "obj-7",
+									"linecount" : 14,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.0, 90.0, 154.0, 194.0 ],
+									"style" : "",
+									"text" : "Now with feedback!\nTo do:\n-update help file\n-fix write head GUI bug\n-add feedback parameters to model and view\n-expose render context to parameter control throughout model, change to default\n-optionally - allow for different compositing modes\n-bonus: auto-gain control?"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 180.0, 53.0, 22.0 ],
+									"style" : "",
+									"text" : "s draw_"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 180.0, 300.0, 303.0, 47.0 ],
+									"style" : "",
+									"text" : "The dark blue line is the write head, where video is being written into the buffer. The light blue lines are the read heads for the four individual taps."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-60",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 255.0, 319.0, 35.0 ],
+									"patching_rect" : [ 255.0, 525.0, 120.0, 62.0 ],
 									"style" : "",
-									"text" : "jit.movie @output_texture 1 @vol 0 @moviefile bball.mov @autostart 1"
+									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position 0.35"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "none",
-									"args" : [ "bgsub" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-3",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "gl_absdiff_bgsub.view.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.0, 120.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
+									"id" : "obj-61",
+									"linecount" : 4,
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 225.0, 63.0, 22.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 390.0, 525.0, 120.0, 62.0 ],
 									"style" : "",
-									"text" : "pipe 1000"
+									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position 1.05"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 195.0, 100.0, 22.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 135.0, 525.0, 112.0, 62.0 ],
 									"style" : "",
-									"text" : "loadmess 1"
+									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position -0.35"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-1",
+									"id" : "obj-52",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 360.0, 133.0, 22.0 ],
+									"patching_rect" : [ 15.0, 525.0, 112.0, 62.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane default"
+									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position -1.05"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 165.0, 90.0, 121.0, 100.0 ],
+									"style" : "",
+									"text" : "Based on a patch by stefano from the Cycling74 forum: https://cycling74.com/forums/topic/time-delayed-textures-3d-texture-buffers/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 75.0, 315.0, 39.0, 22.0 ],
+									"style" : "",
+									"text" : "close"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 315.0, 37.0, 22.0 ],
+									"style" : "",
+									"text" : "open"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 15.0, 360.0, 149.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.grab @output_texture 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
+									"patching_rect" : [ 15.0, 120.0, 135.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.world default @enable 1"
+									"text" : "jit.world texset_help @erase_color 0 0 0 1"
 								}
 
 							}
@@ -232,7 +303,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 120.0, 86.0, 22.0 ],
+									"patching_rect" : [ 15.0, 90.0, 86.0, 22.0 ],
 									"style" : "",
 									"text_width" : 65.0
 								}
@@ -240,24 +311,44 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Background subtraction using absdiff shader.",
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 330.0, 173.0, 22.0 ],
-									"style" : "",
-									"text" : "gl_absdiff_bgsub.model bgsub"
+									"annotation" : "none",
+									"args" : [ "texset" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-3",
+									"lockeddragscroll" : 1,
+									"maxclass" : "bpatcher",
+									"name" : "gl_texset_fb.view.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 180.0, 360.0, 300.0, 140.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_cc_brcosa.model", "@description", "Slab-based brightness/contrast/saturation effect." ],
+									"annotation" : "Multi-tap texture-based video delay implemented in Javascript.",
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 15.0, 480.0, 147.0, 22.0 ],
+									"style" : "",
+									"text" : "gl_texset_fb.model texset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "@name", "gl_texset.model", "@description", "Multi-tap texture-based video delay implemented in Javascript." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -280,10 +371,51 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 1 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
+									"midpoints" : [ 56.5, 513.0, 144.5, 513.0 ],
+									"source" : [ "obj-13", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 24.5, 513.0, 24.5, 513.0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 88.5, 513.0, 264.5, 513.0 ],
+									"source" : [ "obj-13", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 120.5, 513.0, 399.5, 513.0 ],
+									"source" : [ "obj-13", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 84.5, 348.0, 24.5, 348.0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -292,25 +424,17 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
+									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
+									"midpoints" : [ 82.5, 167.0, 24.5, 167.0 ],
+									"source" : [ "obj-5", 1 ]
 								}
 
 							}
@@ -320,6 +444,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 24.5, 378.0, 24.5, 378.0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -353,13 +487,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 547.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -421,8 +555,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_absdiff_bgsub.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_absdiff_bgsub",
+				"name" : "gl_texset_fb.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset_fb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -433,8 +567,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_absdiff_bgsub.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_absdiff_bgsub",
+				"name" : "sd.phoenix.texbank.js",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset_fb",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_texset_fb.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset_fb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -461,6 +601,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.in.mxo",
 				"type" : "iLaX"
 			}
@@ -469,7 +613,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -482,10 +630,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{

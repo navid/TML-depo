@@ -3,18 +3,19 @@
 - description "something about this preset"
 # ###########################################
 # 
-context default
+context texset_help
 active 1
 adapt 1
 antialias 0
 automatic 1
 data/active 1
 data/bypass 0
+delay1 0.250000
+delay2 0.500000
+delay3 0.750000
+delay4 1.000000
 dim 720.000000 480.000000
-post_slide_down 0.000000
-post_slide_up 0.000000
-pre_slide_down 3.000000
-pre_slide_up 0.000000
+quantity 100
 rect 0.000000 0.000000 1.000000 1.000000
 texrect 0.000000 0.000000 1.000000 1.000000
 # 
