@@ -79,7 +79,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 600.0, 990.0, 75.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"presentation_rect" : [ 17.0, 646.0, 0.0, 0.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 2,
 					"style" : ""
@@ -181,7 +180,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 450.0, 990.0, 75.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"presentation_rect" : [ 116.0, 305.0, 0.0, 0.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 2,
 					"style" : ""
@@ -198,7 +196,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 30.0, 72.0, 23.0 ],
-					"presentation_rect" : [ 176.0, 88.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "1., 0. 3000"
 				}
@@ -397,7 +394,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 234.5, 150.0, 120.0, 150.0, 120.0, 435.0, 24.5, 435.0 ],
+					"midpoints" : [ 234.5, 105.0, 24.5, 105.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

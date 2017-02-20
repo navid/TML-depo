@@ -1,0 +1,56 @@
+
+- preset "wavy"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 0
+automatic 1
+colourGain 1.000000
+data/active 1
+data/bypass 0
+densityDissipation 0.970000
+densityTimeStep 0.125000
+densityblend 0.950000
+dim 720.000000 480.000000
+flowGain 100.000000
+flowLambda 0.100000
+flowOffset 1.000000 20000.000000
+flowScale 1.000000 10.000000
+gridRes 500.000000 500.000000
+mix 1.000000
+rect 0.000000 0.000000 1.000000 1.000000
+reposAmt 10.000000 10.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 0
+automatic 1
+colourGain 1.000000
+data/active 1
+data/bypass 0
+densityDissipation 0.970000
+densityTimeStep 0.125000
+densityblend 0.950000
+dim 720.000000 480.000000
+flowGain 100.000000
+flowLambda 0.100000
+flowOffset 1.000000 1.000000
+flowScale 10.000000 10.000000
+gridRes 320.000000 240.000000
+mix 1.000000
+rect 0.000000 0.000000 1.000000 1.000000
+reposAmt 3.000000 3.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
