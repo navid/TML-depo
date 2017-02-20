@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 180.0, 90.0, 21.0 ],
+					"style" : "",
+					"text" : "prepend drawto"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 75.0, 150.0, 94.0, 21.0 ],
+					"style" : "",
+					"text" : "j.receive context"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 150.0, 145.5, 24.0, 21.0 ],
+					"patching_rect" : [ 225.0, 145.5, 24.0, 21.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -57,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 60.0, 135.0, 69.0 ],
+					"patching_rect" : [ 225.0, 60.0, 138.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter capture @description \"Receives a bang to update the background subtraction texture.\""
 				}
@@ -67,11 +93,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 315.0, 60.0, 30.0, 30.0 ],
+					"patching_rect" : [ 390.0, 60.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 105.0, 37.0, 21.0 ],
+					"patching_rect" : [ 390.0, 105.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 2"
 				}
@@ -96,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 180.0, 180.0, 21.0 ],
+					"patching_rect" : [ 225.0, 180.0, 180.0, 21.0 ],
 					"style" : "",
 					"text" : "zl reg"
 				}
@@ -109,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 150.0, 225.0, 111.0, 21.0 ],
+					"patching_rect" : [ 225.0, 225.0, 111.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture default"
 				}
@@ -122,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 255.0, 156.0, 21.0 ],
+					"patching_rect" : [ 15.0, 270.0, 156.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file op.absdiff.jxs"
 				}
@@ -156,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 285.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 300.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -188,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 60.0, 136.0, 45.0 ],
+					"patching_rect" : [ 450.0, 60.0, 136.0, 45.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Background subtraction using absdiff shader.\"",
 					"varname" : "jmod.hub"
@@ -199,10 +226,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 120.0, 25.0, 25.0 ],
+					"patching_rect" : [ 450.0, 120.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -211,6 +239,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -224,10 +253,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 330.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 345.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -239,6 +269,28 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 84.5, 219.0, 234.5, 219.0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 84.5, 255.0, 24.5, 255.0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -256,6 +308,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 234.5, 257.5, 161.5, 257.5 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -320,6 +373,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
