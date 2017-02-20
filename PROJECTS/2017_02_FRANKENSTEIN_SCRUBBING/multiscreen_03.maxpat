@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 382.0, 79.0, 1380.0, 781.0 ],
+		"rect" : [ 0.0, 84.0, 1380.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -302,9 +302,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 1425.0, 600.0, 135.0, 22.0 ],
+					"patching_rect" : [ 1425.0, 600.0, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 1"
+					"text" : "counter 1 0 3360"
 				}
 
 			}
@@ -445,9 +445,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 840.0, 600.0, 135.0, 22.0 ],
+					"patching_rect" : [ 840.0, 600.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 1"
+					"text" : "counter 0 4320"
 				}
 
 			}
@@ -627,9 +627,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 285.0, 600.0, 135.0, 22.0 ],
+					"patching_rect" : [ 285.0, 600.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 1"
+					"text" : "counter 0 5472"
 				}
 
 			}
@@ -1557,7 +1557,7 @@
 					"destination" : [ "obj-435", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 369.5, 708.0, 511.0, 708.0, 511.0, 543.666665, 381.5, 543.666665 ],
+					"midpoints" : [ 369.5, 708.0, 511.0, 708.0, 511.0, 543.666665, 348.5, 543.666665 ],
 					"order" : 0,
 					"source" : [ "obj-414", 0 ]
 				}
@@ -1788,7 +1788,7 @@
 					"destination" : [ "obj-458", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 924.5, 708.0, 1066.0, 708.0, 1066.0, 543.666665, 936.5, 543.666665 ],
+					"midpoints" : [ 924.5, 708.0, 1066.0, 708.0, 1066.0, 543.666665, 903.5, 543.666665 ],
 					"order" : 0,
 					"source" : [ "obj-462", 0 ]
 				}
@@ -1910,7 +1910,7 @@
 					"destination" : [ "obj-469", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1509.5, 707.999969, 1651.0, 707.999969, 1651.0, 543.666635, 1521.5, 543.666635 ],
+					"midpoints" : [ 1509.5, 707.999969, 1651.0, 707.999969, 1651.0, 543.666635, 1496.0, 543.666635 ],
 					"order" : 0,
 					"source" : [ "obj-473", 0 ]
 				}

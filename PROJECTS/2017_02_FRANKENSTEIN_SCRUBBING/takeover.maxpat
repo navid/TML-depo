@@ -38,6 +38,19 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 360.0, 345.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -147,9 +160,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 480.0, 43.0, 22.0 ],
+					"patching_rect" : [ 15.0, 480.0, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "line 0."
+					"text" : "line 0"
 				}
 
 			}
