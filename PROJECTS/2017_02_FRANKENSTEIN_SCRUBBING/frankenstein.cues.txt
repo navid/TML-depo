@@ -5,9 +5,9 @@
 # 
 /gl_motion/gl_cf_gaussian_2p/data/active 1
 /gl_motion/gl_cf_gaussian_2p/data/bypass 0
-/gl_motion/gl_cf_gaussian_2p/width/x 2.000000
-/gl_motion/gl_cf_gaussian_2p/width/y 2.000000
-/gl_motion/gl_cf_gaussian_2p/context default
+/gl_motion/gl_cf_gaussian_2p/width/x 1.000000
+/gl_motion/gl_cf_gaussian_2p/width/y 1.000000
+/gl_motion/gl_cf_gaussian_2p/context camera
 /gl_motion/gl_cf_gaussian_2p/active 1
 /gl_motion/gl_cf_gaussian_2p/adapt 1
 /gl_motion/gl_cf_gaussian_2p/antialias 0
@@ -18,7 +18,7 @@
 # 
 /gl_motion/gl_pix_roberts/data/active 1
 /gl_motion/gl_pix_roberts/data/bypass 0
-/gl_motion/gl_pix_roberts/context default
+/gl_motion/gl_pix_roberts/context camera
 /gl_motion/gl_pix_roberts/active 1
 /gl_motion/gl_pix_roberts/adapt 1
 /gl_motion/gl_pix_roberts/antialias 0
@@ -26,11 +26,11 @@
 /gl_motion/gl_pix_roberts/dim 720.000000 480.000000
 /gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_pix_roberts/weight 0.600000
+/gl_motion/gl_pix_roberts/weight 0.100000
 # 
 /gl_motion/gl_pix_sobel/data/active 1
 /gl_motion/gl_pix_sobel/data/bypass 0
-/gl_motion/gl_pix_sobel/context default
+/gl_motion/gl_pix_sobel/context camera
 /gl_motion/gl_pix_sobel/active 1
 /gl_motion/gl_pix_sobel/adapt 1
 /gl_motion/gl_pix_sobel/antialias 0
@@ -38,11 +38,11 @@
 /gl_motion/gl_pix_sobel/dim 720.000000 480.000000
 /gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_pix_sobel/weight 0.600000
+/gl_motion/gl_pix_sobel/weight 0.100000
 # 
 /gl_motion/gl_pix_thresh/data/active 1
 /gl_motion/gl_pix_thresh/data/bypass 0
-/gl_motion/gl_pix_thresh/context default
+/gl_motion/gl_pix_thresh/context camera
 /gl_motion/gl_pix_thresh/active 1
 /gl_motion/gl_pix_thresh/adapt 1
 /gl_motion/gl_pix_thresh/antialias 0
@@ -55,24 +55,24 @@
 # 
 /gl_motion/gl_tp_slide/data/active 1
 /gl_motion/gl_tp_slide/data/bypass 0
-/gl_motion/gl_tp_slide/context default
+/gl_motion/gl_tp_slide/context camera
 /gl_motion/gl_tp_slide/active 1
 /gl_motion/gl_tp_slide/adapt 1
 /gl_motion/gl_tp_slide/antialias 0
 /gl_motion/gl_tp_slide/automatic 1
 /gl_motion/gl_tp_slide/dim 720.000000 480.000000
 /gl_motion/gl_tp_slide/rect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_tp_slide/slide_down 30.000000
-/gl_motion/gl_tp_slide/slide_up 100.000000
+/gl_motion/gl_tp_slide/slide_down 10.000000
+/gl_motion/gl_tp_slide/slide_up 10.000000
 /gl_motion/gl_tp_slide/texrect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/data/active 1
 /gl_motion/data/bypass 0
-/gl_motion/context default
+/gl_motion/context camera
 /gl_motion/active 1
 /gl_motion/adapt 1
 /gl_motion/antialias 0
 /gl_motion/automatic 1
-/gl_motion/blur 2.000000
+/gl_motion/blur 0.600000
 /gl_motion/colour 0
 /gl_motion/denoise 1
 /gl_motion/dim 720.000000 480.000000
@@ -80,85 +80,68 @@
 /gl_motion/invert 0
 /gl_motion/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/slide 1
-/gl_motion/slide_down 30.000000
-/gl_motion/slide_up 100.000000
+/gl_motion/slide_down 0.000000
+/gl_motion/slide_up 0.000000
 /gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/threshold 0.100000
-/gl_motion/weight 0.600000
+/gl_motion/weight 0.100000
+# 
+/scale/scale/input/max 100.000000
+/scale/scale/input/min 0.000000
+/scale/scale/max 1.000000
+/scale/scale/min 0.000000
+/scale/scale/mode 3
+/scale/scale/window 500
+/scale/function/symmetry none
+/scale/function/parameter2 1.040000
+/scale/function/parameter1 21.000000
+/scale/data/active 1
+/scale/data/bypass 0
+/scale/filter/mode 1
+/scale/filter/samples 10
+/scale/pre-slide/down 3
+/scale/pre-slide/up 3
+/scale/ramp/grain 1
+/scale/ramp/time 0
+/scale/schmitt/debounce 0
+/scale/schmitt/lower 0.700000
+/scale/schmitt/on 1
+/scale/schmitt/ramp 0
+/scale/schmitt/upper 0.300000
+/scale/slide/down 1
+/scale/slide/up 1
+/scale/clip 1
+/scale/diffMode 0
+/scale/offset 0.000000
+/scale/visualize 1
+# 
+/bgsub/data/active 1
+/bgsub/data/bypass 0
+/bgsub/context camera
+/bgsub/active 1
+/bgsub/adapt 1
+/bgsub/antialias 0
+/bgsub/automatic 1
+/bgsub/capture 0.000000
+/bgsub/dim 720.000000 480.000000
+/bgsub/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub/texrect 0.000000 0.000000 1.000000 1.000000
 # 
 /gl_rota/data/active 1
 /gl_rota/data/bypass 0
-/gl_rota/context default
+/gl_rota/context camera
 /gl_rota/active 1
 /gl_rota/adapt 1
 /gl_rota/anchor 0.500000 0.500000
 /gl_rota/antialias 0
 /gl_rota/automatic 1
-/gl_rota/boundmode wrap
+/gl_rota/boundmode clear
 /gl_rota/dim 720.000000 480.000000
 /gl_rota/offset 0.000000 0.000000
 /gl_rota/rect 0.000000 0.000000 1.000000 1.000000
 /gl_rota/texrect 0.000000 0.000000 1.000000 1.000000
 /gl_rota/theta 0.000000
-/gl_rota/zoom -1.000000 1.000000
-# 
-/gl_rota_1/context default
-/gl_rota_1/active 1
-/gl_rota_1/automatic 1
-/gl_rota_1/antialias 0
-/gl_rota_1/adapt 1
-/gl_rota_1/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_rota_1/rect 0.000000 0.000000 1.000000 1.000000
-/gl_rota_1/dim 720.000000 480.000000
-/gl_rota_1/data/active 1
-/gl_rota_1/data/bypass 0
-/gl_rota_1/boundmode alpha
-/gl_rota_1/theta 270.000000
-/gl_rota_1/anchor 0.500000 0.500000
-/gl_rota_1/offset 0.000000 0.000000
-/gl_rota_1/zoom 1.000000 1.000000
-# 
-/scale/visualize 1
-/scale/clip 1
-/scale/data/active 1
-/scale/data/bypass 0
-/scale/schmitt/on 0
-/scale/schmitt/ramp 0
-/scale/schmitt/debounce 0
-/scale/schmitt/lower 0.700000
-/scale/schmitt/upper 0.300000
-/scale/diffMode 0
-/scale/ramp/grain 1
-/scale/ramp/time 0
-/scale/pre-slide/down 3
-/scale/pre-slide/up 3
-/scale/offset 0.000000
-/scale/slide/down 9
-/scale/slide/up 7
-/scale/scale/max 0.580000
-/scale/scale/min 0.500000
-/scale/scale/input/max 1.000000
-/scale/scale/input/min 0.000000
-/scale/scale/window 500
-/scale/scale/mode 3
-/scale/filter/mode 1
-/scale/filter/samples 0
-/scale/function linear
-/scale/function/symmetry none
-/scale/function/parameter2 1.040000
-/scale/function/parameter1 21.000000
-# 
-/bgsub/capture 0.000000
-/bgsub/context default
-/bgsub/active 1
-/bgsub/automatic 1
-/bgsub/antialias 0
-/bgsub/adapt 1
-/bgsub/texrect 0.000000 0.000000 1.000000 1.000000
-/bgsub/rect 0.000000 0.000000 1.000000 1.000000
-/bgsub/dim 720.000000 480.000000
-/bgsub/data/active 1
-/bgsub/data/bypass 0
+/gl_rota/zoom 1.000000 1.000000
 # 
 # ###########################################
 
