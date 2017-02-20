@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 180.0, 90.0, 21.0 ],
+					"patching_rect" : [ 105.0, 180.0, 90.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend drawto"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 75.0, 150.0, 94.0, 21.0 ],
+					"patching_rect" : [ 105.0, 150.0, 94.0, 21.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -97,7 +97,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 60.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -136,9 +136,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 225.0, 225.0, 111.0, 21.0 ],
+					"patching_rect" : [ 225.0, 225.0, 73.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture default"
+					"text" : "jit.gl.texture"
 				}
 
 			}
@@ -166,7 +166,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 60.0, 15.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -243,7 +243,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -265,6 +265,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 69.5, 255.0, 24.5, 255.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -277,19 +287,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 219.0, 234.5, 219.0 ],
-					"order" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 84.5, 255.0, 24.5, 255.0 ],
-					"order" : 1,
+					"midpoints" : [ 114.5, 219.0, 234.5, 219.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 

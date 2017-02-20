@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,32 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 210.0, 90.0, 21.0 ],
-					"style" : "",
-					"text" : "prepend drawto"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 180.0, 94.0, 21.0 ],
-					"style" : "",
-					"text" : "j.receive context"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -71,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 135.0, 147.0, 21.0 ],
+					"patching_rect" : [ 285.0, 90.0, 147.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param slide_down"
 				}
@@ -88,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 60.0, 150.0, 57.0 ],
+					"patching_rect" : [ 285.0, 15.0, 150.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter slide_down @type decimal @range 0. 200. @description slide down @clipmode both",
 					"varname" : "tolerance[3]"
@@ -102,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 165.0, 255.0, 57.0, 21.0 ],
+					"patching_rect" : [ 165.0, 210.0, 57.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab"
 				}
@@ -117,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 300.0, 147.0, 22.0 ],
+					"patching_rect" : [ 15.0, 255.0, 147.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file tp.slide.jxs"
 				}
@@ -132,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 135.0, 133.0, 21.0 ],
+					"patching_rect" : [ 105.0, 90.0, 133.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param slide_up"
 				}
@@ -149,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 60.0, 135.0, 57.0 ],
+					"patching_rect" : [ 105.0, 15.0, 135.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter slide_up @type decimal @range 0. 200. @description slide up @clipmode both",
 					"varname" : "tolerance[1]"
@@ -167,7 +141,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 45.0, 150.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -184,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 345.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 300.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -199,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 120.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 75.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -216,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 255.0, 198.0, 33.0 ],
+					"patching_rect" : [ 255.0, 210.0, 198.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Shader-based temporal interpolation.\"",
 					"varname" : "jmod.hub"
@@ -227,10 +201,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 300.0, 25.0, 25.0 ],
+					"patching_rect" : [ 255.0, 255.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -239,11 +214,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 75.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 30.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -252,10 +228,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 390.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 345.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -263,10 +240,23 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
+					"midpoints" : [ 54.5, 240.0, 24.5, 240.0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 54.5, 195.0, 174.5, 195.0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -284,7 +274,8 @@
 					"destination" : [ "obj-124", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 333.0, 241.0, 333.0, 241.0, 245.0, 174.5, 245.0 ],
+					"midpoints" : [ 24.5, 288.0, 241.0, 288.0, 241.0, 200.0, 174.5, 200.0 ],
+					"order" : 0,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -294,6 +285,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -303,7 +295,7 @@
 					"destination" : [ "obj-118", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 174.5, 287.5, 152.5, 287.5 ],
+					"midpoints" : [ 174.5, 242.5, 152.5, 242.5 ],
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -313,7 +305,7 @@
 					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 114.5, 165.5, 24.5, 165.5 ],
+					"midpoints" : [ 114.5, 120.5, 24.5, 120.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -323,27 +315,7 @@
 					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 265.0, 24.5, 265.0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-124", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 54.5, 242.5, 174.5, 242.5 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 294.5, 166.5, 24.5, 166.5 ],
+					"midpoints" : [ 294.5, 121.5, 24.5, 121.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
