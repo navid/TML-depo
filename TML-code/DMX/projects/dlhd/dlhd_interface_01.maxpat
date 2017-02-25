@@ -38,6 +38,65 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-221",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 225.0, 255.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 227.0, 251.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-220",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 165.0, 255.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 11,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 165.0, 210.0, 96.100006, 23.0 ],
+					"style" : "",
+					"text" : "mira.mt.fingers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 0.2 ],
+					"id" : "obj-24",
+					"maxclass" : "mira.multitouch",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 165.0, 45.0, 200.0, 150.0 ],
+					"pinch_enabled" : 0,
+					"rotate_enabled" : 0,
+					"swipe_enabled" : 0,
+					"swipe_touch_count" : 0,
+					"tap_enabled" : 0,
+					"tap_tap_count" : 0,
+					"tap_touch_count" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-296",
@@ -6263,6 +6322,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-249", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6549,6 +6617,24 @@
 					"midpoints" : [ 909.5, 257.5, 1089.0, 257.5 ],
 					"order" : 0,
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-220", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 1 ]
 				}
 
 			}
@@ -6959,8 +7045,8 @@
 			"obj-147" : [ "slider[24]", "slider[24]", 0 ],
 			"obj-36" : [ "slider[3]", "slider[3]", 0 ],
 			"obj-121" : [ "number[15]", "number[15]", 0 ],
-			"obj-135" : [ "slider[17]", "slider[17]", 0 ],
 			"obj-176" : [ "number[28]", "number[28]", 0 ],
+			"obj-135" : [ "slider[17]", "slider[17]", 0 ],
 			"obj-199" : [ "number[42]", "number[42]", 0 ],
 			"obj-260" : [ "number[48]", "number[48]", 0 ],
 			"obj-65" : [ "number[7]", "number[7]", 0 ],
@@ -6969,84 +7055,84 @@
 			"obj-151" : [ "slider[23]", "slider[23]", 0 ],
 			"obj-22" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-76" : [ "number[40]", "number[40]", 0 ],
-			"obj-101" : [ "number[14]", "number[14]", 0 ],
 			"obj-210" : [ "slider[34]", "slider[34]", 0 ],
 			"obj-272" : [ "number[45]", "number[45]", 0 ],
+			"obj-101" : [ "number[14]", "number[14]", 0 ],
 			"obj-107" : [ "slider[16]", "slider[16]", 0 ],
 			"obj-180" : [ "number[27]", "number[27]", 0 ],
 			"obj-29" : [ "number[6]", "number[6]", 0 ],
 			"obj-6" : [ "number[2]", "number[2]", 0 ],
+			"obj-182" : [ "slider[32]", "slider[32]", 0 ],
 			"obj-95" : [ "slider[9]", "slider[9]", 0 ],
 			"obj-133" : [ "number[20]", "number[20]", 0 ],
-			"obj-182" : [ "slider[32]", "slider[32]", 0 ],
 			"obj-139" : [ "slider[22]", "slider[22]", 0 ],
 			"obj-61" : [ "number[38]", "number[38]", 0 ],
-			"obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-252" : [ "number[50]", "number[50]", 0 ],
-			"obj-81" : [ "number[8]", "number[8]", 0 ],
+			"obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-105" : [ "number[13]", "number[13]", 0 ],
+			"obj-81" : [ "number[8]", "number[8]", 0 ],
 			"obj-214" : [ "slider[33]", "slider[33]", 0 ],
-			"obj-111" : [ "slider[15]", "slider[15]", 0 ],
 			"obj-149" : [ "number[26]", "number[26]", 0 ],
+			"obj-111" : [ "slider[15]", "slider[15]", 0 ],
 			"obj-166" : [ "slider[28]", "slider[28]", 0 ],
-			"obj-39" : [ "number[5]", "number[5]", 0 ],
 			"obj-75" : [ "slider[37]", "slider[37]", 0 ],
+			"obj-39" : [ "number[5]", "number[5]", 0 ],
 			"obj-11" : [ "number[37]", "number[37]", 0 ],
 			"obj-50" : [ "toggle", "toggle", 0 ],
-			"obj-87" : [ "slider[8]", "slider[8]", 0 ],
-			"obj-137" : [ "number[19]", "number[19]", 0 ],
 			"obj-186" : [ "slider[31]", "slider[31]", 0 ],
+			"obj-137" : [ "number[19]", "number[19]", 0 ],
+			"obj-87" : [ "slider[8]", "slider[8]", 0 ],
 			"obj-143" : [ "slider[21]", "slider[21]", 0 ],
 			"obj-264" : [ "number[47]", "number[47]", 0 ],
 			"obj-14" : [ "number", "number", 0 ],
 			"obj-93" : [ "number[12]", "number[12]", 0 ],
-			"obj-115" : [ "slider[14]", "slider[14]", 0 ],
-			"obj-153" : [ "number[25]", "number[25]", 0 ],
 			"obj-60" : [ "slider[35]", "slider[35]", 0 ],
+			"obj-153" : [ "number[25]", "number[25]", 0 ],
+			"obj-115" : [ "slider[14]", "slider[14]", 0 ],
 			"obj-170" : [ "slider[27]", "slider[27]", 0 ],
 			"obj-53" : [ "slider[40]", "slider[40]", 0 ],
 			"obj-25" : [ "number[4]", "number[4]", 0 ],
-			"obj-212" : [ "number[36]", "number[36]", 0 ],
 			"obj-276" : [ "number[44]", "number[44]", 0 ],
-			"obj-83" : [ "slider[7]", "slider[7]", 0 ],
-			"obj-109" : [ "number[18]", "number[18]", 0 ],
+			"obj-212" : [ "number[36]", "number[36]", 0 ],
 			"obj-158" : [ "slider[30]", "slider[30]", 0 ],
+			"obj-109" : [ "number[18]", "number[18]", 0 ],
+			"obj-83" : [ "slider[7]", "slider[7]", 0 ],
 			"obj-123" : [ "slider[20]", "slider[20]", 0 ],
 			"obj-164" : [ "number[31]", "number[31]", 0 ],
 			"obj-155" : [ "number[41]", "number[41]", 0 ],
 			"obj-97" : [ "number[11]", "number[11]", 0 ],
 			"obj-184" : [ "number[34]", "number[34]", 0 ],
-			"obj-119" : [ "slider[13]", "slider[13]", 0 ],
 			"obj-141" : [ "number[24]", "number[24]", 0 ],
+			"obj-119" : [ "slider[13]", "slider[13]", 0 ],
 			"obj-174" : [ "slider[26]", "slider[26]", 0 ],
 			"obj-196" : [ "slider[39]", "slider[39]", 0 ],
-			"obj-17" : [ "number[3]", "number[3]", 0 ],
 			"obj-256" : [ "number[49]", "number[49]", 0 ],
+			"obj-17" : [ "number[3]", "number[3]", 0 ],
 			"obj-63" : [ "slider[5]", "slider[5]", 0 ],
 			"obj-216" : [ "number[35]", "number[35]", 0 ],
-			"obj-79" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-113" : [ "number[17]", "number[17]", 0 ],
 			"obj-162" : [ "slider[29]", "slider[29]", 0 ],
+			"obj-79" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-73" : [ "number[39]", "number[39]", 0 ],
-			"obj-127" : [ "slider[19]", "slider[19]", 0 ],
 			"obj-168" : [ "number[30]", "number[30]", 0 ],
+			"obj-127" : [ "slider[19]", "slider[19]", 0 ],
 			"obj-89" : [ "number[10]", "number[10]", 0 ],
 			"obj-188" : [ "number[33]", "number[33]", 0 ],
-			"obj-16" : [ "number[1]", "number[1]", 0 ],
-			"obj-99" : [ "slider[12]", "slider[12]", 0 ],
-			"obj-145" : [ "number[23]", "number[23]", 0 ],
 			"obj-268" : [ "number[46]", "number[46]", 0 ],
+			"obj-16" : [ "number[1]", "number[1]", 0 ],
+			"obj-145" : [ "number[23]", "number[23]", 0 ],
+			"obj-99" : [ "slider[12]", "slider[12]", 0 ],
 			"obj-178" : [ "slider[25]", "slider[25]", 0 ],
 			"obj-78" : [ "slider[38]", "slider[38]", 0 ],
 			"obj-27" : [ "slider[4]", "slider[4]", 0 ],
 			"obj-117" : [ "number[16]", "number[16]", 0 ],
-			"obj-131" : [ "slider[18]", "slider[18]", 0 ],
 			"obj-172" : [ "number[29]", "number[29]", 0 ],
 			"obj-192" : [ "number[43]", "number[43]", 0 ],
+			"obj-131" : [ "slider[18]", "slider[18]", 0 ],
+			"obj-70" : [ "slider[36]", "slider[36]", 0 ],
+			"obj-160" : [ "number[32]", "number[32]", 0 ],
 			"obj-10" : [ "slider", "slider", 0 ],
 			"obj-85" : [ "number[9]", "number[9]", 0 ],
-			"obj-160" : [ "number[32]", "number[32]", 0 ],
-			"obj-70" : [ "slider[36]", "slider[36]", 0 ],
 			"obj-248" : [ "number[51]", "number[51]", 0 ],
 			"obj-103" : [ "slider[11]", "slider[11]", 0 ],
 			"obj-125" : [ "number[22]", "number[22]", 0 ]
@@ -7059,7 +7145,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mira.mt.fingers.maxpat",
+				"bootpath" : "C74:/packages/mira/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mira.mt.touch.maxpat",
+				"bootpath" : "C74:/packages/mira/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "imp.artnet.controller.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mira.multitouch.mxo",
 				"type" : "iLaX"
 			}
  ],
