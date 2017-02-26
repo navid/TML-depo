@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 360.0, 177.0, 1240.0, 633.0 ],
+		"rect" : [ 166.0, 177.0, 914.0, 633.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,66 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-220",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 270.0, 180.0, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 75.0, 15.0, 75.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "slider[42]",
+							"parameter_shortname" : "slider[41]",
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"size" : 256.0,
+					"style" : "",
+					"varname" : "slider[42]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 330.0, 180.0, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.0, 165.0, 75.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "slider[41]",
+							"parameter_shortname" : "slider[41]",
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"size" : 256.0,
+					"style" : "",
+					"varname" : "slider[41]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-228",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 210.0, 99.0, 22.0 ],
-					"presentation_rect" : [ 281.0, 220.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "scale 0. 1. 0 255"
 				}
@@ -101,6 +154,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 75.0, 45.0, 45.0 ],
 					"pinch_enabled" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 60.0, 75.0, 75.0, 75.0 ],
 					"rotate_enabled" : 0,
 					"swipe_enabled" : 0,
 					"swipe_touch_count" : 0,
@@ -5348,8 +5403,6 @@
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 255.0, 100.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 75.0, 120.0, 120.0 ],
 					"rightvalue" : 255,
 					"style" : "",
 					"topvalue" : 255
@@ -6297,6 +6350,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 279.5, 375.0, 24.5, 375.0 ],
+					"source" : [ "obj-220", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-227", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6767,6 +6830,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 339.5, 375.0, 99.5, 375.0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-196", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7089,18 +7162,19 @@
 			"obj-147" : [ "slider[24]", "slider[24]", 0 ],
 			"obj-36" : [ "slider[3]", "slider[3]", 0 ],
 			"obj-121" : [ "number[15]", "number[15]", 0 ],
-			"obj-176" : [ "number[28]", "number[28]", 0 ],
-			"obj-135" : [ "slider[17]", "slider[17]", 0 ],
 			"obj-199" : [ "number[42]", "number[42]", 0 ],
+			"obj-135" : [ "slider[17]", "slider[17]", 0 ],
+			"obj-176" : [ "number[28]", "number[28]", 0 ],
 			"obj-260" : [ "number[48]", "number[48]", 0 ],
 			"obj-65" : [ "number[7]", "number[7]", 0 ],
+			"obj-51" : [ "slider[41]", "slider[41]", 0 ],
 			"obj-91" : [ "slider[10]", "slider[10]", 0 ],
 			"obj-129" : [ "number[21]", "number[21]", 0 ],
 			"obj-151" : [ "slider[23]", "slider[23]", 0 ],
-			"obj-22" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-76" : [ "number[40]", "number[40]", 0 ],
-			"obj-210" : [ "slider[34]", "slider[34]", 0 ],
+			"obj-22" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-272" : [ "number[45]", "number[45]", 0 ],
+			"obj-210" : [ "slider[34]", "slider[34]", 0 ],
 			"obj-101" : [ "number[14]", "number[14]", 0 ],
 			"obj-107" : [ "slider[16]", "slider[16]", 0 ],
 			"obj-180" : [ "number[27]", "number[27]", 0 ],
@@ -7109,75 +7183,76 @@
 			"obj-182" : [ "slider[32]", "slider[32]", 0 ],
 			"obj-95" : [ "slider[9]", "slider[9]", 0 ],
 			"obj-133" : [ "number[20]", "number[20]", 0 ],
-			"obj-139" : [ "slider[22]", "slider[22]", 0 ],
 			"obj-61" : [ "number[38]", "number[38]", 0 ],
+			"obj-139" : [ "slider[22]", "slider[22]", 0 ],
 			"obj-252" : [ "number[50]", "number[50]", 0 ],
 			"obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-105" : [ "number[13]", "number[13]", 0 ],
-			"obj-81" : [ "number[8]", "number[8]", 0 ],
 			"obj-214" : [ "slider[33]", "slider[33]", 0 ],
-			"obj-149" : [ "number[26]", "number[26]", 0 ],
+			"obj-81" : [ "number[8]", "number[8]", 0 ],
 			"obj-111" : [ "slider[15]", "slider[15]", 0 ],
+			"obj-149" : [ "number[26]", "number[26]", 0 ],
 			"obj-166" : [ "slider[28]", "slider[28]", 0 ],
-			"obj-75" : [ "slider[37]", "slider[37]", 0 ],
 			"obj-39" : [ "number[5]", "number[5]", 0 ],
+			"obj-75" : [ "slider[37]", "slider[37]", 0 ],
 			"obj-11" : [ "number[37]", "number[37]", 0 ],
 			"obj-50" : [ "toggle", "toggle", 0 ],
 			"obj-186" : [ "slider[31]", "slider[31]", 0 ],
 			"obj-137" : [ "number[19]", "number[19]", 0 ],
 			"obj-87" : [ "slider[8]", "slider[8]", 0 ],
-			"obj-143" : [ "slider[21]", "slider[21]", 0 ],
 			"obj-264" : [ "number[47]", "number[47]", 0 ],
+			"obj-143" : [ "slider[21]", "slider[21]", 0 ],
 			"obj-14" : [ "number", "number", 0 ],
 			"obj-93" : [ "number[12]", "number[12]", 0 ],
+			"obj-220" : [ "slider[42]", "slider[41]", 0 ],
+			"obj-115" : [ "slider[14]", "slider[14]", 0 ],
 			"obj-60" : [ "slider[35]", "slider[35]", 0 ],
 			"obj-153" : [ "number[25]", "number[25]", 0 ],
-			"obj-115" : [ "slider[14]", "slider[14]", 0 ],
 			"obj-170" : [ "slider[27]", "slider[27]", 0 ],
 			"obj-53" : [ "slider[40]", "slider[40]", 0 ],
 			"obj-25" : [ "number[4]", "number[4]", 0 ],
 			"obj-276" : [ "number[44]", "number[44]", 0 ],
 			"obj-212" : [ "number[36]", "number[36]", 0 ],
-			"obj-158" : [ "slider[30]", "slider[30]", 0 ],
 			"obj-109" : [ "number[18]", "number[18]", 0 ],
 			"obj-83" : [ "slider[7]", "slider[7]", 0 ],
-			"obj-123" : [ "slider[20]", "slider[20]", 0 ],
+			"obj-158" : [ "slider[30]", "slider[30]", 0 ],
 			"obj-164" : [ "number[31]", "number[31]", 0 ],
+			"obj-123" : [ "slider[20]", "slider[20]", 0 ],
 			"obj-155" : [ "number[41]", "number[41]", 0 ],
-			"obj-97" : [ "number[11]", "number[11]", 0 ],
 			"obj-184" : [ "number[34]", "number[34]", 0 ],
-			"obj-141" : [ "number[24]", "number[24]", 0 ],
+			"obj-97" : [ "number[11]", "number[11]", 0 ],
 			"obj-119" : [ "slider[13]", "slider[13]", 0 ],
-			"obj-174" : [ "slider[26]", "slider[26]", 0 ],
+			"obj-141" : [ "number[24]", "number[24]", 0 ],
 			"obj-196" : [ "slider[39]", "slider[39]", 0 ],
-			"obj-256" : [ "number[49]", "number[49]", 0 ],
+			"obj-174" : [ "slider[26]", "slider[26]", 0 ],
 			"obj-17" : [ "number[3]", "number[3]", 0 ],
+			"obj-256" : [ "number[49]", "number[49]", 0 ],
 			"obj-63" : [ "slider[5]", "slider[5]", 0 ],
 			"obj-216" : [ "number[35]", "number[35]", 0 ],
-			"obj-113" : [ "number[17]", "number[17]", 0 ],
 			"obj-162" : [ "slider[29]", "slider[29]", 0 ],
+			"obj-113" : [ "number[17]", "number[17]", 0 ],
 			"obj-79" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-73" : [ "number[39]", "number[39]", 0 ],
 			"obj-168" : [ "number[30]", "number[30]", 0 ],
 			"obj-127" : [ "slider[19]", "slider[19]", 0 ],
-			"obj-89" : [ "number[10]", "number[10]", 0 ],
 			"obj-188" : [ "number[33]", "number[33]", 0 ],
-			"obj-268" : [ "number[46]", "number[46]", 0 ],
+			"obj-89" : [ "number[10]", "number[10]", 0 ],
+			"obj-99" : [ "slider[12]", "slider[12]", 0 ],
 			"obj-16" : [ "number[1]", "number[1]", 0 ],
 			"obj-145" : [ "number[23]", "number[23]", 0 ],
-			"obj-99" : [ "slider[12]", "slider[12]", 0 ],
-			"obj-178" : [ "slider[25]", "slider[25]", 0 ],
+			"obj-268" : [ "number[46]", "number[46]", 0 ],
 			"obj-78" : [ "slider[38]", "slider[38]", 0 ],
+			"obj-178" : [ "slider[25]", "slider[25]", 0 ],
 			"obj-27" : [ "slider[4]", "slider[4]", 0 ],
 			"obj-117" : [ "number[16]", "number[16]", 0 ],
+			"obj-131" : [ "slider[18]", "slider[18]", 0 ],
 			"obj-172" : [ "number[29]", "number[29]", 0 ],
 			"obj-192" : [ "number[43]", "number[43]", 0 ],
-			"obj-131" : [ "slider[18]", "slider[18]", 0 ],
+			"obj-248" : [ "number[51]", "number[51]", 0 ],
 			"obj-70" : [ "slider[36]", "slider[36]", 0 ],
+			"obj-85" : [ "number[9]", "number[9]", 0 ],
 			"obj-160" : [ "number[32]", "number[32]", 0 ],
 			"obj-10" : [ "slider", "slider", 0 ],
-			"obj-85" : [ "number[9]", "number[9]", 0 ],
-			"obj-248" : [ "number[51]", "number[51]", 0 ],
 			"obj-103" : [ "slider[11]", "slider[11]", 0 ],
 			"obj-125" : [ "number[22]", "number[22]", 0 ]
 		}
