@@ -208,9 +208,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 330.0, 825.0, 147.0, 22.0 ],
+					"patching_rect" : [ 330.0, 825.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.world candle @active 1"
+					"text" : "jit.world candle @enable 1"
 				}
 
 			}
@@ -878,9 +878,9 @@
  ],
 		"parameters" : 		{
 			"obj-57" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-31" : [ "toggle", "toggle", 0 ],
+			"obj-18" : [ "multislider", "multislider", 0 ],
 			"obj-23" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-18" : [ "multislider", "multislider", 0 ]
+			"obj-31" : [ "toggle", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
