@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 2,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 450.0, 1320.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 571.0, 1320.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend context"
 				}
@@ -84,7 +83,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 450.0, 1290.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 571.0, 1290.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -98,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 1125.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 157.0, 1124.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend context"
 				}
@@ -112,7 +109,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 150.0, 1095.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 157.0, 1094.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -126,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 495.0, 960.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 568.0, 872.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend context"
 				}
@@ -140,7 +135,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 930.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 568.0, 842.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -167,7 +161,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 615.0, 660.0, 97.0, 22.0 ],
-					"presentation_rect" : [ 608.0, 662.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -343,7 +336,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 2,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -374,7 +367,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Snap to grid",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -396,7 +388,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 225.0, 97.0, 22.0 ],
-									"presentation_rect" : [ 74.0, 219.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "prepend context"
 								}
@@ -622,7 +613,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 2,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1462,7 +1453,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-78",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1492,7 +1483,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-75",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1531,7 +1522,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-72",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1592,7 +1583,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 2,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2858,6 +2849,80 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "j.gl_rgb2luma%.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_rgb2luma%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_cf_gaussian_2p.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_thresh.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_math/gl_pix_thresh",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_tp_slide.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_tp_slide",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_roberts.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_roberts",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_pix_sobel.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_sobel",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_mean%.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_3m%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

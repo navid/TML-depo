@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 750.0, 105.0, 90.0, 21.0 ],
+					"style" : "",
+					"text" : "prepend drawto"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 750.0, 75.0, 94.0, 21.0 ],
+					"style" : "",
+					"text" : "j.receive context"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
@@ -45,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 150.0, 132.0, 21.0 ],
+					"patching_rect" : [ 240.0, 105.0, 132.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param contrast"
 				}
@@ -62,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 60.0, 135.0, 69.0 ],
+					"patching_rect" : [ 240.0, 15.0, 135.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter contrast @type decimal @range 0. 10. @description \"Contrast amount.\" @clipmode none",
 					"varname" : "tolerance[5]"
@@ -78,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 150.0, 143.0, 21.0 ],
+					"patching_rect" : [ 75.0, 105.0, 143.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param brightness"
 				}
@@ -95,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 60.0, 135.0, 69.0 ],
+					"patching_rect" : [ 75.0, 15.0, 135.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter brightness @type decimal @range 0. 10. @description \"Brightness amount.\" @clipmode none",
 					"varname" : "tolerance[2]"
@@ -111,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 150.0, 141.0, 21.0 ],
+					"patching_rect" : [ 390.0, 105.0, 141.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param saturation"
 				}
@@ -128,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 60.0, 120.0, 81.0 ],
+					"patching_rect" : [ 390.0, 15.0, 120.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter saturation @type decimal @range 0. 10. @description \"Saturation amount.\" @clipmode none",
 					"varname" : "tolerance[1]"
@@ -144,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 195.0, 160.0, 22.0 ],
+					"patching_rect" : [ 15.0, 150.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file cc.brcosa.jxs"
 				}
@@ -161,7 +187,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 540.0, 105.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -178,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 225.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 180.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -193,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 150.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 105.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -210,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 540.0, 60.0, 203.0, 33.0 ],
+					"patching_rect" : [ 540.0, 15.0, 203.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Shader-based brightness/contrast/saturation effect.\"",
 					"varname" : "jmod.hub"
@@ -221,10 +247,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 105.0, 25.0, 25.0 ],
+					"patching_rect" : [ 540.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -233,11 +260,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -246,16 +274,27 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 270.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 225.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 549.5, 140.0, 24.5, 140.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
@@ -269,7 +308,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 249.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 249.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -288,8 +327,17 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 399.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 399.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -334,7 +382,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 84.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -350,6 +398,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 759.5, 137.5, 24.5, 137.5 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -357,7 +415,35 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

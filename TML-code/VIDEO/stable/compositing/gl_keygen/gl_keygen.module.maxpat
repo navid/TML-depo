@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 0,
-			"architecture" : "x64",
+			"minor" : 3,
+			"revision" : 2,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -48,21 +48,21 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_cf_dilate.view.maxpat",
+					"name" : "gl_keygen.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Shader-based dilate effect.",
+					"annotation" : "Generate a 2D key using up to eight polygons.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -70,9 +70,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 124.0, 22.0 ],
+					"patching_rect" : [ 15.0, 170.0, 118.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_cf_dilate.model #1",
+					"text" : "gl_keygen.model #1",
 					"varname" : "j.model"
 				}
 
@@ -81,11 +81,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 92.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 122.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -94,11 +95,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-32",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 92.0, 27.0, 27.0 ],
+					"patching_rect" : [ 217.0, 122.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -107,10 +109,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 217.0, 209.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -119,10 +122,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 179.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 209.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -157,8 +161,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_cf_dilate.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_dilate",
+				"name" : "gl_keygen.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -169,8 +173,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_cf_dilate.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_cf_dilate",
+				"name" : "jit.gl.slab.gauss6x.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/render/slab",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_keygen.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -201,11 +211,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -218,10 +232,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],
