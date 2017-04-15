@@ -1,0 +1,31 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+data/active 1
+data/bypass 0
+densityBlend 0.980000
+densityFade 1.000000
+densityScale 1.000000 1.000000 1.000000 0.000000
+flowOp pass
+gravityAngle 3.002622
+gravityMagnitude 0.000000
+pressureIMultiply 0.000000 0.000000 0.000000 0.000000
+pressureMultiply 0.000000 0.000000 0.000000 0.000000
+pressureScale 0.000000 0.000000 0.000000 0.000000
+reset 1
+temperatureMagnitude 0.000000
+timestep 0.100000
+velocityBlend 5.000000
+velocityFade 1.000000
+velocityIMultiply 0.000000 0.000000 0.000000 0.000000
+velocityIScale 0.000000 0.000000 0.000000 0.000000
+velocityMultiply 0.000000 0.000000 0.000000 0.000000
+velocityOutHeight 240
+velocityOutWidth 320
+velocityScale 0.000000 0.000000 0.000000 0.000000
+viscosity 0.000000
+vorticity 0.000000
+# 
+# ###########################################
