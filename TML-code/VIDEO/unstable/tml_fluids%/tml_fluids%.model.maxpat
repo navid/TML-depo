@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -82,18 +82,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1020.0, 330.0, 50.0, 22.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-86",
 									"maxclass" : "newobj",
@@ -364,7 +352,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 225.0, 210.0, 113.0, 106.0 ],
+									"patching_rect" : [ 255.0, 210.0, 113.0, 106.0 ],
 									"style" : "",
 									"text" : "j.parameter densityFade @type decimal @clipmode both @range 0. 1. @repetitions/filter 1 @ramp/drive none @description \"Density fade.\"",
 									"varname" : "tolerance[22]"
@@ -382,7 +370,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 405.0, 210.0, 124.0, 106.0 ],
+									"patching_rect" : [ 420.0, 210.0, 124.0, 106.0 ],
 									"style" : "",
 									"text" : "j.parameter velocityFade @type decimal @clipmode both @range 0. 1. @repetitions/filter 1 @ramp/drive none @description \"Velocity fade.\"",
 									"varname" : "tolerance[21]"
@@ -562,7 +550,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 600.0, 210.0, 121.0, 142.0 ],
+									"patching_rect" : [ 645.0, 210.0, 121.0, 142.0 ],
 									"style" : "",
 									"text" : "j.parameter velocityOutWidth @type integer @clipmode both @range 8. 1000. @repetitions/filter 1 @ramp/drive none @description \"Horizontal resolution of outgoing velocity field.\"",
 									"varname" : "tolerance[11]"
@@ -580,7 +568,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 45.0, 210.0, 114.0, 106.0 ],
+									"patching_rect" : [ 60.0, 210.0, 114.0, 106.0 ],
 									"style" : "",
 									"text" : "j.parameter velocityBlend @type decimal @clipmode both @range -5. 5. @repetitions/filter 1 @ramp/drive none @description \"Velocity blend.\"",
 									"varname" : "tolerance[10]"
@@ -611,14 +599,14 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-30",
-									"linecount" : 9,
+									"linecount" : 10,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 945.0, 15.0, 135.0, 118.0 ],
+									"patching_rect" : [ 945.0, 15.0, 120.0, 130.0 ],
 									"style" : "",
-									"text" : "j.parameter timestep @type decimal @clipmode none @bounds -1. 10. @repetitions/filter 1 @ramp/drive none @description \"Rate at which the simulation runs through iterations.\"",
+									"text" : "j.parameter timestep @type decimal @clipmode none @range -1. 10. @repetitions/filter 1 @ramp/drive none @description \"Rate at which the simulation runs through iterations.\"",
 									"varname" : "tolerance[8]"
 								}
 
@@ -688,7 +676,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 225.0, 15.0, 120.0, 106.0 ],
+									"patching_rect" : [ 240.0, 15.0, 120.0, 106.0 ],
 									"style" : "",
 									"text" : "j.parameter vorticity @type decimal @clipmode both @range 0. 5. @repetitions/filter 1 @ramp/drive none @description \"Vorticity of fluids.\"",
 									"varname" : "tolerance[4]"
@@ -706,7 +694,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 45.0, 15.0, 120.0, 106.0 ],
+									"patching_rect" : [ 60.0, 15.0, 120.0, 106.0 ],
 									"style" : "",
 									"text" : "j.parameter viscosity @type decimal @clipmode none @range 0. 1000. @repetitions/filter 1 @ramp/drive none @description \"Viscosity of fluids.\"",
 									"varname" : "tolerance[3]"
@@ -1452,7 +1440,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 75.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -1506,7 +1494,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 750.0, 180.0, 25.0, 25.0 ],
 					"style" : ""
 				}
