@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 46.0, 187.0, 547.0, 760.0 ],
+		"rect" : [ 46.0, 187.0, 592.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,12 +102,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 46.0, 213.0, 547.0, 734.0 ],
+						"rect" : [ 46.0, 213.0, 592.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,38 +137,13 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-39",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 180.0, 53.0, 22.0 ],
-									"style" : "",
-									"text" : "s draw_"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-35",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 225.0, 303.0, 47.0 ],
-									"style" : "",
-									"text" : "The dark blue line is the write head, where video is being written into the buffer. The light blue lines are the read heads for the four individual taps."
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-60",
 									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 255.0, 450.0, 120.0, 62.0 ],
+									"patching_rect" : [ 255.0, 390.0, 120.0, 62.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position 0.35"
 								}
@@ -182,7 +157,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 390.0, 450.0, 120.0, 62.0 ],
+									"patching_rect" : [ 390.0, 390.0, 120.0, 62.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position 1.05"
 								}
@@ -196,7 +171,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 135.0, 450.0, 112.0, 62.0 ],
+									"patching_rect" : [ 135.0, 390.0, 112.0, 62.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position -0.35"
 								}
@@ -210,7 +185,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 450.0, 112.0, 62.0 ],
+									"patching_rect" : [ 15.0, 390.0, 112.0, 62.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane texset_help @scale 0.333 0.22 @position -1.05"
 								}
@@ -219,11 +194,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-38",
-									"linecount" : 7,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 165.0, 90.0, 121.0, 100.0 ],
+									"patching_rect" : [ 165.0, 90.0, 420.0, 33.0 ],
 									"style" : "",
 									"text" : "Based on a patch by stefano from the Cycling74 forum: https://cycling74.com/forums/topic/time-delayed-textures-3d-texture-buffers/"
 								}
@@ -236,7 +211,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 240.0, 39.0, 22.0 ],
+									"patching_rect" : [ 75.0, 225.0, 39.0, 22.0 ],
 									"style" : "",
 									"text" : "close"
 								}
@@ -249,7 +224,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 240.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 225.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -262,9 +237,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 285.0, 149.0, 22.0 ],
+									"patching_rect" : [ 15.0, 270.0, 210.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.grab @output_texture 1"
+									"text" : "jit.grab @output_texture 1 @unique 1"
 								}
 
 							}
@@ -313,7 +288,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 285.0, 300.0, 140.0 ],
+									"patching_rect" : [ 240.0, 225.0, 300.0, 140.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 									"viewvisibility" : 1
 								}
@@ -327,7 +302,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 15.0, 405.0, 130.0, 22.0 ],
+									"patching_rect" : [ 15.0, 345.0, 130.0, 22.0 ],
 									"style" : "",
 									"text" : "gl_texset.model texset"
 								}
@@ -361,7 +336,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 52.25, 438.0, 144.5, 438.0 ],
+									"midpoints" : [ 52.25, 378.0, 144.5, 378.0 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -371,7 +346,7 @@
 									"destination" : [ "obj-52", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 438.0, 24.5, 438.0 ],
+									"midpoints" : [ 24.5, 378.0, 24.5, 378.0 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -381,7 +356,7 @@
 									"destination" : [ "obj-60", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 80.0, 438.0, 264.5, 438.0 ],
+									"midpoints" : [ 80.0, 378.0, 264.5, 378.0 ],
 									"source" : [ "obj-13", 2 ]
 								}
 
@@ -391,7 +366,7 @@
 									"destination" : [ "obj-61", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 107.75, 438.0, 399.5, 438.0 ],
+									"midpoints" : [ 107.75, 378.0, 399.5, 378.0 ],
 									"source" : [ "obj-13", 3 ]
 								}
 
@@ -401,7 +376,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 84.5, 273.0, 24.5, 273.0 ],
+									"midpoints" : [ 84.5, 258.0, 24.5, 258.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -412,16 +387,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 82.5, 167.0, 24.5, 167.0 ],
-									"source" : [ "obj-5", 1 ]
 								}
 
 							}
@@ -439,7 +404,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 303.0, 24.5, 303.0 ],
+									"midpoints" : [ 24.5, 249.0, 24.5, 249.0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -475,12 +440,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 734.0 ],
+						"rect" : [ 0.0, 26.0, 592.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -542,7 +507,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_texset.model_feedback.maxpat",
+				"name" : "gl_texset.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset",
 				"type" : "JSON",
 				"implicit" : 1
