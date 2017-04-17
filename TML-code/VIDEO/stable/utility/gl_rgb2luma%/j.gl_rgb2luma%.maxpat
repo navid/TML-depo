@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -52,10 +53,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -72,8 +74,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -360,6 +362,7 @@
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 3,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -370,6 +373,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 24.5, 103.0, 84.5, 103.0 ],
+									"order" : 2,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -380,6 +384,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 24.5, 103.0, 144.5, 103.0 ],
+									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -390,6 +395,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 24.5, 103.0, 204.5, 103.0 ],
+									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -462,6 +468,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

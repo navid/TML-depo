@@ -1,0 +1,26 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 0
+automatic 1
+cornermode relative
+corners 3
+data/active 1
+dim 720.000000 480.000000
+interp 0
+lower_left 0.000000 1.000000
+lower_right 1.000000 1.000000
+mouse 1
+preserve_aspect 0
+radius 60.000000
+rect 0.000000 0.000000 1.000000 1.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+upper_left 0.000000 0.000000
+upper_right 1.000000 0.000000
+# 
+# ###########################################

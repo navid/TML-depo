@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 55.0, 251.0, 1473.0, 920.0 ],
+		"rect" : [ 46.0, 92.0, 1473.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1149,7 +1149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 765.0, 465.0, 280.0, 33.0 ],
+					"patching_rect" : [ 765.0, 600.0, 280.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Michael Fortin's Navier-Stokes fluid solver.\"",
 					"varname" : "jmod.hub"
@@ -1164,7 +1164,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 765.0, 510.0, 25.0, 25.0 ],
+					"patching_rect" : [ 765.0, 645.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 

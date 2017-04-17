@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"openrect" : [ 100.0, 100.0, 300.0, 70.0 ],
+		"openrect" : [ 30.0, 30.0, 300.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_keygen.view.maxpat",
+					"name" : "gl_cornerpin.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -62,17 +62,17 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Generate a 2D key using up to eight polygons.",
+					"annotation" : "GL cornerpinning utility.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 200.0, 156.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 230.0, 129.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_keygen.model #1",
+					"text" : "gl_cornerpin.model #1",
 					"varname" : "j.model"
 				}
 
@@ -81,39 +81,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 152.0, 26.0, 26.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-32",
-					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 152.0, 27.0, 27.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-33",
-					"index" : 2,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 239.0, 27.0, 27.0 ],
+					"patching_rect" : [ 15.0, 182.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -122,26 +95,17 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 239.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 269.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-28", 1 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
@@ -159,7 +123,77 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "gl_cornerpin.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/unstable/gl_cornerpin",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_cornerpin.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/unstable/gl_cornerpin",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.panel.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

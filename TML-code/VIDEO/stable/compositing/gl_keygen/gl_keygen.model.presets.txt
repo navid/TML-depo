@@ -8,51 +8,69 @@ active 1
 adapt 1
 antialias 0
 automatic 1
+blur 0.500000
 data/active 1
 data/bypass 0
 dim 720.000000 480.000000
 key1/enable 1
+key1/handle none
+key1/lock 0
 key1/position 0.000000 0.000000 0.000000
-key1/rotate 0.000000 0.000000 0.000000
-key1/scale 0.300000 0.300000 0.000000
-key1/shape circle
+key1/rotate 0.000000 0.000000 0.000000 1.000000
+key1/scale 1.445000 0.810000 0.000000
+key1/shape plane
 key2/enable 0
+key2/handle none
+key2/lock 0
 key2/position 0.000000 0.000000 0.000000
 key2/rotate 0.000000 0.000000 0.000000
 key2/scale 0.300000 0.300000 0.000000
 key2/shape circle
 key3/enable 0
+key3/handle none
+key3/lock 0
 key3/position 0.000000 0.000000 0.000000
 key3/rotate 0.000000 0.000000 0.000000
 key3/scale 0.300000 0.300000 0.000000
 key3/shape circle
 key4/enable 0
+key4/handle none
+key4/lock 0
 key4/position 0.000000 0.000000 0.000000
 key4/rotate 0.000000 0.000000 0.000000
 key4/scale 0.300000 0.300000 0.000000
 key4/shape circle
 key5/enable 0
+key5/handle none
+key5/lock 0
 key5/position 0.000000 0.000000 0.000000
 key5/rotate 0.000000
 key5/scale 0.300000 0.300000 0.000000
 key5/shape circle
 key6/enable 0
+key6/handle none
+key6/lock 0
 key6/position 0.000000 0.000000 0.000000
 key6/rotate 0.000000
 key6/scale 0.300000 0.300000 0.000000
 key6/shape circle
 key7/enable 0
+key7/handle none
+key7/lock 0
 key7/position 0.000000 0.000000 0.000000
 key7/rotate 0.000000 0.000000 0.000000
 key7/scale 0.300000 0.300000 0.000000
 key7/shape circle
 key8/enable 0
+key8/handle none
+key8/lock 0
 key8/position 0.000000 0.000000 0.000000
 key8/rotate 0.000000 0.000000 0.000000
 key8/scale 0.300000 0.300000 0.000000
 key8/shape circle
+maskview 0
 rect 0.000000 0.000000 1.000000 1.000000
+solo 0
 texrect 0.000000 0.000000 1.000000 1.000000
-width 0.200000
 # 
 # ###########################################
