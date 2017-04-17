@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 240.0, 488.0, 334.0, 420.0 ],
+		"rect" : [ 914.0, 167.0, 334.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,11 +103,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 240.0, 514.0, 334.0, 394.0 ],
+						"rect" : [ 914.0, 193.0, 334.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -181,9 +181,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 360.0, 203.0, 22.0 ],
+									"patching_rect" : [ 15.0, 360.0, 242.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane @transform_reset 2"
+									"text" : "jit.gl.videoplane default @transform_reset 2"
 								}
 
 							}
@@ -194,15 +194,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 135.0, 237.0, 22.0 ],
+									"patching_rect" : [ 15.0, 135.0, 234.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world vf_help @enable 1 @fsmenubar 0"
+									"text" : "jit.world default @enable 1 @fsmenubar 0"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"attr" : "fps",
+									"attr" : "enable",
 									"id" : "obj-6",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -354,7 +354,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -410,56 +410,48 @@
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_vf.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/dynamical_systems/gl_pix_vf",
-				"patcherrelativepath" : "../../../../../../../../Github/TML-depo/TML-code/VIDEO/stable/dynamical_systems/gl_pix_vf",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_vf.view.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/dynamical_systems/gl_pix_vf",
-				"patcherrelativepath" : "../../../../../../../../Github/TML-depo/TML-code/VIDEO/stable/dynamical_systems/gl_pix_vf",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
