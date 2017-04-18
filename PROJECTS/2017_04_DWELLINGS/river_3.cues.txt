@@ -176,7 +176,7 @@
 /water/mapTurn/scalebypass 1
 /water/audio/gain -71.000000
 /water/audio/mute 0
-/water/file/open Untitled:/Users/syrinx/Desktop/River_1/_Audio/responsive_water.aiff
+/water/file/open "Macintosh HD:/Users/performingarts/Desktop/River_3/_Audio/responsive_water.aiff"
 /water/mapperGate/gain 0
 /water/mapperGate/onsetVar 0
 /water/mapperGate/pitch 0
@@ -229,9 +229,9 @@
 /ambience/balance/position 0.000000
 /ambience/balance/shape EqualPower
 /ambience/clicktrain/rate 1.000000
-/ambience/file/path /Users/syrinx/Desktop/River_1/_Audio/River_Ambiences/24511__glaneur-de-sons__riviere-river.wav
+/ambience/file/path /Users/performingarts/Desktop/River_3/_Audio/River_Ambiences/24511__glaneur-de-sons__riviere-river.wav
 /ambience/file/loop 1
-/ambience/file/play 0
+/ambience/file/play 1
 /ambience/file/transpose 0.000000
 /ambience/testtone/frequency 1000
 /ambience/source soundfile
@@ -255,7 +255,7 @@
 /cue/balance/position 0.000000
 /cue/balance/shape EqualPower
 /cue/clicktrain/rate 1.000000
-/cue/file/path /Users/syrinx/Desktop/River_1/_Audio/Water_Song_by_the_Akwesasne_Women_Singers.wav
+/cue/file/path /Users/performingarts/Desktop/River_3/_Audio/Water_Song_by_the_Akwesasne_Women_Singers.wav
 /cue/file/loop 1
 /cue/file/play 0
 /cue/file/transpose 0.000000
@@ -389,7 +389,7 @@
 /sc_motion/clip 1
 /sc_motion/diffMode 0
 /sc_motion/offset 0.000000
-/sc_motion/visualize 1
+/sc_motion/visualize 0
 # 
 /cornerpin/data/active 1
 /cornerpin/context water
@@ -484,10 +484,10 @@
 /movie%/framemotor/fps 25
 /movie%/data/active 1
 /movie%/data/bypass 0
-/movie%/file/path Untitled:/Users/syrinx/Desktop/River_3/_Videos/river_bw_10.mp4
+/movie%/file/path "Macintosh HD:/Users/performingarts/Desktop/River_3/_Videos/river_bw_10.mp4"
 /movie%/file/play 1
 /movie%/loop/mode loop
-/movie%/loop/points 0.000000 1651.000000
+/movie%/loop/points 0.000000 247680.000000
 /movie%/loop/report 0
 /movie%/colormode argb
 /movie%/rate 1.000000
