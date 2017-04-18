@@ -1,0 +1,112 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/cornerpin/data/active 1
+/cornerpin/context default
+/cornerpin/active 1
+/cornerpin/adapt 1
+/cornerpin/antialias 0
+/cornerpin/automatic 1
+/cornerpin/cornermode relative
+/cornerpin/corners 3
+/cornerpin/dim 720.000000 480.000000
+/cornerpin/interp 0
+/cornerpin/lower_left 0.000000 1.000000
+/cornerpin/lower_right 1.000000 1.000000
+/cornerpin/mouse 1
+/cornerpin/preserve_aspect 0
+/cornerpin/radius 60.000000
+/cornerpin/rect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/texrect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/upper_left 0.000000 0.000000
+/cornerpin/upper_right 1.000000 0.000000
+# 
+/feathering/data/active 1
+/feathering/data/bypass 0
+/feathering/key1/enable 1
+/feathering/key1/handle none
+/feathering/key1/lock 0
+/feathering/key1/position 0.000000 0.000000 0.000000
+/feathering/key1/rotate 0.000000 0.000000 0.000000 1.000000
+/feathering/key1/scale 1.445000 0.810000 0.000000
+/feathering/key1/shape plane
+/feathering/key2/enable 0
+/feathering/key2/handle none
+/feathering/key2/lock 0
+/feathering/key2/position 0.000000 0.000000 0.000000
+/feathering/key2/rotate 0.000000 0.000000 0.000000
+/feathering/key2/scale 0.300000 0.300000 0.000000
+/feathering/key2/shape circle
+/feathering/key3/enable 0
+/feathering/key3/handle none
+/feathering/key3/lock 0
+/feathering/key3/position 0.000000 0.000000 0.000000
+/feathering/key3/rotate 0.000000 0.000000 0.000000
+/feathering/key3/scale 0.300000 0.300000 0.000000
+/feathering/key3/shape circle
+/feathering/key4/enable 0
+/feathering/key4/handle none
+/feathering/key4/lock 0
+/feathering/key4/position 0.000000 0.000000 0.000000
+/feathering/key4/rotate 0.000000 0.000000 0.000000
+/feathering/key4/scale 0.300000 0.300000 0.000000
+/feathering/key4/shape circle
+/feathering/key5/enable 0
+/feathering/key5/handle none
+/feathering/key5/lock 0
+/feathering/key5/position 0.000000 0.000000 0.000000
+/feathering/key5/rotate 0.000000
+/feathering/key5/scale 0.300000 0.300000 0.000000
+/feathering/key5/shape circle
+/feathering/key6/enable 0
+/feathering/key6/handle none
+/feathering/key6/lock 0
+/feathering/key6/position 0.000000 0.000000 0.000000
+/feathering/key6/rotate 0.000000
+/feathering/key6/scale 0.300000 0.300000 0.000000
+/feathering/key6/shape circle
+/feathering/key7/enable 0
+/feathering/key7/handle none
+/feathering/key7/lock 0
+/feathering/key7/position 0.000000 0.000000 0.000000
+/feathering/key7/rotate 0.000000 0.000000 0.000000
+/feathering/key7/scale 0.300000 0.300000 0.000000
+/feathering/key7/shape circle
+/feathering/key8/enable 0
+/feathering/key8/handle none
+/feathering/key8/lock 0
+/feathering/key8/position 0.000000 0.000000 0.000000
+/feathering/key8/rotate 0.000000 0.000000 0.000000
+/feathering/key8/scale 0.300000 0.300000 0.000000
+/feathering/key8/shape circle
+/feathering/context default
+/feathering/active 1
+/feathering/adapt 1
+/feathering/antialias 0
+/feathering/automatic 1
+/feathering/blur 0.500000
+/feathering/dim 720.000000 480.000000
+/feathering/maskview 0
+/feathering/rect 0.000000 0.000000 1.000000 1.000000
+/feathering/solo 0
+/feathering/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/movie%/framemotor/fps 25
+/movie%/data/active 1
+/movie%/data/bypass 0
+/movie%/file/path "LaCie:/_software/She Falls For Ages-FINAL-2017-02-03.mov"
+/movie%/file/play 1
+/movie%/loop/mode "one shot"
+/movie%/loop/points 0.000000 3783500.000000
+/movie%/loop/report 0
+/movie%/colormode argb
+/movie%/rate 1.000000
+/movie%/unique 1
+/movie%/dim 1920.000000 1080.000000
+/movie%/adapt 0
+/movie%/vol 1.000000
+/movie%/output_texture 1
+# 
+# ###########################################
+
