@@ -1,0 +1,515 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/water/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/water/grain/trigger/variance/gainVar/range 0.000000
+/water/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/water/grain/trigger/variance/rateVar/spread 0.000000
+/water/grain/trigger/variance/on 0
+/water/grain/trigger/freq 21.000000
+/water/grain/trigger/lock 0
+/water/grain/trigger/mode 0
+/water/grain/trigger/note 0
+/water/grain/duration 289.000000
+/water/grain/onsetVar 0.000000
+/water/grain/overlap 50
+# 
+/water/mapGain/data/active 1
+/water/mapGain/function/parameters.1 0.000000
+/water/mapGain/input/address /sc_motion/out/final
+/water/mapGain/input/max 1.000000
+/water/mapGain/input/min 0.000000
+/water/mapGain/output/max 1.000000
+/water/mapGain/output/min 0.000000
+/water/mapGain/process/function freehand
+/water/mapGain/process/clipmode both
+/water/mapGain/process/mode 0.000000
+/water/mapGain/process/rampTime 0.000000
+/water/mapGain/slide/down 0.000000
+/water/mapGain/slide/up 0.000000
+/water/mapGain/active 1
+/water/mapGain/scalebypass 1
+# 
+/water/mapOnsetVar/data/active 1
+/water/mapOnsetVar/function/parameters.1 0.000000
+/water/mapOnsetVar/input/address /sc_motion/out/final
+/water/mapOnsetVar/input/max 1.000000
+/water/mapOnsetVar/input/min 0.000000
+/water/mapOnsetVar/output/max 1.000000
+/water/mapOnsetVar/output/min 0.000000
+/water/mapOnsetVar/process/function freehand
+/water/mapOnsetVar/process/clipmode both
+/water/mapOnsetVar/process/mode 0.000000
+/water/mapOnsetVar/process/rampTime 0.000000
+/water/mapOnsetVar/slide/down 0.000000
+/water/mapOnsetVar/slide/up 0.000000
+/water/mapOnsetVar/active 1
+/water/mapOnsetVar/scalebypass 1
+# 
+/water/mapPitch/data/active 1
+/water/mapPitch/function/parameters.1 0.000000
+/water/mapPitch/input/address /sc_motion/out/final
+/water/mapPitch/input/max 1.000000
+/water/mapPitch/input/min 0.000000
+/water/mapPitch/output/max 1.000000
+/water/mapPitch/output/min 0.000000
+/water/mapPitch/process/function freehand
+/water/mapPitch/process/clipmode both
+/water/mapPitch/process/mode 0.000000
+/water/mapPitch/process/rampTime 0.000000
+/water/mapPitch/slide/down 0.000000
+/water/mapPitch/slide/up 0.000000
+/water/mapPitch/active 1
+/water/mapPitch/scalebypass 1
+# 
+/water/mapPosition/data/active 1
+/water/mapPosition/function/parameters.1 0.000000
+/water/mapPosition/input/address /sc_x/out/final
+/water/mapPosition/input/max 1.000000
+/water/mapPosition/input/min 0.000000
+/water/mapPosition/output/max 1.000000
+/water/mapPosition/output/min 0.000000
+/water/mapPosition/process/function freehand
+/water/mapPosition/process/clipmode both
+/water/mapPosition/process/mode 0.000000
+/water/mapPosition/process/rampTime 0.000000
+/water/mapPosition/slide/down 0.000000
+/water/mapPosition/slide/up 0.000000
+/water/mapPosition/active 0
+/water/mapPosition/scalebypass 1
+# 
+/water/mapPvar/data/active 1
+/water/mapPvar/function/parameters.1 0.000000
+/water/mapPvar/input/address /sc_motion/out/final
+/water/mapPvar/input/max 1.000000
+/water/mapPvar/input/min 0.000000
+/water/mapPvar/output/max 1.000000
+/water/mapPvar/output/min 0.000000
+/water/mapPvar/process/function freehand
+/water/mapPvar/process/clipmode both
+/water/mapPvar/process/mode 0.000000
+/water/mapPvar/process/rampTime 0.000000
+/water/mapPvar/slide/down 0.000000
+/water/mapPvar/slide/up 0.000000
+/water/mapPvar/active 1
+/water/mapPvar/scalebypass 1
+# 
+/water/mapSize/data/active 1
+/water/mapSize/function/parameters.1 0.000000
+/water/mapSize/input/address /sc_motion/out/final
+/water/mapSize/input/max 1.000000
+/water/mapSize/input/min 0.000000
+/water/mapSize/output/max 1.000000
+/water/mapSize/output/min 0.000000
+/water/mapSize/process/function freehand
+/water/mapSize/process/clipmode both
+/water/mapSize/process/mode 0.000000
+/water/mapSize/process/rampTime 0.000000
+/water/mapSize/slide/down 0.000000
+/water/mapSize/slide/up 0.000000
+/water/mapSize/active 1
+/water/mapSize/scalebypass 1
+# 
+/water/mapSpeed/data/active 1
+/water/mapSpeed/function/parameters.1 0.000000
+/water/mapSpeed/input/address /sc_motion/out/final
+/water/mapSpeed/input/max 1.000000
+/water/mapSpeed/input/min 0.000000
+/water/mapSpeed/output/max 1.000000
+/water/mapSpeed/output/min 0.000000
+/water/mapSpeed/process/function freehand
+/water/mapSpeed/process/clipmode both
+/water/mapSpeed/process/mode 0.000000
+/water/mapSpeed/process/rampTime 0.000000
+/water/mapSpeed/slide/down 0.000000
+/water/mapSpeed/slide/up 0.000000
+/water/mapSpeed/active 1
+/water/mapSpeed/scalebypass 1
+# 
+/water/mapSpread/data/active 1
+/water/mapSpread/function/parameters.1 0.000000
+/water/mapSpread/input/address none
+/water/mapSpread/input/max 1.000000
+/water/mapSpread/input/min 0.000000
+/water/mapSpread/output/max 1.000000
+/water/mapSpread/output/min 0.000000
+/water/mapSpread/process/function freehand
+/water/mapSpread/process/clipmode both
+/water/mapSpread/process/mode 0.000000
+/water/mapSpread/process/rampTime 0.000000
+/water/mapSpread/slide/down 0.000000
+/water/mapSpread/slide/up 0.000000
+/water/mapSpread/active 0
+/water/mapSpread/scalebypass 1
+# 
+/water/mapTrigger/data/active 1
+/water/mapTrigger/function/parameters.1 0.000000
+/water/mapTrigger/input/address /sc_motion/out/final
+/water/mapTrigger/input/max 1.000000
+/water/mapTrigger/input/min 0.000000
+/water/mapTrigger/output/max 1.000000
+/water/mapTrigger/output/min 0.000000
+/water/mapTrigger/process/function freehand
+/water/mapTrigger/process/clipmode both
+/water/mapTrigger/process/mode 0.000000
+/water/mapTrigger/process/rampTime 0.000000
+/water/mapTrigger/slide/down 0.000000
+/water/mapTrigger/slide/up 0.000000
+/water/mapTrigger/active 1
+/water/mapTrigger/scalebypass 1
+# 
+/water/mapTurn/data/active 1
+/water/mapTurn/function/parameters.1 0.000000
+/water/mapTurn/input/address /sc_motion/out/final
+/water/mapTurn/input/max 1.000000
+/water/mapTurn/input/min 0.000000
+/water/mapTurn/output/max 1.000000
+/water/mapTurn/output/min 0.000000
+/water/mapTurn/process/function freehand
+/water/mapTurn/process/clipmode both
+/water/mapTurn/process/mode 0.000000
+/water/mapTurn/process/rampTime 0.000000
+/water/mapTurn/slide/down 0.000000
+/water/mapTurn/slide/up 0.000000
+/water/mapTurn/active 1
+/water/mapTurn/scalebypass 1
+/water/audio/gain -71.000000
+/water/audio/mute 0
+/water/file/open Untitled:/Users/syrinx/Desktop/River_1/_Audio/responsive_water.aiff
+/water/mapperGate/gain 0
+/water/mapperGate/onsetVar 0
+/water/mapperGate/pitch 0
+/water/mapperGate/pitchVar 0
+/water/mapperGate/position 0
+/water/mapperGate/size 0
+/water/mapperGate/speed 0
+/water/mapperGate/spread 0
+/water/mapperGate/trigger 0
+/water/mapperGate/turn 0
+/water/mod/gain 400.000000
+/water/mod/onsetVar 3000.000000
+/water/mod/pitch -801.000000
+/water/mod/pitchVar 1693.000000
+/water/mod/position 0.000000
+/water/mod/size 500.000000
+/water/mod/speed -0.900000
+/water/mod/spread 0.000000
+/water/mod/trigger 43.000000
+/water/mod/turn -30.000000
+/water/pan/mode 0
+/water/pan/rate 0.000000
+/water/pan/spread 1.000000
+/water/pitch/transpose 0.000000
+/water/pitch/variation 0.000000
+/water/playback/direction 0
+/water/playback/speed 1.000000
+/water/playback/position 0.337349
+/water/selection/mode 0
+/water/selection/range 0.000000 2123.729248
+/water/waveform/normalize 0.000000
+/water/numChannels 2
+# 
+# 
+# 
+/ambience/input/limiter/dcblocker/active 1
+/ambience/input/limiter/active 1
+/ambience/input/limiter/lookahead 100
+/ambience/input/limiter/mode none
+/ambience/input/limiter/postamp 0.000000
+/ambience/input/limiter/preamp 0.000000
+/ambience/input/limiter/release 1000.000000
+/ambience/input/limiter/threshold 0.000000
+/ambience/input/channel.L 1
+/ambience/input/channel.R 2
+/ambience/audio/gain 12.000000
+/ambience/audio/mute 0
+# 
+/ambience/balance/mode FastMode
+/ambience/balance/position 0.000000
+/ambience/balance/shape EqualPower
+/ambience/clicktrain/rate 1.000000
+/ambience/file/path /Users/syrinx/Desktop/River_1/_Audio/River_Ambiences/24511__glaneur-de-sons__riviere-river.wav
+/ambience/file/loop 1
+/ambience/file/play 0
+/ambience/file/transpose 0.000000
+/ambience/testtone/frequency 1000
+/ambience/source soundfile
+# 
+# 
+# 
+/cue/input/limiter/dcblocker/active 1
+/cue/input/limiter/active 1
+/cue/input/limiter/lookahead 100
+/cue/input/limiter/mode none
+/cue/input/limiter/postamp 0.000000
+/cue/input/limiter/preamp 0.000000
+/cue/input/limiter/release 1000.000000
+/cue/input/limiter/threshold 0.000000
+/cue/input/channel.L 1
+/cue/input/channel.R 2
+/cue/audio/gain 0.000000
+/cue/audio/mute 0
+# 
+/cue/balance/mode FastMode
+/cue/balance/position 0.000000
+/cue/balance/shape EqualPower
+/cue/clicktrain/rate 1.000000
+/cue/file/path /Users/syrinx/Desktop/River_1/_Audio/Water_Song_by_the_Akwesasne_Women_Singers.wav
+/cue/file/loop 1
+/cue/file/play 0
+/cue/file/transpose 0.000000
+/cue/testtone/frequency 1000
+/cue/source soundfile
+# 
+# 
+/motion/gl_cf_gaussian_2p/data/active 1
+/motion/gl_cf_gaussian_2p/data/bypass 0
+/motion/gl_cf_gaussian_2p/width/x 0.600000
+/motion/gl_cf_gaussian_2p/width/y 0.600000
+/motion/gl_cf_gaussian_2p/context water
+/motion/gl_cf_gaussian_2p/active 1
+/motion/gl_cf_gaussian_2p/adapt 1
+/motion/gl_cf_gaussian_2p/antialias 0
+/motion/gl_cf_gaussian_2p/automatic 1
+/motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/motion/gl_pix_roberts/data/active 1
+/motion/gl_pix_roberts/data/bypass 0
+/motion/gl_pix_roberts/context water
+/motion/gl_pix_roberts/active 1
+/motion/gl_pix_roberts/adapt 1
+/motion/gl_pix_roberts/antialias 0
+/motion/gl_pix_roberts/automatic 1
+/motion/gl_pix_roberts/dim 720.000000 480.000000
+/motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/weight 0.100000
+# 
+/motion/gl_pix_sobel/data/active 1
+/motion/gl_pix_sobel/data/bypass 0
+/motion/gl_pix_sobel/context water
+/motion/gl_pix_sobel/active 1
+/motion/gl_pix_sobel/adapt 1
+/motion/gl_pix_sobel/antialias 0
+/motion/gl_pix_sobel/automatic 1
+/motion/gl_pix_sobel/dim 720.000000 480.000000
+/motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/weight 0.100000
+# 
+/motion/gl_pix_thresh/data/active 1
+/motion/gl_pix_thresh/data/bypass 0
+/motion/gl_pix_thresh/context water
+/motion/gl_pix_thresh/active 1
+/motion/gl_pix_thresh/adapt 1
+/motion/gl_pix_thresh/antialias 0
+/motion/gl_pix_thresh/automatic 1
+/motion/gl_pix_thresh/dim 720.000000 480.000000
+/motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/select 0
+/motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/thresh 0.100000
+# 
+/motion/gl_tp_slide/data/active 1
+/motion/gl_tp_slide/data/bypass 0
+/motion/gl_tp_slide/context water
+/motion/gl_tp_slide/active 1
+/motion/gl_tp_slide/adapt 1
+/motion/gl_tp_slide/antialias 0
+/motion/gl_tp_slide/automatic 1
+/motion/gl_tp_slide/dim 720.000000 480.000000
+/motion/gl_tp_slide/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_tp_slide/slide_down 2.000000
+/motion/gl_tp_slide/slide_up 0.000000
+/motion/gl_tp_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/data/active 1
+/motion/data/bypass 0
+/motion/context water
+/motion/active 1
+/motion/adapt 1
+/motion/antialias 0
+/motion/automatic 1
+/motion/blur 0.600000
+/motion/colour 0
+/motion/denoise 1
+/motion/dim 720.000000 480.000000
+/motion/edge 0
+/motion/invert 0
+/motion/rect 0.000000 0.000000 1.000000 1.000000
+/motion/slide 1
+/motion/slide_down 2.000000
+/motion/slide_up 0.000000
+/motion/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/threshold 0.100000
+/motion/weight 0.100000
+# 
+# 
+/output=/limiter/dcblocker/active 1
+/output=/limiter/active 1
+/output=/limiter/lookahead 64
+/output=/limiter/mode exponential
+/output=/limiter/postamp 0.000000
+/output=/limiter/preamp 0.000000
+/output=/limiter/release 300.000000
+/output=/limiter/threshold 0.000000
+# 
+/output=/record/file/type aiff
+/output=/record/samptype int24
+/output=/audio/gain -2.000000
+/output=/audio/mute 0
+/output=/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+/sc_motion/scale/input/max 100.000000
+/sc_motion/scale/input/min 0.000000
+/sc_motion/scale/max 1.000000
+/sc_motion/scale/min 0.000000
+/sc_motion/scale/mode 3
+/sc_motion/scale/window 500
+/sc_motion/function/symmetry none
+/sc_motion/function/parameter2 1.040000
+/sc_motion/function/parameter1 21.000000
+/sc_motion/data/active 1
+/sc_motion/data/bypass 0
+/sc_motion/filter/mode 0
+/sc_motion/filter/samples 3
+/sc_motion/pre-slide/down 3
+/sc_motion/pre-slide/up 0
+/sc_motion/ramp/grain 1
+/sc_motion/ramp/time 0
+/sc_motion/schmitt/debounce 0
+/sc_motion/schmitt/lower 0.700000
+/sc_motion/schmitt/on 1
+/sc_motion/schmitt/ramp 0
+/sc_motion/schmitt/upper 0.300000
+/sc_motion/slide/down 15
+/sc_motion/slide/up 15
+/sc_motion/clip 1
+/sc_motion/diffMode 0
+/sc_motion/offset 0.000000
+/sc_motion/visualize 1
+# 
+/cornerpin/data/active 1
+/cornerpin/context water
+/cornerpin/active 1
+/cornerpin/adapt 1
+/cornerpin/antialias 0
+/cornerpin/automatic 1
+/cornerpin/cornermode relative
+/cornerpin/corners 3
+/cornerpin/dim 720.000000 480.000000
+/cornerpin/interp 0
+/cornerpin/lower_left 0.000000 1.000000
+/cornerpin/lower_right 1.000000 1.000000
+/cornerpin/mouse 1
+/cornerpin/preserve_aspect 0
+/cornerpin/radius 60.000000
+/cornerpin/rect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/texrect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/upper_left 0.000000 0.000000
+/cornerpin/upper_right 1.000000 0.000000
+# 
+/feathering/data/active 1
+/feathering/data/bypass 0
+/feathering/key1/enable 1
+/feathering/key1/handle none
+/feathering/key1/lock 0
+/feathering/key1/position 0.000000 0.000000 0.000000
+/feathering/key1/rotate 0.000000 0.000000 0.000000 1.000000
+/feathering/key1/scale 1.284000 0.785000 0.000000
+/feathering/key1/shape plane
+/feathering/key2/enable 0
+/feathering/key2/handle none
+/feathering/key2/lock 0
+/feathering/key2/position 0.000000 0.000000 0.000000
+/feathering/key2/rotate 0.000000 0.000000 0.000000
+/feathering/key2/scale 0.300000 0.300000 0.000000
+/feathering/key2/shape circle
+/feathering/key3/enable 0
+/feathering/key3/handle none
+/feathering/key3/lock 0
+/feathering/key3/position 0.000000 0.000000 0.000000
+/feathering/key3/rotate 0.000000 0.000000 0.000000
+/feathering/key3/scale 0.300000 0.300000 0.000000
+/feathering/key3/shape circle
+/feathering/key4/enable 0
+/feathering/key4/handle none
+/feathering/key4/lock 0
+/feathering/key4/position 0.000000 0.000000 0.000000
+/feathering/key4/rotate 0.000000 0.000000 0.000000
+/feathering/key4/scale 0.300000 0.300000 0.000000
+/feathering/key4/shape circle
+/feathering/key5/enable 0
+/feathering/key5/handle none
+/feathering/key5/lock 0
+/feathering/key5/position 0.000000 0.000000 0.000000
+/feathering/key5/rotate 0.000000
+/feathering/key5/scale 0.300000 0.300000 0.000000
+/feathering/key5/shape circle
+/feathering/key6/enable 0
+/feathering/key6/handle none
+/feathering/key6/lock 0
+/feathering/key6/position 0.000000 0.000000 0.000000
+/feathering/key6/rotate 0.000000
+/feathering/key6/scale 0.300000 0.300000 0.000000
+/feathering/key6/shape circle
+/feathering/key7/enable 0
+/feathering/key7/handle none
+/feathering/key7/lock 0
+/feathering/key7/position 0.000000 0.000000 0.000000
+/feathering/key7/rotate 0.000000 0.000000 0.000000
+/feathering/key7/scale 0.300000 0.300000 0.000000
+/feathering/key7/shape circle
+/feathering/key8/enable 0
+/feathering/key8/handle none
+/feathering/key8/lock 0
+/feathering/key8/position 0.000000 0.000000 0.000000
+/feathering/key8/rotate 0.000000 0.000000 0.000000
+/feathering/key8/scale 0.300000 0.300000 0.000000
+/feathering/key8/shape circle
+/feathering/context water
+/feathering/active 1
+/feathering/adapt 1
+/feathering/antialias 0
+/feathering/automatic 1
+/feathering/blur 1.200000
+/feathering/dim 720.000000 480.000000
+/feathering/maskview 0
+/feathering/rect 0.000000 0.000000 1.000000 1.000000
+/feathering/solo 0
+/feathering/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/movie%/framemotor/fps 25
+/movie%/data/active 1
+/movie%/data/bypass 0
+/movie%/file/path Untitled:/Users/syrinx/Desktop/River_3/_Videos/river_bw_10.mp4
+/movie%/file/play 1
+/movie%/loop/mode loop
+/movie%/loop/points 0.000000 1651.000000
+/movie%/loop/report 0
+/movie%/colormode argb
+/movie%/rate 1.000000
+/movie%/unique 1
+/movie%/dim 320.000000 240.000000
+/movie%/adapt 0
+/movie%/vol 1.000000
+/movie%/output_texture 1
+# 
+/brcosa/data/active 1
+/brcosa/data/bypass 0
+/brcosa/context water
+/brcosa/active 1
+/brcosa/adapt 1
+/brcosa/antialias 0
+/brcosa/automatic 1
+/brcosa/brightness 1.000000
+/brcosa/contrast 1.000000
+/brcosa/dim 720.000000 480.000000
+/brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa/saturation 1.000000
+/brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
