@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 339.0, -731.0, 1205.0, 628.0 ],
+		"rect" : [ 339.0, 79.0, 1205.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.0, 105.0, 90.0, 21.0 ],
+					"style" : "",
+					"text" : "prepend drawto"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 435.0, 75.0, 94.0, 21.0 ],
+					"style" : "",
+					"text" : "j.receive context"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
@@ -4216,7 +4242,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 240.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -5765,7 +5791,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -43.0, -1001.0, 912.0, 737.0 ],
+						"rect" : [ 34.0, 79.0, 912.0, 737.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5814,7 +5840,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 240.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -5829,7 +5855,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 255.0, 120.0, 120.0, 69.0 ],
+									"patching_rect" : [ 255.0, 120.0, 123.0, 69.0 ],
 									"style" : "",
 									"text" : "j.parameter key1/lock @type boolean @description \"Lock/unlock handle for key 1.\"",
 									"varname" : "tolerance[9]"
@@ -8036,9 +8062,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 435.0, 135.0, 120.0, 57.0 ],
+					"patching_rect" : [ 435.0, 135.0, 105.0, 57.0 ],
 					"style" : "",
-					"text" : "jit.gl.node default @name subnode @capture 1 @erase_color 0 0 0 1"
+					"text" : "jit.gl.node @name subnode @capture 1 @erase_color 0 0 0 1"
 				}
 
 			}
@@ -8071,7 +8097,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 405.0, 30.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -8240,6 +8266,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
