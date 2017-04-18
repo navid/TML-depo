@@ -1,0 +1,24 @@
+
+- preset "Château de Preset"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 0
+automatic 1
+bloom 0.140000
+blur 0.390000
+data/active 1
+data/bypass 0
+dim 720.000000 480.000000
+life 0.500000
+noise 0.400000
+number 20000
+rect 0.000000 0.000000 1.000000 1.000000
+size 0.170000
+texrect 0.000000 0.000000 1.000000 1.000000
+trail 0.890000
+# 
+# ###########################################
