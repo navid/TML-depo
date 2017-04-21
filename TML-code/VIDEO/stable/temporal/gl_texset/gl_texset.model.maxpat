@@ -313,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 960.0, 165.0, 210.0, 57.0 ],
+					"patching_rect" : [ 960.0, 165.0, 211.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter delay3 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 3, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[8]"
@@ -331,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 705.0, 165.0, 210.0, 57.0 ],
+					"patching_rect" : [ 705.0, 165.0, 211.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter delay2 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 2, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[7]"
@@ -349,7 +349,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 165.0, 210.0, 57.0 ],
+					"patching_rect" : [ 450.0, 165.0, 211.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter delay1 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 1, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[6]"
@@ -362,14 +362,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 405.0, 15.0, 180.0, 57.0 ],
+					"patching_rect" : [ 405.0, 15.0, 270.0, 45.0 ],
 					"style" : "",
-					"text" : "j.parameter quantity @type integer @range 0. 100. @description \"Quantity of frames to store.\" @clipmode low",
+					"text" : "j.parameter quantity @type integer @range 0. 100. @priority 1 @description \"Quantity of frames to store.\" @clipmode low",
 					"varname" : "tolerance[5]"
 				}
 
@@ -992,7 +992,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 30.0, 168.0, 26.0 ],
+					"patching_rect" : [ 15.0, 45.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
