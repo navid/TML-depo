@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -290,14 +290,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-53",
-					"linecount" : 7,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1215.0, 150.0, 135.0, 94.0 ],
+					"patching_rect" : [ 1215.0, 150.0, 180.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter delay4 @type float @range 0. 1. @clipmode both @repetitions/filter 1 @description \"Delay for output 4, expressed as a value from 0. to 1.\"",
+					"text" : "j.parameter delay4 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 4, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[10]"
 				}
 
@@ -308,14 +308,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-45",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 960.0, 150.0, 135.0, 94.0 ],
+					"patching_rect" : [ 960.0, 165.0, 210.0, 57.0 ],
 					"style" : "",
-					"text" : "j.parameter delay3 @type float @range 0. 1. @clipmode both @repetitions/filter 1 @description \"Delay for output 3, expressed as a value from 0. to 1.\"",
+					"text" : "j.parameter delay3 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 3, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[8]"
 				}
 
@@ -326,14 +326,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-41",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 705.0, 150.0, 135.0, 94.0 ],
+					"patching_rect" : [ 705.0, 165.0, 210.0, 57.0 ],
 					"style" : "",
-					"text" : "j.parameter delay2 @type float @range 0. 1. @clipmode both @repetitions/filter 1 @description \"Delay for output 2, expressed as a value from 0. to 1.\"",
+					"text" : "j.parameter delay2 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 2, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[7]"
 				}
 
@@ -344,14 +344,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-39",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 150.0, 135.0, 94.0 ],
+					"patching_rect" : [ 450.0, 165.0, 210.0, 57.0 ],
 					"style" : "",
-					"text" : "j.parameter delay1 @type float @range 0. 1. @clipmode both @repetitions/filter 1 @description \"Delay for output 1, expressed as a value from 0. to 1.\"",
+					"text" : "j.parameter delay1 @type float @range 0. 1. @clipmode both @priority 5 @description \"Delay for output 1, expressed as a value from 0. to 1.\"",
 					"varname" : "tolerance[6]"
 				}
 
@@ -395,7 +395,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-145",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -425,7 +425,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-143",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -455,7 +455,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-141",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -485,7 +485,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-139",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -513,11 +513,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-137",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 75.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -1020,7 +1020,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1234,7 +1234,7 @@
 					"destination" : [ "obj-24", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 459.5, 133.0, 600.3, 133.0 ],
+					"midpoints" : [ 459.5, 133.0, 600.299988, 133.0 ],
 					"source" : [ "obj-128", 0 ]
 				}
 
@@ -1327,7 +1327,7 @@
 					"destination" : [ "obj-16", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 549.5, 490.0, 582.7, 490.0 ],
+					"midpoints" : [ 549.5, 490.0, 582.700012, 490.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1424,7 +1424,7 @@
 					"destination" : [ "obj-17", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 804.5, 490.0, 837.7, 490.0 ],
+					"midpoints" : [ 804.5, 490.0, 837.700012, 490.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1443,7 +1443,7 @@
 					"destination" : [ "obj-20", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1059.5, 490.0, 1092.7, 490.0 ],
+					"midpoints" : [ 1059.5, 490.0, 1092.699951, 490.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1592,7 +1592,7 @@
 					"destination" : [ "obj-23", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1314.5, 490.0, 1347.7, 490.0 ],
+					"midpoints" : [ 1314.5, 490.0, 1347.699951, 490.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1611,7 +1611,7 @@
 					"destination" : [ "obj-109", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 714.5, 134.0, 855.3, 134.0 ],
+					"midpoints" : [ 714.5, 134.0, 855.299988, 134.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1621,7 +1621,7 @@
 					"destination" : [ "obj-26", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 294.5, 445.0, 327.7, 445.0 ],
+					"midpoints" : [ 294.5, 445.0, 327.700012, 445.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1833,7 +1833,7 @@
 					"destination" : [ "obj-77", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 969.5, 132.0, 1110.3, 132.0 ],
+					"midpoints" : [ 969.5, 132.0, 1110.300049, 132.0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -1862,7 +1862,7 @@
 					"destination" : [ "obj-87", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1224.5, 134.0, 1365.3, 134.0 ],
+					"midpoints" : [ 1224.5, 134.0, 1365.300049, 134.0 ],
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -1877,7 +1877,45 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.gl_group_slab.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sd.phoenix.texbank.js",
+				"bootpath" : "~/code/Git/TML-depo/TML-code/VIDEO/stable/temporal/gl_texset",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
