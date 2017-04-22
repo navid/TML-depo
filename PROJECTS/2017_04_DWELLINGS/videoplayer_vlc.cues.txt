@@ -1,0 +1,99 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/syphonclient/GL/blend/enable 0
+/syphonclient/GL/blend/mode 6.000000 7.000000
+/syphonclient/GL/color/inherit 0
+/syphonclient/GL/depth/clear 0
+/syphonclient/GL/depth/enable 1
+/syphonclient/GL/depth/inherit 0
+/syphonclient/GL/depth/write 1
+/syphonclient/GL/fog/amount 0.000000
+/syphonclient/GL/fog/inherit 0
+/syphonclient/GL/fog/params 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/light/enable 0
+/syphonclient/GL/material/ambient 0.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/material/automatic 1
+/syphonclient/GL/material/diffuse 0.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/material/emission 0.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/material/inherit 0
+/syphonclient/GL/material/matfile none
+/syphonclient/GL/material/name none
+/syphonclient/GL/material/shininess 10.000000
+/syphonclient/GL/material/specular 0.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/context default
+/syphonclient/GL/alpha 1.000000
+/syphonclient/GL/anchor 0.000000 0.000000 0.000000
+/syphonclient/GL/anim UID
+/syphonclient/GL/animmode none
+/syphonclient/GL/antialias 0
+/syphonclient/GL/automatic 1
+/syphonclient/GL/aux_alpha 1.000000
+/syphonclient/GL/aux_color 1.000000 1.000000 1.000000
+/syphonclient/GL/axes 0
+/syphonclient/GL/capture none
+/syphonclient/GL/cull_face 0
+/syphonclient/GL/enable 1
+/syphonclient/GL/filterclass default
+/syphonclient/GL/inherit_all 0
+/syphonclient/GL/inherit_texture 0
+/syphonclient/GL/layer 0
+/syphonclient/GL/line_width 1.000000
+/syphonclient/GL/matrixoutput 0
+/syphonclient/GL/point_size 1.000000
+/syphonclient/GL/poly_mode 0.000000 0.000000
+/syphonclient/GL/position 0.000000 0.000000 0.000000
+/syphonclient/GL/rotate 0.000000 0.000000 0.000000 1.000000
+/syphonclient/GL/scale 1.000000 1.000000 1.000000
+/syphonclient/GL/shader none
+/syphonclient/GL/smooth_shading 0
+/syphonclient/GL/tex_map 0
+/syphonclient/GL/tex_plane_s 1.000000 0.000000 0.000000 0.000000
+/syphonclient/GL/tex_plane_t 0.000000 1.000000 0.000000 0.000000
+/syphonclient/GL/texture none
+/syphonclient/GL/transform_reset 0
+/syphonclient/GL/viewalign 0
+/syphonclient/data/active 1
+/syphonclient/appname VLC
+/syphonclient/servername Video
+# 
+/cornerpin/data/active 1
+/cornerpin/context default
+/cornerpin/active 1
+/cornerpin/adapt 1
+/cornerpin/antialias 0
+/cornerpin/automatic 1
+/cornerpin/cornermode relative
+/cornerpin/corners 3
+/cornerpin/dim 720.000000 480.000000
+/cornerpin/interp 0
+/cornerpin/lower_left 0.000000 1.000000
+/cornerpin/lower_right 1.000000 1.000000
+/cornerpin/mouse 1
+/cornerpin/preserve_aspect 0
+/cornerpin/radius 60.000000
+/cornerpin/rect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/texrect 0.000000 0.000000 1.000000 1.000000
+/cornerpin/upper_left 0.000000 0.000000
+/cornerpin/upper_right 1.000000 0.000000
+# 
+/rota/data/active 1
+/rota/data/bypass 0
+/rota/context default
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.500000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode clear
+/rota/dim 720.000000 480.000000
+/rota/offset 0.000000 0.000000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 0.000000
+/rota/zoom 1.020000 1.020000
+# 
+# ###########################################
+
