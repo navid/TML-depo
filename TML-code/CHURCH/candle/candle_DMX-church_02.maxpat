@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 480.0, 88.0, 22.0 ],
-					"presentation_rect" : [ 327.0, 459.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "context candle"
 				}
@@ -59,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 435.0, 131.0, 35.0 ],
-					"presentation_rect" : [ 327.0, 414.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.initialized /cc_brcosa 1000"
 				}
@@ -974,10 +972,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-57" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-18" : [ "multislider", "multislider", 0 ],
 			"obj-23" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-31" : [ "toggle", "toggle", 0 ]
+			"obj-57" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-31" : [ "toggle", "toggle", 0 ],
+			"obj-18" : [ "multislider", "multislider", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1078,7 +1076,7 @@
 			}
 , 			{
 				"name" : "j.gl_mean%.maxpat",
-				"bootpath" : "~/Documents/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_3m%",
+				"bootpath" : "~/Documents/Github/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1119,6 +1117,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -1128,10 +1130,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
