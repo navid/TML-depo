@@ -222,7 +222,7 @@
 /ambience/input/limiter/threshold 0.000000
 /ambience/input/channel.L 1
 /ambience/input/channel.R 2
-/ambience/audio/gain 12.000000
+/ambience/audio/gain 2.336087
 /ambience/audio/mute 0
 # 
 /ambience/balance/mode FastMode
@@ -256,7 +256,7 @@
 /cue/balance/shape EqualPower
 /cue/clicktrain/rate 1.000000
 /cue/file/path /Users/theatre/Desktop/River_1/_Audio/Water_Song_by_the_Akwesasne_Women_Singers.wav
-/cue/file/loop 1
+/cue/file/loop 0
 /cue/file/play 0
 /cue/file/transpose 0.000000
 /cue/testtone/frequency 1000
@@ -358,7 +358,7 @@
 # 
 /output=/record/file/type aiff
 /output=/record/samptype int24
-/output=/audio/gain -2.000000
+/output=/audio/gain -11.399357
 /output=/audio/mute 0
 /output=/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
 # 
@@ -370,7 +370,7 @@
 /sc_motion/scale/window 500
 /sc_motion/function/symmetry none
 /sc_motion/function/parameter2 1.040000
-/sc_motion/function/parameter1 21.000000
+/sc_motion/function/parameter1 46.000000
 /sc_motion/data/active 1
 /sc_motion/data/bypass 0
 /sc_motion/filter/mode 0
@@ -385,14 +385,14 @@
 /sc_motion/schmitt/ramp 0
 /sc_motion/schmitt/upper 0.300000
 /sc_motion/slide/down 15
-/sc_motion/slide/up 15
+/sc_motion/slide/up 1
 /sc_motion/clip 1
 /sc_motion/diffMode 0
 /sc_motion/offset 0.000000
 /sc_motion/visualize 1
 # 
 /cornerpin/data/active 1
-/cornerpin/context water
+/cornerpin/context default
 /cornerpin/active 1
 /cornerpin/adapt 1
 /cornerpin/antialias 0
@@ -418,7 +418,7 @@
 /feathering/key1/lock 0
 /feathering/key1/position 0.000000 0.000000 0.000000
 /feathering/key1/rotate 0.000000 0.000000 0.000000 1.000000
-/feathering/key1/scale 1.284000 0.785000 0.000000
+/feathering/key1/scale 1.445000 0.810000 0.000000
 /feathering/key1/shape plane
 /feathering/key2/enable 0
 /feathering/key2/handle none
@@ -469,12 +469,12 @@
 /feathering/key8/rotate 0.000000 0.000000 0.000000
 /feathering/key8/scale 0.300000 0.300000 0.000000
 /feathering/key8/shape circle
-/feathering/context water
+/feathering/context default
 /feathering/active 1
 /feathering/adapt 1
 /feathering/antialias 0
 /feathering/automatic 1
-/feathering/blur 1.200000
+/feathering/blur 0.500000
 /feathering/dim 720.000000 480.000000
 /feathering/maskview 0
 /feathering/rect 0.000000 0.000000 1.000000 1.000000
@@ -484,15 +484,15 @@
 /movie%/framemotor/fps 25
 /movie%/data/active 1
 /movie%/data/bypass 0
-/movie%/file/path "Macintosh HD:/Users/theatre/Desktop/River_1/_Videos/river_bw_10.mp4"
+/movie%/file/path "Macintosh HD:/Users/theatre/Desktop/River_1/_Videos/She Falls For Ages-FINAL-2017-02-03.mov"
 /movie%/file/play 1
 /movie%/loop/mode loop
-/movie%/loop/points 0.000000 247680.000000
+/movie%/loop/points 0.000000 3783500.000000
 /movie%/loop/report 0
 /movie%/colormode argb
 /movie%/rate 1.000000
 /movie%/unique 1
-/movie%/dim 320.000000 240.000000
+/movie%/dim 640.000000 480.000000
 /movie%/adapt 0
 /movie%/vol 1.000000
 /movie%/output_texture 1
