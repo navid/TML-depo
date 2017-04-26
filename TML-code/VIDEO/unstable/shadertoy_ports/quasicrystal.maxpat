@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -272.0, 363.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 363.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.0, 165.0, 24.0, 24.0 ],
+					"patching_rect" : [ 224.0, 163.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 225.0, 81.0, 22.0 ],
+					"patching_rect" : [ 224.0, 223.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend time"
 				}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 525.0, 195.0, 45.0, 22.0 ],
+					"patching_rect" : [ 224.0, 193.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.time"
 				}
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 330.0, 225.0, 167.0, 22.0 ],
+					"patching_rect" : [ 29.0, 223.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.texture @dim 1920 1200"
+					"text" : "jit.gl.texture @dim 1920 1080"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 360.0, 300.0, 24.0, 24.0 ],
+					"patching_rect" : [ 59.0, 298.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 330.0, 345.0, 252.0, 22.0 ],
+					"patching_rect" : [ 29.0, 343.0, 252.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.world @erase_color 0 0 0 1 @fsmenubar 0"
 				}
@@ -212,7 +212,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param time (100.);\r\nParam zoom (0.3);\nParam points(7);\r\nParam offset(0,0);\r\nParam b(-1.);\r\nuv = zoom * (cell - dim/ 2.0);\n\nt = time * 3.1415;\n    \nx = uv.x+offset.x;\ny = uv.y+offset.y;\n    \n    \npii = acos(b);\n            \nvalue = 0.;\r\n\nfor(i = 0; i < points ; i+= 1){\n\tangle = pii / points * i;\n\n\tw = x * sin(angle) + y * cos(angle);\n\n\tvalue += sin(w + t);\r\n};\n        \ncolor = 1.5*(sin(value * pii / 2) + 1.6);\n\nif(color > 0.0) {\n\t\tout1 = color*vec(1,1,1,0); \n\t} else {\n//fragColor = vec4(med, med, low,1.0);\n\t\tout1 = -color + vec(1,0,1,0); \n}\r\n//out1 = 1.5*sin(0.002*pii/2)+1.-vec(0,1/5.2,0);",
+									"code" : "Param time (100.);\r\nParam zoom (0.3);\nParam points(7);\r\nParam offset(0,0);\r\nParam b(-1.);\r\nuv = zoom * (cell - dim/ 2.0);\n\nt = time * 3.1415;\n    \nx = uv.x+offset.x;\ny = uv.y+offset.y;\n    \n    \npii = acos(b);\n            \nvalue = 0.;\r\n\nfor(i = 0; i < points ; i+= 1){\n\tangle = pii / points * i;\n\n\tw = x * sin(angle) + y * cos(angle);\n\n\tvalue += sin(w + t);\r\n};\n        \ncolor = 1.5*(sin(value * pii / 2) + 1.6);\n\nif(color > 0.0) {\n\t\tout1 = color-vec(0,1.5,2,0); \n\t} else {\n//fragColor = vec4(med, med, low,1.0);\n\t\tout1 = -color - vec(1,1.5,1,0); \n}\r\n//out1 = 1.5*sin(0.002*pii/2)+1.-vec(0,1/5.2,0);",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -260,7 +260,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 330.0, 270.0, 51.0, 22.0 ],
+					"patching_rect" : [ 29.0, 268.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix"
 				}
@@ -274,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 120.0, 150.0, 22.0 ],
+					"patching_rect" : [ 224.0, 118.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -287,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 60.0, 150.0, 22.0 ],
+					"patching_rect" : [ 224.0, 58.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -300,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 90.0, 210.0, 22.0 ],
+					"patching_rect" : [ 224.0, 88.0, 210.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -313,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 197.0, 150.0, 22.0 ],
+					"patching_rect" : [ 30.0, 195.0, 150.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -333,7 +333,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 534.5, 264.0, 339.5, 264.0 ],
+					"midpoints" : [ 233.5, 262.0, 38.5, 262.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -343,7 +343,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 534.5, 144.0, 507.0, 144.0, 507.0, 264.0, 339.5, 264.0 ],
+					"midpoints" : [ 233.5, 142.0, 206.0, 142.0, 206.0, 262.0, 38.5, 262.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -353,7 +353,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 534.5, 84.0, 507.0, 84.0, 507.0, 264.0, 339.5, 264.0 ],
+					"midpoints" : [ 233.5, 82.0, 206.0, 82.0, 206.0, 262.0, 38.5, 262.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -363,7 +363,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 534.5, 114.0, 507.0, 114.0, 507.0, 264.0, 339.5, 264.0 ],
+					"midpoints" : [ 233.5, 112.0, 206.0, 112.0, 206.0, 262.0, 38.5, 262.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -373,7 +373,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 456.0, 378.0, 315.0, 378.0, 315.0, 219.0, 339.5, 219.0 ],
+					"midpoints" : [ 155.0, 376.0, 14.0, 376.0, 14.0, 217.0, 38.5, 217.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
