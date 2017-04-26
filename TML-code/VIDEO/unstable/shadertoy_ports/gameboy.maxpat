@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 811.0, -692.0, 640.0, 496.0 ],
+		"rect" : [ 811.0, 79.0, 640.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 195.0, 300.0, 22.0 ],
-					"presentation_rect" : [ 420.0, 224.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 165.0, 300.0, 22.0 ],
-					"presentation_rect" : [ 420.0, 183.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -113,7 +111,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 135.0, 300.0, 22.0 ],
-					"presentation_rect" : [ 420.0, 149.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -196,7 +193,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -314,7 +311,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patcher" : 					{
@@ -323,11 +320,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 236.0, 127.0, 1170.0, 733.0 ],
+						"rect" : [ 333.0, 334.0, 1170.0, 733.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -356,19 +353,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 720.0, 0.0, 30.0, 22.0 ],
-									"style" : "",
-									"text" : "in 2"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"linecount" : 3,
@@ -409,7 +393,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param GB_LINES(0); // lines dont look good with dithering\nParam GB_DESATURATE_BRIGHTER(0);\nParam GB_RESOLUTION(8.0);\nParam GB_DITHERING(0); // 0: no dither, 1: checkers dithering\r\nParam colorbase(1.,1.,1.,1.);\r\nParam passthru(0);\r\nuv = norm/GB_RESOLUTION;\r\n\r\ncolor1 = vec(0.00);\r\ncolor2 = vec(0.25);\r\ncolor3 = vec(0.50);\r\ncolor4 = vec(1.00);\r\n\r\nif (passthru < 1){\ncolor1 = vec(colorbase.r*0.25, colorbase.g*0.25, colorbase.b*0.25, 1.); \ncolor2 = vec(colorbase.r*0.50, colorbase.g*0.50, colorbase.b*0.50, 1.);\ncolor3 = vec(colorbase.r*0.75, colorbase.g*0.75, colorbase.b*0.75, 1.);\ncolor4 = vec(colorbase.r*1.00, colorbase.g*1.00, colorbase.b*1.00, 1.);\n}else{\r\n\r\ncolor1 = vec(sample(in1,uv).r*0.25, sample(in1,uv).g*0.25, sample(in1,uv).b*0.25, 1.); \ncolor2 = vec(sample(in1,uv).r*0.50, sample(in1,uv).g*0.50, sample(in1,uv).b*0.50, 1.);\ncolor3 = vec(sample(in1,uv).r*0.75, sample(in1,uv).g*0.75, sample(in1,uv).b*0.75, 1.);\ncolor4 = vec(sample(in1,uv).r*1.00, sample(in1,uv).g*1.00, sample(in1,uv).b*1.00, 1.);\n}\r\n\r\nif(GB_LINES > 0) {\r\n\tlineTest = GB_LINES - 0.45;\r\n\tif (mod(cell.x, GB_RESOLUTION) < lineTest || mod(cell.y, GB_RESOLUTION) < lineTest){\r\n\t\tout1 = (color3 + color4 *2.) / 3.;\r\n\t\treturn;\r\n\t}\r\n}\nnearestFragCoord = cell.xy - fract(cell.xy / GB_RESOLUTION) * GB_RESOLUTION; //not needed with nearest\nuv = (nearestFragCoord.xy / dim.xy) / GB_RESOLUTION;\r\n  \nif (GB_DITHERING == 1){\n\tlevel = max(1.0, ceil(sample(in1,uv).r * 7.));\n    dither = mod((floor(cell.y / GB_RESOLUTION) + floor(cell.x / GB_RESOLUTION)), 2.);\n    \n    \n    if (mod(level, 2.) < 1.) {\n        level += (1 - dither * 2);\n    }\n            \n    if(level == 1) out1 = color1;\n\t\telse if(level == 3) out1 = color2;\n\t\telse if(level == 5) out1 = color3;\n\t\telse if(level == 7) out1 = color4;\n            \n\tif (GB_DESATURATE_BRIGHTER > 0){\r\n    \tout1 = (out1 + vec(level / 7., level / 7., level / 7., 1.)) / 2.;\r\n\t}\r\n}\nelse{\n    level = max(1.0, ceil(sample(in1,uv).r * 4.));\n            \n    if(level == 1) out1 = color1;\n\t\telse if(level == 2) out1 = color2;\n\t\telse if(level == 3) out1 = color3;\n\t\telse out1 = color4;\n         \n\tif (GB_DESATURATE_BRIGHTER > 0){\n    \tout1 = (out1 + vec(level / 4., level / 4., level / 4., 1.)) / 2.;\n\t}\n}",
+									"code" : "Param GB_LINES(0); // lines dont look good with dithering\nParam GB_DESATURATE_BRIGHTER(0);\nParam GB_RESOLUTION(8.0);\nParam GB_DITHERING(0); // 0: no dither, 1: checkers dithering\r\nParam colorbase(1.,1.,1.,1.);\r\nParam passthru(0);\r\nuv = norm/GB_RESOLUTION;\r\n\r\ncolor1 = vec(0.00);\r\ncolor2 = vec(0.25);\r\ncolor3 = vec(0.50);\r\ncolor4 = vec(1.00);\r\n\r\nif (passthru < 1){\ncolor1 = vec(colorbase.r*0.25, colorbase.g*0.25, colorbase.b*0.25, 1.); \ncolor2 = vec(colorbase.r*0.50, colorbase.g*0.50, colorbase.b*0.50, 1.);\ncolor3 = vec(colorbase.r*0.75, colorbase.g*0.75, colorbase.b*0.75, 1.);\ncolor4 = vec(colorbase.r*1.00, colorbase.g*1.00, colorbase.b*1.00, 1.);\n}else{\r\ncolor1 = vec(sample(in1,uv).r*0.25, sample(in1,uv).g*0.25, sample(in1,uv).b*0.25, 1.); \ncolor2 = vec(sample(in1,uv).r*0.50, sample(in1,uv).g*0.50, sample(in1,uv).b*0.50, 1.);\ncolor3 = vec(sample(in1,uv).r*0.75, sample(in1,uv).g*0.75, sample(in1,uv).b*0.75, 1.);\ncolor4 = vec(sample(in1,uv).r*1.00, sample(in1,uv).g*1.00, sample(in1,uv).b*1.00, 1.);\n}\r\n\r\nif(GB_LINES > 0) {\r\n\tlineTest = GB_LINES;\r\n\tif (mod(cell.x, GB_RESOLUTION) < lineTest || mod(cell.y, GB_RESOLUTION) < lineTest){\r\n\t\tout1 = (color3 + color4 *2.) / 3.;\r\n\t\treturn;\r\n\t}\r\n}\nnearestFragCoord = cell.xy - fract(cell.xy / GB_RESOLUTION) * GB_RESOLUTION; //not needed with nearest\nuv = (nearestFragCoord.xy / dim.xy) / GB_RESOLUTION;\r\n  \nif (GB_DITHERING == 1){\n\tlevel = max(1.0, ceil(sample(in1,uv).r * 7.));\n    dither = mod((floor(cell.y / GB_RESOLUTION) + floor(cell.x / GB_RESOLUTION)), 2.);\n    \n    \n    if (mod(level, 2.) < 1.) {\n        level += (1 - dither * 2);\n    }\n            \n    if(level == 1) out1 = color1;\n\t\telse if(level == 3) out1 = color2;\n\t\telse if(level == 5) out1 = color3;\n\t\telse if(level == 7) out1 = color4;\n            \n\tif (GB_DESATURATE_BRIGHTER > 0){\r\n    \tout1 = (out1 + vec(level / 7., level / 7., level / 7., 1.)) / 2.;\r\n\t}\r\n}\nelse{\n    level = max(1.0, ceil(sample(in1,uv).r * 4.));\n            \n    if(level == 1) out1 = color1;\n\t\telse if(level == 2) out1 = color2;\n\t\telse if(level == 3) out1 = color3;\n\t\telse out1 = color4;\n         \n\tif (GB_DESATURATE_BRIGHTER > 0){\n    \tout1 = (out1 + vec(level / 4., level / 4., level / 4., 1.)) / 2.;\n\t}\n}",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
