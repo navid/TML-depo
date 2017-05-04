@@ -1,19 +1,24 @@
+#include <Wire.h>
+#include <Adafruit_MCP4725.h>
+
+Adafruit_MCP4725 dac;
+
 // for incoming Max serial data
-int maxByte = 0;   
+int maxByte = 0;
 
 // declaring individual relays
-int sol1 = 1;
-int sol2 = 2;
-int sol3 = 3;
-int sol4 = 4;
-int sol5 = 5;
-int sol6 = 6;
-int sol7 = 7;
-int sol8 = 8;
+int sol1 = 10;
+int sol2 = 9;
+int sol3 = 8;
+int sol4 = 7;
+int sol5 = 6;
+int sol6 = 5;
+int sol7 = 4;
+int sol8 = 3;
 
 void setup() {
         // open serial port @ rate of 9600bps
-        Serial.begin(9600);
+        Serial.begin(115200);
         
         // define pins
         pinMode(sol1, OUTPUT);
@@ -24,6 +29,8 @@ void setup() {
         pinMode(sol6, OUTPUT);
         pinMode(sol7, OUTPUT);
         pinMode(sol8, OUTPUT);
+
+        dac.begin(0x62);
 }
 
 void loop() {
@@ -42,6 +49,7 @@ void loop() {
                 byte bit5 = bitRead(maxByte, 2);  
                 byte bit6 = bitRead(maxByte, 1);
                 byte bit7 = bitRead(maxByte, 0);
+                byte bit8 = bitRead(maxByte, 8);
                 
                 if (bit0 == 1)digitalWrite(sol1, LOW);
                 if (bit0 == 0)digitalWrite(sol1, HIGH);
@@ -66,6 +74,8 @@ void loop() {
                 
                 if (bit7 == 1)digitalWrite(sol8, LOW);
                 if (bit7 == 0)digitalWrite(sol8, HIGH);
+
+                
         }
 }
  
