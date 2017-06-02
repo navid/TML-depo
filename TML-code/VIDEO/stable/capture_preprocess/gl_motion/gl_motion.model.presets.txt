@@ -7,16 +7,15 @@ context default
 active 1
 adapt 1
 antialias 0
-attack 0.000000
 automatic 1
-blur 0.600000
+blur 0.100000
 colour 0
 data/active 1
 data/bypass 0
-decay 0.800000
 denoise 1
 dim 720.000000 480.000000
 edge 0
+framediff 1
 gl_cf_gaussian_2p/context default
 gl_cf_gaussian_2p/active 1
 gl_cf_gaussian_2p/adapt 1
@@ -27,8 +26,8 @@ gl_cf_gaussian_2p/data/bypass 0
 gl_cf_gaussian_2p/dim 720.000000 480.000000
 gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
 gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
-gl_cf_gaussian_2p/width/x 0.600000
-gl_cf_gaussian_2p/width/y 0.600000
+gl_cf_gaussian_2p/width/x 0.100000
+gl_cf_gaussian_2p/width/y 0.100000
 gl_pix_roberts/context default
 gl_pix_roberts/active 1
 gl_pix_roberts/adapt 1
@@ -39,19 +38,7 @@ gl_pix_roberts/data/bypass 0
 gl_pix_roberts/dim 720.000000 480.000000
 gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
 gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
-gl_pix_roberts/weight 0.100000
-gl_pix_slide/context default
-gl_pix_slide/active 1
-gl_pix_slide/adapt 1
-gl_pix_slide/antialias 0
-gl_pix_slide/attack 0.000000
-gl_pix_slide/automatic 1
-gl_pix_slide/data/active 1
-gl_pix_slide/data/bypass 0
-gl_pix_slide/decay 0.800000
-gl_pix_slide/dim 720.000000 480.000000
-gl_pix_slide/rect 0.000000 0.000000 1.000000 1.000000
-gl_pix_slide/texrect 0.000000 0.000000 1.000000 1.000000
+gl_pix_roberts/weight 0.351000
 gl_pix_sobel/context default
 gl_pix_sobel/active 1
 gl_pix_sobel/adapt 1
@@ -62,7 +49,7 @@ gl_pix_sobel/data/bypass 0
 gl_pix_sobel/dim 720.000000 480.000000
 gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
 gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
-gl_pix_sobel/weight 0.100000
+gl_pix_sobel/weight 0.351000
 gl_pix_thresh/context default
 gl_pix_thresh/active 1
 gl_pix_thresh/adapt 1
@@ -76,10 +63,40 @@ gl_pix_thresh/select 0
 gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
 gl_pix_thresh/thresh 0.100000
 invert 0
+operator 0
+post_slide/context default
+post_slide/active 1
+post_slide/adapt 1
+post_slide/antialias 0
+post_slide/attack 0.900000
+post_slide/automatic 1
+post_slide/data/active 1
+post_slide/data/bypass 0
+post_slide/decay 0.000000
+post_slide/dim 720.000000 480.000000
+post_slide/rect 0.000000 0.000000 1.000000 1.000000
+post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+postslide 0
+postslide_down 0.000000
+postslide_up 0.000000
+pre_slide/context default
+pre_slide/active 1
+pre_slide/adapt 1
+pre_slide/antialias 0
+pre_slide/attack 0.000000
+pre_slide/automatic 1
+pre_slide/data/active 1
+pre_slide/data/bypass 0
+pre_slide/decay 0.000000
+pre_slide/dim 720.000000 480.000000
+pre_slide/rect 0.000000 0.000000 1.000000 1.000000
+pre_slide/texrect 0.000000 0.000000 1.000000 1.000000
+preslide 0
+preslide_down 0.000000
+preslide_up 0.000000
 rect 0.000000 0.000000 1.000000 1.000000
-slide 1
 texrect 0.000000 0.000000 1.000000 1.000000
 threshold 0.100000
-weight 0.100000
+weight 0.351000
 # 
 # ###########################################

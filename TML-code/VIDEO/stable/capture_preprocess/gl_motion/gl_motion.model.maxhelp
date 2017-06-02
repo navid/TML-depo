@@ -137,6 +137,32 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 390.0, 155.0, 22.0 ],
+									"style" : "",
+									"text" : "j.initialized /gl_motion 2000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 420.0, 89.0, 22.0 ],
+									"style" : "",
+									"text" : "read bball.mov"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"format" : 6,
 									"id" : "obj-32",
 									"maxclass" : "flonum",
@@ -144,7 +170,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 45.0, 570.0, 50.0, 22.0 ],
+									"patching_rect" : [ 45.0, 630.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -158,7 +184,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 360.0, 615.0, 50.0, 22.0 ],
+									"patching_rect" : [ 360.0, 675.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -172,7 +198,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 300.0, 615.0, 50.0, 22.0 ],
+									"patching_rect" : [ 300.0, 675.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -186,7 +212,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 135.0, 570.0, 50.0, 22.0 ],
+									"patching_rect" : [ 135.0, 630.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -200,7 +226,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 240.0, 570.0, 50.0, 22.0 ],
+									"patching_rect" : [ 240.0, 630.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -212,7 +238,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 300.0, 570.0, 63.0, 22.0 ],
+									"patching_rect" : [ 300.0, 630.0, 63.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack f f"
 								}
@@ -226,7 +252,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 300.0, 510.0, 99.0, 35.0 ],
+									"patching_rect" : [ 300.0, 570.0, 99.0, 35.0 ],
 									"style" : "",
 									"text" : "j.receive /gl_motion/mean"
 								}
@@ -241,7 +267,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 195.0, 570.0, 15.0, 75.0 ],
+									"patching_rect" : [ 195.0, 630.0, 15.0, 75.0 ],
 									"size" : 1.0,
 									"style" : ""
 								}
@@ -255,7 +281,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 195.0, 510.0, 98.0, 35.0 ],
+									"patching_rect" : [ 195.0, 570.0, 98.0, 35.0 ],
 									"style" : "",
 									"text" : "j.receive /gl_motion/mass"
 								}
@@ -270,7 +296,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 105.0, 570.0, 15.0, 75.0 ],
+									"patching_rect" : [ 105.0, 630.0, 15.0, 75.0 ],
 									"size" : 1.0,
 									"style" : ""
 								}
@@ -285,7 +311,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 615.0, 75.0, 15.0 ],
+									"patching_rect" : [ 15.0, 675.0, 75.0, 15.0 ],
 									"size" : 1.0,
 									"style" : ""
 								}
@@ -299,7 +325,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 105.0, 510.0, 75.0, 35.0 ],
+									"patching_rect" : [ 105.0, 570.0, 75.0, 35.0 ],
 									"style" : "",
 									"text" : "j.receive /gl_motion/y"
 								}
@@ -313,7 +339,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 15.0, 510.0, 75.0, 35.0 ],
+									"patching_rect" : [ 15.0, 570.0, 75.0, 35.0 ],
 									"style" : "",
 									"text" : "j.receive /gl_motion/x"
 								}
@@ -326,9 +352,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 375.0, 377.0, 22.0 ],
+									"patching_rect" : [ 15.0, 450.0, 259.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.movie @moviefile bball.mov @vol 0 @unique 1 @output_texture 1"
+									"text" : "jit.movie @vol 0 @unique 1 @output_texture 1"
 								}
 
 							}
@@ -339,7 +365,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 465.0, 242.0, 22.0 ],
+									"patching_rect" : [ 15.0, 510.0, 242.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane default @transform_reset 2"
 								}
@@ -406,7 +432,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 420.0, 154.0, 22.0 ],
+									"patching_rect" : [ 15.0, 480.0, 154.0, 22.0 ],
 									"style" : "",
 									"text" : "gl_motion.model gl_motion"
 								}
@@ -497,8 +523,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -712,6 +752,13 @@
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.initialized.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
