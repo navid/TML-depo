@@ -1,0 +1,4431 @@
+- cue "1"
+- description "something about this cue"
+# ###########################################
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 1280.000000 720.000000
+/timespace/fade 5.000000
+/timespace/frames 25
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/saturation 0.000000
+/brcosa1/contrast 2.000000
+/brcosa1/context default
+/brcosa1/active 1
+/brcosa1/automatic 1
+/brcosa1/antialias 0
+/brcosa1/adapt 1
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/brightness 1.000000
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+# 
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/context default
+/bgsub1/active 1
+/bgsub1/automatic 1
+/bgsub1/antialias 0
+/bgsub1/adapt 1
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+# 
+/thresh/select 0
+/thresh/thresh 0.100000
+/thresh/context default
+/thresh/active 1
+/thresh/automatic 1
+/thresh/antialias 0
+/thresh/adapt 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/dim 720.000000 480.000000
+/thresh/data/active 1
+/thresh/data/bypass 0
+# 
+/erode/width 0.000000
+/erode/context default
+/erode/active 1
+/erode/automatic 1
+/erode/antialias 0
+/erode/adapt 1
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/dim 720.000000 480.000000
+/erode/data/active 1
+/erode/data/bypass 0
+# 
+/gauss/width/y 1.000000
+/gauss/width/x 1.000000
+/gauss/context default
+/gauss/active 1
+/gauss/automatic 1
+/gauss/antialias 0
+/gauss/adapt 1
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/dim 720.000000 480.000000
+/gauss/data/active 1
+/gauss/data/bypass 0
+# 
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/context default
+/slide1/active 1
+/slide1/automatic 1
+/slide1/antialias 0
+/slide1/adapt 1
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/dim 720.000000 480.000000
+/slide1/data/active 1
+/slide1/data/bypass 0
+# 
+/rota1/context default
+/rota1/active 1
+/rota1/automatic 1
+/rota1/antialias 0
+/rota1/adapt 1
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/dim 720.000000 480.000000
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/boundmode wrap
+/rota1/theta 0.000000
+/rota1/anchor 0.500000 0.500000
+/rota1/offset 0.000000 0.000000
+/rota1/zoom 0.500000 0.500000
+# 
+/motion/slide 1
+/motion/attack 0.000000
+/motion/decay 0.800000
+/motion/blur 0.600000
+/motion/colour 0
+/motion/invert 0
+/motion/weight 0.100000
+/motion/data/active 1
+/motion/data/bypass 0
+/motion/context default
+/motion/active 1
+/motion/automatic 1
+/motion/antialias 0
+/motion/adapt 1
+/motion/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/rect 0.000000 0.000000 1.000000 1.000000
+/motion/dim 720.000000 480.000000
+/motion/edge 0
+# 
+/motion/gl_pix_sobel/weight 0.100000
+/motion/gl_pix_sobel/context default
+/motion/gl_pix_sobel/active 1
+/motion/gl_pix_sobel/automatic 1
+/motion/gl_pix_sobel/antialias 0
+/motion/gl_pix_sobel/adapt 1
+/motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/dim 720.000000 480.000000
+/motion/gl_pix_sobel/data/active 1
+/motion/gl_pix_sobel/data/bypass 0
+# 
+/motion/gl_pix_roberts/weight 0.100000
+/motion/gl_pix_roberts/context default
+/motion/gl_pix_roberts/active 1
+/motion/gl_pix_roberts/automatic 1
+/motion/gl_pix_roberts/antialias 0
+/motion/gl_pix_roberts/adapt 1
+/motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/dim 720.000000 480.000000
+/motion/gl_pix_roberts/data/active 1
+/motion/gl_pix_roberts/data/bypass 0
+# 
+/motion/gl_pix_slide/decay 0.900000
+/motion/gl_pix_slide/attack 0.900000
+/motion/gl_pix_slide/context default
+/motion/gl_pix_slide/active 1
+/motion/gl_pix_slide/automatic 1
+/motion/gl_pix_slide/antialias 0
+/motion/gl_pix_slide/adapt 1
+/motion/gl_pix_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_slide/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_slide/dim 720.000000 480.000000
+/motion/gl_pix_slide/data/active 1
+/motion/gl_pix_slide/data/bypass 0
+/motion/denoise 1
+/motion/threshold 0.100000
+# 
+/motion/gl_pix_thresh/select 0
+/motion/gl_pix_thresh/thresh 0.100000
+/motion/gl_pix_thresh/context default
+/motion/gl_pix_thresh/active 1
+/motion/gl_pix_thresh/automatic 1
+/motion/gl_pix_thresh/antialias 0
+/motion/gl_pix_thresh/adapt 1
+/motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/dim 720.000000 480.000000
+/motion/gl_pix_thresh/data/active 1
+/motion/gl_pix_thresh/data/bypass 0
+# 
+/motion/gl_cf_gaussian_2p/width/y 1.000000
+/motion/gl_cf_gaussian_2p/width/x 1.000000
+/motion/gl_cf_gaussian_2p/context default
+/motion/gl_cf_gaussian_2p/active 1
+/motion/gl_cf_gaussian_2p/automatic 1
+/motion/gl_cf_gaussian_2p/antialias 0
+/motion/gl_cf_gaussian_2p/adapt 1
+/motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/motion/gl_cf_gaussian_2p/data/active 1
+/motion/gl_cf_gaussian_2p/data/bypass 0
+# 
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/context default
+/slide2/active 1
+/slide2/automatic 1
+/slide2/antialias 0
+/slide2/adapt 1
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/dim 720.000000 480.000000
+/slide2/data/active 1
+/slide2/data/bypass 0
+# 
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/context default
+/slide3_TS/active 1
+/slide3_TS/automatic 1
+/slide3_TS/antialias 0
+/slide3_TS/adapt 1
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+# 
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/context default
+/slide4TS/active 1
+/slide4TS/automatic 1
+/slide4TS/antialias 0
+/slide4TS/adapt 1
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+# 
+/gauss2/width/y 1.000000
+/gauss2/width/x 1.000000
+/gauss2/context default
+/gauss2/active 1
+/gauss2/automatic 1
+/gauss2/antialias 0
+/gauss2/adapt 1
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/dim 720.000000 480.000000
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+# 
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/context default
+/slide5_luma/active 1
+/slide5_luma/automatic 1
+/slide5_luma/antialias 0
+/slide5_luma/adapt 1
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+# 
+/luma/context default
+/luma/active 1
+/luma/automatic 1
+/luma/antialias 0
+/luma/adapt 1
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/dim 720.000000 480.000000
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/fade 1.000000
+/luma/tol 0.000000
+/luma/luma 0.000000
+/luma/binary 1
+/luma/mode 0
+# 
+/brcosa_luma/saturation 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/context default
+/brcosa_luma/active 1
+/brcosa_luma/automatic 1
+/brcosa_luma/antialias 0
+/brcosa_luma/adapt 1
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+# 
+/rota_luma/context default
+/rota_luma/active 1
+/rota_luma/automatic 1
+/rota_luma/antialias 0
+/rota_luma/adapt 1
+/rota_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/rect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/dim 720.000000 480.000000
+/rota_luma/data/active 1
+/rota_luma/data/bypass 0
+/rota_luma/boundmode wrap
+/rota_luma/theta 0.000000
+/rota_luma/anchor 0.500000 0.500000
+/rota_luma/offset 0.000000 0.000000
+/rota_luma/zoom 0.500000 0.500000
+# 
+/brcosa_output/saturation 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/automatic 1
+/brcosa_output/antialias 0
+/brcosa_output/adapt 1
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/brightness 1.000000
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+# 
+# ###########################################
+
+- cue "3"
+- description "something about this cue"
+# ###########################################
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "4"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/motion/gl_cf_gaussian_2p/data/active 1
+/motion/gl_cf_gaussian_2p/data/bypass 0
+/motion/gl_cf_gaussian_2p/width/x 1.000000
+/motion/gl_cf_gaussian_2p/width/y 1.000000
+/motion/gl_cf_gaussian_2p/context default
+/motion/gl_cf_gaussian_2p/active 1
+/motion/gl_cf_gaussian_2p/adapt 1
+/motion/gl_cf_gaussian_2p/antialias 0
+/motion/gl_cf_gaussian_2p/automatic 1
+/motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/motion/gl_pix_roberts/data/active 1
+/motion/gl_pix_roberts/data/bypass 0
+/motion/gl_pix_roberts/context default
+/motion/gl_pix_roberts/active 1
+/motion/gl_pix_roberts/adapt 1
+/motion/gl_pix_roberts/antialias 0
+/motion/gl_pix_roberts/automatic 1
+/motion/gl_pix_roberts/dim 720.000000 480.000000
+/motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_roberts/weight 0.100000
+# 
+/motion/gl_pix_slide/data/active 1
+/motion/gl_pix_slide/data/bypass 0
+/motion/gl_pix_slide/context default
+/motion/gl_pix_slide/active 1
+/motion/gl_pix_slide/adapt 1
+/motion/gl_pix_slide/antialias 0
+/motion/gl_pix_slide/attack 0.900000
+/motion/gl_pix_slide/automatic 1
+/motion/gl_pix_slide/decay 0.900000
+/motion/gl_pix_slide/dim 720.000000 480.000000
+/motion/gl_pix_slide/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_slide/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/motion/gl_pix_sobel/data/active 1
+/motion/gl_pix_sobel/data/bypass 0
+/motion/gl_pix_sobel/context default
+/motion/gl_pix_sobel/active 1
+/motion/gl_pix_sobel/adapt 1
+/motion/gl_pix_sobel/antialias 0
+/motion/gl_pix_sobel/automatic 1
+/motion/gl_pix_sobel/dim 720.000000 480.000000
+/motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_sobel/weight 0.100000
+# 
+/motion/gl_pix_thresh/data/active 1
+/motion/gl_pix_thresh/data/bypass 0
+/motion/gl_pix_thresh/context default
+/motion/gl_pix_thresh/active 1
+/motion/gl_pix_thresh/adapt 1
+/motion/gl_pix_thresh/antialias 0
+/motion/gl_pix_thresh/automatic 1
+/motion/gl_pix_thresh/dim 720.000000 480.000000
+/motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/select 0
+/motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/gl_pix_thresh/thresh 0.100000
+/motion/data/active 1
+/motion/data/bypass 0
+/motion/context default
+/motion/active 1
+/motion/adapt 1
+/motion/antialias 0
+/motion/attack 0.000000
+/motion/automatic 1
+/motion/blur 0.600000
+/motion/colour 0
+/motion/decay 0.800000
+/motion/denoise 1
+/motion/dim 720.000000 480.000000
+/motion/edge 0
+/motion/invert 0
+/motion/rect 0.000000 0.000000 1.000000 1.000000
+/motion/slide 1
+/motion/texrect 0.000000 0.000000 1.000000 1.000000
+/motion/threshold 0.100000
+/motion/weight 0.100000
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 3.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota_luma/data/active 1
+/rota_luma/data/bypass 0
+/rota_luma/context output
+/rota_luma/active 1
+/rota_luma/adapt 1
+/rota_luma/anchor 0.500000 0.500000
+/rota_luma/antialias 0
+/rota_luma/automatic 1
+/rota_luma/boundmode wrap
+/rota_luma/dim 720.000000 480.000000
+/rota_luma/offset 0.000000 0.000000
+/rota_luma/rect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/theta 0.000000
+/rota_luma/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 20.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 20.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 20.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 20.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "5"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 5.300000
+/brcosa1/contrast 2.033000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 2.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 2.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 0
+/gauss/width/x 0.059000
+/gauss/width/y 0.083000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota_luma/data/active 1
+/rota_luma/data/bypass 0
+/rota_luma/context output
+/rota_luma/active 1
+/rota_luma/adapt 1
+/rota_luma/anchor 0.500000 0.500000
+/rota_luma/antialias 0
+/rota_luma/automatic 1
+/rota_luma/boundmode wrap
+/rota_luma/dim 720.000000 480.000000
+/rota_luma/offset 0.000000 0.000000
+/rota_luma/rect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/theta 0.000000
+/rota_luma/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 6.000000
+/slide1/slide_up 20.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 103.000000
+/slide2/slide_up 29.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 20.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 16
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "6"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 10.000000
+/bgsub1/pre_slide_up 5.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 5.300000
+/brcosa1/contrast 2.033000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 2.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 2.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 0
+/gauss/width/x 0.059000
+/gauss/width/y 0.083000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota_luma/data/active 1
+/rota_luma/data/bypass 0
+/rota_luma/context output
+/rota_luma/active 1
+/rota_luma/adapt 1
+/rota_luma/anchor 0.500000 0.500000
+/rota_luma/antialias 0
+/rota_luma/automatic 1
+/rota_luma/boundmode wrap
+/rota_luma/dim 720.000000 480.000000
+/rota_luma/offset 0.000000 0.000000
+/rota_luma/rect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/texrect 0.000000 0.000000 1.000000 1.000000
+/rota_luma/theta 0.000000
+/rota_luma/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 6.000000
+/slide1/slide_up 20.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 103.000000
+/slide2/slide_up 29.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 20.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 16
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "7"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.033000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 2.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 2.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 1.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 0
+/gauss/width/x 0.059000
+/gauss/width/y 0.083000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 1
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 6.000000
+/slide1/slide_up 20.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 103.000000
+/slide2/slide_up 29.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 20.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 1
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 5.000000
+/slide5_luma/slide_up 5.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 16
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "8"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 30.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 2.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 1
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 20.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 1
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 20.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 1
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 20.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 1
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 20.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "9"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 3.000000
+/bgsub1/pre_slide_up 3.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 1
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 22.299999
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 6.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 1
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 20.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 24
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "10"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 1
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 22.299999
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 1
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 20.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 24
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "11"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 1.000000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 144.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 156.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 60.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "12"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 0.500000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 144.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 156.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 60.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "13"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 0.500000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 50.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "14"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 10.000000
+/bgsub1/pre_slide_up 10.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 0.000000
+/luma/luma 0.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 50.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 1
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "15_white_on_black_background"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 2.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.200000
+/brcosa_luma/contrast 1.500000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 0
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 0.500000
+/luma/luma 0.000000
+/luma/mode 1
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.000000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 144.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 156.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 60.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "16_same"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 0.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 20.000000
+/bgsub1/pre_slide_up 20.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 0
+/luma/dim 720.000000 480.000000
+/luma/fade 0.100000
+/luma/luma 1.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.153000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 101.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "20_w_bloom"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 10.000000
+/bgsub1/post_slide_up 1.000000
+/bgsub1/pre_slide_down 10.000000
+/bgsub1/pre_slide_up 10.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.250000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 0
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 0
+/luma/dim 720.000000 480.000000
+/luma/fade 0.100000
+/luma/luma 1.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.153000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota2/data/active 1
+/rota2/data/bypass 0
+/rota2/context default
+/rota2/active 1
+/rota2/adapt 1
+/rota2/anchor 0.500000 0.500000
+/rota2/antialias 0
+/rota2/automatic 1
+/rota2/boundmode wrap
+/rota2/dim 720.000000 480.000000
+/rota2/offset 0.000000 0.000000
+/rota2/rect 0.000000 0.000000 1.000000 1.000000
+/rota2/texrect 0.000000 0.000000 1.000000 1.000000
+/rota2/theta 0.000000
+/rota2/zoom 0.500000 0.500000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 101.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slideout/data/active 1
+/slideout/data/bypass 0
+/slideout/context default
+/slideout/active 1
+/slideout/adapt 1
+/slideout/antialias 0
+/slideout/automatic 1
+/slideout/dim 720.000000 480.000000
+/slideout/rect 0.000000 0.000000 1.000000 1.000000
+/slideout/slide_down 10.000000
+/slideout/slide_up 10.000000
+/slideout/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 25
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/bloom/y/blur 1.000000
+/bloom/y/gain 1.500000
+/bloom/x/blur 1.000000
+/bloom/x/gain 1.500000
+/bloom/context bloom_help
+/bloom/active 1
+/bloom/automatic 1
+/bloom/antialias 0
+/bloom/adapt 1
+/bloom/texrect 0.000000 0.000000 1.000000 1.000000
+/bloom/rect 0.000000 0.000000 1.000000 1.000000
+/bloom/dim 720.000000 480.000000
+/bloom/data/active 1
+/bloom/data/bypass 0
+# 
+# ###########################################
+
+- cue "22_SAME"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 1.000000
+/bgsub1/post_slide_up 0.000000
+/bgsub1/pre_slide_down 5.000000
+/bgsub1/pre_slide_up 5.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 0.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 0
+/luma/dim 720.000000 480.000000
+/luma/fade 0.100000
+/luma/luma 1.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.153000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota2/data/active 1
+/rota2/data/bypass 1
+/rota2/context default
+/rota2/active 1
+/rota2/adapt 1
+/rota2/anchor 0.500000 0.500000
+/rota2/antialias 0
+/rota2/automatic 1
+/rota2/boundmode wrap
+/rota2/dim 720.000000 480.000000
+/rota2/offset 0.000000 0.000000
+/rota2/rect 0.000000 0.000000 1.000000 1.000000
+/rota2/texrect 0.000000 0.000000 1.000000 1.000000
+/rota2/theta 0.000000
+/rota2/zoom 0.500000 0.500000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 91.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 1
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 1
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 35.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 84.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slideout/data/active 1
+/slideout/data/bypass 1
+/slideout/context default
+/slideout/active 1
+/slideout/adapt 1
+/slideout/antialias 0
+/slideout/automatic 1
+/slideout/dim 720.000000 480.000000
+/slideout/rect 0.000000 0.000000 1.000000 1.000000
+/slideout/slide_down 10.000000
+/slideout/slide_up 10.000000
+/slideout/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 20
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/bloom/y/blur 1.000000
+/bloom/y/gain 2.000000
+/bloom/x/blur 1.000000
+/bloom/x/gain 2.000000
+/bloom/context input
+/bloom/active 1
+/bloom/automatic 1
+/bloom/antialias 0
+/bloom/adapt 1
+/bloom/texrect 0.000000 0.000000 1.000000 1.000000
+/bloom/rect 0.000000 0.000000 1.000000 1.000000
+/bloom/dim 720.000000 480.000000
+/bloom/data/active 1
+/bloom/data/bypass 0
+# 
+# ###########################################
+
+- cue "INTONOC1"
+- description "something about this cue"
+# ###########################################
+# 
+/bgsub1/data/active 1
+/bgsub1/data/bypass 0
+/bgsub1/context input
+/bgsub1/active 1
+/bgsub1/adapt 1
+/bgsub1/antialias 0
+/bgsub1/automatic 1
+/bgsub1/dim 720.000000 480.000000
+/bgsub1/post_slide_down 1.000000
+/bgsub1/post_slide_up 1.000000
+/bgsub1/pre_slide_down 10.000000
+/bgsub1/pre_slide_up 10.000000
+/bgsub1/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context input
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.500000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context default
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 0.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/erode/data/active 1
+/erode/data/bypass 1
+/erode/context input
+/erode/active 1
+/erode/adapt 1
+/erode/antialias 0
+/erode/automatic 1
+/erode/dim 720.000000 480.000000
+/erode/rect 0.000000 0.000000 1.000000 1.000000
+/erode/texrect 0.000000 0.000000 1.000000 1.000000
+/erode/width 0.680000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 1
+/gauss/width/x 0.100000
+/gauss/width/y 0.100000
+/gauss/context input
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context input
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 1
+/luma/dim 720.000000 480.000000
+/luma/fade 0.500000
+/luma/luma 1.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.100000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 1
+/rota1/context input
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/rota2/data/active 1
+/rota2/data/bypass 1
+/rota2/context default
+/rota2/active 1
+/rota2/adapt 1
+/rota2/anchor 0.500000 0.500000
+/rota2/antialias 0
+/rota2/automatic 1
+/rota2/boundmode wrap
+/rota2/dim 720.000000 480.000000
+/rota2/offset 0.000000 0.000000
+/rota2/rect 0.000000 0.000000 1.000000 1.000000
+/rota2/texrect 0.000000 0.000000 1.000000 1.000000
+/rota2/theta 0.000000
+/rota2/zoom 0.500000 0.500000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context input
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 40.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 1
+/slide2/context input
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 1
+/slide3_TS/context input
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 35.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context input
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 84.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slideout/data/active 1
+/slideout/data/bypass 1
+/slideout/context default
+/slideout/active 1
+/slideout/adapt 1
+/slideout/antialias 0
+/slideout/automatic 1
+/slideout/dim 720.000000 480.000000
+/slideout/rect 0.000000 0.000000 1.000000 1.000000
+/slideout/slide_down 10.000000
+/slideout/slide_up 10.000000
+/slideout/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context input
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context input
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/bloom/y/blur 1.000000
+/bloom/y/gain 2.000000
+/bloom/x/blur 1.000000
+/bloom/x/gain 2.000000
+/bloom/context input
+/bloom/active 1
+/bloom/automatic 1
+/bloom/antialias 0
+/bloom/adapt 1
+/bloom/texrect 0.000000 0.000000 1.000000 1.000000
+/bloom/rect 0.000000 0.000000 1.000000 1.000000
+/bloom/dim 720.000000 480.000000
+/bloom/data/active 1
+/bloom/data/bypass 0
+# 
+# ###########################################
+
+- cue "30_blackbox"
+- description "something about this cue"
+# ###########################################
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context output
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_luma/data/active 1
+/brcosa_luma/data/bypass 0
+/brcosa_luma/context output
+/brcosa_luma/active 1
+/brcosa_luma/adapt 1
+/brcosa_luma/antialias 0
+/brcosa_luma/automatic 1
+/brcosa_luma/brightness 1.000000
+/brcosa_luma/contrast 1.000000
+/brcosa_luma/dim 720.000000 480.000000
+/brcosa_luma/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_luma/saturation 0.000000
+/brcosa_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa_output/data/active 1
+/brcosa_output/data/bypass 0
+/brcosa_output/context output
+/brcosa_output/active 1
+/brcosa_output/adapt 1
+/brcosa_output/antialias 0
+/brcosa_output/automatic 1
+/brcosa_output/brightness 1.000000
+/brcosa_output/contrast 1.000000
+/brcosa_output/dim 720.000000 480.000000
+/brcosa_output/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa_output/saturation 1.000000
+/brcosa_output/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss/data/active 1
+/gauss/data/bypass 0
+/gauss/width/x 4.000000
+/gauss/width/y 3.000000
+/gauss/context output
+/gauss/active 1
+/gauss/adapt 1
+/gauss/antialias 0
+/gauss/automatic 1
+/gauss/dim 720.000000 480.000000
+/gauss/rect 0.000000 0.000000 1.000000 1.000000
+/gauss/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gauss2/data/active 1
+/gauss2/data/bypass 0
+/gauss2/width/x 0.100000
+/gauss2/width/y 0.100000
+/gauss2/context output
+/gauss2/active 1
+/gauss2/adapt 1
+/gauss2/antialias 0
+/gauss2/automatic 1
+/gauss2/dim 720.000000 480.000000
+/gauss2/rect 0.000000 0.000000 1.000000 1.000000
+/gauss2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/luma/data/active 1
+/luma/data/bypass 0
+/luma/context output
+/luma/active 1
+/luma/adapt 1
+/luma/antialias 0
+/luma/automatic 1
+/luma/binary 0
+/luma/dim 720.000000 480.000000
+/luma/fade 0.100000
+/luma/luma 1.000000
+/luma/mode 0
+/luma/rect 0.000000 0.000000 1.000000 1.000000
+/luma/texrect 0.000000 0.000000 1.000000 1.000000
+/luma/tol 0.153000
+# 
+/rota1/data/active 1
+/rota1/data/bypass 0
+/rota1/context output
+/rota1/active 1
+/rota1/adapt 1
+/rota1/anchor 0.500000 0.500000
+/rota1/antialias 0
+/rota1/automatic 1
+/rota1/boundmode clear
+/rota1/dim 720.000000 480.000000
+/rota1/offset 0.000000 0.000000
+/rota1/rect 0.000000 0.000000 1.000000 1.000000
+/rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/rota1/theta 0.000000
+/rota1/zoom 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context output
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context output
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 101.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3_TS/data/active 1
+/slide3_TS/data/bypass 0
+/slide3_TS/context output
+/slide3_TS/active 1
+/slide3_TS/adapt 1
+/slide3_TS/antialias 0
+/slide3_TS/automatic 1
+/slide3_TS/dim 720.000000 480.000000
+/slide3_TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide3_TS/slide_down 10.000000
+/slide3_TS/slide_up 10.000000
+/slide3_TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide4TS/data/active 1
+/slide4TS/data/bypass 0
+/slide4TS/context output
+/slide4TS/active 1
+/slide4TS/adapt 1
+/slide4TS/antialias 0
+/slide4TS/automatic 1
+/slide4TS/dim 720.000000 480.000000
+/slide4TS/rect 0.000000 0.000000 1.000000 1.000000
+/slide4TS/slide_down 10.000000
+/slide4TS/slide_up 10.000000
+/slide4TS/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide5_luma/data/active 1
+/slide5_luma/data/bypass 0
+/slide5_luma/context output
+/slide5_luma/active 1
+/slide5_luma/adapt 1
+/slide5_luma/antialias 0
+/slide5_luma/automatic 1
+/slide5_luma/dim 720.000000 480.000000
+/slide5_luma/rect 0.000000 0.000000 1.000000 1.000000
+/slide5_luma/slide_down 10.000000
+/slide5_luma/slide_up 10.000000
+/slide5_luma/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/thresh/data/active 1
+/thresh/data/bypass 0
+/thresh/context output
+/thresh/active 1
+/thresh/adapt 1
+/thresh/antialias 0
+/thresh/automatic 1
+/thresh/dim 720.000000 480.000000
+/thresh/rect 0.000000 0.000000 1.000000 1.000000
+/thresh/select 0
+/thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/thresh/thresh 0.100000
+# 
+/timespace/data/active 1
+/timespace/context output
+/timespace/active 1
+/timespace/adapt 1
+/timespace/antialias 0
+/timespace/automatic 1
+/timespace/dim 720.000000 480.000000
+/timespace/fade 5.000000
+/timespace/frames 50
+/timespace/range 1.000000
+/timespace/rect 0.000000 0.000000 1.000000 1.000000
+/timespace/spacing 0.000000
+/timespace/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/bgsub/capture 0.000000
+/bgsub/context output
+/bgsub/active 1
+/bgsub/automatic 1
+/bgsub/antialias 0
+/bgsub/adapt 1
+/bgsub/texrect 0.000000 0.000000 1.000000 1.000000
+/bgsub/rect 0.000000 0.000000 1.000000 1.000000
+/bgsub/dim 720.000000 480.000000
+/bgsub/data/active 1
+/bgsub/data/bypass 0
+# 
+/dilate/width 30.000000
+/dilate/context output
+/dilate/active 1
+/dilate/automatic 1
+/dilate/antialias 0
+/dilate/adapt 1
+/dilate/texrect 0.000000 0.000000 1.000000 1.000000
+/dilate/rect 0.000000 0.000000 1.000000 1.000000
+/dilate/dim 720.000000 480.000000
+/dilate/data/active 1
+/dilate/data/bypass 0
+# 
+# ###########################################
+

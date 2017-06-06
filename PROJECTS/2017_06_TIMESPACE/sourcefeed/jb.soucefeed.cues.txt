@@ -1,0 +1,62 @@
+- cue "1"
+- description "wed/nov2_tml_withlight_5:32"
+# ###########################################
+# 
+/bkgr/data/active 1
+/bkgr/data/bypass 0
+/bkgr/context default
+/bkgr/active 1
+/bkgr/adapt 1
+/bkgr/antialias 0
+/bkgr/automatic 1
+/bkgr/dim 720.000000 480.000000
+/bkgr/post_slide_down 2.000000
+/bkgr/post_slide_up 2.000000
+/bkgr/rect 0.000000 0.000000 1.000000 1.000000
+/bkgr/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa1/data/active 1
+/brcosa1/data/bypass 0
+/brcosa1/context default
+/brcosa1/active 1
+/brcosa1/adapt 1
+/brcosa1/antialias 0
+/brcosa1/automatic 1
+/brcosa1/brightness 1.000000
+/brcosa1/contrast 1.000000
+/brcosa1/dim 720.000000 480.000000
+/brcosa1/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa1/saturation 0.000000
+/brcosa1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/brcosa2/data/active 1
+/brcosa2/data/bypass 0
+/brcosa2/context default
+/brcosa2/active 1
+/brcosa2/adapt 1
+/brcosa2/antialias 0
+/brcosa2/automatic 1
+/brcosa2/brightness 13.800000
+/brcosa2/contrast 1.080000
+/brcosa2/dim 720.000000 480.000000
+/brcosa2/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa2/saturation 1.000000
+/brcosa2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_bloom/data/active 1
+/gl_bloom/data/bypass 0
+/gl_bloom/x/blur 1.000000
+/gl_bloom/x/gain 2.000000
+/gl_bloom/y/blur 1.000000
+/gl_bloom/y/gain 2.000000
+/gl_bloom/context bloom_help
+/gl_bloom/active 1
+/gl_bloom/adapt 1
+/gl_bloom/antialias 0
+/gl_bloom/automatic 1
+/gl_bloom/dim 720.000000 480.000000
+/gl_bloom/rect 0.000000 0.000000 1.000000 1.000000
+/gl_bloom/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
+
