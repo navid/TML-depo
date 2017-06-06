@@ -783,7 +783,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 786.0, 215.0, 1075.0, 674.0 ],
+						"rect" : [ 787.0, 207.0, 1075.0, 678.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -818,7 +818,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.0, 15.0, 390.0, 730.0 ],
+									"patching_rect" : [ 510.0, 30.0, 390.0, 730.0 ],
 									"style" : "",
 									"text" : "//\n// A simplified water effect by Tom@2016\n//\n// Based on: http://freespace.virgin.net/hugo.elias/graphics/x_water.htm\n// A very old Hugo Elias water tutorial :)\n//\n// Using the same technique as:\n//  https://www.shadertoy.com/view/4sd3WB by overlii\n// A clever trick to utilize two channels\n// and keep buffer A in x/r and buffer B in y/g.\n//\n// However, now it is twice as slower as my original:\n//  https://www.shadertoy.com/view/Xsd3DB\n//\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n   vec3 e = vec3(vec2(1.)/iResolution.xy,0.);\n   vec2 q = fragCoord.xy/iResolution.xy;\n   \n   vec4 c = texture(iChannel0, q);\n   \n   float p11 = c.y;\n   \n   float p10 = texture(iChannel0, q-e.zy).x;\n   float p01 = texture(iChannel0, q-e.xz).x;\n   float p21 = texture(iChannel0, q+e.xz).x;\n   float p12 = texture(iChannel0, q+e.zy).x;\n   \n   float d = 0.;\n    \n   if (iMouse.z > 0.) \n   {\n      // Mouse interaction:\n      d = smoothstep(4.5,.5,length(iMouse.xy - fragCoord.xy));\n   }\n   else\n   {\n      // Simulate rain drops\n      float t = iGlobalTime*2.;\n      vec2 pos = fract(floor(t)*vec2(0.456665,0.708618))*iResolution.xy;\n      float amp = 1.-step(.05,fract(t));\n      d = -amp*smoothstep(2.5,.5,length(pos - fragCoord.xy));\n   }\n\n   // The actual propagation:\n   d += -(p11-.5)*2. + (p10 + p01 + p21 + p12 - 2.);\n   d *= .99; // dampening\n   d *= float(iFrame>=2); // clear the buffer at iFrame < 2\n   d = d*.5 + .5;\n   \n   // Put previous state as \"y\":\n   fragColor = vec4(d, c.x, 0, 0);\n}"
 								}
@@ -826,16 +826,16 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param mouse(0., 0.);\nParam click(0.);\r\nParam time(0.);\r\n\r\nee = vec(1./dim.x, 1./dim.y, 0.);\nq = norm;\n   \nc = sample(in1, q);\r\n   \np11 = c.y;\n   \n//orthogonal coordinate offsets for sampling second buffer\r\ns = vec(q.x, q.y - ee.y*500);\r\nw = vec(q.x - ee.x*100, q.y);\r\nea = vec(q.x + ee.x, q.y);\r\nn = vec(q.x, q.y + ee.y);\r\n\r\n//sample orthogonal neighbouring pixels from second buffer\r\np10 = sample(in2, s).x;\np01 = sample(in2, w).x;\np21 = sample(in2, ea).x;\np12 = sample(in2, n).x;\r\n\r\nd=0;\n    \nif (click > 0.) \n\t{\n\t// Mouse interaction:\n\t// (Note: for both the mouse and the raindrops,\r\n\t// I scaled the first value of smoothstep up to 100\r\n\t// to make the dots more visible.)\r\n\td = smoothstep(100.5,.5,length(mouse - cell));\n\t}\n\telse\n\t{\n\t// Simulate rain drops\n\tt = time*2.;\n    pos = fract(floor(t)*vec(0.456665,0.708618)*dim);\n\tamp = 1.-step(.05,fract(t));\t\r\n\td = amp*smoothstep(100.5,.5,length(pos*dim - cell));\n   }\n\n   // The actual propagation:\r\n\td += (p11)*2. + (p10 + p01 + p21 + p12);\r\n\td *= 0.99; // dampening\n\td *= time>=2.; // clear the buffer at iFrame == 0\r\n//\td = d * 0.5 + 0.5;\n   \n   // Put previous state as \"y\":\n   out1 = vec(d, c.x, 0, 0);",
+									"code" : "Param mouse(0., 0.);\nParam click(0.);\r\nParam time(0.);\r\n\r\nee = vec(1./dim.x, 1./dim.y, 0.);\nq = norm;\n   \nc = sample(in1, q);\r\n   \np11 = c.y;\n   \n//orthogonal coordinate offsets for sampling second buffer\r\ns = vec(q.x, q.y - ee.y);\r\nw = vec(q.x - ee.x, q.y);\r\nea = vec(q.x + ee.x, q.y);\r\nn = vec(q.x, q.y + ee.y);\r\n\r\n//sample orthogonal neighbouring pixels from second buffer\r\np10 = sample(in1, s).x;\np01 = sample(in1, w).x;\np21 = sample(in1, ea).x;\np12 = sample(in1, n).x;\r\n\r\nd=0;\n    \nif (click > 0.) \n\t{\n\t// Mouse interaction:\n\t// (Note: for both the mouse and the raindrops,\r\n\t// I scaled the first value of smoothstep up to 100\r\n\t// to make the dots more visible.)\r\n\td = smoothstep(100.5,.5,length(mouse - cell));\n\t}\n\telse\n\t{\n\t// Simulate rain drops\n\tt = time*2.;\n    pos = fract(floor(t)*vec(0.456665,0.708618)*dim);\n\tamp = 1.-step(.05,fract(t));\t\r\n\td = amp*smoothstep(100.5,.5,length(pos*dim - cell));\n   }\n\n   // The actual propagation:\r\n//\td += -(p11 - 0.5);\r\n\td += -(p11-0.5)*2 + ((p10+p01+p21+p12)-2);\r\n//\td += (p11 - 0.5) + (p10 + p01 + p21 + p12);\r\n\td *= 0.99; // dampening\n\td *= time>=1.; // clear the buffer at iFrame == 0\r\n\td = d*0.12+0.5;\n   // Put previous state as \"y\":\n   out1 = vec(d, c.x, 0, 0);",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "codebox",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 60.0, 420.0, 585.0 ],
+									"patching_rect" : [ 45.0, 105.0, 765.0, 570.0 ],
 									"style" : ""
 								}
 
@@ -1077,8 +1077,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 219.5, 108.0, 24.5, 108.0 ],
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1209,9 +1218,18 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.640112, 0.0, 0.642025, 0.9 ],
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 24.5, 390.0, 114.5, 390.0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1237,13 +1255,6 @@
 				"patchline" : 				{
 					"destination" : [ "", -1 ],
 					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-1", 0 ]
 				}
 
 			}
