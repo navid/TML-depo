@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
@@ -141,9 +141,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 90.0, 300.0, 57.0, 21.0 ],
+					"patching_rect" : [ 90.0, 300.0, 131.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.gl.slab"
+					"text" : "jit.gl.slab @type float32"
 				}
 
 			}
@@ -158,7 +158,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -282,9 +282,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 330.0, 52.0, 21.0 ],
+					"patching_rect" : [ 15.0, 330.0, 126.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.gl.pix"
+					"text" : "jit.gl.pix @type float32"
 				}
 
 			}
@@ -392,6 +392,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -404,6 +405,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -417,6 +419,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -449,7 +452,8 @@
 					"destination" : [ "obj-124", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 354.0, 159.0, 354.0, 159.0, 294.0, 99.5, 294.0 ],
+					"midpoints" : [ 24.5, 354.0, 240.0, 354.0, 240.0, 294.0, 99.5, 294.0 ],
+					"order" : 0,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -459,6 +463,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -468,7 +473,7 @@
 					"destination" : [ "obj-118", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 99.5, 325.0, 57.5, 325.0 ],
+					"midpoints" : [ 99.5, 325.0, 131.5, 325.0 ],
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -506,6 +511,7 @@
 					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -515,6 +521,7 @@
 					"destination" : [ "obj-124", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
