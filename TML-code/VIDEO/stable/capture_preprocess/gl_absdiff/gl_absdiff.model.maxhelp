@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 825.0, 231.0, 581.0, 548.0 ],
+		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,12 +102,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 825.0, 257.0, 581.0, 522.0 ],
+						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,14 +137,38 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 180.0, 37.0, 22.0 ],
+									"id" : "obj-10",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 15.0, 210.0, 319.0, 35.0 ],
 									"style" : "",
-									"text" : "open"
+									"text" : "jit.movie @output_texture 1 @vol 0 @moviefile bball.mov @autostart 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"args" : [ "bgsub" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-3",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "gl_bgsub.view.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 195.0, 120.0, 300.0, 70.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -155,22 +179,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 315.0, 133.0, 22.0 ],
+									"patching_rect" : [ 15.0, 285.0, 133.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane default"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 210.0, 47.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.grab"
 								}
 
 							}
@@ -203,30 +214,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "none",
-									"args" : [ "absdiff" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-3",
-									"lockeddragscroll" : 1,
-									"maxclass" : "bpatcher",
-									"name" : "gl_absdiff.view.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 180.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "Frame differencing-based background subtraction, with pre- and post-slide.",
+									"annotation" : "Background subtraction using absdiff shader.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -235,15 +223,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 270.0, 136.0, 22.0 ],
+									"patching_rect" : [ 15.0, 255.0, 131.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_absdiff.model absdiff"
+									"text" : "gl_bgsub.model bgsub"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_bgsub.model", "@description", "Frame differencing-based background subtraction, with pre- and post-slide." ],
+									"args" : [ "@name", "gl_bgsub.model", "@description", "Background subtraction via frame differencing." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -256,7 +244,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 0.0, 4.0, 440.0, 68.0 ],
+									"patching_rect" : [ 0.0, 0.0, 440.0, 68.0 ],
 									"prototypename" : "bphelp",
 									"varname" : "maxhelpui",
 									"viewvisibility" : 1
@@ -266,29 +254,28 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -323,12 +310,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 581.0, 522.0 ],
+						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -380,56 +367,48 @@
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_absdiff.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_absdiff",
-				"patcherrelativepath" : ".",
+				"name" : "gl_bgsub.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_bgsub",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_absdiff.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_absdiff",
-				"patcherrelativepath" : ".",
+				"name" : "gl_bgsub.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_bgsub",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -463,6 +442,10 @@
 			}
 , 			{
 				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
  ],

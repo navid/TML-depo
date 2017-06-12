@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 283.0, 123.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,9 +53,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 1.0, 450.0, 140.0 ],
+					"patching_rect" : [ -1.0, 1.0, 150.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 1.0, 450.0, 140.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 150.0, 35.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -121,19 +121,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-70" : [ "textedit[1]", "textedit", 0 ],
-			"obj-4::obj-1" : [ "textedit", "textedit", 0 ]
+			"obj-4::obj-1" : [ "textedit", "textedit", 0 ],
+			"obj-4::obj-70" : [ "textedit[1]", "textedit", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "organ_control.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/JamomaStuff/Organ_Control",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/PROJECTS/2016_10_ORGANism/Organ_Control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ_control.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/JamomaStuff/Organ_Control",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/PROJECTS/2016_10_ORGANism/Organ_Control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -150,15 +150,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
  ],

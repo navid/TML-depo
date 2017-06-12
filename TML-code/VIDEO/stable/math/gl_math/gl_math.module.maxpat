@@ -93,12 +93,20 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
+<<<<<<< Updated upstream:TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math/gl_math.module.maxpat
 					"id" : "obj-32",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 150.0, 27.0, 27.0 ],
+=======
+					"id" : "obj-4",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 463.0, 260.0, 30.0, 30.0 ],
+>>>>>>> Stashed changes:TML-code/JB/nav.algocontrol/nav.algocontrol.module.maxpat
 					"style" : ""
 				}
 
@@ -121,6 +129,7 @@
 					"id" : "obj-40",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
+<<<<<<< Updated upstream:TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math/gl_math.module.maxpat
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 240.0, 26.0, 26.0 ],
 					"style" : ""
@@ -134,6 +143,37 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 1 ]
+=======
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 267.0, 191.0, 215.0, 22.0 ],
+					"style" : "",
+					"text" : "nav.algocontrol.model #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "#1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "nav.algocontrol.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1.0, 1.0, 150.0, 105.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 1.0, 150.0, 105.0 ],
+					"viewvisibility" : 1
+>>>>>>> Stashed changes:TML-code/JB/nav.algocontrol/nav.algocontrol.module.maxpat
 				}
 
 			}
@@ -166,14 +206,24 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+<<<<<<< Updated upstream:TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math/gl_math.module.maxpat
 				"name" : "gl_math.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math",
+=======
+				"name" : "nav.algocontrol.view.maxpat",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/JB/nav.algocontrol",
+>>>>>>> Stashed changes:TML-code/JB/nav.algocontrol/nav.algocontrol.module.maxpat
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+<<<<<<< Updated upstream:TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math/gl_math.module.maxpat
 				"name" : "gl_math.view.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math",
+=======
+				"name" : "nav.algocontrol.model.maxpat",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/TML-code/JB/nav.algocontrol",
+>>>>>>> Stashed changes:TML-code/JB/nav.algocontrol/nav.algocontrol.module.maxpat
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -196,11 +246,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
+<<<<<<< Updated upstream:TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_math/gl_math.module.maxpat
 				"name" : "j.out.mxo",
+=======
+				"name" : "j.parameter.mxo",
+>>>>>>> Stashed changes:TML-code/JB/nav.algocontrol/nav.algocontrol.module.maxpat
 				"type" : "iLaX"
 			}
 , 			{
