@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -55,7 +55,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -1.0, 1.0, 150.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 147.0, 150.0, 35.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -127,13 +127,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "organ_control_v2.model.maxpat",
-				"bootpath" : "/Volumes/640 Gb WD/code/git/TML-depo/PROJECTS/2016_10_ORGANism/MAX/ACTIVE MAIN/Organ_Control_v2",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/PROJECTS/2016_10_ORGANism/MAX/ACTIVE MAIN/Organ_Control_v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ_control_v2.view.maxpat",
-				"bootpath" : "/Volumes/640 Gb WD/code/git/TML-depo/PROJECTS/2016_10_ORGANism/MAX/ACTIVE MAIN/Organ_Control_v2",
+				"bootpath" : "./Max 6.1/GitHub/TML-Code/PROJECTS/2016_10_ORGANism/MAX/ACTIVE MAIN/Organ_Control_v2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
