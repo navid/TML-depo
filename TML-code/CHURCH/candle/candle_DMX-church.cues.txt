@@ -51,7 +51,7 @@
 /gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/gl_pix_thresh/select 0
 /gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_pix_thresh/thresh 0.100000
+/gl_motion/gl_pix_thresh/thresh 0.025000
 # 
 /gl_motion/post_slide/data/active 1
 /gl_motion/post_slide/data/bypass 0
@@ -59,9 +59,9 @@
 /gl_motion/post_slide/active 1
 /gl_motion/post_slide/adapt 1
 /gl_motion/post_slide/antialias 0
-/gl_motion/post_slide/attack 0.000000
+/gl_motion/post_slide/attack 0.002700
 /gl_motion/post_slide/automatic 1
-/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/decay 0.700000
 /gl_motion/post_slide/dim 720.000000 480.000000
 /gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
@@ -93,19 +93,19 @@
 /gl_motion/framediff 1
 /gl_motion/invert 0
 /gl_motion/operator 0
-/gl_motion/postslide 0
-/gl_motion/postslide_down 0.000000
-/gl_motion/postslide_up 0.000000
+/gl_motion/postslide 1
+/gl_motion/postslide_down 0.700000
+/gl_motion/postslide_up 0.002700
 /gl_motion/preslide 0
 /gl_motion/preslide_down 0.000000
 /gl_motion/preslide_up 0.000000
 /gl_motion/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/threshold 0.100000
+/gl_motion/threshold 0.025000
 /gl_motion/weight 0.351000
 # 
 /cc_brcosa/data/active 1
-/cc_brcosa/data/bypass 0
+/cc_brcosa/data/bypass 1
 /cc_brcosa/context candle
 /cc_brcosa/active 1
 /cc_brcosa/adapt 1
@@ -123,7 +123,7 @@
 /rota/context default
 /rota/active 1
 /rota/adapt 1
-/rota/anchor 0.500000 0.500000
+/rota/anchor 0.600000 0.500000
 /rota/antialias 0
 /rota/automatic 1
 /rota/boundmode alpha
@@ -131,8 +131,24 @@
 /rota/offset 0.000000 18.000000
 /rota/rect 0.000000 0.000000 1.000000 1.000000
 /rota/texrect 0.000000 0.000000 1.000000 1.000000
-/rota/theta 0.000000
-/rota/zoom 8.000000 4.000000
+/rota/theta 42.000000
+/rota/zoom 1.000000 1.000000
+# 
+/scale/data/active 1
+/scale/data/bypass 0
+/scale/context default
+/scale/active 1
+/scale/adapt 1
+/scale/anchor 0.500000 0.500000
+/scale/antialias 0
+/scale/automatic 1
+/scale/boundmode alpha
+/scale/dim 720.000000 480.000000
+/scale/offset -23.000000 -1.000000
+/scale/rect 0.000000 0.000000 1.000000 1.000000
+/scale/texrect 0.000000 0.000000 1.000000 1.000000
+/scale/theta 0.000000
+/scale/zoom 14.600000 14.600000
 # 
 # ###########################################
 
