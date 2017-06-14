@@ -47,7 +47,7 @@
 					"patching_rect" : [ 840.0, 1260.0, 50.0, 35.0 ],
 					"presentation_rect" : [ 737.0, 1162.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "0.166667"
+					"text" : "0.666667"
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 990.0, 1275.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "1.988"
+					"text" : "1.776"
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 1320.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "2."
+					"text" : "1.5"
 				}
 
 			}
@@ -1158,6 +1158,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1170,7 +1171,7 @@
 									"patching_rect" : [ 269.0, 209.0, 85.0, 22.0 ],
 									"presentation_rect" : [ 296.0, 208.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "recall default3"
+									"text" : "recall default4"
 								}
 
 							}
