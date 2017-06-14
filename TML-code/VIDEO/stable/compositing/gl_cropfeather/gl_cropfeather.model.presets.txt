@@ -1,0 +1,25 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 0
+automatic 1
+b_crop 0.100000
+b_feather 0.100000
+data/active 1
+data/bypass 0
+dim 720.000000 480.000000
+l_crop 0.100000
+l_feather 0.100000
+r_crop 0.100000
+r_feather 0.100000
+rect 0.000000 0.000000 1.000000 1.000000
+t_crop 0.100000
+t_feather 0.100000
+texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
