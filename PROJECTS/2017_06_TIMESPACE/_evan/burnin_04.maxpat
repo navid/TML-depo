@@ -38,6 +38,48 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 540.0, 660.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 541.0, 659.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 540.0, 690.0, 64.0, 22.0 ],
+					"presentation_rect" : [ 541.0, 689.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "zoomy $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 45.0, 870.0, 24.0, 22.0 ],
+					"style" : "",
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -58,7 +100,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 660.0, 75.0, 22.0 ],
-					"presentation_rect" : [ 558.0, 493.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 735.0, 87.0, 22.0 ],
+					"patching_rect" : [ 660.0, 735.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend offset"
 				}
@@ -98,7 +139,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 615.0, 660.0, 50.0, 22.0 ],
+					"patching_rect" : [ 735.0, 660.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -112,7 +153,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 540.0, 660.0, 50.0, 22.0 ],
+					"patching_rect" : [ 660.0, 660.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -124,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 705.0, 43.0, 22.0 ],
+					"patching_rect" : [ 660.0, 705.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "pak f f"
 				}
@@ -151,9 +192,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 690.0, 57.0, 22.0 ],
+					"patching_rect" : [ 465.0, 690.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "zoom $1"
+					"text" : "zoomx $1"
 				}
 
 			}
@@ -164,8 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 525.0, 120.0, 90.0 ],
-					"presentation_rect" : [ 719.0, 342.0, 0.0, 0.0 ]
+					"patching_rect" : [ 210.0, 525.0, 120.0, 90.0 ]
 				}
 
 			}
@@ -173,26 +213,12 @@
 				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 570.0, 77.0, 22.0 ],
-					"presentation_rect" : [ 448.0, 402.0, 0.0, 0.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 45.0, 555.0, 30.0, 22.0 ],
 					"style" : "",
-					"text" : "r drawbang_"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 870.0, 77.0, 22.0 ],
-					"style" : "",
-					"text" : "r drawbang_"
+					"text" : "t b l"
 				}
 
 			}
@@ -774,7 +800,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// if the control texture is above a given threshold, increment brightness.\r\n// If it's below the threshold, decrement.\r\nfade(src, thresh, up, dn, lo, hi, fbk)\r\n{\r\n\tval = fbk;\r\n\tif(src > thresh)\r\n\t{\r\n\t\tval = clamp(fbk + up,lo,hi);\r\n\t\treturn val;\r\n\t}\r\n\telse\r\n\t{\r\n\t\tval = clamp(fbk - dn,lo,hi);\r\n\t\treturn val;\r\n\t}\r\n\treturn val;\r\n}\r\n\r\n//sample the control texture, with some parameters to zoom and offset\r\ninput(zoom,offset)\r\n{\r\n\tinscaled = sample (in1, vec(snorm.x*(0.5/zoom)-offset.x+0.5,snorm.y*(0.5/zoom)+offset.y+0.5), boundmode=\"clamp\");\r\n\treturn inscaled;\r\n}\r\n\r\nParam thresh (0.1);\r\nParam up (0.1);\r\nParam dn (0.1);\r\nParam lo (0.);\r\nParam hi (1.);\r\n\r\nParam zoom (0.);\r\nParam offset (0., 0.);\r\n\r\na = input(zoom, offset);\r\nb = fade(a, thresh, up, dn, lo, hi, in2);\r\n\r\nout1 = b;\r\n",
+									"code" : "// if the control texture is above a given threshold, increment brightness.\r\n// If it's below the threshold, decrement.\r\nfade(src, thresh, up, dn, lo, hi, fbk, saw)\r\n{\r\n\tval = fbk;\r\n\tif(src > thresh)\r\n\t{\r\n\t\tval = clamp(fbk + up,lo,hi);\r\n\t\treturn val;\r\n\t}\r\n\telse\r\n\t{\r\n\t\tval = clamp(fbk - dn,lo,hi);\r\n\t\treturn val;\r\n\t}\r\n\tif(saw == 1)\r\n\t{\r\n\t\tif(val>0.99)\r\n\t\t{\r\n\t\t\tval = 0.;\r\n\t\t\treturn val;\r\n\t\t}\r\n\t}\r\n\treturn val;\r\n}\r\n\r\n//sample the control texture, with some parameters to zoom and offset\r\ninput(zoom,offset)\r\n{\r\n\tinscaled = sample (in1, vec(snorm.x*(0.5/zoom.x)-offset.x+0.5,snorm.y*(0.5/zoom.y)+offset.y+0.5), boundmode=\"clamp\");\r\n\treturn inscaled;\r\n}\r\n\r\nParam thresh (0.1);\r\nParam up (0.1);\r\nParam dn (0.1);\r\nParam lo (0.);\r\nParam hi (1.);\r\n\r\nParam zoomx (0.);\r\nParam zoomy (0.);\r\nParam offset (0., 0.);\r\nParam saw(1.);\r\n\r\nzoom = vec(zoomx, zoomy);\r\na = input(zoom, offset);\r\nb = fade(a, thresh, up, dn, lo, hi, in2, 1);\r\n\r\nout1 = b;\r\n",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1354,9 +1380,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"midpoints" : [ 249.5, 468.0, 24.5, 468.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"midpoints" : [ 549.5, 765.0, 24.5, 765.0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1429,9 +1470,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"midpoints" : [ 54.5, 558.0, 140.5, 558.0 ],
+					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1539,8 +1586,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
 					"midpoints" : [ 54.5, 858.0, 140.5, 858.0 ],
+					"order" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1564,8 +1620,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-47", 0 ]
+					"destination" : [ "obj-28", 1 ],
+					"midpoints" : [ 65.5, 588.0, 140.5, 588.0 ],
+					"source" : [ "obj-48", 1 ]
 				}
 
 			}
@@ -1659,7 +1716,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
-					"midpoints" : [ 624.5, 693.0, 573.5, 693.0 ],
+					"midpoints" : [ 744.5, 693.0, 693.5, 693.0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -1675,7 +1732,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 549.5, 765.0, 24.5, 765.0 ],
+					"midpoints" : [ 669.5, 765.0, 24.5, 765.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
