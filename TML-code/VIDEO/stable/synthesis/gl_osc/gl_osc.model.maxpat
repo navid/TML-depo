@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 840.0, 105.0, 105.0, 69.0 ],
+					"patching_rect" : [ 840.0, 105.0, 108.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter zoomy @type decimal @description \"Zoom input texture (vertical.\"",
 					"varname" : "tolerance[3]"
@@ -171,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 720.0, 105.0, 107.0, 81.0 ],
+					"patching_rect" : [ 720.0, 105.0, 108.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter zoomx @type decimal @description \"Zoom input texture (horizontal).\"",
 					"varname" : "tolerance[7]"
@@ -702,7 +702,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
 					"style" : ""
 				}
