@@ -1,0 +1,162 @@
+- cue "chords1"
+- description "something about this cue"
+# ###########################################
+# 
+/noteGen1/data/active 1
+/noteGen1/data/bypass 0
+/noteGen1/probs 50.000000 50.000000
+/noteGen1/dynamics 100
+/noteGen1/pitchset 1.000000 3.000000
+/noteGen1/transpose -60
+/noteGen1/wide 0
+# 
+/noteGen2/data/active 1
+/noteGen2/data/bypass 0
+/noteGen2/probs 50.000000 50.000000
+/noteGen2/dynamics 100
+/noteGen2/pitchset 2.000000 4.000000
+/noteGen2/transpose -60
+/noteGen2/wide 0
+# 
+/noteGen3/data/active 1
+/noteGen3/data/bypass 0
+/noteGen3/probs 50.000000 50.000000
+/noteGen3/dynamics 100
+/noteGen3/pitchset 1.000000 3.000000
+/noteGen3/transpose -60
+/noteGen3/wide 0
+# 
+/noteGen4/data/active 1
+/noteGen4/data/bypass 0
+/noteGen4/probs 50.000000 50.000000 50.000000 50.000000 50.000000
+/noteGen4/dynamics 100
+/noteGen4/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000
+/noteGen4/transpose -60
+/noteGen4/wide 0
+# 
+/noteGen5/data/active 1
+/noteGen5/data/bypass 0
+/noteGen5/probs 50.000000 50.000000
+/noteGen5/dynamics 100
+/noteGen5/pitchset 1.000000 3.000000
+/noteGen5/transpose -60
+/noteGen5/wide 0
+# 
+/noteGen6/data/active 1
+/noteGen6/data/bypass 0
+/noteGen6/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen6/dynamics 100
+/noteGen6/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen6/transpose -60
+/noteGen6/wide 0
+# 
+# ###########################################
+
+- cue "chords2"
+- description "something about this cue"
+# ###########################################
+# 
+/noteGen1/data/active 1
+/noteGen1/data/bypass 0
+/noteGen1/probs 50.000000 50.000000
+/noteGen1/dynamics 100
+/noteGen1/pitchset 1.000000 3.000000
+/noteGen1/transpose -60
+/noteGen1/wide 0
+# 
+/noteGen2/data/active 1
+/noteGen2/data/bypass 0
+/noteGen2/probs 50.000000 50.000000
+/noteGen2/dynamics 100
+/noteGen2/pitchset 2.000000 4.000000
+/noteGen2/transpose -60
+/noteGen2/wide 0
+# 
+/noteGen3/data/active 1
+/noteGen3/data/bypass 0
+/noteGen3/probs 50.000000 50.000000
+/noteGen3/dynamics 100
+/noteGen3/pitchset 1.000000 3.000000
+/noteGen3/transpose -60
+/noteGen3/wide 0
+# 
+/noteGen4/data/active 1
+/noteGen4/data/bypass 0
+/noteGen4/probs 50.000000 50.000000 50.000000 50.000000 50.000000
+/noteGen4/dynamics 100
+/noteGen4/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000
+/noteGen4/transpose -60
+/noteGen4/wide 0
+# 
+/noteGen5/data/active 1
+/noteGen5/data/bypass 0
+/noteGen5/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen5/dynamics 100
+/noteGen5/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen5/transpose -60
+/noteGen5/wide 0
+# 
+/noteGen6/data/active 1
+/noteGen6/data/bypass 0
+/noteGen6/probs 50.000000 50.000000
+/noteGen6/dynamics 100
+/noteGen6/pitchset 1.000000 2.000000
+/noteGen6/transpose -60
+/noteGen6/wide 0
+# 
+# ###########################################
+
+- cue "chords3"
+- description "something about this cue"
+# ###########################################
+# 
+/noteGen1/data/active 1
+/noteGen1/data/bypass 0
+/noteGen1/probs 50.000000 50.000000
+/noteGen1/dynamics 100
+/noteGen1/pitchset 1.000000 3.000000
+/noteGen1/transpose -60
+/noteGen1/wide 0
+# 
+/noteGen2/data/active 1
+/noteGen2/data/bypass 0
+/noteGen2/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen2/dynamics 100
+/noteGen2/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen2/transpose -60
+/noteGen2/wide 0
+# 
+/noteGen3/data/active 1
+/noteGen3/data/bypass 0
+/noteGen3/probs 50.000000 50.000000
+/noteGen3/dynamics 100
+/noteGen3/pitchset 1.000000 3.000000
+/noteGen3/transpose -60
+/noteGen3/wide 0
+# 
+/noteGen4/data/active 1
+/noteGen4/data/bypass 0
+/noteGen4/probs 50.000000 50.000000 50.000000 50.000000 50.000000
+/noteGen4/dynamics 100
+/noteGen4/pitchset 1.000000 2.000000 3.000000 4.000000 5.000000
+/noteGen4/transpose -60
+/noteGen4/wide 0
+# 
+/noteGen5/data/active 1
+/noteGen5/data/bypass 0
+/noteGen5/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen5/dynamics 100
+/noteGen5/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen5/transpose -60
+/noteGen5/wide 0
+# 
+/noteGen6/data/active 1
+/noteGen6/data/bypass 0
+/noteGen6/probs 50.000000 50.000000
+/noteGen6/dynamics 100
+/noteGen6/pitchset 1.000000 2.000000
+/noteGen6/transpose -60
+/noteGen6/wide 0
+# 
+# ###########################################
+
