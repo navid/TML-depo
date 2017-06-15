@@ -1,0 +1,102 @@
+- cue "1"
+- description "something about this cue"
+# ###########################################
+# 
+/LPC1/audio/bypass 0
+/LPC1/audio/gain -3.000000
+/LPC1/audio/mix 100.000000
+/LPC1/audio/mute 0
+/LPC1/envmode lpc
+/LPC1/envpres on
+/LPC1/envscale 0.100000
+/LPC1/envscale.1 1.000000
+/LPC1/envtrans.1 0.000000
+/LPC1/envtrans 0.000000
+/LPC1/error 0.000000
+/LPC1/fftover 0
+/LPC1/lpcorder 1
+/LPC1/maxfreq 1.000000
+/LPC1/noise 10.000000
+/LPC1/oversamp 6
+/LPC1/play 1
+/LPC1/record 1
+/LPC1/relax 0.000000
+/LPC1/remix on
+/LPC1/scrub 0.000000
+/LPC1/scrubmode scrub absolute
+/LPC1/shapeinv off
+/LPC1/sinmode vocoder
+/LPC1/sinusoids 142.000000
+/LPC1/stereopres on
+/LPC1/trans 74.000000
+/LPC1/transients on
+/LPC1/transmode auto
+/LPC1/transpose.1 0.000000
+/LPC1/transpose -8348.000000
+/LPC1/windowsize 1024
+# 
+/LPC2/audio/bypass 0
+/LPC2/audio/gain 12.000000
+/LPC2/audio/mix 100.000000
+/LPC2/audio/mute 0
+/LPC2/envmode lpc
+/LPC2/envpres on
+/LPC2/envscale.1 1.000000
+/LPC2/envscale 0.100000
+/LPC2/envtrans 0.000000
+/LPC2/envtrans.1 0.000000
+/LPC2/error 0.000000
+/LPC2/fftover 0
+/LPC2/lpcorder 1
+/LPC2/maxfreq 1.000000
+/LPC2/noise 10.000000
+/LPC2/oversamp 6
+/LPC2/play 1
+/LPC2/record 1
+/LPC2/relax 0.000000
+/LPC2/remix on
+/LPC2/scrub 0.000000
+/LPC2/scrubmode scrub delta
+/LPC2/shapeinv off
+/LPC2/sinmode additive
+/LPC2/sinusoids 143.000000
+/LPC2/stereopres on
+/LPC2/trans 74.000000
+/LPC2/transients on
+/LPC2/transmode auto
+/LPC2/transpose.1 0.000000
+/LPC2/transpose -10000.000000
+/LPC2/windowsize 1024
+# 
+# ###########################################
+
+- cue "2"
+- description "something about this cue"
+# ###########################################
+# 
+# ###########################################
+
+- cue "3"
+- description "something about this cue"
+# ###########################################
+# 
+# ###########################################
+
+- cue "5"
+- description "something about this cue"
+# ###########################################
+# 
+# ###########################################
+
+- cue "6"
+- description "something about this cue"
+# ###########################################
+# 
+# ###########################################
+
+- cue "7"
+- description "something about this cue"
+# ###########################################
+# 
+# ###########################################
+
