@@ -5,8 +5,8 @@
 # 
 /gl_motion/gl_cf_gaussian_2p/data/active 1
 /gl_motion/gl_cf_gaussian_2p/data/bypass 0
-/gl_motion/gl_cf_gaussian_2p/width/x 1.000000
-/gl_motion/gl_cf_gaussian_2p/width/y 1.000000
+/gl_motion/gl_cf_gaussian_2p/width/x 0.110000
+/gl_motion/gl_cf_gaussian_2p/width/y 0.110000
 /gl_motion/gl_cf_gaussian_2p/context candle
 /gl_motion/gl_cf_gaussian_2p/active 1
 /gl_motion/gl_cf_gaussian_2p/adapt 1
@@ -51,24 +51,24 @@
 /gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/gl_pix_thresh/select 0
 /gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_pix_thresh/thresh 0.025000
+/gl_motion/gl_pix_thresh/thresh 0.200000
 # 
 /gl_motion/post_slide/data/active 1
 /gl_motion/post_slide/data/bypass 0
-/gl_motion/post_slide/context default
+/gl_motion/post_slide/context candle
 /gl_motion/post_slide/active 1
 /gl_motion/post_slide/adapt 1
 /gl_motion/post_slide/antialias 0
 /gl_motion/post_slide/attack 0.000000
 /gl_motion/post_slide/automatic 1
-/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/decay 0.390000
 /gl_motion/post_slide/dim 720.000000 480.000000
 /gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
 # 
 /gl_motion/pre_slide/data/active 1
 /gl_motion/pre_slide/data/bypass 0
-/gl_motion/pre_slide/context default
+/gl_motion/pre_slide/context candle
 /gl_motion/pre_slide/active 1
 /gl_motion/pre_slide/adapt 1
 /gl_motion/pre_slide/antialias 0
@@ -85,7 +85,7 @@
 /gl_motion/adapt 1
 /gl_motion/antialias 0
 /gl_motion/automatic 1
-/gl_motion/blur 0.100000
+/gl_motion/blur 0.110000
 /gl_motion/colour 0
 /gl_motion/denoise 1
 /gl_motion/dim 720.000000 480.000000
@@ -93,19 +93,19 @@
 /gl_motion/framediff 1
 /gl_motion/invert 0
 /gl_motion/operator 0
-/gl_motion/postslide 0
-/gl_motion/postslide_down 0.000000
+/gl_motion/postslide 1
+/gl_motion/postslide_down 0.390000
 /gl_motion/postslide_up 0.000000
 /gl_motion/preslide 0
 /gl_motion/preslide_down 0.000000
 /gl_motion/preslide_up 0.000000
 /gl_motion/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/threshold 0.025000
+/gl_motion/threshold 0.200000
 /gl_motion/weight 0.351000
 # 
 /cc_brcosa/data/active 1
-/cc_brcosa/data/bypass 1
+/cc_brcosa/data/bypass 0
 /cc_brcosa/context candle
 /cc_brcosa/active 1
 /cc_brcosa/adapt 1
@@ -131,7 +131,7 @@
 /rota/offset 0.000000 18.000000
 /rota/rect 0.000000 0.000000 1.000000 1.000000
 /rota/texrect 0.000000 0.000000 1.000000 1.000000
-/rota/theta 42.000000
+/rota/theta 37.400002
 /rota/zoom 1.000000 1.000000
 # 
 /scale/data/active 1
@@ -144,11 +144,11 @@
 /scale/automatic 1
 /scale/boundmode alpha
 /scale/dim 720.000000 480.000000
-/scale/offset 2.100000 6.600000
+/scale/offset 5.700000 4.200000
 /scale/rect 0.000000 0.000000 1.000000 1.000000
 /scale/texrect 0.000000 0.000000 1.000000 1.000000
 /scale/theta 0.000000
-/scale/zoom 8.790000 14.000000
+/scale/zoom 31.700001 9.000000
 # 
 # ###########################################
 
