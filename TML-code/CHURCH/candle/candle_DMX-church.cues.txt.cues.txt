@@ -1,0 +1,465 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/nav.rogs=/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/nav.rogs=/grain/trigger/variance/gainVar/range 0.000000
+/nav.rogs=/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/nav.rogs=/grain/trigger/variance/rateVar/spread 0.000000
+/nav.rogs=/grain/trigger/variance/on 0
+/nav.rogs=/grain/trigger/freq 30.000000
+/nav.rogs=/grain/trigger/lock 0
+/nav.rogs=/grain/trigger/mode 0
+/nav.rogs=/grain/trigger/note 0
+/nav.rogs=/grain/duration 300.000000
+/nav.rogs=/grain/onsetVar 0.000000
+/nav.rogs=/grain/overlap 100
+# 
+/nav.rogs=/mapGain/data/active 1
+/nav.rogs=/mapGain/function/parameters.1 0.000000
+/nav.rogs=/mapGain/input/address none
+/nav.rogs=/mapGain/input/max 1.000000
+/nav.rogs=/mapGain/input/min 0.000000
+/nav.rogs=/mapGain/output/max 1.000000
+/nav.rogs=/mapGain/output/min 0.000000
+/nav.rogs=/mapGain/process/function freehand
+/nav.rogs=/mapGain/process/clipmode both
+/nav.rogs=/mapGain/process/mode 0.000000
+/nav.rogs=/mapGain/process/rampTime 0.000000
+/nav.rogs=/mapGain/slide/down 0.000000
+/nav.rogs=/mapGain/slide/up 0.000000
+/nav.rogs=/mapGain/active 0
+/nav.rogs=/mapGain/scalebypass 1
+# 
+/nav.rogs=/mapOnsetVar/data/active 1
+/nav.rogs=/mapOnsetVar/function/parameters.1 0.000000
+/nav.rogs=/mapOnsetVar/input/address none
+/nav.rogs=/mapOnsetVar/input/max 1.000000
+/nav.rogs=/mapOnsetVar/input/min 0.000000
+/nav.rogs=/mapOnsetVar/output/max 1.000000
+/nav.rogs=/mapOnsetVar/output/min 0.000000
+/nav.rogs=/mapOnsetVar/process/function freehand
+/nav.rogs=/mapOnsetVar/process/clipmode both
+/nav.rogs=/mapOnsetVar/process/mode 0.000000
+/nav.rogs=/mapOnsetVar/process/rampTime 0.000000
+/nav.rogs=/mapOnsetVar/slide/down 0.000000
+/nav.rogs=/mapOnsetVar/slide/up 0.000000
+/nav.rogs=/mapOnsetVar/active 0
+/nav.rogs=/mapOnsetVar/scalebypass 1
+# 
+/nav.rogs=/mapPitch/data/active 1
+/nav.rogs=/mapPitch/function/parameters.1 0.000000
+/nav.rogs=/mapPitch/input/address none
+/nav.rogs=/mapPitch/input/max 1.000000
+/nav.rogs=/mapPitch/input/min 0.000000
+/nav.rogs=/mapPitch/output/max 1.000000
+/nav.rogs=/mapPitch/output/min 0.000000
+/nav.rogs=/mapPitch/process/function freehand
+/nav.rogs=/mapPitch/process/clipmode both
+/nav.rogs=/mapPitch/process/mode 0.000000
+/nav.rogs=/mapPitch/process/rampTime 0.000000
+/nav.rogs=/mapPitch/slide/down 0.000000
+/nav.rogs=/mapPitch/slide/up 0.000000
+/nav.rogs=/mapPitch/active 0
+/nav.rogs=/mapPitch/scalebypass 1
+# 
+/nav.rogs=/mapPosition/data/active 1
+/nav.rogs=/mapPosition/function/parameters.1 0.000000
+/nav.rogs=/mapPosition/input/address none
+/nav.rogs=/mapPosition/input/max 1.000000
+/nav.rogs=/mapPosition/input/min 0.000000
+/nav.rogs=/mapPosition/output/max 1.000000
+/nav.rogs=/mapPosition/output/min 0.000000
+/nav.rogs=/mapPosition/process/function freehand
+/nav.rogs=/mapPosition/process/clipmode both
+/nav.rogs=/mapPosition/process/mode 0.000000
+/nav.rogs=/mapPosition/process/rampTime 0.000000
+/nav.rogs=/mapPosition/slide/down 0.000000
+/nav.rogs=/mapPosition/slide/up 0.000000
+/nav.rogs=/mapPosition/active 0
+/nav.rogs=/mapPosition/scalebypass 1
+# 
+/nav.rogs=/mapPvar/data/active 1
+/nav.rogs=/mapPvar/function/parameters.1 0.000000
+/nav.rogs=/mapPvar/input/address none
+/nav.rogs=/mapPvar/input/max 1.000000
+/nav.rogs=/mapPvar/input/min 0.000000
+/nav.rogs=/mapPvar/output/max 1.000000
+/nav.rogs=/mapPvar/output/min 0.000000
+/nav.rogs=/mapPvar/process/function freehand
+/nav.rogs=/mapPvar/process/clipmode both
+/nav.rogs=/mapPvar/process/mode 0.000000
+/nav.rogs=/mapPvar/process/rampTime 0.000000
+/nav.rogs=/mapPvar/slide/down 0.000000
+/nav.rogs=/mapPvar/slide/up 0.000000
+/nav.rogs=/mapPvar/active 0
+/nav.rogs=/mapPvar/scalebypass 1
+# 
+/nav.rogs=/mapSize/data/active 1
+/nav.rogs=/mapSize/function/parameters.1 0.000000
+/nav.rogs=/mapSize/input/address none
+/nav.rogs=/mapSize/input/max 1.000000
+/nav.rogs=/mapSize/input/min 0.000000
+/nav.rogs=/mapSize/output/max 1.000000
+/nav.rogs=/mapSize/output/min 0.000000
+/nav.rogs=/mapSize/process/function freehand
+/nav.rogs=/mapSize/process/clipmode both
+/nav.rogs=/mapSize/process/mode 0.000000
+/nav.rogs=/mapSize/process/rampTime 0.000000
+/nav.rogs=/mapSize/slide/down 0.000000
+/nav.rogs=/mapSize/slide/up 0.000000
+/nav.rogs=/mapSize/active 0
+/nav.rogs=/mapSize/scalebypass 1
+# 
+/nav.rogs=/mapSpeed/data/active 1
+/nav.rogs=/mapSpeed/function/parameters.1 0.000000
+/nav.rogs=/mapSpeed/input/address none
+/nav.rogs=/mapSpeed/input/max 1.000000
+/nav.rogs=/mapSpeed/input/min 0.000000
+/nav.rogs=/mapSpeed/output/max 1.000000
+/nav.rogs=/mapSpeed/output/min 0.000000
+/nav.rogs=/mapSpeed/process/function freehand
+/nav.rogs=/mapSpeed/process/clipmode both
+/nav.rogs=/mapSpeed/process/mode 0.000000
+/nav.rogs=/mapSpeed/process/rampTime 0.000000
+/nav.rogs=/mapSpeed/slide/down 0.000000
+/nav.rogs=/mapSpeed/slide/up 0.000000
+/nav.rogs=/mapSpeed/active 0
+/nav.rogs=/mapSpeed/scalebypass 1
+# 
+/nav.rogs=/mapSpread/data/active 1
+/nav.rogs=/mapSpread/function/parameters.1 0.000000
+/nav.rogs=/mapSpread/input/address none
+/nav.rogs=/mapSpread/input/max 1.000000
+/nav.rogs=/mapSpread/input/min 0.000000
+/nav.rogs=/mapSpread/output/max 1.000000
+/nav.rogs=/mapSpread/output/min 0.000000
+/nav.rogs=/mapSpread/process/function freehand
+/nav.rogs=/mapSpread/process/clipmode both
+/nav.rogs=/mapSpread/process/mode 0.000000
+/nav.rogs=/mapSpread/process/rampTime 0.000000
+/nav.rogs=/mapSpread/slide/down 0.000000
+/nav.rogs=/mapSpread/slide/up 0.000000
+/nav.rogs=/mapSpread/active 0
+/nav.rogs=/mapSpread/scalebypass 1
+# 
+/nav.rogs=/mapTrigger/data/active 1
+/nav.rogs=/mapTrigger/function/parameters.1 0.000000
+/nav.rogs=/mapTrigger/input/address none
+/nav.rogs=/mapTrigger/input/max 1.000000
+/nav.rogs=/mapTrigger/input/min 0.000000
+/nav.rogs=/mapTrigger/output/max 1.000000
+/nav.rogs=/mapTrigger/output/min 0.000000
+/nav.rogs=/mapTrigger/process/function freehand
+/nav.rogs=/mapTrigger/process/clipmode both
+/nav.rogs=/mapTrigger/process/mode 0.000000
+/nav.rogs=/mapTrigger/process/rampTime 0.000000
+/nav.rogs=/mapTrigger/slide/down 0.000000
+/nav.rogs=/mapTrigger/slide/up 0.000000
+/nav.rogs=/mapTrigger/active 0
+/nav.rogs=/mapTrigger/scalebypass 1
+# 
+/nav.rogs=/mapTurn/data/active 1
+/nav.rogs=/mapTurn/function/parameters.1 0.000000
+/nav.rogs=/mapTurn/input/address none
+/nav.rogs=/mapTurn/input/max 1.000000
+/nav.rogs=/mapTurn/input/min 0.000000
+/nav.rogs=/mapTurn/output/max 1.000000
+/nav.rogs=/mapTurn/output/min 0.000000
+/nav.rogs=/mapTurn/process/function freehand
+/nav.rogs=/mapTurn/process/clipmode both
+/nav.rogs=/mapTurn/process/mode 0.000000
+/nav.rogs=/mapTurn/process/rampTime 0.000000
+/nav.rogs=/mapTurn/slide/down 0.000000
+/nav.rogs=/mapTurn/slide/up 0.000000
+/nav.rogs=/mapTurn/active 0
+/nav.rogs=/mapTurn/scalebypass 1
+/nav.rogs=/audio/gain -10.000000
+/nav.rogs=/audio/mute 0
+/nav.rogs=/file/open none
+/nav.rogs=/mapperGate/gain 0
+/nav.rogs=/mapperGate/onsetVar 0
+/nav.rogs=/mapperGate/pitch 0
+/nav.rogs=/mapperGate/pitchVar 0
+/nav.rogs=/mapperGate/position 0
+/nav.rogs=/mapperGate/size 0
+/nav.rogs=/mapperGate/speed 1
+/nav.rogs=/mapperGate/spread 0
+/nav.rogs=/mapperGate/trigger 0
+/nav.rogs=/mapperGate/turn 0
+/nav.rogs=/mod/gain 0.000000
+/nav.rogs=/mod/onsetVar 0.000000
+/nav.rogs=/mod/pitch 0.000000
+/nav.rogs=/mod/pitchVar 0.000000
+/nav.rogs=/mod/position 0.000000
+/nav.rogs=/mod/size 0.000000
+/nav.rogs=/mod/speed 0.000000
+/nav.rogs=/mod/spread 0.000000
+/nav.rogs=/mod/trigger 0.000000
+/nav.rogs=/mod/turn 0.000000
+/nav.rogs=/pan/mode 0
+/nav.rogs=/pan/rate 0.000000
+/nav.rogs=/pan/spread 0.330000
+/nav.rogs=/pitch/transpose 0.000000
+/nav.rogs=/pitch/variation 0.000000
+/nav.rogs=/playback/direction 0
+/nav.rogs=/playback/speed 1.000000
+/nav.rogs=/playback/position 0.000000
+/nav.rogs=/selection/mode 0
+/nav.rogs=/selection/range 0.000000
+/nav.rogs=/waveform/normalize 0.000000
+/nav.rogs=/numChannels 2
+# 
+# 
+/gl_motion/gl_cf_gaussian_2p/data/active 1
+/gl_motion/gl_cf_gaussian_2p/data/bypass 0
+/gl_motion/gl_cf_gaussian_2p/width/x 1.000000
+/gl_motion/gl_cf_gaussian_2p/width/y 1.000000
+/gl_motion/gl_cf_gaussian_2p/context candle
+/gl_motion/gl_cf_gaussian_2p/active 1
+/gl_motion/gl_cf_gaussian_2p/adapt 1
+/gl_motion/gl_cf_gaussian_2p/antialias 0
+/gl_motion/gl_cf_gaussian_2p/automatic 1
+/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/gl_pix_roberts/data/active 1
+/gl_motion/gl_pix_roberts/data/bypass 0
+/gl_motion/gl_pix_roberts/context candle
+/gl_motion/gl_pix_roberts/active 1
+/gl_motion/gl_pix_roberts/adapt 1
+/gl_motion/gl_pix_roberts/antialias 0
+/gl_motion/gl_pix_roberts/automatic 1
+/gl_motion/gl_pix_roberts/dim 720.000000 480.000000
+/gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/weight 0.351000
+# 
+/gl_motion/gl_pix_sobel/data/active 1
+/gl_motion/gl_pix_sobel/data/bypass 0
+/gl_motion/gl_pix_sobel/context candle
+/gl_motion/gl_pix_sobel/active 1
+/gl_motion/gl_pix_sobel/adapt 1
+/gl_motion/gl_pix_sobel/antialias 0
+/gl_motion/gl_pix_sobel/automatic 1
+/gl_motion/gl_pix_sobel/dim 720.000000 480.000000
+/gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/weight 0.351000
+# 
+/gl_motion/gl_pix_thresh/data/active 1
+/gl_motion/gl_pix_thresh/data/bypass 0
+/gl_motion/gl_pix_thresh/context candle
+/gl_motion/gl_pix_thresh/active 1
+/gl_motion/gl_pix_thresh/adapt 1
+/gl_motion/gl_pix_thresh/antialias 0
+/gl_motion/gl_pix_thresh/automatic 1
+/gl_motion/gl_pix_thresh/dim 720.000000 480.000000
+/gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/select 0
+/gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/thresh 0.100000
+# 
+/gl_motion/post_slide/data/active 1
+/gl_motion/post_slide/data/bypass 0
+/gl_motion/post_slide/context candle
+/gl_motion/post_slide/active 1
+/gl_motion/post_slide/adapt 1
+/gl_motion/post_slide/antialias 0
+/gl_motion/post_slide/attack 0.000000
+/gl_motion/post_slide/automatic 1
+/gl_motion/post_slide/decay 0.300000
+/gl_motion/post_slide/dim 720.000000 480.000000
+/gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/pre_slide/data/active 1
+/gl_motion/pre_slide/data/bypass 0
+/gl_motion/pre_slide/context candle
+/gl_motion/pre_slide/active 1
+/gl_motion/pre_slide/adapt 1
+/gl_motion/pre_slide/antialias 0
+/gl_motion/pre_slide/attack 0.900000
+/gl_motion/pre_slide/automatic 1
+/gl_motion/pre_slide/decay 0.900000
+/gl_motion/pre_slide/dim 720.000000 480.000000
+/gl_motion/pre_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/pre_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/data/active 1
+/gl_motion/data/bypass 0
+/gl_motion/context candle
+/gl_motion/active 1
+/gl_motion/adapt 1
+/gl_motion/antialias 0
+/gl_motion/automatic 1
+/gl_motion/blur 0.100000
+/gl_motion/colour 0
+/gl_motion/denoise 1
+/gl_motion/dim 720.000000 480.000000
+/gl_motion/edge 0
+/gl_motion/framediff 1
+/gl_motion/invert 0
+/gl_motion/operator 0
+/gl_motion/postslide 1
+/gl_motion/postslide_down 0.300000
+/gl_motion/postslide_up 0.000000
+/gl_motion/preslide 0
+/gl_motion/preslide_down 0.000000
+/gl_motion/preslide_up 0.000000
+/gl_motion/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/threshold 0.100000
+/gl_motion/weight 0.351000
+# 
+/motion_x/scale/input/max 100.000000
+/motion_x/scale/input/min 0.000000
+/motion_x/scale/max 1.000000
+/motion_x/scale/min 0.000000
+/motion_x/scale/mode 3
+/motion_x/scale/window 500
+/motion_x/function/symmetry none
+/motion_x/function/parameter2 1.040000
+/motion_x/function/parameter1 21.000000
+/motion_x/data/active 1
+/motion_x/data/bypass 0
+/motion_x/filter/mode 1
+/motion_x/filter/samples 10
+/motion_x/pre-slide/down 3
+/motion_x/pre-slide/up 3
+/motion_x/ramp/grain 1
+/motion_x/ramp/time 0
+/motion_x/schmitt/debounce 0
+/motion_x/schmitt/lower 0.700000
+/motion_x/schmitt/on 1
+/motion_x/schmitt/ramp 0
+/motion_x/schmitt/upper 0.300000
+/motion_x/slide/down 1
+/motion_x/slide/up 1
+/motion_x/clip 1
+/motion_x/diffMode 0
+/motion_x/offset 0.000000
+/motion_x/visualize 1
+# 
+/motion_y/scale/input/max 100.000000
+/motion_y/scale/input/min 0.000000
+/motion_y/scale/max 1.000000
+/motion_y/scale/min 0.000000
+/motion_y/scale/mode 3
+/motion_y/scale/window 500
+/motion_y/function/symmetry none
+/motion_y/function/parameter2 1.040000
+/motion_y/function/parameter1 21.000000
+/motion_y/data/active 1
+/motion_y/data/bypass 0
+/motion_y/filter/mode 1
+/motion_y/filter/samples 10
+/motion_y/pre-slide/down 3
+/motion_y/pre-slide/up 3
+/motion_y/ramp/grain 1
+/motion_y/ramp/time 0
+/motion_y/schmitt/debounce 0
+/motion_y/schmitt/lower 0.700000
+/motion_y/schmitt/on 1
+/motion_y/schmitt/ramp 0
+/motion_y/schmitt/upper 0.300000
+/motion_y/slide/down 1
+/motion_y/slide/up 1
+/motion_y/clip 1
+/motion_y/diffMode 0
+/motion_y/offset 0.000000
+/motion_y/visualize 1
+# 
+# 
+/output=/limiter/dcblocker/active 1
+/output=/limiter/active 1
+/output=/limiter/lookahead 64
+/output=/limiter/mode exponential
+/output=/limiter/postamp 0.000000
+/output=/limiter/preamp 0.000000
+/output=/limiter/release 300.000000
+/output=/limiter/threshold 0.000000
+# 
+/output=/record/file/type aiff
+/output=/record/samptype int24
+/output=/audio/gain 0.000000
+/output=/audio/mute 0
+/output=/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+/qom/scale/input/max 100.000000
+/qom/scale/input/min 0.000000
+/qom/scale/max 1.000000
+/qom/scale/min 0.000000
+/qom/scale/mode 3
+/qom/scale/window 500
+/qom/function/symmetry none
+/qom/function/parameter2 1.040000
+/qom/function/parameter1 21.000000
+/qom/data/active 1
+/qom/data/bypass 0
+/qom/filter/mode 1
+/qom/filter/samples 10
+/qom/pre-slide/down 3
+/qom/pre-slide/up 3
+/qom/ramp/grain 1
+/qom/ramp/time 0
+/qom/schmitt/debounce 0
+/qom/schmitt/lower 0.700000
+/qom/schmitt/on 1
+/qom/schmitt/ramp 0
+/qom/schmitt/upper 0.300000
+/qom/slide/down 1
+/qom/slide/up 1
+/qom/clip 1
+/qom/diffMode 0
+/qom/offset 0.000000
+/qom/visualize 1
+# 
+/cc_brcosa/data/active 1
+/cc_brcosa/data/bypass 0
+/cc_brcosa/context candle
+/cc_brcosa/active 1
+/cc_brcosa/adapt 1
+/cc_brcosa/antialias 0
+/cc_brcosa/automatic 1
+/cc_brcosa/brightness 1.000000
+/cc_brcosa/contrast 1.000000
+/cc_brcosa/dim 720.000000 480.000000
+/cc_brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/cc_brcosa/saturation 1.000000
+/cc_brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/rota/data/active 1
+/rota/data/bypass 0
+/rota/context default
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.600000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode alpha
+/rota/dim 720.000000 480.000000
+/rota/offset 0.000000 18.000000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 37.400002
+/rota/zoom 1.000000 1.000000
+# 
+/scale/data/active 1
+/scale/data/bypass 0
+/scale/context default
+/scale/active 1
+/scale/adapt 1
+/scale/anchor 0.500000 0.500000
+/scale/antialias 0
+/scale/automatic 1
+/scale/boundmode alpha
+/scale/dim 720.000000 480.000000
+/scale/offset 5.700000 4.200000
+/scale/rect 0.000000 0.000000 1.000000 1.000000
+/scale/texrect 0.000000 0.000000 1.000000 1.000000
+/scale/theta 0.000000
+/scale/zoom 31.700001 9.000000
+# 
+# ###########################################
+
