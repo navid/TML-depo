@@ -85,8 +85,8 @@
 # 
 /blur2/data/active 1
 /blur2/data/bypass 0
-/blur2/width/x 1.000000
-/blur2/width/y 1.000000
+/blur2/width/x 0.400000
+/blur2/width/y 0.400000
 /blur2/context default
 /blur2/active 1
 /blur2/adapt 1
@@ -172,7 +172,7 @@
 /osc_1/saw 0
 /osc_1/texrect 0.000000 0.000000 1.000000 1.000000
 /osc_1/thresh 0.000100
-/osc_1/up 0.100000
+/osc_1/up 0.200000
 /osc_1/zoomx 1.000000
 /osc_1/zoomy 1.000000
 # 
@@ -184,7 +184,7 @@
 /osc_2/antialias 0
 /osc_2/automatic 1
 /osc_2/dim 720.000000 480.000000
-/osc_2/dn 0.030000
+/osc_2/dn 1.000000
 /osc_2/hi 1.000000
 /osc_2/lo 0.000000
 /osc_2/offsetx 0.000000
@@ -192,10 +192,10 @@
 /osc_2/rect 0.000000 0.000000 1.000000 1.000000
 /osc_2/saw 0
 /osc_2/texrect 0.000000 0.000000 1.000000 1.000000
-/osc_2/thresh 0.500000
-/osc_2/up 0.030000
-/osc_2/zoomx 0.960000
-/osc_2/zoomy 0.960000
+/osc_2/thresh 0.400000
+/osc_2/up 0.100000
+/osc_2/zoomx 1.000000
+/osc_2/zoomy 1.000000
 # 
 /osc_3/data/active 1
 /osc_3/data/bypass 0
@@ -205,7 +205,7 @@
 /osc_3/antialias 0
 /osc_3/automatic 1
 /osc_3/dim 720.000000 480.000000
-/osc_3/dn 0.010000
+/osc_3/dn 1.000000
 /osc_3/hi 1.000000
 /osc_3/lo 0.000000
 /osc_3/offsetx 0.000000
@@ -214,9 +214,9 @@
 /osc_3/saw 0
 /osc_3/texrect 0.000000 0.000000 1.000000 1.000000
 /osc_3/thresh 0.800000
-/osc_3/up 0.010000
-/osc_3/zoomx 0.930000
-/osc_3/zoomy 0.930000
+/osc_3/up 0.100000
+/osc_3/zoomx 1.000000
+/osc_3/zoomy 1.000000
 # 
 /osc_control/data/active 1
 /osc_control/data/bypass 0
@@ -226,7 +226,7 @@
 /osc_control/antialias 0
 /osc_control/automatic 1
 /osc_control/dim 720.000000 480.000000
-/osc_control/dn 0.005000
+/osc_control/dn 0.100000
 /osc_control/hi 1.000000
 /osc_control/lo 0.000000
 /osc_control/offsetx 0.000000
@@ -235,8 +235,8 @@
 /osc_control/saw 0
 /osc_control/texrect 0.000000 0.000000 1.000000 1.000000
 /osc_control/thresh 0.100000
-/osc_control/up 0.001000
-/osc_control/zoomx 2.000000
+/osc_control/up 0.005000
+/osc_control/zoomx 1.000000
 /osc_control/zoomy 1.000000
 # 
 /rota_cam/data/active 1
@@ -249,11 +249,11 @@
 /rota_cam/automatic 1
 /rota_cam/boundmode alpha
 /rota_cam/dim 720.000000 480.000000
-/rota_cam/offset -46.000000 -75.000000
+/rota_cam/offset -46.000000 -177.000000
 /rota_cam/rect 0.000000 0.000000 1.000000 1.000000
 /rota_cam/texrect 0.000000 0.000000 1.000000 1.000000
 /rota_cam/theta 10.800000
-/rota_cam/zoom 1.000000 2.400000
+/rota_cam/zoom 1.000000 2.000000
 # 
 # ###########################################
 
