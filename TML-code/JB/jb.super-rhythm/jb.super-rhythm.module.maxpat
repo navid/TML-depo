@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 3,
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 222.0, 574.0, 338.0 ],
+		"rect" : [ 331.0, 400.0, 574.0, 338.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -60,7 +61,7 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "super-rhythm.view.maxpat",
+					"name" : "jb.super-rhythm.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -76,6 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -88,6 +90,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -105,9 +108,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 143.0, 226.0, 152.0, 22.0 ],
+					"patching_rect" : [ 143.0, 226.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "super-rhythm.model #1"
+					"text" : "jb.super-rhythm.model #1"
 				}
 
 			}
@@ -115,8 +118,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -124,8 +125,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -133,187 +132,11 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-5::obj-18" : [ "textedit", "textedit", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "super-rhythm.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/JamomaStuff",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "collect.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "show.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "make-ED-scale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Rhythm",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "trans-log.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Toolbox",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "listreg.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Lists/ListObjects_McCartney",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BPM2ms.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Rhythm",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "super-rhythm.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Rhythm",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "first-bang.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Toolbox",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sel-princ.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "series.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "listlen.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Lists/ListObjects_McCartney",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xrandom.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nth.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sequence.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "alea.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rota.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "between.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Chance",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "per2pass.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Toolbox",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "contrario.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Toolbox",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pass.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/RTC-lib/Toolbox",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "super-rhythm.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/JamomaStuff",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Lround.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "Lmult.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

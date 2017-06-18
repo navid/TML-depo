@@ -38,6 +38,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"contdata" : 1,
+					"id" : "obj-28",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 525.0, 1365.0, 165.0, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 529.0, 1362.0, 240.0, 75.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "multislider[3]",
+							"parameter_shortname" : "multislider",
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"setminmax" : [ 0.0, 255.0 ],
+					"settype" : 0,
+					"size" : 6,
+					"style" : "",
+					"varname" : "multislider[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 750.0, 1365.0, 135.0, 105.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 557.0, 1108.0, 135.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -45,7 +88,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 1440.0, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0 255 50 156"
+					"text" : "scale 0 255 50 180"
 				}
 
 			}
@@ -71,7 +114,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 780.0, 1305.0, 150.0, 22.0 ],
 					"style" : "",
-					"text" : "0.333333"
+					"text" : "0.166667"
 				}
 
 			}
@@ -84,21 +127,20 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 990.0, 1275.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "6.672"
+					"text" : "1.488"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-94",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 1320.0, 50.0, 35.0 ],
+					"patching_rect" : [ 660.0, 1320.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "42.166668"
+					"text" : "0."
 				}
 
 			}
@@ -1343,7 +1385,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 375.0, 300.0, 105.0 ],
+					"patching_rect" : [ 180.0, 375.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 135.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
@@ -1913,7 +1955,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1921,7 +1963,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 2,
+					"order" : 3,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1955,13 +2005,6 @@
 					"destination" : [ "obj-73", 0 ],
 					"order" : 2,
 					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2092,6 +2135,13 @@
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 403.409058, 160.578857, 174.5, 160.578857 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2368,7 +2418,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
-					"midpoints" : [ 174.5, 615.0, 924.5, 615.0 ],
+					"midpoints" : [ 189.5, 615.0, 924.5, 615.0 ],
 					"order" : 0,
 					"source" : [ "obj-66", 0 ]
 				}
@@ -2442,13 +2492,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-23" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-40" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-31" : [ "toggle", "toggle", 0 ],
+			"obj-28" : [ "multislider[3]", "multislider", 0 ],
 			"obj-18" : [ "multislider", "multislider", 0 ],
 			"obj-37" : [ "umenu", "umenu", 0 ],
 			"obj-73" : [ "multislider[2]", "multislider", 0 ],
-			"obj-40" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-23" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-57" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-31" : [ "toggle", "toggle", 0 ]
+			"obj-57" : [ "live.tab[1]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
