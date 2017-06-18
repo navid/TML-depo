@@ -1,0 +1,99 @@
+- cue "STB1"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/multidelay/limiter/dcblocker/active 0
+/multidelay/limiter/active 1
+/multidelay/limiter/lookahead 64
+/multidelay/limiter/mode exponential
+/multidelay/limiter/postamp 0.000000
+/multidelay/limiter/preamp 0.000000
+/multidelay/limiter/release 300.000000
+/multidelay/limiter/threshold -1.000000
+/multidelay/audio/bypass 0
+/multidelay/audio/gain 0.000000
+/multidelay/audio/mix 65.000000
+/multidelay/audio/mute 0
+/multidelay/delay/max 10000
+/multidelay/delay/left 1666.666626 3809.523926 5714.285645 7857.143066 10000.000000
+/multidelay/delay/right 1428.571411 3571.428467 5238.095215 8333.333008 10000.000000
+/multidelay/feedback/gain -23.511811
+/multidelay/feedback/mode pingpong
+# 
+/delaySTB/audio/bypass 0
+/delaySTB/audio/gain 0.000000
+/delaySTB/audio/mix 100.000000
+/delaySTB/audio/mute 0
+/delaySTB/delay/max_size 1000000
+/delaySTB/delay/left 100000
+/delaySTB/delay/right 70000
+# 
+/eqbaloon/audio/bypass 0
+/eqbaloon/audio/gain 0.000000
+/eqbaloon/audio/mix 100.000000
+/eqbaloon/audio/mute 0
+/eqbaloon/filter.1/type lowshelf
+/eqbaloon/filter.1/frequency 75.000000
+/eqbaloon/filter.1/gain 0.000000
+/eqbaloon/filter.1/octave_bandwidth 1.000000
+/eqbaloon/filter.2/octave_bandwidth 1.000000
+/eqbaloon/filter.2/gain 0.000000
+/eqbaloon/filter.2/frequency 300.000000
+/eqbaloon/filter.2/type peaknotch
+/eqbaloon/filter.3/octave_bandwidth 1.000000
+/eqbaloon/filter.3/gain 0.000000
+/eqbaloon/filter.3/frequency 1000.000000
+/eqbaloon/filter.3/type peaknotch
+/eqbaloon/filter.4/octave_bandwidth 1.000000
+/eqbaloon/filter.4/gain 0.000000
+/eqbaloon/filter.4/frequency 5000.000000
+/eqbaloon/filter.4/type highshelf
+/eqbaloon/bands 4
+# 
+/eqbaloonout/audio/bypass 0
+/eqbaloonout/audio/gain 0.000000
+/eqbaloonout/audio/mix 100.000000
+/eqbaloonout/audio/mute 0
+/eqbaloonout/filter.1/type lowshelf
+/eqbaloonout/filter.1/frequency 75.000000
+/eqbaloonout/filter.1/gain 0.000000
+/eqbaloonout/filter.1/octave_bandwidth 1.000000
+/eqbaloonout/filter.2/type peaknotch
+/eqbaloonout/filter.2/frequency 300.000000
+/eqbaloonout/filter.2/gain 0.000000
+/eqbaloonout/filter.2/octave_bandwidth 1.000000
+/eqbaloonout/filter.3/type peaknotch
+/eqbaloonout/filter.3/frequency 1000.000000
+/eqbaloonout/filter.3/gain 0.000000
+/eqbaloonout/filter.3/octave_bandwidth 1.000000
+/eqbaloonout/filter.4/type highshelf
+/eqbaloonout/filter.4/frequency 5000.000000
+/eqbaloonout/filter.4/gain 0.000000
+/eqbaloonout/filter.4/octave_bandwidth 1.000000
+/eqbaloonout/bands 4
+# 
+/eqhorn/audio/bypass 0
+/eqhorn/audio/gain 0.000000
+/eqhorn/audio/mix 100.000000
+/eqhorn/audio/mute 0
+/eqhorn/filter.1/type lowshelf
+/eqhorn/filter.1/frequency 75.000000
+/eqhorn/filter.1/gain 0.000000
+/eqhorn/filter.1/octave_bandwidth 1.000000
+/eqhorn/filter.2/octave_bandwidth 1.000000
+/eqhorn/filter.2/gain 0.000000
+/eqhorn/filter.2/frequency 300.000000
+/eqhorn/filter.2/type peaknotch
+/eqhorn/filter.3/octave_bandwidth 1.000000
+/eqhorn/filter.3/gain 0.000000
+/eqhorn/filter.3/frequency 1000.000000
+/eqhorn/filter.3/type peaknotch
+/eqhorn/filter.4/octave_bandwidth 1.000000
+/eqhorn/filter.4/gain 0.000000
+/eqhorn/filter.4/frequency 5000.000000
+/eqhorn/filter.4/type highshelf
+/eqhorn/bands 4
+# 
+# ###########################################
+
