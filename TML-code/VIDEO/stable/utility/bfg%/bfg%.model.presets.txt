@@ -1,0 +1,14 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+basis noise.voronoi
+dim 100.000000 100.000000
+offset 0.000000 0.000000 0.000000
+origin 0.000000
+precision float32
+scale 1.000000 1.000000 0.000000
+weight 10.000000 0.000000 0.000000
+# 
+# ###########################################

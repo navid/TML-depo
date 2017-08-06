@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
+		"rect" : [ 509.0, 184.0, 559.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
+						"rect" : [ 509.0, 210.0, 559.0, 409.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,14 +137,71 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-8",
+									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 210.0, 63.0, 22.0 ],
+									"patching_rect" : [ 195.0, 180.0, 100.0, 22.0 ],
 									"style" : "",
-									"text" : "pipe 1000"
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"data" : 									{
+										"clips" : [ 											{
+												"filename" : "C74:/media/jitter/dvkite.mov",
+												"filekind" : "moviefile",
+												"loop" : 1,
+												"content_state" : 												{
+													"outputmode" : [ 1 ],
+													"out_name" : [ "u106000751" ],
+													"dim" : [ 1, 1 ],
+													"position" : [ 0.0 ],
+													"usedstrect" : [ 0 ],
+													"loopend" : [ 0 ],
+													"vol" : [ 1.0 ],
+													"unique" : [ 0 ],
+													"drawto" : [ "" ],
+													"output_texture" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"rate" : [ 1.0 ],
+													"loopreport" : [ 0 ],
+													"time" : [ 0 ],
+													"automatic" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"texture_name" : [ "u794000749" ],
+													"autostart" : [ 1 ],
+													"usesrcrect" : [ 0 ],
+													"loopstart" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"framereport" : [ 0 ],
+													"interp" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"adapt" : [ 1 ],
+													"time_secs" : [ 0.0 ],
+													"engine" : [ "viddll" ],
+													"moviefile" : [ "" ],
+													"fps" : [ 0.0 ],
+													"cache_size" : [ 0.1 ],
+													"duration" : [ 0 ],
+													"timescale" : [ 600 ],
+													"framecount" : [ 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-8",
+									"maxclass" : "jit.playlist",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "", "dictionary" ],
+									"patching_rect" : [ 195.0, 210.0, 150.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -168,9 +225,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 315.0, 133.0, 22.0 ],
+									"patching_rect" : [ 15.0, 315.0, 100.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane default"
+									"text" : "jit.gl.videoplane"
 								}
 
 							}
@@ -185,36 +242,36 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u237004501" ],
 													"dim" : [ 1, 1 ],
-													"loopreport" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"adapt" : [ 1 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
 													"position" : [ 0.0 ],
+													"usedstrect" : [ 0 ],
+													"loopend" : [ 0 ],
 													"vol" : [ 1.0 ],
-													"drawto" : [ "" ],
-													"framereport" : [ 0 ],
 													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
+													"drawto" : [ "" ],
 													"output_texture" : [ 0 ],
-													"autostart" : [ 1 ],
-													"loopstart" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"engine" : [ "avf" ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time_secs" : [ 0.0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"rate" : [ 1.0 ],
+													"loopreport" : [ 0 ],
 													"time" : [ 0 ],
 													"automatic" : [ 0 ],
-													"usedstrect" : [ 0 ],
+													"colormode" : [ "argb" ],
 													"texture_name" : [ "u390004499" ],
-													"loopend" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"framecount" : [ 0 ],
-													"timescale" : [ 600 ],
+													"autostart" : [ 1 ],
+													"usesrcrect" : [ 0 ],
+													"loopstart" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"framereport" : [ 0 ],
+													"interp" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"adapt" : [ 1 ],
+													"time_secs" : [ 0.0 ],
+													"engine" : [ "avf" ],
+													"moviefile" : [ "" ],
+													"fps" : [ 0.0 ],
 													"cache_size" : [ 0.1 ],
 													"duration" : [ 0 ],
-													"fps" : [ 0.0 ]
+													"timescale" : [ 600 ],
+													"framecount" : [ 0 ]
 												}
 
 											}
@@ -226,7 +283,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 15.0, 240.0, 150.0, 30.0 ],
+									"patching_rect" : [ 15.0, 210.0, 150.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -261,7 +318,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "scalebias" ],
+									"args" : [ "xfade" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -270,37 +327,37 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "gl_pix_scalebias.view.maxpat",
+									"name" : "gl_pix_xfade.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 120.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+									"patching_rect" : [ 225.0, 90.0, 150.0, 70.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "jit.gl.pix-based colour scaling and bias.",
+									"annotation" : "Shader-based crossfade effect.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 285.0, 188.0, 22.0 ],
+									"patching_rect" : [ 15.0, 270.0, 147.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_pix_scalebias.model scalebias"
+									"text" : "gl_pix_xfade.model xfade"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_pix_scalebias.model", "@description", "jit.gl.pix-based scale and bias effect." ],
+									"args" : [ "@name", "gl_co_xfade.model", "@description", "Slab-based crossfade effect." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -337,7 +394,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -351,7 +408,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -392,7 +456,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 559.0, 409.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -456,8 +520,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_scalebias.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
+				"name" : "gl_pix_xfade.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_pix_xfade",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -470,8 +534,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_scalebias.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
+				"name" : "gl_pix_xfade.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_pix_xfade",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -499,6 +563,12 @@
 			}
 , 			{
 				"name" : "wheel.mov",
+				"bootpath" : "C74:/media/jitter",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dvkite.mov",
 				"bootpath" : "C74:/media/jitter",
 				"type" : "MooV",
 				"implicit" : 1
