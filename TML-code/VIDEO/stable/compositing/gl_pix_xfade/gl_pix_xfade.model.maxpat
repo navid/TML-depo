@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 60.0, 296.0, 57.0 ],
+					"patching_rect" : [ 420.0, 45.0, 296.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter vertex @type boolean @description \"Toggle to select whether the shader is used to process pixels (off) or vertices (on). For vertex processing, the shader must be used with e.g. Tom W's particleshader_2.jxs.\"",
 					"varname" : "tolerance[2]"
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 135.0, 375.0, 21.0 ],
+					"patching_rect" : [ 420.0, 120.0, 375.0, 21.0 ],
 					"style" : "",
 					"text" : "sendinput rectangle $1, sendoutput rectangle $1, sendoutput filter none"
 				}
@@ -76,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 645.0, 135.0, 37.0, 21.0 ],
+					"patching_rect" : [ 825.0, 120.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 2"
 				}
@@ -86,12 +86,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 60.0, 25.0, 25.0 ],
+					"patching_rect" : [ 825.0, 45.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 135.0, 118.0, 21.0 ],
+					"patching_rect" : [ 255.0, 120.0, 118.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param xfade"
 				}
@@ -269,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 60.0, 150.0, 57.0 ],
+					"patching_rect" : [ 255.0, 45.0, 150.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter xfade @type decimal @range 0. 1. @description \"Crossfade amount.\" @clipmode both",
 					"varname" : "tolerance[1]"
@@ -287,7 +287,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 75.0, 45.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -335,7 +335,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 765.0, 15.0, 286.0, 21.0 ],
+					"patching_rect" : [ 285.0, 240.0, 286.0, 21.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Shader-based crossfade effect.\"",
 					"varname" : "jmod.hub"
@@ -346,11 +346,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 765.0, 75.0, 25.0, 25.0 ],
+					"patching_rect" : [ 285.0, 300.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -359,7 +359,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -373,7 +373,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -384,6 +384,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"midpoints" : [ 84.5, 165.0, 24.5, 165.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -400,7 +408,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 84.5, 165.0, 24.5, 165.0 ],
+					"midpoints" : [ 264.5, 165.0, 24.5, 165.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -408,6 +416,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 1 ],
+					"midpoints" : [ 834.5, 165.0, 650.5, 165.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -450,7 +459,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 249.5, 167.5, 24.5, 167.5 ],
+					"midpoints" : [ 429.5, 167.5, 24.5, 167.5 ],
 					"source" : [ "obj-672", 0 ]
 				}
 
@@ -462,32 +471,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

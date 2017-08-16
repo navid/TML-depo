@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 219.0, 79.0, 432.0, 348.0 ],
+		"rect" : [ 219.0, 79.0, 620.0, 310.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 135.0, 80.0, 21.0 ],
+					"patching_rect" : [ 375.0, 90.0, 80.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend scale"
 				}
@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 60.0, 105.0, 57.0 ],
+					"patching_rect" : [ 375.0, 15.0, 105.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter scale @type array @description \"Scale amount.\"",
 					"varname" : "tolerance[5]"
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 135.0, 80.0, 21.0 ],
+					"patching_rect" : [ 255.0, 90.0, 80.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend bias"
 				}
@@ -91,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 60.0, 106.0, 57.0 ],
+					"patching_rect" : [ 255.0, 15.0, 106.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter bias @type array @description \"Bias amount.\"",
 					"varname" : "tolerance[2]"
@@ -113,7 +113,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -260,7 +260,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 180.0, 135.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix @type float_32"
 				}
@@ -277,7 +277,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 75.0, 90.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -294,7 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 210.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 165.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -309,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 135.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 90.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -326,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 60.0, 105.0, 69.0 ],
+					"patching_rect" : [ 495.0, 15.0, 105.0, 69.0 ],
 					"style" : "",
 					"text" : "j.model @description \"jit.gl.pix-based colour scaling and bias.\"",
 					"varname" : "jmod.hub"
@@ -341,7 +341,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 135.0, 25.0, 25.0 ],
+					"patching_rect" : [ 495.0, 90.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -355,7 +355,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 90.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 45.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -368,13 +368,21 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 255.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 210.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 84.5, 125.0, 24.5, 125.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -384,7 +392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 204.5, 167.5, 24.5, 167.5 ],
+					"midpoints" : [ 384.5, 122.5, 24.5, 122.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -420,7 +428,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 84.5, 167.5, 24.5, 167.5 ],
+					"midpoints" : [ 264.5, 122.5, 24.5, 122.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

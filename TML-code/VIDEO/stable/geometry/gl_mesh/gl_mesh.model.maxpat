@@ -57,9 +57,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 390.0, 105.0, 94.0, 21.0 ],
+					"patching_rect" : [ 390.0, 105.0, 112.0, 21.0 ],
 					"style" : "",
-					"text" : "j.receive context"
+					"text" : "j.receive GL/context"
 				}
 
 			}
@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1095.0, 15.0, 115.0, 69.0 ],
+					"patching_rect" : [ 1110.0, 15.0, 115.0, 69.0 ],
 					"style" : "",
 					"text" : "j.message handle/reset @description \"Reset position of jit.gl.handle.\""
 				}
@@ -85,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 135.0, 57.0, 21.0 ],
+					"patching_rect" : [ 990.0, 135.0, 57.0, 21.0 ],
 					"style" : "",
 					"text" : "radius $1"
 				}
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 975.0, 15.0, 105.0, 106.0 ],
+					"patching_rect" : [ 990.0, 15.0, 105.0, 106.0 ],
 					"style" : "",
 					"text" : "j.parameter handle/radius @type decimal @range 0. 100. @clipmode low @description \"Set radius of jit.gl.handle.\"",
 					"varname" : "face[3]"
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 810.0, 15.0, 150.0, 57.0 ],
+					"patching_rect" : [ 825.0, 15.0, 150.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter handle/visible @type boolean @description \"Set visibility of jit.gl.handle.\"",
 					"varname" : "face[2]"
@@ -138,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 660.0, 15.0, 120.0, 81.0 ],
+					"patching_rect" : [ 675.0, 15.0, 120.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter handle/auto_rotate @type boolean @description \"Enable auto rotation for jit.gl.handle.\"",
 					"varname" : "face[1]"
@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 495.0, 15.0, 150.0, 57.0 ],
+					"patching_rect" : [ 510.0, 15.0, 150.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter handle/enable @type boolean @description \"Enable jit.gl.handle for this mesh.\"",
 					"varname" : "face"
@@ -170,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 135.0, 60.0, 21.0 ],
+					"patching_rect" : [ 510.0, 135.0, 60.0, 21.0 ],
 					"style" : "",
 					"text" : "enable $1"
 				}
@@ -183,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 135.0, 60.0, 21.0 ],
+					"patching_rect" : [ 825.0, 135.0, 60.0, 21.0 ],
 					"style" : "",
 					"text" : "visible $1"
 				}
@@ -196,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 135.0, 86.0, 21.0 ],
+					"patching_rect" : [ 675.0, 135.0, 86.0, 21.0 ],
 					"style" : "",
 					"text" : "auto_rotate $1"
 				}
@@ -470,7 +470,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.0, 315.0, 121.0, 21.0 ],
 					"style" : "",
-					"text" : "/mesh1"
+					"text" : "/mesh2"
 				}
 
 			}
@@ -945,7 +945,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 669.5, 167.5, 399.5, 167.5 ],
+					"midpoints" : [ 684.5, 167.5, 399.5, 167.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -961,7 +961,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 819.5, 167.5, 399.5, 167.5 ],
+					"midpoints" : [ 834.5, 167.5, 399.5, 167.5 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -983,7 +983,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 504.5, 167.5, 399.5, 167.5 ],
+					"midpoints" : [ 519.5, 167.5, 399.5, 167.5 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1012,7 +1012,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 984.5, 167.5, 399.5, 167.5 ],
+					"midpoints" : [ 999.5, 167.5, 399.5, 167.5 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1020,7 +1020,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 1104.5, 167.5, 399.5, 167.5 ],
+					"midpoints" : [ 1119.5, 167.5, 399.5, 167.5 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
