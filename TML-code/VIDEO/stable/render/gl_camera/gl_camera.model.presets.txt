@@ -1,0 +1,28 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+antialias 1
+automatic 1
+camera/far_clip 100.000000
+camera/lens_angle 45.000000
+camera/lookat 0.000000 0.000000 0.000000
+camera/near_clip 0.100000
+camera/ortho 0
+camera/poly_mode 0.000000 0.000000
+camera/position 0.000000 0.000000 2.000000
+camera/rotatexyz 0.000000 0.000000 0.000000
+dim 715.000000 480.000000
+drive/ease 0.000000
+drive/easefunc none
+drive/speed 1.000000
+drive/targetname none
+drive/ui_listen 1
+rect -0.120000 0.000000 1.000000 1.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
