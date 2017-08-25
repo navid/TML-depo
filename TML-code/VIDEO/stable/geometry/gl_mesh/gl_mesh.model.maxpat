@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -470,7 +470,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.0, 315.0, 121.0, 21.0 ],
 					"style" : "",
-					"text" : "/mesh2"
+					"text" : "/gl_mesh"
 				}
 
 			}
@@ -501,9 +501,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 180.0, 160.0, 26.0 ],
+					"patching_rect" : [ 180.0, 180.0, 203.0, 26.0 ],
 					"style" : "",
-					"text" : "j.gl_group.model GL"
+					"text" : "j.gl_group_string.model GL"
 				}
 
 			}
@@ -523,7 +523,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -736,7 +736,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 240.0, 27.0, 27.0 ],
 					"style" : ""
 				}
@@ -953,7 +953,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 219.5, 225.0, 24.5, 225.0 ],
+					"midpoints" : [ 189.5, 225.0, 24.5, 225.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 

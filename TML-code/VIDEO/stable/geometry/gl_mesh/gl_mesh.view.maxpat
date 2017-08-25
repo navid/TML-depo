@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -432,9 +432,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 145.0, 110.0, 21.0 ],
+					"patching_rect" : [ 0.0, 145.0, 145.0, 21.0 ],
 					"style" : "",
-					"text" : "j.gl_group.panel GL"
+					"text" : "j.gl_group_string.panel GL"
 				}
 
 			}
@@ -578,7 +578,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/mesh2"
+					"text" : "/gl_mesh"
 				}
 
 			}
