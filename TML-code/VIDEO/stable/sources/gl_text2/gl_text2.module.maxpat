@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "messages to anim_drive",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 122.0, 154.0, 26.0, 26.0 ],
+					"presentation_rect" : [ 122.0, 155.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "#1" ],
 					"bgmode" : 0,
@@ -67,10 +82,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 189.0, 105.0, 22.0 ],
+					"patching_rect" : [ 30.0, 189.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "gl_text2.model #1",
 					"varname" : "j.model"
@@ -81,7 +96,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -95,7 +110,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -108,7 +123,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -119,6 +134,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-28", 1 ]
@@ -139,95 +161,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "gl_text2.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/gl_text2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.gl_group.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_text2.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/gl_text2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.gl_group.panel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.gl_group.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL/gl_group",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
