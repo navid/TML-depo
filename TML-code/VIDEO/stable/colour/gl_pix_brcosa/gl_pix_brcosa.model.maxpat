@@ -38,32 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 150.0, 90.0, 21.0 ],
-					"style" : "",
-					"text" : "prepend drawto"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 555.0, 105.0, 94.0, 21.0 ],
-					"style" : "",
-					"text" : "j.remote context"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
@@ -71,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 150.0, 132.0, 21.0 ],
+					"patching_rect" : [ 240.0, 105.0, 132.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param contrast"
 				}
@@ -88,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 60.0, 135.0, 69.0 ],
+					"patching_rect" : [ 240.0, 15.0, 135.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter contrast @type decimal @range 0. 10. @description \"Contrast amount.\" @clipmode none",
 					"varname" : "tolerance[5]"
@@ -104,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 150.0, 143.0, 21.0 ],
+					"patching_rect" : [ 75.0, 105.0, 143.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param brightness"
 				}
@@ -121,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 60.0, 135.0, 69.0 ],
+					"patching_rect" : [ 75.0, 15.0, 135.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter brightness @type decimal @range 0. 10. @description \"Brightness amount.\" @clipmode none",
 					"varname" : "tolerance[2]"
@@ -137,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 150.0, 141.0, 21.0 ],
+					"patching_rect" : [ 390.0, 105.0, 141.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param saturation"
 				}
@@ -154,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 60.0, 120.0, 81.0 ],
+					"patching_rect" : [ 390.0, 15.0, 120.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter saturation @type decimal @range 0. 10. @description \"Saturation amount.\" @clipmode none",
 					"varname" : "tolerance[1]"
@@ -669,7 +643,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 195.0, 51.0, 21.0 ],
+					"patching_rect" : [ 15.0, 150.0, 51.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix"
 				}
@@ -686,7 +660,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 555.0, 105.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -703,7 +677,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 225.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 180.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -718,7 +692,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 150.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 105.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -735,7 +709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.0, 60.0, 210.0, 33.0 ],
+					"patching_rect" : [ 675.0, 15.0, 210.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"jit.gl.pix-based brightness/contrast/saturation effect.\"",
 					"varname" : "jmod.hub"
@@ -750,7 +724,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 105.0, 25.0, 25.0 ],
+					"patching_rect" : [ 675.0, 60.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -764,7 +738,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 60.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -777,7 +751,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 270.0, 25.0, 25.0 ],
+					"patching_rect" : [ 15.0, 225.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -786,8 +760,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 564.5, 182.5, 24.5, 182.5 ],
-					"source" : [ "obj-10", 0 ]
+					"midpoints" : [ 564.5, 140.0, 24.5, 140.0 ],
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -801,7 +775,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 249.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 249.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -816,7 +790,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 399.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 399.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -852,7 +826,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 84.5, 182.5, 24.5, 182.5 ],
+					"midpoints" : [ 84.5, 137.5, 24.5, 137.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -861,13 +835,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-8", 1 ]
 				}
 
 			}

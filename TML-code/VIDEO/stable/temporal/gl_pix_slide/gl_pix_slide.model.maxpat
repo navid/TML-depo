@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 843.0, -683.0, 473.0, 536.0 ],
+		"rect" : [ 843.0, -683.0, 526.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 225.0, 296.0, 57.0 ],
+					"patching_rect" : [ 45.0, 165.0, 296.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter vertex @type boolean @description \"Toggle to select whether the shader is used to process pixels (off) or vertices (on). For vertex processing, the shader must be used with e.g. Tom W's particleshader_2.jxs.\"",
 					"varname" : "tolerance[2]"
@@ -61,35 +61,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 300.0, 375.0, 21.0 ],
+					"patching_rect" : [ 45.0, 240.0, 375.0, 21.0 ],
 					"style" : "",
 					"text" : "sendinput rectangle $1, sendoutput rectangle $1, sendoutput filter none"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 270.0, 90.0, 21.0 ],
-					"style" : "",
-					"text" : "prepend drawto"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 240.0, 94.0, 21.0 ],
-					"style" : "",
-					"text" : "j.receive context"
 				}
 
 			}
@@ -100,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 285.0, 150.0, 32.0, 21.0 ],
+					"patching_rect" : [ 285.0, 90.0, 32.0, 21.0 ],
 					"style" : "",
 					"text" : "!- 1."
 				}
@@ -113,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 105.0, 150.0, 32.0, 21.0 ],
+					"patching_rect" : [ 105.0, 90.0, 32.0, 21.0 ],
 					"style" : "",
 					"text" : "!- 1."
 				}
@@ -141,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 180.0, 120.0, 21.0 ],
+					"patching_rect" : [ 285.0, 120.0, 120.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param decay"
 				}
@@ -158,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 75.0, 120.0, 69.0 ],
+					"patching_rect" : [ 285.0, 15.0, 120.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter decay @type decimal @range 0. 1. @description slide down @clipmode both",
 					"varname" : "tolerance[3]"
@@ -172,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 90.0, 360.0, 131.0, 21.0 ],
+					"patching_rect" : [ 90.0, 375.0, 131.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @type float32"
 				}
@@ -191,7 +165,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -307,7 +281,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 390.0, 126.0, 21.0 ],
+					"patching_rect" : [ 15.0, 405.0, 126.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix @type float32"
 				}
@@ -322,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 180.0, 122.0, 21.0 ],
+					"patching_rect" : [ 105.0, 120.0, 122.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend param attack"
 				}
@@ -339,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 75.0, 120.0, 69.0 ],
+					"patching_rect" : [ 105.0, 15.0, 120.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter attack @type decimal @range 0. 1. @description slide up @clipmode both",
 					"varname" : "tolerance[1]"
@@ -357,7 +331,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 168.0, 26.0 ],
+					"patching_rect" : [ 120.0, 300.0, 168.0, 26.0 ],
 					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
@@ -374,7 +348,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 435.0, 84.0, 33.0 ],
+					"patching_rect" : [ 15.0, 450.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -389,7 +363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 120.0, 37.0, 21.0 ],
+					"patching_rect" : [ 15.0, 60.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -406,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 420.0, 360.0, 205.0, 33.0 ],
+					"patching_rect" : [ 300.0, 300.0, 205.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Jit.gl.pix-based temporal interpolation.\"",
 					"varname" : "jmod.hub"
@@ -421,7 +395,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 405.0, 25.0, 25.0 ],
+					"patching_rect" : [ 300.0, 345.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -434,8 +408,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 15.0, 75.0, 25.0, 25.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -456,8 +430,19 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-118", 0 ],
+					"midpoints" : [ 129.5, 345.0, 24.5, 345.0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"midpoints" : [ 129.5, 345.0, 99.5, 345.0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -471,7 +456,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
-					"midpoints" : [ 24.5, 414.0, 240.0, 414.0, 240.0, 354.0, 99.5, 354.0 ],
+					"midpoints" : [ 24.5, 429.0, 240.0, 429.0, 240.0, 369.0, 99.5, 369.0 ],
 					"order" : 0,
 					"source" : [ "obj-118", 0 ]
 				}
@@ -480,6 +465,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"midpoints" : [ 24.5, 429.0, 24.5, 429.0 ],
 					"order" : 1,
 					"source" : [ "obj-118", 0 ]
 				}
@@ -488,7 +474,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 1 ],
-					"midpoints" : [ 99.5, 385.0, 131.5, 385.0 ],
+					"midpoints" : [ 99.5, 400.0, 131.5, 400.0 ],
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -503,7 +489,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 114.5, 210.5, 24.5, 210.5 ],
+					"midpoints" : [ 114.5, 150.5, 24.5, 150.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -518,25 +504,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 54.5, 327.0, 24.5, 327.0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-124", 0 ],
-					"midpoints" : [ 54.5, 328.0, 99.5, 328.0 ],
-					"order" : 0,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 294.5, 211.5, 24.5, 211.5 ],
+					"midpoints" : [ 294.5, 151.5, 24.5, 151.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -558,6 +526,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 24.5, 473.5, 24.5, 473.5 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -579,7 +548,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"midpoints" : [ 174.5, 340.0, 24.5, 340.0 ],
+					"midpoints" : [ 54.5, 280.0, 24.5, 280.0 ],
 					"order" : 1,
 					"source" : [ "obj-672", 0 ]
 				}
@@ -588,7 +557,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
-					"midpoints" : [ 174.5, 340.0, 99.5, 340.0 ],
+					"midpoints" : [ 54.5, 280.0, 99.5, 280.0 ],
 					"order" : 0,
 					"source" : [ "obj-672", 0 ]
 				}
