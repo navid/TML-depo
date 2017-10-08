@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
+		"rect" : [ 748.0, 302.0, 622.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
+						"rect" : [ 748.0, 328.0, 622.0, 477.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,110 +137,66 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-8",
+									"id" : "obj-3",
+									"linecount" : 4,
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 210.0, 63.0, 22.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 15.0, 330.0, 135.0, 62.0 ],
 									"style" : "",
-									"text" : "pipe 1000"
+									"text" : "jit.gl.gridshape default @lighting_enable 1 @shape torus @position -1.5 0 -3"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
+									"annotation" : "none",
+									"args" : [ "camera" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-2",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "gl_camera.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 180.0, 100.0, 22.0 ],
-									"style" : "",
-									"text" : "loadmess 1"
+									"patching_rect" : [ 180.0, 75.0, 300.0, 350.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 350.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 315.0, 133.0, 22.0 ],
+									"patching_rect" : [ 15.0, 255.0, 135.0, 62.0 ],
 									"style" : "",
-									"text" : "jit.gl.videoplane default"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "wheel.mov",
-												"filekind" : "moviefile",
-												"loop" : 1,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u237004501" ],
-													"dim" : [ 1, 1 ],
-													"loopreport" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"adapt" : [ 1 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
-													"position" : [ 0.0 ],
-													"vol" : [ 1.0 ],
-													"drawto" : [ "" ],
-													"framereport" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"autostart" : [ 1 ],
-													"loopstart" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"engine" : [ "avf" ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time_secs" : [ 0.0 ],
-													"time" : [ 0 ],
-													"automatic" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"texture_name" : [ "u390004499" ],
-													"loopend" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"framecount" : [ 0 ],
-													"timescale" : [ 600 ],
-													"cache_size" : [ 0.1 ],
-													"duration" : [ 0 ],
-													"fps" : [ 0.0 ]
-												}
-
-											}
- ]
-									}
-,
-									"id" : "obj-2",
-									"maxclass" : "jit.playlist",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 15.0, 240.0, 150.0, 30.0 ],
-									"style" : ""
+									"text" : "jit.gl.gridshape default @lighting_enable 1 @shape opencube @position 1.5 0 -3"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 135.0, 62.0 ],
 									"style" : "",
-									"text" : "jit.world default @enable 1"
+									"text" : "jit.world default @enable 1 @erase_color 1 1 1 1 @fsmenubar 0"
 								}
 
 							}
@@ -260,47 +216,24 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "none",
-									"args" : [ "scalebias" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-3",
-									"lockeddragscroll" : 1,
-									"maxclass" : "bpatcher",
-									"name" : "gl_pix_scalebias.view.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 120.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "jit.gl.pix-based colour scaling and bias.",
+									"annotation" : "jit.gl.camera with built-in jit.anim.drive.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 285.0, 188.0, 22.0 ],
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 225.0, 146.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_pix_scalebias.model scalebias"
+									"text" : "gl_camera.model camera"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_pix_scalebias.model", "@description", "jit.gl.pix-based scale and bias effect." ],
+									"args" : [ "@name", "gl_camera.model", "@description", "Wrapper for jit.gl.camera with built-in jit.anim.drive." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -323,36 +256,8 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -392,7 +297,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 622.0, 477.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -441,6 +346,10 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-34::obj-2::obj-92" : [ "live.text", "live.text", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
@@ -456,8 +365,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_scalebias.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
+				"name" : "gl_camera.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/render/gl_camera",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -470,8 +379,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_scalebias.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
+				"name" : "gl_camera.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/render/gl_camera",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -498,25 +407,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wheel.mov",
-				"bootpath" : "C74:/media/jitter",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -529,10 +432,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],

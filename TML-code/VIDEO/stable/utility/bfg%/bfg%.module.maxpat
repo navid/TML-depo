@@ -48,31 +48,31 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_pix_brcosa.view.maxpat",
+					"name" : "bfg%.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "jit.gl.pix-based brightness/contrast/saturation effect.",
+					"annotation" : "Basis function generator.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 165.0, 22.0 ],
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 15.0, 165.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_pix_brcosa.model #1",
+					"text" : "bfg%.model #1",
 					"varname" : "j.model"
 				}
 
@@ -81,12 +81,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 92.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 122.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -95,11 +95,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 217.0, 209.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -108,11 +108,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 179.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 209.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -139,7 +139,50 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bfg%.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/bfg%",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bfg%.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/bfg%",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

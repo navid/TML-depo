@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 324.0, 501.0, 420.0 ],
+		"rect" : [ 452.0, 218.0, 625.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 799.0, 350.0, 501.0, 394.0 ],
+						"rect" : [ 452.0, 244.0, 625.0, 405.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,131 +137,162 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 210.0, 63.0, 22.0 ],
-									"style" : "",
-									"text" : "pipe 1000"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
+									"id" : "obj-17",
+									"maxclass" : "button",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 180.0, 100.0, 22.0 ],
-									"style" : "",
-									"text" : "loadmess 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 315.0, 133.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.videoplane default"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "wheel.mov",
-												"filekind" : "moviefile",
-												"loop" : 1,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u237004501" ],
-													"dim" : [ 1, 1 ],
-													"loopreport" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"adapt" : [ 1 ],
-													"interp" : [ 0 ],
-													"moviefile" : [ "" ],
-													"position" : [ 0.0 ],
-													"vol" : [ 1.0 ],
-													"drawto" : [ "" ],
-													"framereport" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"autostart" : [ 1 ],
-													"loopstart" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"engine" : [ "avf" ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time_secs" : [ 0.0 ],
-													"time" : [ 0 ],
-													"automatic" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"texture_name" : [ "u390004499" ],
-													"loopend" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"framecount" : [ 0 ],
-													"timescale" : [ 600 ],
-													"cache_size" : [ 0.1 ],
-													"duration" : [ 0 ],
-													"fps" : [ 0.0 ]
-												}
-
-											}
- ]
-									}
-,
-									"id" : "obj-2",
-									"maxclass" : "jit.playlist",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 15.0, 240.0, 150.0, 30.0 ],
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 240.0, 330.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 267.0, 333.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
+									"id" : "obj-18",
+									"maxclass" : "button",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.world default @enable 1"
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 210.0, 330.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 237.0, 333.0, 0.0, 0.0 ],
+									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"attr" : "enable",
-									"id" : "obj-6",
-									"maxclass" : "attrui",
+									"id" : "obj-14",
+									"maxclass" : "button",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 120.0, 86.0, 22.0 ],
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 180.0, 330.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 196.0, 336.0, 0.0, 0.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 150.0, 330.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 166.0, 336.0, 0.0, 0.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 120.0, 330.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 136.0, 336.0, 0.0, 0.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 90.0, 330.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 60.0, 330.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 30.0, 330.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 30.0, 240.0, 121.0, 22.0 ],
 									"style" : "",
-									"text_width" : 65.0
+									"text" : "metro 500 @active 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 30.0, 120.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 30.0, 150.0, 119.0, 22.0 ],
+									"style" : "",
+									"text" : "j.remote gate8/index"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "A gate with 8 outputs.",
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 9,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 30.0, 285.0, 225.0, 22.0 ],
+									"style" : "",
+									"text" : "gate8.model gate8"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "scalebias" ],
+									"args" : [ "gate8" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -270,37 +301,20 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "gl_pix_scalebias.view.maxpat",
+									"name" : "gate8.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 120.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+									"patching_rect" : [ 180.0, 180.0, 150.0, 70.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "jit.gl.pix-based colour scaling and bias.",
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 285.0, 188.0, 22.0 ],
-									"style" : "",
-									"text" : "gl_pix_scalebias.model scalebias"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "@name", "gl_pix_scalebias.model", "@description", "jit.gl.pix-based scale and bias effect." ],
+									"args" : [ "@name", "gate8.model", "@description", "A gate with 8 outputs." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -313,7 +327,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 0.0, 0.0, 440.0, 68.0 ],
+									"patching_rect" : [ 0.0, 4.0, 440.0, 68.0 ],
 									"prototypename" : "bphelp",
 									"varname" : "maxhelpui",
 									"viewvisibility" : 1
@@ -323,36 +337,79 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-13", 0 ]
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-1", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-1", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-1", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-1", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-1", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-1", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-1", 6 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-6", 0 ]
+									"midpoints" : [ 39.5, 174.0, 15.0, 174.0, 15.0, 114.0, 39.5, 114.0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-8", 0 ]
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -392,7 +449,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 625.0, 405.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -444,34 +501,20 @@
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_scalebias.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gl_pix_scalebias.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/colour/gl_pix_scalebias",
+				"name" : "gate8.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/UTILITY/gate8",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -479,45 +522,30 @@
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wheel.mov",
-				"bootpath" : "C74:/media/jitter",
-				"type" : "MooV",
+				"name" : "gate8.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/UTILITY/gate8",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.ui.mxo",
@@ -533,6 +561,14 @@
 			}
 , 			{
 				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ],
