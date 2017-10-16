@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 541.0, 265.0, 501.0, 420.0 ],
+		"rect" : [ 100.0, 100.0, 534.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,13 +101,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 541.0, 291.0, 501.0, 394.0 ],
+						"rect" : [ 100.0, 126.0, 534.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -172,31 +172,36 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u237004501" ],
 													"dim" : [ 1, 1 ],
-													"loopstart" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"position" : [ 0.0 ],
 													"output_texture" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"automatic" : [ 0 ],
-													"vol" : [ 1.0 ],
-													"rate" : [ 1.0 ],
-													"adapt" : [ 1 ],
-													"unique" : [ 0 ],
-													"autostart" : [ 1 ],
-													"framereport" : [ 0 ],
-													"colormode" : [ "argb" ],
-													"looppoints" : [ 0, 0 ],
-													"usedstrect" : [ 0 ],
-													"interp" : [ 0 ],
-													"loopreport" : [ 0 ],
 													"usesrcrect" : [ 0 ],
+													"framereport" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"interp" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
+													"loopend" : [ 0 ],
+													"adapt" : [ 1 ],
+													"time" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
 													"drawto" : [ "" ],
 													"engine" : [ "avf" ],
-													"time" : [ 0 ],
-													"loopend" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
+													"time_secs" : [ 0.0 ],
 													"moviefile" : [ "" ],
-													"texture_name" : [ "u390004499" ]
+													"loopstart" : [ 0 ],
+													"position" : [ 0.0 ],
+													"rate" : [ 1.0 ],
+													"colormode" : [ "argb" ],
+													"automatic" : [ 0 ],
+													"vol" : [ 1.0 ],
+													"texture_name" : [ "u390004499" ],
+													"usedstrect" : [ 0 ],
+													"autostart" : [ 1 ],
+													"unique" : [ 0 ],
+													"looppoints" : [ 0, 0 ],
+													"timescale" : [ 600 ],
+													"cache_size" : [ 0.1 ],
+													"fps" : [ 0.0 ],
+													"framecount" : [ 0 ],
+													"duration" : [ 0 ]
 												}
 
 											}
@@ -282,7 +287,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "gl_pix_gt.model", "@description", "Greater-than threshold filtering via jit.gl.pix." ],
+									"args" : [ "@name", "gl_pix_gt.model", "@description", "Greater-than/less-than threshold filtering via jit.gl.pix." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -306,8 +311,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -315,8 +318,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -324,8 +325,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -333,8 +332,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -369,13 +366,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 501.0, 394.0 ],
+						"rect" : [ 0.0, 26.0, 534.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -427,48 +424,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_math/gl_pix_thresh",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_math/gl_pix_thresh",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -495,6 +500,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -504,10 +513,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],
