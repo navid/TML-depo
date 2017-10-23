@@ -47,9 +47,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 180.0, 105.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 84.0, 57.0, 19.0 ],
+					"presentation_rect" : [ 3.0, 84.0, 93.0, 19.0 ],
 					"style" : "",
-					"text" : "processor"
+					"text" : "motionprocessor"
 				}
 
 			}
@@ -57,16 +57,27 @@
 				"box" : 				{
 					"annotation" : "Select CPU or GPU motion analysis.",
 					"id" : "obj-34",
-					"items" : [ "CPU", ",", "GPU" ],
-					"maxclass" : "umenu",
+					"maxclass" : "live.tab",
+					"num_lines_patching" : 1,
+					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 420.0, 180.0, 45.0, 21.0 ],
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 420.0, 180.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 84.0, 45.0, 21.0 ],
-					"style" : "",
+					"presentation_rect" : [ 97.333336, 83.666664, 94.666664, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.tab",
+							"parameter_shortname" : "live.tab",
+							"parameter_type" : 2,
+							"parameter_enum" : [ "off", "CPU", "GPU" ],
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
 					"varname" : "TOL[15]"
 				}
 
@@ -89,6 +100,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 1.0, 0.788235, 0.027451, 1.0 ],
 					"annotation" : "Select",
 					"id" : "obj-29",
 					"maxclass" : "live.text",
@@ -98,7 +110,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 555.0, 75.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 63.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 42.0, 42.0, 16.791664, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[5]",
@@ -142,7 +154,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 930.0, 30.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 84.0, 21.0, 19.0 ],
+					"presentation_rect" : [ 231.0, 42.0, 21.0, 19.0 ],
 					"style" : "",
 					"text" : "dn"
 				}
@@ -162,7 +174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 930.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 84.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 252.0, 42.0, 45.0, 18.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[10]"
@@ -195,7 +207,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 855.0, 30.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 63.0, 21.0, 19.0 ],
+					"presentation_rect" : [ 162.0, 42.0, 21.0, 19.0 ],
 					"style" : "",
 					"text" : "up"
 				}
@@ -215,7 +227,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 855.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 63.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 183.0, 42.0, 45.0, 18.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[12]"
@@ -263,7 +275,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 780.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 63.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 99.0, 42.0, 60.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[6]",
@@ -308,7 +320,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 180.0, 75.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 21.0, 87.0, 18.0 ],
+					"presentation_rect" : [ 3.0, 21.0, 93.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[2]",
@@ -362,7 +374,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 630.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 42.0, 35.0, 19.0 ],
+					"presentation_rect" : [ 3.0, 63.0, 35.0, 19.0 ],
 					"style" : "",
 					"text" : "edge"
 				}
@@ -382,7 +394,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 405.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 42.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 261.0, 21.0, 36.0, 18.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[9]"
@@ -430,7 +442,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 330.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 42.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 210.0, 21.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[8]",
@@ -489,7 +501,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 255.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 21.0, 54.0, 18.0 ],
+					"presentation_rect" : [ 99.0, 21.0, 60.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[3]",
@@ -551,7 +563,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 630.0, 100.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 42.0, 60.0, 21.0 ],
+					"presentation_rect" : [ 99.0, 63.0, 60.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -584,7 +596,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 705.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 42.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 60.0, 63.0, 36.0, 18.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[3]"
@@ -621,7 +633,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 480.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 63.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 60.0, 42.0, 36.0, 18.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[1]"
@@ -654,7 +666,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 480.0, 63.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 63.0, 41.0, 19.0 ],
+					"presentation_rect" : [ 3.0, 42.0, 41.0, 19.0 ],
 					"style" : "",
 					"text" : "thresh"
 				}
@@ -671,7 +683,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 1005.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 21.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 162.0, 21.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[7]",
@@ -741,7 +753,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-52",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -754,7 +766,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-53",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -774,7 +786,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/gl_motion"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -995,7 +1007,56 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-35" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34" : [ "live.tab", "live.tab", 0 ],
+			"obj-12" : [ "live.text[3]", "live.text", 0 ],
+			"obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-29" : [ "live.text[5]", "live.text", 0 ],
+			"obj-5" : [ "live.text[7]", "live.text", 0 ],
+			"obj-47" : [ "live.text[6]", "live.text", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "j.gl_group_slab.panel.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.gl_group_slab.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.list2parameter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

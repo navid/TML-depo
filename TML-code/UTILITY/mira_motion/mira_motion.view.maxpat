@@ -39,11 +39,257 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"openrect" : [ 30.0, 30.0, 195.0, 45.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"showontab" : 0,
+						"title" : "/mira_motion(view)",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 210.0, 15.0, 107.0, 22.0 ],
+									"style" : "",
+									"text" : "j.remote devicelist"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-161",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "clear" ],
+									"patching_rect" : [ 210.0, 60.0, 120.0, 22.0 ],
+									"style" : "",
+									"text" : "t l clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-167",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 210.0, 90.0, 49.0, 22.0 ],
+									"style" : "",
+									"text" : "zl iter 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-163",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 210.0, 150.0, 98.0, 22.0 ],
+									"style" : "",
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-159",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 210.0, 120.0, 49.0, 22.0 ],
+									"style" : "",
+									"text" : "zl nth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 75.0, 195.0, 92.0, 22.0 ],
+									"style" : "",
+									"text" : "j.remote device"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 195.0, 45.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 15.0, 45.0, 20.0 ],
+									"style" : "",
+									"text" : "device"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "Name of device from which to receive data.",
+									"id" : "obj-3",
+									"items" : "Android",
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 210.0, 195.0, 100.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 75.0, 15.0, 100.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"midpoints" : [ 84.5, 227.0, 190.0, 227.0, 190.0, 184.0, 219.5, 184.0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-163", 0 ],
+									"source" : [ "obj-159", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-167", 0 ],
+									"source" : [ "obj-161", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"midpoints" : [ 320.5, 180.0, 219.5, 180.0 ],
+									"source" : [ "obj-161", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-163", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-159", 0 ],
+									"source" : [ "obj-167", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 260.0, 227.0, 190.25, 227.0, 190.25, 184.0, 84.5, 184.0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-161", 0 ],
+									"midpoints" : [ 248.833333, 48.0, 219.5, 48.0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 0.0, 90.0, 48.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p panel"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"activebgcolor" : [ 0.6, 0.6, 0.6, 0.5 ],
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle rotation rate preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-65",
@@ -247,7 +493,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle raw magnetometer preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-77",
@@ -451,7 +697,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle raw gyroscope preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-89",
@@ -655,7 +901,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle raw accelerometer preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-101",
@@ -859,7 +1105,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle orientation preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-37",
@@ -1063,7 +1309,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle gravity preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-50",
@@ -1267,7 +1513,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"annotation" : "Toggle accelerometer preview.",
+					"annotation" : "Toggle compass preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-22",
@@ -1471,6 +1717,7 @@
 					"activebgoncolor" : [ 1.0, 0.788235, 0.027451, 0.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"activetextoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"annotation" : "Toggle accelerometer preview.",
 					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 0.0 ],
 					"id" : "obj-19",
@@ -1688,7 +1935,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-52",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1701,7 +1948,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-53",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1721,7 +1968,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/no_model_address"
+					"text" : "/mira_motion"
 				}
 
 			}
@@ -2048,6 +2295,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -2380,40 +2634,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-49" : [ "multislider[2]", "multislider[1]", 0 ],
-			"obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-50" : [ "live.text[3]", "live.text", 0 ],
-			"obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-64" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-37" : [ "live.text[2]", "live.text", 0 ],
-			"obj-65" : [ "live.text[4]", "live.text", 0 ],
-			"obj-89" : [ "live.text[6]", "live.text", 0 ],
-			"obj-112" : [ "multislider[11]", "multislider[1]", 0 ],
-			"obj-101" : [ "live.text[7]", "live.text", 0 ],
-			"obj-88" : [ "multislider[9]", "multislider[1]", 0 ],
-			"obj-76" : [ "multislider[8]", "multislider[1]", 0 ],
-			"obj-100" : [ "multislider[10]", "multislider[1]", 0 ],
-			"obj-77" : [ "live.text[5]", "live.text", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
