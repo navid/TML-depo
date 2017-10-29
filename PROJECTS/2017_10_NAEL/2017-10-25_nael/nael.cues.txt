@@ -1,0 +1,2023 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/rogs1/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs1/grain/trigger/variance/gainVar/range 0.000000
+/rogs1/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs1/grain/trigger/variance/rateVar/spread 0.000000
+/rogs1/grain/trigger/variance/on 0
+/rogs1/grain/trigger/freq 30.000000
+/rogs1/grain/trigger/lock 0
+/rogs1/grain/trigger/mode 0
+/rogs1/grain/trigger/note 0
+/rogs1/grain/duration 300.000000
+/rogs1/grain/onsetVar 0.000000
+/rogs1/grain/overlap 100
+# 
+/rogs1/mapGain/data/active 1
+/rogs1/mapGain/function/parameters.1 0.000000
+/rogs1/mapGain/input/address none
+/rogs1/mapGain/input/max 1.000000
+/rogs1/mapGain/input/min 0.000000
+/rogs1/mapGain/output/max 1.000000
+/rogs1/mapGain/output/min 0.000000
+/rogs1/mapGain/process/function freehand
+/rogs1/mapGain/process/clipmode both
+/rogs1/mapGain/process/mode 0.000000
+/rogs1/mapGain/process/rampTime 0.000000
+/rogs1/mapGain/slide/down 0.000000
+/rogs1/mapGain/slide/up 0.000000
+/rogs1/mapGain/active 0
+/rogs1/mapGain/scalebypass 1
+# 
+/rogs1/mapOnsetVar/data/active 1
+/rogs1/mapOnsetVar/function/parameters.1 0.000000
+/rogs1/mapOnsetVar/input/address none
+/rogs1/mapOnsetVar/input/max 1.000000
+/rogs1/mapOnsetVar/input/min 0.000000
+/rogs1/mapOnsetVar/output/max 1.000000
+/rogs1/mapOnsetVar/output/min 0.000000
+/rogs1/mapOnsetVar/process/function freehand
+/rogs1/mapOnsetVar/process/clipmode both
+/rogs1/mapOnsetVar/process/mode 0.000000
+/rogs1/mapOnsetVar/process/rampTime 0.000000
+/rogs1/mapOnsetVar/slide/down 0.000000
+/rogs1/mapOnsetVar/slide/up 0.000000
+/rogs1/mapOnsetVar/active 0
+/rogs1/mapOnsetVar/scalebypass 1
+# 
+/rogs1/mapPitch/data/active 1
+/rogs1/mapPitch/function/parameters.1 0.000000
+/rogs1/mapPitch/input/address none
+/rogs1/mapPitch/input/max 1.000000
+/rogs1/mapPitch/input/min 0.000000
+/rogs1/mapPitch/output/max 1.000000
+/rogs1/mapPitch/output/min 0.000000
+/rogs1/mapPitch/process/function freehand
+/rogs1/mapPitch/process/clipmode both
+/rogs1/mapPitch/process/mode 0.000000
+/rogs1/mapPitch/process/rampTime 0.000000
+/rogs1/mapPitch/slide/down 0.000000
+/rogs1/mapPitch/slide/up 0.000000
+/rogs1/mapPitch/active 0
+/rogs1/mapPitch/scalebypass 1
+# 
+/rogs1/mapPosition/data/active 1
+/rogs1/mapPosition/function/parameters.1 0.000000
+/rogs1/mapPosition/input/address none
+/rogs1/mapPosition/input/max 1.000000
+/rogs1/mapPosition/input/min 0.000000
+/rogs1/mapPosition/output/max 1.000000
+/rogs1/mapPosition/output/min 0.000000
+/rogs1/mapPosition/process/function freehand
+/rogs1/mapPosition/process/clipmode both
+/rogs1/mapPosition/process/mode 0.000000
+/rogs1/mapPosition/process/rampTime 0.000000
+/rogs1/mapPosition/slide/down 0.000000
+/rogs1/mapPosition/slide/up 0.000000
+/rogs1/mapPosition/active 0
+/rogs1/mapPosition/scalebypass 1
+# 
+/rogs1/mapPvar/data/active 1
+/rogs1/mapPvar/function/parameters.1 0.000000
+/rogs1/mapPvar/input/address none
+/rogs1/mapPvar/input/max 1.000000
+/rogs1/mapPvar/input/min 0.000000
+/rogs1/mapPvar/output/max 1.000000
+/rogs1/mapPvar/output/min 0.000000
+/rogs1/mapPvar/process/function freehand
+/rogs1/mapPvar/process/clipmode both
+/rogs1/mapPvar/process/mode 0.000000
+/rogs1/mapPvar/process/rampTime 0.000000
+/rogs1/mapPvar/slide/down 0.000000
+/rogs1/mapPvar/slide/up 0.000000
+/rogs1/mapPvar/active 0
+/rogs1/mapPvar/scalebypass 1
+# 
+/rogs1/mapSize/data/active 1
+/rogs1/mapSize/function/parameters.1 0.000000
+/rogs1/mapSize/input/address none
+/rogs1/mapSize/input/max 1.000000
+/rogs1/mapSize/input/min 0.000000
+/rogs1/mapSize/output/max 1.000000
+/rogs1/mapSize/output/min 0.000000
+/rogs1/mapSize/process/function freehand
+/rogs1/mapSize/process/clipmode both
+/rogs1/mapSize/process/mode 0.000000
+/rogs1/mapSize/process/rampTime 0.000000
+/rogs1/mapSize/slide/down 0.000000
+/rogs1/mapSize/slide/up 0.000000
+/rogs1/mapSize/active 0
+/rogs1/mapSize/scalebypass 1
+# 
+/rogs1/mapSpeed/data/active 1
+/rogs1/mapSpeed/function/parameters.1 0.000000
+/rogs1/mapSpeed/input/address none
+/rogs1/mapSpeed/input/max 1.000000
+/rogs1/mapSpeed/input/min 0.000000
+/rogs1/mapSpeed/output/max 1.000000
+/rogs1/mapSpeed/output/min 0.000000
+/rogs1/mapSpeed/process/function freehand
+/rogs1/mapSpeed/process/clipmode both
+/rogs1/mapSpeed/process/mode 0.000000
+/rogs1/mapSpeed/process/rampTime 0.000000
+/rogs1/mapSpeed/slide/down 0.000000
+/rogs1/mapSpeed/slide/up 0.000000
+/rogs1/mapSpeed/active 0
+/rogs1/mapSpeed/scalebypass 1
+# 
+/rogs1/mapSpread/data/active 1
+/rogs1/mapSpread/function/parameters.1 0.000000
+/rogs1/mapSpread/input/address none
+/rogs1/mapSpread/input/max 1.000000
+/rogs1/mapSpread/input/min 0.000000
+/rogs1/mapSpread/output/max 1.000000
+/rogs1/mapSpread/output/min 0.000000
+/rogs1/mapSpread/process/function freehand
+/rogs1/mapSpread/process/clipmode both
+/rogs1/mapSpread/process/mode 0.000000
+/rogs1/mapSpread/process/rampTime 0.000000
+/rogs1/mapSpread/slide/down 0.000000
+/rogs1/mapSpread/slide/up 0.000000
+/rogs1/mapSpread/active 0
+/rogs1/mapSpread/scalebypass 1
+# 
+/rogs1/mapTrigger/data/active 1
+/rogs1/mapTrigger/function/parameters.1 0.000000
+/rogs1/mapTrigger/input/address none
+/rogs1/mapTrigger/input/max 1.000000
+/rogs1/mapTrigger/input/min 0.000000
+/rogs1/mapTrigger/output/max 1.000000
+/rogs1/mapTrigger/output/min 0.000000
+/rogs1/mapTrigger/process/function freehand
+/rogs1/mapTrigger/process/clipmode both
+/rogs1/mapTrigger/process/mode 0.000000
+/rogs1/mapTrigger/process/rampTime 0.000000
+/rogs1/mapTrigger/slide/down 0.000000
+/rogs1/mapTrigger/slide/up 0.000000
+/rogs1/mapTrigger/active 0
+/rogs1/mapTrigger/scalebypass 1
+# 
+/rogs1/mapTurn/data/active 1
+/rogs1/mapTurn/function/parameters.1 0.000000
+/rogs1/mapTurn/input/address none
+/rogs1/mapTurn/input/max 1.000000
+/rogs1/mapTurn/input/min 0.000000
+/rogs1/mapTurn/output/max 1.000000
+/rogs1/mapTurn/output/min 0.000000
+/rogs1/mapTurn/process/function freehand
+/rogs1/mapTurn/process/clipmode both
+/rogs1/mapTurn/process/mode 0.000000
+/rogs1/mapTurn/process/rampTime 0.000000
+/rogs1/mapTurn/slide/down 0.000000
+/rogs1/mapTurn/slide/up 0.000000
+/rogs1/mapTurn/active 0
+/rogs1/mapTurn/scalebypass 1
+/rogs1/audio/gain -10.000000
+/rogs1/audio/mute 0
+/rogs1/file/ms 44934.750000
+/rogs1/file/open none
+/rogs1/mapperGate/gain 0
+/rogs1/mapperGate/onsetVar 0
+/rogs1/mapperGate/pitch 0
+/rogs1/mapperGate/pitchVar 0
+/rogs1/mapperGate/position 0
+/rogs1/mapperGate/size 0
+/rogs1/mapperGate/speed 1
+/rogs1/mapperGate/spread 0
+/rogs1/mapperGate/trigger 0
+/rogs1/mapperGate/turn 0
+/rogs1/mod/gain 0.000000
+/rogs1/mod/onsetVar 0.000000
+/rogs1/mod/pitch 0.000000
+/rogs1/mod/pitchVar 0.000000
+/rogs1/mod/position 0.000000
+/rogs1/mod/size 0.000000
+/rogs1/mod/speed 0.000000
+/rogs1/mod/spread 0.000000
+/rogs1/mod/trigger 0.000000
+/rogs1/mod/turn 0.000000
+/rogs1/pan/mode 0
+/rogs1/pan/rate 0.000000
+/rogs1/pan/spread 0.330000
+/rogs1/pitch/transpose 0.000000
+/rogs1/pitch/variation 0.000000
+/rogs1/playback/direction 0
+/rogs1/playback/speed 1.000000
+/rogs1/playback/position 0.000000
+/rogs1/selection/mode 0
+/rogs1/selection/range 0.000000
+/rogs1/waveform/normalize 0.000000
+/rogs1/numChannels 2
+# 
+/rogs2/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/gainVar/range 0.000000
+/rogs2/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/rateVar/spread 0.000000
+/rogs2/grain/trigger/variance/on 0
+/rogs2/grain/trigger/freq 1.000000
+/rogs2/grain/trigger/lock 0
+/rogs2/grain/trigger/mode 0
+/rogs2/grain/trigger/note 0
+/rogs2/grain/duration 300.000000
+/rogs2/grain/onsetVar 0.000000
+/rogs2/grain/overlap 100
+# 
+/rogs2/mapGain/data/active 1
+/rogs2/mapGain/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapGain/input/address none
+/rogs2/mapGain/input/max 1.000000
+/rogs2/mapGain/input/min 0.000000
+/rogs2/mapGain/output/max 1.000000
+/rogs2/mapGain/output/min 0.000000
+/rogs2/mapGain/process/function freehand
+/rogs2/mapGain/process/clipmode both
+/rogs2/mapGain/process/mode 0.000000
+/rogs2/mapGain/process/rampTime 0.000000
+/rogs2/mapGain/slide/down 0.000000
+/rogs2/mapGain/slide/up 0.000000
+/rogs2/mapGain/active 0
+/rogs2/mapGain/scalebypass 1
+# 
+/rogs2/mapOnsetVar/data/active 1
+/rogs2/mapOnsetVar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapOnsetVar/input/address none
+/rogs2/mapOnsetVar/input/max 1.000000
+/rogs2/mapOnsetVar/input/min 0.000000
+/rogs2/mapOnsetVar/output/max 1.000000
+/rogs2/mapOnsetVar/output/min 0.000000
+/rogs2/mapOnsetVar/process/function freehand
+/rogs2/mapOnsetVar/process/clipmode both
+/rogs2/mapOnsetVar/process/mode 0.000000
+/rogs2/mapOnsetVar/process/rampTime 0.000000
+/rogs2/mapOnsetVar/slide/down 0.000000
+/rogs2/mapOnsetVar/slide/up 0.000000
+/rogs2/mapOnsetVar/active 0
+/rogs2/mapOnsetVar/scalebypass 1
+# 
+/rogs2/mapPitch/data/active 1
+/rogs2/mapPitch/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPitch/input/address none
+/rogs2/mapPitch/input/max 1.000000
+/rogs2/mapPitch/input/min 0.000000
+/rogs2/mapPitch/output/max 1.000000
+/rogs2/mapPitch/output/min 0.000000
+/rogs2/mapPitch/process/function freehand
+/rogs2/mapPitch/process/clipmode both
+/rogs2/mapPitch/process/mode 0.000000
+/rogs2/mapPitch/process/rampTime 0.000000
+/rogs2/mapPitch/slide/down 0.000000
+/rogs2/mapPitch/slide/up 0.000000
+/rogs2/mapPitch/active 0
+/rogs2/mapPitch/scalebypass 1
+# 
+/rogs2/mapPosition/data/active 1
+/rogs2/mapPosition/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPosition/input/address none
+/rogs2/mapPosition/input/max 1.000000
+/rogs2/mapPosition/input/min 0.000000
+/rogs2/mapPosition/output/max 1.000000
+/rogs2/mapPosition/output/min 0.000000
+/rogs2/mapPosition/process/function freehand
+/rogs2/mapPosition/process/clipmode both
+/rogs2/mapPosition/process/mode 0.000000
+/rogs2/mapPosition/process/rampTime 0.000000
+/rogs2/mapPosition/slide/down 0.000000
+/rogs2/mapPosition/slide/up 0.000000
+/rogs2/mapPosition/active 0
+/rogs2/mapPosition/scalebypass 1
+# 
+/rogs2/mapPvar/data/active 1
+/rogs2/mapPvar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPvar/input/address none
+/rogs2/mapPvar/input/max 1.000000
+/rogs2/mapPvar/input/min 0.000000
+/rogs2/mapPvar/output/max 1.000000
+/rogs2/mapPvar/output/min 0.000000
+/rogs2/mapPvar/process/function freehand
+/rogs2/mapPvar/process/clipmode both
+/rogs2/mapPvar/process/mode 0.000000
+/rogs2/mapPvar/process/rampTime 0.000000
+/rogs2/mapPvar/slide/down 0.000000
+/rogs2/mapPvar/slide/up 0.000000
+/rogs2/mapPvar/active 0
+/rogs2/mapPvar/scalebypass 1
+# 
+/rogs2/mapSize/data/active 1
+/rogs2/mapSize/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSize/input/address none
+/rogs2/mapSize/input/max 1.000000
+/rogs2/mapSize/input/min 0.000000
+/rogs2/mapSize/output/max 1.000000
+/rogs2/mapSize/output/min 0.000000
+/rogs2/mapSize/process/function freehand
+/rogs2/mapSize/process/clipmode both
+/rogs2/mapSize/process/mode 0.000000
+/rogs2/mapSize/process/rampTime 0.000000
+/rogs2/mapSize/slide/down 0.000000
+/rogs2/mapSize/slide/up 0.000000
+/rogs2/mapSize/active 0
+/rogs2/mapSize/scalebypass 1
+# 
+/rogs2/mapSpeed/data/active 1
+/rogs2/mapSpeed/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSpeed/input/address none
+/rogs2/mapSpeed/input/max 1.000000
+/rogs2/mapSpeed/input/min 0.000000
+/rogs2/mapSpeed/output/max 1.000000
+/rogs2/mapSpeed/output/min 0.000000
+/rogs2/mapSpeed/process/function freehand
+/rogs2/mapSpeed/process/clipmode both
+/rogs2/mapSpeed/process/mode 0.000000
+/rogs2/mapSpeed/process/rampTime 0.000000
+/rogs2/mapSpeed/slide/down 0.000000
+/rogs2/mapSpeed/slide/up 0.000000
+/rogs2/mapSpeed/active 0
+/rogs2/mapSpeed/scalebypass 1
+# 
+/rogs2/mapSpread/data/active 1
+/rogs2/mapSpread/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSpread/input/address none
+/rogs2/mapSpread/input/max 1.000000
+/rogs2/mapSpread/input/min 0.000000
+/rogs2/mapSpread/output/max 1.000000
+/rogs2/mapSpread/output/min 0.000000
+/rogs2/mapSpread/process/function freehand
+/rogs2/mapSpread/process/clipmode both
+/rogs2/mapSpread/process/mode 0.000000
+/rogs2/mapSpread/process/rampTime 0.000000
+/rogs2/mapSpread/slide/down 0.000000
+/rogs2/mapSpread/slide/up 0.000000
+/rogs2/mapSpread/active 0
+/rogs2/mapSpread/scalebypass 1
+# 
+/rogs2/mapTrigger/data/active 1
+/rogs2/mapTrigger/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapTrigger/input/address /gl_motion/mass
+/rogs2/mapTrigger/input/max 1.000000
+/rogs2/mapTrigger/input/min 0.000000
+/rogs2/mapTrigger/output/max 1.000000
+/rogs2/mapTrigger/output/min 0.000000
+/rogs2/mapTrigger/process/function freehand
+/rogs2/mapTrigger/process/clipmode both
+/rogs2/mapTrigger/process/mode 0.000000
+/rogs2/mapTrigger/process/rampTime 0.000000
+/rogs2/mapTrigger/slide/down 0.000000
+/rogs2/mapTrigger/slide/up 0.000000
+/rogs2/mapTrigger/active 1
+/rogs2/mapTrigger/scalebypass 1
+# 
+/rogs2/mapTurn/data/active 1
+/rogs2/mapTurn/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapTurn/input/address none
+/rogs2/mapTurn/input/max 1.000000
+/rogs2/mapTurn/input/min 0.000000
+/rogs2/mapTurn/output/max 1.000000
+/rogs2/mapTurn/output/min 0.000000
+/rogs2/mapTurn/process/function freehand
+/rogs2/mapTurn/process/clipmode both
+/rogs2/mapTurn/process/mode 0.000000
+/rogs2/mapTurn/process/rampTime 0.000000
+/rogs2/mapTurn/slide/down 0.000000
+/rogs2/mapTurn/slide/up 0.000000
+/rogs2/mapTurn/active 0
+/rogs2/mapTurn/scalebypass 1
+/rogs2/audio/gain -10.000000
+/rogs2/audio/mute 0
+/rogs2/file/ms 337160.000000
+/rogs2/file/open "Untitled:/Users/syrinx/Downloads/BBC Complete Sound Effects Library/BBC 20 - Weather/12 Polar wind.wav"
+/rogs2/mapperGate/gain 0
+/rogs2/mapperGate/onsetVar 0
+/rogs2/mapperGate/pitch 0
+/rogs2/mapperGate/pitchVar 0
+/rogs2/mapperGate/position 0
+/rogs2/mapperGate/size 0
+/rogs2/mapperGate/speed 1
+/rogs2/mapperGate/spread 0
+/rogs2/mapperGate/trigger 0
+/rogs2/mapperGate/turn 0
+/rogs2/mod/gain 0.000000
+/rogs2/mod/onsetVar 0.000000
+/rogs2/mod/pitch 0.000000
+/rogs2/mod/pitchVar 0.000000
+/rogs2/mod/position 0.000000
+/rogs2/mod/size 0.000000
+/rogs2/mod/speed 0.000000
+/rogs2/mod/spread 0.000000
+/rogs2/mod/trigger 1000.000000
+/rogs2/mod/turn 0.000000
+/rogs2/pan/mode 0
+/rogs2/pan/rate 0.000000
+/rogs2/pan/spread 0.330000
+/rogs2/pitch/transpose 0.000000
+/rogs2/pitch/variation 0.000000
+/rogs2/playback/direction 0
+/rogs2/playback/speed 1.000000
+/rogs2/playback/position 0.394834
+/rogs2/selection/mode 0
+/rogs2/selection/range 133122.140625 148673.906250
+/rogs2/waveform/normalize 0.000000
+/rogs2/numChannels 2
+# 
+/rogs3/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs3/grain/trigger/variance/gainVar/range 0.000000
+/rogs3/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs3/grain/trigger/variance/rateVar/spread 0.000000
+/rogs3/grain/trigger/variance/on 0
+/rogs3/grain/trigger/freq 30.000000
+/rogs3/grain/trigger/lock 0
+/rogs3/grain/trigger/mode 0
+/rogs3/grain/trigger/note 0
+/rogs3/grain/duration 300.000000
+/rogs3/grain/onsetVar 0.000000
+/rogs3/grain/overlap 100
+# 
+/rogs3/mapGain/data/active 1
+/rogs3/mapGain/function/parameters.1 0.000000
+/rogs3/mapGain/input/address none
+/rogs3/mapGain/input/max 1.000000
+/rogs3/mapGain/input/min 0.000000
+/rogs3/mapGain/output/max 1.000000
+/rogs3/mapGain/output/min 0.000000
+/rogs3/mapGain/process/function freehand
+/rogs3/mapGain/process/clipmode both
+/rogs3/mapGain/process/mode 0.000000
+/rogs3/mapGain/process/rampTime 0.000000
+/rogs3/mapGain/slide/down 0.000000
+/rogs3/mapGain/slide/up 0.000000
+/rogs3/mapGain/active 0
+/rogs3/mapGain/scalebypass 1
+# 
+/rogs3/mapOnsetVar/data/active 1
+/rogs3/mapOnsetVar/function/parameters.1 0.000000
+/rogs3/mapOnsetVar/input/address none
+/rogs3/mapOnsetVar/input/max 1.000000
+/rogs3/mapOnsetVar/input/min 0.000000
+/rogs3/mapOnsetVar/output/max 1.000000
+/rogs3/mapOnsetVar/output/min 0.000000
+/rogs3/mapOnsetVar/process/function freehand
+/rogs3/mapOnsetVar/process/clipmode both
+/rogs3/mapOnsetVar/process/mode 0.000000
+/rogs3/mapOnsetVar/process/rampTime 0.000000
+/rogs3/mapOnsetVar/slide/down 0.000000
+/rogs3/mapOnsetVar/slide/up 0.000000
+/rogs3/mapOnsetVar/active 0
+/rogs3/mapOnsetVar/scalebypass 1
+# 
+/rogs3/mapPitch/data/active 1
+/rogs3/mapPitch/function/parameters.1 0.000000
+/rogs3/mapPitch/input/address none
+/rogs3/mapPitch/input/max 1.000000
+/rogs3/mapPitch/input/min 0.000000
+/rogs3/mapPitch/output/max 1.000000
+/rogs3/mapPitch/output/min 0.000000
+/rogs3/mapPitch/process/function freehand
+/rogs3/mapPitch/process/clipmode both
+/rogs3/mapPitch/process/mode 0.000000
+/rogs3/mapPitch/process/rampTime 0.000000
+/rogs3/mapPitch/slide/down 0.000000
+/rogs3/mapPitch/slide/up 0.000000
+/rogs3/mapPitch/active 0
+/rogs3/mapPitch/scalebypass 1
+# 
+/rogs3/mapPosition/data/active 1
+/rogs3/mapPosition/function/parameters.1 0.000000
+/rogs3/mapPosition/input/address none
+/rogs3/mapPosition/input/max 1.000000
+/rogs3/mapPosition/input/min 0.000000
+/rogs3/mapPosition/output/max 1.000000
+/rogs3/mapPosition/output/min 0.000000
+/rogs3/mapPosition/process/function freehand
+/rogs3/mapPosition/process/clipmode both
+/rogs3/mapPosition/process/mode 0.000000
+/rogs3/mapPosition/process/rampTime 0.000000
+/rogs3/mapPosition/slide/down 0.000000
+/rogs3/mapPosition/slide/up 0.000000
+/rogs3/mapPosition/active 0
+/rogs3/mapPosition/scalebypass 1
+# 
+/rogs3/mapPvar/data/active 1
+/rogs3/mapPvar/function/parameters.1 0.000000
+/rogs3/mapPvar/input/address none
+/rogs3/mapPvar/input/max 1.000000
+/rogs3/mapPvar/input/min 0.000000
+/rogs3/mapPvar/output/max 1.000000
+/rogs3/mapPvar/output/min 0.000000
+/rogs3/mapPvar/process/function freehand
+/rogs3/mapPvar/process/clipmode both
+/rogs3/mapPvar/process/mode 0.000000
+/rogs3/mapPvar/process/rampTime 0.000000
+/rogs3/mapPvar/slide/down 0.000000
+/rogs3/mapPvar/slide/up 0.000000
+/rogs3/mapPvar/active 0
+/rogs3/mapPvar/scalebypass 1
+# 
+/rogs3/mapSize/data/active 1
+/rogs3/mapSize/function/parameters.1 0.000000
+/rogs3/mapSize/input/address none
+/rogs3/mapSize/input/max 1.000000
+/rogs3/mapSize/input/min 0.000000
+/rogs3/mapSize/output/max 1.000000
+/rogs3/mapSize/output/min 0.000000
+/rogs3/mapSize/process/function freehand
+/rogs3/mapSize/process/clipmode both
+/rogs3/mapSize/process/mode 0.000000
+/rogs3/mapSize/process/rampTime 0.000000
+/rogs3/mapSize/slide/down 0.000000
+/rogs3/mapSize/slide/up 0.000000
+/rogs3/mapSize/active 0
+/rogs3/mapSize/scalebypass 1
+# 
+/rogs3/mapSpeed/data/active 1
+/rogs3/mapSpeed/function/parameters.1 0.000000
+/rogs3/mapSpeed/input/address none
+/rogs3/mapSpeed/input/max 1.000000
+/rogs3/mapSpeed/input/min 0.000000
+/rogs3/mapSpeed/output/max 1.000000
+/rogs3/mapSpeed/output/min 0.000000
+/rogs3/mapSpeed/process/function freehand
+/rogs3/mapSpeed/process/clipmode both
+/rogs3/mapSpeed/process/mode 0.000000
+/rogs3/mapSpeed/process/rampTime 0.000000
+/rogs3/mapSpeed/slide/down 0.000000
+/rogs3/mapSpeed/slide/up 0.000000
+/rogs3/mapSpeed/active 0
+/rogs3/mapSpeed/scalebypass 1
+# 
+/rogs3/mapSpread/data/active 1
+/rogs3/mapSpread/function/parameters.1 0.000000
+/rogs3/mapSpread/input/address none
+/rogs3/mapSpread/input/max 1.000000
+/rogs3/mapSpread/input/min 0.000000
+/rogs3/mapSpread/output/max 1.000000
+/rogs3/mapSpread/output/min 0.000000
+/rogs3/mapSpread/process/function freehand
+/rogs3/mapSpread/process/clipmode both
+/rogs3/mapSpread/process/mode 0.000000
+/rogs3/mapSpread/process/rampTime 0.000000
+/rogs3/mapSpread/slide/down 0.000000
+/rogs3/mapSpread/slide/up 0.000000
+/rogs3/mapSpread/active 0
+/rogs3/mapSpread/scalebypass 1
+# 
+/rogs3/mapTrigger/data/active 1
+/rogs3/mapTrigger/function/parameters.1 0.000000
+/rogs3/mapTrigger/input/address none
+/rogs3/mapTrigger/input/max 1.000000
+/rogs3/mapTrigger/input/min 0.000000
+/rogs3/mapTrigger/output/max 1.000000
+/rogs3/mapTrigger/output/min 0.000000
+/rogs3/mapTrigger/process/function freehand
+/rogs3/mapTrigger/process/clipmode both
+/rogs3/mapTrigger/process/mode 0.000000
+/rogs3/mapTrigger/process/rampTime 0.000000
+/rogs3/mapTrigger/slide/down 0.000000
+/rogs3/mapTrigger/slide/up 0.000000
+/rogs3/mapTrigger/active 0
+/rogs3/mapTrigger/scalebypass 1
+# 
+/rogs3/mapTurn/data/active 1
+/rogs3/mapTurn/function/parameters.1 0.000000
+/rogs3/mapTurn/input/address none
+/rogs3/mapTurn/input/max 1.000000
+/rogs3/mapTurn/input/min 0.000000
+/rogs3/mapTurn/output/max 1.000000
+/rogs3/mapTurn/output/min 0.000000
+/rogs3/mapTurn/process/function freehand
+/rogs3/mapTurn/process/clipmode both
+/rogs3/mapTurn/process/mode 0.000000
+/rogs3/mapTurn/process/rampTime 0.000000
+/rogs3/mapTurn/slide/down 0.000000
+/rogs3/mapTurn/slide/up 0.000000
+/rogs3/mapTurn/active 0
+/rogs3/mapTurn/scalebypass 1
+/rogs3/audio/gain -10.000000
+/rogs3/audio/mute 1
+/rogs3/file/ms 0.000000
+/rogs3/file/open none
+/rogs3/mapperGate/gain 0
+/rogs3/mapperGate/onsetVar 0
+/rogs3/mapperGate/pitch 0
+/rogs3/mapperGate/pitchVar 0
+/rogs3/mapperGate/position 0
+/rogs3/mapperGate/size 0
+/rogs3/mapperGate/speed 1
+/rogs3/mapperGate/spread 0
+/rogs3/mapperGate/trigger 0
+/rogs3/mapperGate/turn 0
+/rogs3/mod/gain 0.000000
+/rogs3/mod/onsetVar 0.000000
+/rogs3/mod/pitch 0.000000
+/rogs3/mod/pitchVar 0.000000
+/rogs3/mod/position 0.000000
+/rogs3/mod/size 0.000000
+/rogs3/mod/speed 0.000000
+/rogs3/mod/spread 0.000000
+/rogs3/mod/trigger 0.000000
+/rogs3/mod/turn 0.000000
+/rogs3/pan/mode 0
+/rogs3/pan/rate 0.000000
+/rogs3/pan/spread 0.330000
+/rogs3/pitch/transpose 0.000000
+/rogs3/pitch/variation 0.000000
+/rogs3/playback/direction 0
+/rogs3/playback/speed 1.000000
+/rogs3/playback/position 0.000000
+/rogs3/selection/mode 0
+/rogs3/selection/range 0.000000
+/rogs3/waveform/normalize 0.000000
+/rogs3/numChannels 2
+# 
+/a1_mass/scale/input/max 100.000000
+/a1_mass/scale/input/min 0.000000
+/a1_mass/scale/max 1.000000
+/a1_mass/scale/min 0.000000
+/a1_mass/scale/mode 3
+/a1_mass/scale/window 500
+/a1_mass/function/symmetry none
+/a1_mass/function/parameter2 1.040000
+/a1_mass/function/parameter1 21.000000
+/a1_mass/data/active 0
+/a1_mass/data/bypass 0
+/a1_mass/filter/mode 1
+/a1_mass/filter/samples 10
+/a1_mass/pre-slide/down 3
+/a1_mass/pre-slide/up 3
+/a1_mass/ramp/grain 1
+/a1_mass/ramp/time 0
+/a1_mass/schmitt/debounce 0
+/a1_mass/schmitt/lower 0.700000
+/a1_mass/schmitt/on 1
+/a1_mass/schmitt/ramp 0
+/a1_mass/schmitt/upper 0.300000
+/a1_mass/slide/down 1
+/a1_mass/slide/up 1
+/a1_mass/clip 1
+/a1_mass/diffMode 0
+/a1_mass/offset 0.000000
+/a1_mass/visualize 1
+# 
+/cam_mass/scale/input/max 100.000000
+/cam_mass/scale/input/min 0.000000
+/cam_mass/scale/max 1.000000
+/cam_mass/scale/min 0.000000
+/cam_mass/scale/mode 3
+/cam_mass/scale/window 500
+/cam_mass/function/symmetry none
+/cam_mass/function/parameter2 1.040000
+/cam_mass/function/parameter1 21.000000
+/cam_mass/data/active 0
+/cam_mass/data/bypass 0
+/cam_mass/filter/mode 1
+/cam_mass/filter/samples 10
+/cam_mass/pre-slide/down 3
+/cam_mass/pre-slide/up 3
+/cam_mass/ramp/grain 1
+/cam_mass/ramp/time 0
+/cam_mass/schmitt/debounce 0
+/cam_mass/schmitt/lower 0.700000
+/cam_mass/schmitt/on 1
+/cam_mass/schmitt/ramp 0
+/cam_mass/schmitt/upper 0.300000
+/cam_mass/slide/down 1
+/cam_mass/slide/up 1
+/cam_mass/clip 1
+/cam_mass/diffMode 0
+/cam_mass/offset 0.000000
+/cam_mass/visualize 1
+# 
+/cam_x/scale/input/max 100.000000
+/cam_x/scale/input/min 0.000000
+/cam_x/scale/max 1.000000
+/cam_x/scale/min 0.000000
+/cam_x/scale/mode 3
+/cam_x/scale/window 500
+/cam_x/function/symmetry none
+/cam_x/function/parameter2 1.040000
+/cam_x/function/parameter1 21.000000
+/cam_x/data/active 0
+/cam_x/data/bypass 0
+/cam_x/filter/mode 1
+/cam_x/filter/samples 10
+/cam_x/pre-slide/down 3
+/cam_x/pre-slide/up 3
+/cam_x/ramp/grain 1
+/cam_x/ramp/time 0
+/cam_x/schmitt/debounce 0
+/cam_x/schmitt/lower 0.700000
+/cam_x/schmitt/on 1
+/cam_x/schmitt/ramp 0
+/cam_x/schmitt/upper 0.300000
+/cam_x/slide/down 1
+/cam_x/slide/up 1
+/cam_x/clip 1
+/cam_x/diffMode 0
+/cam_x/offset 0.000000
+/cam_x/visualize 1
+# 
+/cam_y/scale/input/max 100.000000
+/cam_y/scale/input/min 0.000000
+/cam_y/scale/max 1.000000
+/cam_y/scale/min 0.000000
+/cam_y/scale/mode 3
+/cam_y/scale/window 500
+/cam_y/function/symmetry none
+/cam_y/function/parameter2 1.040000
+/cam_y/function/parameter1 21.000000
+/cam_y/data/active 0
+/cam_y/data/bypass 0
+/cam_y/filter/mode 1
+/cam_y/filter/samples 10
+/cam_y/pre-slide/down 3
+/cam_y/pre-slide/up 3
+/cam_y/ramp/grain 1
+/cam_y/ramp/time 0
+/cam_y/schmitt/debounce 0
+/cam_y/schmitt/lower 0.700000
+/cam_y/schmitt/on 1
+/cam_y/schmitt/ramp 0
+/cam_y/schmitt/upper 0.300000
+/cam_y/slide/down 1
+/cam_y/slide/up 1
+/cam_y/clip 1
+/cam_y/diffMode 0
+/cam_y/offset 0.000000
+/cam_y/visualize 1
+# 
+# 
+/gl_motion/gl_cf_gaussian_2p/data/active 1
+/gl_motion/gl_cf_gaussian_2p/data/bypass 0
+/gl_motion/gl_cf_gaussian_2p/width/x 0.100000
+/gl_motion/gl_cf_gaussian_2p/width/y 0.100000
+/gl_motion/gl_cf_gaussian_2p/context test
+/gl_motion/gl_cf_gaussian_2p/active 1
+/gl_motion/gl_cf_gaussian_2p/adapt 1
+/gl_motion/gl_cf_gaussian_2p/antialias 0
+/gl_motion/gl_cf_gaussian_2p/automatic 1
+/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/gl_pix_roberts/data/active 1
+/gl_motion/gl_pix_roberts/data/bypass 0
+/gl_motion/gl_pix_roberts/context test
+/gl_motion/gl_pix_roberts/active 1
+/gl_motion/gl_pix_roberts/adapt 1
+/gl_motion/gl_pix_roberts/antialias 0
+/gl_motion/gl_pix_roberts/automatic 1
+/gl_motion/gl_pix_roberts/dim 720.000000 480.000000
+/gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/weight 0.351000
+# 
+/gl_motion/gl_pix_sobel/data/active 1
+/gl_motion/gl_pix_sobel/data/bypass 0
+/gl_motion/gl_pix_sobel/context test
+/gl_motion/gl_pix_sobel/active 1
+/gl_motion/gl_pix_sobel/adapt 1
+/gl_motion/gl_pix_sobel/antialias 0
+/gl_motion/gl_pix_sobel/automatic 1
+/gl_motion/gl_pix_sobel/dim 720.000000 480.000000
+/gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/weight 0.351000
+# 
+/gl_motion/gl_pix_thresh/data/active 1
+/gl_motion/gl_pix_thresh/data/bypass 0
+/gl_motion/gl_pix_thresh/context test
+/gl_motion/gl_pix_thresh/active 1
+/gl_motion/gl_pix_thresh/adapt 1
+/gl_motion/gl_pix_thresh/antialias 0
+/gl_motion/gl_pix_thresh/automatic 1
+/gl_motion/gl_pix_thresh/dim 720.000000 480.000000
+/gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/select 0
+/gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/thresh 0.100000
+# 
+/gl_motion/post_slide/data/active 1
+/gl_motion/post_slide/data/bypass 0
+/gl_motion/post_slide/context test
+/gl_motion/post_slide/active 1
+/gl_motion/post_slide/adapt 1
+/gl_motion/post_slide/antialias 0
+/gl_motion/post_slide/attack 0.000000
+/gl_motion/post_slide/automatic 1
+/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/dim 720.000000 480.000000
+/gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/vertex 0
+/gl_motion/data/active 0
+/gl_motion/data/bypass 0
+/gl_motion/context test
+/gl_motion/active 1
+/gl_motion/adapt 1
+/gl_motion/antialias 0
+/gl_motion/automatic 1
+/gl_motion/blur 0.100000
+/gl_motion/colour 0
+/gl_motion/denoise 1
+/gl_motion/dim 720.000000 480.000000
+/gl_motion/edge 0
+/gl_motion/framediff 1
+/gl_motion/invert 0
+/gl_motion/motionprocessor 0
+/gl_motion/operator 0
+/gl_motion/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/slide 0
+/gl_motion/slide_down 0.000000
+/gl_motion/slide_up 0.000000
+/gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/threshold 0.100000
+/gl_motion/weight 0.351000
+# 
+# 
+/syphonserver/GL/blend/enable 0
+/syphonserver/GL/blend/mode 6.000000 7.000000
+/syphonserver/GL/color/inherit 0
+/syphonserver/GL/depth/clear 0
+/syphonserver/GL/depth/enable 1
+/syphonserver/GL/depth/inherit 0
+/syphonserver/GL/depth/write 1
+/syphonserver/GL/fog/amount 0.000000
+/syphonserver/GL/fog/inherit 0
+/syphonserver/GL/fog/params 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/light/enable 0
+/syphonserver/GL/material/ambient 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/automatic 1
+/syphonserver/GL/material/diffuse 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/emission 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/inherit 0
+/syphonserver/GL/material/matfile none
+/syphonserver/GL/material/name none
+/syphonserver/GL/material/shininess 10.000000
+/syphonserver/GL/material/specular 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/context test
+/syphonserver/GL/alpha 1.000000
+/syphonserver/GL/anchor 0.000000 0.000000 0.000000
+/syphonserver/GL/anim UID
+/syphonserver/GL/animmode none
+/syphonserver/GL/antialias 0
+/syphonserver/GL/automatic 1
+/syphonserver/GL/aux_alpha 1.000000
+/syphonserver/GL/aux_color 1.000000 1.000000 1.000000
+/syphonserver/GL/axes 0
+/syphonserver/GL/capture none
+/syphonserver/GL/cull_face 0
+/syphonserver/GL/enable 1
+/syphonserver/GL/filterclass default
+/syphonserver/GL/inherit_all 0
+/syphonserver/GL/inherit_texture 0
+/syphonserver/GL/layer 0
+/syphonserver/GL/line_width 1.000000
+/syphonserver/GL/matrixoutput 0
+/syphonserver/GL/point_size 1.000000
+/syphonserver/GL/poly_mode 0.000000 0.000000
+/syphonserver/GL/position 0.000000 0.000000 0.000000
+/syphonserver/GL/rotate 0.000000 0.000000 0.000000 1.000000
+/syphonserver/GL/scale 1.000000 1.000000 1.000000
+/syphonserver/GL/shader none
+/syphonserver/GL/smooth_shading 0
+/syphonserver/GL/tex_map 0
+/syphonserver/GL/tex_plane_s 1.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/tex_plane_t 0.000000 1.000000 0.000000 0.000000
+/syphonserver/GL/texture none
+/syphonserver/GL/transform_reset 0
+/syphonserver/GL/viewalign 0
+/syphonserver/data/active 0
+/syphonserver/servername syphonserver
+# 
+/analyzer1/data/active 0
+/analyzer1/context test
+/analyzer1/active 1
+/analyzer1/adapt 1
+/analyzer1/antialias 0
+/analyzer1/automatic 0
+/analyzer1/dim 720.000000 480.000000
+/analyzer1/motionprocessor 1
+/analyzer1/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/analyzer2/data/active 0
+/analyzer2/context test
+/analyzer2/active 1
+/analyzer2/adapt 1
+/analyzer2/antialias 0
+/analyzer2/automatic 1
+/analyzer2/dim 720.000000 480.000000
+/analyzer2/motionprocessor 1
+/analyzer2/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/analyzer3/data/active 0
+/analyzer3/context test
+/analyzer3/active 1
+/analyzer3/adapt 1
+/analyzer3/antialias 0
+/analyzer3/automatic 1
+/analyzer3/dim 720.000000 480.000000
+/analyzer3/motionprocessor 1
+/analyzer3/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer3/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/masks/data/active 0
+/masks/data/bypass 0
+/masks/key1/enable 1
+/masks/key1/handle none
+/masks/key1/lock 0
+/masks/key1/position 0.100000 0.000000 0.000000
+/masks/key1/rotate 0.000000 0.000000 0.000000 1.000000
+/masks/key1/scale 0.200000 1.000000 0.000000
+/masks/key1/shape plane
+/masks/key2/enable 1
+/masks/key2/handle none
+/masks/key2/lock 0
+/masks/key2/position -0.750000 0.000000 0.000000
+/masks/key2/rotate 0.000000 0.000000 0.000000
+/masks/key2/scale 0.320000 0.600000 0.000000
+/masks/key2/shape plane
+/masks/key3/enable 1
+/masks/key3/handle none
+/masks/key3/lock 0
+/masks/key3/position 0.750000 0.000000 0.000000
+/masks/key3/rotate 0.000000 0.000000 0.000000
+/masks/key3/scale 0.320000 0.600000 0.000000
+/masks/key3/shape plane
+/masks/key4/enable 0
+/masks/key4/handle none
+/masks/key4/lock 0
+/masks/key4/position 0.000000 0.000000 0.000000
+/masks/key4/rotate 0.000000 0.000000 0.000000
+/masks/key4/scale 0.300000 0.300000 0.000000
+/masks/key4/shape circle
+/masks/key5/enable 0
+/masks/key5/handle none
+/masks/key5/lock 0
+/masks/key5/position 0.000000 0.000000 0.000000
+/masks/key5/rotate 0.000000
+/masks/key5/scale 0.300000 0.300000 0.000000
+/masks/key5/shape circle
+/masks/key6/enable 0
+/masks/key6/handle none
+/masks/key6/lock 0
+/masks/key6/position 0.000000 0.000000 0.000000
+/masks/key6/rotate 0.000000
+/masks/key6/scale 0.300000 0.300000 0.000000
+/masks/key6/shape circle
+/masks/key7/enable 0
+/masks/key7/handle none
+/masks/key7/lock 0
+/masks/key7/position 0.000000 0.000000 0.000000
+/masks/key7/rotate 0.000000 0.000000 0.000000
+/masks/key7/scale 0.300000 0.300000 0.000000
+/masks/key7/shape circle
+/masks/key8/enable 0
+/masks/key8/handle none
+/masks/key8/lock 0
+/masks/key8/position 0.000000 0.000000 0.000000
+/masks/key8/rotate 0.000000 0.000000 0.000000
+/masks/key8/scale 0.300000 0.300000 0.000000
+/masks/key8/shape circle
+/masks/context test
+/masks/active 1
+/masks/adapt 1
+/masks/antialias 0
+/masks/automatic 1
+/masks/blur 0.000000
+/masks/dim 720.000000 480.000000
+/masks/maskview 0
+/masks/rect 0.000000 0.000000 1.000000 1.000000
+/masks/solo 0
+/masks/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/rota/data/active 0
+/rota/data/bypass 0
+/rota/context test
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.500000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode clear
+/rota/dim 720.000000 480.000000
+/rota/offset 0.000000 0.000000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 10.800000
+/rota/zoom 1.320000 1.320000
+# 
+# ###########################################
+
+- cue "rain wind and fire"
+- description "something about this cue"
+# ###########################################
+# 
+/rogs1/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs1/grain/trigger/variance/gainVar/range 0.000000
+/rogs1/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs1/grain/trigger/variance/rateVar/spread 0.000000
+/rogs1/grain/trigger/variance/on 0
+/rogs1/grain/trigger/freq 0.000000
+/rogs1/grain/trigger/lock 0
+/rogs1/grain/trigger/mode 0
+/rogs1/grain/trigger/note 0
+/rogs1/grain/duration 500.000000
+/rogs1/grain/onsetVar 0.000000
+/rogs1/grain/overlap 100
+# 
+/rogs1/mapGain/data/active 1
+/rogs1/mapGain/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapGain/input/address none
+/rogs1/mapGain/input/max 1.000000
+/rogs1/mapGain/input/min 0.000000
+/rogs1/mapGain/output/max 1.000000
+/rogs1/mapGain/output/min 0.000000
+/rogs1/mapGain/process/function freehand
+/rogs1/mapGain/process/clipmode both
+/rogs1/mapGain/process/mode 0.000000
+/rogs1/mapGain/process/rampTime 0.000000
+/rogs1/mapGain/slide/down 0.000000
+/rogs1/mapGain/slide/up 0.000000
+/rogs1/mapGain/active 0
+/rogs1/mapGain/scalebypass 1
+# 
+/rogs1/mapOnsetVar/data/active 1
+/rogs1/mapOnsetVar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapOnsetVar/input/address none
+/rogs1/mapOnsetVar/input/max 1.000000
+/rogs1/mapOnsetVar/input/min 0.000000
+/rogs1/mapOnsetVar/output/max 1.000000
+/rogs1/mapOnsetVar/output/min 0.000000
+/rogs1/mapOnsetVar/process/function freehand
+/rogs1/mapOnsetVar/process/clipmode both
+/rogs1/mapOnsetVar/process/mode 0.000000
+/rogs1/mapOnsetVar/process/rampTime 0.000000
+/rogs1/mapOnsetVar/slide/down 0.000000
+/rogs1/mapOnsetVar/slide/up 0.000000
+/rogs1/mapOnsetVar/active 0
+/rogs1/mapOnsetVar/scalebypass 1
+# 
+/rogs1/mapPitch/data/active 1
+/rogs1/mapPitch/input/address /analyzer1/mass
+/rogs1/mapPitch/input/max 1.000000
+/rogs1/mapPitch/input/min 0.000000
+/rogs1/mapPitch/output/max 1.000000
+/rogs1/mapPitch/output/min 0.000000
+/rogs1/mapPitch/process/function easeInQuintic
+/rogs1/mapPitch/process/clipmode both
+/rogs1/mapPitch/process/mode 4
+/rogs1/mapPitch/process/rampTime 0.000000
+/rogs1/mapPitch/slide/down 0.000000
+/rogs1/mapPitch/slide/up 0.000000
+/rogs1/mapPitch/active 0
+/rogs1/mapPitch/scalebypass 0
+# 
+/rogs1/mapPosition/data/active 1
+/rogs1/mapPosition/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapPosition/input/address none
+/rogs1/mapPosition/input/max 1.000000
+/rogs1/mapPosition/input/min 0.000000
+/rogs1/mapPosition/output/max 1.000000
+/rogs1/mapPosition/output/min 0.000000
+/rogs1/mapPosition/process/function freehand
+/rogs1/mapPosition/process/clipmode both
+/rogs1/mapPosition/process/mode 0.000000
+/rogs1/mapPosition/process/rampTime 0.000000
+/rogs1/mapPosition/slide/down 0.000000
+/rogs1/mapPosition/slide/up 0.000000
+/rogs1/mapPosition/active 0
+/rogs1/mapPosition/scalebypass 1
+# 
+/rogs1/mapPvar/data/active 1
+/rogs1/mapPvar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapPvar/input/address /analyzer1/mass
+/rogs1/mapPvar/input/max 0.100000
+/rogs1/mapPvar/input/min 0.000000
+/rogs1/mapPvar/output/max 1.000000
+/rogs1/mapPvar/output/min 0.000000
+/rogs1/mapPvar/process/function freehand
+/rogs1/mapPvar/process/clipmode both
+/rogs1/mapPvar/process/mode 4
+/rogs1/mapPvar/process/rampTime 0.000000
+/rogs1/mapPvar/slide/down 0.000000
+/rogs1/mapPvar/slide/up 0.000000
+/rogs1/mapPvar/active 1
+/rogs1/mapPvar/scalebypass 0
+# 
+/rogs1/mapSize/data/active 1
+/rogs1/mapSize/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapSize/input/address /a1_mass/QoM
+/rogs1/mapSize/input/max 1.000000
+/rogs1/mapSize/input/min 0.000000
+/rogs1/mapSize/output/max 1.000000
+/rogs1/mapSize/output/min 0.000000
+/rogs1/mapSize/process/function freehand
+/rogs1/mapSize/process/clipmode both
+/rogs1/mapSize/process/mode 0.000000
+/rogs1/mapSize/process/rampTime 0.000000
+/rogs1/mapSize/slide/down 0.000000
+/rogs1/mapSize/slide/up 0.000000
+/rogs1/mapSize/active 0
+/rogs1/mapSize/scalebypass 1
+# 
+/rogs1/mapSpeed/data/active 1
+/rogs1/mapSpeed/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapSpeed/input/address none
+/rogs1/mapSpeed/input/max 1.000000
+/rogs1/mapSpeed/input/min 0.000000
+/rogs1/mapSpeed/output/max 1.000000
+/rogs1/mapSpeed/output/min 0.000000
+/rogs1/mapSpeed/process/function freehand
+/rogs1/mapSpeed/process/clipmode both
+/rogs1/mapSpeed/process/mode 0.000000
+/rogs1/mapSpeed/process/rampTime 0.000000
+/rogs1/mapSpeed/slide/down 0.000000
+/rogs1/mapSpeed/slide/up 0.000000
+/rogs1/mapSpeed/active 0
+/rogs1/mapSpeed/scalebypass 1
+# 
+/rogs1/mapSpread/data/active 1
+/rogs1/mapSpread/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapSpread/input/address none
+/rogs1/mapSpread/input/max 1.000000
+/rogs1/mapSpread/input/min 0.000000
+/rogs1/mapSpread/output/max 1.000000
+/rogs1/mapSpread/output/min 0.000000
+/rogs1/mapSpread/process/function freehand
+/rogs1/mapSpread/process/clipmode both
+/rogs1/mapSpread/process/mode 0.000000
+/rogs1/mapSpread/process/rampTime 0.000000
+/rogs1/mapSpread/slide/down 0.000000
+/rogs1/mapSpread/slide/up 0.000000
+/rogs1/mapSpread/active 0
+/rogs1/mapSpread/scalebypass 1
+# 
+/rogs1/mapTrigger/data/active 1
+/rogs1/mapTrigger/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapTrigger/input/address /analyzer1/mass
+/rogs1/mapTrigger/input/max 0.200000
+/rogs1/mapTrigger/input/min 0.000000
+/rogs1/mapTrigger/output/max 1.000000
+/rogs1/mapTrigger/output/min 0.000000
+/rogs1/mapTrigger/process/function freehand
+/rogs1/mapTrigger/process/clipmode both
+/rogs1/mapTrigger/process/mode 4
+/rogs1/mapTrigger/process/rampTime 0.000000
+/rogs1/mapTrigger/slide/down 0.000000
+/rogs1/mapTrigger/slide/up 0.000000
+/rogs1/mapTrigger/active 1
+/rogs1/mapTrigger/scalebypass 0
+# 
+/rogs1/mapTurn/data/active 1
+/rogs1/mapTurn/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs1/mapTurn/input/address none
+/rogs1/mapTurn/input/max 1.000000
+/rogs1/mapTurn/input/min 0.000000
+/rogs1/mapTurn/output/max 1.000000
+/rogs1/mapTurn/output/min 0.000000
+/rogs1/mapTurn/process/function freehand
+/rogs1/mapTurn/process/clipmode both
+/rogs1/mapTurn/process/mode 0.000000
+/rogs1/mapTurn/process/rampTime 0.000000
+/rogs1/mapTurn/slide/down 0.000000
+/rogs1/mapTurn/slide/up 0.000000
+/rogs1/mapTurn/active 0
+/rogs1/mapTurn/scalebypass 1
+/rogs1/audio/gain -10.000000
+/rogs1/audio/mute 0
+/rogs1/file/ms 156280.000000
+/rogs1/file/open "14 Blizzard.wav"
+/rogs1/mapperGate/gain 2
+/rogs1/mapperGate/onsetVar 0
+/rogs1/mapperGate/pitch 2
+/rogs1/mapperGate/pitchVar 2
+/rogs1/mapperGate/position 0
+/rogs1/mapperGate/size 0
+/rogs1/mapperGate/speed 1
+/rogs1/mapperGate/spread 0
+/rogs1/mapperGate/trigger 1
+/rogs1/mapperGate/turn 0
+/rogs1/mod/gain 5.000000
+/rogs1/mod/onsetVar 0.000000
+/rogs1/mod/pitch 10000.000000
+/rogs1/mod/pitchVar 5000.000000
+/rogs1/mod/position 0.000000
+/rogs1/mod/size 0.000000
+/rogs1/mod/speed 0.000000
+/rogs1/mod/spread 0.000000
+/rogs1/mod/trigger 500.000000
+/rogs1/mod/turn 0.000000
+/rogs1/pan/mode 0
+/rogs1/pan/rate 0.000000
+/rogs1/pan/spread 0.330000
+/rogs1/pitch/transpose -1000.000000
+/rogs1/pitch/variation 0.000000
+/rogs1/playback/direction 0
+/rogs1/playback/speed 0.970000
+/rogs1/playback/position 0.717710
+/rogs1/selection/mode 0
+/rogs1/selection/range 97746.760752 112164.130865
+/rogs1/waveform/normalize 0.000000
+/rogs1/numChannels 2
+# 
+/rogs2/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/gainVar/range 0.000000
+/rogs2/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/rateVar/spread 0.000000
+/rogs2/grain/trigger/variance/on 0
+/rogs2/grain/trigger/freq 0.000000
+/rogs2/grain/trigger/lock 0
+/rogs2/grain/trigger/mode 0
+/rogs2/grain/trigger/note 0
+/rogs2/grain/duration 600.000000
+/rogs2/grain/onsetVar 0.000000
+/rogs2/grain/overlap 100
+# 
+/rogs2/mapGain/data/active 1
+/rogs2/mapGain/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapGain/input/address /analyzer2/mass
+/rogs2/mapGain/input/max 0.100000
+/rogs2/mapGain/input/min 0.000000
+/rogs2/mapGain/output/max 1.000000
+/rogs2/mapGain/output/min 0.000000
+/rogs2/mapGain/process/function freehand
+/rogs2/mapGain/process/clipmode both
+/rogs2/mapGain/process/mode 4
+/rogs2/mapGain/process/rampTime 0.000000
+/rogs2/mapGain/slide/down 0.000000
+/rogs2/mapGain/slide/up 0.000000
+/rogs2/mapGain/active 1
+/rogs2/mapGain/scalebypass 0
+# 
+/rogs2/mapOnsetVar/data/active 1
+/rogs2/mapOnsetVar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapOnsetVar/input/address none
+/rogs2/mapOnsetVar/input/max 1.000000
+/rogs2/mapOnsetVar/input/min 0.000000
+/rogs2/mapOnsetVar/output/max 1.000000
+/rogs2/mapOnsetVar/output/min 0.000000
+/rogs2/mapOnsetVar/process/function freehand
+/rogs2/mapOnsetVar/process/clipmode both
+/rogs2/mapOnsetVar/process/mode 0.000000
+/rogs2/mapOnsetVar/process/rampTime 0.000000
+/rogs2/mapOnsetVar/slide/down 0.000000
+/rogs2/mapOnsetVar/slide/up 0.000000
+/rogs2/mapOnsetVar/active 0
+/rogs2/mapOnsetVar/scalebypass 1
+# 
+/rogs2/mapPitch/data/active 1
+/rogs2/mapPitch/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPitch/input/address none
+/rogs2/mapPitch/input/max 1.000000
+/rogs2/mapPitch/input/min 0.000000
+/rogs2/mapPitch/output/max 1.000000
+/rogs2/mapPitch/output/min 0.000000
+/rogs2/mapPitch/process/function freehand
+/rogs2/mapPitch/process/clipmode both
+/rogs2/mapPitch/process/mode 0.000000
+/rogs2/mapPitch/process/rampTime 0.000000
+/rogs2/mapPitch/slide/down 0.000000
+/rogs2/mapPitch/slide/up 0.000000
+/rogs2/mapPitch/active 0
+/rogs2/mapPitch/scalebypass 1
+# 
+/rogs2/mapPosition/data/active 1
+/rogs2/mapPosition/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPosition/input/address none
+/rogs2/mapPosition/input/max 1.000000
+/rogs2/mapPosition/input/min 0.000000
+/rogs2/mapPosition/output/max 1.000000
+/rogs2/mapPosition/output/min 0.000000
+/rogs2/mapPosition/process/function freehand
+/rogs2/mapPosition/process/clipmode both
+/rogs2/mapPosition/process/mode 0.000000
+/rogs2/mapPosition/process/rampTime 0.000000
+/rogs2/mapPosition/slide/down 0.000000
+/rogs2/mapPosition/slide/up 0.000000
+/rogs2/mapPosition/active 0
+/rogs2/mapPosition/scalebypass 1
+# 
+/rogs2/mapPvar/data/active 1
+/rogs2/mapPvar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapPvar/input/address none
+/rogs2/mapPvar/input/max 1.000000
+/rogs2/mapPvar/input/min 0.000000
+/rogs2/mapPvar/output/max 1.000000
+/rogs2/mapPvar/output/min 0.000000
+/rogs2/mapPvar/process/function freehand
+/rogs2/mapPvar/process/clipmode both
+/rogs2/mapPvar/process/mode 0.000000
+/rogs2/mapPvar/process/rampTime 0.000000
+/rogs2/mapPvar/slide/down 0.000000
+/rogs2/mapPvar/slide/up 0.000000
+/rogs2/mapPvar/active 0
+/rogs2/mapPvar/scalebypass 1
+# 
+/rogs2/mapSize/data/active 1
+/rogs2/mapSize/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSize/input/address none
+/rogs2/mapSize/input/max 1.000000
+/rogs2/mapSize/input/min 0.000000
+/rogs2/mapSize/output/max 1.000000
+/rogs2/mapSize/output/min 0.000000
+/rogs2/mapSize/process/function freehand
+/rogs2/mapSize/process/clipmode both
+/rogs2/mapSize/process/mode 0.000000
+/rogs2/mapSize/process/rampTime 0.000000
+/rogs2/mapSize/slide/down 0.000000
+/rogs2/mapSize/slide/up 0.000000
+/rogs2/mapSize/active 0
+/rogs2/mapSize/scalebypass 1
+# 
+/rogs2/mapSpeed/data/active 1
+/rogs2/mapSpeed/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSpeed/input/address none
+/rogs2/mapSpeed/input/max 1.000000
+/rogs2/mapSpeed/input/min 0.000000
+/rogs2/mapSpeed/output/max 1.000000
+/rogs2/mapSpeed/output/min 0.000000
+/rogs2/mapSpeed/process/function freehand
+/rogs2/mapSpeed/process/clipmode both
+/rogs2/mapSpeed/process/mode 0.000000
+/rogs2/mapSpeed/process/rampTime 0.000000
+/rogs2/mapSpeed/slide/down 0.000000
+/rogs2/mapSpeed/slide/up 0.000000
+/rogs2/mapSpeed/active 0
+/rogs2/mapSpeed/scalebypass 1
+# 
+/rogs2/mapSpread/data/active 1
+/rogs2/mapSpread/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapSpread/input/address none
+/rogs2/mapSpread/input/max 1.000000
+/rogs2/mapSpread/input/min 0.000000
+/rogs2/mapSpread/output/max 1.000000
+/rogs2/mapSpread/output/min 0.000000
+/rogs2/mapSpread/process/function freehand
+/rogs2/mapSpread/process/clipmode both
+/rogs2/mapSpread/process/mode 0.000000
+/rogs2/mapSpread/process/rampTime 0.000000
+/rogs2/mapSpread/slide/down 0.000000
+/rogs2/mapSpread/slide/up 0.000000
+/rogs2/mapSpread/active 0
+/rogs2/mapSpread/scalebypass 1
+# 
+/rogs2/mapTrigger/data/active 1
+/rogs2/mapTrigger/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapTrigger/input/address /analyzer2/mass
+/rogs2/mapTrigger/input/max 0.200085
+/rogs2/mapTrigger/input/min 0.000000
+/rogs2/mapTrigger/output/max 1.000000
+/rogs2/mapTrigger/output/min 0.000000
+/rogs2/mapTrigger/process/function freehand
+/rogs2/mapTrigger/process/clipmode both
+/rogs2/mapTrigger/process/mode 1
+/rogs2/mapTrigger/process/rampTime 0.000000
+/rogs2/mapTrigger/slide/down 0.000000
+/rogs2/mapTrigger/slide/up 0.000000
+/rogs2/mapTrigger/active 1
+/rogs2/mapTrigger/scalebypass 0
+# 
+/rogs2/mapTurn/data/active 1
+/rogs2/mapTurn/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs2/mapTurn/input/address none
+/rogs2/mapTurn/input/max 1.000000
+/rogs2/mapTurn/input/min 0.000000
+/rogs2/mapTurn/output/max 1.000000
+/rogs2/mapTurn/output/min 0.000000
+/rogs2/mapTurn/process/function freehand
+/rogs2/mapTurn/process/clipmode both
+/rogs2/mapTurn/process/mode 0.000000
+/rogs2/mapTurn/process/rampTime 0.000000
+/rogs2/mapTurn/slide/down 0.000000
+/rogs2/mapTurn/slide/up 0.000000
+/rogs2/mapTurn/active 0
+/rogs2/mapTurn/scalebypass 1
+/rogs2/audio/gain -10.000000
+/rogs2/audio/mute 0
+/rogs2/file/ms 313240.000000
+/rogs2/file/open "10 Rain On Tent.wav"
+/rogs2/mapperGate/gain 0
+/rogs2/mapperGate/onsetVar 0
+/rogs2/mapperGate/pitch 0
+/rogs2/mapperGate/pitchVar 0
+/rogs2/mapperGate/position 0
+/rogs2/mapperGate/size 0
+/rogs2/mapperGate/speed 1
+/rogs2/mapperGate/spread 0
+/rogs2/mapperGate/trigger 0
+/rogs2/mapperGate/turn 0
+/rogs2/mod/gain 100.000000
+/rogs2/mod/onsetVar 0.000000
+/rogs2/mod/pitch 0.000000
+/rogs2/mod/pitchVar 0.000000
+/rogs2/mod/position 0.000000
+/rogs2/mod/size 0.000000
+/rogs2/mod/speed 0.000000
+/rogs2/mod/spread 0.000000
+/rogs2/mod/trigger 500.000000
+/rogs2/mod/turn 0.000000
+/rogs2/pan/mode 0
+/rogs2/pan/rate 0.000000
+/rogs2/pan/spread 0.330000
+/rogs2/pitch/transpose -1000.000000
+/rogs2/pitch/variation 0.000000
+/rogs2/playback/direction 0
+/rogs2/playback/speed 1.000000
+/rogs2/playback/position 0.352399
+/rogs2/selection/mode 0
+/rogs2/selection/range 110384.901779 146795.197823
+/rogs2/waveform/normalize 0.000000
+/rogs2/numChannels 2
+# 
+/rogs3/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs3/grain/trigger/variance/gainVar/range 0.000000
+/rogs3/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs3/grain/trigger/variance/rateVar/spread 0.000000
+/rogs3/grain/trigger/variance/on 0
+/rogs3/grain/trigger/freq 0.000000
+/rogs3/grain/trigger/lock 0
+/rogs3/grain/trigger/mode 0
+/rogs3/grain/trigger/note 0
+/rogs3/grain/duration 500.000000
+/rogs3/grain/onsetVar 0.000000
+/rogs3/grain/overlap 100
+# 
+/rogs3/mapGain/data/active 1
+/rogs3/mapGain/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapGain/input/address none
+/rogs3/mapGain/input/max 1.000000
+/rogs3/mapGain/input/min 0.000000
+/rogs3/mapGain/output/max 1.000000
+/rogs3/mapGain/output/min 0.000000
+/rogs3/mapGain/process/function freehand
+/rogs3/mapGain/process/clipmode both
+/rogs3/mapGain/process/mode 0.000000
+/rogs3/mapGain/process/rampTime 0.000000
+/rogs3/mapGain/slide/down 0.000000
+/rogs3/mapGain/slide/up 0.000000
+/rogs3/mapGain/active 0
+/rogs3/mapGain/scalebypass 1
+# 
+/rogs3/mapOnsetVar/data/active 1
+/rogs3/mapOnsetVar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapOnsetVar/input/address none
+/rogs3/mapOnsetVar/input/max 1.000000
+/rogs3/mapOnsetVar/input/min 0.000000
+/rogs3/mapOnsetVar/output/max 1.000000
+/rogs3/mapOnsetVar/output/min 0.000000
+/rogs3/mapOnsetVar/process/function freehand
+/rogs3/mapOnsetVar/process/clipmode both
+/rogs3/mapOnsetVar/process/mode 0.000000
+/rogs3/mapOnsetVar/process/rampTime 0.000000
+/rogs3/mapOnsetVar/slide/down 0.000000
+/rogs3/mapOnsetVar/slide/up 0.000000
+/rogs3/mapOnsetVar/active 0
+/rogs3/mapOnsetVar/scalebypass 1
+# 
+/rogs3/mapPitch/data/active 1
+/rogs3/mapPitch/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapPitch/input/address none
+/rogs3/mapPitch/input/max 1.000000
+/rogs3/mapPitch/input/min 0.000000
+/rogs3/mapPitch/output/max 1.000000
+/rogs3/mapPitch/output/min 0.000000
+/rogs3/mapPitch/process/function freehand
+/rogs3/mapPitch/process/clipmode both
+/rogs3/mapPitch/process/mode 0.000000
+/rogs3/mapPitch/process/rampTime 0.000000
+/rogs3/mapPitch/slide/down 0.000000
+/rogs3/mapPitch/slide/up 0.000000
+/rogs3/mapPitch/active 0
+/rogs3/mapPitch/scalebypass 1
+# 
+/rogs3/mapPosition/data/active 1
+/rogs3/mapPosition/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapPosition/input/address none
+/rogs3/mapPosition/input/max 1.000000
+/rogs3/mapPosition/input/min 0.000000
+/rogs3/mapPosition/output/max 1.000000
+/rogs3/mapPosition/output/min 0.000000
+/rogs3/mapPosition/process/function freehand
+/rogs3/mapPosition/process/clipmode both
+/rogs3/mapPosition/process/mode 0.000000
+/rogs3/mapPosition/process/rampTime 0.000000
+/rogs3/mapPosition/slide/down 0.000000
+/rogs3/mapPosition/slide/up 0.000000
+/rogs3/mapPosition/active 0
+/rogs3/mapPosition/scalebypass 1
+# 
+/rogs3/mapPvar/data/active 1
+/rogs3/mapPvar/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapPvar/input/address none
+/rogs3/mapPvar/input/max 1.000000
+/rogs3/mapPvar/input/min 0.000000
+/rogs3/mapPvar/output/max 1.000000
+/rogs3/mapPvar/output/min 0.000000
+/rogs3/mapPvar/process/function freehand
+/rogs3/mapPvar/process/clipmode both
+/rogs3/mapPvar/process/mode 0.000000
+/rogs3/mapPvar/process/rampTime 0.000000
+/rogs3/mapPvar/slide/down 0.000000
+/rogs3/mapPvar/slide/up 0.000000
+/rogs3/mapPvar/active 0
+/rogs3/mapPvar/scalebypass 1
+# 
+/rogs3/mapSize/data/active 1
+/rogs3/mapSize/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapSize/input/address none
+/rogs3/mapSize/input/max 1.000000
+/rogs3/mapSize/input/min 0.000000
+/rogs3/mapSize/output/max 1.000000
+/rogs3/mapSize/output/min 0.000000
+/rogs3/mapSize/process/function freehand
+/rogs3/mapSize/process/clipmode both
+/rogs3/mapSize/process/mode 0.000000
+/rogs3/mapSize/process/rampTime 0.000000
+/rogs3/mapSize/slide/down 0.000000
+/rogs3/mapSize/slide/up 0.000000
+/rogs3/mapSize/active 0
+/rogs3/mapSize/scalebypass 1
+# 
+/rogs3/mapSpeed/data/active 1
+/rogs3/mapSpeed/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapSpeed/input/address none
+/rogs3/mapSpeed/input/max 1.000000
+/rogs3/mapSpeed/input/min 0.000000
+/rogs3/mapSpeed/output/max 1.000000
+/rogs3/mapSpeed/output/min 0.000000
+/rogs3/mapSpeed/process/function freehand
+/rogs3/mapSpeed/process/clipmode both
+/rogs3/mapSpeed/process/mode 0.000000
+/rogs3/mapSpeed/process/rampTime 0.000000
+/rogs3/mapSpeed/slide/down 0.000000
+/rogs3/mapSpeed/slide/up 0.000000
+/rogs3/mapSpeed/active 0
+/rogs3/mapSpeed/scalebypass 1
+# 
+/rogs3/mapSpread/data/active 1
+/rogs3/mapSpread/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapSpread/input/address none
+/rogs3/mapSpread/input/max 1.000000
+/rogs3/mapSpread/input/min 0.000000
+/rogs3/mapSpread/output/max 1.000000
+/rogs3/mapSpread/output/min 0.000000
+/rogs3/mapSpread/process/function freehand
+/rogs3/mapSpread/process/clipmode both
+/rogs3/mapSpread/process/mode 0.000000
+/rogs3/mapSpread/process/rampTime 0.000000
+/rogs3/mapSpread/slide/down 0.000000
+/rogs3/mapSpread/slide/up 0.000000
+/rogs3/mapSpread/active 0
+/rogs3/mapSpread/scalebypass 1
+# 
+/rogs3/mapTrigger/data/active 1
+/rogs3/mapTrigger/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapTrigger/input/address /analyzer3/mass
+/rogs3/mapTrigger/input/max 0.200085
+/rogs3/mapTrigger/input/min 0.000000
+/rogs3/mapTrigger/output/max 1.000000
+/rogs3/mapTrigger/output/min 0.000000
+/rogs3/mapTrigger/process/function freehand
+/rogs3/mapTrigger/process/clipmode both
+/rogs3/mapTrigger/process/mode 1
+/rogs3/mapTrigger/process/rampTime 0.000000
+/rogs3/mapTrigger/slide/down 0.000000
+/rogs3/mapTrigger/slide/up 0.000000
+/rogs3/mapTrigger/active 1
+/rogs3/mapTrigger/scalebypass 0
+# 
+/rogs3/mapTurn/data/active 1
+/rogs3/mapTurn/function/parameters.1 curveList 0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000
+/rogs3/mapTurn/input/address none
+/rogs3/mapTurn/input/max 1.000000
+/rogs3/mapTurn/input/min 0.000000
+/rogs3/mapTurn/output/max 1.000000
+/rogs3/mapTurn/output/min 0.000000
+/rogs3/mapTurn/process/function freehand
+/rogs3/mapTurn/process/clipmode both
+/rogs3/mapTurn/process/mode 0.000000
+/rogs3/mapTurn/process/rampTime 0.000000
+/rogs3/mapTurn/slide/down 0.000000
+/rogs3/mapTurn/slide/up 0.000000
+/rogs3/mapTurn/active 0
+/rogs3/mapTurn/scalebypass 1
+/rogs3/audio/gain -10.000000
+/rogs3/audio/mute 0
+/rogs3/file/ms 13000.000000
+/rogs3/file/open 386751__ken788__fire.wav
+/rogs3/mapperGate/gain 0
+/rogs3/mapperGate/onsetVar 0
+/rogs3/mapperGate/pitch 0
+/rogs3/mapperGate/pitchVar 0
+/rogs3/mapperGate/position 0
+/rogs3/mapperGate/size 0
+/rogs3/mapperGate/speed 1
+/rogs3/mapperGate/spread 0
+/rogs3/mapperGate/trigger 0
+/rogs3/mapperGate/turn 0
+/rogs3/mod/gain 0.000000
+/rogs3/mod/onsetVar 0.000000
+/rogs3/mod/pitch 0.000000
+/rogs3/mod/pitchVar 0.000000
+/rogs3/mod/position 0.000000
+/rogs3/mod/size 0.000000
+/rogs3/mod/speed 0.000000
+/rogs3/mod/spread 0.000000
+/rogs3/mod/trigger 500.000000
+/rogs3/mod/turn 0.000000
+/rogs3/pan/mode 0
+/rogs3/pan/rate 0.000000
+/rogs3/pan/spread 0.330000
+/rogs3/pitch/transpose 0.000000
+/rogs3/pitch/variation 0.000000
+/rogs3/playback/direction 0
+/rogs3/playback/speed 1.000000
+/rogs3/playback/position 0.771186
+/rogs3/selection/mode 0
+/rogs3/selection/range 3333.923018 10025.873363
+/rogs3/waveform/normalize 0.000000
+/rogs3/numChannels 2
+# 
+/a1_mass/scale/input/max 100.000000
+/a1_mass/scale/input/min 0.000000
+/a1_mass/scale/max 1.000000
+/a1_mass/scale/min 0.000000
+/a1_mass/scale/mode 3
+/a1_mass/scale/window 500
+/a1_mass/function/symmetry none
+/a1_mass/function/parameter2 1.040000
+/a1_mass/function/parameter1 21.000000
+/a1_mass/data/active 0
+/a1_mass/data/bypass 0
+/a1_mass/filter/mode 1
+/a1_mass/filter/samples 10
+/a1_mass/pre-slide/down 3
+/a1_mass/pre-slide/up 3
+/a1_mass/ramp/grain 1
+/a1_mass/ramp/time 0
+/a1_mass/schmitt/debounce 0
+/a1_mass/schmitt/lower 0.700000
+/a1_mass/schmitt/on 1
+/a1_mass/schmitt/ramp 0
+/a1_mass/schmitt/upper 0.300000
+/a1_mass/slide/down 1
+/a1_mass/slide/up 1
+/a1_mass/clip 1
+/a1_mass/diffMode 0
+/a1_mass/offset 0.000000
+/a1_mass/visualize 1
+# 
+/cam_mass/scale/input/max 100.000000
+/cam_mass/scale/input/min 0.000000
+/cam_mass/scale/max 1.000000
+/cam_mass/scale/min 0.000000
+/cam_mass/scale/mode 3
+/cam_mass/scale/window 500
+/cam_mass/function/symmetry none
+/cam_mass/function/parameter2 1.040000
+/cam_mass/function/parameter1 21.000000
+/cam_mass/data/active 0
+/cam_mass/data/bypass 0
+/cam_mass/filter/mode 1
+/cam_mass/filter/samples 10
+/cam_mass/pre-slide/down 3
+/cam_mass/pre-slide/up 3
+/cam_mass/ramp/grain 1
+/cam_mass/ramp/time 0
+/cam_mass/schmitt/debounce 0
+/cam_mass/schmitt/lower 0.700000
+/cam_mass/schmitt/on 1
+/cam_mass/schmitt/ramp 0
+/cam_mass/schmitt/upper 0.300000
+/cam_mass/slide/down 1
+/cam_mass/slide/up 1
+/cam_mass/clip 1
+/cam_mass/diffMode 0
+/cam_mass/offset 0.000000
+/cam_mass/visualize 1
+# 
+/cam_x/scale/input/max 100.000000
+/cam_x/scale/input/min 0.000000
+/cam_x/scale/max 1.000000
+/cam_x/scale/min 0.000000
+/cam_x/scale/mode 3
+/cam_x/scale/window 500
+/cam_x/function/symmetry none
+/cam_x/function/parameter2 1.040000
+/cam_x/function/parameter1 21.000000
+/cam_x/data/active 0
+/cam_x/data/bypass 0
+/cam_x/filter/mode 1
+/cam_x/filter/samples 10
+/cam_x/pre-slide/down 3
+/cam_x/pre-slide/up 3
+/cam_x/ramp/grain 1
+/cam_x/ramp/time 0
+/cam_x/schmitt/debounce 0
+/cam_x/schmitt/lower 0.700000
+/cam_x/schmitt/on 1
+/cam_x/schmitt/ramp 0
+/cam_x/schmitt/upper 0.300000
+/cam_x/slide/down 1
+/cam_x/slide/up 1
+/cam_x/clip 1
+/cam_x/diffMode 0
+/cam_x/offset 0.000000
+/cam_x/visualize 1
+# 
+/cam_y/scale/input/max 100.000000
+/cam_y/scale/input/min 0.000000
+/cam_y/scale/max 1.000000
+/cam_y/scale/min 0.000000
+/cam_y/scale/mode 3
+/cam_y/scale/window 500
+/cam_y/function/symmetry none
+/cam_y/function/parameter2 1.040000
+/cam_y/function/parameter1 21.000000
+/cam_y/data/active 0
+/cam_y/data/bypass 0
+/cam_y/filter/mode 1
+/cam_y/filter/samples 10
+/cam_y/pre-slide/down 3
+/cam_y/pre-slide/up 3
+/cam_y/ramp/grain 1
+/cam_y/ramp/time 0
+/cam_y/schmitt/debounce 0
+/cam_y/schmitt/lower 0.700000
+/cam_y/schmitt/on 1
+/cam_y/schmitt/ramp 0
+/cam_y/schmitt/upper 0.300000
+/cam_y/slide/down 1
+/cam_y/slide/up 1
+/cam_y/clip 1
+/cam_y/diffMode 0
+/cam_y/offset 0.000000
+/cam_y/visualize 1
+# 
+# 
+/gl_motion/gl_cf_gaussian_2p/data/active 1
+/gl_motion/gl_cf_gaussian_2p/data/bypass 0
+/gl_motion/gl_cf_gaussian_2p/width/x 0.100000
+/gl_motion/gl_cf_gaussian_2p/width/y 0.100000
+/gl_motion/gl_cf_gaussian_2p/context test
+/gl_motion/gl_cf_gaussian_2p/active 1
+/gl_motion/gl_cf_gaussian_2p/adapt 1
+/gl_motion/gl_cf_gaussian_2p/antialias 0
+/gl_motion/gl_cf_gaussian_2p/automatic 1
+/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_motion/gl_pix_roberts/data/active 1
+/gl_motion/gl_pix_roberts/data/bypass 0
+/gl_motion/gl_pix_roberts/context test
+/gl_motion/gl_pix_roberts/active 1
+/gl_motion/gl_pix_roberts/adapt 1
+/gl_motion/gl_pix_roberts/antialias 0
+/gl_motion/gl_pix_roberts/automatic 1
+/gl_motion/gl_pix_roberts/dim 720.000000 480.000000
+/gl_motion/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_roberts/weight 0.351000
+# 
+/gl_motion/gl_pix_sobel/data/active 1
+/gl_motion/gl_pix_sobel/data/bypass 0
+/gl_motion/gl_pix_sobel/context test
+/gl_motion/gl_pix_sobel/active 1
+/gl_motion/gl_pix_sobel/adapt 1
+/gl_motion/gl_pix_sobel/antialias 0
+/gl_motion/gl_pix_sobel/automatic 1
+/gl_motion/gl_pix_sobel/dim 720.000000 480.000000
+/gl_motion/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_sobel/weight 0.351000
+# 
+/gl_motion/gl_pix_thresh/data/active 1
+/gl_motion/gl_pix_thresh/data/bypass 0
+/gl_motion/gl_pix_thresh/context test
+/gl_motion/gl_pix_thresh/active 1
+/gl_motion/gl_pix_thresh/adapt 1
+/gl_motion/gl_pix_thresh/antialias 0
+/gl_motion/gl_pix_thresh/automatic 1
+/gl_motion/gl_pix_thresh/dim 720.000000 480.000000
+/gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/select 0
+/gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/gl_pix_thresh/thresh 0.100000
+# 
+/gl_motion/post_slide/data/active 1
+/gl_motion/post_slide/data/bypass 0
+/gl_motion/post_slide/context test
+/gl_motion/post_slide/active 1
+/gl_motion/post_slide/adapt 1
+/gl_motion/post_slide/antialias 0
+/gl_motion/post_slide/attack 0.000000
+/gl_motion/post_slide/automatic 1
+/gl_motion/post_slide/decay 0.000000
+/gl_motion/post_slide/dim 720.000000 480.000000
+/gl_motion/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/post_slide/vertex 0
+/gl_motion/data/active 1
+/gl_motion/data/bypass 0
+/gl_motion/context test
+/gl_motion/active 1
+/gl_motion/adapt 1
+/gl_motion/antialias 0
+/gl_motion/automatic 1
+/gl_motion/blur 0.100000
+/gl_motion/colour 0
+/gl_motion/denoise 1
+/gl_motion/dim 720.000000 480.000000
+/gl_motion/edge 0
+/gl_motion/framediff 1
+/gl_motion/invert 0
+/gl_motion/motionprocessor 0
+/gl_motion/operator 0
+/gl_motion/rect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/slide 0
+/gl_motion/slide_down 0.000000
+/gl_motion/slide_up 0.000000
+/gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_motion/threshold 0.100000
+/gl_motion/weight 0.351000
+# 
+# 
+/syphonserver/GL/blend/enable 0
+/syphonserver/GL/blend/mode 6.000000 7.000000
+/syphonserver/GL/color/inherit 0
+/syphonserver/GL/depth/clear 0
+/syphonserver/GL/depth/enable 1
+/syphonserver/GL/depth/inherit 0
+/syphonserver/GL/depth/write 1
+/syphonserver/GL/fog/amount 0.000000
+/syphonserver/GL/fog/inherit 0
+/syphonserver/GL/fog/params 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/light/enable 0
+/syphonserver/GL/material/ambient 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/automatic 1
+/syphonserver/GL/material/diffuse 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/emission 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/material/inherit 0
+/syphonserver/GL/material/matfile none
+/syphonserver/GL/material/name none
+/syphonserver/GL/material/shininess 10.000000
+/syphonserver/GL/material/specular 0.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/context test
+/syphonserver/GL/alpha 1.000000
+/syphonserver/GL/anchor 0.000000 0.000000 0.000000
+/syphonserver/GL/anim UID
+/syphonserver/GL/animmode none
+/syphonserver/GL/antialias 0
+/syphonserver/GL/automatic 1
+/syphonserver/GL/aux_alpha 1.000000
+/syphonserver/GL/aux_color 1.000000 1.000000 1.000000
+/syphonserver/GL/axes 0
+/syphonserver/GL/capture none
+/syphonserver/GL/cull_face 0
+/syphonserver/GL/enable 1
+/syphonserver/GL/filterclass default
+/syphonserver/GL/inherit_all 0
+/syphonserver/GL/inherit_texture 0
+/syphonserver/GL/layer 0
+/syphonserver/GL/line_width 1.000000
+/syphonserver/GL/matrixoutput 0
+/syphonserver/GL/point_size 1.000000
+/syphonserver/GL/poly_mode 0.000000 0.000000
+/syphonserver/GL/position 0.000000 0.000000 0.000000
+/syphonserver/GL/rotate 0.000000 0.000000 0.000000 1.000000
+/syphonserver/GL/scale 1.000000 1.000000 1.000000
+/syphonserver/GL/shader none
+/syphonserver/GL/smooth_shading 0
+/syphonserver/GL/tex_map 0
+/syphonserver/GL/tex_plane_s 1.000000 0.000000 0.000000 0.000000
+/syphonserver/GL/tex_plane_t 0.000000 1.000000 0.000000 0.000000
+/syphonserver/GL/texture none
+/syphonserver/GL/transform_reset 0
+/syphonserver/GL/viewalign 0
+/syphonserver/data/active 0
+/syphonserver/servername syphonserver
+# 
+/analyzer1/data/active 1
+/analyzer1/context test
+/analyzer1/active 1
+/analyzer1/adapt 1
+/analyzer1/antialias 0
+/analyzer1/automatic 0
+/analyzer1/dim 720.000000 480.000000
+/analyzer1/motionprocessor 1
+/analyzer1/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/analyzer2/data/active 1
+/analyzer2/context test
+/analyzer2/active 1
+/analyzer2/adapt 1
+/analyzer2/antialias 0
+/analyzer2/automatic 1
+/analyzer2/dim 720.000000 480.000000
+/analyzer2/motionprocessor 1
+/analyzer2/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/analyzer3/data/active 1
+/analyzer3/context test
+/analyzer3/active 1
+/analyzer3/adapt 1
+/analyzer3/antialias 0
+/analyzer3/automatic 1
+/analyzer3/dim 720.000000 480.000000
+/analyzer3/motionprocessor 1
+/analyzer3/rect 0.000000 0.000000 1.000000 1.000000
+/analyzer3/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/masks/data/active 1
+/masks/data/bypass 0
+/masks/key1/enable 1
+/masks/key1/handle none
+/masks/key1/lock 0
+/masks/key1/position 0.000000 0.000000 0.000000
+/masks/key1/rotate 0.000000 0.000000 0.000000 1.000000
+/masks/key1/scale 0.346000 1.000000 0.000000
+/masks/key1/shape plane
+/masks/key2/enable 1
+/masks/key2/handle reset
+/masks/key2/lock 0
+/masks/key2/position -0.850000 0.000000 0.000000
+/masks/key2/rotate 0.000000 0.000000 0.000000 1.000000
+/masks/key2/scale 0.300000 1.000000 0.000000
+/masks/key2/shape plane
+/masks/key3/enable 1
+/masks/key3/handle none
+/masks/key3/lock 0
+/masks/key3/position 0.850000 0.000000 0.000000
+/masks/key3/rotate 0.000000 0.000000 0.000000
+/masks/key3/scale 0.300000 1.000000 0.000000
+/masks/key3/shape plane
+/masks/key4/enable 0
+/masks/key4/handle none
+/masks/key4/lock 0
+/masks/key4/position 0.000000 0.000000 0.000000
+/masks/key4/rotate 0.000000 0.000000 0.000000
+/masks/key4/scale 0.300000 0.300000 0.000000
+/masks/key4/shape circle
+/masks/key5/enable 0
+/masks/key5/handle none
+/masks/key5/lock 0
+/masks/key5/position 0.000000 0.000000 0.000000
+/masks/key5/rotate 0.000000
+/masks/key5/scale 0.300000 0.300000 0.000000
+/masks/key5/shape circle
+/masks/key6/enable 0
+/masks/key6/handle none
+/masks/key6/lock 0
+/masks/key6/position 0.000000 0.000000 0.000000
+/masks/key6/rotate 0.000000
+/masks/key6/scale 0.300000 0.300000 0.000000
+/masks/key6/shape circle
+/masks/key7/enable 0
+/masks/key7/handle none
+/masks/key7/lock 0
+/masks/key7/position 0.000000 0.000000 0.000000
+/masks/key7/rotate 0.000000 0.000000 0.000000
+/masks/key7/scale 0.300000 0.300000 0.000000
+/masks/key7/shape circle
+/masks/key8/enable 0
+/masks/key8/handle none
+/masks/key8/lock 0
+/masks/key8/position 0.000000 0.000000 0.000000
+/masks/key8/rotate 0.000000 0.000000 0.000000
+/masks/key8/scale 0.300000 0.300000 0.000000
+/masks/key8/shape circle
+/masks/context test
+/masks/active 1
+/masks/adapt 1
+/masks/antialias 0
+/masks/automatic 1
+/masks/blur 1.000000
+/masks/dim 720.000000 480.000000
+/masks/maskview 0
+/masks/rect 0.000000 0.000000 1.000000 1.000000
+/masks/solo 0
+/masks/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/rota/data/active 1
+/rota/data/bypass 0
+/rota/context test
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.500000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode clear
+/rota/dim 720.000000 480.000000
+/rota/offset 74.000000 0.010000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 10.800000
+/rota/zoom 1.190000 1.000000
+# 
+# ###########################################
+

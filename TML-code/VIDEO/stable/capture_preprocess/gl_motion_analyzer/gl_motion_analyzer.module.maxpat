@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 285.0, 203.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "gl_motion_analyzer.model #1",
 					"varname" : "j.model"
@@ -86,7 +86,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 240.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 90.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +99,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 330.0, 26.0, 26.0 ],
+					"patching_rect" : [ 15.0, 180.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
