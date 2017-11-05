@@ -543,16 +543,16 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 61.0, 299.0, 1284.0, 756.0 ],
+						"rect" : [ 58.0, 44.0, 1284.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"gridonopen" : 2,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 0,
@@ -3909,7 +3909,7 @@
 																					"id" : "obj-145",
 																					"linecount" : 5,
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 430.0, 234.5, 74.0 ],
@@ -3926,7 +3926,7 @@
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
+																					"outlettype" : [ "FullPacket" ],
 																					"patching_rect" : [ 265.5, 401.0, 365.0, 20.0 ],
 																					"style" : "",
 																					"text" : "o.expr /accelerometer/offset = (( /acc/C1 + /acc/C2 + /acc/C3 ) / 2.)"
@@ -4075,7 +4075,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-123",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 530.5, 332.0, 132.5, 20.0 ],
@@ -4091,7 +4091,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-122",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 398.0, 332.0, 132.5, 20.0 ],
@@ -4107,7 +4107,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-121",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 265.5, 332.0, 132.5, 20.0 ],
@@ -5492,7 +5492,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-34",
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 250.0, 279.0, 20.0 ],
@@ -5523,7 +5523,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-32",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 74.0, 220.0, 279.0, 20.0 ],
@@ -5838,7 +5838,7 @@
 																	"id" : "obj-10",
 																	"linecount" : 4,
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 11.5, 89.0, 431.0, 60.0 ],
@@ -6152,7 +6152,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "FullPacket" ],
 													"patching_rect" : [ 23.5, 75.0, 270.0, 20.0 ],
 													"style" : "",
 													"text" : "o.expr /self = \\\"/\\\" + split (\\\"/\\\"\\,getaddresses())[[0]]"
@@ -6928,7 +6928,7 @@
 																					"id" : "obj-145",
 																					"linecount" : 5,
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 430.0, 234.5, 74.0 ],
@@ -6945,7 +6945,7 @@
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
+																					"outlettype" : [ "FullPacket" ],
 																					"patching_rect" : [ 265.5, 401.0, 365.0, 20.0 ],
 																					"style" : "",
 																					"text" : "o.expr /accelerometer/offset = (( /acc/C1 + /acc/C2 + /acc/C3 ) / 2.)"
@@ -7094,7 +7094,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-123",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 530.5, 332.0, 132.5, 20.0 ],
@@ -7110,7 +7110,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-122",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 398.0, 332.0, 132.5, 20.0 ],
@@ -7126,7 +7126,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-121",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 265.5, 332.0, 132.5, 20.0 ],
@@ -8511,7 +8511,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-34",
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 250.0, 279.0, 20.0 ],
@@ -8542,7 +8542,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-32",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 74.0, 220.0, 279.0, 20.0 ],
@@ -8857,7 +8857,7 @@
 																	"id" : "obj-10",
 																	"linecount" : 4,
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 11.5, 89.0, 431.0, 60.0 ],
@@ -9171,7 +9171,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "FullPacket" ],
 													"patching_rect" : [ 23.5, 75.0, 270.0, 20.0 ],
 													"style" : "",
 													"text" : "o.expr /self = \\\"/\\\" + split (\\\"/\\\"\\,getaddresses())[[0]]"
@@ -9607,7 +9607,8 @@
 																	"id" : "obj-13",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "FullPacket" ],
 																	"patching_rect" : [ 687.5, 387.0, 176.0, 20.0 ],
 																	"style" : "",
 																	"text" : "o.expr /mean = mean (/frames)"
@@ -9636,7 +9637,7 @@
 																	"fontsize" : 12.0,
 																	"id" : "obj-5",
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 726.0, 300.0, 150.0, 20.0 ],
@@ -9652,8 +9653,8 @@
 																	"id" : "obj-3",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 687.5, 360.0, 279.0, 20.0 ],
 																	"style" : "",
 																	"text" : "o.callpatch /* /setframes [zl stream 8] @as /frames"
@@ -9815,7 +9816,7 @@
 																	"id" : "obj-1",
 																	"linecount" : 3,
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 1003.0, 273.5, 234.0, 47.0 ],
@@ -9847,7 +9848,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"outlettype" : [ "FullPacket" ],
 																	"patching_rect" : [ 155.5, 576.0, 295.0, 20.0 ],
 																	"style" : "",
 																	"text" : "o.expr /stasis_threshold = (/threshold */maxima) / 100"
@@ -9891,7 +9892,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"outlettype" : [ "FullPacket" ],
 																	"patching_rect" : [ 155.5, 548.0, 145.0, 20.0 ],
 																	"style" : "",
 																	"text" : "o.pak /threshold /maxima"
@@ -10485,7 +10486,7 @@
 																					"id" : "obj-145",
 																					"linecount" : 5,
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 430.0, 234.5, 74.0 ],
@@ -10502,7 +10503,7 @@
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
+																					"outlettype" : [ "FullPacket" ],
 																					"patching_rect" : [ 265.5, 401.0, 365.0, 20.0 ],
 																					"style" : "",
 																					"text" : "o.expr /accelerometer/offset = (( /acc/C1 + /acc/C2 + /acc/C3 ) / 2.)"
@@ -10651,7 +10652,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-123",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 530.5, 332.0, 132.5, 20.0 ],
@@ -10667,7 +10668,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-122",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 398.0, 332.0, 132.5, 20.0 ],
@@ -10683,7 +10684,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-121",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 265.5, 332.0, 132.5, 20.0 ],
@@ -12068,7 +12069,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-34",
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 250.0, 279.0, 20.0 ],
@@ -12099,7 +12100,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-32",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 74.0, 220.0, 279.0, 20.0 ],
@@ -12414,7 +12415,7 @@
 																	"id" : "obj-10",
 																	"linecount" : 4,
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 11.5, 89.0, 431.0, 60.0 ],
@@ -12997,7 +12998,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "FullPacket" ],
 													"patching_rect" : [ 23.5, 75.0, 270.0, 20.0 ],
 													"style" : "",
 													"text" : "o.expr /self = \\\"/\\\" + split (\\\"/\\\"\\,getaddresses())[[0]]"
@@ -13758,7 +13759,7 @@
 																					"id" : "obj-145",
 																					"linecount" : 5,
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 430.0, 234.5, 74.0 ],
@@ -13775,7 +13776,7 @@
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
+																					"outlettype" : [ "FullPacket" ],
 																					"patching_rect" : [ 265.5, 401.0, 365.0, 20.0 ],
 																					"style" : "",
 																					"text" : "o.expr /accelerometer/offset = (( /acc/C1 + /acc/C2 + /acc/C3 ) / 2.)"
@@ -13924,7 +13925,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-123",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 530.5, 332.0, 132.5, 20.0 ],
@@ -13940,7 +13941,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-122",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 398.0, 332.0, 132.5, 20.0 ],
@@ -13956,7 +13957,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-121",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 265.5, 332.0, 132.5, 20.0 ],
@@ -15341,7 +15342,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-34",
 																					"maxclass" : "o.message",
-																					"numinlets" : 3,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 250.0, 279.0, 20.0 ],
@@ -15372,7 +15373,7 @@
 																					"fontsize" : 12.0,
 																					"id" : "obj-32",
 																					"maxclass" : "o.message",
-																					"numinlets" : 1,
+																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 74.0, 220.0, 279.0, 20.0 ],
@@ -15687,7 +15688,7 @@
 																	"id" : "obj-10",
 																	"linecount" : 4,
 																	"maxclass" : "o.message",
-																	"numinlets" : 1,
+																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 11.5, 89.0, 431.0, 60.0 ],
@@ -16001,7 +16002,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "FullPacket" ],
 													"patching_rect" : [ 23.5, 75.0, 270.0, 20.0 ],
 													"style" : "",
 													"text" : "o.expr /self = \\\"/\\\" + split (\\\"/\\\"\\,getaddresses())[[0]]"
@@ -16385,8 +16386,9 @@
 									"id" : "obj-2",
 									"linecount" : 9,
 									"maxclass" : "o.message",
-									"numinlets" : 3,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 7.5, 265.0, 468.0, 127.0 ],
 									"text" : "/xosc2/accelerometer/offset 0.0246582 0.0107422 0.0769043\n/xosc2/gyro/offset -5.08552 -1.02805 0.481402\n/xosc2/gyro/raw -1.09756 -0.243902 0.914634\n/xosc2/accelerometer/raw 0.0615234 -0.0375977 -0.991699\n/xosc2/magnetometer/raw 0.0410256 -0.102564 0.384615\n/xosc2/temperature 46.7912\n/xosc2/accelerometer/calibrated/ 0.0368652 -0.0483399 -1.0686\n/xosc2/gyro/calibrated/value 3.98796 0.784148 0.433232\n/xosc2/acceleration/magnitude -0.00568312",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16813,28 +16815,35 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-73::obj-46::obj-1::obj-69" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-73::obj-65::obj-1::obj-69" : [ "live.tab[31]", "live.tab", 0 ],
+			"obj-73::obj-93::obj-70::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-73::obj-42::obj-1::obj-69" : [ "live.tab[25]", "live.tab", 0 ],
-			"obj-73::obj-93::obj-69::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-73::obj-49::obj-1::obj-69" : [ "live.tab[23]", "live.tab", 0 ],
+			"obj-73::obj-43::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
 			"obj-73::obj-93::obj-67::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-73::obj-37::obj-1::obj-69" : [ "live.tab[18]", "live.tab", 0 ],
 			"obj-73::obj-47::obj-1::obj-69" : [ "live.tab[28]", "live.tab", 0 ],
 			"obj-73::obj-74::obj-1::obj-69" : [ "live.tab[27]", "live.tab", 0 ],
 			"obj-73::obj-5::obj-1::obj-69" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-73::obj-43::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
 			"obj-73::obj-45::obj-1::obj-69" : [ "live.tab[22]", "live.tab", 0 ],
 			"obj-73::obj-55::obj-1::obj-69" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-73::obj-93::obj-69::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-73::obj-9::obj-1::obj-69" : [ "live.tab[29]", "live.tab", 0 ],
 			"obj-73::obj-41::obj-1::obj-69" : [ "live.tab[24]", "live.tab", 0 ],
-			"obj-73::obj-93::obj-70::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-73::obj-48::obj-1::obj-69" : [ "live.tab[26]", "live.tab", 0 ],
 			"obj-73::obj-82::obj-1::obj-69" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-73::obj-6::obj-1::obj-69" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-73::obj-46::obj-1::obj-69" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-73::obj-65::obj-1::obj-69" : [ "live.tab[31]", "live.tab", 0 ]
+			"obj-73::obj-6::obj-1::obj-69" : [ "live.tab[15]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "o.callpatch.maxpat",
+				"bootpath" : "~/Documents/Max 7/Externals/odot/dev",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Externals/odot/dev",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "j.nav.scale.module.maxpat",
 				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
@@ -16883,7 +16892,15 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "o.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -16911,11 +16928,27 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.timetag.mxo",
+				"name" : "o.pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.atomize.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.timetag.mxo",
 				"type" : "iLaX"
 			}
 , 			{
