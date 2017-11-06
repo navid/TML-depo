@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -22.0, -905.0, 1252.0, 574.0 ],
+		"rect" : [ 34.0, 78.0, 1252.0, 574.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -464,7 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2535.0, 690.0, 131.0, 69.0 ],
+					"patching_rect" : [ 2535.0, 690.0, 132.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/analog/16/active @type boolean \"Toggle analog input 16 readings.\"",
 					"varname" : "numChannels[84]"
@@ -863,7 +863,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1260.0, 1140.0, 120.0, 69.0 ],
+					"patching_rect" : [ 1260.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/9/active @type boolean \"Toggle digital input 9 readings.\"",
 					"varname" : "numChannels[69]"
@@ -920,7 +920,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1110.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 1110.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/8/active @type boolean \"Toggle digital input 8 readings.\"",
 					"varname" : "numChannels[70]"
@@ -977,7 +977,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 960.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 960.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/7/active @type boolean \"Toggle digital input 7 readings.\"",
 					"varname" : "numChannels[71]"
@@ -1034,7 +1034,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 810.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 810.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/6/active @type boolean \"Toggle digital input 6 readings.\"",
 					"varname" : "numChannels[72]"
@@ -1091,7 +1091,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 660.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 660.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/5/active @type boolean \"Toggle digital input 5 readings.\"",
 					"varname" : "numChannels[73]"
@@ -1148,7 +1148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 510.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 510.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/4/active @type boolean \"Toggle digital input 4 readings.\"",
 					"varname" : "numChannels[74]"
@@ -1205,7 +1205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 360.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 360.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/3/active @type boolean \"Toggle digital input 3 readings.\"",
 					"varname" : "numChannels[75]"
@@ -1262,7 +1262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 210.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/2/active @type boolean \"Toggle digital input 2 readings.\"",
 					"varname" : "numChannels[76]"
@@ -1319,7 +1319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 60.0, 1140.0, 122.0, 69.0 ],
+					"patching_rect" : [ 60.0, 1140.0, 123.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter inputs/digital/1/active @type boolean \"Toggle digital input 1 readings.\"",
 					"varname" : "numChannels[77]"
@@ -2570,9 +2570,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2370.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 2370.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/16 @type decimal @clipmode none @description \"Digital input 16.\"",
+					"text" : "j.return inputs/digital/16 @type decimal @clipmode none @description \"Digital input 16.\"",
 					"varname" : "numChannels[29]"
 				}
 
@@ -2588,9 +2588,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2205.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 2205.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/15 @type decimal @clipmode none @description \"Digital input 15.\"",
+					"text" : "j.return inputs/digital/15 @type decimal @clipmode none @description \"Digital input 15.\"",
 					"varname" : "numChannels[30]"
 				}
 
@@ -2606,9 +2606,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2040.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 2040.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/14 @type decimal @clipmode none @description \"Digital input 14.\"",
+					"text" : "j.return inputs/digital/14 @type decimal @clipmode none @description \"Digital input 14.\"",
 					"varname" : "numChannels[31]"
 				}
 
@@ -2624,9 +2624,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1875.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 1875.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/13 @type decimal @clipmode none @description \"Digital input 13.\"",
+					"text" : "j.return inputs/digital/13 @type decimal @clipmode none @description \"Digital input 13.\"",
 					"varname" : "numChannels[32]"
 				}
 
@@ -2644,7 +2644,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1080.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/8 @type decimal @clipmode none @description \"Digital input 8.\"",
+					"text" : "j.return inputs/digital/8 @type decimal @clipmode none @description \"Digital input 8.\"",
 					"varname" : "numChannels[33]"
 				}
 
@@ -2662,7 +2662,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 930.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/7 @type decimal @clipmode none @description \"Digital input 7.\"",
+					"text" : "j.return inputs/digital/7 @type decimal @clipmode none @description \"Digital input 7.\"",
 					"varname" : "numChannels[34]"
 				}
 
@@ -2680,7 +2680,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 780.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/6 @type decimal @clipmode none @description \"Digital input 6.\"",
+					"text" : "j.return inputs/digital/6 @type decimal @clipmode none @description \"Digital input 6.\"",
 					"varname" : "numChannels[35]"
 				}
 
@@ -2698,7 +2698,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 630.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/5 @type decimal @clipmode none @description \"Digital input 5.\"",
+					"text" : "j.return inputs/digital/5 @type decimal @clipmode none @description \"Digital input 5.\"",
 					"varname" : "numChannels[36]"
 				}
 
@@ -2714,9 +2714,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1710.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 1710.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/12 @type decimal @clipmode none @description \"Digital input 12.\"",
+					"text" : "j.return inputs/digital/12 @type decimal @clipmode none @description \"Digital input 12.\"",
 					"varname" : "numChannels[37]"
 				}
 
@@ -2732,9 +2732,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1545.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 1545.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/11 @type decimal @clipmode none @description \"Digital input 11.\"",
+					"text" : "j.return inputs/digital/11 @type decimal @clipmode none @description \"Digital input 11.\"",
 					"varname" : "numChannels[38]"
 				}
 
@@ -2750,9 +2750,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1380.0, 1365.0, 118.0, 81.0 ],
+					"patching_rect" : [ 1380.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/10 @type decimal @clipmode none @description \"Digital input 10.\"",
+					"text" : "j.return inputs/digital/10 @type decimal @clipmode none @description \"Digital input 10.\"",
 					"varname" : "numChannels[39]"
 				}
 
@@ -2770,7 +2770,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1230.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/9 @type decimal @clipmode none @description \"Digital input 9.\"",
+					"text" : "j.return inputs/digital/9 @type decimal @clipmode none @description \"Digital input 9.\"",
 					"varname" : "numChannels[40]"
 				}
 
@@ -2788,7 +2788,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 480.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/4 @type decimal @clipmode none @description \"Digital input 4.\"",
+					"text" : "j.return inputs/digital/4 @type decimal @clipmode none @description \"Digital input 4.\"",
 					"varname" : "numChannels[41]"
 				}
 
@@ -2806,7 +2806,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 330.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/3 @type decimal @clipmode none @description \"Digital input 3.\"",
+					"text" : "j.return inputs/digital/3 @type decimal @clipmode none @description \"Digital input 3.\"",
 					"varname" : "numChannels[42]"
 				}
 
@@ -2824,7 +2824,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 180.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/2 @type decimal @clipmode none @description \"Digital input 2.\"",
+					"text" : "j.return inputs/digital/2 @type decimal @clipmode none @description \"Digital input 2.\"",
 					"varname" : "numChannels[43]"
 				}
 
@@ -2842,7 +2842,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 1365.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/digital/1 @type decimal @clipmode none @description \"Digital input 1.\"",
+					"text" : "j.return inputs/digital/1 @type decimal @clipmode none @description \"Digital input 1.\"",
 					"varname" : "numChannels[44]"
 				}
 
@@ -2858,9 +2858,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2505.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 2505.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/16 @type decimal @clipmode none @description \"Analog input 16.\"",
+					"text" : "j.return inputs/analog/16 @type decimal @clipmode none @description \"Analog input 16.\"",
 					"varname" : "numChannels[19]"
 				}
 
@@ -2876,9 +2876,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2340.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 2340.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/15 @type decimal @clipmode none @description \"Analog input 15.\"",
+					"text" : "j.return inputs/analog/15 @type decimal @clipmode none @description \"Analog input 15.\"",
 					"varname" : "numChannels[20]"
 				}
 
@@ -2894,9 +2894,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2175.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 2175.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/14 @type decimal @clipmode none @description \"Analog input 14.\"",
+					"text" : "j.return inputs/analog/14 @type decimal @clipmode none @description \"Analog input 14.\"",
 					"varname" : "numChannels[23]"
 				}
 
@@ -2912,9 +2912,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2010.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 2010.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/13 @type decimal @clipmode none @description \"Analog input 13.\"",
+					"text" : "j.return inputs/analog/13 @type decimal @clipmode none @description \"Analog input 13.\"",
 					"varname" : "numChannels[24]"
 				}
 
@@ -2932,7 +2932,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1185.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/8 @type decimal @clipmode none @description \"Analog input 8.\"",
+					"text" : "j.return inputs/analog/8 @type decimal @clipmode none @description \"Analog input 8.\"",
 					"varname" : "numChannels[25]"
 				}
 
@@ -2950,7 +2950,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1020.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/7 @type decimal @clipmode none @description \"Analog input 7.\"",
+					"text" : "j.return inputs/analog/7 @type decimal @clipmode none @description \"Analog input 7.\"",
 					"varname" : "numChannels[26]"
 				}
 
@@ -2968,7 +2968,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 855.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/6 @type decimal @clipmode none @description \"Analog input 6.\"",
+					"text" : "j.return inputs/analog/6 @type decimal @clipmode none @description \"Analog input 6.\"",
 					"varname" : "numChannels[27]"
 				}
 
@@ -2986,7 +2986,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 690.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/5 @type decimal @clipmode none @description \"Analog input 5.\"",
+					"text" : "j.return inputs/analog/5 @type decimal @clipmode none @description \"Analog input 5.\"",
 					"varname" : "numChannels[28]"
 				}
 
@@ -3002,9 +3002,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1845.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 1845.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/12 @type decimal @clipmode none @description \"Analog input 12.\"",
+					"text" : "j.return inputs/analog/12 @type decimal @clipmode none @description \"Analog input 12.\"",
 					"varname" : "numChannels[14]"
 				}
 
@@ -3020,9 +3020,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1680.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 1680.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/11 @type decimal @clipmode none @description \"Analog input 11.\"",
+					"text" : "j.return inputs/analog/11 @type decimal @clipmode none @description \"Analog input 11.\"",
 					"varname" : "numChannels[15]"
 				}
 
@@ -3038,9 +3038,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1515.0, 930.0, 119.0, 81.0 ],
+					"patching_rect" : [ 1515.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/10 @type decimal @clipmode none @description \"Analog input 10.\"",
+					"text" : "j.return inputs/analog/10 @type decimal @clipmode none @description \"Analog input 10.\"",
 					"varname" : "numChannels[16]"
 				}
 
@@ -3058,7 +3058,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1350.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/9 @type decimal @clipmode none @description \"Analog input 9.\"",
+					"text" : "j.return inputs/analog/9 @type decimal @clipmode none @description \"Analog input 9.\"",
 					"varname" : "numChannels[17]"
 				}
 
@@ -3076,7 +3076,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 525.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/4 @type decimal @clipmode none @description \"Analog input 4.\"",
+					"text" : "j.return inputs/analog/4 @type decimal @clipmode none @description \"Analog input 4.\"",
 					"varname" : "numChannels[13]"
 				}
 
@@ -3094,7 +3094,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 360.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/3 @type decimal @clipmode none @description \"Analog input 3.\"",
+					"text" : "j.return inputs/analog/3 @type decimal @clipmode none @description \"Analog input 3.\"",
 					"varname" : "numChannels[12]"
 				}
 
@@ -3112,7 +3112,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 195.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/2 @type decimal @clipmode none @description \"Analog input 2.\"",
+					"text" : "j.return inputs/analog/2 @type decimal @clipmode none @description \"Analog input 2.\"",
 					"varname" : "numChannels[11]"
 				}
 
@@ -3130,7 +3130,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 930.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter inputs/analog/1 @type decimal @clipmode none @description \"Analog input 1.\"",
+					"text" : "j.return inputs/analog/1 @type decimal @clipmode none @description \"Analog input 1.\"",
 					"varname" : "numChannels[22]"
 				}
 
@@ -3185,9 +3185,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 1515.0, 122.0, 69.0 ],
+					"patching_rect" : [ 30.0, 1515.0, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter battery @type decimal @clipmode none @description \"Battery level.\"",
+					"text" : "j.return battery @type decimal @clipmode none @description \"Battery level.\"",
 					"varname" : "numChannels[10]"
 				}
 
@@ -3265,9 +3265,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1230.0, 510.000031, 110.0, 69.0 ],
+					"patching_rect" : [ 1230.0, 510.000031, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter mag/z @type decimal @clipmode none @description \"Magnetometer z.\"",
+					"text" : "j.return mag/z @type decimal @clipmode none @description \"Magnetometer z.\"",
 					"varname" : "numChannels[7]"
 				}
 
@@ -3283,9 +3283,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 630.0, 510.000031, 103.0, 69.0 ],
+					"patching_rect" : [ 630.0, 510.000031, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter acc/z @type decimal @clipmode none @description \"Accelerometer z.\"",
+					"text" : "j.return acc/z @type decimal @clipmode none @description \"Accelerometer z.\"",
 					"varname" : "numChannels[2]"
 				}
 
@@ -3301,9 +3301,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 330.0, 510.000031, 122.0, 69.0 ],
+					"patching_rect" : [ 330.0, 510.000031, 120.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter gyro/yaw @type decimal @clipmode none @description \"Gyroscope yaw.\"",
+					"text" : "j.return gyro/yaw @type decimal @clipmode none @description \"Gyroscope yaw.\"",
 					"varname" : "numChannels[3]"
 				}
 
@@ -3319,9 +3319,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1080.0, 510.000031, 110.0, 69.0 ],
+					"patching_rect" : [ 1080.0, 510.000031, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter mag/y @type decimal @clipmode none @description \"Magnetometer y.\"",
+					"text" : "j.return mag/y @type decimal @clipmode none @description \"Magnetometer y.\"",
 					"varname" : "numChannels[6]"
 				}
 
@@ -3337,9 +3337,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 780.0, 510.000031, 104.0, 69.0 ],
+					"patching_rect" : [ 780.0, 510.0, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter acc/y @type decimal @clipmode none @description \"Accelerometer y.\"",
+					"text" : "j.return acc/y @type decimal @clipmode none @description \"Accelerometer y.\"",
 					"varname" : "numChannels[1]"
 				}
 
@@ -3355,9 +3355,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.0, 510.0, 120.0, 69.0 ],
+					"patching_rect" : [ 180.0, 510.0, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter gyro/roll @type decimal @clipmode none @description \"Gyroscope roll.\"",
+					"text" : "j.return gyro/roll @type decimal @clipmode none @description \"Gyroscope roll.\"",
 					"varname" : "numChannels[4]"
 				}
 
@@ -3368,14 +3368,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1380.0, 510.000031, 138.0, 69.0 ],
+					"patching_rect" : [ 1380.0, 510.0, 105.0, 81.0 ],
 					"style" : "",
-					"text" : "j.parameter gyro/temp @type decimal @clipmode none @description \"Gyroscope temperature.\"",
+					"text" : "j.return gyro/temp @type decimal @clipmode none @description \"Gyroscope temperature.\"",
 					"varname" : "numChannels[8]"
 				}
 
@@ -3391,9 +3391,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 930.0, 510.000031, 111.0, 69.0 ],
+					"patching_rect" : [ 930.0, 510.0, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter mag/x @type decimal @clipmode none @description \"Magnetometer x.\"",
+					"text" : "j.return mag/x @type decimal @clipmode none @description \"Magnetometer x.\"",
 					"varname" : "numChannels[21]"
 				}
 
@@ -3409,9 +3409,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 480.0, 510.000031, 105.0, 69.0 ],
+					"patching_rect" : [ 480.0, 510.0, 105.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter acc/x @type decimal @clipmode none @description \"Accelerometer x.\"",
+					"text" : "j.return acc/x @type decimal @clipmode none @description \"Accelerometer x.\"",
 					"varname" : "numChannels[18]"
 				}
 
@@ -3427,9 +3427,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 510.0, 138.0, 69.0 ],
+					"patching_rect" : [ 30.0, 510.0, 120.0, 69.0 ],
 					"style" : "",
-					"text" : "j.parameter gyro/pitch @type decimal @clipmode none @description \"Gyroscope pitch.\"",
+					"text" : "j.return gyro/pitch @type decimal @clipmode none @description \"Gyroscope pitch.\"",
 					"varname" : "numChannels[5]"
 				}
 
