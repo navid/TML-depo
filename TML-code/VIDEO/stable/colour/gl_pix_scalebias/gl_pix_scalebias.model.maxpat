@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -113,7 +113,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -260,9 +260,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 135.0, 135.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 128.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.pix @type float_32"
+					"text" : "jit.gl.pix @type float32"
 				}
 
 			}

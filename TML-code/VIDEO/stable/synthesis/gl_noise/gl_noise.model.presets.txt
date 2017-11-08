@@ -1,0 +1,26 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+context default
+active 1
+adapt 1
+ampbias 0.000000 0.000000 0.000000
+ampscale 1.000000 1.000000 1.000000
+antialias 0
+automatic 1
+data/active 1
+data/bypass 0
+dim 720.000000 480.000000
+filter none
+function 0
+noisedim 1000.000000 1000.000000
+offsetX 0.000000 0.000000 0.000000
+offsetY 0.000000 0.000000 0.000000
+rect 0.000000 0.000000 1.000000 1.000000
+scaleX 1.000000 1.000000 1.000000
+scaleY 1.000000 1.000000 1.000000
+texrect 0.000000 0.000000 1.000000 1.000000
+# 
+# ###########################################
