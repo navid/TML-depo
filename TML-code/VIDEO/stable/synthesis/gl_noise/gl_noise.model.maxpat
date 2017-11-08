@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -296.0, -821.0, 993.0, 605.0 ],
+		"rect" : [ 34.0, 79.0, 993.0, 605.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -38,12 +38,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 570.0, 88.0, 21.0 ],
+					"style" : "",
+					"text" : "prepend signed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-22",
+					"linecount" : 6,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 510.0, 480.0, 120.0, 81.0 ],
+					"style" : "",
+					"text" : "j.parameter signed @type boolean @description \"Toggle signed values (off = 0.-1., on = -0.5 - 0.5.\"",
+					"varname" : "tolerance[14]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1305.0, 420.0, 120.0, 19.0 ],
-					"presentation_rect" : [ 869.0, 407.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Checkerboard"
 				}
@@ -160,7 +190,6 @@
 					}
 ,
 					"patching_rect" : [ 1125.0, 420.0, 128.0, 21.0 ],
-					"presentation_rect" : [ 714.0, 404.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix @type float32"
 				}
@@ -217,7 +246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 570.0, 90.0, 21.0 ],
+					"patching_rect" : [ 675.0, 570.0, 90.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend drawto"
 				}
@@ -230,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 540.0, 540.0, 94.0, 21.0 ],
+					"patching_rect" : [ 675.0, 540.0, 94.0, 21.0 ],
 					"style" : "",
 					"text" : "j.receive context"
 				}
@@ -284,7 +313,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 343.0, -792.0, 1330.0, 551.0 ],
+						"rect" : [ 76.0, 108.0, 1330.0, 551.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -327,7 +356,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param ampscale (1., 1., 1.);\r\nParam ampbias (0., 0., 0.);\r\nout1 = in1 * ampscale + ampbias;",
+									"code" : "Param ampscale (1., 1., 1.);\r\nParam ampbias (0., 0., 0.);\r\nParam signed(0.);\r\nout1 = (in1*(signed+1.) - (signed * 0.5)) * ampscale + ampbias;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -336,7 +365,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 270.0, 90.0 ],
+									"patching_rect" : [ 15.0, 45.0, 450.0, 240.0 ],
 									"style" : ""
 								}
 
@@ -347,7 +376,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 150.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 315.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "out 1"
 								}
@@ -1260,6 +1289,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 519.5, 602.5, 204.5, 602.5 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 1134.5, 450.0, 204.5, 450.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -1327,6 +1364,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 399.5, 195.0, 339.5, 195.0 ],
 					"source" : [ "obj-23", 0 ]
@@ -1336,7 +1380,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 549.5, 602.5, 204.5, 602.5 ],
+					"midpoints" : [ 684.5, 602.5, 204.5, 602.5 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
