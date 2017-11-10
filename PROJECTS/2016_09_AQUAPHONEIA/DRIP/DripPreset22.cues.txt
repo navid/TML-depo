@@ -4705,8 +4705,8 @@
 /target2/input/limiter/preamp 0.000000
 /target2/input/limiter/release 1000.000000
 /target2/input/limiter/threshold 0.000000
-/target2/input/channel.L 2
-/target2/input/channel.R 2
+/target2/input/channel.L 4
+/target2/input/channel.R 4
 /target2/audio/gain 0.000000
 /target2/audio/mute 0
 # 
@@ -4731,8 +4731,8 @@
 /target3/input/limiter/preamp 0.000000
 /target3/input/limiter/release 1000.000000
 /target3/input/limiter/threshold 0.000000
-/target3/input/channel.L 4
-/target3/input/channel.R 4
+/target3/input/channel.L 2
+/target3/input/channel.R 2
 /target3/audio/gain 0.000000
 /target3/audio/mute 0
 # 
@@ -5126,18 +5126,18 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 44
-/concatmod4/pickup/x2 52
+/concatmod4/pickup/x1 79
+/concatmod4/pickup/x2 39
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 44
-/concatmod4/pickup/y4 52
+/concatmod4/pickup/y3 79
+/concatmod4/pickup/y4 39
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 44
+/concatmod4/excite/x1 42
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
@@ -5168,7 +5168,7 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 75
+/concatmod5/excite/x1 19
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
