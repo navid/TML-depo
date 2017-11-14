@@ -48,7 +48,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gl_pix_thresh.view.maxpat",
+					"name" : "gl_list2tex.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -62,7 +62,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Greater-than/less-than",
+					"annotation" : "Convert numerical lists to OpenGL textures.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -70,9 +70,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 140.0, 135.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 117.0, 22.0 ],
 					"style" : "",
-					"text" : "gl_pix_thresh.model #1",
+					"text" : "gl_list2tex.model #1",
 					"varname" : "j.model"
 				}
 
@@ -99,7 +99,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 179.0, 27.0, 27.0 ],
+					"patching_rect" : [ 120.0, 180.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -141,8 +141,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"name" : "gl_list2tex.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_list2tex",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -155,8 +155,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_pix_thresh.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"name" : "gl_list2tex.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_list2tex",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -183,6 +183,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
@@ -192,10 +196,6 @@
 			}
 , 			{
 				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
