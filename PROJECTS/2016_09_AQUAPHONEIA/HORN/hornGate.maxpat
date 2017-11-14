@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 341.0, 355.0, 611.0, 556.0 ],
+		"rect" : [ 505.0, 237.0, 611.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -383,7 +383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 159.5, 108.0, 121.833336, 108.0 ],
+					"midpoints" : [ 159.5, 108.0, 121.833333, 108.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
