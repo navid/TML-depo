@@ -4760,7 +4760,7 @@
 /target4/input/channel.L 5
 /target4/input/channel.R 5
 /target4/audio/gain 0.000000
-/target4/audio/mute 0
+/target4/audio/mute 1
 # 
 /target4/balance/mode FastMode
 /target4/balance/position 0.000000
@@ -4786,7 +4786,7 @@
 /target5/input/channel.L 6
 /target5/input/channel.R 6
 /target5/audio/gain 0.000000
-/target5/audio/mute 0
+/target5/audio/mute 1
 # 
 /target5/balance/mode FastMode
 /target5/balance/position 0.000000
@@ -5126,18 +5126,18 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 79
-/concatmod4/pickup/x2 39
+/concatmod4/pickup/x1 72
+/concatmod4/pickup/x2 23
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 79
-/concatmod4/pickup/y4 39
+/concatmod4/pickup/y3 72
+/concatmod4/pickup/y4 23
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 42
+/concatmod4/excite/x1 18
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
@@ -5168,7 +5168,7 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 19
+/concatmod5/excite/x1 26
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
