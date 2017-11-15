@@ -1,0 +1,16 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+counter/direction 2
+counter/maximum 100
+qmetro/on 1
+qmetro/rate 100
+slide/down 10.000000
+slide/on 1
+slide/qmetro/on 1
+slide/qmetro/rate 10
+slide/up 10.000000
+# 
+# ###########################################

@@ -313,7 +313,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 76.0, 108.0, 1330.0, 551.0 ],
+						"rect" : [ 76.0, 108.0, 559.0, 551.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -356,7 +356,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param ampscale (1., 1., 1.);\r\nParam ampbias (0., 0., 0.);\r\nParam signed(0.);\r\nout1 = (in1*(signed+1.) - (signed * 0.5)) * ampscale + ampbias;",
+									"code" : "Param ampscale (1., 1., 1.);\r\nParam ampbias (0., 0., 0.);\r\nParam signed(0.);\r\nout1 = ((in1 - (signed * 0.5))*(signed+1.)) * ampscale + ampbias;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
