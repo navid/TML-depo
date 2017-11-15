@@ -423,7 +423,7 @@
 					"presentation_rect" : [ 1.200012, 346.5, 184.25, 17.5 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-18", "flonum", "float", 3000.0, 5, "obj-17", "flonum", "float", 1.0, 5, "obj-16", "flonum", "float", 0.5, 5, "obj-2", "filtergraph~", "nfilters", 1, 9, "obj-2", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-2", "filtergraph~", "params", 0, 3000.0, 1.0, 0.5, 5, "obj-33", "flonum", "float", 130.0, 5, "obj-32", "flonum", "float", 1.0, 5, "obj-31", "flonum", "float", 0.7, 5, "obj-26", "filtergraph~", "nfilters", 1, 9, "obj-26", "filtergraph~", "setoptions", 0, 2, 1, 0, 0, 8, "obj-26", "filtergraph~", "params", 0, 130.0, 1.0, 0.7, 5, "obj-71", "number", "int", 120, 5, "obj-98", "flonum", "float", 70.0, 5, "obj-100", "flonum", "float", 30.0, 5, "obj-19", "flonum", "float", -45.0, 5, "obj-38", "flonum", "float", -22.0, 5, "obj-14", "flonum", "float", 1.0 ]
+							"data" : [ 5, "obj-18", "flonum", "float", 3000.0, 5, "obj-17", "flonum", "float", 1.0, 5, "obj-16", "flonum", "float", 0.5, 5, "obj-2", "filtergraph~", "nfilters", 1, 9, "obj-2", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-2", "filtergraph~", "params", 0, 3000.0, 1.0, 0.5, 5, "obj-33", "flonum", "float", 130.0, 5, "obj-32", "flonum", "float", 1.0, 5, "obj-31", "flonum", "float", 0.7, 5, "obj-26", "filtergraph~", "nfilters", 1, 9, "obj-26", "filtergraph~", "setoptions", 0, 2, 1, 0, 0, 8, "obj-26", "filtergraph~", "params", 0, 130.0, 1.0, 0.7, 5, "obj-71", "number", "int", 120, 5, "obj-98", "flonum", "float", 70.0, 5, "obj-100", "flonum", "float", 30.0, 5, "obj-19", "flonum", "float", -48.0, 5, "obj-38", "flonum", "float", -20.0, 5, "obj-14", "flonum", "float", 1.0 ]
 						}
  ],
 					"style" : ""
@@ -615,7 +615,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.0, 497.0, 105.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.700012, 200.0, 89.0, 18.0 ],
+					"presentation_rect" : [ 8.700012, 200.0, 89.0, 18.0 ],
 					"style" : "",
 					"text" : "averaging interval"
 				}
