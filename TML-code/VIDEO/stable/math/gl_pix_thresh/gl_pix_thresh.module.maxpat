@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -81,6 +81,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -93,20 +94,8 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-32",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 92.0, 27.0, 27.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-33",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -119,6 +108,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -131,8 +121,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -140,8 +128,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -149,8 +135,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -158,37 +142,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/Tutorials/_TML RND/TML_RND_04/gl_pix_thresh",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -209,6 +199,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -218,10 +212,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],

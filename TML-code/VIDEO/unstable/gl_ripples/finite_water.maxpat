@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 802.0, 104.0, 791.0, 725.0 ],
+		"rect" : [ 615.0, 104.0, 791.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -514,7 +514,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 571.0, 204.0, 1075.0, 673.0 ],
+						"rect" : [ 331.0, 204.0, 1075.0, 673.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -544,12 +544,37 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 390.0, 75.0, 45.0, 20.0 ],
+									"style" : "",
+									"text" : "Buf A"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 390.0, 15.0, 240.0, 47.0 ],
+									"style" : "",
+									"text" : "Finite Water\nby overlii\nhttps://www.shadertoy.com/view/4sd3WB"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-6",
 									"linecount" : 22,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 75.0, 390.0, 301.0 ],
+									"patching_rect" : [ 390.0, 105.0, 390.0, 301.0 ],
 									"style" : "",
 									"text" : "void mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // Mouse excitation\n    vec2 r = fragCoord.xy - iMouse.xy;\n    float d = 0.001*dot(r,r);\n    if(iMouse.z > 0.0 && d < 0.05) {\n    \tfragColor = vec4(0.0,0.2,0,0);\n        return;\n    } \n    \n    // Periodic excitation\n    r = fragCoord.xy - vec2(50, 70);\n    d = 0.001*dot(r,r);\n    if (mod(iGlobalTime, 0.5) < 0.1 && d < 0.05) {\n        fragColor = vec4(0.0,0.1,0,0);\n        return;\n   \t}\n\n    // just copy\n    vec2 uv = fragCoord.xy / iResolution.xy;\n   \tfragColor = texture(iChannel0, uv);\n}"
 								}
@@ -557,7 +582,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "\r\nParam mousexy(0., 0.);\nParam click(0.);\r\nParam time(0.);\r\n\r\n\r\n// Mouse excitation\r\nr = vec(cell.x - mousexy.x, cell.y-mousexy.y);\nd = 0.001*dot(r,r);\r\nclicked = vec(0., 0., 0.);\nif(click > 0.0 && d < 0.5) {\r\n\tclicked = vec(0.0,0.2,0);\r\n\t}\n\n// Periodic excitation\n\r\nr = vec(cell.x-50,cell.y-70);\nd = 0.0001*dot(r,r);\r\n\r\ntimer = vec(0.,0.,0.);\r\nif (mod(time, 0.5) < 0.1 && d < 0.05) {\n\ttimer = vec(0.0,0.1,0,0);\r\n\t}\n\r\n// just copy\nuv = norm;\r\n\r\nout1 = sample(in1, uv)+clicked;\n//out1 = sample(in1,uv);\r\n\r\n",
+									"code" : "Param mousexy(0., 0.);\nParam click(0.);\r\nParam time(0.);\r\n\r\n// Mouse excitation\r\nr = vec(cell.x - mousexy.x, cell.y-mousexy.y);\nd = 0.001*dot(r,r);\r\nclicked = vec(0., 0., 0.);\nif(click > 0.0 && d < 0.5) {\r\n\tclicked = vec(0.0,0.2,0);\r\n\t}\n\n// Periodic excitation\n\r\nr = vec(cell.x-50,cell.y-70);\nd = 0.0001*dot(r,r);\r\n\r\ntimer = vec(0.,0.,0.);\r\nif (mod(time, 0.5) < 0.1 && d < 0.05) {\n\ttimer = vec(0.0,0.1,0,0);\r\n\t}\n\r\n// just copy\nuv = norm;\r\n\r\nout1 = sample(in1, uv)+clicked;\n//out1 = sample(in1,uv);\r\n\r\n",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -566,7 +591,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 60.0, 555.0, 630.0 ],
+									"patching_rect" : [ 15.0, 45.0, 360.0, 420.0 ],
 									"style" : ""
 								}
 
@@ -578,7 +603,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 15.0, 30.0, 22.0 ],
+									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
 									"style" : "",
 									"text" : "in 1"
 								}
@@ -590,7 +615,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 705.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 480.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "out 1"
 								}
@@ -637,7 +662,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 571.0, 79.0, 1075.0, 676.0 ],
+						"rect" : [ 331.0, 79.0, 1075.0, 676.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -667,12 +692,37 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 360.0, 75.0, 45.0, 20.0 ],
+									"style" : "",
+									"text" : "Buf B"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 360.0, 15.0, 240.0, 47.0 ],
+									"style" : "",
+									"text" : "Finite Water\nby overlii\nhttps://www.shadertoy.com/view/4sd3WB"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-6",
 									"linecount" : 27,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.0, 15.0, 390.0, 368.0 ],
+									"patching_rect" : [ 360.0, 105.0, 390.0, 368.0 ],
 									"style" : "",
 									"text" : "\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    float dx = 1.0/iResolution.x;\n    float dy = 1.0/iResolution.y;\n    vec2 uv = fragCoord.xy / iResolution.xy;\n\n    vec2 udu = texture(iChannel0, uv).xy;\n\t// old elevation\n    float u = udu.x;\n    // old velociy\n    float du = udu.y;\n    \n    // Finite differences\n    float ux = texture(iChannel0, vec2(uv.x+dx, uv.y)).x;\n    float umx = texture(iChannel0, vec2(uv.x-dx, uv.y)).x;\n    float uy = texture(iChannel0, vec2(uv.x, uv.y+dy)).x;\n    float umy = texture(iChannel0, vec2(uv.x, uv.y-dy)).x;\n\n    // new elevation\n    float nu = u + du + 0.5*(umx+ux+umy+uy-4.0*u);\n    nu = 0.99*nu;\n    \n    // store elevation and velocity\n    fragColor = vec4(nu,nu-u,0.0,0.0);\n\n}"
 								}
@@ -689,7 +739,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 60.0, 555.0, 630.0 ],
+									"patching_rect" : [ 15.0, 45.0, 330.0, 345.0 ],
 									"style" : ""
 								}
 
@@ -701,7 +751,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 15.0, 30.0, 22.0 ],
+									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
 									"style" : "",
 									"text" : "in 1"
 								}
@@ -713,7 +763,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 705.0, 37.0, 22.0 ],
+									"patching_rect" : [ 15.0, 405.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "out 1"
 								}
