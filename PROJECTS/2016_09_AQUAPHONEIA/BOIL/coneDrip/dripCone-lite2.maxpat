@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 269.0, 309.0, 552.0, 443.0 ],
+		"rect" : [ 37.0, 303.0, 552.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 6.0, 33.0, 152.0, 22.0 ],
+					"patching_rect" : [ 6.0, 40.0, 152.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.scale~.model dropEvn"
 				}
@@ -828,7 +828,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 295.0, 327.0, 67.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess 135"
+					"text" : "loadmess 132"
 				}
 
 			}
@@ -884,8 +884,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 5448.73584, "ticks" ],
-						"originaltempo" : 119.999908,
+						"originallength" : [ 9493.732422, "ticks" ],
+						"originaltempo" : 119.999901,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -948,7 +948,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 7617.556641, "ticks" ],
+						"originallength" : [ 4557.437988, "ticks" ],
 						"originaltempo" : 119.999947,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
