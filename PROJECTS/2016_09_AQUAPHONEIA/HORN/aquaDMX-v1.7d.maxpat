@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 35.0, 55.0, 805.0, 624.0 ],
+		"rect" : [ 127.0, 44.0, 1032.0, 856.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -5383,7 +5383,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 329.0, 126.0, 222.0, 513.0 ],
+						"rect" : [ 444.0, 169.0, 222.0, 513.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5411,6 +5411,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-2",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 165.0, 405.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-66",
 									"maxclass" : "button",
@@ -5537,7 +5551,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 390.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "scale 0. 1. 40 250"
+									"text" : "scale 0. 1. 40 180"
 								}
 
 							}
@@ -5610,6 +5624,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-82", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -10506,7 +10527,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 24.5, 693.0, 170.5, 693.0 ],
+					"midpoints" : [ 24.5, 684.0, 170.5, 684.0 ],
 					"source" : [ "obj-215", 0 ]
 				}
 
@@ -10977,36 +10998,36 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
-			"obj-118" : [ "multislider", "multislider", 0 ],
-			"obj-26" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-29" : [ "toggle[2]", "toggle[2]", 0 ],
-			"obj-40" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-141" : [ "toggle[14]", "toggle[14]", 0 ],
-			"obj-221" : [ "toggle[11]", "toggle[11]", 0 ],
-			"obj-200" : [ "live.text", "live.text", 0 ],
 			"obj-53" : [ "number[6]", "number[6]", 0 ],
+			"obj-238" : [ "number[4]", "number[4]", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle[3]", 0 ],
+			"obj-141" : [ "toggle[14]", "toggle[14]", 0 ],
+			"obj-200" : [ "live.text", "live.text", 0 ],
+			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-58" : [ "number[7]", "number[7]", 0 ],
+			"obj-164" : [ "number[1]", "number[1]", 0 ],
+			"obj-144" : [ "toggle[6]", "toggle[6]", 0 ],
+			"obj-146" : [ "toggle[15]", "toggle[15]", 0 ],
+			"obj-140" : [ "toggle[5]", "toggle[5]", 0 ],
 			"obj-108" : [ "number[9]", "number[9]", 0 ],
 			"obj-236" : [ "number[3]", "number[3]", 0 ],
-			"obj-36" : [ "toggle[10]", "toggle[10]", 0 ],
-			"obj-144" : [ "toggle[6]", "toggle[6]", 0 ],
-			"obj-4" : [ "number[2]", "number[2]", 0 ],
-			"obj-140" : [ "toggle[5]", "toggle[5]", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle[3]", 0 ],
-			"obj-146" : [ "toggle[15]", "toggle[15]", 0 ],
-			"obj-25" : [ "toggle", "toggle", 0 ],
-			"obj-58" : [ "number[7]", "number[7]", 0 ],
-			"obj-50" : [ "number", "number", 0 ],
-			"obj-238" : [ "number[4]", "number[4]", 0 ],
-			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-137" : [ "toggle[13]", "toggle[13]", 0 ],
 			"obj-45" : [ "number[5]", "number[5]", 0 ],
-			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ],
-			"obj-148" : [ "toggle[16]", "toggle[16]", 0 ],
-			"obj-54" : [ "toggle[7]", "toggle[7]", 0 ],
+			"obj-29" : [ "toggle[2]", "toggle[2]", 0 ],
+			"obj-137" : [ "toggle[13]", "toggle[13]", 0 ],
 			"obj-60" : [ "number[8]", "number[8]", 0 ],
+			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
 			"obj-46" : [ "toggle[12]", "toggle[12]", 0 ],
-			"obj-164" : [ "number[1]", "number[1]", 0 ]
+			"obj-4" : [ "number[2]", "number[2]", 0 ],
+			"obj-25" : [ "toggle", "toggle", 0 ],
+			"obj-26" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-54" : [ "toggle[7]", "toggle[7]", 0 ],
+			"obj-148" : [ "toggle[16]", "toggle[16]", 0 ],
+			"obj-36" : [ "toggle[10]", "toggle[10]", 0 ],
+			"obj-118" : [ "multislider", "multislider", 0 ],
+			"obj-221" : [ "toggle[11]", "toggle[11]", 0 ],
+			"obj-40" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-50" : [ "number", "number", 0 ],
+			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
