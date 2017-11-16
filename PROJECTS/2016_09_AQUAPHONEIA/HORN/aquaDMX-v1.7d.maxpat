@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 44.0, 904.0, 750.0 ],
+		"rect" : [ 323.0, 45.0, 904.0, 750.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 180.0, 225.0, 75.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 135.0, 75.0, 30.0 ],
+					"presentation_rect" : [ 105.0, 135.0, 180.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[5]",
@@ -117,7 +117,7 @@
 
 					}
 ,
-					"text" : "test_output",
+					"text" : "squirt_some_water",
 					"varname" : "live.text[5]"
 				}
 
@@ -13168,37 +13168,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-108" : [ "number[9]", "number[9]", 0 ],
-			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ],
-			"obj-43" : [ "live.text[2]", "live.text[1]", 0 ],
-			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-4" : [ "number[2]", "number[2]", 0 ],
-			"obj-25" : [ "toggle", "toggle", 0 ],
-			"obj-182" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-45" : [ "number[5]", "number[5]", 0 ],
-			"obj-50" : [ "number", "number", 0 ],
-			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
-			"obj-26" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-60" : [ "number[8]", "number[8]", 0 ],
 			"obj-36" : [ "toggle[10]", "toggle[10]", 0 ],
-			"obj-82" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-182" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-60" : [ "number[8]", "number[8]", 0 ],
+			"obj-118" : [ "multislider", "multislider", 0 ],
+			"obj-4" : [ "number[2]", "number[2]", 0 ],
 			"obj-144" : [ "toggle[6]", "toggle[6]", 0 ],
+			"obj-29" : [ "toggle[2]", "toggle[2]", 0 ],
 			"obj-140" : [ "toggle[5]", "toggle[5]", 0 ],
 			"obj-221" : [ "toggle[11]", "toggle[11]", 0 ],
 			"obj-128" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-72" : [ "live.text[3]", "live.text[1]", 0 ],
-			"obj-54" : [ "toggle[7]", "toggle[7]", 0 ],
-			"obj-29" : [ "toggle[2]", "toggle[2]", 0 ],
-			"obj-200" : [ "live.text", "live.text", 0 ],
-			"obj-236" : [ "number[3]", "number[3]", 0 ],
 			"obj-53" : [ "number[6]", "number[6]", 0 ],
-			"obj-164" : [ "number[1]", "number[1]", 0 ],
-			"obj-118" : [ "multislider", "multislider", 0 ],
+			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
+			"obj-236" : [ "number[3]", "number[3]", 0 ],
+			"obj-54" : [ "toggle[7]", "toggle[7]", 0 ],
+			"obj-200" : [ "live.text", "live.text", 0 ],
+			"obj-40" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-82" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-45" : [ "number[5]", "number[5]", 0 ],
 			"obj-31" : [ "toggle[3]", "toggle[3]", 0 ],
+			"obj-58" : [ "number[7]", "number[7]", 0 ],
 			"obj-202::obj-120" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-238" : [ "number[4]", "number[4]", 0 ],
-			"obj-40" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-58" : [ "number[7]", "number[7]", 0 ]
+			"obj-164" : [ "number[1]", "number[1]", 0 ],
+			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ],
+			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-25" : [ "toggle", "toggle", 0 ],
+			"obj-108" : [ "number[9]", "number[9]", 0 ],
+			"obj-43" : [ "live.text[2]", "live.text[1]", 0 ],
+			"obj-50" : [ "number", "number", 0 ],
+			"obj-26" : [ "multislider[1]", "multislider[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -13245,8 +13245,8 @@
 			}
 , 			{
 				"name" : "urn-jb.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/examples/max-tricks/random_with_no_repeat",
-				"patcherrelativepath" : "../../../../../../Shared/Max 7/examples/max-tricks/random_with_no_repeat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/random_with_no_repeat",
+				"patcherrelativepath" : "../../../../../../Shared/Max 7/Examples/max-tricks/random_with_no_repeat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
