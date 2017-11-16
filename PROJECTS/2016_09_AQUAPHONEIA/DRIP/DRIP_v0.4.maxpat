@@ -79,7 +79,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-142",
@@ -822,14 +821,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-38",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 77.5, 136.0, 44.0, 49.0 ],
 													"style" : "",
-													"text" : "/squirt/dripl/offset 1"
+													"text" : "/squirt/dripl/ 1"
 												}
 
 											}
@@ -1401,14 +1400,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-4",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 86.5, 120.0, 44.0, 49.0 ],
 													"style" : "",
-													"text" : "/squirt/dripl/offset 1"
+													"text" : "/squirt/dripl/ 1"
 												}
 
 											}
@@ -2114,7 +2113,7 @@
 													}
 ,
 													"style" : "",
-													"text" : "groove~ leftsquirt"
+													"text" : "groove~ squirt"
 												}
 
 											}
@@ -3122,8 +3121,8 @@
 														"loopend" : [ 0.0, "ms" ],
 														"loopstart" : [ 0.0, "ms" ],
 														"mode" : "basic",
-														"originallength" : [ 2880.0, "ticks" ],
-														"originaltempo" : 180.000003,
+														"originallength" : [ 0.0, "ticks" ],
+														"originaltempo" : 120.0,
 														"phase" : [ 0.0, "ticks" ],
 														"pitchcorrection" : 0,
 														"quality" : "basic",
@@ -3131,7 +3130,7 @@
 													}
 ,
 													"style" : "",
-													"text" : "groove~ leftsquirt"
+													"text" : "groove~ squirt"
 												}
 
 											}
@@ -3789,9 +3788,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 499.0, 479.666687, 98.0, 22.0 ],
+									"patching_rect" : [ 499.0, 479.666687, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "record~ leftsquirt"
+									"text" : "record~ squirt"
 								}
 
 							}
@@ -3802,9 +3801,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 634.0, 483.666687, 127.0, 22.0 ],
+									"patching_rect" : [ 634.0, 483.666687, 111.0, 22.0 ],
 									"style" : "",
-									"text" : "buffer~ leftsquirt 2000"
+									"text" : "buffer~ squirt 3000"
 								}
 
 							}
