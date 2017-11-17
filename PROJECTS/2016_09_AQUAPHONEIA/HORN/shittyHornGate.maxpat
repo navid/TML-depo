@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 128.0, 479.0, 669.0 ],
+		"rect" : [ 8.0, 145.0, 226.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "grid_template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 15.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 180.0, 555.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 525.0, 113.0, 22.0 ],
+					"patching_rect" : [ 15.0, 555.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend /coneGate"
 				}
@@ -55,7 +81,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 555.0, 153.0, 22.0 ],
+					"patching_rect" : [ 15.0, 585.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "udpsend 127.0.0.1 898983"
 				}
@@ -68,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 74.5, 59.5, 80.0, 13.0 ],
+					"patching_rect" : [ 74.5, 89.5, 80.0, 13.0 ],
 					"style" : ""
 				}
 
@@ -80,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 15.0, 47.0, 22.0 ],
+					"patching_rect" : [ 15.0, 45.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "adc~ 1"
 				}
@@ -291,7 +317,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 31.0, 55.0, 36.0, 22.0 ],
+					"patching_rect" : [ 31.0, 85.0, 36.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -316,11 +342,11 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "shittygate.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 15.0, 90.0, 199.0, 421.0 ],
+					"patching_rect" : [ 15.0, 120.0, 199.0, 421.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -329,7 +355,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 40.5, 85.5, 24.5, 85.5 ],
+					"midpoints" : [ 40.5, 115.5, 24.5, 115.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -337,7 +363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 24.5, 47.75, 84.0, 47.75 ],
+					"midpoints" : [ 24.5, 77.75, 84.0, 77.75 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -360,7 +386,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 24.5, 547.5, 189.5, 547.5 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
