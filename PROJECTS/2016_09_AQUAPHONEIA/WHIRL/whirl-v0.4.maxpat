@@ -4056,7 +4056,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "signal", "signal" ],
-									"patching_rect" : [ 2.0, 62.0, 192.0, 410.0 ]
+									"patching_rect" : [ 2.0, 62.0, 192.0, 411.0 ]
 								}
 
 							}
