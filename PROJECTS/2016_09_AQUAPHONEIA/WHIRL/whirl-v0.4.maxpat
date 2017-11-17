@@ -403,7 +403,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 388.0, 496.0, 297.0, 227.0 ],
+										"rect" : [ 388.0, 496.0, 498.0, 227.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -424,6 +424,63 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"color" : [ 0.619608, 0.0, 0.360784, 0.698039 ],
+													"fontname" : "Verdana",
+													"fontsize" : 10.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 218.5, 194.491791, 182.0, 19.0 ],
+													"text" : "jcom.send jcom.remote.module.to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-7",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 218.5, 176.491791, 117.0, 18.0 ],
+													"text" : "/*/modAmt/trigger 0."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-13",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 373.222717, 104.008209, 32.5, 19.0 ],
+													"text" : "0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-38",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "int" ],
+													"patching_rect" : [ 373.222717, 129.5, 110.0, 21.0 ],
+													"text" : "adstatus option 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-2",
@@ -431,7 +488,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 12.5, 116.0, 52.0, 18.0 ],
+													"patching_rect" : [ 34.5, 116.0, 52.0, 18.0 ],
 													"text" : "select 2"
 												}
 
@@ -443,7 +500,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 49.0, 16.0, 20.0, 20.0 ]
+													"patching_rect" : [ 174.0, 16.0, 20.0, 20.0 ]
 												}
 
 											}
@@ -456,8 +513,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 12.5, 84.5, 76.0, 20.0 ],
-													"text" : "delay 14000"
+													"patching_rect" : [ 34.5, 84.5, 76.0, 20.0 ],
+													"text" : "delay 17000"
 												}
 
 											}
@@ -470,7 +527,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 95.0, 84.5, 69.0, 20.0 ],
+													"patching_rect" : [ 134.0, 90.0, 69.0, 20.0 ],
 													"text" : "delay 7000"
 												}
 
@@ -484,7 +541,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.0, 112.0, 52.0, 18.0 ],
+													"patching_rect" : [ 134.0, 117.5, 52.0, 18.0 ],
 													"text" : "select 1"
 												}
 
@@ -496,10 +553,10 @@
 													"id" : "obj-19",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "bang" ],
-													"patching_rect" : [ 81.0, 54.0, 46.0, 20.0 ],
-													"text" : "t b b b"
+													"numoutlets" : 5,
+													"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
+													"patching_rect" : [ 206.0, 54.0, 73.0, 20.0 ],
+													"text" : "t b b b b b"
 												}
 
 											}
@@ -513,7 +570,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 171.0, 84.5, 111.0, 31.0 ],
+													"patching_rect" : [ 248.0, 98.5, 111.0, 31.0 ],
 													"text" : "load whirlCuesNemo.txt"
 												}
 
@@ -528,7 +585,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 81.0, 16.0, 130.0, 19.0 ],
+													"patching_rect" : [ 206.0, 16.0, 130.0, 19.0 ],
 													"text" : "jcom.initialized /oroCue"
 												}
 
@@ -540,12 +597,21 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 95.0, 169.0, 25.0, 25.0 ]
+													"patching_rect" : [ 248.0, 138.5, 25.0, 25.0 ]
 												}
 
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-38", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-21", 0 ],
 													"disabled" : 0,
@@ -565,10 +631,19 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-19", 4 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-19", 1 ]
+													"source" : [ "obj-19", 2 ]
 												}
 
 											}
@@ -577,7 +652,7 @@
 													"destination" : [ "obj-18", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-19", 2 ]
+													"source" : [ "obj-19", 3 ]
 												}
 
 											}
@@ -587,6 +662,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-19", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-19", 1 ]
 												}
 
 											}
@@ -623,6 +707,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-7", 0 ]
 												}
 
 											}
@@ -938,8 +1031,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 508.333313, 438.5, 85.0, 20.0 ],
-									"text" : "loadmess 100"
+									"patching_rect" : [ 508.333313, 438.5, 72.0, 20.0 ],
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -3164,7 +3257,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 664.0, 116.0, 298.0, 66.0 ],
+						"rect" : [ 1001.0, 231.0, 298.0, 66.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3200,7 +3293,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 77.0, 73.0, 482.0, 641.0 ],
+										"rect" : [ 161.0, 81.0, 482.0, 641.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -4004,6 +4097,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -4233,6 +4327,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 149.5, 57.25, 490.5, 57.25 ],
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
 								}
 
 							}
@@ -4665,7 +4768,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 258.0, 241.0, 481.0, 541.0 ],
+						"rect" : [ 586.0, 195.0, 481.0, 541.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5165,96 +5268,96 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-65::obj-11::obj-108::obj-49" : [ "Append[8]", "Append", 0 ],
-			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
-			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
 			"obj-64::obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
-			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
-			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
-			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
-			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-65::obj-24::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
-			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
-			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
-			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
-			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
-			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
-			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
-			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
-			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
-			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
-			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
-			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
-			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-65::obj-13::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
-			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-65::obj-24::obj-108::obj-15" : [ "Size[3]", "Size", 0 ],
-			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
-			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
-			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
-			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
-			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
-			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
-			"obj-65::obj-24::obj-74" : [ "note[3]", "Note", 0 ],
-			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[2]", "Direction", 0 ],
-			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
-			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
-			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
-			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[13]", "Direction", 0 ],
-			"obj-2::obj-56::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
-			"obj-65::obj-13::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
 			"obj-65::obj-11::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
-			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
-			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ],
-			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-64::obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
-			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
-			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-42::obj-30::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
-			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
-			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
-			"obj-42::obj-30::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
-			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
-			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
-			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
-			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ],
-			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
-			"obj-65::obj-11::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
-			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
-			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[14]", "Direction", 0 ],
-			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
-			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
-			"obj-65::obj-11::obj-18" : [ "Clear[3]", "Clear", 0 ],
+			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
+			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[6]", "Direction", 0 ],
+			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
 			"obj-64::obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
-			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
-			"obj-42::obj-30::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
-			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
-			"obj-65::obj-24::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ],
+			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
+			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-42::obj-30::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
+			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
+			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
+			"obj-42::obj-30::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
+			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
 			"obj-2::obj-48::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
-			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
-			"obj-64::obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
+			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
+			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
+			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
+			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
+			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[4]", "Direction", 0 ],
+			"obj-65::obj-11::obj-108::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
+			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
+			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-108::obj-87" : [ "Direction[3]", "Direction", 0 ],
+			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ],
+			"obj-42::obj-30::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
+			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
+			"obj-65::obj-24::obj-74" : [ "note[3]", "Note", 0 ],
+			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
+			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
+			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
+			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
+			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
+			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[2]", "Direction", 0 ],
 			"obj-65::obj-13::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
+			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[5]", "Direction", 0 ],
+			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
+			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
+			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
+			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
+			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
+			"obj-65::obj-11::obj-18" : [ "Clear[3]", "Clear", 0 ],
+			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
+			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
+			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
+			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
+			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ],
+			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-64::obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
+			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
+			"obj-65::obj-13::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-65::obj-24::obj-108::obj-15" : [ "Size[3]", "Size", 0 ],
+			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
+			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
 			"obj-65::obj-24::obj-18" : [ "Clear[2]", "Clear", 0 ],
-			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ]
+			"obj-2::obj-56::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-64::obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
+			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
+			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
+			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
+			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
+			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-64::obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
+			"obj-65::obj-13::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
+			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
+			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
+			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
+			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
+			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-65::obj-11::obj-108::obj-49" : [ "Append[8]", "Append", 0 ],
+			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
