@@ -508,12 +508,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-18",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 171.0, 84.5, 123.0, 18.0 ],
-													"text" : "load whirlCuesArs.txt"
+													"patching_rect" : [ 171.0, 84.5, 111.0, 31.0 ],
+													"text" : "load whirlCuesNemo.txt"
 												}
 
 											}
@@ -1814,7 +1815,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2091,7 +2091,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 306.0, 401.0, 79.0, 20.0 ],
-									"text" : "loadmess 55"
+									"text" : "loadmess 60"
 								}
 
 							}
@@ -4192,7 +4192,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 120.0, 28.0, 29.0, 20.0 ],
+									"patching_rect" : [ 140.0, 14.0, 29.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 146.0, 8.0, 29.0, 25.5 ]
 								}
@@ -4231,7 +4231,7 @@
 									"destination" : [ "obj-45", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 129.5, 57.25, 490.5, 57.25 ],
+									"midpoints" : [ 149.5, 57.25, 490.5, 57.25 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -4415,7 +4415,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
