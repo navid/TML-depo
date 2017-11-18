@@ -82,20 +82,19 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
-									"linecount" : 20,
+									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 18.0, 399.0, 275.0 ],
+									"patching_rect" : [ 1.0, 18.0, 410.0, 234.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 17,
-									"presentation_rect" : [ 330.0, 45.0, 455.0, 234.0 ],
+									"presentation_linecount" : 14,
+									"presentation_rect" : [ 330.0, 45.0, 455.0, 194.0 ],
 									"style" : "",
-									"text" : "to do:\n1. simple UI-based preset for all calibratable params (pump uration, logic shit, etc)\n\n2. activity measure: based on how many times the urn completes the cycle withinn 1/2 hour: ie. cycles per hour... this value then is use to moule the macro cycles of the piece\n\n3. BoilValveLogic: make the waiting time UI configurable, add an automatic switch for the boil valve when the activityMeasure falls beneath a certain aount\n\n4. when activityMeasure reaches zero enter a self-cycling mode where water is squirted every 15 minuets for example.\n\n4.1 When activityMeasure reaches a hyper actuve state (ie. 100 cyles per hour), the squirt time should decrease so the chanber don't overflow.\n\n5. Mira daily checklist for the presentor: pumps, lights, seakers, valves, magnet, etc."
+									"text" : "to do:\n1. simple UI-based preset for all calibratable params (pump uration, logic shit, etc)\n\n2. activity measure: based on how many times the urn completes the cycle withinn 1/2 hour: ie. cycles per hour... this value then is use to moule the macro cycles of the piece\n\n3. BoilValveLogic: make the waiting time UI configurable, add an automatic switch for the boil valve when the activityMeasure falls beneath a certain aount\n\n4. when activityMeasure reaches zero enter a self-cycling mode where water is squirted every 15 minuets for example.\n\n5. Mira daily checklist for the presentor: pumps, lights, seakers, valves, magnet, etc."
 								}
 
 							}
