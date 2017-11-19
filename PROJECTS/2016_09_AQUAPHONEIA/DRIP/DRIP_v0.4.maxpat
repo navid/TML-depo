@@ -1981,14 +1981,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-38",
-													"linecount" : 3,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 77.5, 136.0, 44.0, 49.0 ],
 													"style" : "",
-													"text" : "/squirt/dripl/ 1"
+													"text" : "/squirt/dripl/offset 1"
 												}
 
 											}
@@ -2560,14 +2560,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-4",
-													"linecount" : 3,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 86.5, 120.0, 44.0, 49.0 ],
 													"style" : "",
-													"text" : "/squirt/dripl/ 1"
+													"text" : "/squirt/dripl/offset 1"
 												}
 
 											}
@@ -3070,7 +3070,7 @@
 														"basictuning" : 440,
 														"followglobaltempo" : 0,
 														"formantcorrection" : 0,
-														"loopend" : [ 1871.972789, "ms" ],
+														"loopend" : [ 6159.910389, "ms" ],
 														"loopstart" : [ 0.0, "ms" ],
 														"mode" : "basic",
 														"originallength" : [ 2879.999947, "ticks" ],
@@ -4052,7 +4052,7 @@
 														"basictuning" : 440,
 														"followglobaltempo" : 0,
 														"formantcorrection" : 0,
-														"loopend" : [ 1871.972789, "ms" ],
+														"loopend" : [ 6159.910389, "ms" ],
 														"loopstart" : [ 0.0, "ms" ],
 														"mode" : "basic",
 														"originallength" : [ 2879.999947, "ticks" ],
@@ -13168,7 +13168,7 @@
 													"cursor_shape" : "bar",
 													"cursor_size" : 3,
 													"cursor_visible" : 1,
-													"domain_bounds" : [ -0.000044, 14982.675693 ],
+													"domain_bounds" : [ 0.0, 14988.367343 ],
 													"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"domainruler_grid" : 0,
@@ -14177,7 +14177,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 757.0, 79.0, 375.0, 791.0 ],
+						"rect" : [ 214.0, 104.0, 471.0, 786.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -14206,6 +14206,29 @@
 						"subpatcher_template" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "mubu_presets" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-93",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "cue_manager.module.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ -266.75, 133.0, 300.0, 175.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 9.0, 127.0, 300.0, 175.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-106",
 									"maxclass" : "comment",
@@ -15336,7 +15359,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 117.0, 250.0, 127.0, 22.0 ],
 									"style" : "",
-									"text" : "Nov10_2017"
+									"text" : "Nov19_2017"
 								}
 
 							}
@@ -15407,14 +15430,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-71",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 48.5, 166.0, 181.5, 76.0 ],
+									"patching_rect" : [ 48.5, 166.0, 334.0, 49.0 ],
 									"style" : "",
-									"text" : "file/path /Users/Drip/code/TML-depo/PROJECTS/2016_09_AQUAPHONEIA/DRIP/nov_2017_drip.cues.txt"
+									"text" : "file/path /Users/Drip/code/TML-depo/PROJECTS/2016_09_AQUAPHONEIA/DRIP/nov19_2017_drip.cues.txt"
 								}
 
 							}
@@ -15780,29 +15803,6 @@
 									"patching_rect" : [ 124.0, 397.0, 100.0, 22.0 ],
 									"style" : "",
 									"text" : "metro 60000"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "mubu_presets" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-93",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "cue_manager.module.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ -266.75, 133.0, 300.0, 175.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 127.0, 300.0, 175.0 ],
-									"viewvisibility" : 1
 								}
 
 							}
@@ -16637,7 +16637,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 129.0, 79.0, 606.0, 856.0 ],
+										"rect" : [ 662.0, 79.0, 606.0, 856.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -16664,7 +16664,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"annotation" : "none",
@@ -30959,7 +30958,6 @@
 									"destination" : [ "obj-93", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 58.0, 254.0, 40.0, 254.0, 40.0, 120.0, -257.25, 120.0 ],
 									"source" : [ "obj-71", 0 ]
 								}
 
@@ -31132,15 +31130,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-91", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-84", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-93", 0 ]
 								}
 
 							}
