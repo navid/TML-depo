@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 35.0, 44.0, 1101.0, 469.0 ],
+		"rect" : [ -113.0, 190.0, 1026.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,16 +85,16 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
-									"linecount" : 20,
+									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 18.0, 399.0, 275.0 ],
+									"patching_rect" : [ 1.0, 18.0, 410.0, 234.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 17,
-									"presentation_rect" : [ 330.0, 45.0, 455.0, 234.0 ],
+									"presentation_linecount" : 14,
+									"presentation_rect" : [ 330.0, 45.0, 455.0, 194.0 ],
 									"style" : "",
-									"text" : "to do:\n1. simple UI-based preset for all calibratable params (pump uration, logic shit, etc)\n\n2. activity measure: based on how many times the urn completes the cycle withinn 1/2 hour: ie. cycles per hour... this value then is use to moule the macro cycles of the piece\n\n3. BoilValveLogic: make the waiting time UI configurable, add an automatic switch for the boil valve when the activityMeasure falls beneath a certain aount\n\n4. when activityMeasure reaches zero enter a self-cycling mode where water is squirted every 15 minuets for example.\n\n4.1 When activityMeasure reaches a hyper actuve state (ie. 100 cyles per hour), the squirt time should decrease so the chanber don't overflow.\n\n5. Mira daily checklist for the presentor: pumps, lights, seakers, valves, magnet, etc."
+									"text" : "to do:\n1. simple UI-based preset for all calibratable params (pump uration, logic shit, etc)\n\n2. activity measure: based on how many times the urn completes the cycle withinn 1/2 hour: ie. cycles per hour... this value then is use to moule the macro cycles of the piece\n\n3. BoilValveLogic: make the waiting time UI configurable, add an automatic switch for the boil valve when the activityMeasure falls beneath a certain aount\n\n4. when activityMeasure reaches zero enter a self-cycling mode where water is squirted every 15 minuets for example.\n\n5. Mira daily checklist for the presentor: pumps, lights, seakers, valves, magnet, etc."
 								}
 
 							}
@@ -5453,7 +5453,7 @@
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 915.0, 60.0, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "t 6000 4400 3600 6300"
+					"text" : "t 5600 4400 3600 7000"
 				}
 
 			}
@@ -6241,7 +6241,7 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 15.0, 420.0, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "del 60000"
+									"text" : "del 40000"
 								}
 
 							}
