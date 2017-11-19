@@ -39,13 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 8,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 240.0, 150.0, 104.0 ],
+					"patching_rect" : [ 15.0, 240.0, 168.0, 92.0 ],
 					"style" : "",
-					"text" : "I don't why, but in some cases having this dummy jit.gl.pix to the left of the one doing the actual processing seems to be necessary; otherwise, the output will be strobey or just dead."
+					"text" : "I don't know why, but in some cases having this dummy jit.gl.pix to the left of the one doing the actual processing seems to be necessary; otherwise, the output will be strobey or just dead."
 				}
 
 			}
@@ -586,6 +586,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 24.5, 195.0, 204.5, 195.0 ],
 					"order" : 0,
 					"source" : [ "obj-31", 0 ]
 				}

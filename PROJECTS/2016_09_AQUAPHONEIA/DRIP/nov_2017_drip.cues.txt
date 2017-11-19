@@ -4682,7 +4682,7 @@
 /target1/input/channel.L 3
 /target1/input/channel.R 3
 /target1/audio/gain 0.000000
-/target1/audio/mute 0
+/target1/audio/mute 1
 # 
 /target1/balance/mode FastMode
 /target1/balance/position 0.000000
@@ -4708,7 +4708,7 @@
 /target2/input/channel.L 4
 /target2/input/channel.R 4
 /target2/audio/gain 0.000000
-/target2/audio/mute 0
+/target2/audio/mute 1
 # 
 /target2/balance/mode FastMode
 /target2/balance/position 0.000000
@@ -4734,7 +4734,7 @@
 /target3/input/channel.L 2
 /target3/input/channel.R 2
 /target3/audio/gain 0.000000
-/target3/audio/mute 0
+/target3/audio/mute 1
 # 
 /target3/balance/mode FastMode
 /target3/balance/position 0.000000
@@ -4757,10 +4757,10 @@
 /target4/input/limiter/preamp 0.000000
 /target4/input/limiter/release 1000.000000
 /target4/input/limiter/threshold 0.000000
-/target4/input/channel.L 5
-/target4/input/channel.R 5
-/target4/audio/gain -96.000000
-/target4/audio/mute 0
+/target4/input/channel.L 6
+/target4/input/channel.R 6
+/target4/audio/gain 0.064091
+/target4/audio/mute 1
 # 
 /target4/balance/mode FastMode
 /target4/balance/position 0.000000
@@ -4783,10 +4783,10 @@
 /target5/input/limiter/preamp 0.000000
 /target5/input/limiter/release 1000.000000
 /target5/input/limiter/threshold 0.000000
-/target5/input/channel.L 6
-/target5/input/channel.R 6
-/target5/audio/gain -96.000000
-/target5/audio/mute 0
+/target5/input/channel.L 5
+/target5/input/channel.R 5
+/target5/audio/gain 0.028421
+/target5/audio/mute 1
 # 
 /target5/balance/mode FastMode
 /target5/balance/position 0.000000
@@ -4863,7 +4863,7 @@
 # 
 /concatout3/record/file/type aiff
 /concatout3/record/samptype int24
-/concatout3/audio/gain -25.951147
+/concatout3/audio/gain -26.928195
 /concatout3/audio/mute 0
 # 
 /concatout3/balance/mode FastMode
@@ -4915,8 +4915,8 @@
 # 
 /concatout5/record/file/type aiff
 /concatout5/record/samptype int24
-/concatout5/audio/gain -17.203918
-/concatout5/audio/mute 1
+/concatout5/audio/gain -23.255177
+/concatout5/audio/mute 0
 # 
 /concatout5/balance/mode FastMode
 /concatout5/balance/position 0.000000
@@ -4926,8 +4926,8 @@
 /concatout5/saturation/depth 10.000000
 /concatout5/saturation/mode 0.000000
 /concatout5/saturation/preamp 0.000000
-/concatout5/ch.1 6
-/concatout5/ch.2 6
+/concatout5/ch.1 7
+/concatout5/ch.2 7
 # 
 # 
 /scalecontact4/autoscale/audio/bypass 0
@@ -5126,18 +5126,18 @@
 /concatmod4/pickup/active 1
 /concatmod4/pickup/rate 800.000000
 /concatmod4/pickup/smooth 5000
-/concatmod4/pickup/x1 15
-/concatmod4/pickup/x2 47
+/concatmod4/pickup/x1 67
+/concatmod4/pickup/x2 82
 /concatmod4/pickup/x3 0
 /concatmod4/pickup/x4 0
 /concatmod4/pickup/y1 0
 /concatmod4/pickup/y2 0
-/concatmod4/pickup/y3 15
-/concatmod4/pickup/y4 47
+/concatmod4/pickup/y3 67
+/concatmod4/pickup/y4 82
 /concatmod4/excite/active 1
 /concatmod4/excite/rate 800.000000
 /concatmod4/excite/smooth 1000
-/concatmod4/excite/x1 63
+/concatmod4/excite/x1 37
 /concatmod4/excite/y1 0
 /concatmod4/pitch/detune 0
 /concatmod4/pitch/ramp 0
@@ -5168,7 +5168,7 @@
 /concatmod5/excite/active 1
 /concatmod5/excite/rate 3000.000000
 /concatmod5/excite/smooth 5000
-/concatmod5/excite/x1 55
+/concatmod5/excite/x1 23
 /concatmod5/excite/y1 0
 /concatmod5/pitch/detune 0
 /concatmod5/pitch/ramp 0
