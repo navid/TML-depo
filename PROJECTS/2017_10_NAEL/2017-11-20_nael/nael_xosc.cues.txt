@@ -1,0 +1,36 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/xosc_01/acc/x/active 1
+/xosc_01/acc/y/active 1
+/xosc_01/acc/z/active 1
+/xosc_01/acc/preview 1
+/xosc_01/gyro/pitch/active 1
+/xosc_01/gyro/roll/active 1
+/xosc_01/gyro/temp/active 1
+/xosc_01/gyro/yaw/active 1
+/xosc_01/gyro/preview 1
+/xosc_01/mag/x/active 1
+/xosc_01/mag/y/active 1
+/xosc_01/mag/z/active 1
+/xosc_01/mag/preview 1
+/xosc_01/port/in 8000
+# 
+/xosc_02/acc/x/active 1
+/xosc_02/acc/y/active 1
+/xosc_02/acc/z/active 1
+/xosc_02/acc/preview 1
+/xosc_02/gyro/pitch/active 1
+/xosc_02/gyro/roll/active 1
+/xosc_02/gyro/temp/active 1
+/xosc_02/gyro/yaw/active 1
+/xosc_02/gyro/preview 1
+/xosc_02/mag/x/active 1
+/xosc_02/mag/y/active 1
+/xosc_02/mag/z/active 1
+/xosc_02/mag/preview 1
+/xosc_02/port/in 8000
+# 
+# ###########################################
+

@@ -38,19 +38,6 @@
 		"subpatcher_template" : "Evan_default",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 420.0, 1860.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "newobj",
@@ -94,7 +81,21 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Snap to grid",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 510.0, 60.0, 55.0, 22.0 ],
+									"style" : "",
+									"text" : "j.receive"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-26",
 									"linecount" : 4,
@@ -1258,7 +1259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 1800.0, 165.0, 81.0 ],
+					"patching_rect" : [ 240.0, 1800.0, 169.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter motionprocessor @type integer @description \"Select between no motion analysis, CPU, GPU with matrix readback, or GPU with asynchronous readback.\"",
 					"varname" : "tolerance[16]"
@@ -3709,13 +3710,6 @@
 					"destination" : [ "obj-98", 0 ],
 					"midpoints" : [ 383.5, 2103.0, 429.5, 2103.0 ],
 					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
