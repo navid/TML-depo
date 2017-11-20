@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 53.0, -762.0, 663.0, 264.0 ],
+		"rect" : [ 53.0, 78.0, 663.0, 264.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -57,7 +57,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -71,7 +71,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -100,7 +100,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 750.0, -695.0, 773.0, 567.0 ],
+						"rect" : [ 633.0, 78.0, 773.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -224,9 +224,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 165.0, 150.0, 285.0, 21.0 ],
+									"patching_rect" : [ 165.0, 150.0, 297.0, 21.0 ],
 									"style" : "",
-									"text" : "route SpaceNavigator \"SpaceNavigator for Notebooks\""
+									"text" : "route \"Space Navigator\" \"SpaceNavigator for Notebooks\""
 								}
 
 							}
@@ -2124,7 +2124,25 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
