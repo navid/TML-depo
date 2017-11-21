@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -113.0, 190.0, 1026.0, 436.0 ],
+		"rect" : [ 72.0, 184.0, 1026.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,7 @@
 					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
 					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"fontface" : 1,
+					"fontsize" : 18.0,
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -55,7 +56,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 360.0, 165.0, 425.0, 329.0 ],
+						"rect" : [ 360.0, 165.0, 436.0, 410.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,12 +85,42 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 323.0, 248.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 3.0, 323.0, 455.0, 33.0 ],
+									"style" : "",
+									"text" : "all info should be on the git folder: passwords, configuration and optimization instructions, etc"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 13.0, 200.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 3.0, 455.0, 20.0 ],
+									"style" : "",
+									"text" : "the old gate patch is loaing on boot!"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-46",
 									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 18.0, 410.0, 234.0 ],
+									"patching_rect" : [ 4.0, 63.0, 410.0, 234.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 14,
 									"presentation_rect" : [ 330.0, 45.0, 455.0, 194.0 ],
@@ -102,9 +133,9 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 330.0, 45.0, 468.0, 22.0 ],
+					"patching_rect" : [ 330.0, 45.0, 684.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 45.0, 116.0, 22.0 ],
+					"presentation_rect" : [ 450.0, 45.0, 170.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -233,7 +264,7 @@
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 15.0, 45.0, 210.0, 60.0 ],
 					"style" : "",
-					"text" : "Horn installation\nRemote control/calibration interface\nTopological Media Lab\n2017"
+					"text" : "Horn installation\nRemote control/calibration interface\nTopological Media Lab\n2010"
 				}
 
 			}
@@ -5452,8 +5483,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 915.0, 60.0, 134.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.0, 90.0, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "t 5600 4400 3600 7000"
+					"text" : "t 5000 4400 3600 7800"
 				}
 
 			}
@@ -11433,7 +11466,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 60.0, 90.0, 317.0, 19.0 ],
 									"style" : "",
-									"text" : "interpolate 1200, max 260., min 40, on 1, rate/max 3500, rate/min 1300, on 0"
+									"text" : "interpolate 1200, max 260., min 50, on 1, rate/max 3500, rate/min 1300, on 0"
 								}
 
 							}
@@ -13251,37 +13284,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-164" : [ "number[1]", "number[1]", 0 ],
-			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
-			"obj-53" : [ "number[6]", "number[6]", 0 ],
-			"obj-25" : [ "toggle", "toggle", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle[3]", 0 ],
-			"obj-236" : [ "number[3]", "number[3]", 0 ],
-			"obj-50" : [ "number", "number", 0 ],
+			"obj-140" : [ "toggle[5]", "toggle[5]", 0 ],
 			"obj-4" : [ "number[2]", "number[2]", 0 ],
-			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ],
-			"obj-43" : [ "live.text[2]", "live.text[1]", 0 ],
-			"obj-58" : [ "number[7]", "number[7]", 0 ],
-			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-36" : [ "toggle[10]", "toggle[10]", 0 ],
-			"obj-182" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-128" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-202::obj-120" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-72" : [ "live.text[3]", "live.text[1]", 0 ],
 			"obj-238" : [ "number[4]", "number[4]", 0 ],
+			"obj-25" : [ "toggle", "toggle", 0 ],
 			"obj-82" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-118" : [ "multislider", "multislider", 0 ],
+			"obj-50" : [ "number", "number", 0 ],
+			"obj-58" : [ "number[7]", "number[7]", 0 ],
+			"obj-36" : [ "toggle[10]", "toggle[10]", 0 ],
 			"obj-54" : [ "toggle[7]", "toggle[7]", 0 ],
 			"obj-26" : [ "multislider[1]", "multislider[1]", 0 ],
 			"obj-40" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-45" : [ "number[5]", "number[5]", 0 ],
-			"obj-144" : [ "toggle[6]", "toggle[6]", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle[3]", 0 ],
 			"obj-221" : [ "toggle[11]", "toggle[11]", 0 ],
-			"obj-128" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-140" : [ "toggle[5]", "toggle[5]", 0 ],
-			"obj-202::obj-120" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-72" : [ "live.text[3]", "live.text[1]", 0 ],
+			"obj-27" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-45" : [ "number[5]", "number[5]", 0 ],
 			"obj-200" : [ "live.text", "live.text", 0 ],
+			"obj-124" : [ "toggle[4]", "toggle[4]", 0 ],
 			"obj-60" : [ "number[8]", "number[8]", 0 ],
-			"obj-118" : [ "multislider", "multislider", 0 ],
+			"obj-164" : [ "number[1]", "number[1]", 0 ],
+			"obj-43" : [ "live.text[2]", "live.text[1]", 0 ],
+			"obj-236" : [ "number[3]", "number[3]", 0 ],
+			"obj-108" : [ "number[9]", "number[9]", 0 ],
+			"obj-6" : [ "toggle[9]", "toggle[9]", 0 ],
+			"obj-182" : [ "live.text[4]", "live.text[1]", 0 ],
 			"obj-29" : [ "toggle[2]", "toggle[2]", 0 ],
-			"obj-108" : [ "number[9]", "number[9]", 0 ]
+			"obj-53" : [ "number[6]", "number[6]", 0 ],
+			"obj-144" : [ "toggle[6]", "toggle[6]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
