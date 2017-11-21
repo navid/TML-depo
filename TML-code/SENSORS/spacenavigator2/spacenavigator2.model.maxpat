@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 53.0, -762.0, 663.0, 264.0 ],
+		"rect" : [ 53.0, 78.0, 663.0, 264.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -57,7 +57,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -71,7 +71,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -100,7 +100,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 750.0, -695.0, 773.0, 567.0 ],
+						"rect" : [ 633.0, 78.0, 773.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -224,9 +224,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 165.0, 150.0, 285.0, 21.0 ],
+									"patching_rect" : [ 165.0, 150.0, 297.0, 21.0 ],
 									"style" : "",
-									"text" : "route SpaceNavigator \"SpaceNavigator for Notebooks\""
+									"text" : "route \"Space Navigator\" \"SpaceNavigator for Notebooks\""
 								}
 
 							}
@@ -283,9 +283,9 @@
 									"numinlets" : 9,
 									"numoutlets" : 9,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 30.0, 270.0, 330.0, 21.0 ],
+									"patching_rect" : [ 30.0, 270.0, 345.0, 21.0 ],
 									"style" : "",
-									"text" : "route 18 19 20 21 23 22 15 16"
+									"text" : "route 18 20 19 21 23 22 15 16"
 								}
 
 							}
@@ -636,7 +636,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
-									"midpoints" : [ 78.375, 362.5, 84.5, 362.5 ],
+									"midpoints" : [ 80.25, 362.5, 84.5, 362.5 ],
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -644,7 +644,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
-									"midpoints" : [ 117.25, 377.5, 129.5, 377.5 ],
+									"midpoints" : [ 121.0, 377.5, 129.5, 377.5 ],
 									"source" : [ "obj-6", 2 ]
 								}
 
@@ -652,7 +652,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
-									"midpoints" : [ 156.125, 392.5, 174.5, 392.5 ],
+									"midpoints" : [ 161.75, 392.5, 174.5, 392.5 ],
 									"source" : [ "obj-6", 3 ]
 								}
 
@@ -660,7 +660,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
-									"midpoints" : [ 195.0, 407.5, 219.5, 407.5 ],
+									"midpoints" : [ 202.5, 407.5, 219.5, 407.5 ],
 									"source" : [ "obj-6", 4 ]
 								}
 
@@ -668,7 +668,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 233.875, 422.5, 264.5, 422.5 ],
+									"midpoints" : [ 243.25, 422.5, 264.5, 422.5 ],
 									"source" : [ "obj-6", 5 ]
 								}
 
@@ -676,7 +676,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 272.75, 437.5, 309.5, 437.5 ],
+									"midpoints" : [ 284.0, 437.5, 309.5, 437.5 ],
 									"source" : [ "obj-6", 6 ]
 								}
 
@@ -684,7 +684,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 311.625, 452.5, 354.5, 452.5 ],
+									"midpoints" : [ 324.75, 452.5, 354.5, 452.5 ],
 									"source" : [ "obj-6", 7 ]
 								}
 
@@ -1593,7 +1593,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 264.0, -601.0, 966.0, 495.0 ],
+						"rect" : [ 440.0, 156.0, 966.0, 495.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1680,7 +1680,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 569.5, 120.0, 112.5, 118.0 ],
+									"patching_rect" : [ 569.5, 120.0, 116.0, 118.0 ],
 									"style" : "",
 									"text" : "j.return raw/Tz @range -243 232 @type integer @clipmode none @description \"Raw Z position from the 3D Connexion Space Navigator\" @repetitions/filter 0"
 								}
@@ -1714,7 +1714,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 315.0, 120.0, 98.5, 142.0 ],
+									"patching_rect" : [ 315.0, 120.0, 100.0, 142.0 ],
 									"style" : "",
 									"text" : "j.return raw/Ty @range -241 255 @type integer @clipmode none @description \"Raw Y position from the 3D Connexion Space Navigator\" @repetitions/filter 0"
 								}
@@ -1731,7 +1731,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 120.0, 120.0, 142.5, 106.0 ],
+									"patching_rect" : [ 120.0, 120.0, 143.0, 106.0 ],
 									"style" : "",
 									"text" : "j.return cooked/position/x @range -1. 1. @type decimal @clipmode none @description \"Cooked X position from the 3D Connexion Space Navigator\" @repetitions/filter 0"
 								}
@@ -1788,12 +1788,12 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-9",
-									"linecount" : 11,
+									"linecount" : 10,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 120.0, 100.5, 142.0 ],
+									"patching_rect" : [ 15.0, 120.0, 103.0, 130.0 ],
 									"style" : "",
 									"text" : "j.return raw/Tx @range -214 281 @type integer @clipmode none @description \"Raw X position from the 3D Connexion Space Navigator\" @repetitions/filter 0"
 								}
@@ -2124,7 +2124,25 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
