@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.0, 154.0, 26.0, 26.0 ],
-					"presentation_rect" : [ 122.0, 155.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 

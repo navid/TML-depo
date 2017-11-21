@@ -459,7 +459,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -472,7 +472,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 975.0, 135.0, 224.0, 21.0 ],
+					"patching_rect" : [ 975.0, 135.0, 216.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.matrix 4 float32 1920 1080 @interp 1"
 				}

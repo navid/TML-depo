@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 352.0, 356.0 ],
+		"rect" : [ 760.0, 350.0, 352.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -93,7 +93,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -394,7 +393,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -634,7 +633,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -678,7 +677,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1655,7 +1654,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1919,7 +1918,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2183,7 +2182,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2352,11 +2351,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 69.0, 677.0, 377.0 ],
+						"rect" : [ 112.0, 394.0, 677.0, 377.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2392,7 +2391,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 47.0, 300.0, 135.0, 19.0 ],
+									"patching_rect" : [ 47.0, 300.0, 135.0, 21.0 ],
 									"style" : "",
 									"text" : "pak aux_color 1. 1. 1. 1."
 								}
@@ -2409,7 +2408,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 163.0, 257.0, 469.0, 31.0 ],
+									"patching_rect" : [ 163.0, 257.0, 469.0, 33.0 ],
 									"style" : "",
 									"text" : "j.parameter aux_alpha @type decimal @range 0. 1. @clipmode both @ramp/drive max @description \"auxilliary alpha transparency (0.-1.).\" @default 1.",
 									"varname" : "color/alpha[1]"
@@ -2427,7 +2426,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 76.0, 220.0, 502.0, 31.0 ],
+									"patching_rect" : [ 76.0, 220.0, 502.0, 33.0 ],
 									"style" : "",
 									"text" : "j.parameter aux_color @type array @description \"The auxiliary color in the form red green blue\" @default 1. 1. 1. @dataspace color @unit rgb @range 0 1 @clipmode both",
 									"varname" : "color/rgb[1]"
@@ -2443,7 +2442,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.0, 162.0, 123.0, 19.0 ],
+									"patching_rect" : [ 34.0, 162.0, 123.0, 21.0 ],
 									"style" : "",
 									"text" : "prepend inherit_color"
 								}
@@ -2458,7 +2457,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 17.0, 90.0, 111.0, 19.0 ],
+									"patching_rect" : [ 17.0, 90.0, 111.0, 21.0 ],
 									"style" : "",
 									"text" : "pak color 1. 1. 1. 1."
 								}
@@ -2470,14 +2469,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-61",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 34.0, 120.0, 300.0, 31.0 ],
+									"patching_rect" : [ 34.0, 120.0, 542.0, 21.0 ],
 									"style" : "",
-									"text" : "j.parameter color/inherit @type boolean @description \"Inherit color properties from context.\" @default 0",
+									"text" : "j.parameter color_inherit @type boolean @description \"Inherit color properties from context.\" @default 0",
 									"varname" : "color/inherit"
 								}
 
@@ -2493,7 +2491,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 109.0, 48.0, 469.0, 31.0 ],
+									"patching_rect" : [ 109.0, 48.0, 469.0, 33.0 ],
 									"style" : "",
 									"text" : "j.parameter alpha @type decimal @range 0. 1. @clipmode both @ramp/drive max @description \"Object alpha transparency (0.-1.).\" @default 1.",
 									"varname" : "color/alpha"
@@ -2511,7 +2509,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 40.0, 11.0, 473.0, 31.0 ],
+									"patching_rect" : [ 40.0, 11.0, 473.0, 33.0 ],
 									"style" : "",
 									"text" : "j.parameter color @type array @description \"Object color as red, green, blue (0.-1.).\" @default 1. 1. 1. @dataspace color @unit rgb @range 0 1 @clipmode both",
 									"varname" : "color/rgb"
@@ -2619,7 +2617,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2836,7 +2834,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2915,7 +2913,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,

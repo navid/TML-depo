@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 161.0, -966.0, 1013.0, 908.0 ],
+		"rect" : [ 161.0, 78.0, 547.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -66,13 +66,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 420.0, 180.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.333336, 83.666664, 94.666664, 20.0 ],
+					"presentation_rect" : [ 97.333336, 83.666664, 187.666656, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "off", "CPU", "GPU" ],
+							"parameter_enum" : [ "off", "CPU", "GPU", "async" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -1009,13 +1009,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35" : [ "live.text[2]", "live.text", 0 ],
+			"obj-47" : [ "live.text[6]", "live.text", 0 ],
+			"obj-17" : [ "live.text[8]", "live.text", 0 ],
 			"obj-34" : [ "live.tab", "live.tab", 0 ],
 			"obj-12" : [ "live.text[3]", "live.text", 0 ],
-			"obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-35" : [ "live.text[2]", "live.text", 0 ],
 			"obj-29" : [ "live.text[5]", "live.text", 0 ],
-			"obj-5" : [ "live.text[7]", "live.text", 0 ],
-			"obj-47" : [ "live.text[6]", "live.text", 0 ]
+			"obj-5" : [ "live.text[7]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
