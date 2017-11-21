@@ -479,7 +479,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -907,7 +906,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 396.0, 56.0, 884.0, 703.0 ],
+						"rect" : [ 253.0, 148.0, 884.0, 703.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2290,7 +2289,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 306.0, 401.0, 79.0, 20.0 ],
-									"text" : "loadmess 50"
+									"text" : "loadmess 53"
 								}
 
 							}
