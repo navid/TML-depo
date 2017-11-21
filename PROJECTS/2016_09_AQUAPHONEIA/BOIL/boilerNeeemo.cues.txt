@@ -208,9 +208,9 @@
 /boilRog/pitch/variation 70.000000
 /boilRog/playback/direction 0
 /boilRog/playback/speed 1.000000
-/boilRog/playback/position 0.674043
+/boilRog/playback/position 0.001133
 /boilRog/selection/mode 1
-/boilRog/selection/range 0.000000 19621.043763
+/boilRog/selection/range 0.000000 19621.042969
 # 
 /boilRogBottom/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /boilRogBottom/grain/trigger/variance/gainVar/range 78.001419 78.001419
@@ -385,12 +385,12 @@
 /boilRogBottom/mapTurn/active 0.000000
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -29.000000
+/boilRogBottom/audio/gain -31.000000
 /boilRogBottom/audio/mix 100.000000
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
-/boilRogBottom/buffer/size 35329.145729
+/boilRogBottom/buffer/size 35329.144531
 /boilRogBottom/mapperGate/gain 2
 /boilRogBottom/mapperGate/onsetVar 0
 /boilRogBottom/mapperGate/pitch 2
@@ -418,9 +418,9 @@
 /boilRogBottom/pitch/variation 0.000000
 /boilRogBottom/playback/direction 2
 /boilRogBottom/playback/speed 1.000000
-/boilRogBottom/playback/position 0.001888
+/boilRogBottom/playback/position 0.000642
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 35329.139544
+/boilRogBottom/selection/range 0.000000 35329.140625
 # 
 /coneSteamer/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /coneSteamer/grain/trigger/variance/gainVar/range 0.000000
@@ -842,7 +842,7 @@
 /sqrtRogs/selection/mode 0
 /sqrtRogs/selection/range 0.000000 6004.603516
 # 
-/conMic/autoscale/input/max 0.008000
+/conMic/autoscale/input/max 0.010000
 /conMic/autoscale/input/min 0.000000
 /conMic/autoscale/output/max 1.000000
 /conMic/autoscale/output/min 0.000000
@@ -857,14 +857,15 @@
 /conMic/filter/gain 1.000000
 /conMic/filter/q 1.000000
 /conMic/filter/type 2
-/conMic/floatslide/down 70.000000
+/conMic/floatslide/down 61.000000
 /conMic/floatslide/up 0.000000
 /conMic/pre-slide/down 60.000000
 /conMic/pre-slide/up 0.000000
 /conMic/ramp/down 30.000000
 /conMic/ramp/up 0.000000
+/conMic/snapshot/rate 30
 /conMic/mute 0
-/conMic/offset -0.001000
+/conMic/offset -0.000100
 /conMic/pre-lpcutoff 975.000000
 # 
 /dropEvn/autoscale/input/max 0.002500
@@ -888,6 +889,7 @@
 /dropEvn/pre-slide/up 1.000000
 /dropEvn/ramp/down 0.000000
 /dropEvn/ramp/up 0.000000
+/dropEvn/snapshot/rate 0.000000
 /dropEvn/mute 0
 /dropEvn/offset 0.000000
 /dropEvn/pre-lpcutoff 950.000000
@@ -921,8 +923,8 @@
 /randShift/rate/max 4281
 /randShift/rate/min 2000
 /randShift/interpolate 4502
-/randShift/max 80.000000
-/randShift/min -193.000000
+/randShift/max 90.000000
+/randShift/min -200.000000
 /randShift/on 1
 /randShift/step 1.000000
 # 

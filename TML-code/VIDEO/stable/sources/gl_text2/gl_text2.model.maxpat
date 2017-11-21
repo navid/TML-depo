@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, -492.0, 913.0, 489.0 ],
+		"rect" : [ 376.0, 357.0, 913.0, 489.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 180.0, 69.0, 21.0 ],
+					"patching_rect" : [ 600.0, 180.0, 69.0, 21.0 ],
 					"style" : "",
 					"text" : "anim_reset"
 				}
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 540.0, 120.0, 105.0, 33.0 ],
+					"patching_rect" : [ 600.0, 120.0, 105.0, 33.0 ],
 					"style" : "",
 					"text" : "j.remote drive/anim_reset",
 					"varname" : "face[7]"
@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 180.0, 75.0, 21.0 ],
+					"patching_rect" : [ 510.0, 180.0, 75.0, 21.0 ],
 					"style" : "",
 					"text" : "getstate"
 				}
@@ -1039,7 +1039,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 510.0, 75.0, 123.0, 21.0 ],
+					"patching_rect" : [ 570.0, 75.0, 123.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1062,7 +1062,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 30.0, 27.0, 27.0 ],
+					"patching_rect" : [ 510.0, 30.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 
@@ -1076,7 +1076,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 75.0, 37.0, 21.0 ],
+					"patching_rect" : [ 510.0, 75.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 2"
 				}
@@ -1089,7 +1089,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 120.0, 78.0, 21.0 ],
+					"patching_rect" : [ 510.0, 120.0, 78.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.anim.drive"
 				}
@@ -1230,9 +1230,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 75.0, 154.0, 26.0 ],
+					"patching_rect" : [ 270.0, 75.0, 203.0, 26.0 ],
 					"style" : "",
-					"text" : "j.gl_group.model GL"
+					"text" : "j.gl_group_string.model GL"
 				}
 
 			}
@@ -2378,7 +2378,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.0, 45.0, 122.0, 33.0 ],
+					"patching_rect" : [ 735.0, 45.0, 122.0, 33.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Write bitmap text.\"",
 					"varname" : "jmod.hub"
@@ -2393,7 +2393,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 90.0, 25.0, 25.0 ],
+					"patching_rect" : [ 735.0, 90.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -2475,7 +2475,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 549.5, 227.5, 39.5, 227.5 ],
+					"midpoints" : [ 609.5, 227.5, 39.5, 227.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2505,7 +2505,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 459.5, 152.5, 39.5, 152.5 ],
+					"midpoints" : [ 519.5, 152.5, 39.5, 152.5 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -2544,7 +2544,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 459.5, 225.0, 39.5, 225.0 ],
+					"midpoints" : [ 519.5, 225.0, 39.5, 225.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -2580,7 +2580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 459.5, 80.5, 459.5, 80.5 ],
+					"midpoints" : [ 519.5, 80.5, 519.5, 80.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2638,7 +2638,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 519.5, 107.5, 459.5, 107.5 ],
+					"midpoints" : [ 579.5, 107.5, 519.5, 107.5 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
