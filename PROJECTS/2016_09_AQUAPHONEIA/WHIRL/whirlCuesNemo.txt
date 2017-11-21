@@ -2556,7 +2556,7 @@
  # 
  # Module /rogsOut 
  	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 92.846970 
+ 	 	 	 	 /rogsOut/audio/gain 89.027657 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 0 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2592,7 +2592,7 @@
  	 	 	 	 /sine2-gain/scale/input/max 1.000000 
  	 	 	 	 /sine2-gain/scale/input/min 0.000000 
  	 	 	 	 /sine2-gain/scale/max 99.000000 
- 	 	 	 	 /sine2-gain/scale/min 30.000000 
+ 	 	 	 	 /sine2-gain/scale/min 33.000000 
  	 	 	 	 /sine2-gain/scale/mode 4 
  	 	 	 	 /sine2-gain/slide/down 2 
  	 	 	 	 /sine2-gain/slide/up 0 
@@ -2623,9 +2623,10 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 97.604675 
+ 	 	 	 	 /sine~2/alias /sine~2/alias/remove 
+ 	 	 	 	 /sine~2/audio/gain 90.957664 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 25.989323 
+ 	 	 	 	 /sine~2/frequency 32.537907 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2647,8 +2648,8 @@
  	 	 	 	 /sine2/scale/bypass 0 
  	 	 	 	 /sine2/scale/input/max 1.000000 
  	 	 	 	 /sine2/scale/input/min 0.000000 
- 	 	 	 	 /sine2/scale/max 23.000000 
- 	 	 	 	 /sine2/scale/min 47.000000 
+ 	 	 	 	 /sine2/scale/max 30.000000 
+ 	 	 	 	 /sine2/scale/min 49.000000 
  	 	 	 	 /sine2/scale/mode 4 
  	 	 	 	 /sine2/slide/down 61 
  	 	 	 	 /sine2/slide/up 0 
@@ -2680,7 +2681,7 @@
  # 
  # Module /sineOut 
  	 	 	 	 /sineOut/audio/active 1 
- 	 	 	 	 /sineOut/audio/gain 96.487015 
+ 	 	 	 	 /sineOut/audio/gain 94.837662 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2700,16 +2701,16 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 98.955566 
+ 	 	 	 	 /sine~1/audio/gain 91.529037 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 30.000000 
+ 	 	 	 	 /sine~1/frequency 109.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
  	 	 	 	 /mdlysOut/audio/active 1 
- 	 	 	 	 /mdlysOut/audio/gain 67.623383 
+ 	 	 	 	 /mdlysOut/audio/gain 58.551949 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
@@ -3250,7 +3251,6 @@
  	 	 	 	 /height/visualize 1 
  # 
  # Module /width 
- 	 	 	 	 /width/alias /width/alias/remove 
  	 	 	 	 /width/function 0 
  	 	 	 	 /width/function/symmetry 0 
  	 	 	 	 /width/function/parameter2 0.000000 
