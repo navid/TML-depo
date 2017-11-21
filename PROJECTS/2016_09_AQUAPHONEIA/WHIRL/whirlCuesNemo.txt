@@ -1809,7 +1809,7 @@
  	 	 	 	 /whirlpooler2/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler2/audio/gain 53.000000 
+ 	 	 	 	 /whirlpooler2/audio/gain 60.000000 
  	 	 	 	 /whirlpooler2/audio/mute 0 
  	 	 	 	 /whirlpooler2/buffer/append 1 
  	 	 	 	 /whirlpooler2/buffer/rec 0 
@@ -1857,7 +1857,7 @@
  	 	 	 	 /whirlpooler2/mod/speed 0.250000 
  	 	 	 	 /whirlpooler2/mod/spread 0.310000 
  	 	 	 	 /whirlpooler2/mod/trigger 0.000000 
- 	 	 	 	 /whirlpooler2/mod/turn 1.000000 
+ 	 	 	 	 /whirlpooler2/mod/turn -0.500000 
  	 	 	 	 /whirlpooler2/onsetVar/in/module/listindex 1 
  	 	 	 	 /whirlpooler2/onsetVar/mute 0 
  	 	 	 	 /whirlpooler2/onsetVar/offset 0.000000 
@@ -1899,7 +1899,7 @@
  	 	 	 	 /whirlpooler2/pitch/slide/up 0 
  	 	 	 	 /whirlpooler2/pitch/transpose 0.000000 
  	 	 	 	 /whirlpooler2/pitch/variation 0.700000 
- 	 	 	 	 /whirlpooler2/playback/position 0.000000 
+ 	 	 	 	 /whirlpooler2/playback/position 0.473896 
  	 	 	 	 /whirlpooler2/position/in/module/listindex 1 
  	 	 	 	 /whirlpooler2/position/mute 0 
  	 	 	 	 /whirlpooler2/position/offset 0.000000 
@@ -1913,7 +1913,7 @@
  	 	 	 	 /whirlpooler2/position/slide/down 0 
  	 	 	 	 /whirlpooler2/position/slide/up 0 
  	 	 	 	 /whirlpooler2/selection/mode 0 
- 	 	 	 	 /whirlpooler2/selection/range 0.000000 14576.395508 
+ 	 	 	 	 /whirlpooler2/selection/range 0.000000 15012.145508 
  	 	 	 	 /whirlpooler2/size/in/module/listindex 1 
  	 	 	 	 /whirlpooler2/size/mute 0 
  	 	 	 	 /whirlpooler2/size/offset 0.000000 
@@ -2051,7 +2051,7 @@
  	 	 	 	 /terrRogs/spread/in/module/parameter 0 
  	 	 	 	 /terrRogs/trig/in/module/parameter 0 
  	 	 	 	 /terrRogs/turn/in/module/parameter 0 
- 	 	 	 	 /terrRogs/audio/gain 0.000000 
+ 	 	 	 	 /terrRogs/audio/gain 5.000000 
  	 	 	 	 /terrRogs/audio/mute 0 
  	 	 	 	 /terrRogs/buffer/append 1 
  	 	 	 	 /terrRogs/buffer/rec 0 
@@ -2090,7 +2090,7 @@
  	 	 	 	 /terrRogs/mapperGate/spread 0 
  	 	 	 	 /terrRogs/mapperGate/trigger 1 
  	 	 	 	 /terrRogs/mapperGate/turn 0 
- 	 	 	 	 /terrRogs/mod/gain 90.000000 
+ 	 	 	 	 /terrRogs/mod/gain 95.000000 
  	 	 	 	 /terrRogs/mod/onsetVar 0.000000 
  	 	 	 	 /terrRogs/mod/pitch -1018.000000 
  	 	 	 	 /terrRogs/mod/pitchVar 845.000000 
@@ -2222,7 +2222,7 @@
  # 
  # Module /rogsOutT 
  	 	 	 	 /rogsOutT/audio/active 1 
- 	 	 	 	 /rogsOutT/audio/gain 77.000000 
+ 	 	 	 	 /rogsOutT/audio/gain 85.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
  	 	 	 	 /rogsOutT/limiter/dcblocker/active 1 
@@ -2341,12 +2341,12 @@
  	 	 	 	 /whirlpooler/pVar/function/symmetry 0 
  	 	 	 	 /whirlpooler/pitch/function 0 
  	 	 	 	 /whirlpooler/pitch/function/symmetry 0 
- 	 	 	 	 /whirlpooler/playback/direction 0 
+ 	 	 	 	 /whirlpooler/playback/direction 2 
  	 	 	 	 /whirlpooler/position/function 0 
  	 	 	 	 /whirlpooler/position/function/symmetry 0 
  	 	 	 	 /whirlpooler/size/function 0 
  	 	 	 	 /whirlpooler/size/function/symmetry 0 
- 	 	 	 	 /whirlpooler/speed/function 0 
+ 	 	 	 	 /whirlpooler/speed/function exponential 
  	 	 	 	 /whirlpooler/speed/function/symmetry 0 
  	 	 	 	 /whirlpooler/spread/function 0 
  	 	 	 	 /whirlpooler/spread/function/symmetry 0 
@@ -2371,7 +2371,7 @@
  	 	 	 	 /whirlpooler/pitch/function/parameter1 0.000000 
  	 	 	 	 /whirlpooler/position/function/parameter1 0.000000 
  	 	 	 	 /whirlpooler/size/function/parameter1 0.000000 
- 	 	 	 	 /whirlpooler/speed/function/parameter1 0.000000 
+ 	 	 	 	 /whirlpooler/speed/function/parameter1 -0.950000 
  	 	 	 	 /whirlpooler/spread/function/parameter1 0.000000 
  	 	 	 	 /whirlpooler/trig/function/parameter1 0.000000 
  	 	 	 	 /whirlpooler/turn/function/parameter1 0.000000 
@@ -2385,16 +2385,16 @@
  	 	 	 	 /whirlpooler/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler/audio/gain 46.000000 
+ 	 	 	 	 /whirlpooler/audio/gain 33.000000 
  	 	 	 	 /whirlpooler/audio/mute 0 
  	 	 	 	 /whirlpooler/buffer/append 1 
  	 	 	 	 /whirlpooler/buffer/rec 0 
  	 	 	 	 /whirlpooler/buffer/size 15012.144531 
- 	 	 	 	 /whirlpooler/grain/duration 180.000000 
+ 	 	 	 	 /whirlpooler/grain/duration 400.000000 
  	 	 	 	 /whirlpooler/grain/in/module/listindex 1 
  	 	 	 	 /whirlpooler/grain/mute 1 
  	 	 	 	 /whirlpooler/grain/offset 0.000000 
- 	 	 	 	 /whirlpooler/grain/onsetVar 1000.000000 
+ 	 	 	 	 /whirlpooler/grain/onsetVar 400.000000 
  	 	 	 	 /whirlpooler/grain/overlap 100 
  	 	 	 	 /whirlpooler/grain/ramp/time 0 
  	 	 	 	 /whirlpooler/grain/scale/bypass 1 
@@ -2415,7 +2415,7 @@
  	 	 	 	 /whirlpooler/grain/trigger/variance/rateVar/randomnessRate 0.678949 
  	 	 	 	 /whirlpooler/grain/trigger/variance/rateVar/spread 11.556263 
  	 	 	 	 /whirlpooler/mapperGate/gain 0 
- 	 	 	 	 /whirlpooler/mapperGate/onsetVar 2 
+ 	 	 	 	 /whirlpooler/mapperGate/onsetVar 0 
  	 	 	 	 /whirlpooler/mapperGate/pitch 0 
  	 	 	 	 /whirlpooler/mapperGate/pitchVar 0 
  	 	 	 	 /whirlpooler/mapperGate/position 0 
@@ -2424,16 +2424,16 @@
  	 	 	 	 /whirlpooler/mapperGate/spread 0 
  	 	 	 	 /whirlpooler/mapperGate/trigger 2 
  	 	 	 	 /whirlpooler/mapperGate/turn 2 
- 	 	 	 	 /whirlpooler/mod/gain 32.000000 
- 	 	 	 	 /whirlpooler/mod/onsetVar -1900.000000 
+ 	 	 	 	 /whirlpooler/mod/gain 40.000000 
+ 	 	 	 	 /whirlpooler/mod/onsetVar 0.000000 
  	 	 	 	 /whirlpooler/mod/pitch -2000.000000 
  	 	 	 	 /whirlpooler/mod/pitchVar 0.000000 
  	 	 	 	 /whirlpooler/mod/position 0.000000 
- 	 	 	 	 /whirlpooler/mod/size -179.000000 
- 	 	 	 	 /whirlpooler/mod/speed 0.500000 
+ 	 	 	 	 /whirlpooler/mod/size -404.000000 
+ 	 	 	 	 /whirlpooler/mod/speed 2.000000 
  	 	 	 	 /whirlpooler/mod/spread 0.000000 
  	 	 	 	 /whirlpooler/mod/trigger -88.000000 
- 	 	 	 	 /whirlpooler/mod/turn 0.380000 
+ 	 	 	 	 /whirlpooler/mod/turn -0.330000 
  	 	 	 	 /whirlpooler/onsetVar/in/module/listindex 1 
  	 	 	 	 /whirlpooler/onsetVar/mute 0 
  	 	 	 	 /whirlpooler/onsetVar/offset 0.000000 
@@ -2459,8 +2459,8 @@
  	 	 	 	 /whirlpooler/pVar/slide/down 0 
  	 	 	 	 /whirlpooler/pVar/slide/up 0 
  	 	 	 	 /whirlpooler/pan/mode 0 
- 	 	 	 	 /whirlpooler/pan/rate 0.500000 
- 	 	 	 	 /whirlpooler/pan/spread 0.150000 
+ 	 	 	 	 /whirlpooler/pan/rate -0.090000 
+ 	 	 	 	 /whirlpooler/pan/spread 0.080000 
  	 	 	 	 /whirlpooler/pitch/in/module/listindex 1 
  	 	 	 	 /whirlpooler/pitch/mute 0 
  	 	 	 	 /whirlpooler/pitch/offset 0.000000 
@@ -2473,7 +2473,7 @@
  	 	 	 	 /whirlpooler/pitch/scale/mode 0 
  	 	 	 	 /whirlpooler/pitch/slide/down 0 
  	 	 	 	 /whirlpooler/pitch/slide/up 0 
- 	 	 	 	 /whirlpooler/pitch/transpose 1200.000000 
+ 	 	 	 	 /whirlpooler/pitch/transpose 700.000000 
  	 	 	 	 /whirlpooler/pitch/variation 0.000000 
  	 	 	 	 /whirlpooler/playback/position 0.000000 
  	 	 	 	 /whirlpooler/position/in/module/listindex 1 
@@ -2506,7 +2506,7 @@
  	 	 	 	 /whirlpooler/speed/mute 1 
  	 	 	 	 /whirlpooler/speed/offset 0.000000 
  	 	 	 	 /whirlpooler/speed/ramp/time 0 
- 	 	 	 	 /whirlpooler/speed/scale/bypass 1 
+ 	 	 	 	 /whirlpooler/speed/scale/bypass 0 
  	 	 	 	 /whirlpooler/speed/scale/input/max 1.000000 
  	 	 	 	 /whirlpooler/speed/scale/input/min 0.000000 
  	 	 	 	 /whirlpooler/speed/scale/max 1.000000 
@@ -2556,7 +2556,7 @@
  # 
  # Module /rogsOut 
  	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 81.603058 
+ 	 	 	 	 /rogsOut/audio/gain 38.973465 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 0 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2575,7 +2575,6 @@
  	 	 	 	 /rogsOut/view/highlight 0 
  # 
  # Module /sine2-gain 
- 	 	 	 	 /sine2-gain/alias /sine2-gain/alias/remove 
  	 	 	 	 /sine2-gain/in/module/name /height 
  	 	 	 	 /sine2-gain/in/module/instance 0 
  	 	 	 	 /sine2-gain/function linear 
@@ -2588,14 +2587,14 @@
  	 	 	 	 /sine2-gain/in/module/listindex 1 
  	 	 	 	 /sine2-gain/mute 1 
  	 	 	 	 /sine2-gain/offset 0.000000 
- 	 	 	 	 /sine2-gain/ramp/time 10 
+ 	 	 	 	 /sine2-gain/ramp/time 150 
  	 	 	 	 /sine2-gain/scale/bypass 0 
  	 	 	 	 /sine2-gain/scale/input/max 1.000000 
  	 	 	 	 /sine2-gain/scale/input/min 0.000000 
- 	 	 	 	 /sine2-gain/scale/max 92.000000 
- 	 	 	 	 /sine2-gain/scale/min 30.000000 
+ 	 	 	 	 /sine2-gain/scale/max 99.000000 
+ 	 	 	 	 /sine2-gain/scale/min 33.000000 
  	 	 	 	 /sine2-gain/scale/mode 4 
- 	 	 	 	 /sine2-gain/slide/down 57 
+ 	 	 	 	 /sine2-gain/slide/down 2 
  	 	 	 	 /sine2-gain/slide/up 0 
  	 	 	 	 /sine2-gain/view/freeze 0 
  # 
@@ -2616,7 +2615,7 @@
  	 	 	 	 /sine1-2/scale/bypass 0 
  	 	 	 	 /sine1-2/scale/input/max 1.000000 
  	 	 	 	 /sine1-2/scale/input/min 0.000000 
- 	 	 	 	 /sine1-2/scale/max 95.000000 
+ 	 	 	 	 /sine1-2/scale/max 100.000000 
  	 	 	 	 /sine1-2/scale/min 30.000000 
  	 	 	 	 /sine1-2/scale/mode 4 
  	 	 	 	 /sine1-2/slide/down 1 
@@ -2624,9 +2623,9 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 79.729523 
+ 	 	 	 	 /sine~2/audio/gain 34.701729 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 25.181747 
+ 	 	 	 	 /sine~2/frequency 42.877300 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2648,11 +2647,11 @@
  	 	 	 	 /sine2/scale/bypass 0 
  	 	 	 	 /sine2/scale/input/max 1.000000 
  	 	 	 	 /sine2/scale/input/min 0.000000 
- 	 	 	 	 /sine2/scale/max 20.000000 
- 	 	 	 	 /sine2/scale/min 40.000000 
+ 	 	 	 	 /sine2/scale/max 30.000000 
+ 	 	 	 	 /sine2/scale/min 43.000000 
  	 	 	 	 /sine2/scale/mode 4 
- 	 	 	 	 /sine2/slide/down 55 
- 	 	 	 	 /sine2/slide/up 5 
+ 	 	 	 	 /sine2/slide/down 61 
+ 	 	 	 	 /sine2/slide/up 0 
  	 	 	 	 /sine2/view/freeze 0 
  # 
  # Module /sine1 
@@ -2672,7 +2671,7 @@
  	 	 	 	 /sine1/scale/bypass 0 
  	 	 	 	 /sine1/scale/input/max 1.000000 
  	 	 	 	 /sine1/scale/input/min 0.000000 
- 	 	 	 	 /sine1/scale/max 21.000000 
+ 	 	 	 	 /sine1/scale/max 19.000000 
  	 	 	 	 /sine1/scale/min 1175.000000 
  	 	 	 	 /sine1/scale/mode 4 
  	 	 	 	 /sine1/slide/down 0 
@@ -2681,7 +2680,7 @@
  # 
  # Module /sineOut 
  	 	 	 	 /sineOut/audio/active 1 
- 	 	 	 	 /sineOut/audio/gain 91.538956 
+ 	 	 	 	 /sineOut/audio/gain 93.188316 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2701,16 +2700,16 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 78.288109 
+ 	 	 	 	 /sine~1/audio/gain 31.095406 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 231.000000 
+ 	 	 	 	 /sine~1/frequency 1131.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
  	 	 	 	 /mdlysOut/audio/active 1 
- 	 	 	 	 /mdlysOut/audio/gain 0.000000 
+ 	 	 	 	 /mdlysOut/audio/gain 65.149353 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
@@ -2736,19 +2735,19 @@
  	 	 	 	 /mdlys~/pitch/midi 21 
  	 	 	 	 /mdlys~/pitch/ramp 0 
  	 	 	 	 /mdlys~/pitch/transp 0 
- 	 	 	 	 /mdlys~/audio/gain 87.000000 
+ 	 	 	 	 /mdlys~/audio/gain 90.000000 
  	 	 	 	 /mdlys~/audio/input/gain 127 
  	 	 	 	 /mdlys~/audio/mute 0 
  	 	 	 	 /mdlys~/audio/preview 0 
- 	 	 	 	 /mdlys~/brightness 51.181110 
- 	 	 	 	 /mdlys~/damping 47.244133 
+ 	 	 	 	 /mdlys~/brightness 41.732304 
+ 	 	 	 	 /mdlys~/damping 45.669331 
  	 	 	 	 /mdlys~/excite/active 0 
  	 	 	 	 /mdlys~/excite/rate 4000 
  	 	 	 	 /mdlys~/excite/smooth 1000 
- 	 	 	 	 /mdlys~/excite/x1 40 
- 	 	 	 	 /mdlys~/excite/y1 54 
+ 	 	 	 	 /mdlys~/excite/x1 36 
+ 	 	 	 	 /mdlys~/excite/y1 75 
  	 	 	 	 /mdlys~/inharm 0.000000 
- 	 	 	 	 /mdlys~/modes 119 
+ 	 	 	 	 /mdlys~/modes 123 
  	 	 	 	 /mdlys~/pickup/active 0 
  	 	 	 	 /mdlys~/pickup/rate 4000 
  	 	 	 	 /mdlys~/pickup/smooth 1000 
@@ -2764,7 +2763,6 @@
  	 	 	 	 /mdlys~/view/highlight none 
  # 
  # Module /spatOut 
- 	 	 	 	 /spatOut/alias /spatOut/alias/remove 
  	 	 	 	 /spatOut/audio/active 1 
  	 	 	 	 /spatOut/audio/gain 127.000000 
  	 	 	 	 /spatOut/audio/mute 0 
@@ -2803,12 +2801,12 @@
  	 	 	 	 /nav.motion%/noise/range 1 
  	 	 	 	 /nav.motion%/noise/ring 0.800000 
  	 	 	 	 /nav.motion%/noise/ripple 0.500000 
- 	 	 	 	 /nav.motion%/slide/down 1.000000 
+ 	 	 	 	 /nav.motion%/slide/down 0.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 8.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 5.000000 
  	 	 	 	 /nav.motion%/threshold/mode 1 
- 	 	 	 	 /nav.motion%/threshold/radius 29 
- 	 	 	 	 /nav.motion%/trails 1 
+ 	 	 	 	 /nav.motion%/threshold/radius 35 
+ 	 	 	 	 /nav.motion%/trails 0 
  	 	 	 	 /nav.motion%/video/bypass 0 
  	 	 	 	 /nav.motion%/video/freeze 0 
  	 	 	 	 /nav.motion%/video/mute 0 
@@ -3113,10 +3111,10 @@
  	 	 	 	 /mask1/video/mute 0 
  	 	 	 	 /mask1/view/freeze 0 
  	 	 	 	 /mask1/view/highlight 0 
- 	 	 	 	 /mask1/xmax 0.940000 
- 	 	 	 	 /mask1/xmin 0.000000 
- 	 	 	 	 /mask1/ymax 0.840000 
- 	 	 	 	 /mask1/ymin 0.123000 
+ 	 	 	 	 /mask1/xmax 0.930000 
+ 	 	 	 	 /mask1/xmin 0.070000 
+ 	 	 	 	 /mask1/ymax 0.720000 
+ 	 	 	 	 /mask1/ymin 0.153000 
  # 
  # Module /area 
  	 	 	 	 /area/function 0 
@@ -3152,7 +3150,6 @@
  	 	 	 	 /area/visualize 0 
  # 
  # Module /centerX 
- 	 	 	 	 /centerX/alias /centerX/alias/remove 
  	 	 	 	 /centerX/function 0 
  	 	 	 	 /centerX/function/symmetry 0 
  	 	 	 	 /centerX/function/parameter2 0.000000 
@@ -3227,9 +3224,9 @@
  	 	 	 	 /height/clip 1 
  	 	 	 	 /height/diffMode 0 
  	 	 	 	 /height/filter/mode 0 
- 	 	 	 	 /height/filter/samples 6 
+ 	 	 	 	 /height/filter/samples 5 
  	 	 	 	 /height/mute 0 
- 	 	 	 	 /height/offset -0.009000 
+ 	 	 	 	 /height/offset -0.008000 
  	 	 	 	 /height/pre-slide/down 0 
  	 	 	 	 /height/pre-slide/up 0 
  	 	 	 	 /height/ramp/grain 10 
@@ -3252,7 +3249,6 @@
  	 	 	 	 /height/visualize 1 
  # 
  # Module /width 
- 	 	 	 	 /width/alias /width/alias/remove 
  	 	 	 	 /width/function 0 
  	 	 	 	 /width/function/symmetry 0 
  	 	 	 	 /width/function/parameter2 0.000000 
@@ -3286,7 +3282,6 @@
  	 	 	 	 /width/visualize 0 
  # 
  # Module /small 
- 	 	 	 	 /small/alias /small/alias/remove 
  	 	 	 	 /small/function 0 
  	 	 	 	 /small/function/symmetry 0 
  	 	 	 	 /small/function/parameter2 0.000000 
