@@ -1809,7 +1809,7 @@
  	 	 	 	 /whirlpooler2/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler2/audio/gain 60.000000 
+ 	 	 	 	 /whirlpooler2/audio/gain 63.000000 
  	 	 	 	 /whirlpooler2/audio/mute 0 
  	 	 	 	 /whirlpooler2/buffer/append 1 
  	 	 	 	 /whirlpooler2/buffer/rec 0 
@@ -2222,7 +2222,7 @@
  # 
  # Module /rogsOutT 
  	 	 	 	 /rogsOutT/audio/active 1 
- 	 	 	 	 /rogsOutT/audio/gain 85.000000 
+ 	 	 	 	 /rogsOutT/audio/gain 88.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
  	 	 	 	 /rogsOutT/limiter/dcblocker/active 1 
@@ -2385,7 +2385,7 @@
  	 	 	 	 /whirlpooler/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler/audio/gain 33.000000 
+ 	 	 	 	 /whirlpooler/audio/gain 39.000000 
  	 	 	 	 /whirlpooler/audio/mute 0 
  	 	 	 	 /whirlpooler/buffer/append 1 
  	 	 	 	 /whirlpooler/buffer/rec 0 
@@ -2556,7 +2556,7 @@
  # 
  # Module /rogsOut 
  	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 38.973465 
+ 	 	 	 	 /rogsOut/audio/gain 64.565247 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 0 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2592,7 +2592,7 @@
  	 	 	 	 /sine2-gain/scale/input/max 1.000000 
  	 	 	 	 /sine2-gain/scale/input/min 0.000000 
  	 	 	 	 /sine2-gain/scale/max 99.000000 
- 	 	 	 	 /sine2-gain/scale/min 33.000000 
+ 	 	 	 	 /sine2-gain/scale/min 35.000000 
  	 	 	 	 /sine2-gain/scale/mode 4 
  	 	 	 	 /sine2-gain/slide/down 2 
  	 	 	 	 /sine2-gain/slide/up 0 
@@ -2623,9 +2623,9 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/audio/gain 34.701729 
+ 	 	 	 	 /sine~2/audio/gain 78.289253 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 42.877300 
+ 	 	 	 	 /sine~2/frequency 40.572727 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2648,7 +2648,7 @@
  	 	 	 	 /sine2/scale/input/max 1.000000 
  	 	 	 	 /sine2/scale/input/min 0.000000 
  	 	 	 	 /sine2/scale/max 30.000000 
- 	 	 	 	 /sine2/scale/min 43.000000 
+ 	 	 	 	 /sine2/scale/min 44.000000 
  	 	 	 	 /sine2/scale/mode 4 
  	 	 	 	 /sine2/slide/down 61 
  	 	 	 	 /sine2/slide/up 0 
@@ -2680,7 +2680,7 @@
  # 
  # Module /sineOut 
  	 	 	 	 /sineOut/audio/active 1 
- 	 	 	 	 /sineOut/audio/gain 93.188316 
+ 	 	 	 	 /sineOut/audio/gain 95.662338 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2700,16 +2700,16 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 31.095406 
+ 	 	 	 	 /sine~1/audio/gain 89.940002 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 1131.000000 
+ 	 	 	 	 /sine~1/frequency 156.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
  	 	 	 	 /mdlysOut/audio/active 1 
- 	 	 	 	 /mdlysOut/audio/gain 65.149353 
+ 	 	 	 	 /mdlysOut/audio/gain 67.623383 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
