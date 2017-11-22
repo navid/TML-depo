@@ -1809,7 +1809,7 @@
  	 	 	 	 /whirlpooler2/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler2/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler2/audio/gain 63.000000 
+ 	 	 	 	 /whirlpooler2/audio/gain 64.000000 
  	 	 	 	 /whirlpooler2/audio/mute 0 
  	 	 	 	 /whirlpooler2/buffer/append 1 
  	 	 	 	 /whirlpooler2/buffer/rec 0 
@@ -2222,7 +2222,7 @@
  # 
  # Module /rogsOutT 
  	 	 	 	 /rogsOutT/audio/active 1 
- 	 	 	 	 /rogsOutT/audio/gain 88.000000 
+ 	 	 	 	 /rogsOutT/audio/gain 89.000000 
  	 	 	 	 /rogsOutT/audio/mute 0 
  	 	 	 	 /rogsOutT/limiter/active 1 
  	 	 	 	 /rogsOutT/limiter/dcblocker/active 1 
@@ -2385,7 +2385,7 @@
  	 	 	 	 /whirlpooler/spread/in/module/parameter 0 
  	 	 	 	 /whirlpooler/trig/in/module/parameter 0 
  	 	 	 	 /whirlpooler/turn/in/module/parameter 0 
- 	 	 	 	 /whirlpooler/audio/gain 41.000000 
+ 	 	 	 	 /whirlpooler/audio/gain 48.000000 
  	 	 	 	 /whirlpooler/audio/mute 0 
  	 	 	 	 /whirlpooler/buffer/append 1 
  	 	 	 	 /whirlpooler/buffer/rec 0 
@@ -2556,7 +2556,7 @@
  # 
  # Module /rogsOut 
  	 	 	 	 /rogsOut/audio/active 1 
- 	 	 	 	 /rogsOut/audio/gain 89.027657 
+ 	 	 	 	 /rogsOut/audio/gain 86.120415 
  	 	 	 	 /rogsOut/audio/mute 0 
  	 	 	 	 /rogsOut/limiter/active 0 
  	 	 	 	 /rogsOut/limiter/dcblocker/active 1 
@@ -2587,15 +2587,15 @@
  	 	 	 	 /sine2-gain/in/module/listindex 1 
  	 	 	 	 /sine2-gain/mute 1 
  	 	 	 	 /sine2-gain/offset 0.000000 
- 	 	 	 	 /sine2-gain/ramp/time 150 
+ 	 	 	 	 /sine2-gain/ramp/time 55 
  	 	 	 	 /sine2-gain/scale/bypass 0 
  	 	 	 	 /sine2-gain/scale/input/max 1.000000 
  	 	 	 	 /sine2-gain/scale/input/min 0.000000 
- 	 	 	 	 /sine2-gain/scale/max 99.000000 
- 	 	 	 	 /sine2-gain/scale/min 33.000000 
+ 	 	 	 	 /sine2-gain/scale/max 88.000000 
+ 	 	 	 	 /sine2-gain/scale/min 0.000000 
  	 	 	 	 /sine2-gain/scale/mode 4 
- 	 	 	 	 /sine2-gain/slide/down 2 
- 	 	 	 	 /sine2-gain/slide/up 0 
+ 	 	 	 	 /sine2-gain/slide/down 0 
+ 	 	 	 	 /sine2-gain/slide/up 1 
  	 	 	 	 /sine2-gain/view/freeze 0 
  # 
  # Module /sine1-2 
@@ -2623,10 +2623,9 @@
  	 	 	 	 /sine1-2/view/freeze 0 
  # 
  # Module /sine~2 
- 	 	 	 	 /sine~2/alias /sine~2/alias/remove 
- 	 	 	 	 /sine~2/audio/gain 90.957664 
+ 	 	 	 	 /sine~2/audio/gain 53.753990 
  	 	 	 	 /sine~2/audio/mute 0 
- 	 	 	 	 /sine~2/frequency 32.537907 
+ 	 	 	 	 /sine~2/frequency 47.881195 
  	 	 	 	 /sine~2/mode sine 
  	 	 	 	 /sine~2/view/freeze 0 
  	 	 	 	 /sine~2/view/highlight 0 
@@ -2648,11 +2647,11 @@
  	 	 	 	 /sine2/scale/bypass 0 
  	 	 	 	 /sine2/scale/input/max 1.000000 
  	 	 	 	 /sine2/scale/input/min 0.000000 
- 	 	 	 	 /sine2/scale/max 30.000000 
- 	 	 	 	 /sine2/scale/min 49.000000 
+ 	 	 	 	 /sine2/scale/max 40.000000 
+ 	 	 	 	 /sine2/scale/min 60.000000 
  	 	 	 	 /sine2/scale/mode 4 
- 	 	 	 	 /sine2/slide/down 61 
- 	 	 	 	 /sine2/slide/up 0 
+ 	 	 	 	 /sine2/slide/down 10 
+ 	 	 	 	 /sine2/slide/up 2 
  	 	 	 	 /sine2/view/freeze 0 
  # 
  # Module /sine1 
@@ -2672,7 +2671,7 @@
  	 	 	 	 /sine1/scale/bypass 0 
  	 	 	 	 /sine1/scale/input/max 1.000000 
  	 	 	 	 /sine1/scale/input/min 0.000000 
- 	 	 	 	 /sine1/scale/max 19.000000 
+ 	 	 	 	 /sine1/scale/max 20.000000 
  	 	 	 	 /sine1/scale/min 1175.000000 
  	 	 	 	 /sine1/scale/mode 4 
  	 	 	 	 /sine1/slide/down 0 
@@ -2681,7 +2680,7 @@
  # 
  # Module /sineOut 
  	 	 	 	 /sineOut/audio/active 1 
- 	 	 	 	 /sineOut/audio/gain 94.837662 
+ 	 	 	 	 /sineOut/audio/gain 90.714287 
  	 	 	 	 /sineOut/balance 0.000000 
  	 	 	 	 /sineOut/ch.1 6 
  	 	 	 	 /sineOut/ch.2 6 
@@ -2701,16 +2700,16 @@
  	 	 	 	 /sineOut/view/highlight 0 
  # 
  # Module /sine~1 
- 	 	 	 	 /sine~1/audio/gain 91.529037 
+ 	 	 	 	 /sine~1/audio/gain 72.232452 
  	 	 	 	 /sine~1/audio/mute 0 
- 	 	 	 	 /sine~1/frequency 109.000000 
+ 	 	 	 	 /sine~1/frequency 366.000000 
  	 	 	 	 /sine~1/mode sawtooth 
  	 	 	 	 /sine~1/view/freeze 0 
  	 	 	 	 /sine~1/view/highlight 0 
  # 
  # Module /mdlysOut 
  	 	 	 	 /mdlysOut/audio/active 1 
- 	 	 	 	 /mdlysOut/audio/gain 58.551949 
+ 	 	 	 	 /mdlysOut/audio/gain 60.201298 
  	 	 	 	 /mdlysOut/balance 0.000000 
  	 	 	 	 /mdlysOut/ch.1 6 
  	 	 	 	 /mdlysOut/ch.2 6 
@@ -2748,22 +2747,23 @@
  	 	 	 	 /mdlys~/excite/x1 36 
  	 	 	 	 /mdlys~/excite/y1 75 
  	 	 	 	 /mdlys~/inharm 0.000000 
- 	 	 	 	 /mdlys~/modes 123 
+ 	 	 	 	 /mdlys~/modes 147 
  	 	 	 	 /mdlys~/pickup/active 0 
  	 	 	 	 /mdlys~/pickup/rate 4000 
  	 	 	 	 /mdlys~/pickup/smooth 1000 
- 	 	 	 	 /mdlys~/pickup/x1 20 
- 	 	 	 	 /mdlys~/pickup/x2 79 
- 	 	 	 	 /mdlys~/pickup/x3 22 
- 	 	 	 	 /mdlys~/pickup/x4 83 
- 	 	 	 	 /mdlys~/pickup/y1 61 
- 	 	 	 	 /mdlys~/pickup/y2 59 
- 	 	 	 	 /mdlys~/pickup/y3 6 
- 	 	 	 	 /mdlys~/pickup/y4 11 
+ 	 	 	 	 /mdlys~/pickup/x1 45 
+ 	 	 	 	 /mdlys~/pickup/x2 71 
+ 	 	 	 	 /mdlys~/pickup/x3 24 
+ 	 	 	 	 /mdlys~/pickup/x4 90 
+ 	 	 	 	 /mdlys~/pickup/y1 25 
+ 	 	 	 	 /mdlys~/pickup/y2 25 
+ 	 	 	 	 /mdlys~/pickup/y3 25 
+ 	 	 	 	 /mdlys~/pickup/y4 25 
  	 	 	 	 /mdlys~/view/freeze 0 
  	 	 	 	 /mdlys~/view/highlight none 
  # 
  # Module /spatOut 
+ 	 	 	 	 /spatOut/alias /spatOut/alias/remove 
  	 	 	 	 /spatOut/audio/active 1 
  	 	 	 	 /spatOut/audio/gain 127.000000 
  	 	 	 	 /spatOut/audio/mute 0 
@@ -2804,9 +2804,9 @@
  	 	 	 	 /nav.motion%/noise/ripple 0.500000 
  	 	 	 	 /nav.motion%/slide/down 0.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 5.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 6.000000 
  	 	 	 	 /nav.motion%/threshold/mode 1 
- 	 	 	 	 /nav.motion%/threshold/radius 35 
+ 	 	 	 	 /nav.motion%/threshold/radius 32 
  	 	 	 	 /nav.motion%/trails 0 
  	 	 	 	 /nav.motion%/video/bypass 0 
  	 	 	 	 /nav.motion%/video/freeze 0 
@@ -3058,10 +3058,9 @@
  	 	 	 	 /Squirt~/waveform/normalize 1.000000 
  # 
  # Module /hornEQ~ 
- 	 	 	 	 /hornEQ~/alias /hornEQ~/alias/remove 
  	 	 	 	 /hornEQ~/bands 2 
  	 	 	 	 /hornEQ~/audio/bypass 0 
- 	 	 	 	 /hornEQ~/audio/gain 97.000000 
+ 	 	 	 	 /hornEQ~/audio/gain 100.000000 
  	 	 	 	 /hornEQ~/audio/mix 100.000000 
  	 	 	 	 /hornEQ~/audio/mute 0 
  	 	 	 	 /hornEQ~/filter.1/frequency 93.142784 
@@ -3218,6 +3217,7 @@
  	 	 	 	 /centerY/visualize 0 
  # 
  # Module /height 
+ 	 	 	 	 /height/alias /height/alias/remove 
  	 	 	 	 /height/function 0 
  	 	 	 	 /height/function/symmetry 0 
  	 	 	 	 /height/function/parameter2 0.000000 
@@ -3284,6 +3284,7 @@
  	 	 	 	 /width/visualize 0 
  # 
  # Module /small 
+ 	 	 	 	 /small/alias /small/alias/remove 
  	 	 	 	 /small/function 0 
  	 	 	 	 /small/function/symmetry 0 
  	 	 	 	 /small/function/parameter2 0.000000 

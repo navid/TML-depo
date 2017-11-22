@@ -1141,7 +1141,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 575.0, 108.0, 300.0, 140.0 ],
+									"patching_rect" : [ 578.0, 102.0, 300.0, 140.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 								}
 
@@ -1155,8 +1155,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 415.333313, 405.0, 85.0, 20.0 ],
-									"text" : "loadmess 100"
+									"patching_rect" : [ 415.333313, 405.0, 72.0, 20.0 ],
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -1994,7 +1994,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 499.0, 80.0, 628.0, 635.0 ],
+						"rect" : [ 211.0, 58.0, 631.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2288,8 +2288,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 306.0, 401.0, 79.0, 20.0 ],
-									"text" : "loadmess 53"
+									"patching_rect" : [ 227.0, 401.0, 79.0, 20.0 ],
+									"text" : "loadmess 62"
 								}
 
 							}
@@ -2704,24 +2704,6 @@
 									"destination" : [ "obj-3", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-6", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -2809,7 +2791,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 843.0, 663.0, 477.0, 270.0 ],
+						"rect" : [ 803.0, 663.0, 477.0, 270.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3915,7 +3897,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 896.0, 45.0, 568.0, 532.0 ],
+						"rect" : [ 712.0, 45.0, 568.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3992,7 +3974,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 176.0, 70.0, 15.0 ],
-													"text" : "/thresh/low -22"
+													"text" : "/debounce 250"
 												}
 
 											}
@@ -4006,7 +3988,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 176.0, 73.0, 15.0 ],
-													"text" : "/thresh/high -19"
+													"text" : "/thresh/high -20"
 												}
 
 											}
@@ -4120,6 +4102,24 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-15", 0 ]
 												}
 
 											}
@@ -5371,96 +5371,96 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
-			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
-			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
-			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-64::obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
-			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
-			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[13]", "Direction", 0 ],
-			"obj-2::obj-48::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
-			"obj-65::obj-13::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
-			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
-			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
-			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
-			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
-			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
-			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
-			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
-			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
-			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
-			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
-			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ],
-			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
-			"obj-65::obj-24::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
-			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[15]", "Direction", 0 ],
-			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[14]", "Direction", 0 ],
-			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ],
-			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
 			"obj-42::obj-30::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
-			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
-			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
+			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
 			"obj-65::obj-24::obj-74" : [ "note[3]", "Note", 0 ],
-			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-64::obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
-			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
-			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
-			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
+			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
+			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ],
+			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
 			"obj-65::obj-13::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
+			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[11]", "Direction", 0 ],
 			"obj-65::obj-24::obj-108::obj-87" : [ "Direction[12]", "Direction", 0 ],
 			"obj-65::obj-24::obj-108::obj-15" : [ "Size[3]", "Size", 0 ],
-			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
-			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
-			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
-			"obj-65::obj-11::obj-108::obj-49" : [ "Append[8]", "Append", 0 ],
-			"obj-65::obj-11::obj-18" : [ "Clear[3]", "Clear", 0 ],
-			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
-			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
-			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
-			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
-			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-2::obj-56::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
 			"obj-65::obj-11::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-65::obj-13::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
-			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
-			"obj-65::obj-11::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
+			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
+			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
 			"obj-64::obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
-			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
-			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
-			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
-			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
-			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
-			"obj-65::obj-24::obj-18" : [ "Clear[2]", "Clear", 0 ],
-			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
+			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
+			"obj-65::obj-11::obj-108::obj-49" : [ "Append[8]", "Append", 0 ],
+			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
+			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
+			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
 			"obj-64::obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
-			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
-			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ],
+			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
+			"obj-65::obj-24::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
+			"obj-2::obj-48::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
+			"obj-65::obj-13::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
+			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
+			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
+			"obj-65::obj-13::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
+			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
+			"obj-64::obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
+			"obj-65::obj-11::obj-18" : [ "Clear[3]", "Clear", 0 ],
 			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
 			"obj-64::obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
-			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
+			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
+			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
+			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
+			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
+			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
+			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
+			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-64::obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
+			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
+			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-18" : [ "Clear[2]", "Clear", 0 ],
+			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
+			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
+			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
+			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
 			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
+			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
+			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
+			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[14]", "Direction", 0 ],
+			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ],
+			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
+			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
+			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
+			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
+			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
+			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
 			"obj-42::obj-30::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
 			"obj-42::obj-30::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
-			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
-			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ]
+			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
+			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
+			"obj-2::obj-56::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-65::obj-11::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[13]", "Direction", 0 ],
+			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[15]", "Direction", 0 ],
+			"obj-64::obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
+			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
