@@ -842,7 +842,7 @@
 /sqrtRogs/selection/mode 0
 /sqrtRogs/selection/range 0.000000 6004.603516
 # 
-/conMic/autoscale/input/max 0.010000
+/conMic/autoscale/input/max 0.008000
 /conMic/autoscale/input/min 0.000000
 /conMic/autoscale/output/max 1.000000
 /conMic/autoscale/output/min 0.000000
@@ -857,11 +857,11 @@
 /conMic/filter/gain 1.000000
 /conMic/filter/q 1.000000
 /conMic/filter/type 2
-/conMic/floatslide/down 61.000000
+/conMic/floatslide/down 60.000000
 /conMic/floatslide/up 0.000000
 /conMic/pre-slide/down 60.000000
 /conMic/pre-slide/up 0.000000
-/conMic/ramp/down 30.000000
+/conMic/ramp/down 35.000000
 /conMic/ramp/up 0.000000
 /conMic/snapshot/rate 30
 /conMic/mute 0
