@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 381.0, 392.0, 378.0, 494.0 ],
+		"rect" : [ 381.0, 392.0, 387.0, 494.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -120,7 +120,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -381,11 +381,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1096.0, 426.0, 218.0, 337.0 ],
+						"rect" : [ 1028.0, 426.0, 218.0, 337.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -843,7 +843,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 5448.73584, "ticks" ],
+						"originallength" : [ 4607.776467, "ticks" ],
 						"originaltempo" : 119.999908,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -907,7 +907,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 7617.556641, "ticks" ],
+						"originallength" : [ 6757.937015, "ticks" ],
 						"originaltempo" : 119.999947,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
