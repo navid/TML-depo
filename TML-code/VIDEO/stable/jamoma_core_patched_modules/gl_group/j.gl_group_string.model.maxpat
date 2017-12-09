@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 760.0, 350.0, 352.0, 356.0 ],
+		"rect" : [ 655.0, 434.0, 352.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -637,7 +637,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 79.0, 1743.0, 727.0 ],
+						"rect" : [ 81.0, 82.0, 901.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -665,6 +665,43 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.723932, 0.242227, 0.455406, 1.0 ],
+									"bgcolor2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.723932, 0.242227, 0.455406, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
+									"gradient" : 1,
+									"id" : "obj-34",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.0, 347.5, 51.0, 22.0 ],
+									"style" : "",
+									"text" : "capture"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.628827, 0.0, 0.476424, 1.0 ],
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.0, 320.0, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "sel none"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-37",
 									"maxclass" : "newobj",
@@ -835,7 +872,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 172.5, 571.5, 145.0, 22.0 ],
+									"patching_rect" : [ 172.5, 592.5, 145.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -857,7 +894,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 326.5, 557.0, 295.0, 51.0 ],
+									"patching_rect" : [ 326.5, 578.0, 295.0, 51.0 ],
 									"style" : "default",
 									"text" : "When drawing to the default context in Max 7 or later, we use the default rendering context of the patch that this component belongs to."
 								}
@@ -1087,7 +1124,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 134.5, 310.5, 120.0, 22.0 ],
+									"patching_rect" : [ 134.5, 331.5, 120.0, 22.0 ],
 									"style" : "default",
 									"text" : "prepend capture"
 								}
@@ -1100,7 +1137,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 134.5, 291.5, 487.0, 22.0 ],
+									"patching_rect" : [ 134.5, 286.5, 487.0, 22.0 ],
 									"style" : "default",
 									"text" : "j.parameter capture @type string @description \"The name of a texture to be rendered to \"",
 									"varname" : "render/context[1]"
@@ -1141,7 +1178,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 159.5, 438.5, 110.0, 22.0 ],
+									"patching_rect" : [ 159.5, 459.5, 110.0, 22.0 ],
 									"style" : "default",
 									"text" : "prepend inherit_all"
 								}
@@ -1155,7 +1192,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 159.5, 407.5, 666.0, 35.0 ],
+									"patching_rect" : [ 159.5, 428.5, 666.0, 35.0 ],
 									"style" : "default",
 									"text" : "j.parameter inherit_all @type boolean @description \"When the flag is set, all GL attributes from named drawing context are inherited.\" @default 0",
 									"varname" : "render/antialias[2]"
@@ -1169,7 +1206,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 159.5, 366.0, 121.0, 22.0 ],
+									"patching_rect" : [ 159.5, 387.0, 121.0, 22.0 ],
 									"style" : "default",
 									"text" : "prepend cull_face"
 								}
@@ -1182,7 +1219,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 159.5, 347.0, 445.0, 22.0 ],
+									"patching_rect" : [ 159.5, 368.0, 445.0, 22.0 ],
 									"style" : "default",
 									"text" : "j.parameter cull_face @type integer @description \"Face culling mode\" @default 0",
 									"varname" : "render/context[2]"
@@ -1290,7 +1327,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 172.5, 527.5, 667.0, 22.0 ],
+									"patching_rect" : [ 172.5, 548.5, 667.0, 22.0 ],
 									"style" : "default",
 									"text" : "j.parameter context @type string @description \"The named drawing context in which to draw.\" @default default @priority -1",
 									"varname" : "render/context"
@@ -1386,7 +1423,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
-									"midpoints" : [ 144.0, 362.0, 29.5, 362.0 ],
+									"midpoints" : [ 144.0, 389.0, 29.5, 389.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -1394,6 +1431,16 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
+									"order" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"midpoints" : [ 144.0, 314.25, 78.5, 314.25 ],
+									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -1508,6 +1555,21 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"midpoints" : [ 78.5, 382.0, 29.5, 382.0 ],
+									"source" : [ "obj-34", 0 ]
 								}
 
 							}

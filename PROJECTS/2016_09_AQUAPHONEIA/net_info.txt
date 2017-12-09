@@ -1,0 +1,14 @@
+Horn Mira interface IP:
+10.0.1.2:8086
+
+Router:	10.0.1.1
+Horn:	10.0.1.2
+Boil:	10.0.1.3
+Drip:	10.0.1.4
+Whirl:	10.0.1.5
+
+Boil: 283 856 140
+Drip: 283 859 158
+Horn: 632 339 662
+Whirl: 346 256 962
+pw hint: ****** 7725*2
