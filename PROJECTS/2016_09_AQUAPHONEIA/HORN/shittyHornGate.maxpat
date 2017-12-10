@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 168.0, 117.0, 226.0, 621.0 ],
+		"rect" : [ 1000.0, 130.0, 226.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,7 +20,7 @@
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -167,7 +167,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 176.0, 70.0, 19.0 ],
 									"style" : "",
-									"text" : "/thresh/low -22"
+									"text" : "/thresh/low -23"
 								}
 
 							}
@@ -182,7 +182,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 127.0, 176.0, 73.0, 19.0 ],
 									"style" : "",
-									"text" : "/thresh/high -18"
+									"text" : "/thresh/high -20"
 								}
 
 							}
