@@ -1674,7 +1674,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 452.0, 653.0, 221.0, 127.0 ],
+										"rect" : [ 376.0, 390.0, 221.0, 127.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2018,6 +2018,19 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 82.0, 174.0, 62.0, 20.0 ],
+													"text" : "send play"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"color" : [ 0.7, 0.7, 0.7, 1.0 ],
 													"fontname" : "Arial",
 													"fontsize" : 10.435669,
@@ -2290,6 +2303,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-4", 0 ]
@@ -3875,7 +3897,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 227.0, 401.0, 79.0, 20.0 ],
-									"text" : "loadmess 65"
+									"text" : "loadmess 67"
 								}
 
 							}
@@ -4559,7 +4581,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 44.0, 125.0, 436.0, 397.0 ],
-													"text" : "aperture 80. 80. 80. 80. 80. 80. 80. 80., aperturecolor 1. 1. 1. 0.62, areasmonitoring 0, automaticspeakerstimealignment 0, autozoom 0, axis 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657., backgroundcolor 0.7 0.7 0.7 1., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., bril 30. 30. 30. 30. 30. 30. 30. 30., bypass 0, circularconstraint 0, cluster_distr 0.5 0.65, cluster_end 105.64 58.12, cluster_start 42.47 26.55, dashedgrid 0, defer 1, delays 0. 0. 0. 0., display 1, doppler 0 0 0 0 0 0 0 0, drop 6. 6. 6. 6. 6. 6. 6. 6., dropmode log2 log2 log2 log2 log2 log2 log2 log2, early_distr 0.5 0.57, early_end 39.71 29.5, early_shape 0.5 0.5, early_start 22.22 20.49, early_width 30. 30. 30. 30. 30. 30. 30. 30., env 24. 24. 24. 24. 24. 24. 24. 24., format aed, globalproportion 0.1, gridcolor 1. 1. 1. 1., gridlines 5, gridmode circular, gridspacing 1., heaviness 2. 25., height 400, infinite 0 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., liveness 35. 21., modaldensity 0. 0., multipleoutlets 0, mute 0, name \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\", numanchors 0, numangulardivisions 8, numareas 0, numcascades 1, numinternals 8, numreverbs 2, numsources 8, numspeakers 4, omni 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657., orientationmode yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint, outputfiltersQ 1. 1. 1. 1., outputfiltersfreq 1000. 1000. 1000. 1000., outputfiltersgain 0. 0. 0. 0., outputfilterstype Null Null Null Null, pan_rev 0. 0. 0. 0. 0. 0. 0. 0., pitch 0. 0. 0. 0. 0. 0. 0. 0., prer 48. 48. 48. 48. 48. 48. 48. 48., pres 85.976799 84.0765 84.076698 84.9478 72.304901 69.440804 69.380798 71.073196, radius 1. 1. 1. 1. 1. 1. 1. 1., radiusconstraint 0, reverb_start 95.37 52.31, reverberance 72. 56., reverbfreqhigh 8000. 8000., reverbfreqlow 250. 250., reverbid 1 1 1 1 2 2 2 2, revp 34. 34. 34. 34. 34. 34. 34. 34., rightclicklock 0, roomactive 1 1, roomairabsorption 1 1, roomairrolloff 10000. 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 1, showareas 0, showbackgroundimage 1, showcriteria 0, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showpresence 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourceairabsorption 0 0 0 0 0 0 0 0, sourcecolor 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1., sourcemute 0 0 0 0 0 0 0 0, sourceproportion 0.07, sourceseditable 1, sourceslevels -60. -60. -60. -60. -60. -60. -60. -60., sourcesolo 0 0 0 0 0 0 0 0, sourcespositions 0.01654 1.05287 0. 1.078867 -0.016948 0. 0.001883 -1.078998 0. -1.064269 0.076288 0. -0.888967 0.885869 0. 0.928652 0.912584 0. 0.898574 -0.943596 0. -0.912508 -0.890479 0., speakerseditable 0, speakerseq 0, speakerslevels -60. -60. -60. -60., speakerspositions -0.707107 0.707107 0. 0.707107 0.707107 0. 0.707107 -0.707107 0. -0.707107 -0.707107 0., speakersproportion 0.1, speakerstimealignment 0, useopengl 0, vieweronly 0, viewpoint top, warmth 30. 30. 30. 30. 30. 30. 30. 30., width 400, windowmoveable 1, windowtitle Oper, windowtopleft 50. 800., xoffset 0., yaw 0. 0. 0. 0. 0. 0. 0. 0., yoffset 0., zoffset 0., zoom 0.938036, zoomlock 0,"
+													"text" : "aperture 80. 80. 80. 80. 80. 80. 80. 80., aperturecolor 1. 1. 1. 0.62, areasmonitoring 0, automaticspeakerstimealignment 0, autozoom 0, axis 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657., backgroundcolor 0.7 0.7 0.7 1., backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., bril 30. 30. 30. 30. 30. 30. 30. 30., bypass 0, circularconstraint 0, cluster_distr 0.5 0.65, cluster_end 105.64 58.12, cluster_start 42.47 26.55, dashedgrid 0, defer 1, delays 0. 0. 0. 0., display 1, doppler 0 0 0 0 0 0 0 0, drop 6. 6. 6. 6. 6. 6. 6. 6., dropmode log2 log2 log2 log2 log2 log2 log2 log2, early_distr 0.5 0.57, early_end 39.71 29.5, early_shape 0.5 0.5, early_start 22.22 20.49, early_width 30. 30. 30. 30. 30. 30. 30. 30., env 24. 24. 24. 24. 24. 24. 24. 24., format aed, globalproportion 0.1, gridcolor 1. 1. 1. 1., gridlines 5, gridmode circular, gridspacing 1., heaviness 2. 25., height 400, infinite 0 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., liveness 35. 20., modaldensity 0. 0., multipleoutlets 0, mute 0, name \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\", numanchors 0, numangulardivisions 8, numareas 0, numcascades 1, numinternals 8, numreverbs 2, numsources 8, numspeakers 4, omni 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657. 1.65 1.7 0. -3.8 177. 5657., orientationmode yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint, outputfiltersQ 1. 1. 1. 1., outputfiltersfreq 1000. 1000. 1000. 1000., outputfiltersgain 0. 0. 0. 0., outputfilterstype Null Null Null Null, pan_rev 0. 0. 0. 0. 0. 0. 0. 0., pitch 0. 0. 0. 0. 0. 0. 0. 0., prer 48. 48. 48. 48. 48. 48. 48. 48., pres 81.108398 82.102097 77.896896 77.271301 66.406502 62.5877 67.219299 69.139198, radius 1. 1. 1. 1. 1. 1. 1. 1., radiusconstraint 0, reverb_start 95.37 52.31, reverberance 72. 74., reverbfreqhigh 8000. 8000., reverbfreqlow 250. 250., reverbid 1 1 1 1 2 2 2 2, revp 34. 34. 34. 34. 34. 34. 34. 34., rightclicklock 0, roomactive 1 1, roomairabsorption 1 1, roomairrolloff 10000. 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 1, showareas 0, showbackgroundimage 1, showcriteria 0, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showpresence 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourceairabsorption 0 0 0 0 0 0 0 0, sourcecolor 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1., sourcemute 0 0 0 0 0 0 0 0, sourceproportion 0.07, sourceseditable 1, sourceslevels -60. -60. -60. -60. -60. -60. -60. -60., sourcesolo 0 0 0 0 0 0 0 0, sourcespositions -0.95575 0.597219 0. 0.922938 0.558951 0. 0.93194 -0.707381 0. -0.715234 -0.956073 0. -0.888967 0.885869 0. 0.928652 0.912584 0. 0.724426 -0.944091 0. -0.954143 -0.680584 0., speakerseditable 0, speakerseq 0, speakerslevels -60. -60. -60. -60., speakerspositions -0.707107 0.707107 0. 0.707107 0.707107 0. 0.707107 -0.707107 0. -0.707107 -0.707107 0., speakersproportion 0.1, speakerstimealignment 0, useopengl 0, vieweronly 0, viewpoint top, warmth 30. 30. 30. 30. 30. 30. 30. 30., width 400, windowmoveable 1, windowtitle Oper, windowtopleft 50. 800., xoffset 0., yaw 0. 0. 0. 0. 0. 0. 0. 0., yoffset 0., zoffset 0., zoom 0.938036, zoomlock 0,"
 												}
 
 											}
@@ -4975,7 +4997,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 650.0, 195.0, 298.0, 66.0 ],
+						"rect" : [ 197.0, 62.0, 298.0, 66.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5261,7 +5283,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 31.0, 57.0, 20.0 ],
+					"patching_rect" : [ 4.0, 28.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5296,7 +5318,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 341.0, 701.0, 382.0, 248.0 ],
+						"rect" : [ 191.0, 466.0, 382.0, 248.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5528,7 +5550,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 712.0, 45.0, 568.0, 532.0 ],
+						"rect" : [ 85.0, 89.0, 568.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5548,6 +5570,187 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 298.0, 267.0, 24.0, 20.0 ],
+									"text" : "t 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 297.0, 301.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 298.0, 247.0, 40.0, 20.0 ],
+									"text" : "r play"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 288.0, 14.0, 79.0, 20.0 ],
+									"text" : "receive~ sfIn"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 364.0, 376.0, 66.0, 20.0 ],
+									"text" : "send~ sfIn"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 440.0, 277.0, 56.0, 20.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 440.0, 257.5, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 395.0, 311.0, 97.0, 18.0 ],
+									"text" : "open testBuff.aif"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "bang" ],
+									"patching_rect" : [ 364.0, 336.0, 49.0, 20.0 ],
+									"save" : [ "#N", "sfplay~", "", 1, 120960, 0, "", ";" ],
+									"text" : "sfplay~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 210.0, 446.0, 155.0, 17.0 ],
+									"text" : "/*/waveform/normalize 0.97"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.619608, 0.0, 0.360784, 0.698039 ],
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 210.0, 469.0, 182.0, 19.0 ],
+									"text" : "jcom.send jcom.remote.module.to"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 210.0, 420.0, 113.0, 20.0 ],
+									"text" : "dot.debounce 2000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 210.0, 393.0, 52.0, 20.0 ],
+									"text" : "select 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "meter~",
@@ -5576,7 +5779,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 393.0, 85.0, 257.0, 318.0 ],
+										"rect" : [ 76.0, 314.0, 257.0, 318.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5619,7 +5822,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 176.0, 73.0, 15.0 ],
-													"text" : "/thresh/high -20"
+													"text" : "/thresh/high -22"
 												}
 
 											}
@@ -5814,7 +6017,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 649.0, 413.0, 108.0, 211.0 ],
+										"rect" : [ 454.0, 376.0, 108.0, 211.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -6030,10 +6233,100 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -6067,6 +6360,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6094,10 +6396,37 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -6140,7 +6469,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 292.0, 142.0, 306.0, 143.0 ],
+						"rect" : [ 442.0, 252.0, 302.0, 142.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6233,7 +6562,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 648.0, 66.0, 479.0, 640.0 ],
+										"rect" : [ 609.0, 45.0, 484.0, 644.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -6262,7 +6591,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 147.0, 150.0, 200.0, 20.0 ],
-													"text" : "jit.dimmap @map 1 0 @invert 0 1"
+													"text" : "jit.dimmap @map 1 0 @invert 1 0"
 												}
 
 											}
@@ -6963,7 +7292,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 57.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 51.0, 64.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -7002,96 +7331,96 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42::obj-30::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
-			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
-			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
-			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-65::obj-24::obj-18" : [ "Clear[2]", "Clear", 0 ],
-			"obj-64::obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
-			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-2::obj-48::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
-			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
-			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
-			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[14]", "Direction", 0 ],
-			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-64::obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
-			"obj-64::obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
-			"obj-65::obj-11::obj-108::obj-67" : [ "SelectAll[7]", "SelectAll", 0 ],
-			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
-			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
-			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
-			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
-			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
-			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
-			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
-			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
-			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
-			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ],
-			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
-			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
-			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[6]", "SelectAll", 0 ],
-			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
 			"obj-64::obj-6::obj-9" : [ "Resonator", "Resonator", -1 ],
-			"obj-65::obj-24::obj-108::obj-87" : [ "Direction[13]", "Direction", 0 ],
-			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
-			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-65::obj-24::obj-74" : [ "note[3]", "Note", 0 ],
-			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
-			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
-			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
-			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
-			"obj-65::obj-13::obj-108::obj-67" : [ "SelectAll[5]", "SelectAll", 0 ],
-			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[15]", "Direction", 0 ],
-			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
 			"obj-65::obj-24::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
-			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[11]", "Direction", 0 ],
-			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
-			"obj-65::obj-24::obj-108::obj-15" : [ "Size[3]", "Size", 0 ],
-			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
-			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
-			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-65::obj-11::obj-108::obj-103" : [ "Direction[15]", "Direction", 0 ],
+			"obj-65::obj-24::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
+			"obj-65::obj-11::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
 			"obj-2::obj-56::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ],
-			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
+			"obj-42::obj-30::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
+			"obj-42::obj-30::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
+			"obj-23::obj-8::obj-118" : [ "live.text[3]", "hj", 0 ],
+			"obj-64::obj-6::obj-73" : [ "StringMaterial[1]", "Material", 0 ],
+			"obj-65::obj-24::obj-18" : [ "Clear[2]", "Clear", 0 ],
 			"obj-65::obj-11::obj-108::obj-49" : [ "Append[8]", "Append", 0 ],
-			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
-			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
-			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
-			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
+			"obj-64::obj-6::obj-105::obj-12::obj-73" : [ "StringMaterial", "Material", 0 ],
+			"obj-65::obj-11::obj-43::obj-15" : [ "Append[7]", "Append", 0 ],
+			"obj-42::obj-30::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-64::obj-6::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
+			"obj-64::obj-6::obj-118" : [ "PickupLPosX", "PosX", 0 ],
 			"obj-65::obj-13::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-65::obj-24::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
+			"obj-65::obj-13::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
 			"obj-42::obj-30::obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
-			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ],
-			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
+			"obj-65::obj-11::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
 			"obj-42::obj-30::obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
+			"obj-64::obj-6::obj-36" : [ "StringInharm", "Inharm", 0 ],
+			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
+			"obj-64::obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ],
+			"obj-65::obj-11::obj-43::obj-20" : [ "Rec[6]", "Rec", 0 ],
+			"obj-64::obj-6::obj-14" : [ "Modes[1]", "Modes", 0 ],
+			"obj-42::obj-30::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-64::obj-6::obj-24" : [ "Brightness[1]", "Brightness", 0 ],
+			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
+			"obj-65::obj-13::obj-18" : [ "Clear[1]", "Clear", 0 ],
+			"obj-64::obj-6::obj-77" : [ "GlobalTransp[1]", "Transp", 0 ],
+			"obj-65::obj-13::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
+			"obj-65::obj-24::obj-74" : [ "note[3]", "Note", 0 ],
+			"obj-65::obj-11::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
+			"obj-65::obj-11::obj-108::obj-15" : [ "Size[4]", "Size", 0 ],
+			"obj-64::obj-6::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-64::obj-6::obj-114" : [ "ExcitationLPosY", "PosY", 0 ],
+			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-64::obj-6::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
+			"obj-64::obj-6::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-2::obj-48::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-64::obj-6::obj-131" : [ "ExcitationSmooth", "Smooth", 0 ],
+			"obj-65::obj-24::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
+			"obj-64::obj-6::obj-155" : [ "PickupLPosY[1]", "PosY", 0 ],
+			"obj-65::obj-24::obj-50" : [ "Rec[5]", "Rec", 0 ],
+			"obj-64::obj-6::obj-226" : [ "PickupRandEnable", "Enable", 1 ],
+			"obj-64::obj-6::obj-101" : [ "ExcitationRandEnable", "Enable", 1 ],
+			"obj-65::obj-13::obj-43::obj-15" : [ "Append[3]", "Append", 0 ],
+			"obj-64::obj-6::obj-26" : [ "Damping[1]", "Damping", 0 ],
+			"obj-65::obj-13::obj-43::obj-20" : [ "Rec[2]", "Rec", 0 ],
+			"obj-65::obj-13::obj-74" : [ "note[2]", "Note", 0 ],
 			"obj-65::obj-13::obj-108::obj-15" : [ "Size[2]", "Size", 0 ],
 			"obj-65::obj-11::obj-108::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-2::obj-51::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-65::obj-13::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-65::obj-24::obj-108::obj-49" : [ "Append[6]", "Append", 0 ],
+			"obj-64::obj-6::obj-227" : [ "PickupRandRate", "Rate", 0 ],
+			"obj-65::obj-13::obj-50" : [ "Rec[3]", "Rec", 0 ],
+			"obj-42::obj-30::obj-18" : [ "Clear", "Clear", 0 ],
+			"obj-42::obj-30::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-65::obj-24::obj-89" : [ "lock[3]", "Lock", 0 ],
+			"obj-42::obj-30::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-42::obj-30::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-64::obj-6::obj-137" : [ "PickupRPosY[1]", "PosY", 0 ],
+			"obj-65::obj-13::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
+			"obj-65::obj-24::obj-43::obj-15" : [ "Append[5]", "Append", 0 ],
+			"obj-64::obj-6::obj-141" : [ "PickupRPosX[1]", "PosX", 0 ],
+			"obj-65::obj-24::obj-108::obj-15" : [ "Size[3]", "Size", 0 ],
+			"obj-65::obj-24::obj-108::obj-87" : [ "Direction[13]", "Direction", 0 ],
+			"obj-2::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-2::obj-45::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-23::obj-8::obj-1::obj-44" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-2::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-42::obj-30::obj-43::obj-15" : [ "Append", "Append", 0 ],
+			"obj-65::obj-13::obj-89" : [ "lock[2]", "Lock", 0 ],
 			"obj-65::obj-11::obj-18" : [ "Clear[3]", "Clear", 0 ],
-			"obj-64::obj-6::obj-117" : [ "ExcitationLPosX", "PosX", 0 ],
-			"obj-64::obj-6::obj-96" : [ "StringPitch[1]", "Pitch", 0 ],
-			"obj-65::obj-24::obj-43::obj-20" : [ "Rec[4]", "Rec", 0 ],
-			"obj-65::obj-11::obj-50" : [ "Rec[7]", "Rec", 0 ],
-			"obj-65::obj-13::obj-108::obj-49" : [ "Append[4]", "Append", 0 ],
-			"obj-65::obj-11::obj-74" : [ "note[4]", "Note", 0 ],
-			"obj-65::obj-11::obj-89" : [ "lock[4]", "Lock", 0 ],
-			"obj-23::obj-8::obj-38" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-64::obj-6::obj-100" : [ "ExcitationRandRate", "Rate", 0 ],
-			"obj-64::obj-6::obj-157" : [ "PickupLPosX[1]", "PosX", 0 ]
+			"obj-65::obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-42::obj-30::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-42::obj-30::obj-50" : [ "Rec[1]", "Rec", 0 ],
+			"obj-65::obj-11::obj-108::obj-87" : [ "Direction[14]", "Direction", 0 ],
+			"obj-42::obj-30::obj-43::obj-20" : [ "Rec", "Rec", 0 ],
+			"obj-65::obj-13::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -7210,6 +7539,13 @@
 				"name" : "shittygate.maxpat",
 				"bootpath" : "/Users/whirl/Documents/code/TML-depo/PROJECTS/2016_09_AQUAPHONEIA/abstractions/shittyGate",
 				"patcherrelativepath" : "../abstractions/shittyGate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.debounce.maxpat",
+				"bootpath" : "/Users/whirl/Documents/code/SearchPath/dot_20121204/timing/dot.debounce",
+				"patcherrelativepath" : "../../../../SearchPath/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7528,6 +7864,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "rogs~.mxo",
 				"type" : "iLaX"
 			}
@@ -7545,10 +7885,6 @@
 			}
 , 			{
 				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.loader.mxo",
 				"type" : "iLaX"
 			}
 , 			{
