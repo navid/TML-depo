@@ -534,7 +534,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_mass" ],
+					"args" : [ "cam_in_mass" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -556,7 +556,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_y" ],
+					"args" : [ "cam_in_y" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -578,7 +578,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_x" ],
+					"args" : [ "cam_in_x" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -804,8 +804,8 @@
  ],
 		"parameters" : 		{
 			"obj-37::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-38::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-50" : [ "live.tab[4]", "live.tab[3]", 0 ],
+			"obj-38::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-75::obj-1::obj-35" : [ "live.text[2]", "live.text", 0 ],
 			"obj-75::obj-1::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
