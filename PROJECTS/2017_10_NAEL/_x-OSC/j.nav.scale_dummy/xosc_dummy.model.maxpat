@@ -38,13 +38,43 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.768627, 0.584314, 0.584314, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-4",
+					"linecount" : 6,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 135.0, 135.0, 120.0, 82.0 ],
+					"style" : "",
+					"text" : "j.return out/final/abs @type float @description \"Absolute value of final output\" @repetitions/filter 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 135.0, 105.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "abs 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 225.0, 30.0, 30.0 ],
+					"patching_rect" : [ 15.0, 255.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -56,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 195.0, 49.0, 22.0 ],
+					"patching_rect" : [ 15.0, 225.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "j.model"
 				}
@@ -66,7 +96,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -87,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 105.0, 105.0, 82.0 ],
+					"patching_rect" : [ 270.0, 135.0, 105.0, 82.0 ],
 					"style" : "",
 					"text" : "j.return schmitTrig @type boolean @description \"trigger with hysteresis and debounce\""
 				}
@@ -104,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 105.0, 70.0 ],
+					"patching_rect" : [ 15.0, 135.0, 105.0, 70.0 ],
 					"style" : "",
 					"text" : "j.return out/final @type float @description \"final output\" @repetitions/filter 0"
 				}
@@ -117,7 +147,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 60.0, 225.0, 22.0 ],
+					"patching_rect" : [ 15.0, 60.0, 420.0, 22.0 ],
 					"style" : "",
 					"text" : "j.oscroute out/final schmitTrig"
 				}
@@ -140,7 +170,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 24.5, 93.0, 144.5, 93.0 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -148,26 +195,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"midpoints" : [ 127.5, 93.0, 144.5, 93.0 ],
+					"midpoints" : [ 225.0, 93.0, 279.5, 93.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

@@ -966,7 +966,7 @@
 /xosc1gq/offset 0.000000
 /xosc1gq/visualize 1
 # 
-/xosc1gr/scale/input/max 100.000000
+/xosc1gr/scale/input/max 0.170000
 /xosc1gr/scale/input/min 0.000000
 /xosc1gr/scale/max 1.000000
 /xosc1gr/scale/min -1.000000
