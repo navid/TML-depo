@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 206.0, 174.0, 1049.0, 121.0 ],
+		"rect" : [ 206.0, 174.0, 226.0, 151.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 15.0, 200.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 195.0, 22.0 ],
 					"style" : "",
 					"text" : "xosc_udp_receive /xosc4"
 				}
@@ -54,7 +54,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 15.0, 195.0, 22.0 ],
+					"patching_rect" : [ 15.0, 75.0, 195.0, 22.0 ],
 					"style" : "",
 					"text" : "xosc_udp_receive /xosc3"
 				}
@@ -66,22 +66,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 15.0, 195.0, 22.0 ],
+					"patching_rect" : [ 15.0, 45.0, 195.0, 22.0 ],
 					"style" : "",
 					"text" : "xosc_udp_receive /xosc2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 45.0, 127.0, 22.0 ],
-					"style" : "",
-					"text" : "j.nav.oscroute.module"
 				}
 
 			}
@@ -100,15 +87,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-3::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
-			"obj-2::obj-3::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
-			"obj-2::obj-3::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ]
+
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "xosc_udp_receive.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_udp_receive",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_udp",
+				"patcherrelativepath" : "../xosc_udp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -117,47 +102,6 @@
 				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_dummy",
 				"patcherrelativepath" : "../xosc_dummy",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.oscroute.module.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.oscroute",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.oscroute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.oscroute.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.oscroute",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.oscroute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.oscroute.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.oscroute",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.oscroute",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.get_onscreen_position_edit.js",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/javascript",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -170,54 +114,6 @@
 			}
 , 			{
 				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
  ],
