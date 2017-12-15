@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 420.0, 108.0, 970.0, 465.0 ],
+		"rect" : [ 57.0, 79.0, 970.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 439.0, 211.0, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 389.0, 205.0, 83.0, 22.0 ],
+					"style" : "",
+					"text" : "xosc_client_3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
 					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
 					"id" : "obj-47",
@@ -54,7 +68,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 660.0, 417.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -97,7 +111,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 540.0, 166.0, 150.0, 245.0 ],
+									"patching_rect" : [ 498.0, 77.0, 150.0, 245.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 472.0, 198.0, 150.0, 245.0 ],
 									"viewvisibility" : 1
@@ -111,7 +125,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 500.0, 417.0, 121.0, 22.0 ],
+									"patching_rect" : [ 458.0, 328.0, 121.0, 22.0 ],
 									"style" : "",
 									"text" : "j.oscroute schmitTrig"
 								}
@@ -124,7 +138,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 380.0, 132.0, 136.0, 22.0 ],
+									"patching_rect" : [ 338.0, 43.0, 136.0, 22.0 ],
 									"style" : "",
 									"text" : "j.receive cam/mass/raw"
 								}
@@ -137,7 +151,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 215.0, 132.0, 113.0, 22.0 ],
+									"patching_rect" : [ 173.0, 43.0, 113.0, 22.0 ],
 									"style" : "",
 									"text" : "j.receive cam/y/raw"
 								}
@@ -150,7 +164,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 65.0, 132.0, 113.0, 22.0 ],
+									"patching_rect" : [ 23.0, 43.0, 113.0, 22.0 ],
 									"style" : "",
 									"text" : "j.receive cam/x/raw"
 								}
@@ -164,7 +178,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 69.0, 100.0, 167.0, 22.0 ],
+									"patching_rect" : [ 27.0, 11.0, 167.0, 22.0 ],
 									"style" : "",
 									"text" : "cam_udp_receive.model cam"
 								}
@@ -176,7 +190,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 170.0, 462.0, 47.0, 22.0 ],
+									"patching_rect" : [ 128.0, 373.0, 47.0, 22.0 ],
 									"style" : "",
 									"text" : "s bang"
 								}
@@ -189,7 +203,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 170.0, 432.0, 121.0, 22.0 ],
+									"patching_rect" : [ 128.0, 343.0, 121.0, 22.0 ],
 									"style" : "",
 									"text" : "j.oscroute schmitTrig"
 								}
@@ -202,7 +216,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 417.0, 83.0, 22.0 ],
+									"patching_rect" : [ 8.0, 328.0, 83.0, 22.0 ],
 									"style" : "",
 									"text" : "nav.ramp 150"
 								}
@@ -215,7 +229,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 472.0, 24.0, 24.0 ],
+									"patching_rect" : [ 8.0, 383.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -227,7 +241,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 50.0, 442.0, 55.0, 22.0 ],
+									"patching_rect" : [ 8.0, 353.0, 55.0, 22.0 ],
 									"style" : "",
 									"text" : "select 0."
 								}
@@ -249,7 +263,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 380.0, 167.0, 150.0, 245.0 ],
+									"patching_rect" : [ 338.0, 78.0, 150.0, 245.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 319.0, 198.0, 150.0, 245.0 ],
 									"viewvisibility" : 1
@@ -272,7 +286,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 215.0, 167.0, 150.0, 245.0 ],
+									"patching_rect" : [ 173.0, 78.0, 150.0, 245.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 801.0, 199.0, 150.0, 245.0 ],
 									"viewvisibility" : 1
@@ -295,7 +309,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 167.0, 150.0, 245.0 ],
+									"patching_rect" : [ 8.0, 78.0, 150.0, 245.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 649.0, 199.0, 150.0, 245.0 ],
 									"viewvisibility" : 1
@@ -4191,8 +4205,10 @@
 			"obj-35::obj-3::obj-7::obj-68::obj-182" : [ "live.text[64]", "live.text[4]", 0 ],
 			"obj-11::obj-3::obj-7::obj-68::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
 			"obj-35::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[61]", "live.text", 0 ],
+			"obj-48::obj-2::obj-3::obj-182" : [ "live.text[30]", "live.text[4]", 0 ],
 			"obj-11::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
 			"obj-35::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[17]", "live.menu", 0 ],
+			"obj-48::obj-2::obj-3::obj-10::obj-10::obj-145" : [ "live.menu[35]", "live.menu", 0 ],
 			"obj-11::obj-3::obj-7::obj-117::obj-182" : [ "live.text[16]", "live.text[4]", 0 ],
 			"obj-11::obj-3::obj-89" : [ "lock[1]", "Lock", 0 ],
 			"obj-107::obj-3::obj-68" : [ "DropFile[3]", "DropFile", 0 ],
@@ -4315,6 +4331,7 @@
 			"obj-5::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-11::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[23]", "live.text", 0 ],
 			"obj-35::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[19]", "live.menu", 0 ],
+			"obj-48::obj-2::obj-3::obj-10::obj-196" : [ "live.text[31]", "live.text", 0 ],
 			"obj-11::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
 			"obj-35::obj-3::obj-7::obj-117::obj-182" : [ "live.text[58]", "live.text[4]", 0 ],
 			"obj-11::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[17]", "live.text", 0 ]
@@ -4533,6 +4550,34 @@
 				"name" : "cam_udp_receive.model.maxpat",
 				"bootpath" : "~/code/TML-depo/PROJECTS/2017_10_NAEL/_camera/camera_udp",
 				"patcherrelativepath" : "../_camera/camera_udp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_client_3.maxpat",
+				"bootpath" : "~/code/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/_xosc_client",
+				"patcherrelativepath" : "../_x-OSC/_xosc_client",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_udp_receive.maxpat",
+				"bootpath" : "~/code/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_udp",
+				"patcherrelativepath" : "../_x-OSC/xosc_udp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_dummy.model.maxpat",
+				"bootpath" : "~/code/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_dummy",
+				"patcherrelativepath" : "../_x-OSC/xosc_dummy",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.nav.oscroute.module.maxpat",
+				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.oscroute",
+				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
