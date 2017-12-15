@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 911.0, 78.0, 271.0, 273.0 ],
+		"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -64,66 +64,62 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 150.0, 47.0 ],
-					"style" : "",
-					"text" : "arguments:\n#1 - name of this module\n#2 - name of scale module"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 165.0, 107.0, 22.0 ],
-					"style" : "",
-					"text" : "j.message schmitt"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"comment" : "",
 					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 135.0, 225.0, 22.0 ],
-					"style" : "",
-					"text" : "j.receive #2/schmitTrig"
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-11",
+					"color" : [ 0.768627, 0.584314, 0.584314, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-46",
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 91.0, 22.0 ],
+					"patching_rect" : [ 135.0, 105.0, 105.0, 82.0 ],
 					"style" : "",
-					"text" : "j.message final"
+					"text" : "j.return schmitTrig @type boolean @description \"trigger with hysteresis and debounce\""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
+					"color" : [ 0.768627, 0.584314, 0.584314, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-35",
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 105.0, 105.0, 70.0 ],
+					"style" : "",
+					"text" : "j.return out/final @type float @description \"final output\" @repetitions/filter 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 75.0, 225.0, 22.0 ],
+					"patching_rect" : [ 15.0, 60.0, 225.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive #2/out/final"
+					"text" : "j.oscroute out/final schmitTrig"
 				}
 
 			}
@@ -137,19 +133,41 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-12", 0 ]
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"midpoints" : [ 127.5, 93.0, 144.5, 93.0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
