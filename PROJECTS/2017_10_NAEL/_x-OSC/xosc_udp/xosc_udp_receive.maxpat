@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 456.0, 608.0, 1363.0, 454.0 ],
+		"rect" : [ 36.0, 455.0, 1363.0, 134.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,28 +38,15 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 795.0, 180.0, 210.0, 22.0 ],
-					"style" : "",
-					"text" : "out/final 0.045004"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "none",
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1275.0, 90.0, 168.0, 22.0 ],
+					"patching_rect" : [ 1275.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1gq"
+					"text" : "xosc_dummy.model #1gq"
 				}
 
 			}
@@ -71,9 +58,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 90.0, 167.0, 22.0 ],
+					"patching_rect" : [ 1095.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1gy"
+					"text" : "xosc_dummy.model #1gy"
 				}
 
 			}
@@ -99,9 +86,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 90.0, 168.0, 22.0 ],
+					"patching_rect" : [ 735.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1gp"
+					"text" : "xosc_dummy.model #1gp"
 				}
 
 			}
@@ -113,9 +100,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 90.0, 168.0, 22.0 ],
+					"patching_rect" : [ 555.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1aq"
+					"text" : "xosc_dummy.model #1aq"
 				}
 
 			}
@@ -127,9 +114,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 90.0, 167.0, 22.0 ],
+					"patching_rect" : [ 375.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1az"
+					"text" : "xosc_dummy.model #1az"
 				}
 
 			}
@@ -141,9 +128,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 90.0, 167.0, 22.0 ],
+					"patching_rect" : [ 195.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1ay"
+					"text" : "xosc_dummy.model #1ay"
 				}
 
 			}
@@ -155,9 +142,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 90.0, 167.0, 22.0 ],
+					"patching_rect" : [ 15.0, 90.0, 146.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model /xosc1ax"
+					"text" : "xosc_dummy.model #1ax"
 				}
 
 			}
@@ -230,7 +217,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 922.0, 78.0, 924.5, 78.0 ],
-					"order" : 1,
 					"source" : [ "obj-4", 5 ]
 				}
 
@@ -259,15 +245,28 @@
 				}
 
 			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "xosc_dummy.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/j.nav.scale_dummy",
+				"patcherrelativepath" : "../j.nav.scale_dummy",
+				"type" : "JSON",
+				"implicit" : 1
+			}
 , 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"order" : 0,
-					"source" : [ "obj-4", 5 ]
-				}
-
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
