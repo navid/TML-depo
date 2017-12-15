@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 78.0, 1363.0, 454.0 ],
+		"rect" : [ 456.0, 608.0, 1363.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 795.0, 180.0, 210.0, 22.0 ],
+					"style" : "",
+					"text" : "out/final 0.045004"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -46,7 +59,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1275.0, 90.0, 168.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1gq"
+					"text" : "xosc_dummy.model /xosc1gq"
 				}
 
 			}
@@ -60,7 +73,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1095.0, 90.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1gy"
+					"text" : "xosc_dummy.model /xosc1gy"
 				}
 
 			}
@@ -88,7 +101,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 735.0, 90.0, 168.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1gp"
+					"text" : "xosc_dummy.model /xosc1gp"
 				}
 
 			}
@@ -102,7 +115,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 555.0, 90.0, 168.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1aq"
+					"text" : "xosc_dummy.model /xosc1aq"
 				}
 
 			}
@@ -116,7 +129,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.0, 90.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1az"
+					"text" : "xosc_dummy.model /xosc1az"
 				}
 
 			}
@@ -130,7 +143,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 90.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1ay"
+					"text" : "xosc_dummy.model /xosc1ay"
 				}
 
 			}
@@ -144,7 +157,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 90.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_dummy.model #1ax"
+					"text" : "xosc_dummy.model /xosc1ax"
 				}
 
 			}
@@ -217,6 +230,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 922.0, 78.0, 924.5, 78.0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 5 ]
 				}
 
@@ -242,6 +256,14 @@
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 1281.0, 78.0, 1284.5, 78.0 ],
 					"source" : [ "obj-4", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"order" : 0,
+					"source" : [ "obj-4", 5 ]
 				}
 
 			}

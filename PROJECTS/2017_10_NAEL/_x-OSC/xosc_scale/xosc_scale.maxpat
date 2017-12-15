@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 397.0, 78.0, 750.0, 642.0 ],
+		"rect" : [ 878.0, 200.0, 750.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 345.0, 150.0, 245.0 ],
+					"patching_rect" : [ 375.0, 675.0, 150.0, 245.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
@@ -385,146 +385,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-4::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-8::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-3::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-7::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-6::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-5::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "xosc_udp_send.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_udp",
-				"patcherrelativepath" : "../xosc_udp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xosc_scale_route.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_scale_route",
-				"patcherrelativepath" : "../xosc_scale_route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.scale.module.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.scale.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.autoscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.qom.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.nav.scale.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.delta.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
