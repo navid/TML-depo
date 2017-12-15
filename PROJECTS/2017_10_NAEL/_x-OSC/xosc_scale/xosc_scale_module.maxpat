@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -198,9 +198,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 615.0, 199.0, 22.0 ],
+					"patching_rect" : [ 15.0, 615.0, 241.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_translate.model #1 #2"
+					"text" : "xosc_translate.model #1 #2 #3"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 555.0, 315.0, 173.0, 22.0 ],
+					"patching_rect" : [ 555.0, 315.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/gyro/qom/raw"
 				}
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 315.0, 171.0, 22.0 ],
+					"patching_rect" : [ 375.0, 315.0, 173.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/gyro/yaw/raw"
 				}
@@ -237,7 +237,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 194.999985, 315.0, 165.0, 22.0 ],
+					"patching_rect" : [ 194.999985, 315.0, 167.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/gyro/roll/raw"
 				}
@@ -250,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 14.999977, 315.0, 175.0, 22.0 ],
+					"patching_rect" : [ 14.999977, 315.0, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/gyro/pitch/raw"
 				}
@@ -276,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 15.0, 151.0, 22.0 ],
+					"patching_rect" : [ 375.0, 15.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/acc/z/raw"
 				}
@@ -289,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 15.0, 151.0, 22.0 ],
+					"patching_rect" : [ 195.0, 15.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/acc/y/raw"
 				}
@@ -302,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 151.0, 22.0 ],
+					"patching_rect" : [ 15.0, 15.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive #2/acc/x/raw"
 				}

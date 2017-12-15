@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 537.0, -543.0, 421.0, 330.0 ],
+		"rect" : [ 537.0, 78.0, 421.0, 330.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,9 +70,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 225.0, 353.0, 22.0 ],
+					"patching_rect" : [ 15.0, 225.0, 361.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model gyro/qom #1_gqom #2/acc/qom"
+					"text" : "xosc_scale_route.model gyro/qom #3_gqom #2/acc/qom"
 				}
 
 			}
@@ -84,9 +84,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 195.0, 352.0, 22.0 ],
+					"patching_rect" : [ 15.0, 195.0, 360.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model gyro/yaw #1_gyaw #2/gyro/yaw"
+					"text" : "xosc_scale_route.model gyro/yaw #3_gyaw #2/gyro/yaw"
 				}
 
 			}
@@ -98,9 +98,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 165.0, 336.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 344.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model gyro/roll #1_groll #2/gyro/roll"
+					"text" : "xosc_scale_route.model gyro/roll #3_groll #2/gyro/roll"
 				}
 
 			}
@@ -112,9 +112,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 364.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 372.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model gyro/pitch #1_gpitch #2/gyro/pitch"
+					"text" : "xosc_scale_route.model gyro/pitch #3_gpitch #2/gyro/pitch"
 				}
 
 			}
@@ -126,9 +126,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 105.0, 332.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 340.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model acc/qom #1_aq #2/acc/qom"
+					"text" : "xosc_scale_route.model acc/qom #3_aq #2/acc/qom"
 				}
 
 			}
@@ -140,9 +140,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 75.0, 297.0, 22.0 ],
+					"patching_rect" : [ 15.0, 75.0, 305.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model acc/z #1_az #2/acc/z"
+					"text" : "xosc_scale_route.model acc/z #3_az #2/acc/z"
 				}
 
 			}
@@ -154,9 +154,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 45.0, 297.0, 22.0 ],
+					"patching_rect" : [ 15.0, 45.0, 305.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model acc/y #1_ay #2/acc/y"
+					"text" : "xosc_scale_route.model acc/y #3_ay #2/acc/y"
 				}
 
 			}
@@ -168,9 +168,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 297.0, 22.0 ],
+					"patching_rect" : [ 15.0, 15.0, 305.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_scale_route.model acc/x #1_ax #2/acc/x"
+					"text" : "xosc_scale_route.model acc/x #3_ax #2/acc/x"
 				}
 
 			}
