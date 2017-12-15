@@ -43,9 +43,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 75.0, 255.0, 88.0, 22.0 ],
+					"patching_rect" : [ 75.0, 255.0, 113.0, 22.0 ],
 					"style" : "",
-					"text" : "route host port"
+					"text" : "routepass host port"
 				}
 
 			}

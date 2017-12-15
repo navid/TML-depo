@@ -38,6 +38,28 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "xosc1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "xosc_imu_lite.module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 240.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -289,31 +311,9 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xosc1" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "xosc_imu.module.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 240.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 390.0, 108.0, 22.0 ],
 					"style" : "",
@@ -324,35 +324,30 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-49" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
 			"obj-3::obj-5::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-1::obj-45" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-64" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-2::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-3::obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-2::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
-			"obj-2::obj-1::obj-47" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
+			"obj-1::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
 			"obj-3::obj-3::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
 			"obj-3::obj-6::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-50" : [ "live.text[3]", "live.text", 0 ],
-			"obj-2::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-1::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
 			"obj-3::obj-4::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
+			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
 			"obj-3::obj-7::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ]
+			"obj-1::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-3::obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -425,27 +420,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "xosc_imu.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xosc_imu.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xosc_imu.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "cue_manager.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
@@ -477,6 +451,27 @@
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.module.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
 				"type" : "JSON",
 				"implicit" : 1
 			}

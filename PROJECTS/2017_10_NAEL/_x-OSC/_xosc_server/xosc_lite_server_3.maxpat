@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 190.0, 78.0, 331.0, 454.0 ],
+		"rect" : [ 271.0, 91.0, 962.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,137 @@
 		"style" : "",
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "xosc3" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "xosc_imu_lite.module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 645.0, 225.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "xosc2" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "xosc_imu_lite.module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.0, 225.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "xosc1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "xosc_imu_lite.module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 225.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 90.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "speedlim 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 45.0, 99.0, 22.0 ],
+					"style" : "",
+					"text" : "udpreceive 8000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 375.0, 94.0, 22.0 ],
+					"style" : "",
+					"text" : "169.254.92.193"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 150.0, 405.0, 79.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend port"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 405.0, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend host"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -153,7 +284,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 120.0, 215.0, 22.0 ],
 									"style" : "",
-									"text" : "combine PATH xosc_server_1.cues.txt"
+									"text" : "combine PATH xosc_server_3.cues.txt"
 								}
 
 							}
@@ -273,7 +404,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-4",
+					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "cue_manager.module.maxpat",
@@ -289,23 +420,25 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xosc1" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "xosc_imu.module.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 240.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"viewvisibility" : 1
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 645.0, 450.0, 108.0, 22.0 ],
+					"style" : "",
+					"text" : "xosc_scale /xosc3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 330.0, 450.0, 108.0, 22.0 ],
+					"style" : "",
+					"text" : "xosc_scale /xosc2"
 				}
 
 			}
@@ -313,46 +446,157 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 390.0, 108.0, 22.0 ],
+					"patching_rect" : [ 15.0, 450.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "xosc_scale /xosc1"
 				}
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 24.5, 438.0, 654.5, 438.0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 24.5, 438.0, 24.5, 438.0 ],
+					"order" : 2,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 24.5, 438.0, 339.5, 438.0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 159.5, 438.0, 654.5, 438.0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 159.5, 438.0, 24.5, 438.0 ],
+					"order" : 2,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 159.5, 438.0, 339.5, 438.0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+ ],
 		"parameters" : 		{
-			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-49" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-3::obj-5::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-1::obj-45" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-64" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-2::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-3::obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-2::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
-			"obj-2::obj-1::obj-47" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-3::obj-3::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-2::obj-1::obj-28" : [ "multislider[9]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-79" : [ "live.toggle[28]", "live.toggle", 0 ],
 			"obj-3::obj-6::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-50" : [ "live.text[3]", "live.text", 0 ],
-			"obj-2::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-4::obj-3::obj-1::obj-69" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-4::obj-8::obj-1::obj-69" : [ "live.tab[18]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-1::obj-195" : [ "live.toggle[35]", "live.toggle", 0 ],
+			"obj-10::obj-5::obj-1::obj-69" : [ "live.tab[28]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-16" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-8" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
 			"obj-3::obj-4::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-69" : [ "live.text[6]", "live.text", 0 ],
+			"obj-4::obj-1::obj-1::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-42" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-69" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-10::obj-3::obj-1::obj-69" : [ "live.tab[19]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-1::obj-86" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-3::obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-10::obj-8::obj-1::obj-69" : [ "live.tab[23]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-34" : [ "multislider[8]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-40" : [ "live.toggle[30]", "live.toggle", 0 ],
+			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
 			"obj-3::obj-7::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ]
+			"obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-18" : [ "live.toggle[32]", "live.toggle", 0 ],
+			"obj-4::obj-4::obj-1::obj-69" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-86" : [ "live.toggle[25]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-10::obj-1::obj-1::obj-69" : [ "live.tab[24]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
+			"obj-2::obj-1::obj-18" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-10::obj-6::obj-1::obj-69" : [ "live.tab[27]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-22" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-1::obj-79" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-38" : [ "live.toggle[29]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-28" : [ "multislider[11]", "multislider[1]", 0 ],
+			"obj-2::obj-1::obj-38" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-19" : [ "live.text[5]", "live.text", 0 ],
+			"obj-9::obj-1::obj-42" : [ "live.toggle[31]", "live.toggle", 0 ],
+			"obj-3::obj-5::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-69" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-34" : [ "multislider[10]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-19" : [ "live.text[8]", "live.text", 0 ],
+			"obj-4::obj-2::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-40" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-16" : [ "live.toggle[33]", "live.toggle", 0 ],
+			"obj-4::obj-7::obj-1::obj-69" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-84" : [ "live.toggle[26]", "live.toggle", 0 ],
+			"obj-10::obj-4::obj-1::obj-69" : [ "live.tab[29]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-3::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
+			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-4::obj-5::obj-1::obj-69" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-8" : [ "live.toggle[34]", "live.toggle", 0 ],
+			"obj-10::obj-2::obj-1::obj-69" : [ "live.tab[30]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-78" : [ "live.toggle[27]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-78" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-10::obj-7::obj-1::obj-69" : [ "live.tab[26]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-22" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-1::obj-84" : [ "live.toggle[15]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -425,27 +669,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "xosc_imu.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xosc_imu.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xosc_imu.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "cue_manager.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
@@ -477,6 +700,27 @@
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.module.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
 				"type" : "JSON",
 				"implicit" : 1
 			}
