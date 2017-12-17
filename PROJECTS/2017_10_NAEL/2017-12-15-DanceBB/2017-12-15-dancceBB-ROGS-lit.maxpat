@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 338.0, 151.0, 1310.0, 590.0 ],
+		"rect" : [ 94.0, 352.0, 1310.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 405.0, 50.0, 35.0 ],
+					"patching_rect" : [ 690.0, 339.0, 50.0, 35.0 ],
 					"style" : "",
 					"text" : "0.891363"
 				}
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 690.0, 360.0, 151.0, 22.0 ],
+					"patching_rect" : [ 690.0, 294.0, 151.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive /xosc3ax/out/final"
 				}
@@ -71,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 405.0, 50.0, 35.0 ],
+					"patching_rect" : [ 510.0, 339.0, 50.0, 35.0 ],
 					"style" : "",
 					"text" : "0.492095"
 				}
@@ -84,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 510.0, 360.0, 151.0, 22.0 ],
+					"patching_rect" : [ 510.0, 294.0, 151.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive /xosc2ax/out/final"
 				}
@@ -97,9 +97,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 405.0, 97.0, 22.0 ],
+					"patching_rect" : [ 318.0, 339.0, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "0.020512"
+					"text" : "0.228145"
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 315.0, 360.0, 161.0, 22.0 ],
+					"patching_rect" : [ 315.0, 294.0, 161.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive /xosc1ax/out/final"
 				}
@@ -175,7 +175,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "cam_small" ],
@@ -473,7 +472,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 88.0, 414.0, 89.0, 22.0 ],
+					"patching_rect" : [ 88.0, 348.0, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 268.0, 188.0, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
@@ -786,7 +785,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 912.0, 431.0, 102.0, 22.0 ],
+					"patching_rect" : [ 893.0, 322.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1096,7 +1095,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.0, 300.0, 45.0, 45.0 ],
+					"patching_rect" : [ 1031.0, 234.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 319.0, 45.0, 45.0 ],
 					"style" : ""
