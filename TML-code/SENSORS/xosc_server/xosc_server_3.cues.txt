@@ -1575,7 +1575,7 @@
 /xosc1/gyro/roll/active 1
 /xosc1/gyro/temp/active 0
 /xosc1/gyro/yaw/active 1
-/xosc1/gyro/preview 0
+/xosc1/gyro/preview 1
 /xosc1/port/in 8000
 # 
 /xosc1aq/scale/input/max 0.070000
@@ -1599,7 +1599,7 @@
 /xosc1aq/schmitt/lower 0.400000
 /xosc1aq/schmitt/on 1
 /xosc1aq/schmitt/ramp 0
-/xosc1aq/schmitt/upper 0.700000
+/xosc1aq/schmitt/upper 0.600000
 /xosc1aq/slide/down 1
 /xosc1aq/slide/up 0
 /xosc1aq/clip 1
@@ -1634,7 +1634,7 @@
 /xosc1ax/clip 1
 /xosc1ax/diffMode 0
 /xosc1ax/offset 0.000000
-/xosc1ax/visualize 1
+/xosc1ax/visualize 0
 # 
 /xosc1ay/scale/input/max 100.000000
 /xosc1ay/scale/input/min 0.000000
@@ -1663,7 +1663,7 @@
 /xosc1ay/clip 1
 /xosc1ay/diffMode 0
 /xosc1ay/offset 0.000000
-/xosc1ay/visualize 1
+/xosc1ay/visualize 0
 # 
 /xosc1az/scale/input/max 100.000000
 /xosc1az/scale/input/min 0.000000
@@ -1692,7 +1692,7 @@
 /xosc1az/clip 1
 /xosc1az/diffMode 0
 /xosc1az/offset 0.000000
-/xosc1az/visualize 1
+/xosc1az/visualize 0
 # 
 /xosc1gp/scale/input/max 0.200000
 /xosc1gp/scale/input/min -0.200000
@@ -1779,7 +1779,7 @@
 /xosc1gr/clip 1
 /xosc1gr/diffMode 0
 /xosc1gr/offset 0.000000
-/xosc1gr/visualize 1
+/xosc1gr/visualize 0
 # 
 /xosc1gy/scale/input/max 0.200000
 /xosc1gy/scale/input/min -0.200000
@@ -1790,7 +1790,7 @@
 /xosc1gy/function/symmetry none
 /xosc1gy/function/parameter2 1.040000
 /xosc1gy/function/parameter1 21.000000
-/xosc1gy/data/active 0
+/xosc1gy/data/active 1
 /xosc1gy/data/bypass 0
 /xosc1gy/filter/mode 1
 /xosc1gy/filter/samples 20
@@ -1808,9 +1808,9 @@
 /xosc1gy/clip 1
 /xosc1gy/diffMode 0
 /xosc1gy/offset 0.000000
-/xosc1gy/visualize 1
+/xosc1gy/visualize 0
 # 
-/xosc2/acc/orientation/preview 0
+/xosc2/acc/orientation/preview 1
 /xosc2/acc/pitch/active 0
 /xosc2/acc/pitch/invert 0
 /xosc2/acc/pitch/offset 0.000000
@@ -1855,7 +1855,7 @@
 /xosc2aq/clip 1
 /xosc2aq/diffMode 0
 /xosc2aq/offset 0.000000
-/xosc2aq/visualize 1
+/xosc2aq/visualize 0
 # 
 /xosc2ax/scale/input/max 100.000000
 /xosc2ax/scale/input/min 0.000000
@@ -2029,7 +2029,7 @@
 /xosc2gr/clip 1
 /xosc2gr/diffMode 0
 /xosc2gr/offset 0.000000
-/xosc2gr/visualize 1
+/xosc2gr/visualize 0
 # 
 /xosc2gy/scale/input/max 0.200000
 /xosc2gy/scale/input/min -0.200000
@@ -2040,7 +2040,7 @@
 /xosc2gy/function/symmetry none
 /xosc2gy/function/parameter2 1.040000
 /xosc2gy/function/parameter1 21.000000
-/xosc2gy/data/active 0
+/xosc2gy/data/active 1
 /xosc2gy/data/bypass 0
 /xosc2gy/filter/mode 1
 /xosc2gy/filter/samples 20
@@ -2058,7 +2058,7 @@
 /xosc2gy/clip 1
 /xosc2gy/diffMode 0
 /xosc2gy/offset 0.000000
-/xosc2gy/visualize 1
+/xosc2gy/visualize 0
 # 
 /xosc3/acc/orientation/preview 0
 /xosc3/acc/pitch/active 0
@@ -2105,7 +2105,7 @@
 /xosc3aq/clip 1
 /xosc3aq/diffMode 0
 /xosc3aq/offset 0.000000
-/xosc3aq/visualize 1
+/xosc3aq/visualize 0
 # 
 /xosc3ax/scale/input/max 100.000000
 /xosc3ax/scale/input/min 0.000000
@@ -2279,7 +2279,7 @@
 /xosc3gr/clip 1
 /xosc3gr/diffMode 0
 /xosc3gr/offset 0.000000
-/xosc3gr/visualize 1
+/xosc3gr/visualize 0
 # 
 /xosc3gy/scale/input/max 0.200000
 /xosc3gy/scale/input/min -0.200000
@@ -2290,7 +2290,7 @@
 /xosc3gy/function/symmetry none
 /xosc3gy/function/parameter2 1.040000
 /xosc3gy/function/parameter1 21.000000
-/xosc3gy/data/active 0
+/xosc3gy/data/active 1
 /xosc3gy/data/bypass 0
 /xosc3gy/filter/mode 1
 /xosc3gy/filter/samples 20
@@ -2308,7 +2308,7 @@
 /xosc3gy/clip 1
 /xosc3gy/diffMode 0
 /xosc3gy/offset 0.000000
-/xosc3gy/visualize 1
+/xosc3gy/visualize 0
 # 
 # ###########################################
 
