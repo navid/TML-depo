@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 395.0, 181.0, 966.0, 697.0 ],
+		"rect" : [ 39.0, 78.0, 1324.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,42 @@
 		"style" : "",
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1065.0, 90.0, 158.0, 22.0 ],
+					"presentation_rect" : [ 1062.0, 86.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "j.receive /gl_motion/mass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "camqs" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "j.nav.scale.module.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1065.0, 120.0, 150.0, 245.0 ],
+					"presentation_rect" : [ 1062.0, 116.0, 150.0, 245.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "message",
@@ -408,7 +444,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_in_mass" ],
+					"args" : [ "camql" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -430,7 +466,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_in_y" ],
+					"args" : [ "camy" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -452,7 +488,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "cam_in_x" ],
+					"args" : [ "camx" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -578,6 +614,13 @@
 					"midpoints" : [ 144.500031, 798.0, 144.500031, 798.0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -742,18 +785,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-50" : [ "live.tab[4]", "live.tab[3]", 0 ],
-			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ],
-			"obj-75::obj-1::obj-34" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
-			"obj-75::obj-1::obj-29" : [ "live.text[5]", "live.text", 0 ],
-			"obj-85" : [ "live.text", "live.text", 0 ],
 			"obj-75::obj-1::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-37::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-29" : [ "live.text[5]", "live.text", 0 ],
+			"obj-3::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-85" : [ "live.text", "live.text", 0 ],
+			"obj-36::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-34" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-38::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-75::obj-1::obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-50" : [ "live.tab[4]", "live.tab[3]", 0 ],
+			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
 			"obj-75::obj-1::obj-35" : [ "live.text[2]", "live.text", 0 ],
-			"obj-36::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ]
+			"obj-75::obj-1::obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1037,17 +1081,11 @@
 			}
 , 			{
 				"name" : "EAMIR",
-				"newobj" : 				{
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ]
-				}
-,
 				"default" : 				{
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -1058,14 +1096,20 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+				}
+,
+				"newobj" : 				{
 					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -1076,7 +1120,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ]
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

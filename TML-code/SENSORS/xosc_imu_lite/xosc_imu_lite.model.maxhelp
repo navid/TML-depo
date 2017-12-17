@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 636.0, 279.0, 811.0, 532.0 ],
+		"rect" : [ 332.0, 298.0, 811.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,11 +103,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 636.0, 305.0, 811.0, 506.0 ],
+						"rect" : [ 332.0, 324.0, 811.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -142,9 +142,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 405.0, 210.0, 100.0 ],
+									"patching_rect" : [ 15.0, 405.0, 300.0, 100.0 ],
 									"style" : "",
-									"text" : "In order to minimize excess parameter registration, there are three versions of this model:\n\nxosc_imu - IMU (motion) data\nxosc_io - analog/digital inputs\nxosc_full - both IMU and inputs"
+									"text" : "In order to minimize excess parameter registration, there are three versions of this model:\n\nxosc_imu_lite - minimal IMU data - only acc and gyro\nxosc_imu - IMU (motion) data\nxosc_io - analog/digital inputs\nxosc_full - both IMU and inputs"
 								}
 
 							}
@@ -300,7 +300,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 330.0, 199.0, 100.0 ],
+									"patching_rect" : [ 330.0, 315.0, 199.0, 100.0 ],
 									"style" : "",
 									"text" : "* Notes:\n\n-The accelerometer channels sit at a constant bias when the device is rotated. Perhaps we should add a DC block option in order to get only changing values?"
 								}
@@ -331,7 +331,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1651,7 +1651,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "xosc_imu1" ],
+									"args" : [ "xosc1" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1660,13 +1660,13 @@
 									"id" : "obj-2",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "xosc_imu.view.maxpat",
-									"numinlets" : 1,
+									"name" : "xosc_imu_lite.module.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 75.0, 300.0, 105.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
+									"patching_rect" : [ 15.0, 75.0, 300.0, 140.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1687,7 +1687,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "@name", "xosc_imu.model", "@description", "Acquire sensor data from an x-OSC. Only reports IMU data." ],
+									"args" : [ "@name", "xosc_imu_lite.model", "@description", "Acquire sensor data from an x-OSC. Only reports normalized IMU data from accelerometer and gyro." ],
 									"bgmode" : 1,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1754,11 +1754,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 811.0, 506.0 ],
+						"rect" : [ 0.0, 26.0, 811.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1808,23 +1808,23 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-34::obj-2::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-49" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-34::obj-2::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-50" : [ "live.text[3]", "live.text", 0 ],
-			"obj-34::obj-2::obj-45" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-47" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-34::obj-2::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34::obj-2::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
 			"obj-34::obj-58::obj-32" : [ "live.tab", "live.tab", 0 ],
-			"obj-34::obj-2::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-64" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-34::obj-2::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-34::obj-2::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-34::obj-2::obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-34::obj-2::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-34::obj-2::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ]
+			"obj-34::obj-2::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
+			"obj-34::obj-2::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-34::obj-2::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1844,13 +1844,40 @@
 , 			{
 				"name" : "xosc_imu.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
+				"patcherrelativepath" : "../xosc_imu",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.qom.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.module.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "xosc_imu.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu",
+				"name" : "xosc_imu_lite.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xosc_imu_lite.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1868,6 +1895,34 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.delta.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -1876,11 +1931,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
  ],
