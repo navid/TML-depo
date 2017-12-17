@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 484.0, 494.0, 217.0, 105.0 ],
+		"rect" : [ 282.0, 542.0, 217.0, 105.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -56,9 +56,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 60.0, 180.0, 22.0 ],
+					"patching_rect" : [ 15.0, 60.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "xosc_udp_receive /xosc1 #1"
+					"text" : "cam_udp_receive /cam #1"
 				}
 
 			}
@@ -71,6 +71,34 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "cam_udp_receive.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/cam_client/_cam_client_abstractions/cam_udp_receive",
+				"patcherrelativepath" : "./_cam_client_abstractions/cam_udp_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.nav.scale_dummy.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/j.nav.scale_dummy",
+				"patcherrelativepath" : "../../../../SENSORS/j.nav.scale_dummy",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

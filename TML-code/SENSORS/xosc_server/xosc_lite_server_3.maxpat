@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 120.0, 148.0, 964.0, 571.0 ],
+		"rect" : [ 47.0, 78.0, 964.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 375.0, 30.0, 20.0 ],
-					"presentation_rect" : [ 149.0, 371.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "port"
 				}
@@ -131,6 +130,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -313,7 +313,7 @@
 					"patching_rect" : [ 150.0, 435.0, 75.0, 30.0 ],
 					"style" : "",
 					"tabmode" : 0,
-					"text" : "80051"
+					"text" : "80052"
 				}
 
 			}
@@ -727,133 +727,133 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-1::obj-1::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-1::obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-22" : [ "live.text[7]", "live.text", 0 ],
+			"obj-9::obj-1::obj-84" : [ "live.toggle[26]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-69" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-1::obj-69" : [ "live.text[3]", "live.text", 0 ],
+			"obj-10::obj-3::obj-1::obj-69" : [ "live.tab[19]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-84" : [ "live.toggle[15]", "live.toggle", 0 ],
 			"obj-10::obj-5::obj-1::obj-69" : [ "live.tab[28]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-1::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-69" : [ "live.text[6]", "live.text", 0 ],
-			"obj-2::obj-1::obj-22" : [ "live.text[4]", "live.text", 0 ],
-			"obj-3::obj-3::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-86" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
 			"obj-2::obj-1::obj-38" : [ "live.toggle[18]", "live.toggle", 0 ],
 			"obj-3::obj-1::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-4::obj-2::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-1::obj-195" : [ "live.toggle[35]", "live.toggle", 0 ],
-			"obj-4::obj-6::obj-1::obj-69" : [ "live.tab[17]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-84" : [ "live.toggle[26]", "live.toggle", 0 ],
-			"obj-10::obj-3::obj-1::obj-69" : [ "live.tab[19]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-18" : [ "live.toggle[32]", "live.toggle", 0 ],
-			"obj-10::obj-8::obj-1::obj-69" : [ "live.tab[23]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-18" : [ "live.toggle[21]", "live.toggle", 0 ],
-			"obj-3::obj-6::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-2::obj-1::obj-78" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-1::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-1::obj-34" : [ "multislider[8]", "multislider[1]", 0 ],
-			"obj-4::obj-4::obj-1::obj-69" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-40" : [ "live.toggle[30]", "live.toggle", 0 ],
-			"obj-10::obj-1::obj-1::obj-69" : [ "live.tab[24]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-86" : [ "live.toggle[25]", "live.toggle", 0 ],
-			"obj-10::obj-6::obj-1::obj-69" : [ "live.tab[27]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-38" : [ "live.toggle[29]", "live.toggle", 0 ],
-			"obj-1::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-19" : [ "live.text[5]", "live.text", 0 ],
-			"obj-3::obj-4::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-2::obj-1::obj-16" : [ "live.toggle[22]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-40" : [ "live.toggle[19]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-34" : [ "multislider[10]", "multislider[1]", 0 ],
-			"obj-4::obj-7::obj-1::obj-69" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-78" : [ "live.toggle[27]", "live.toggle", 0 ],
-			"obj-10::obj-4::obj-1::obj-69" : [ "live.tab[29]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-16" : [ "live.toggle[33]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-42" : [ "live.toggle[31]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[24]", "live.toggle", 0 ],
-			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-8" : [ "live.toggle[23]", "live.toggle", 0 ],
-			"obj-3::obj-7::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-1::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-1::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-79" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-1::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-42" : [ "live.toggle[20]", "live.toggle", 0 ],
-			"obj-4::obj-5::obj-1::obj-69" : [ "live.tab[16]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-28" : [ "multislider[11]", "multislider[1]", 0 ],
-			"obj-10::obj-2::obj-1::obj-69" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-9::obj-1::obj-8" : [ "live.toggle[34]", "live.toggle", 0 ],
 			"obj-9::obj-1::obj-79" : [ "live.toggle[28]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-28" : [ "multislider[11]", "multislider[1]", 0 ],
+			"obj-3::obj-7::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-86" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-42" : [ "live.toggle[31]", "live.toggle", 0 ],
+			"obj-4::obj-4::obj-1::obj-69" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-86" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-10::obj-1::obj-1::obj-69" : [ "live.tab[24]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-16" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-19" : [ "live.text[5]", "live.text", 0 ],
+			"obj-1::obj-1::obj-78" : [ "live.toggle[10]", "live.toggle", 0 ],
 			"obj-10::obj-7::obj-1::obj-69" : [ "live.tab[26]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-69" : [ "live.text[3]", "live.text", 0 ],
+			"obj-9::obj-1::obj-1::obj-195" : [ "live.toggle[35]", "live.toggle", 0 ],
+			"obj-3::obj-2::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-16" : [ "live.toggle[33]", "live.toggle", 0 ],
 			"obj-3::obj-5::obj-1::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-79" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-84" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-34" : [ "multislider[10]", "multislider[1]", 0 ],
+			"obj-4::obj-2::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-18" : [ "live.toggle[32]", "live.toggle", 0 ],
+			"obj-4::obj-7::obj-1::obj-69" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-8" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-18" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-78" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-40" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-1::obj-195" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-69" : [ "live.text[6]", "live.text", 0 ],
+			"obj-3::obj-3::obj-1::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-9::obj-1::obj-40" : [ "live.toggle[30]", "live.toggle", 0 ],
+			"obj-3::obj-8::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
 			"obj-1::obj-1::obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-1::obj-84" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-19" : [ "live.text[8]", "live.text", 0 ],
+			"obj-4::obj-5::obj-1::obj-69" : [ "live.tab[16]", "live.tab", 0 ],
 			"obj-1::obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
 			"obj-2::obj-1::obj-28" : [ "multislider[9]", "multislider[1]", 0 ],
+			"obj-10::obj-2::obj-1::obj-69" : [ "live.tab[30]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-34" : [ "multislider[8]", "multislider[1]", 0 ],
+			"obj-2::obj-1::obj-79" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-10::obj-8::obj-1::obj-69" : [ "live.tab[23]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-1::obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-8" : [ "live.toggle[34]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-86" : [ "live.toggle[25]", "live.toggle", 0 ],
+			"obj-3::obj-6::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-1::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-78" : [ "live.toggle[27]", "live.toggle", 0 ],
 			"obj-4::obj-3::obj-1::obj-69" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-69" : [ "live.text[2]", "live.text", 0 ],
-			"obj-9::obj-1::obj-19" : [ "live.text[8]", "live.text", 0 ],
-			"obj-4::obj-8::obj-1::obj-69" : [ "live.tab[18]", "live.tab", 0 ]
+			"obj-4::obj-8::obj-1::obj-69" : [ "live.tab[18]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-8" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-10::obj-4::obj-1::obj-69" : [ "live.tab[29]", "live.tab", 0 ],
+			"obj-2::obj-1::obj-22" : [ "live.text[4]", "live.text", 0 ],
+			"obj-10::obj-6::obj-1::obj-69" : [ "live.tab[27]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-1::obj-42" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-38" : [ "live.toggle[29]", "live.toggle", 0 ],
+			"obj-3::obj-4::obj-1::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-1::obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-22" : [ "live.text[7]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "xosc_scale.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_scale",
-				"patcherrelativepath" : "../xosc_scale",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_server/_xosc_server_abstractions/xosc_scale",
+				"patcherrelativepath" : "./_xosc_server_abstractions/xosc_scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xosc_udp_send.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_udp",
-				"patcherrelativepath" : "../xosc_udp",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_server/_xosc_server_abstractions/xosc_udp",
+				"patcherrelativepath" : "./_xosc_server_abstractions/xosc_udp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xosc_scale_route.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2017_10_NAEL/_x-OSC/xosc_scale_route",
-				"patcherrelativepath" : "../xosc_scale_route",
+				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_server/_xosc_server_abstractions/xosc_scale_route",
+				"patcherrelativepath" : "./_xosc_server_abstractions/xosc_scale_route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.module.maxpat",
 				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
+				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.model.maxpat",
 				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
+				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.autoscale.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.qom.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -866,63 +866,63 @@
 , 			{
 				"name" : "j.nav.scale.view.maxpat",
 				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
-				"patcherrelativepath" : "../../../../../Nav/Jamoma-v1/j.nav.scale",
+				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.datetime.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
-				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xosc_imu_lite.module.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../xosc_imu_lite",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xosc_imu_lite.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../xosc_imu_lite",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xosc_imu_lite.view.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/SENSORS/xosc_imu_lite",
-				"patcherrelativepath" : "../../../../TML-code/SENSORS/xosc_imu_lite",
+				"patcherrelativepath" : "../xosc_imu_lite",
 				"type" : "JSON",
 				"implicit" : 1
 			}

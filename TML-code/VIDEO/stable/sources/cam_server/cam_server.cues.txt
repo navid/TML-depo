@@ -1,0 +1,226 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/camql/scale/input/max 100.000000
+/camql/scale/input/min 0.000000
+/camql/scale/max 1.000000
+/camql/scale/min 0.000000
+/camql/scale/mode 3
+/camql/scale/window 500
+/camql/function/symmetry none
+/camql/function/parameter2 1.040000
+/camql/function/parameter1 21.000000
+/camql/data/active 1
+/camql/data/bypass 0
+/camql/filter/mode 1
+/camql/filter/samples 10
+/camql/pre-slide/down 3
+/camql/pre-slide/up 3
+/camql/ramp/grain 1
+/camql/ramp/time 0
+/camql/schmitt/debounce 0
+/camql/schmitt/lower 0.700000
+/camql/schmitt/on 1
+/camql/schmitt/ramp 0
+/camql/schmitt/upper 0.300000
+/camql/slide/down 1
+/camql/slide/up 1
+/camql/clip 1
+/camql/diffMode 0
+/camql/offset 0.000000
+/camql/visualize 1
+# 
+/camqs/scale/input/max 100.000000
+/camqs/scale/input/min 0.000000
+/camqs/scale/max 1.000000
+/camqs/scale/min 0.000000
+/camqs/scale/mode 3
+/camqs/scale/window 500
+/camqs/function/symmetry none
+/camqs/function/parameter2 1.040000
+/camqs/function/parameter1 21.000000
+/camqs/data/active 1
+/camqs/data/bypass 0
+/camqs/filter/mode 1
+/camqs/filter/samples 10
+/camqs/pre-slide/down 3
+/camqs/pre-slide/up 3
+/camqs/ramp/grain 1
+/camqs/ramp/time 0
+/camqs/schmitt/debounce 0
+/camqs/schmitt/lower 0.700000
+/camqs/schmitt/on 1
+/camqs/schmitt/ramp 0
+/camqs/schmitt/upper 0.300000
+/camqs/slide/down 1
+/camqs/slide/up 1
+/camqs/clip 1
+/camqs/diffMode 0
+/camqs/offset 0.000000
+/camqs/visualize 1
+# 
+/camx/scale/input/max 100.000000
+/camx/scale/input/min 0.000000
+/camx/scale/max 1.000000
+/camx/scale/min 0.000000
+/camx/scale/mode 3
+/camx/scale/window 500
+/camx/function/symmetry none
+/camx/function/parameter2 1.040000
+/camx/function/parameter1 21.000000
+/camx/data/active 1
+/camx/data/bypass 0
+/camx/filter/mode 1
+/camx/filter/samples 10
+/camx/pre-slide/down 3
+/camx/pre-slide/up 3
+/camx/ramp/grain 1
+/camx/ramp/time 0
+/camx/schmitt/debounce 0
+/camx/schmitt/lower 0.700000
+/camx/schmitt/on 1
+/camx/schmitt/ramp 0
+/camx/schmitt/upper 0.300000
+/camx/slide/down 1
+/camx/slide/up 1
+/camx/clip 1
+/camx/diffMode 0
+/camx/offset 0.000000
+/camx/visualize 1
+# 
+/camy/scale/input/max 100.000000
+/camy/scale/input/min 0.000000
+/camy/scale/max 1.000000
+/camy/scale/min 0.000000
+/camy/scale/mode 3
+/camy/scale/window 500
+/camy/function/symmetry none
+/camy/function/parameter2 1.040000
+/camy/function/parameter1 21.000000
+/camy/data/active 1
+/camy/data/bypass 0
+/camy/filter/mode 1
+/camy/filter/samples 10
+/camy/pre-slide/down 3
+/camy/pre-slide/up 3
+/camy/ramp/grain 1
+/camy/ramp/time 0
+/camy/schmitt/debounce 0
+/camy/schmitt/lower 0.700000
+/camy/schmitt/on 1
+/camy/schmitt/ramp 0
+/camy/schmitt/upper 0.300000
+/camy/slide/down 1
+/camy/slide/up 1
+/camy/clip 1
+/camy/diffMode 0
+/camy/offset 0.000000
+/camy/visualize 1
+# 
+/rota/data/active 1
+/rota/data/bypass 0
+/rota/context test
+/rota/active 1
+/rota/adapt 1
+/rota/anchor 0.500000 0.500000
+/rota/antialias 0
+/rota/automatic 1
+/rota/boundmode wrap
+/rota/dim 720.000000 480.000000
+/rota/offset 0.000000 0.000000
+/rota/rect 0.000000 0.000000 1.000000 1.000000
+/rota/texrect 0.000000 0.000000 1.000000 1.000000
+/rota/theta 0.000000
+/rota/zoom 1.000000 1.000000
+# 
+/cam/motionprocessor 3
+/cam/framediff 1
+/cam/operator 0
+/cam/slide 0
+/cam/slide_up 0.000000
+/cam/slide_down 0.000000
+# 
+/cam/post_slide/context test
+/cam/post_slide/active 1
+/cam/post_slide/automatic 1
+/cam/post_slide/antialias 0
+/cam/post_slide/adapt 1
+/cam/post_slide/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/post_slide/rect 0.000000 0.000000 1.000000 1.000000
+/cam/post_slide/dim 720.000000 480.000000
+/cam/post_slide/vertex 0
+/cam/post_slide/decay 0.000000
+/cam/post_slide/attack 0.900000
+/cam/post_slide/data/active 1
+/cam/post_slide/data/bypass 0
+/cam/blur 0.100000
+/cam/colour 0
+/cam/invert 0
+/cam/weight 0.351000
+/cam/data/active 1
+/cam/data/bypass 0
+/cam/context test
+/cam/active 1
+/cam/automatic 1
+/cam/antialias 0
+/cam/adapt 1
+/cam/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/rect 0.000000 0.000000 1.000000 1.000000
+/cam/dim 720.000000 480.000000
+/cam/edge 0
+# 
+/cam/gl_pix_sobel/weight 0.351000
+/cam/gl_pix_sobel/context test
+/cam/gl_pix_sobel/active 1
+/cam/gl_pix_sobel/automatic 1
+/cam/gl_pix_sobel/antialias 0
+/cam/gl_pix_sobel/adapt 1
+/cam/gl_pix_sobel/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_sobel/rect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_sobel/dim 720.000000 480.000000
+/cam/gl_pix_sobel/data/active 1
+/cam/gl_pix_sobel/data/bypass 0
+# 
+/cam/gl_pix_roberts/weight 0.351000
+/cam/gl_pix_roberts/context test
+/cam/gl_pix_roberts/active 1
+/cam/gl_pix_roberts/automatic 1
+/cam/gl_pix_roberts/antialias 0
+/cam/gl_pix_roberts/adapt 1
+/cam/gl_pix_roberts/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_roberts/rect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_roberts/dim 720.000000 480.000000
+/cam/gl_pix_roberts/data/active 1
+/cam/gl_pix_roberts/data/bypass 0
+/cam/denoise 1
+/cam/threshold 0.100000
+# 
+/cam/gl_pix_thresh/select 0
+/cam/gl_pix_thresh/thresh 0.100000
+/cam/gl_pix_thresh/context test
+/cam/gl_pix_thresh/active 1
+/cam/gl_pix_thresh/automatic 1
+/cam/gl_pix_thresh/antialias 0
+/cam/gl_pix_thresh/adapt 1
+/cam/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_pix_thresh/dim 720.000000 480.000000
+/cam/gl_pix_thresh/data/active 1
+/cam/gl_pix_thresh/data/bypass 0
+# 
+/cam/gl_cf_gaussian_2p/width/y 1.000000
+/cam/gl_cf_gaussian_2p/width/x 1.000000
+/cam/gl_cf_gaussian_2p/context test
+/cam/gl_cf_gaussian_2p/active 1
+/cam/gl_cf_gaussian_2p/automatic 1
+/cam/gl_cf_gaussian_2p/antialias 0
+/cam/gl_cf_gaussian_2p/adapt 1
+/cam/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
+/cam/gl_cf_gaussian_2p/dim 720.000000 480.000000
+/cam/gl_cf_gaussian_2p/data/active 1
+/cam/gl_cf_gaussian_2p/data/bypass 0
+# 
+# ###########################################
+

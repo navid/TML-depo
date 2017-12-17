@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 161.0, -966.0, 1013.0, 908.0 ],
+		"rect" : [ 161.0, 78.0, 1013.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -66,13 +66,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 420.0, 180.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 42.0, 94.666664, 20.0 ],
+					"presentation_rect" : [ 6.0, 42.0, 141.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "off", "CPU", "GPU" ],
+							"parameter_enum" : [ "off", "CPU", "GPU", "async" ],
 							"parameter_unitstyle" : 0
 						}
 
