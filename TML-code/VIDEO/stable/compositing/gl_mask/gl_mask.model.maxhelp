@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 686.0, 294.0, 720.0, 517.0 ],
+		"rect" : [ 696.0, 158.0, 720.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 686.0, 320.0, 720.0, 491.0 ],
+						"rect" : [ 696.0, 184.0, 720.0, 491.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -279,7 +279,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 180.0, 300.0, 105.0 ],
+									"patching_rect" : [ 210.0, 90.0, 300.0, 105.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 									"viewvisibility" : 1
 								}
@@ -353,19 +353,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 180.0, 100.0, 22.0 ],
-									"style" : "",
-									"text" : "loadmess 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -374,63 +361,6 @@
 									"patching_rect" : [ 15.0, 450.0, 229.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.videoplane default @scale 1.33 1. 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "wheel.mov",
-												"filekind" : "moviefile",
-												"loop" : 1,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u237004501" ],
-													"dim" : [ 1, 1 ],
-													"engine" : [ "avf" ],
-													"loopreport" : [ 0 ],
-													"colormode" : [ "argb" ],
-													"usedstrect" : [ 0 ],
-													"autostart" : [ 1 ],
-													"loopstart" : [ 0 ],
-													"adapt" : [ 1 ],
-													"timescale" : [ 600 ],
-													"output_texture" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"fps" : [ 0.0 ],
-													"interp" : [ 0 ],
-													"position" : [ 0.0 ],
-													"drawto" : [ "" ],
-													"vol" : [ 1.0 ],
-													"moviefile" : [ "" ],
-													"cache_size" : [ 0.1 ],
-													"loopend" : [ 0 ],
-													"framecount" : [ 0 ],
-													"texture_name" : [ "u390004499" ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"automatic" : [ 0 ],
-													"framereport" : [ 0 ],
-													"duration" : [ 0 ],
-													"time" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"time_secs" : [ 0.0 ],
-													"looppoints" : [ 0, 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"id" : "obj-2",
-									"maxclass" : "jit.playlist",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 15.0, 210.0, 150.0, 30.0 ],
-									"style" : ""
 								}
 
 							}
@@ -483,11 +413,31 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"attr" : "output_texture",
+									"id" : "obj-13",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.0, 270.0, 150.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -502,13 +452,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
 									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -628,6 +571,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-34::obj-8::obj-35::obj-5" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34::obj-8::obj-5" : [ "live.text[1]", "live.text", 0 ],
 			"obj-34::obj-8::obj-11" : [ "live.text", "live.text", 0 ]
 		}
 ,
@@ -643,12 +588,6 @@
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wheel.mov",
-				"bootpath" : "C74:/media/jitter",
-				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
@@ -711,6 +650,10 @@
 			}
 , 			{
 				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{

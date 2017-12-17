@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 571.0, 343.0, 691.0, 271.0 ],
+		"rect" : [ 288.0, 243.0, 850.0, 286.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,50 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.988235, 0.415686, 0.031373, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"linecount" : 6,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 165.0, 105.0, 89.0 ],
+					"style" : "",
+					"text" : "j.return dimin @type array @repetitions/filter 1 @description \"Dimensions of incoming texture.\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 135.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "zl slice 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 15.0, 60.0, 67.0, 22.0 ],
+					"style" : "",
+					"text" : "getattr dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.572549, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -47,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 165.0, 90.0, 57.0 ],
+					"patching_rect" : [ 675.0, 165.0, 90.0, 57.0 ],
 					"style" : "",
 					"text" : "j.model @description \"Generate a 2D mask.\"",
 					"varname" : "jmod.hub"
@@ -62,7 +106,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 240.0, 25.0, 25.0 ],
+					"patching_rect" : [ 675.0, 240.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -74,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 60.0, 92.0, 22.0 ],
+					"patching_rect" : [ 180.0, 60.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend drawto"
 				}
@@ -90,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 60.0, 15.0, 112.0, 21.0 ],
+					"patching_rect" : [ 180.0, 15.0, 112.0, 21.0 ],
 					"style" : "",
 					"text" : "j.receive GL/context",
 					"varname" : "tolerance[5]"
@@ -104,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 105.0, 72.0, 22.0 ],
+					"patching_rect" : [ 135.0, 105.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture"
 				}
@@ -118,7 +162,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 225.0, 30.0, 30.0 ],
+					"patching_rect" : [ 135.0, 225.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -131,8 +175,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 135.0, 15.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -144,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 105.0, 92.0, 22.0 ],
+					"patching_rect" : [ 675.0, 105.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend drawto"
 				}
@@ -160,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 555.0, 15.0, 112.0, 21.0 ],
+					"patching_rect" : [ 675.0, 15.0, 112.0, 21.0 ],
 					"style" : "",
 					"text" : "j.receive GL/context",
 					"varname" : "tolerance[4]"
@@ -178,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 180.0, 84.0, 33.0 ],
+					"patching_rect" : [ 135.0, 180.0, 84.0, 33.0 ],
 					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
@@ -193,7 +237,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 60.0, 37.0, 21.0 ],
+					"patching_rect" : [ 135.0, 60.0, 37.0, 21.0 ],
 					"style" : "",
 					"text" : "j.in 1"
 				}
@@ -210,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 15.0, 106.0, 57.0 ],
+					"patching_rect" : [ 315.0, 15.0, 106.0, 57.0 ],
 					"style" : "",
 					"text" : "j.parameter scale @type array @description \"Size of mask.\"",
 					"varname" : "tolerance[3]"
@@ -228,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 15.0, 106.0, 69.0 ],
+					"patching_rect" : [ 435.0, 15.0, 106.0, 69.0 ],
 					"style" : "",
 					"text" : "j.parameter angle @type float @description \"Rotation angle of mask.\"",
 					"varname" : "tolerance[1]"
@@ -246,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 435.0, 15.0, 79.0, 81.0 ],
+					"patching_rect" : [ 555.0, 15.0, 79.0, 81.0 ],
 					"style" : "",
 					"text" : "j.parameter center @type array @description \"Centre of mask.\"",
 					"varname" : "tolerance[2]"
@@ -260,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 105.0, 86.0, 22.0 ],
+					"patching_rect" : [ 315.0, 105.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend scale"
 				}
@@ -273,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 105.0, 87.0, 22.0 ],
+					"patching_rect" : [ 435.0, 105.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend angle"
 				}
@@ -286,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 105.0, 91.0, 22.0 ],
+					"patching_rect" : [ 555.0, 105.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend center"
 				}
@@ -396,7 +440,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 150.0, 51.0, 22.0 ],
+					"patching_rect" : [ 135.0, 150.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix"
 				}
@@ -455,7 +499,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 69.5, 93.0, 24.5, 93.0 ],
+					"midpoints" : [ 189.5, 93.0, 144.5, 93.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -470,15 +514,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 444.5, 138.0, 24.5, 138.0 ],
+					"midpoints" : [ 564.5, 138.0, 144.5, 138.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 324.5, 138.0, 24.5, 138.0 ],
+					"midpoints" : [ 444.5, 138.0, 144.5, 138.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -486,7 +537,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 204.5, 138.0, 24.5, 138.0 ],
+					"midpoints" : [ 324.5, 138.0, 144.5, 138.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -501,7 +552,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 564.5, 138.0, 24.5, 138.0 ],
+					"midpoints" : [ 684.5, 138.0, 144.5, 138.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -510,6 +561,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 48.5, 93.0, 144.5, 93.0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -540,33 +606,6 @@
 			}
 , 			{
 				"name" : "EAMIR",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
-				}
-,
-				"default" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
-						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
-				}
-,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgfillcolor" : 					{
@@ -580,6 +619,33 @@
 					}
 ,
 					"fontface" : [ 0 ]
+				}
+,
+				"default" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
+						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ]
+				}
+,
+				"newobj" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
