@@ -3096,11 +3096,11 @@
 /xosc1ax/offset 0.000000
 /xosc1ax/visualize 1
 # 
-/xosc1ay/scale/input/max 100.000000
+/xosc1ay/scale/input/max 0.017000
 /xosc1ay/scale/input/min 0.000000
 /xosc1ay/scale/max 1.000000
 /xosc1ay/scale/min 0.000000
-/xosc1ay/scale/mode 3
+/xosc1ay/scale/mode 5
 /xosc1ay/scale/window 2000
 /xosc1ay/function/symmetry none
 /xosc1ay/function/parameter2 1.040000
@@ -3123,7 +3123,7 @@
 /xosc1ay/clip 1
 /xosc1ay/diffMode 0
 /xosc1ay/offset 0.000000
-/xosc1ay/visualize 0
+/xosc1ay/visualize 1
 # 
 /xosc1az/scale/input/max 0.063205
 /xosc1az/scale/input/min -0.067610
@@ -3151,7 +3151,7 @@
 /xosc1az/slide/up 1
 /xosc1az/clip 1
 /xosc1az/diffMode 0
-/xosc1az/offset 0.000000
+/xosc1az/offset 0.013100
 /xosc1az/visualize 1
 # 
 /xosc1gp/scale/input/max 0.200000
@@ -3318,7 +3318,7 @@
 /xosc2aq/visualize 1
 # 
 /xosc2ax/scale/input/max 0.063000
-/xosc2ax/scale/input/min -0.641000
+/xosc2ax/scale/input/min -0.062500
 /xosc2ax/scale/max 1.000000
 /xosc2ax/scale/min -1.000000
 /xosc2ax/scale/mode 5
@@ -3346,11 +3346,11 @@
 /xosc2ax/offset 0.000000
 /xosc2ax/visualize 1
 # 
-/xosc2ay/scale/input/max 100.000000
+/xosc2ay/scale/input/max 0.019400
 /xosc2ay/scale/input/min 0.000000
 /xosc2ay/scale/max 1.000000
 /xosc2ay/scale/min 0.000000
-/xosc2ay/scale/mode 3
+/xosc2ay/scale/mode 5
 /xosc2ay/scale/window 2000
 /xosc2ay/function/symmetry none
 /xosc2ay/function/parameter2 1.040000
@@ -3373,7 +3373,7 @@
 /xosc2ay/clip 1
 /xosc2ay/diffMode 0
 /xosc2ay/offset 0.000000
-/xosc2ay/visualize 0
+/xosc2ay/visualize 1
 # 
 /xosc2az/scale/input/max 0.063000
 /xosc2az/scale/input/min -0.067610
