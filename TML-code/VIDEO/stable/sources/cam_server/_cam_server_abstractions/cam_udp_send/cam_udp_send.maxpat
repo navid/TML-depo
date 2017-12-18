@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -82,7 +82,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 60.0, 131.0, 22.0 ],
+					"patching_rect" : [ 210.0, 60.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "cam_scale_route #1qs"
 				}
@@ -95,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 15.0, 125.0, 22.0 ],
+					"patching_rect" : [ 210.0, 15.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "cam_scale_route #1y"
 				}
@@ -108,7 +108,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 60.0, 128.0, 22.0 ],
+					"patching_rect" : [ 30.0, 60.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "cam_scale_route #1ql"
 				}
@@ -121,7 +121,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 15.0, 125.0, 22.0 ],
+					"patching_rect" : [ 30.0, 15.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "cam_scale_route #1x"
 				}
@@ -146,7 +146,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 84.5, 174.0, 39.5, 174.0 ],
+					"midpoints" : [ 131.5, 183.0, 39.5, 183.0 ],
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 84.5, 183.0, 39.5, 183.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -176,19 +184,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "cam_scale_route.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/cam_scale_route",
-				"patcherrelativepath" : "../cam_scale_route",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

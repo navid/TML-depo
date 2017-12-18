@@ -1575,7 +1575,7 @@
 /xosc1/gyro/roll/active 1
 /xosc1/gyro/temp/active 0
 /xosc1/gyro/yaw/active 1
-/xosc1/gyro/preview 1
+/xosc1/gyro/preview 0
 /xosc1/port/in 8000
 # 
 /xosc1aq/scale/input/max 0.070000
@@ -1703,10 +1703,10 @@
 /xosc1gp/function/symmetry none
 /xosc1gp/function/parameter2 1.040000
 /xosc1gp/function/parameter1 21.000000
-/xosc1gp/data/active 0
+/xosc1gp/data/active 1
 /xosc1gp/data/bypass 0
 /xosc1gp/filter/mode 1
-/xosc1gp/filter/samples 20
+/xosc1gp/filter/samples 10
 /xosc1gp/pre-slide/down 3
 /xosc1gp/pre-slide/up 3
 /xosc1gp/ramp/grain 1
@@ -1764,7 +1764,7 @@
 /xosc1gr/data/active 1
 /xosc1gr/data/bypass 0
 /xosc1gr/filter/mode 1
-/xosc1gr/filter/samples 40
+/xosc1gr/filter/samples 30
 /xosc1gr/pre-slide/down 3
 /xosc1gr/pre-slide/up 3
 /xosc1gr/ramp/grain 1
@@ -1781,8 +1781,8 @@
 /xosc1gr/offset 0.000000
 /xosc1gr/visualize 0
 # 
-/xosc1gy/scale/input/max 0.200000
-/xosc1gy/scale/input/min -0.200000
+/xosc1gy/scale/input/max 0.260000
+/xosc1gy/scale/input/min -0.260000
 /xosc1gy/scale/max 1.000000
 /xosc1gy/scale/min -1.000000
 /xosc1gy/scale/mode 5
@@ -1793,7 +1793,7 @@
 /xosc1gy/data/active 1
 /xosc1gy/data/bypass 0
 /xosc1gy/filter/mode 1
-/xosc1gy/filter/samples 20
+/xosc1gy/filter/samples 10
 /xosc1gy/pre-slide/down 3
 /xosc1gy/pre-slide/up 3
 /xosc1gy/ramp/grain 1
@@ -1808,7 +1808,7 @@
 /xosc1gy/clip 1
 /xosc1gy/diffMode 0
 /xosc1gy/offset 0.000000
-/xosc1gy/visualize 0
+/xosc1gy/visualize 1
 # 
 /xosc2/acc/orientation/preview 1
 /xosc2/acc/pitch/active 0
