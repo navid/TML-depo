@@ -1,0 +1,12 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+angle 0.000000
+center -0.000000 0.000000
+data/active 1
+data/bypass 0
+scale 0.500000 0.500000
+# 
+# ###########################################
