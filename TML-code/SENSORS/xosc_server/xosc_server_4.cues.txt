@@ -3567,8 +3567,8 @@
 /xosc3aq/offset 0.000000
 /xosc3aq/visualize 0
 # 
-/xosc3ax/scale/input/max 0.063000
-/xosc3ax/scale/input/min -0.064100
+/xosc3ax/scale/input/max 0.062500
+/xosc3ax/scale/input/min -0.062500
 /xosc3ax/scale/max 1.000000
 /xosc3ax/scale/min -1.000000
 /xosc3ax/scale/mode 5
@@ -3596,11 +3596,11 @@
 /xosc3ax/offset 0.000000
 /xosc3ax/visualize 0
 # 
-/xosc3ay/scale/input/max 100.000000
-/xosc3ay/scale/input/min 0.000000
+/xosc3ay/scale/input/max 0.062500
+/xosc3ay/scale/input/min -0.062500
 /xosc3ay/scale/max 1.000000
 /xosc3ay/scale/min 0.000000
-/xosc3ay/scale/mode 3
+/xosc3ay/scale/mode 5
 /xosc3ay/scale/window 2000
 /xosc3ay/function/symmetry none
 /xosc3ay/function/parameter2 1.040000
@@ -3608,7 +3608,7 @@
 /xosc3ay/data/active 1
 /xosc3ay/data/bypass 0
 /xosc3ay/filter/mode 1
-/xosc3ay/filter/samples 40
+/xosc3ay/filter/samples 30
 /xosc3ay/pre-slide/down 3
 /xosc3ay/pre-slide/up 3
 /xosc3ay/ramp/grain 1
@@ -3625,12 +3625,12 @@
 /xosc3ay/offset 0.000000
 /xosc3ay/visualize 0
 # 
-/xosc3az/scale/input/max 0.110000
-/xosc3az/scale/input/min -0.067610
+/xosc3az/scale/input/max 0.062500
+/xosc3az/scale/input/min -0.062500
 /xosc3az/scale/max 1.000000
 /xosc3az/scale/min -1.000000
 /xosc3az/scale/mode 5
-/xosc3az/scale/window 500
+/xosc3az/scale/window 2000
 /xosc3az/function/symmetry none
 /xosc3az/function/parameter2 1.040000
 /xosc3az/function/parameter1 21.000000
@@ -3817,11 +3817,11 @@
 /xosc4aq/offset 0.000000
 /xosc4aq/visualize 1
 # 
-/xosc4ax/scale/input/max 100.000000
-/xosc4ax/scale/input/min 0.000000
+/xosc4ax/scale/input/max 0.062500
+/xosc4ax/scale/input/min -0.062500
 /xosc4ax/scale/max 1.000000
-/xosc4ax/scale/min 0.000000
-/xosc4ax/scale/mode 3
+/xosc4ax/scale/min -1.000000
+/xosc4ax/scale/mode 5
 /xosc4ax/scale/window 500
 /xosc4ax/function/symmetry none
 /xosc4ax/function/parameter2 1.040000
@@ -3846,11 +3846,11 @@
 /xosc4ax/offset 0.000000
 /xosc4ax/visualize 1
 # 
-/xosc4ay/scale/input/max 100.000000
-/xosc4ay/scale/input/min 0.000000
+/xosc4ay/scale/input/max 0.062500
+/xosc4ay/scale/input/min -0.062500
 /xosc4ay/scale/max 1.000000
-/xosc4ay/scale/min 0.000000
-/xosc4ay/scale/mode 3
+/xosc4ay/scale/min -1.000000
+/xosc4ay/scale/mode 5
 /xosc4ay/scale/window 500
 /xosc4ay/function/symmetry none
 /xosc4ay/function/parameter2 1.040000
@@ -3875,11 +3875,11 @@
 /xosc4ay/offset 0.000000
 /xosc4ay/visualize 1
 # 
-/xosc4az/scale/input/max 100.000000
-/xosc4az/scale/input/min 0.000000
+/xosc4az/scale/input/max 0.062500
+/xosc4az/scale/input/min -0.062500
 /xosc4az/scale/max 1.000000
-/xosc4az/scale/min 0.000000
-/xosc4az/scale/mode 3
+/xosc4az/scale/min -1.000000
+/xosc4az/scale/mode 5
 /xosc4az/scale/window 500
 /xosc4az/function/symmetry none
 /xosc4az/function/parameter2 1.040000

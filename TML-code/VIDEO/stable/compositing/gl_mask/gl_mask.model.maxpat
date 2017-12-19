@@ -621,7 +621,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "rotate2d(_angle){\n    return vec(cos(_angle),-sin(_angle), sin(_angle), cos(_angle));\n}\r\n\r\nParam scale (0.1, 0.1);\r\nParam center (0.5, 0.5);\r\nParam angle (0.);\r\n\r\ns = scale / 2.;\r\n\r\nst = norm;\r\nst -= vec(0.5, 0.5);\r\nrot = rotate2d(-2*angle*PI);\r\nst = vec((rot.r * st.x)+(rot.g * st.y),(rot.b * st.x) + (rot.a * st.y)) ;\r\nst += vec(0.5, 0.5);\r\nst += vec((rot.r * center.x)+(rot.g * center.y),(rot.b * center.x) + (rot.a * center.y));\r\nw = ((st.x > (0.5 - s.x)) * (st.x < (0.5 + s.x)));\r\nh = ((st.y > (0.5 - s.y)) * (st.y < (0.5 + s.y)));\r\n\r\nmask = w * h * 1;\r\n\r\nout1 = mask;",
+									"code" : "rotate2d(_angle){\n    return vec(cos(_angle),-sin(_angle), sin(_angle), cos(_angle));\n}\r\n\r\nParam scale (0.1, 0.1);\r\nParam center (0.5, 0.5);\r\nParam angle (0.);\r\n\r\ns = scale / 2.;\r\no = in1;\r\nst = norm;\r\nst -= vec(0.5, 0.5);\r\nrot = rotate2d(-2*angle*PI);\r\nst = vec((rot.r * st.x)+(rot.g * st.y),(rot.b * st.x) + (rot.a * st.y)) ;\r\nst += vec(0.5, 0.5);\r\nst += vec((rot.r * center.x)+(rot.g * center.y),(rot.b * center.x) + (rot.a * center.y));\r\nw = ((st.x > (0.5 - s.x)) * (st.x < (0.5 + s.x)));\r\nh = ((st.y > (0.5 - s.y)) * (st.y < (0.5 + s.y)));\r\n\r\nmask = w * h * 1;\r\n\r\nout1 = mask;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
