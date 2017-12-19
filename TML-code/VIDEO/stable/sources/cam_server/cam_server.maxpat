@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 182.0, 78.0, 685.0, 784.0 ],
+		"rect" : [ 437.0, 88.0, 685.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,80 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 390.0, 98.0, 22.0 ],
+					"style" : "",
+					"text" : "cam_scale /mo1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "mo1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-26",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "gl_motion_analyzer.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 570.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "mask1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "gl_mask.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 720.0, 390.0, 150.0, 175.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 495.0, 45.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "vdevice 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 390.0, 97.0, 22.0 ],
+					"patching_rect" : [ 14.0, 390.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "cam_scale /cam"
 				}
@@ -708,7 +777,7 @@
 					"patching_rect" : [ 150.0, 300.0, 75.0, 30.0 ],
 					"style" : "",
 					"tabmode" : 0,
-					"text" : "80051"
+					"text" : "80053"
 				}
 
 			}
@@ -999,7 +1068,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1026,6 +1104,13 @@
 					"midpoints" : [ 504.500031, 738.0, 504.500031, 738.0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1067,6 +1152,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -1089,6 +1181,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 1 ],
 					"midpoints" : [ 594.5, 260.0, 495.000031, 260.0 ],
 					"order" : 0,
@@ -1099,7 +1199,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -1182,39 +1282,48 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-75::obj-1::obj-35" : [ "live.text[3]", "live.text", 0 ],
-			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ],
-			"obj-75::obj-1::obj-12" : [ "live.text[9]", "live.text", 0 ],
-			"obj-75::obj-1::obj-34" : [ "live.tab", "live.tab", 0 ],
-			"obj-28::obj-1::obj-1::obj-69" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-27::obj-4::obj-1::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-75::obj-1::obj-17" : [ "live.text[8]", "live.text", 0 ],
-			"obj-85" : [ "live.text", "live.text", 0 ],
-			"obj-28::obj-2::obj-1::obj-69" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-50" : [ "live.tab[8]", "live.tab[3]", 0 ],
-			"obj-28::obj-3::obj-1::obj-69" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
 			"obj-75::obj-1::obj-29" : [ "live.text[5]", "live.text", 0 ],
-			"obj-28::obj-4::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ]
+			"obj-75::obj-1::obj-34" : [ "live.tab", "live.tab", 0 ],
+			"obj-3::obj-1::obj-35::obj-5" : [ "live.text[2]", "live.text", 0 ],
+			"obj-3::obj-1::obj-11" : [ "live.text[10]", "live.text", 0 ],
+			"obj-28::obj-2::obj-1::obj-69" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-85" : [ "live.text", "live.text", 0 ],
+			"obj-27::obj-2::obj-1::obj-69" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-26::obj-1::obj-34" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
+			"obj-28::obj-3::obj-1::obj-69" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-3::obj-1::obj-5" : [ "live.text[1]", "live.text", 0 ],
+			"obj-50" : [ "live.tab[8]", "live.tab[3]", 0 ],
+			"obj-27::obj-3::obj-1::obj-69" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-35" : [ "live.text[3]", "live.text", 0 ],
+			"obj-75::obj-1::obj-12" : [ "live.text[9]", "live.text", 0 ],
+			"obj-28::obj-4::obj-1::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ],
+			"obj-3::obj-1::obj-35::obj-33" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-28::obj-1::obj-1::obj-69" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-27::obj-1::obj-1::obj-69" : [ "live.tab[18]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cue_manager.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1227,132 +1336,132 @@
 , 			{
 				"name" : "j.datetime.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../capture_preprocess/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../capture_preprocess/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_rgb2luma%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_rgb2luma%",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/utility/gl_rgb2luma%",
 				"patcherrelativepath" : "../../utility/gl_rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_cf_gaussian_2p.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
 				"patcherrelativepath" : "../../convolution_and_blur/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
 				"patcherrelativepath" : "../../math/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_roberts.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_roberts",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_roberts",
 				"patcherrelativepath" : "../../edge/gl_pix_roberts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_sobel.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_sobel",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_sobel",
 				"patcherrelativepath" : "../../edge/gl_pix_sobel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_mean%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
 				"patcherrelativepath" : "../../utility/j.gl_mean%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_slide.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_pix_slide",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/temporal/gl_pix_slide",
 				"patcherrelativepath" : "../../temporal/gl_pix_slide",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1360,55 +1469,55 @@
 , 			{
 				"name" : "j.sum%.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/sum%",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/video/sum%",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/video/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_readback%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_readback%",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/utility/gl_readback%",
 				"patcherrelativepath" : "../../utility/gl_readback%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../capture_preprocess/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cam_scale.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/cam_scale",
-				"patcherrelativepath" : "../cam_scale",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/sources/cam_server/_cam_server_abstractions/cam_scale",
+				"patcherrelativepath" : "./_cam_server_abstractions/cam_scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cam_udp_send.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/cam_udp_send",
-				"patcherrelativepath" : "../cam_udp_send",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/sources/cam_server/_cam_server_abstractions/cam_udp_send",
+				"patcherrelativepath" : "./_cam_server_abstractions/cam_udp_send",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cam_scale_route.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/sources/cam_scale_route",
-				"patcherrelativepath" : "../cam_scale_route",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/sources/cam_server/_cam_server_abstractions/cam_scale_route",
+				"patcherrelativepath" : "./_cam_server_abstractions/cam_scale_route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.module.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1416,21 +1525,70 @@
 , 			{
 				"name" : "j.autoscale.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.qom.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
+				"patcherrelativepath" : "../../../../../../../../../Max 7/Packages/Jamoma/patchers/components/data/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../../../Nav/Jamoma-v1/j.nav.scale",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_mask.module.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask",
+				"patcherrelativepath" : "../../compositing/gl_mask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_mask.model.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask",
+				"patcherrelativepath" : "../../compositing/gl_mask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_mask.view.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask",
+				"patcherrelativepath" : "../../compositing/gl_mask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pixel_chooser.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask",
+				"patcherrelativepath" : "../../compositing/gl_mask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_motion_analyzer.module.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"patcherrelativepath" : "../../capture_preprocess/gl_motion_analyzer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_motion_analyzer.model.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"patcherrelativepath" : "../../capture_preprocess/gl_motion_analyzer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gl_motion_analyzer.view.maxpat",
+				"bootpath" : "~/Documents/Document/Projets sons CALQ/Max_files/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"patcherrelativepath" : "../../capture_preprocess/gl_motion_analyzer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1535,14 +1693,20 @@
 			}
 , 			{
 				"name" : "EAMIR",
+				"newobj" : 				{
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"fontface" : [ 0 ]
+				}
+,
 				"default" : 				{
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -1552,19 +1716,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
-				}
 ,
-				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"fontface" : [ 0 ]
 				}
 ,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -1574,7 +1731,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "",
