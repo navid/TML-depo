@@ -3527,9 +3527,9 @@
 /xosc3/acc/roll/active 0
 /xosc3/acc/roll/invert 0
 /xosc3/acc/roll/offset 0.000000
-/xosc3/acc/x/active 1
-/xosc3/acc/y/active 1
-/xosc3/acc/z/active 1
+/xosc3/acc/x/active 0
+/xosc3/acc/y/active 0
+/xosc3/acc/z/active 0
 /xosc3/acc/preview 0
 /xosc3/gyro/pitch/active 0
 /xosc3/gyro/roll/active 0
@@ -3777,9 +3777,9 @@
 /xosc4/acc/roll/active 0
 /xosc4/acc/roll/invert 0
 /xosc4/acc/roll/offset 0.000000
-/xosc4/acc/x/active 1
-/xosc4/acc/y/active 1
-/xosc4/acc/z/active 1
+/xosc4/acc/x/active 0
+/xosc4/acc/y/active 0
+/xosc4/acc/z/active 0
 /xosc4/acc/preview 0
 /xosc4/gyro/pitch/active 0
 /xosc4/gyro/roll/active 0
