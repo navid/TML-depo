@@ -907,7 +907,7 @@
 /cam/edge 0
 /cam/framediff 1
 /cam/invert 0
-/cam/motionprocessor 3
+/cam/motionprocessor 0
 /cam/operator 0
 /cam/rect 0.000000 0.000000 1.000000 1.000000
 /cam/slide 0
@@ -917,7 +917,7 @@
 /cam/threshold 0.053000
 /cam/weight 0.351000
 # 
-/camql/scale/input/max 0.010000
+/camql/scale/input/max 0.009700
 /camql/scale/input/min 0.000094
 /camql/scale/max 1.000000
 /camql/scale/min 0.000000
@@ -931,7 +931,7 @@
 /camql/filter/mode 1
 /camql/filter/samples 4
 /camql/pre-slide/down 10
-/camql/pre-slide/up 1
+/camql/pre-slide/up 0
 /camql/ramp/grain 1
 /camql/ramp/time 0
 /camql/schmitt/debounce 0
@@ -1071,7 +1071,7 @@
 /mo1qs/function/symmetry none
 /mo1qs/function/parameter2 1.040000
 /mo1qs/function/parameter1 21.000000
-/mo1qs/data/active 1
+/mo1qs/data/active 0
 /mo1qs/data/bypass 0
 /mo1qs/filter/mode 1
 /mo1qs/filter/samples 0
@@ -1162,7 +1162,7 @@
 /mo1/antialias 0
 /mo1/automatic 1
 /mo1/dim 720.000000 480.000000
-/mo1/motionprocessor 3
+/mo1/motionprocessor 0
 /mo1/rect 0.000000 0.000000 1.000000 1.000000
 /mo1/texrect 0.000000 0.000000 1.000000 1.000000
 # 
