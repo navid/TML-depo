@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 761.0, 679.0 ],
+		"rect" : [ 206.0, 252.0, 1264.0, 543.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -277,7 +277,7 @@
 					"presentation_rect" : [ 5.0, 155.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -331,7 +331,7 @@
 					"presentation_rect" : [ 80.0, 155.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[4]",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -421,6 +421,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Rotation angle of mask.",
 					"fontsize" : 5.409585,
 					"format" : 6,
 					"id" : "obj-14",
@@ -465,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 45.0, 480.0, 84.0, 21.0 ],
+					"patching_rect" : [ 45.0, 480.0, 120.0, 21.0 ],
 					"style" : "",
 					"text" : "j.remote angle"
 				}
@@ -580,7 +581,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 770.0, 208.0, 40.0, 21.0 ],
+					"patching_rect" : [ 765.0, 210.0, 40.0, 21.0 ],
 					"style" : "",
 					"text" : "j.view",
 					"varname" : "jmod.hub"
@@ -595,7 +596,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 235.0, 25.0, 25.0 ],
+					"patching_rect" : [ 765.0, 240.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -609,7 +610,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 770.0, 175.0, 25.0, 25.0 ],
+					"patching_rect" : [ 765.0, 180.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -624,7 +625,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
-					"text" : "/gl_mask"
+					"text" : "/mask1"
 				}
 
 			}
@@ -920,12 +921,6 @@
 , 			{
 				"name" : "EAMIR",
 				"default" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -936,18 +931,16 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ]
-				}
-,
-				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"fontface" : [ 0 ]
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ]
 				}
 ,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -958,7 +951,15 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
