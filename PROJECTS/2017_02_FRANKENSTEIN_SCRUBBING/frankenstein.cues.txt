@@ -1,21 +1,4 @@
-- cue "default"
-- description "something about this cue"
-# ###########################################
-# 
-# 
-/gl_motion/gl_cf_gaussian_2p/data/active 1
-/gl_motion/gl_cf_gaussian_2p/data/bypass 0
-/gl_motion/gl_cf_gaussian_2p/width/x 1.000000
-/gl_motion/gl_cf_gaussian_2p/width/y 1.000000
-/gl_motion/gl_cf_gaussian_2p/context camera
-/gl_motion/gl_cf_gaussian_2p/active 1
-/gl_motion/gl_cf_gaussian_2p/adapt 1
-/gl_motion/gl_cf_gaussian_2p/antialias 0
-/gl_motion/gl_cf_gaussian_2p/automatic 1
-/gl_motion/gl_cf_gaussian_2p/dim 720.000000 480.000000
-/gl_motion/gl_cf_gaussian_2p/rect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_cf_gaussian_2p/texrect 0.000000 0.000000 1.000000 1.000000
-# 
+*-
 /gl_motion/gl_pix_roberts/data/active 1
 /gl_motion/gl_pix_roberts/data/bypass 0
 /gl_motion/gl_pix_roberts/context camera
@@ -51,7 +34,7 @@
 /gl_motion/gl_pix_thresh/rect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/gl_pix_thresh/select 0
 /gl_motion/gl_pix_thresh/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_pix_thresh/thresh 0.100000
+/gl_motion/gl_pix_thresh/thresh 0.300000
 # 
 /gl_motion/gl_tp_slide/data/active 1
 /gl_motion/gl_tp_slide/data/bypass 0
@@ -62,8 +45,8 @@
 /gl_motion/gl_tp_slide/automatic 1
 /gl_motion/gl_tp_slide/dim 720.000000 480.000000
 /gl_motion/gl_tp_slide/rect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/gl_tp_slide/slide_down 10.000000
-/gl_motion/gl_tp_slide/slide_up 10.000000
+/gl_motion/gl_tp_slide/slide_down 4.000000
+/gl_motion/gl_tp_slide/slide_up 4.000000
 /gl_motion/gl_tp_slide/texrect 0.000000 0.000000 1.000000 1.000000
 /gl_motion/data/active 1
 /gl_motion/data/bypass 0
@@ -79,14 +62,14 @@
 /gl_motion/edge 0
 /gl_motion/invert 0
 /gl_motion/rect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/slide 1
-/gl_motion/slide_down 0.000000
-/gl_motion/slide_up 0.000000
+/gl_motion/slide 0
+/gl_motion/slide_down 4.000000
+/gl_motion/slide_up 4.000000
 /gl_motion/texrect 0.000000 0.000000 1.000000 1.000000
-/gl_motion/threshold 0.100000
+/gl_motion/threshold 0.300000
 /gl_motion/weight 0.100000
 # 
-/scale/scale/input/max 100.000000
+/scale/scale/input/max 1.000000
 /scale/scale/input/min 0.000000
 /scale/scale/max 1.000000
 /scale/scale/min 0.000000
@@ -96,7 +79,7 @@
 /scale/function/parameter2 1.040000
 /scale/function/parameter1 21.000000
 /scale/data/active 1
-/scale/data/bypass 0
+/scale/data/bypass 1
 /scale/filter/mode 1
 /scale/filter/samples 10
 /scale/pre-slide/down 3
@@ -122,7 +105,7 @@
 /bgsub/adapt 1
 /bgsub/antialias 0
 /bgsub/automatic 1
-/bgsub/capture 0.000000
+/bgsub/capture bang
 /bgsub/dim 720.000000 480.000000
 /bgsub/rect 0.000000 0.000000 1.000000 1.000000
 /bgsub/texrect 0.000000 0.000000 1.000000 1.000000
@@ -141,7 +124,7 @@
 /gl_rota/rect 0.000000 0.000000 1.000000 1.000000
 /gl_rota/texrect 0.000000 0.000000 1.000000 1.000000
 /gl_rota/theta 0.000000
-/gl_rota/zoom 1.000000 1.000000
+/gl_rota/zoom -1.000000 1.000000
 # 
 # ###########################################
 

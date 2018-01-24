@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 686.0, 294.0, 720.0, 486.0 ],
+		"rect" : [ 667.0, 135.0, 720.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,13 +101,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 686.0, 346.0, 720.0, 434.0 ],
+						"rect" : [ 667.0, 187.0, 720.0, 434.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -224,35 +224,35 @@
 													"outputmode" : [ 1 ],
 													"out_name" : [ "u237004501" ],
 													"dim" : [ 1, 1 ],
-													"adapt" : [ 1 ],
-													"rate" : [ 1.0 ],
+													"fps" : [ 0.0 ],
+													"texture_name" : [ "u390004499" ],
+													"colormode" : [ "argb" ],
+													"autostart" : [ 1 ],
+													"interp" : [ 0 ],
 													"usesrcrect" : [ 0 ],
+													"drawto" : [ "" ],
 													"looppoints" : [ 0, 0 ],
 													"output_texture" : [ 0 ],
-													"interp" : [ 0 ],
-													"autostart" : [ 1 ],
-													"fps" : [ 0.0 ],
-													"framereport" : [ 0 ],
-													"duration" : [ 0 ],
-													"loopend" : [ 0 ],
+													"dstrect" : [ 0, 0, 1, 1 ],
 													"time" : [ 0 ],
-													"drawto" : [ "" ],
-													"framecount" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"duration" : [ 0 ],
 													"moviefile" : [ "" ],
-													"loopstart" : [ 0 ],
-													"timescale" : [ 600 ],
-													"cache_size" : [ 0.1 ],
+													"framecount" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"adapt" : [ 1 ],
+													"framereport" : [ 0 ],
+													"loopend" : [ 0 ],
+													"time_secs" : [ 0.0 ],
 													"automatic" : [ 0 ],
 													"position" : [ 0.0 ],
-													"time_secs" : [ 0.0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"loopreport" : [ 0 ],
-													"engine" : [ "avf" ],
+													"timescale" : [ 600 ],
 													"vol" : [ 1.0 ],
+													"loopstart" : [ 0 ],
 													"unique" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"colormode" : [ "argb" ],
-													"texture_name" : [ "u390004499" ],
+													"cache_size" : [ 0.1 ],
+													"engine" : [ "avf" ],
+													"rate" : [ 1.0 ],
 													"usedstrect" : [ 0 ]
 												}
 
@@ -277,9 +277,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 15.0, 150.0, 152.0, 22.0 ],
+									"patching_rect" : [ 15.0, 150.0, 214.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.world default @enable 1"
+									"text" : "jit.world default @enable 1 @shared 1"
 								}
 
 							}
@@ -300,7 +300,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "keygen" ],
+									"args" : [ "mask8" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -309,31 +309,31 @@
 									"id" : "obj-3",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "gl_keygen.view.maxpat",
+									"name" : "gl_mask8.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 105.0, 300.0, 105.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
+									"patching_rect" : [ 180.0, 105.0, 150.0, 175.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
 									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Generate a 2D key using up to eight polygons.",
+									"annotation" : "Generate up to 8 2D masks, with individual outputs.",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 360.0, 143.0, 22.0 ],
+									"numoutlets" : 10,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 15.0, 360.0, 137.0, 22.0 ],
 									"style" : "",
-									"text" : "gl_keygen.model keygen"
+									"text" : "gl_mask8.model mask8"
 								}
 
 							}
@@ -363,8 +363,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -372,8 +370,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -381,8 +377,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -390,8 +384,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -399,8 +391,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -408,8 +398,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -444,8 +432,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -499,57 +487,89 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-34::obj-3::obj-1::obj-5" : [ "live.text[3]", "live.text", 0 ],
+			"obj-34::obj-3::obj-35::obj-33" : [ "live.tab", "live.tab", 0 ],
+			"obj-34::obj-3::obj-35::obj-5" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34::obj-3::obj-11" : [ "live.text", "live.text", 0 ],
+			"obj-34::obj-3::obj-5" : [ "live.text[1]", "live.text", 0 ],
+			"obj-34::obj-3::obj-1::obj-33" : [ "live.tab[1]", "live.tab", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_keygen.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_keygen",
+				"name" : "gl_mask8.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask8",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/render/slab",
+				"name" : "gl_mask.model.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask",
+				"patcherrelativepath" : "../gl_mask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gl_keygen.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/development/Jamoma 1.0 Shaders/gl_keygen",
+				"name" : "gl_mask8.view.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask8",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pixel_chooser_8.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask8",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "remote_select.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_mask8",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -572,11 +592,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{

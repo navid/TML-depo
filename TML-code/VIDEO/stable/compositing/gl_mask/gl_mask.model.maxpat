@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -127,7 +127,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -574,7 +574,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -621,7 +621,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "rotate2d(_angle){\n    return vec(cos(_angle),-sin(_angle), sin(_angle), cos(_angle));\n}\r\n\r\nParam scale (0.1, 0.1);\r\nParam center (0.5, 0.5);\r\nParam angle (0.);\r\n\r\ns = scale / 2.;\r\n\r\nst = norm;\r\nst -= vec(0.5, 0.5);\r\nrot = rotate2d(-2*angle*PI);\r\nst = vec((rot.r * st.x)+(rot.g * st.y),(rot.b * st.x) + (rot.a * st.y)) ;\r\nst += vec(0.5, 0.5);\r\nst += vec((rot.r * center.x)+(rot.g * center.y),(rot.b * center.x) + (rot.a * center.y));\r\nw = ((st.x > (0.5 - s.x)) * (st.x < (0.5 + s.x)));\r\nh = ((st.y > (0.5 - s.y)) * (st.y < (0.5 + s.y)));\r\n\r\nmask = w * h * 1;\r\n\r\nout1 = mask;",
+									"code" : "rotate2d(_angle){\n    return vec(cos(_angle),-sin(_angle), sin(_angle), cos(_angle));\n}\r\n\r\nParam scale (0.1, 0.1);\r\nParam center (0.5, 0.5);\r\nParam angle (0.);\r\n\r\ns = scale / 2.;\r\no = in1;\r\nst = norm;\r\nst -= vec(0.5, 0.5);\r\nrot = rotate2d(-2*angle*PI);\r\nst = vec((rot.r * st.x)+(rot.g * st.y),(rot.b * st.x) + (rot.a * st.y)) ;\r\nst += vec(0.5, 0.5);\r\nst += vec((rot.r * center.x)+(rot.g * center.y),(rot.b * center.x) + (rot.a * center.y));\r\nw = ((st.x > (0.5 - s.x)) * (st.x < (0.5 + s.x)));\r\nh = ((st.y > (0.5 - s.y)) * (st.y < (0.5 + s.y)));\r\n\r\nmask = w * h * 1;\r\n\r\nout1 = mask;",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -910,32 +910,7 @@
 			}
 , 			{
 				"name" : "EAMIR",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
-						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 0 ]
-				}
-,
 				"default" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -946,10 +921,35 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"fontface" : [ 0 ]
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ]
+				}
+,
+				"umenu" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
+						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
