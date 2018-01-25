@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 79.0, 719.0, 783.0 ],
+		"rect" : [ 564.0, 375.0, 719.0, 783.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -1598,7 +1598,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1630,7 +1630,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 0,
-						"title" : "/xosc_imu_lite(view)",
+						"title" : "/xosc_imu_lite(view).3",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-105",
@@ -2380,7 +2380,7 @@
 									"presentation_rect" : [ 74.333328, 97.0, 120.083336, 15.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"slidercolor" : [ 1.0, 0.5, 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"style" : ""
 								}
 
@@ -2691,7 +2691,7 @@
 									"presentation_rect" : [ 75.0, 45.0, 105.0, 22.0 ],
 									"style" : "",
 									"tabmode" : 0,
-									"text" : "xosc_13"
+									"text" : "xosc_14"
 								}
 
 							}
@@ -3190,6 +3190,9 @@
 , 							{
 								"name" : "EAMIR",
 								"default" : 								{
+									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+									"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -3200,13 +3203,17 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-									"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+									"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
+								}
+,
+								"newobj" : 								{
+									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+									"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 								}
 ,
 								"umenu" : 								{
@@ -3221,13 +3228,6 @@
 									}
 ,
 									"fontface" : [ 0 ],
-									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
-								}
-,
-								"newobj" : 								{
-									"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
 								}
 ,
@@ -3481,7 +3481,6 @@
 
 					}
 ,
-					"setminmax" : [ -100.0, 100.0 ],
 					"setstyle" : 3,
 					"size" : 3,
 					"slidercolor" : [ 0.431373, 0.752941, 0.890196, 1.0 ],
@@ -3967,7 +3966,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 507.166656, 302.5, 474.5, 302.5 ],
+					"midpoints" : [ 507.166667, 302.5, 474.5, 302.5 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -4137,7 +4136,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 74.166664, 302.5, 39.5, 302.5 ],
+					"midpoints" : [ 74.166667, 302.5, 39.5, 302.5 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
@@ -4468,7 +4467,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"midpoints" : [ 91.833336, 857.5, 39.5, 857.5 ],
+					"midpoints" : [ 91.833333, 857.5, 39.5, 857.5 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -4672,7 +4671,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
-					"midpoints" : [ 93.166664, 1831.0, 30.0, 1831.0, 30.0, 1524.0, 54.5, 1524.0 ],
+					"midpoints" : [ 93.166667, 1831.0, 30.0, 1831.0, 30.0, 1524.0, 54.5, 1524.0 ],
 					"source" : [ "obj-92", 1 ]
 				}
 
@@ -4749,6 +4748,9 @@
 , 			{
 				"name" : "EAMIR",
 				"default" : 				{
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -4759,13 +4761,17 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
 				"umenu" : 				{
@@ -4780,13 +4786,6 @@
 					}
 ,
 					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
-				}
-,
-				"newobj" : 				{
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
 				}
 ,
