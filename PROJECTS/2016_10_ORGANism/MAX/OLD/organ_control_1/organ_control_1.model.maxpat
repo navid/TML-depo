@@ -291,7 +291,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2050,7 +2049,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2941,7 +2939,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 105.0, 95.0, 22.0 ],
 									"style" : "",
-									"text" : "1 0 4 7"
+									"text" : "0"
 								}
 
 							}
@@ -3163,9 +3161,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 195.0, 152.0, 22.0 ],
+					"patching_rect" : [ 1005.0, 195.0, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0. 100. 400 1500",
+					"text" : "scale 0. 100. 0 1500",
 					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
 
@@ -3223,7 +3221,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1185.0, 195.0, 152.0, 22.0 ],
+					"patching_rect" : [ 1185.0, 195.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0. 100. 2000 4096",
 					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
@@ -3637,12 +3635,9 @@
 		"styles" : [ 			{
 				"name" : "PAt_style0",
 				"default" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
-					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3653,7 +3648,10 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",

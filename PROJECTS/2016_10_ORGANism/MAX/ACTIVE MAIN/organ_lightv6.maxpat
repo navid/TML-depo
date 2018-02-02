@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 660.0, 89.0, 1680.0, 1242.0 ],
+		"rect" : [ 324.0, 79.0, 1439.0, 1242.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2070.0, 435.0, 150.0, 74.0 ],
+					"style" : "",
+					"text" : "slide has some weird issue with immediately ramping to new value - need to send it multiple times..."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-161",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1680.0, 510.0, 45.0, 20.0 ],
-					"presentation_rect" : [ 1685.0, 510.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "down"
 				}
@@ -56,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1620.0, 510.0, 30.0, 20.0 ],
-					"presentation_rect" : [ 1618.0, 505.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "up"
 				}
@@ -81,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2055.0, 525.0, 60.0, 20.0 ],
-					"presentation_rect" : [ 2050.0, 525.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "control in"
 				}
@@ -91,12 +101,13 @@
 				"box" : 				{
 					"id" : "obj-156",
 					"maxclass" : "number",
+					"maximum" : 255,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2055.0, 555.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 2050.0, 555.0, 0.0, 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[11]",
@@ -120,7 +131,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1485.0, 360.0, 300.0, 74.0 ],
-					"presentation_rect" : [ 1479.0, 424.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "note - I replaced the [r ramp8] and [r ramp18] objects with a \"control in\" inlet and an int. What values is this supposed to be getting? 0-255? Why? Int, float or bool? There are multiple layers of scaling - can we simplify this?"
 				}
@@ -142,6 +152,8 @@
 				"box" : 				{
 					"id" : "obj-149",
 					"maxclass" : "number",
+					"maximum" : 255,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -234,7 +246,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 240.0, 660.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 247.0, 658.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -432,7 +443,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 90.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -2938,7 +2949,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 60.0, 15.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 57.0, 15.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -3064,7 +3074,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 34.0, 79.0, 1212.0, 873.0 ],
+										"rect" : [ 85.0, 145.0, 1212.0, 873.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3091,6 +3101,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -3551,12 +3562,9 @@
 						"styles" : [ 							{
 								"name" : "PAt_style0",
 								"default" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
-									"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3567,7 +3575,10 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4320,12 +4331,9 @@
 						"styles" : [ 							{
 								"name" : "PAt_style0",
 								"default" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
-									"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4336,7 +4344,10 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4521,7 +4532,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 572.630981, 168.0, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "40"
+					"text" : "0"
 				}
 
 			}
@@ -4821,7 +4832,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 571.630981, 109.595276, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "58"
+					"text" : "0"
 				}
 
 			}
@@ -5261,6 +5272,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 3 ],
 					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 1 ],
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -6162,17 +6180,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-49" : [ "number[2]", "number[6]", 0 ],
-			"obj-154" : [ "number[7]", "number[6]", 0 ],
-			"obj-2::obj-5::obj-18" : [ "textedit[2]", "textedit", 0 ],
-			"obj-50" : [ "number[3]", "number[6]", 0 ],
-			"obj-149" : [ "number[10]", "number[6]", 0 ],
-			"obj-158::obj-4::obj-70" : [ "textedit[1]", "textedit", 0 ],
 			"obj-158::obj-4::obj-1" : [ "textedit", "textedit", 0 ],
-			"obj-48" : [ "number[1]", "number[6]", 0 ],
-			"obj-55" : [ "number[9]", "number[6]", 0 ],
+			"obj-2::obj-5::obj-18" : [ "textedit[2]", "textedit", 0 ],
 			"obj-156" : [ "number[11]", "number[6]", 0 ],
-			"obj-153" : [ "number[6]", "number[6]", 0 ]
+			"obj-55" : [ "number[9]", "number[6]", 0 ],
+			"obj-153" : [ "number[6]", "number[6]", 0 ],
+			"obj-48" : [ "number[1]", "number[6]", 0 ],
+			"obj-158::obj-4::obj-70" : [ "textedit[1]", "textedit", 0 ],
+			"obj-149" : [ "number[10]", "number[6]", 0 ],
+			"obj-154" : [ "number[7]", "number[6]", 0 ],
+			"obj-49" : [ "number[2]", "number[6]", 0 ],
+			"obj-50" : [ "number[3]", "number[6]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6531,12 +6549,9 @@
 		"styles" : [ 			{
 				"name" : "PAt_style0",
 				"default" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
-					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6547,7 +6562,10 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
