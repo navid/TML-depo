@@ -25,40 +25,31 @@ int Val7 = -1;//closing symbol =44
 /*--------
   18 Peices ID 2 - 3 - 4
   --------*/
-// declaring individual relays
-//Last Board
-int sol1_1 = 38;
-int sol1_2 = 40;
-int sol1_3 = 42;
-int sol1_4 = 44;
-int sol1_5 = 46;
-int sol1_6 = 48;
-int sol1_7 = 50;
-int sol1_8 = 52;
-
-//Mid board
-
-int sol1_9 = 36;
-int sol1_10 = 34;
-int sol1_11 = 32;
-int sol1_12 = 30;
-int sol1_13 = 28;
-int sol1_14 = 26;
-int sol1_15 = 24;
-int sol1_16 = 22;
-
-//First board
-
-int sol1_17 = 53;
-int sol1_18 = 51;
-int sol1_19 = 49;
-int sol1_20 = 47;
+// declaring individual transistors
+int sol1_1 = 51;
+int sol1_2 = 53;
+int sol1_3 = 38;
+int sol1_4 = 40;
+int sol1_5 = 42;
+int sol1_6 = 44;
+int sol1_7 = 46;
+int sol1_8 = 48;
+int sol1_9 = 50;
+int sol1_10 = 52;
+int sol1_11 = 22;
+int sol1_12 = 24;
+int sol1_13 = 26;
+int sol1_14 = 28;
+int sol1_15 = 30;
+int sol1_16 = 32;
+int sol1_17 = 34;
+int sol1_18 = 36;
 
 
 /*--------
   8 Peices ID 5
   --------*/
-//Last Board
+
 int sol2_1 = 23;
 int sol2_2 = 25;
 int sol2_3 = 27;
@@ -100,8 +91,7 @@ void setup() /****** SETUP: RUNS ONCE ******/
   //4 sol1_enoids board
   pinMode(sol1_17, OUTPUT);
   pinMode(sol1_18, OUTPUT);
-  pinMode(sol1_19, OUTPUT);
-  pinMode(sol1_20, OUTPUT);
+
 
   /*--------
     8 Peices
@@ -245,11 +235,6 @@ void loop()    /****** LOOP: RUNS CONSTANTLY ******/
             if (bit1 == 1)digitalWrite(sol1_18, HIGH);
             if (bit1 == 0)digitalWrite(sol1_18, LOW);
 
-            if (bit2 == 1)digitalWrite(sol1_19, HIGH);
-            if (bit2 == 0)digitalWrite(sol1_19, LOW);
-
-            if (bit3 == 1)digitalWrite(sol1_20, HIGH);
-            if (bit3 == 0)digitalWrite(sol1_20, LOW);
 
           }//end if val2=4
 
