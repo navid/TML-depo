@@ -1,15 +1,19 @@
-//Organ 18 pipes and 8 peice integration
-//Authors Nima Navab, Thierry Dumont
-//Last Edit 2017-05-24
+/***********************************************************************************
+ * Organism || Serial Control From Max
+ * Topological Media Lab
+ * Author Nima Navab, Thierry Dumont
+ * Last Edit: Oct13th, 2017
+ * The following sketch will allow you to control 24 solenoid valves for the church
+ * organ 8 and 18 piece chest; as well as 2 proportional pressure controller.
+ * Dependencies:
+ * Adafruit_MCP4725
+ ***********************************************************************************/
+
 #include <Wire.h>
 #include <Adafruit_MCP4725.h>
 
 Adafruit_MCP4725 dac18;
 Adafruit_MCP4725 dac8;
-
-
-//Control variables
-int limit = 2000;//bottom limit for PPC
 
 /*-----( Declare Variables )-----*/
 
@@ -21,35 +25,43 @@ int Val5 = -1;//val 3
 int Val6 = -1;//Val 4
 int Val7 = -1;//closing symbol =44
 
-
 /*--------
   18 Peices ID 2 - 3 - 4
   --------*/
-// declaring individual transistors
-int sol1_1 = 51;
-int sol1_2 = 53;
-int sol1_3 = 38;
-int sol1_4 = 40;
-int sol1_5 = 42;
-int sol1_6 = 44;
-int sol1_7 = 46;
-int sol1_8 = 48;
-int sol1_9 = 50;
-int sol1_10 = 52;
-int sol1_11 = 22;
-int sol1_12 = 24;
-int sol1_13 = 26;
-int sol1_14 = 28;
-int sol1_15 = 30;
-int sol1_16 = 32;
-int sol1_17 = 34;
-int sol1_18 = 36;
+// declaring individual relays
+//Last Board
+int sol1_1 = 38;
+int sol1_2 = 40;
+int sol1_3 = 42;
+int sol1_4 = 44;
+int sol1_5 = 46;
+int sol1_6 = 48;
+int sol1_7 = 50;
+int sol1_8 = 52;
+
+//Mid board
+
+int sol1_9 = 36;
+int sol1_10 = 34;
+int sol1_11 = 32;
+int sol1_12 = 30;
+int sol1_13 = 28;
+int sol1_14 = 26;
+int sol1_15 = 24;
+int sol1_16 = 22;
+
+//First board
+
+int sol1_17 = 53;
+int sol1_18 = 51;
+int sol1_19 = 49;
+int sol1_20 = 47;
 
 
 /*--------
   8 Peices ID 5
   --------*/
-
+//Last Board
 int sol2_1 = 23;
 int sol2_2 = 25;
 int sol2_3 = 27;
@@ -91,7 +103,8 @@ void setup() /****** SETUP: RUNS ONCE ******/
   //4 sol1_enoids board
   pinMode(sol1_17, OUTPUT);
   pinMode(sol1_18, OUTPUT);
-
+  pinMode(sol1_19, OUTPUT);
+  pinMode(sol1_20, OUTPUT);
 
   /*--------
     8 Peices
@@ -148,7 +161,6 @@ void loop()    /****** LOOP: RUNS CONSTANTLY ******/
             PPC_StringConcat +=  V5;
             PPC_StringConcat +=  V6;
             int PPCVAL_1 = PPC_StringConcat.toInt();
-            if (PPCVAL_1 <= limit) PPCVAL_1 = 0;
             dac18.setVoltage(PPCVAL_1, true);
           }//Val2 == 1
 
@@ -235,6 +247,11 @@ void loop()    /****** LOOP: RUNS CONSTANTLY ******/
             if (bit1 == 1)digitalWrite(sol1_18, HIGH);
             if (bit1 == 0)digitalWrite(sol1_18, LOW);
 
+            if (bit2 == 1)digitalWrite(sol1_19, HIGH);
+            if (bit2 == 0)digitalWrite(sol1_19, LOW);
+
+            if (bit3 == 1)digitalWrite(sol1_20, HIGH);
+            if (bit3 == 0)digitalWrite(sol1_20, LOW);
 
           }//end if val2=4
 

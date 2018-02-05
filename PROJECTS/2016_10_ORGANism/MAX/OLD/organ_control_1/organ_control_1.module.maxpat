@@ -15,10 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -64,11 +64,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.0, 109.0, 30.0, 30.0 ],
+					"patching_rect" : [ 15.0, 150.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -77,12 +77,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 17.0, 30.0, 30.0 ],
+					"patching_rect" : [ 15.0, 60.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 62.0, 150.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 166.0, 22.0 ],
 					"style" : "",
 					"text" : "organ_control_1.model #1"
 				}
@@ -116,56 +116,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-4::obj-70" : [ "textedit[1]", "textedit", 0 ],
-			"obj-4::obj-1" : [ "textedit", "textedit", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "organ_control_1.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/TML-depo/PROJECTS/2016_10_ORGANism/MAX/OLD/organ_control_1",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "organ_control_1.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/TML-depo/PROJECTS/2016_10_ORGANism/MAX/OLD/organ_control_1",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
