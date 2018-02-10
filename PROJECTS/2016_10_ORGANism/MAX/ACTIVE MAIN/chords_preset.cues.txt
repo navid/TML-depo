@@ -400,3 +400,87 @@
 # 
 # ###########################################
 
+- cue "Feb8th"
+- description "something about this cue"
+# ###########################################
+# 
+/noteGen1/data/active 1
+/noteGen1/data/bypass 0
+/noteGen1/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
+/noteGen1/dynamics 100
+/noteGen1/pitchset 0.000000 4.000000 8.000000 9.000000 10.000000 12.000000 16.000000
+/noteGen1/transpose -60
+/noteGen1/wide 0
+# 
+/noteGen5/data/active 1
+/noteGen5/data/bypass 0
+/noteGen5/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen5/dynamics 100
+/noteGen5/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen5/transpose -60
+/noteGen5/wide 0
+# 
+/noteGen6/data/active 1
+/noteGen6/data/bypass 0
+/noteGen6/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen6/dynamics 100
+/noteGen6/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen6/transpose -60
+/noteGen6/wide 0
+# 
+/rhyth/data/active 1
+/rhyth/chordsizeMax 18
+/rhyth/chordsizeMin 7
+/rhyth/ed 2.000000 2.000000 1.000000 4.000000 2.000000 0.500000 0.500000
+/rhyth/periodictyMax 44.000000
+/rhyth/periodictyMin 9.900000
+/rhyth/pulsedivide 1.000000
+/rhyth/rubato 59
+/rhyth/select 2
+/rhyth/start 1
+/rhyth/tempo 255.000000
+# 
+# ###########################################
+
+- cue "Feb9th"
+- description "something about this cue"
+# ###########################################
+# 
+/noteGen1/data/active 1
+/noteGen1/data/bypass 0
+/noteGen1/probs 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000
+/noteGen1/dynamics 100
+/noteGen1/pitchset 0.000000 4.000000 8.000000 9.000000 10.000000 12.000000 16.000000
+/noteGen1/transpose -60
+/noteGen1/wide 0
+# 
+/noteGen5/data/active 1
+/noteGen5/data/bypass 0
+/noteGen5/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen5/dynamics 100
+/noteGen5/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen5/transpose -60
+/noteGen5/wide 0
+# 
+/noteGen6/data/active 1
+/noteGen6/data/bypass 0
+/noteGen6/probs 50.000000 50.000000 50.000000 50.000000
+/noteGen6/dynamics 100
+/noteGen6/pitchset 1.000000 2.000000 3.000000 4.000000
+/noteGen6/transpose -60
+/noteGen6/wide 0
+# 
+/rhyth/data/active 1
+/rhyth/chordsizeMax 18
+/rhyth/chordsizeMin 7
+/rhyth/ed 2.000000 2.000000 1.000000 4.000000 2.000000 0.500000 0.500000
+/rhyth/periodictyMax 44.000000
+/rhyth/periodictyMin 8.900000
+/rhyth/pulsedivide 1.000000
+/rhyth/rubato 59
+/rhyth/select 2
+/rhyth/start 1
+/rhyth/tempo 100.000000
+# 
+# ###########################################
+
