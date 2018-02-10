@@ -1,15 +1,19 @@
-//Organ 18 pipes and 8 peice integration
-//Authors Nima Navab, Thierry Dumont
-//Last Edit 2017-05-24
+/***********************************************************************************
+ * Organism || Serial Control From Max
+ * Topological Media Lab
+ * Author Nima Navab, Thierry Dumont
+ * Last Edit: Oct13th, 2017
+ * The following sketch will allow you to control 24 solenoid valves for the church
+ * organ 8 and 18 piece chest; as well as 2 proportional pressure controller.
+ * Dependencies:
+ * Adafruit_MCP4725
+ ***********************************************************************************/
+
 #include <Wire.h>
 #include <Adafruit_MCP4725.h>
 
 Adafruit_MCP4725 dac18;
 Adafruit_MCP4725 dac8;
-
-
-//Control variables
-int limit = 2000;//bottom limit for PPC
 
 /*-----( Declare Variables )-----*/
 
@@ -20,7 +24,6 @@ int Val4 = -1;//Val 2
 int Val5 = -1;//val 3
 int Val6 = -1;//Val 4
 int Val7 = -1;//closing symbol =44
-
 
 /*--------
   18 Peices ID 2 - 3 - 4
@@ -158,7 +161,6 @@ void loop()    /****** LOOP: RUNS CONSTANTLY ******/
             PPC_StringConcat +=  V5;
             PPC_StringConcat +=  V6;
             int PPCVAL_1 = PPC_StringConcat.toInt();
-            if (PPCVAL_1 <= limit) PPCVAL_1 = 0;
             dac18.setVoltage(PPCVAL_1, true);
           }//Val2 == 1
 
