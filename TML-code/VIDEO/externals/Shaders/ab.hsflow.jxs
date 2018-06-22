@@ -52,23 +52,23 @@ void main()
 	vec4 curdif = b-a;
 	
 	//calculate the gradient
-	vec4 gradx = texture2DRect(tex1, texcoord1+x1)-texture2DRect(tex1, texcoord1-x1);
-	gradx += texture2DRect(tex0, texcoord0+x1)-texture2DRect(tex0, texcoord0-x1);
-	vec4 grady = texture2DRect(tex1, texcoord1+y1)-texture2DRect(tex1, texcoord1-y1);
-	grady += texture2DRect(tex0, texcoord0+y1)-texture2DRect(tex0, texcoord0-y1);
-	vec4 gradmag = sqrt((gradx*gradx)+(grady*grady)+vec4(lambda));
+	vec4 gradx = texture2DRect(tex1, texcoord1+x1)-texture2DRect(tex1, texcoord1-x1); //sample the previous frame at a horizontal offset to the left and right, find the difference
+	gradx += texture2DRect(tex0, texcoord0+x1)-texture2DRect(tex0, texcoord0-x1); //sample the current frame at a horizontal offset to the left and right, find the difference
+	vec4 grady = texture2DRect(tex1, texcoord1+y1)-texture2DRect(tex1, texcoord1-y1); //sample the previous frame at a vertical offset to the left and right, find the difference
+	grady += texture2DRect(tex0, texcoord0+y1)-texture2DRect(tex0, texcoord0-y1); //sample the previous frame at a vertical offset to the left and right, find the difference
+	vec4 gradmag = sqrt((gradx*gradx)+(grady*grady)+vec4(lambda)); //find the square root of gradx and grady squared (calculate the length), and add a vector made up of the lambda value
 
-	vec4 vx = curdif*(gradx/gradmag);
+	vec4 vx = curdif*(gradx/gradmag); // divide the horizontal difference (gradient?) by the gradmag value, and multiply by the difference between the current and previous frames
 	float vxd = vx.r;//assumes greyscale
 	//format output for flowrepos, out(-x,+x,-y,+y)
-	vec2 xout = vec2(max(vxd,0.),abs(min(vxd,0.)))*scale.x;
+	vec2 xout = vec2(max(vxd,0.),abs(min(vxd,0.)))*scale.x; //first component = horizontal max, second = horizontal min (both clipped at zero)
 
-	vec4 vy = curdif*(grady/gradmag);
+	vec4 vy = curdif*(grady/gradmag); //same as above but for vertical
 	float vyd = vy.r;//assumes greyscale
 	//format output for flowrepos, out(-x,+x,-y,+y)
 	vec2 yout = vec2(max(vyd,0.),abs(min(vyd,0.)))*scale.y;
 	
-	gl_FragColor = vec4(xout.xy,yout.xy);
+	gl_FragColor = vec4(xout.xy,yout.xy); //output -> R = horizontal max, G = horizontal min, B = vertical max, A = vertical min
 }
 
 ]]>
