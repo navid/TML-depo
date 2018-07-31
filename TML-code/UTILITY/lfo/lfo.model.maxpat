@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 324.0, 215.0, 1322.0, 691.0 ],
+		"rect" : [ 269.0, 79.0, 1322.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -973,7 +973,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 937.0, 79.0, 267.0, 317.0 ],
+						"rect" : [ 766.0, 168.0, 556.0, 317.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1194,9 +1194,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 28.5, 152.0, 68.0, 21.0 ],
+									"patching_rect" : [ 28.5, 152.0, 60.0, 21.0 ],
 									"style" : "",
-									"text" : "qmetro 150"
+									"text" : "metro 150"
 								}
 
 							}
@@ -1344,6 +1344,16 @@
 									"source" : [ "obj-9", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "tap",
+								"default" : 								{
+									"fontname" : [ "Lato Light" ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1927,7 +1937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 15.0, 1020.0, 29.5, 22.0 ],
+					"patching_rect" : [ 15.0, 1035.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
