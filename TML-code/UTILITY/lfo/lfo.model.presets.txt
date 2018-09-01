@@ -7,6 +7,8 @@ bias 0.000000
 clip/high 1.000000
 clip/low 0.000000
 clip/mode 0
+ease 0
+grain 33.000000
 hz 1.000000
 interpolate/auto 0
 interpolate/grain 1
@@ -20,6 +22,6 @@ random/rate/max 100
 random/rate/min 10
 random/step 1.000000
 scale 1.000000
-waveform 4
+waveform 1
 # 
 # ###########################################
