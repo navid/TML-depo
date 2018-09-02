@@ -11,9 +11,9 @@ ease 0
 grain 33.000000
 hz 1.000000
 interpolate/auto 0
-interpolate/grain 1
+interpolate/grain 33
 interpolate/time 0
-on 1
+on 0
 phase 0.000000
 pw 0.500000
 random/max 1.000000
@@ -22,6 +22,6 @@ random/rate/max 100
 random/rate/min 10
 random/step 1.000000
 scale 1.000000
-waveform 1
+waveform 0
 # 
 # ###########################################
