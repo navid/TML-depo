@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 1000.0, 130.0, 226.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 72.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 1"
 				}
 
@@ -57,8 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 555.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 180.0, 555.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 555.0, 113.0, 22.0 ],
-					"style" : "",
 					"text" : "prepend /coneGate"
 				}
 
@@ -82,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 585.0, 153.0, 22.0 ],
-					"style" : "",
 					"text" : "udpsend 127.0.0.1 898983"
 				}
 
@@ -94,8 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 74.5, 89.5, 80.0, 13.0 ],
-					"style" : ""
+					"patching_rect" : [ 74.5, 89.5, 80.0, 13.0 ]
 				}
 
 			}
@@ -107,7 +103,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 45.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "adc~ 1"
 				}
 
@@ -122,13 +117,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 258.0, 267.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -166,7 +162,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 176.0, 70.0, 19.0 ],
-									"style" : "",
 									"text" : "/thresh/low -23"
 								}
 
@@ -181,7 +176,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 127.0, 176.0, 81.0, 19.0 ],
-									"style" : "",
 									"text" : "/thresh/high -19.5"
 								}
 
@@ -196,7 +190,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 124.0, 48.0, 20.0 ],
-									"style" : "",
 									"text" : "deferlow"
 								}
 
@@ -211,7 +204,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 50.0, 100.0, 52.0, 20.0 ],
-									"style" : "",
 									"text" : "loadbang"
 								}
 
@@ -225,7 +217,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "bang" ],
 									"patching_rect" : [ 50.0, 146.0, 173.0, 20.0 ],
-									"style" : "",
 									"text" : "t b b b"
 								}
 
@@ -239,7 +230,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 212.0, 176.0, 46.0, 19.0 ],
-									"style" : "",
 									"text" : "/preset 1"
 								}
 
@@ -252,8 +242,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 121.0, 255.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 121.0, 255.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -322,11 +311,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p init"
 				}
 
@@ -411,19 +398,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "shittygate.maxpat",
-				"bootpath" : "~/Github/TML-depo/PROJECTS/2016_09_AQUAPHONEIA/abstractions/shittyGate",
+				"bootpath" : "~/Documents/GitHub/TML-depo/PROJECTS/2016_09_AQUAPHONEIA/abstractions/shittyGate",
 				"patcherrelativepath" : "../abstractions/shittyGate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+		"autosave" : 0
 	}
 
 }
