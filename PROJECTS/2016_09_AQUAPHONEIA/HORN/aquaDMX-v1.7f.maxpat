@@ -4405,7 +4405,7 @@
 					"patching_rect" : [ 660.0, 1800.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 187.0, 1135.0, 90.0, 20.0 ],
-					"text" : "45 : 45"
+					"text" : "41 : 28"
 				}
 
 			}
