@@ -5722,7 +5722,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 70.0, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "loadmess 115"
+									"text" : "loadmess 110"
 								}
 
 							}

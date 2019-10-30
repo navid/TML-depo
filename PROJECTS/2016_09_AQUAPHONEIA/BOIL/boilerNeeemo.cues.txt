@@ -175,7 +175,7 @@
 /boilRog/mapTurn/active 0.000000
 /boilRog/mapTurn/scalebypass 1
 /boilRog/audio/bypass 0
-/boilRog/audio/gain -32.000000
+/boilRog/audio/gain -58.000000
 /boilRog/audio/mix 100.000000
 /boilRog/audio/mute 0
 /boilRog/buffer/append 1
@@ -385,12 +385,12 @@
 /boilRogBottom/mapTurn/active 0.000000
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -15.000000
+/boilRogBottom/audio/gain -12.000000
 /boilRogBottom/audio/mix 100.000000
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
-/boilRogBottom/buffer/size 15012.144054
+/boilRogBottom/buffer/size 15012.144531
 /boilRogBottom/mapperGate/gain 2
 /boilRogBottom/mapperGate/onsetVar 0
 /boilRogBottom/mapperGate/pitch 2
@@ -401,7 +401,7 @@
 /boilRogBottom/mapperGate/spread 0
 /boilRogBottom/mapperGate/trigger 0
 /boilRogBottom/mapperGate/turn 0
-/boilRogBottom/mod/gain 3.000000
+/boilRogBottom/mod/gain 1.000000
 /boilRogBottom/mod/onsetVar 0.000000
 /boilRogBottom/mod/pitch 250.000000
 /boilRogBottom/mod/pitchVar 500.000000
@@ -418,9 +418,9 @@
 /boilRogBottom/pitch/variation 0.000000
 /boilRogBottom/playback/direction 2
 /boilRogBottom/playback/speed 1.500000
-/boilRogBottom/playback/position 0.961255
+/boilRogBottom/playback/position 0.001510
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 14430.499366
+/boilRogBottom/selection/range 0.000000 14430.499023
 # 
 /coneSteamer/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /coneSteamer/grain/trigger/variance/gainVar/range 0.000000
@@ -628,9 +628,9 @@
 /coneSteamer/pitch/variation 80.000000
 /coneSteamer/playback/direction 0
 /coneSteamer/playback/speed 0.100000
-/coneSteamer/playback/position 0.071931
+/coneSteamer/playback/position 0.001510
 /coneSteamer/selection/mode 0
-/coneSteamer/selection/range 0.000000 15012.154714
+/coneSteamer/selection/range 0.000000 15012.154297
 # 
 /sqrtRogs/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /sqrtRogs/grain/trigger/variance/gainVar/range 0.000000
@@ -848,7 +848,7 @@
 /conMic/autoscale/output/min 0.000000
 /conMic/autoscale/mode 1
 /conMic/audio/bypass 0
-/conMic/audio/gain 0.000000
+/conMic/audio/gain 1.000000
 /conMic/audio/mix 100.000000
 /conMic/audio/mute 0
 /conMic/average/type 1
@@ -895,7 +895,7 @@
 /dropEvn/pre-lpcutoff 950.000000
 # 
 /ValveLogic/valveOpen/event 0.000000
-/ValveLogic/valveClosed 0
+/ValveLogic/valveClosed 1
 # 
 /eqbottom/audio/bypass 0
 /eqbottom/audio/gain 3.000000
