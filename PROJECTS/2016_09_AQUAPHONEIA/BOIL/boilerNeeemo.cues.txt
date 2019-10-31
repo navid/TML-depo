@@ -221,7 +221,7 @@
 /boilRogBottom/grain/trigger/lock 0
 /boilRogBottom/grain/trigger/mode 0
 /boilRogBottom/grain/trigger/note 0
-/boilRogBottom/grain/duration 18.000000
+/boilRogBottom/grain/duration 21.000000
 /boilRogBottom/grain/onsetVar 1000.000000
 /boilRogBottom/grain/overlap 100
 # 
@@ -315,7 +315,7 @@
 /boilRogBottom/mapSize/process/function freehand
 /boilRogBottom/mapSize/process/clipmode both
 /boilRogBottom/mapSize/process/mode 0.000000
-/boilRogBottom/mapSize/process/rampTime 500.000000
+/boilRogBottom/mapSize/process/rampTime 300.000000
 /boilRogBottom/mapSize/slide/down 0.000000
 /boilRogBottom/mapSize/slide/up 0.000000
 /boilRogBottom/mapSize/active 1
@@ -385,12 +385,12 @@
 /boilRogBottom/mapTurn/active 0.000000
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -17.000000
+/boilRogBottom/audio/gain -12.000000
 /boilRogBottom/audio/mix 100.000000
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 0
-/boilRogBottom/buffer/size 20016.332031
+/boilRogBottom/buffer/size 15012.144531
 /boilRogBottom/mapperGate/gain 2
 /boilRogBottom/mapperGate/onsetVar 0
 /boilRogBottom/mapperGate/pitch 2
@@ -401,26 +401,26 @@
 /boilRogBottom/mapperGate/spread 0
 /boilRogBottom/mapperGate/trigger 0
 /boilRogBottom/mapperGate/turn 0
-/boilRogBottom/mod/gain 3.000000
+/boilRogBottom/mod/gain 1.000000
 /boilRogBottom/mod/onsetVar 0.000000
-/boilRogBottom/mod/pitch -800.000000
-/boilRogBottom/mod/pitchVar 2000.000000
+/boilRogBottom/mod/pitch 250.000000
+/boilRogBottom/mod/pitchVar 500.000000
 /boilRogBottom/mod/position 0.000000
-/boilRogBottom/mod/size 20.000000
+/boilRogBottom/mod/size 40.000000
 /boilRogBottom/mod/speed 0.000000
 /boilRogBottom/mod/spread 0.000000
 /boilRogBottom/mod/trigger 0.000000
 /boilRogBottom/mod/turn 0.000000
 /boilRogBottom/pan/mode 1
-/boilRogBottom/pan/rate 11.000000
-/boilRogBottom/pan/spread 0.800000
-/boilRogBottom/pitch/transpose -400.000000
+/boilRogBottom/pan/rate 10.000000
+/boilRogBottom/pan/spread 0.690000
+/boilRogBottom/pitch/transpose -300.000000
 /boilRogBottom/pitch/variation 0.000000
 /boilRogBottom/playback/direction 2
 /boilRogBottom/playback/speed 1.500000
-/boilRogBottom/playback/position 0.000642
+/boilRogBottom/playback/position 0.001510
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 25020.521484
+/boilRogBottom/selection/range 0.000000 14430.499023
 # 
 /coneSteamer/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /coneSteamer/grain/trigger/variance/gainVar/range 0.000000
@@ -595,7 +595,7 @@
 /coneSteamer/mapTurn/active 0.000000
 /coneSteamer/mapTurn/scalebypass 1
 /coneSteamer/audio/bypass 0
-/coneSteamer/audio/gain -13.000000
+/coneSteamer/audio/gain -10.000000
 /coneSteamer/audio/mix 100.000000
 /coneSteamer/audio/mute 0
 /coneSteamer/buffer/append 1
@@ -628,9 +628,9 @@
 /coneSteamer/pitch/variation 80.000000
 /coneSteamer/playback/direction 0
 /coneSteamer/playback/speed 0.100000
-/coneSteamer/playback/position 0.001133
+/coneSteamer/playback/position 0.001510
 /coneSteamer/selection/mode 0
-/coneSteamer/selection/range 0.000000 20016.312500
+/coneSteamer/selection/range 0.000000 15012.154297
 # 
 /sqrtRogs/grain/trigger/variance/gainVar/randomnessRate 0.000000
 /sqrtRogs/grain/trigger/variance/gainVar/range 0.000000
@@ -848,7 +848,7 @@
 /conMic/autoscale/output/min 0.000000
 /conMic/autoscale/mode 1
 /conMic/audio/bypass 0
-/conMic/audio/gain 0.000000
+/conMic/audio/gain 1.000000
 /conMic/audio/mix 100.000000
 /conMic/audio/mute 0
 /conMic/average/type 1
@@ -899,20 +899,20 @@
 # 
 /eqbottom/audio/bypass 0
 /eqbottom/audio/gain 3.000000
-/eqbottom/audio/mix 73.000000
+/eqbottom/audio/mix 85.000000
 /eqbottom/audio/mute 0
 /eqbottom/filter.1/type highpass
 /eqbottom/filter.1/frequency 95.076843
 /eqbottom/filter.1/gain -0.096861
-/eqbottom/filter.1/octave_bandwidth 2.158362
+/eqbottom/filter.1/octave_bandwidth 2.095378
 /eqbottom/filter.2/type peaknotch
 /eqbottom/filter.2/frequency 114.069450
 /eqbottom/filter.2/gain 3.560599
-/eqbottom/filter.2/octave_bandwidth 1.456642
+/eqbottom/filter.2/octave_bandwidth 1.897532
 /eqbottom/filter.3/type lowpass
-/eqbottom/filter.3/frequency 331.638947
-/eqbottom/filter.3/gain 1.122637
-/eqbottom/filter.3/octave_bandwidth 2.198334
+/eqbottom/filter.3/frequency 384.161957
+/eqbottom/filter.3/gain 1.732248
+/eqbottom/filter.3/octave_bandwidth 2.196815
 /eqbottom/filter.4/type peaknotch
 /eqbottom/filter.4/frequency 4739.685059
 /eqbottom/filter.4/gain -0.188977
