@@ -153,7 +153,6 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 525.0, 285.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"presentation_rect" : [ 531.0, 269.0, 0.0, 0.0 ],
 									"setminmax" : [ -2.0, 2.0 ],
 									"setstyle" : 5,
 									"slidercolor" : [ 0.690196, 0.023529, 0.101961, 1.0 ],
@@ -179,7 +178,6 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 330.0, 285.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"presentation_rect" : [ 404.0, 285.0, 0.0, 0.0 ],
 									"setminmax" : [ -2.0, 2.0 ],
 									"setstyle" : 5,
 									"slidercolor" : [ 0.690196, 0.023529, 0.101961, 1.0 ],
@@ -194,9 +192,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 435.0, 150.0, 154.0, 100.0 ],
+									"patching_rect" : [ 480.0, 90.0, 225.0, 100.0 ],
 									"style" : "",
-									"text" : "takes five OSC addresses as arguments.\n1: input 1 data source\n2: input 1 on/off state\n3: input 2 data source\n4: input 2 on/off state\n5: destination"
+									"text" : "takes six arguments.\n1: input 1 data source (OSC address)\n2: input 1 on/off state  (OSC address)\n3: input 2 data source  (OSC address)\n4: input 2 on/off state  (OSC address)\n5: destination\n6: ramp down time (ms)"
 								}
 
 							}
@@ -245,7 +243,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -340,9 +337,9 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 330.0, 150.0, 75.0, 89.0 ],
+									"patching_rect" : [ 330.0, 150.0, 90.0, 89.0 ],
 									"style" : "",
-									"text" : "j.adder /lfo1/output /lfo1/on /lfo2/output /lfo2/on /foo/bar"
+									"text" : "j.adder /lfo1/output /lfo1/on /lfo2/output /lfo2/on /foo/bar 0"
 								}
 
 							}
@@ -732,18 +729,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-34::obj-15::obj-7::obj-10::obj-174" : [ "live.text[5]", "live.text[1]", 0 ],
 			"obj-34::obj-2::obj-27" : [ "live.text[12]", "live.text", 0 ],
-			"obj-34::obj-47::obj-27" : [ "live.text[11]", "live.text", 0 ],
-			"obj-34::obj-15::obj-7::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-34::obj-15::obj-7::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
-			"obj-34::obj-15::obj-7::obj-8" : [ "live.text[10]", "live.text", 0 ],
-			"obj-34::obj-15::obj-7::obj-21" : [ "live.text[9]", "live.text", 0 ],
-			"obj-34::obj-2::obj-14" : [ "live.text", "live.text", 0 ],
 			"obj-34::obj-47::obj-14" : [ "live.text[13]", "live.text", 0 ],
+			"obj-34::obj-15::obj-7::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-34::obj-15::obj-7::obj-8" : [ "live.text[10]", "live.text", 0 ],
 			"obj-34::obj-15::obj-7::obj-10::obj-188" : [ "live.text[6]", "live.text[1]", 0 ],
+			"obj-34::obj-15::obj-7::obj-10::obj-95" : [ "live.text[8]", "live.text", 0 ],
+			"obj-34::obj-47::obj-27" : [ "live.text[11]", "live.text", 0 ],
+			"obj-34::obj-15::obj-7::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
 			"obj-34::obj-15::obj-7::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-34::obj-15::obj-7::obj-10::obj-95" : [ "live.text[8]", "live.text", 0 ]
+			"obj-34::obj-15::obj-7::obj-21" : [ "live.text[9]", "live.text", 0 ],
+			"obj-34::obj-15::obj-7::obj-10::obj-174" : [ "live.text[5]", "live.text[1]", 0 ],
+			"obj-34::obj-2::obj-14" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -811,15 +808,15 @@
 			}
 , 			{
 				"name" : "j.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Github/evanm/namespacebrowser",
-				"patcherrelativepath" : "../../../../evanm/namespacebrowser",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.get_onscreen_position_edit.js",
-				"bootpath" : "~/Github/evanm/namespacebrowser",
-				"patcherrelativepath" : "../../../../evanm/namespacebrowser",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -897,10 +894,6 @@
 			}
 , 			{
 				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{

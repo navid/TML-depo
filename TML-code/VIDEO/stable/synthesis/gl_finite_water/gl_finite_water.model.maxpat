@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 204.0, 78.0, 1100.0, 747.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 204.0, 79.0, 1100.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -44,7 +45,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 1125.0, 60.0, 30.0, 21.0 ],
-					"style" : "",
 					"text" : "t b l"
 				}
 
@@ -57,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1125.0, 120.0, 74.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend dim"
 				}
 
@@ -70,7 +69,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1125.0, 30.0, 76.0, 21.0 ],
-					"style" : "",
 					"text" : "j.receive dim"
 				}
 
@@ -83,7 +81,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1410.0, 315.0, 90.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend drawto"
 				}
 
@@ -96,7 +93,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1410.0, 285.0, 94.0, 21.0 ],
-					"style" : "",
 					"text" : "j.receive context"
 				}
 
@@ -109,7 +105,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1365.0, 165.0, 90.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend drawto"
 				}
 
@@ -122,7 +117,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1365.0, 135.0, 94.0, 21.0 ],
-					"style" : "",
 					"text" : "j.receive context"
 				}
 
@@ -135,7 +129,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 825.0, 150.0, 90.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend drawto"
 				}
 
@@ -148,7 +141,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 825.0, 105.0, 94.0, 21.0 ],
-					"style" : "",
 					"text" : "j.receive context"
 				}
 
@@ -161,7 +153,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1275.0, 315.0, 75.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend bias"
 				}
 
@@ -178,7 +169,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1275.0, 225.0, 120.0, 81.0 ],
-					"style" : "",
 					"text" : "j.parameter bias @type decimal @range 0. 1. @bounds none @description \"Output amplitude bias.\"",
 					"varname" : "tolerance[9]"
 				}
@@ -192,7 +182,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1140.0, 315.0, 80.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend scale"
 				}
 
@@ -209,7 +198,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1140.0, 225.0, 120.0, 81.0 ],
-					"style" : "",
 					"text" : "j.parameter scale @type decimal @range 0. 1. @bounds none @description \"Output amplitude scale.\"",
 					"varname" : "tolerance[8]"
 				}
@@ -223,7 +211,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.0, 150.0, 74.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend size"
 				}
 
@@ -240,7 +227,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 600.0, 75.0, 106.0, 57.0 ],
-					"style" : "",
 					"text" : "j.parameter size @type decimal @description \"Size of ripples.\"",
 					"varname" : "tolerance[7]"
 				}
@@ -254,7 +240,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 150.0, 99.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend pressure"
 				}
 
@@ -267,7 +252,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 150.0, 98.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend intensity"
 				}
 
@@ -284,7 +268,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 345.0, 75.0, 120.0, 57.0 ],
-					"style" : "",
 					"text" : "j.parameter intensity @type decimal @description \"Intensity of ripples.\"",
 					"varname" : "tolerance[5]"
 				}
@@ -302,7 +285,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.0, 75.0, 120.0, 69.0 ],
-					"style" : "",
 					"text" : "j.parameter pressure @type decimal @description \"Pressure of mouse click.\"",
 					"varname" : "tolerance[6]"
 				}
@@ -316,7 +298,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 990.0, 120.0, 24.0, 21.0 ],
-					"style" : "",
 					"text" : "t b"
 				}
 
@@ -333,7 +314,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 990.0, 30.0, 105.0, 57.0 ],
-					"style" : "",
 					"text" : "j.parameter reset @type generic @description \"Reset simulation.\"",
 					"varname" : "tolerance[1]"
 				}
@@ -347,7 +327,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1230.0, 165.0, 115.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend propagation"
 				}
 
@@ -364,7 +343,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1230.0, 60.0, 120.0, 94.0 ],
-					"style" : "",
 					"text" : "j.parameter propagation @type decimal @range 0. 1. @bounds none @description \"Ripple propagation coefficient.\"",
 					"varname" : "tolerance[4]"
 				}
@@ -378,7 +356,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 150.0, 100.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend mousexy"
 				}
 
@@ -391,7 +368,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 150.0, 77.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend click"
 				}
 
@@ -408,7 +384,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 90.0, 75.0, 105.0, 57.0 ],
-					"style" : "",
 					"text" : "j.message click @type boolean @description \"Mouse click.\"",
 					"varname" : "tolerance[3]"
 				}
@@ -426,7 +401,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 210.0, 75.0, 120.0, 57.0 ],
-					"style" : "",
 					"text" : "j.message mousexy @type array @description \"Mouse xy position.\"",
 					"varname" : "tolerance[2]"
 				}
@@ -440,7 +414,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 30.0, 135.0, 24.0, 21.0 ],
-					"style" : "",
 					"text" : "t b"
 				}
 
@@ -457,7 +430,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 990.0, 390.0, 84.0, 33.0 ],
-					"style" : "",
 					"text" : "j.out 1 @tags jit_gl_texture"
 				}
 
@@ -470,8 +442,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 990.0, 435.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 990.0, 435.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -485,7 +456,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 90.0, 37.0, 21.0 ],
-					"style" : "",
 					"text" : "j.in 1"
 				}
 
@@ -498,9 +468,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 45.0, 25.0, 25.0 ],
-					"style" : ""
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 30.0, 45.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -512,7 +481,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 990.0, 165.0, 216.0, 21.0 ],
-					"style" : "",
 					"text" : "jit.matrix 4 float32 1920 1080 @interp 1"
 				}
 
@@ -524,7 +492,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 930.0, 225.0, 51.0, 19.0 ],
-					"style" : "",
 					"text" : "Buf B"
 				}
 
@@ -536,7 +503,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 210.0, 240.0, 51.0, 19.0 ],
-					"style" : "",
 					"text" : "Buf A"
 				}
 
@@ -549,7 +515,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 75.0, 43.0, 21.0 ],
-					"style" : "",
 					"text" : "reset"
 				}
 
@@ -564,7 +529,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 990.0, 285.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "zl reg"
 				}
 
@@ -579,7 +543,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 285.0, 46.0, 22.0 ],
-					"style" : "",
 					"text" : "zl reg"
 				}
 
@@ -592,7 +555,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 150.0, 87.0, 21.0 ],
-					"style" : "",
 					"text" : "prepend time"
 				}
 
@@ -605,7 +567,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 720.0, 105.0, 71.0, 21.0 ],
-					"style" : "",
 					"text" : "jit.mo.time"
 				}
 
@@ -620,15 +581,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "jit.gen",
 						"rect" : [ 331.0, 98.0, 797.0, 511.0 ],
-						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -662,7 +623,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 75.0, 45.0, 20.0 ],
-									"style" : "",
 									"text" : "Buf A"
 								}
 
@@ -675,7 +635,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 15.0, 240.0, 47.0 ],
-									"style" : "",
 									"text" : "Finite Water\nby overlii\nhttps://www.shadertoy.com/view/4sd3WB"
 								}
 
@@ -688,7 +647,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 105.0, 390.0, 301.0 ],
-									"style" : "",
 									"text" : "void mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    // Mouse excitation\n    vec2 r = fragCoord.xy - iMouse.xy;\n    float d = 0.001*dot(r,r);\n    if(iMouse.z > 0.0 && d < 0.05) {\n    \tfragColor = vec4(0.0,0.2,0,0);\n        return;\n    } \n    \n    // Periodic excitation\n    r = fragCoord.xy - vec2(50, 70);\n    d = 0.001*dot(r,r);\n    if (mod(iGlobalTime, 0.5) < 0.1 && d < 0.05) {\n        fragColor = vec4(0.0,0.1,0,0);\n        return;\n   \t}\n\n    // just copy\n    vec2 uv = fragCoord.xy / iResolution.xy;\n   \tfragColor = texture(iChannel0, uv);\n}"
 								}
 
@@ -697,15 +655,14 @@
 								"box" : 								{
 									"code" : "Param mousexy(0., 0.);\nParam click(0.);\r\nParam time(0.);\r\nParam intensity(0.001);\r\nParam pressure(0.02);\r\nParam size (0.05);\r\n// Mouse excitation\r\nr = vec(cell.x - mousexy.x, cell.y-mousexy.y);\nd = intensity*dot(r,r);\r\nclicked = vec(0., 0., 0.);\nif(click > 0.0 && d < size) {\r\n\tclicked = vec(0.0,pressure,0);\r\n\t}\n\n// Periodic excitation\n\r\nr = vec(cell.x-50,cell.y-70);\nd = 1000.0000*dot(r,r);\r\n\r\ntimer = vec(0.,0.,0.);\r\nif (mod(time, 0.5) < 0.1 && d < 0.05) {\n\ttimer = vec(0.0,0.1,0,0);\r\n\t}\n\r\n// just copy\nuv = norm;\r\n\r\nout1 = sample(in1, uv)+clicked;\n//out1 = sample(in1,uv);\r\n\r\n",
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Menlo",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "codebox",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 360.0, 420.0 ],
-									"style" : ""
+									"patching_rect" : [ 15.0, 45.0, 360.0, 420.0 ]
 								}
 
 							}
@@ -717,7 +674,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
-									"style" : "",
 									"text" : "in 1"
 								}
 
@@ -729,7 +685,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 480.0, 37.0, 22.0 ],
-									"style" : "",
 									"text" : "out 1"
 								}
 
@@ -749,11 +704,11 @@
 								}
 
 							}
- ]
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 60.0, 240.0, 134.0, 21.0 ],
-					"style" : "",
 					"text" : "jit.gl.pix @type float32"
 				}
 
@@ -768,15 +723,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "jit.gen",
 						"rect" : [ 331.0, 79.0, 1075.0, 676.0 ],
-						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -810,7 +765,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 75.0, 45.0, 20.0 ],
-									"style" : "",
 									"text" : "Buf B"
 								}
 
@@ -823,7 +777,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 15.0, 240.0, 47.0 ],
-									"style" : "",
 									"text" : "Finite Water\nby overlii\nhttps://www.shadertoy.com/view/4sd3WB"
 								}
 
@@ -836,7 +789,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 105.0, 390.0, 368.0 ],
-									"style" : "",
 									"text" : "\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    float dx = 1.0/iResolution.x;\n    float dy = 1.0/iResolution.y;\n    vec2 uv = fragCoord.xy / iResolution.xy;\n\n    vec2 udu = texture(iChannel0, uv).xy;\n\t// old elevation\n    float u = udu.x;\n    // old velociy\n    float du = udu.y;\n    \n    // Finite differences\n    float ux = texture(iChannel0, vec2(uv.x+dx, uv.y)).x;\n    float umx = texture(iChannel0, vec2(uv.x-dx, uv.y)).x;\n    float uy = texture(iChannel0, vec2(uv.x, uv.y+dy)).x;\n    float umy = texture(iChannel0, vec2(uv.x, uv.y-dy)).x;\n\n    // new elevation\n    float nu = u + du + 0.5*(umx+ux+umy+uy-4.0*u);\n    nu = 0.99*nu;\n    \n    // store elevation and velocity\n    fragColor = vec4(nu,nu-u,0.0,0.0);\n\n}"
 								}
 
@@ -845,15 +797,14 @@
 								"box" : 								{
 									"code" : "Param propagation(0.99);\r\ndx = 1.0/dim.x;\ndy = 1.0/dim.y;\nuv = norm;\n\r\nudu = sample(in1, uv).xy;\n// old elevation\nu = udu.x;\n// old velociy\ndu = udu.y;\n   \n// Finite differences\nux = sample(in1, vec(uv.x+dx, uv.y)).x;\numx = sample(in1, vec(uv.x-dx, uv.y)).x;\nuy = sample(in1, vec(uv.x, uv.y+dy)).x;\numy = sample(in1, vec(uv.x, uv.y-dy)).x;\n\r\n// new elevation\nnu = u + du + 0.5*(umx+ux+umy+uy-4.0*u);\nnu = propagation*nu;\n\n// store elevation and velocity\nout1 = vec(nu,nu-u,0.0,0.0);",
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Menlo",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "codebox",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 330.0, 345.0 ],
-									"style" : ""
+									"patching_rect" : [ 15.0, 45.0, 330.0, 345.0 ]
 								}
 
 							}
@@ -865,7 +816,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
-									"style" : "",
 									"text" : "in 1"
 								}
 
@@ -877,7 +827,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 405.0, 37.0, 22.0 ],
-									"style" : "",
 									"text" : "out 1"
 								}
 
@@ -897,11 +846,11 @@
 								}
 
 							}
- ]
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 990.0, 225.0, 134.0, 21.0 ],
-					"style" : "",
 					"text" : "jit.gl.pix @type float32"
 				}
 
@@ -916,15 +865,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "jit.gen",
 						"rect" : [ 239.0, 238.0, 840.0, 239.0 ],
-						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -959,7 +908,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 60.0, 465.0, 127.0 ],
-									"style" : "",
 									"text" : "// Wave propagation simulation using finite differences.\n// See (f.ex.) http://www.uio.no/studier/emner/matnat/ifi/INF2340/v05/foiler/sim04.pdf\n// for the model and equations.\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n\tvec2 uv = fragCoord.xy / iResolution.xy;\n\tfragColor = vec4(2.0*texture(iChannel0, uv).x+0.5);\n}"
 								}
 
@@ -968,15 +916,14 @@
 								"box" : 								{
 									"code" : "Param scale(2.);\r\nParam bias(0.5);\r\nuv = norm;\nout1 = scale*sample(in1, norm).x+bias;",
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Menlo",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "codebox",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 60.0, 330.0, 120.0 ],
-									"style" : ""
+									"patching_rect" : [ 15.0, 60.0, 330.0, 120.0 ]
 								}
 
 							}
@@ -988,7 +935,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
-									"style" : "",
 									"text" : "in 1"
 								}
 
@@ -1000,7 +946,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 195.0, 37.0, 22.0 ],
-									"style" : "",
 									"text" : "out 1"
 								}
 
@@ -1020,11 +965,11 @@
 								}
 
 							}
- ]
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 990.0, 360.0, 134.0, 21.0 ],
-					"style" : "",
 					"text" : "jit.gl.pix @type float32"
 				}
 
@@ -1041,7 +986,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1050.0, 525.0, 168.0, 26.0 ],
-					"style" : "",
 					"text" : "j.gl_group_slab.model"
 				}
 
@@ -1058,7 +1002,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1050.0, 570.0, 242.0, 57.0 ],
-					"style" : "",
 					"text" : "j.model @description \"Water simulation using finite differences approximation of the wave equation. From Shadertoy user overlii: https://www.shadertoy.com/view/4sd3WB\"",
 					"varname" : "jmod.hub"
 				}
@@ -1072,8 +1015,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1050.0, 645.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 1050.0, 645.0, 25.0, 25.0 ]
 				}
 
 			}
