@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 126.0, 78.0, 1280.0, 759.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 126.0, 79.0, 1760.0, 852.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,19 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "evan",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1185.0, 195.0, 98.0, 22.0 ],
+					"text" : "camera_udp.bak"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "message",
@@ -44,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 915.0, 225.0, 30.0, 22.0 ],
-					"style" : "",
 					"text" : "test"
 				}
 
@@ -57,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 915.0, 270.0, 112.0, 22.0 ],
-					"style" : "",
 					"text" : "j.send */GL/context"
 				}
 
@@ -70,7 +81,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1035.0, 270.0, 93.0, 22.0 ],
-					"style" : "",
 					"text" : "j.send */context"
 				}
 
@@ -81,23 +91,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
+					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 465.0, 195.0, 359.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.movie @drawto test @output_texture 1 @moviefile redball.mov"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 420.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "0."
 				}
 
 			}
@@ -109,7 +105,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 915.0, 375.0, 120.0, 22.0 ],
-					"style" : "",
 					"text" : "j.receive gl_motion/x"
 				}
 
@@ -131,7 +126,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 735.0, 150.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -145,7 +139,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1095.0, 480.0, 105.0, 35.0 ],
-					"style" : "",
 					"text" : "j.receive /analyzer1/mass"
 				}
 
@@ -167,7 +160,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1095.0, 525.0, 150.0, 245.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -180,7 +172,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 690.0, 570.0, 123.0, 22.0 ],
-					"style" : "",
 					"text" : "j.remote */GL/context"
 				}
 
@@ -193,7 +184,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 570.0, 525.0, 30.0, 22.0 ],
-					"style" : "",
 					"text" : "test"
 				}
 
@@ -206,7 +196,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 570.0, 570.0, 104.0, 22.0 ],
-					"style" : "",
 					"text" : "j.remote */context"
 				}
 
@@ -221,8 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 255.0, 80.0, 35.0 ],
-					"style" : ""
+					"patching_rect" : [ 255.0, 255.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -234,7 +222,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 750.0, 66.0, 22.0 ],
-					"style" : "",
 					"text" : "r preview_"
 				}
 
@@ -247,7 +234,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 15.0, 66.0, 22.0 ],
-					"style" : "",
 					"text" : "r preview_"
 				}
 
@@ -259,7 +245,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.0, 135.0, 68.0, 22.0 ],
-					"style" : "",
 					"text" : "s preview_"
 				}
 
@@ -272,8 +257,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.0, 90.0, 24.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 60.0, 90.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -285,7 +269,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 600.0, 72.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 1"
 				}
 
@@ -307,7 +290,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 225.0, 420.0, 300.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -329,7 +311,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 225.0, 540.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -351,7 +332,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 735.0, 150.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -373,7 +353,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 735.0, 150.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -395,7 +374,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 225.0, 300.0, 300.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -408,7 +386,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 720.0, 240.0, 22.0 ],
-					"style" : "",
 					"text" : "switch 2 2"
 				}
 
@@ -421,7 +398,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 15.0, 690.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "+ 1"
 				}
 
@@ -431,7 +407,7 @@
 					"id" : "obj-50",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 2,
-					"num_lines_presentation" : 0,
+					"num_lines_presentation" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
@@ -439,11 +415,12 @@
 					"patching_rect" : [ 15.0, 630.0, 45.0, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "direct", "motion" ],
 							"parameter_longname" : "live.tab[4]",
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab[3]",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "direct", "motion" ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -460,8 +437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 60.0, 150.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 300.0, 60.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -473,8 +449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 780.0, 150.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 45.0, 780.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -487,7 +462,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1605.0, 465.0, 98.0, 35.0 ],
-					"style" : "",
 					"text" : "j.receive /gl_motion/mass"
 				}
 
@@ -501,7 +475,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1455.0, 465.0, 75.0, 35.0 ],
-					"style" : "",
 					"text" : "j.receive /gl_motion/y"
 				}
 
@@ -515,7 +488,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1260.0, 465.0, 75.0, 35.0 ],
-					"style" : "",
 					"text" : "j.receive /gl_motion/x"
 				}
 
@@ -537,7 +509,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1605.0, 525.0, 150.0, 245.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -559,7 +530,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1455.0, 525.0, 150.0, 245.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -581,7 +551,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1260.0, 525.0, 150.0, 245.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -594,7 +563,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 150.0, 39.0, 22.0 ],
-					"style" : "",
 					"text" : "close"
 				}
 
@@ -607,7 +575,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 150.0, 37.0, 22.0 ],
-					"style" : "",
 					"text" : "open"
 				}
 
@@ -620,7 +587,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 225.0, 195.0, 182.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.grab @drawto test @unique 1"
 				}
 
@@ -633,7 +599,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 15.0, 825.0, 225.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.gl.videoplane test @transform_reset 2"
 				}
 
@@ -644,9 +609,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
+					"outlettype" : [ "jit_matrix", "bang", "" ],
 					"patching_rect" : [ 210.0, 105.0, 256.0, 22.0 ],
-					"style" : "",
 					"text" : "jit.world test @enable 1 @visible 0 @shared 1"
 				}
 
@@ -660,7 +624,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 60.0, 86.0, 22.0 ],
-					"style" : "",
 					"text_width" : 67.0
 				}
 
@@ -673,8 +636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 150.0, 150.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 330.0, 150.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -682,17 +644,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"midpoints" : [ 474.5, 240.0, 264.5, 240.0 ],
-					"order" : 0,
-					"source" : [ "obj-11", 0 ]
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -732,13 +684,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 339.5, 183.0, 234.5, 183.0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -819,7 +764,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
-					"midpoints" : [ 328.166667, 689.0, 594.5, 689.0 ],
+					"midpoints" : [ 328.166666666666686, 689.0, 594.5, 689.0 ],
 					"source" : [ "obj-73", 3 ]
 				}
 
@@ -834,7 +779,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 296.944444, 707.0, 444.5, 707.0 ],
+					"midpoints" : [ 296.944444444444457, 707.0, 444.5, 707.0 ],
 					"source" : [ "obj-73", 2 ]
 				}
 
@@ -842,7 +787,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
-					"midpoints" : [ 265.722222, 703.0, 294.5, 703.0 ],
+					"midpoints" : [ 265.722222222222229, 703.0, 294.5, 703.0 ],
 					"source" : [ "obj-73", 1 ]
 				}
 
@@ -917,79 +862,143 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-73::obj-1::obj-91" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-59::obj-1::obj-34" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-73::obj-1::obj-46" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-93" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-121" : [ "live.text[13]", "live.text[6]", 0 ],
-			"obj-73::obj-1::obj-89" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-75::obj-1::obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-104::obj-1::obj-34" : [ "live.tab", "live.tab", 0 ],
+			"obj-110::obj-1::obj-39" : [ "live.text[18]", "live.text", 0 ],
 			"obj-110::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-73::obj-1::obj-127" : [ "live.text[15]", "live.text[6]", 0 ],
+			"obj-36::obj-1::obj-39" : [ "live.text", "live.text", 0 ],
+			"obj-36::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-37::obj-1::obj-39" : [ "live.text[1]", "live.text", 0 ],
+			"obj-37::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-38::obj-1::obj-39" : [ "live.text[2]", "live.text", 0 ],
+			"obj-38::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-50" : [ "live.tab[4]", "live.tab[3]", 0 ],
+			"obj-59::obj-1::obj-34" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-70::obj-1::obj-34" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-73::obj-1::obj-121" : [ "live.text[13]", "live.text[6]", 0 ],
+			"obj-73::obj-1::obj-122" : [ "live.text[12]", "live.text[6]", 0 ],
 			"obj-73::obj-1::obj-123" : [ "live.text[11]", "live.text[6]", 0 ],
 			"obj-73::obj-1::obj-124" : [ "live.text[10]", "live.text[6]", 0 ],
-			"obj-50" : [ "live.tab[4]", "live.tab[3]", 0 ],
-			"obj-73::obj-1::obj-63" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-37::obj-1::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-73::obj-1::obj-66" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-97" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-75::obj-1::obj-12" : [ "live.text[3]", "live.text", 0 ],
-			"obj-73::obj-1::obj-37" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-69" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-75::obj-1::obj-34" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-75::obj-1::obj-29" : [ "live.text[5]", "live.text", 0 ],
-			"obj-73::obj-1::obj-95" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-36::obj-1::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-75::obj-1::obj-35" : [ "live.text[2]", "live.text", 0 ],
-			"obj-73::obj-1::obj-126" : [ "live.text[14]", "live.text[6]", 0 ],
-			"obj-73::obj-1::obj-87" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-122" : [ "live.text[12]", "live.text[6]", 0 ],
-			"obj-104::obj-1::obj-34" : [ "live.tab", "live.tab", 0 ],
-			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
-			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ],
-			"obj-38::obj-1::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-73::obj-1::obj-125" : [ "live.text[9]", "live.text[6]", 0 ],
-			"obj-73::obj-1::obj-85" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-126" : [ "live.text[14]", "live.text[6]", 0 ],
+			"obj-73::obj-1::obj-127" : [ "live.text[15]", "live.text[6]", 0 ],
 			"obj-73::obj-1::obj-134" : [ "live.text[16]", "live.text[6]", 0 ],
+			"obj-73::obj-1::obj-37" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-46" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-73::obj-1::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-73::obj-1::obj-99" : [ "live.toggle[17]", "live.toggle", 0 ],
 			"obj-73::obj-1::obj-57" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-73::obj-1::obj-60" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-70::obj-1::obj-34" : [ "live.tab[3]", "live.tab", 0 ]
+			"obj-73::obj-1::obj-63" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-66" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-69" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-85" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-87" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-89" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-91" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-93" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-95" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-97" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-73::obj-1::obj-99" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-75::obj-1::obj-12" : [ "live.text[3]", "live.text", 0 ],
+			"obj-75::obj-1::obj-17" : [ "live.text[8]", "live.text", 0 ],
+			"obj-75::obj-1::obj-29" : [ "live.text[5]", "live.text", 0 ],
+			"obj-75::obj-1::obj-34" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-75::obj-1::obj-35" : [ "live.text[17]", "live.text", 0 ],
+			"obj-75::obj-1::obj-47" : [ "live.text[6]", "live.text", 0 ],
+			"obj-75::obj-1::obj-5" : [ "live.text[7]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-110::obj-1::obj-39" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-36::obj-1::obj-69" : 				{
+					"parameter_longname" : "live.tab[7]"
+				}
+,
+				"obj-37::obj-1::obj-39" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-37::obj-1::obj-69" : 				{
+					"parameter_longname" : "live.tab[6]"
+				}
+,
+				"obj-38::obj-1::obj-39" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-38::obj-1::obj-69" : 				{
+					"parameter_longname" : "live.tab[5]"
+				}
+,
+				"obj-59::obj-1::obj-34" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
+				"obj-70::obj-1::obj-34" : 				{
+					"parameter_longname" : "live.tab[3]"
+				}
+,
+				"obj-73::obj-1::obj-126" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-73::obj-1::obj-127" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-73::obj-1::obj-134" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-75::obj-1::obj-34" : 				{
+					"parameter_longname" : "live.tab[1]"
+				}
+,
+				"obj-75::obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "j.nav.scale.module.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.autoscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/autoscale",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/autoscale",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.qom.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/qom",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/qom",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1001,197 +1010,204 @@
 			}
 , 			{
 				"name" : "j.nav.scale.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/j.nav.scale",
+				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.scale",
 				"patcherrelativepath" : "../../../../Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_rota.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/models/openGL/texture/gl_rota",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/list2parameter",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/list2parameter",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.panel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_group_slab.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/openGL",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion_analyzer.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion_analyzer.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_mean%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/utility/j.gl_mean%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.sum%.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/video/sum%",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/video/sum%",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/video/sum%",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/video/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_readback%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_readback%",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/utility/gl_readback%",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/utility/gl_readback%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion_analyzer.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion_analyzer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_keygen.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/compositing/gl_keygen",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_keygen.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/compositing/gl_keygen",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_keygen.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/compositing/gl_keygen",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "locked.png",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/compositing/gl_keygen",
-				"type" : "PNG ",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "unlocked.png",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/compositing/gl_keygen",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/compositing/gl_keygen",
-				"type" : "PNG ",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.module.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.gl_rgb2luma%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/gl_rgb2luma%",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/utility/gl_rgb2luma%",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/utility/gl_rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_cf_gaussian_2p.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/convolution_and_blur/gl_cf_gaussian_2p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_thresh.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/math/gl_pix_thresh",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/math/gl_pix_thresh",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_roberts.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_roberts",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_roberts",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/edge/gl_pix_roberts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_sobel.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_sobel",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/edge/gl_pix_sobel",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/edge/gl_pix_sobel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_pix_slide.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/temporal/gl_pix_slide",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/temporal/gl_pix_slide",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/temporal/gl_pix_slide",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gl_motion.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"bootpath" : "~/code/TML-depo/TML-code/VIDEO/stable/capture_preprocess/gl_motion",
 				"patcherrelativepath" : "../../../TML-code/VIDEO/stable/capture_preprocess/gl_motion",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camera_udp.bak.maxpat",
+				"bootpath" : "~/code/TML-depo/PROJECTS/2017_10_NAEL/_camera/camera_udp",
+				"patcherrelativepath" : "./camera_udp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1289,10 +1305,12 @@
 , 			{
 				"name" : "EAMIR",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"fontface" : [ 0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -1303,12 +1321,18 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"fontface" : [ 0 ]
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
+				}
+,
+				"newobj" : 				{
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
 				"umenu" : 				{
+					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1319,15 +1343,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ]
-				}
-,
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
-					"fontface" : [ 0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1374,13 +1390,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+ ]
 	}
 
 }
