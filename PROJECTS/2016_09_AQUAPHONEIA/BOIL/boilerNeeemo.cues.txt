@@ -385,7 +385,7 @@
 /boilRogBottom/mapTurn/active 0.000000
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain -12.000000
+/boilRogBottom/audio/gain -16.000000
 /boilRogBottom/audio/mix 100.000000
 /boilRogBottom/audio/mute 0
 /boilRogBottom/buffer/append 1
